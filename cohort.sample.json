@@ -1,0 +1,14 @@
+{
+  "note": "Pilot-only example; replace with 10-20 real repository/commit snapshots. Paths are relative to this manifest.",
+  "projects": [
+    {
+      "id": "pilot-shared-env-requests",
+      "repo_url": "https://github.com/psf/requests",
+      "commit_sha": null,
+      "inspect_path": "examples/pilot_inspect_sanitized.json",
+      "roots": [
+        "requests==2.32.5"
+      ]
+    }
+  ]
+}

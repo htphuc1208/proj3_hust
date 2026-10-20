@@ -1,0 +1,14 @@
+# Containerized Isolation Harness for Benchmark Ground-Truth Collection
+# Adheres to least privilege, non-root user, and resource limits.
+FROM python:3.11-slim
+
+# Create unprivileged research user (UID 1000)
+RUN useradd -m -u 1000 -s /bin/bash researcher
+
+WORKDIR /benchmark
+RUN pip install --no-cache-dir --upgrade pip packaging
+
+USER researcher
+
+# Default entrypoint runs pip install and collect
+ENTRYPOINT ["/usr/local/bin/python"]

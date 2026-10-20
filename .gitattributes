@@ -1,0 +1,4 @@
+# Artifact digests refer to exact bytes, including CSV line endings.
+runs/** -text -whitespace
+research/schemas/** -text
+fixtures/evidence_snapshot/** -text

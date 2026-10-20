@@ -1,0 +1,33 @@
+# Python bytecode & cache
+**/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments everywhere
+.venv/
+*/.venv/
+**/.venv/
+runs/**/.venv/
+runs/**/venv/
+env/
+venv/
+.Python
+
+# Environment files & credentials
+.env
+.env.*
+!.env.example
+
+# Build & runtime artifacts
+runs/ui-agent-*/
+runs/ui-input-*/
+runs/fresh-budget-installed-*/captures/*/runtime/target/
+runs/fresh-budget-installed-*/captures/*/runtime/wheelhouse/
+runs/unrestricted-builds-*/captures/*/runtime/target/
+runs/unrestricted-builds-*/captures/*/runtime/wheelhouse/
+fixtures/evidence_snapshot/wheel_cache/
+research/.work/
+runs/*/evidence_snapshot/public_cache/
+runs/*/public_cache/
