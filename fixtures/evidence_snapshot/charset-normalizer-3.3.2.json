@@ -1,0 +1,16 @@
+{
+  "distribution_type": "wheel",
+  "name": "charset-normalizer",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T04:14:54.104434+00:00",
+    "source_pypi_json_url": "https://pypi.org/pypi/charset-normalizer/3.3.2/json",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/28/76/e6222113b83e3622caa4bb41032d0b1bf785250607392e1b778aca0b8a7d/charset_normalizer-3.3.2-py3-none-any.whl",
+    "wheel_filename": "charset_normalizer-3.3.2-py3-none-any.whl",
+    "wheel_sha256": "3e4d1f6587322d2788836a99c69062fbb091331ec940e02d12d179c1d53e25fc",
+    "wheel_upload_time_utc": "2023-11-01T04:04:58.622656Z"
+  },
+  "requires_dist": [],
+  "requires_python": ">=3.7.0",
+  "version": "3.3.2"
+}

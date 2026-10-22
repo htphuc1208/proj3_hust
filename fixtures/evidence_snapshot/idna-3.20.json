@@ -1,0 +1,7 @@
+{
+  "distribution_type": "wheel",
+  "name": "idna",
+  "requires_dist": [],
+  "source_artifact": "idna-3.20-py3-none-any.whl",
+  "version": "3.20"
+}

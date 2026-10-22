@@ -1,0 +1,7 @@
+{
+  "distribution_type": "wheel",
+  "name": "certifi",
+  "requires_dist": [],
+  "source_artifact": "certifi-2022.12.7-py3-none-any.whl",
+  "version": "2022.12.07"
+}

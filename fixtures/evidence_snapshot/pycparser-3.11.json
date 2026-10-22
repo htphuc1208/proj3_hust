@@ -1,0 +1,16 @@
+{
+  "distribution_type": "wheel",
+  "name": "pycparser",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T04:14:54.104434+00:00",
+    "source_pypi_json_url": "https://pypi.org/pypi/pycparser/3.11/json",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/90/11/0e6f11117525ff0eec40ebac3d313376f102df93ca44ad9e893ee85e4f89/pycparser-3.11-py3-none-any.whl",
+    "wheel_filename": "pycparser-3.11-py3-none-any.whl",
+    "wheel_sha256": "51d5a8ba2be0bbe440b99d2112604c95bbbc3c2748a64260186c541e1729cd80",
+    "wheel_upload_time_utc": "2026-10-09T12:56:58.131173Z"
+  },
+  "requires_dist": [],
+  "requires_python": ">=3.10",
+  "version": "3.11"
+}

@@ -1,0 +1,16 @@
+{
+  "distribution_type": "wheel",
+  "name": "pysocks",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T04:14:54.104434+00:00",
+    "source_pypi_json_url": "https://pypi.org/pypi/pysocks/1.7.1/json",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/8d/59/b4572118e098ac8e46e399a1dd0f2d85403ce8bbaad9ec79373ed6badaf9/PySocks-1.7.1-py3-none-any.whl",
+    "wheel_filename": "PySocks-1.7.1-py3-none-any.whl",
+    "wheel_sha256": "2725bd0a9925919b9b51739eea5f9e2bae91e83288108a9ad338b2e3a4435ee5",
+    "wheel_upload_time_utc": "2019-09-20T02:06:22.938781Z"
+  },
+  "requires_dist": [],
+  "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
+  "version": "1.7.1"
+}

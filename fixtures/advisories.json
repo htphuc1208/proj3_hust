@@ -1,0 +1,13 @@
+{
+  "_note":"Entirely simulated, NO actual CVE or known vulnerability.",
+  "advisories": {
+    "pkg:pypi/acme-unsafe@0.9.0": [
+      {
+        "id":"SIMULATED-2026-0001",
+        "title":"Fictional vulnerability used only to demonstrate the pipeline",
+        "kind":"fictional_training_example",
+        "function":"acme_unsafe.parser.parse_untrusted"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "_note":"Synthetic fixture truth. Not independent empirical validation.",
+  "missing_components":["pkg:pypi/acme-unsafe@0.9.0"],
+  "missing_edges":[
+    ["pkg:pypi/acme-web@1.0.0","pkg:pypi/acme-router@1.2.0"],
+    ["pkg:pypi/acme-router@1.2.0","pkg:pypi/acme-unsafe@0.9.0"]
+  ]
+}

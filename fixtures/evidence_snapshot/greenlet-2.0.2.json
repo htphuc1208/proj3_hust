@@ -1,0 +1,30 @@
+{
+  "artifact_level_metadata": {
+    "wheel_bytes_verified": true,
+    "wheel_local_sha256": "9d14b83fab60d5e8abe587d51c75b252bcc21683f24699ada8fb275d7712f5a9",
+    "wheel_metadata_file": "greenlet-2.0.2.dist-info/METADATA",
+    "wheel_metadata_sha256": "2582d77e63cda388f9367456bcf249bdd3f2129c60eaddd8c0bbc576e273392c"
+  },
+  "distribution_type": "wheel",
+  "name": "greenlet",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T07:05:44.492586+00:00",
+    "provenance_chain": "PyPI index -> Distribution artifact -> Verified SHA-256 -> Extracted METADATA -> Frozen evidence record",
+    "source_pypi_json_url": "https://pypi.org/pypi/greenlet/2.0.2/json",
+    "verification_status": "VERIFIED_ARTIFACT_DIGEST_AND_METADATA",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/29/c4/fe82cb9ff1bffc52a3832e35fa49cce63e5d366808179153ee879ce47cc9/greenlet-2.0.2-cp27-cp27m-manylinux2010_x86_64.whl",
+    "wheel_filename": "greenlet-2.0.2-cp27-cp27m-manylinux2010_x86_64.whl",
+    "wheel_sha256": "9d14b83fab60d5e8abe587d51c75b252bcc21683f24699ada8fb275d7712f5a9",
+    "wheel_upload_time_utc": "2023-01-28T14:24:07.762744Z"
+  },
+  "release_requires_dist": [],
+  "requires_dist": [
+    "Sphinx ; extra == 'docs'",
+    "docutils (<0.18) ; (python_version < \"3\") and extra == 'docs'",
+    "objgraph ; extra == 'test'",
+    "psutil ; extra == 'test'"
+  ],
+  "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*",
+  "version": "2.0.2"
+}

@@ -1,0 +1,23 @@
+{
+  "distribution_type": "wheel",
+  "name": "pyopenssl",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T04:14:54.104434+00:00",
+    "source_pypi_json_url": "https://pypi.org/pypi/pyopenssl/23.2.0/json",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/f0/e2/f8b4f1c67933a4907e52228241f4bd52169f3196b70af04403b29c63238a/pyOpenSSL-23.2.0-py3-none-any.whl",
+    "wheel_filename": "pyOpenSSL-23.2.0-py3-none-any.whl",
+    "wheel_sha256": "24f0dc5227396b3e831f4c7f602b950a5e9833d292c8e4a2e06b709292806ae2",
+    "wheel_upload_time_utc": "2023-05-31T03:21:26.479045Z"
+  },
+  "requires_dist": [
+    "cryptography (!=40.0.0,!=40.0.1,<42,>=38.0.0)",
+    "sphinx (!=5.2.0,!=5.2.0.post0) ; extra == 'docs'",
+    "sphinx-rtd-theme ; extra == 'docs'",
+    "flaky ; extra == 'test'",
+    "pretend ; extra == 'test'",
+    "pytest (>=3.0.1) ; extra == 'test'"
+  ],
+  "requires_python": ">=3.6",
+  "version": "23.2.0"
+}

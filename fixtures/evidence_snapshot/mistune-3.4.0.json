@@ -1,0 +1,29 @@
+{
+  "artifact_level_metadata": {
+    "wheel_bytes_verified": true,
+    "wheel_local_sha256": "d03cec4c8620f21517a996d82d14f3b59c30d79bda2cc6c56bd32b839f18ce6b",
+    "wheel_metadata_file": "mistune-3.4.0.dist-info/METADATA",
+    "wheel_metadata_sha256": "63032f44fb2cac78a935689a5cd3b1762e6a1db5398b865f3e191fce493a9ed4"
+  },
+  "distribution_type": "wheel",
+  "name": "mistune",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T07:05:44.492586+00:00",
+    "provenance_chain": "PyPI index -> Distribution artifact -> Verified SHA-256 -> Extracted METADATA -> Frozen evidence record",
+    "source_pypi_json_url": "https://pypi.org/pypi/mistune/3.4.0/json",
+    "verification_status": "VERIFIED_ARTIFACT_DIGEST_AND_METADATA",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/2c/f7/021d590d52c1ac28e3290311776854c6a1c927fa3fb4b25ce74caf937a3d/mistune-3.4.0-py3-none-any.whl",
+    "wheel_filename": "mistune-3.4.0-py3-none-any.whl",
+    "wheel_sha256": "d03cec4c8620f21517a996d82d14f3b59c30d79bda2cc6c56bd32b839f18ce6b",
+    "wheel_upload_time_utc": "2026-10-19T10:44:26.751844Z"
+  },
+  "release_requires_dist": [
+    "typing-extensions; python_version < \"3.11\""
+  ],
+  "requires_dist": [
+    "typing-extensions; python_version < \"3.11\""
+  ],
+  "requires_python": ">=3.10",
+  "version": "3.4.0"
+}

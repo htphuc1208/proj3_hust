@@ -1,0 +1,23 @@
+{
+  "distribution_type": "wheel",
+  "name": "requests",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T04:14:54.104434+00:00",
+    "source_pypi_json_url": "https://pypi.org/pypi/requests/2.31.0/json",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl",
+    "wheel_filename": "requests-2.31.0-py3-none-any.whl",
+    "wheel_sha256": "58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f",
+    "wheel_upload_time_utc": "2023-05-22T15:12:42.313790Z"
+  },
+  "requires_dist": [
+    "charset-normalizer (<4,>=2)",
+    "idna (<4,>=2.5)",
+    "urllib3 (<3,>=1.21.1)",
+    "certifi (>=2017.4.17)",
+    "PySocks (!=1.5.7,>=1.5.6) ; extra == 'socks'",
+    "chardet (<6,>=3.0.2) ; extra == 'use_chardet_on_py3'"
+  ],
+  "requires_python": ">=3.7",
+  "version": "2.31.0"
+}

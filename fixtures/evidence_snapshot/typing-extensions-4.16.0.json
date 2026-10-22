@@ -1,0 +1,25 @@
+{
+  "artifact_level_metadata": {
+    "wheel_bytes_verified": true,
+    "wheel_local_sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+    "wheel_metadata_file": "typing_extensions-4.16.0.dist-info/METADATA",
+    "wheel_metadata_sha256": "b05084ca1d50879865178d9fff9fabeab61bdfb1f361bfbde95421ffc8f9be46"
+  },
+  "distribution_type": "wheel",
+  "name": "typing-extensions",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T07:05:44.492586+00:00",
+    "provenance_chain": "PyPI index -> Distribution artifact -> Verified SHA-256 -> Extracted METADATA -> Frozen evidence record",
+    "source_pypi_json_url": "https://pypi.org/pypi/typing-extensions/4.16.0/json",
+    "verification_status": "VERIFIED_ARTIFACT_DIGEST_AND_METADATA",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl",
+    "wheel_filename": "typing_extensions-4.16.0-py3-none-any.whl",
+    "wheel_sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+    "wheel_upload_time_utc": "2026-07-02T08:40:04.659120Z"
+  },
+  "release_requires_dist": [],
+  "requires_dist": [],
+  "requires_python": ">=3.9",
+  "version": "4.16.0"
+}

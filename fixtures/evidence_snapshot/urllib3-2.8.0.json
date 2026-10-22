@@ -1,0 +1,7 @@
+{
+  "distribution_type": "wheel",
+  "name": "urllib3",
+  "requires_dist": [],
+  "source_artifact": "urllib3-2.8.0-py3-none-any.whl",
+  "version": "2.8.0"
+}

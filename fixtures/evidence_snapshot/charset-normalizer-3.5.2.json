@@ -1,0 +1,7 @@
+{
+  "distribution_type": "wheel",
+  "name": "charset-normalizer",
+  "requires_dist": [],
+  "source_artifact": "charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.whl",
+  "version": "3.5.2"
+}

@@ -1,0 +1,309 @@
+{
+  "audit_statement": "All requirement metadata was collected directly from public PyPI JSON API and warehouse wheel distribution digests without referencing target lockfiles or oracle outputs.",
+  "collector_script": "scripts/collect_public_evidence.py",
+  "manifest_path": "fixtures/evidence_snapshot/evidence_manifest.json",
+  "records": [
+    {
+      "metadata_file": "requests-2.31.0.json",
+      "metadata_sha256": "39dada12cdac4998c5e71d51cf9e0479fa4f7ed858f0614380e70446ce7de2a3",
+      "package": "requests",
+      "requires_dist_count": 6,
+      "requires_dist_sample": [
+        "charset-normalizer (<4,>=2)",
+        "idna (<4,>=2.5)",
+        "urllib3 (<3,>=1.21.1)"
+      ],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "2.31.0",
+      "wheel_filename": "requests-2.31.0-py3-none-any.whl",
+      "wheel_sha256": "58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f"
+    },
+    {
+      "metadata_file": "requests-2.28.2.json",
+      "metadata_sha256": "1a25ebb2dad5a167cc3e306a43225293a6203668e2aad63f8ac2ddaa05cae277",
+      "package": "requests",
+      "requires_dist_count": 6,
+      "requires_dist_sample": [
+        "charset-normalizer (<4,>=2)",
+        "idna (<4,>=2.5)",
+        "urllib3 (<1.27,>=1.21.1)"
+      ],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "2.28.2",
+      "wheel_filename": "requests-2.28.2-py3-none-any.whl",
+      "wheel_sha256": "64299f4909223da747622c030b781c0d7811e359c37124b4bd368fb8c6518baa"
+    },
+    {
+      "metadata_file": "urllib3-2.0.7.json",
+      "metadata_sha256": "b15b4425f475ecb7c5826b73be83c6ab2c95a3802766019c94fac69304e5567a",
+      "package": "urllib3",
+      "requires_dist_count": 9,
+      "requires_dist_sample": [
+        "brotli>=1.0.9; platform_python_implementation == 'CPython' and extra == 'brotli'",
+        "brotlicffi>=0.8.0; platform_python_implementation != 'CPython' and extra == 'brotli'",
+        "certifi; extra == 'secure'"
+      ],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "2.0.7",
+      "wheel_filename": "urllib3-2.0.7-py3-none-any.whl",
+      "wheel_sha256": "fdb6d215c776278489906c2f8916e6e7d4f5a9b602ccbcfdf7f016fc8da0596e"
+    },
+    {
+      "metadata_file": "urllib3-1.26.17.json",
+      "metadata_sha256": "d119fee2f62ea34e5d9d889f8e51533b777fd8a80ff5de9f56def62ea569aba3",
+      "package": "urllib3",
+      "requires_dist_count": 11,
+      "requires_dist_sample": [
+        "brotlicffi >=0.8.0 ; ((os_name != \"nt\" or python_version >= \"3\") and platform_python_implementation != \"CPython\") and extra == 'brotli'",
+        "brotli ==1.0.9 ; (os_name != \"nt\" and python_version < \"3\" and platform_python_implementation == \"CPython\") and extra == 'brotli'",
+        "brotlipy >=0.6.0 ; (os_name == \"nt\" and python_version < \"3\") and extra == 'brotli'"
+      ],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "1.26.17",
+      "wheel_filename": "urllib3-1.26.17-py2.py3-none-any.whl",
+      "wheel_sha256": "94a757d178c9be92ef5539b8840d48dc9cf1b2709c9d6b588232a055c524458b"
+    },
+    {
+      "metadata_file": "urllib3-1.26.18.json",
+      "metadata_sha256": "42e204e7ebaaa42ab18559fb91dea58343afeaa5d897c00c9c25d1256b4added",
+      "package": "urllib3",
+      "requires_dist_count": 11,
+      "requires_dist_sample": [
+        "brotlicffi >=0.8.0 ; ((os_name != \"nt\" or python_version >= \"3\") and platform_python_implementation != \"CPython\") and extra == 'brotli'",
+        "brotli ==1.0.9 ; (os_name != \"nt\" and python_version < \"3\" and platform_python_implementation == \"CPython\") and extra == 'brotli'",
+        "brotlipy >=0.6.0 ; (os_name == \"nt\" and python_version < \"3\") and extra == 'brotli'"
+      ],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "1.26.18",
+      "wheel_filename": "urllib3-1.26.18-py2.py3-none-any.whl",
+      "wheel_sha256": "34b97092d7e0a3a8cf7cd10e386f401b3737364026c45e622aa02903dffe0f07"
+    },
+    {
+      "metadata_file": "certifi-2023.7.22.json",
+      "metadata_sha256": "a8a5f341427d76c67547109c51233c9f75bc6d48db50c84b83c6dea7a53c2134",
+      "package": "certifi",
+      "requires_dist_count": 0,
+      "requires_dist_sample": [],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "2023.7.22",
+      "wheel_filename": "certifi-2023.7.22-py3-none-any.whl",
+      "wheel_sha256": "92d6037539857d8206b8f6ae472e8b77db8058fec5937a1ef3f54304089edbb9"
+    },
+    {
+      "metadata_file": "certifi-2024.2.2.json",
+      "metadata_sha256": "1febd513b1a0f6a0ecd78eb3e87d30ae0a8b29cd3b4f6f56b79769626e174e1f",
+      "package": "certifi",
+      "requires_dist_count": 0,
+      "requires_dist_sample": [],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "2024.2.2",
+      "wheel_filename": "certifi-2024.2.2-py3-none-any.whl",
+      "wheel_sha256": "dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1"
+    },
+    {
+      "metadata_file": "idna-3.4.json",
+      "metadata_sha256": "9b6fe6a30541c292a446bf3a6127c9876797d601bc4674f370f7bf3d12323bc1",
+      "package": "idna",
+      "requires_dist_count": 0,
+      "requires_dist_sample": [],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "3.4",
+      "wheel_filename": "idna-3.4-py3-none-any.whl",
+      "wheel_sha256": "90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"
+    },
+    {
+      "metadata_file": "idna-3.6.json",
+      "metadata_sha256": "b5cf56450afefe14fc4b60722f9c6eaedd79ed1347383faee93bea9d9a28a1e6",
+      "package": "idna",
+      "requires_dist_count": 0,
+      "requires_dist_sample": [],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "3.6",
+      "wheel_filename": "idna-3.6-py3-none-any.whl",
+      "wheel_sha256": "c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f"
+    },
+    {
+      "metadata_file": "charset-normalizer-3.2.0.json",
+      "metadata_sha256": "b265e6bc0e4263fb342901171d75f0584a105ee425cf8b691d86b54a0fd2fdfa",
+      "package": "charset-normalizer",
+      "requires_dist_count": 0,
+      "requires_dist_sample": [],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "3.2.0",
+      "wheel_filename": "charset_normalizer-3.2.0-py3-none-any.whl",
+      "wheel_sha256": "8e098148dd37b4ce3baca71fb394c81dc5d9c7728c95df695d2dca218edf40e6"
+    },
+    {
+      "metadata_file": "charset-normalizer-3.3.2.json",
+      "metadata_sha256": "135d20ffd848259b0c08d84fa5c3b42fbce5bcd868a2719a464cc1782add0a95",
+      "package": "charset-normalizer",
+      "requires_dist_count": 0,
+      "requires_dist_sample": [],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "3.3.2",
+      "wheel_filename": "charset_normalizer-3.3.2-py3-none-any.whl",
+      "wheel_sha256": "3e4d1f6587322d2788836a99c69062fbb091331ec940e02d12d179c1d53e25fc"
+    },
+    {
+      "metadata_file": "pysocks-1.7.1.json",
+      "metadata_sha256": "29e867b685960396ce474679e6d983e8ac6424af594f75a3dd04d9b6e37d9c9e",
+      "package": "pysocks",
+      "requires_dist_count": 0,
+      "requires_dist_sample": [],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "1.7.1",
+      "wheel_filename": "PySocks-1.7.1-py3-none-any.whl",
+      "wheel_sha256": "2725bd0a9925919b9b51739eea5f9e2bae91e83288108a9ad338b2e3a4435ee5"
+    },
+    {
+      "metadata_file": "cryptography-41.0.5.json",
+      "metadata_sha256": "602f6e6b7d6d1f15ae78e473df03e9028a3734e3ebf96823f5748591d3f5e70c",
+      "package": "cryptography",
+      "requires_dist_count": 19,
+      "requires_dist_sample": [
+        "cffi >=1.12",
+        "sphinx >=5.3.0 ; extra == 'docs'",
+        "sphinx-rtd-theme >=1.1.1 ; extra == 'docs'"
+      ],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "41.0.5",
+      "wheel_filename": "cryptography-41.0.5-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "wheel_sha256": "e270c04f4d9b5671ebcc792b3ba5d4488bf7c42c3c241a3748e2599776f29696"
+    },
+    {
+      "metadata_file": "cryptography-41.0.6.json",
+      "metadata_sha256": "c95bd9985b82cac84db90b981c64a5cea7dadb19e11ef426323d50afb05f42dc",
+      "package": "cryptography",
+      "requires_dist_count": 19,
+      "requires_dist_sample": [
+        "cffi >=1.12",
+        "sphinx >=5.3.0 ; extra == 'docs'",
+        "sphinx-rtd-theme >=1.1.1 ; extra == 'docs'"
+      ],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "41.0.6",
+      "wheel_filename": "cryptography-41.0.6-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "wheel_sha256": "da46e2b5df770070412c46f87bac0849b8d685c5f2679771de277a422c7d0b86"
+    },
+    {
+      "metadata_file": "cryptography-42.0.5.json",
+      "metadata_sha256": "8e06d39c40ce24caa4bad0d8a779df8dfda954f193b9f31be57ba70adb21762b",
+      "package": "cryptography",
+      "requires_dist_count": 20,
+      "requires_dist_sample": [
+        "cffi >=1.12 ; platform_python_implementation != \"PyPy\"",
+        "sphinx >=5.3.0 ; extra == 'docs'",
+        "sphinx-rtd-theme >=1.1.1 ; extra == 'docs'"
+      ],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "42.0.5",
+      "wheel_filename": "cryptography-42.0.5-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "wheel_sha256": "329906dcc7b20ff3cad13c069a78124ed8247adcac44b10bea1130e36caae0b4"
+    },
+    {
+      "metadata_file": "cffi-1.16.0.json",
+      "metadata_sha256": "f1f755cea0b259290e077fdee2aa5b2d415825d466cd6b6087d4131801821996",
+      "package": "cffi",
+      "requires_dist_count": 1,
+      "requires_dist_sample": [
+        "pycparser"
+      ],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "1.16.0",
+      "wheel_filename": "cffi-1.16.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "wheel_sha256": "e4108df7fe9b707191e55f33efbcb2d81928e10cea45527879a4749cbe472614"
+    },
+    {
+      "metadata_file": "cffi-1.15.1.json",
+      "metadata_sha256": "92995eca801a4141e4159aa302607c991004a3c29d7306cc075e7d06f5624aff",
+      "package": "cffi",
+      "requires_dist_count": 1,
+      "requires_dist_sample": [
+        "pycparser"
+      ],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "1.15.1",
+      "wheel_filename": "cffi-1.15.1-cp27-cp27m-manylinux1_x86_64.whl",
+      "wheel_sha256": "9ad5db27f9cabae298d151c85cf2bad1d359a1b9c686a275df03385758e2f914"
+    },
+    {
+      "metadata_file": "cffi-2.1.1.json",
+      "metadata_sha256": "1f0a3ed13d66da8899e8d8f96fbb6f571253d91246b23d4508e6389dad7248d9",
+      "package": "cffi",
+      "requires_dist_count": 1,
+      "requires_dist_sample": [
+        "pycparser; implementation_name != \"PyPy\""
+      ],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "2.1.1",
+      "wheel_filename": "cffi-2.1.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "wheel_sha256": "194cffa889098ced9976c3fc6340305e43f6303657d298da55366907c05c22d6"
+    },
+    {
+      "metadata_file": "pycparser-2.21.json",
+      "metadata_sha256": "6c0932eac7cf73b310044d3f2ed55924e434d129efde627c3e856818216db377",
+      "package": "pycparser",
+      "requires_dist_count": 0,
+      "requires_dist_sample": [],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "2.21",
+      "wheel_filename": "pycparser-2.21-py2.py3-none-any.whl",
+      "wheel_sha256": "8ee45429555515e1f6b185e78100aea234072576aa43ab53aefcae078162fca9"
+    },
+    {
+      "metadata_file": "pycparser-3.11.json",
+      "metadata_sha256": "0bc66c6b1d7442bf6062eca37b60e2427d76c2192feab2106135ceef3cff376b",
+      "package": "pycparser",
+      "requires_dist_count": 0,
+      "requires_dist_sample": [],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "3.11",
+      "wheel_filename": "pycparser-3.11-py3-none-any.whl",
+      "wheel_sha256": "51d5a8ba2be0bbe440b99d2112604c95bbbc3c2748a64260186c541e1729cd80"
+    },
+    {
+      "metadata_file": "pyopenssl-23.2.0.json",
+      "metadata_sha256": "d0d81fc871e3f1bf7707097c519797e393bae027c5a4d140507b187196f780fc",
+      "package": "pyopenssl",
+      "requires_dist_count": 6,
+      "requires_dist_sample": [
+        "cryptography (!=40.0.0,!=40.0.1,<42,>=38.0.0)",
+        "sphinx (!=5.2.0,!=5.2.0.post0) ; extra == 'docs'",
+        "sphinx-rtd-theme ; extra == 'docs'"
+      ],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "23.2.0",
+      "wheel_filename": "pyOpenSSL-23.2.0-py3-none-any.whl",
+      "wheel_sha256": "24f0dc5227396b3e831f4c7f602b950a5e9833d292c8e4a2e06b709292806ae2"
+    },
+    {
+      "metadata_file": "pyopenssl-23.3.0.json",
+      "metadata_sha256": "cb11d2d063e1dfe3b008d59c91a8f1f143b57805b07c2446839d0c469068198f",
+      "package": "pyopenssl",
+      "requires_dist_count": 6,
+      "requires_dist_sample": [
+        "cryptography <42,>=41.0.5",
+        "sphinx !=5.2.0,!=5.2.0.post0,!=7.2.5 ; extra == 'docs'",
+        "sphinx-rtd-theme ; extra == 'docs'"
+      ],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "23.3.0",
+      "wheel_filename": "pyOpenSSL-23.3.0-py3-none-any.whl",
+      "wheel_sha256": "6756834481d9ed5470f4a9393455154bc92fe7a64b7bc6ee2c804e78c52099b2"
+    },
+    {
+      "metadata_file": "six-1.16.0.json",
+      "metadata_sha256": "ed5c0bd29813c606aff44e49b6280e080b28a01cae4afdb1994bade33f893b80",
+      "package": "six",
+      "requires_dist_count": 0,
+      "requires_dist_sample": [],
+      "status": "FETCH_SUCCESS_HTTP_200",
+      "version": "1.16.0",
+      "wheel_filename": "six-1.16.0-py2.py3-none-any.whl",
+      "wheel_sha256": "8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+    }
+  ],
+  "report_type": "PublicEvidenceSnapshotBuildReport",
+  "timestamp_utc": "2026-10-22T04:14:54.104434+00:00",
+  "total_packages_collected": 23
+}

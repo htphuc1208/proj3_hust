@@ -1,0 +1,16 @@
+{
+  "distribution_type": "wheel",
+  "name": "idna",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T04:14:54.104434+00:00",
+    "source_pypi_json_url": "https://pypi.org/pypi/idna/3.4/json",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/fc/34/3030de6f1370931b9dbb4dad48f6ab1015ab1d32447850b9fc94e60097be/idna-3.4-py3-none-any.whl",
+    "wheel_filename": "idna-3.4-py3-none-any.whl",
+    "wheel_sha256": "90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2",
+    "wheel_upload_time_utc": "2022-09-14T00:24:23.220218Z"
+  },
+  "requires_dist": [],
+  "requires_python": ">=3.5",
+  "version": "3.4"
+}

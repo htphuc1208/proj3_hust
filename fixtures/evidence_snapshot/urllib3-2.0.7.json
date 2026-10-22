@@ -1,0 +1,26 @@
+{
+  "distribution_type": "wheel",
+  "name": "urllib3",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T04:14:54.104434+00:00",
+    "source_pypi_json_url": "https://pypi.org/pypi/urllib3/2.0.7/json",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/d2/b2/b157855192a68541a91ba7b2bbcb91f1b4faa51f8bae38d8005c034be524/urllib3-2.0.7-py3-none-any.whl",
+    "wheel_filename": "urllib3-2.0.7-py3-none-any.whl",
+    "wheel_sha256": "fdb6d215c776278489906c2f8916e6e7d4f5a9b602ccbcfdf7f016fc8da0596e",
+    "wheel_upload_time_utc": "2023-10-17T17:46:48.538593Z"
+  },
+  "requires_dist": [
+    "brotli>=1.0.9; platform_python_implementation == 'CPython' and extra == 'brotli'",
+    "brotlicffi>=0.8.0; platform_python_implementation != 'CPython' and extra == 'brotli'",
+    "certifi; extra == 'secure'",
+    "cryptography>=1.9; extra == 'secure'",
+    "idna>=2.0.0; extra == 'secure'",
+    "pyopenssl>=17.1.0; extra == 'secure'",
+    "urllib3-secure-extra; extra == 'secure'",
+    "pysocks!=1.5.7,<2.0,>=1.5.6; extra == 'socks'",
+    "zstandard>=0.18.0; extra == 'zstd'"
+  ],
+  "requires_python": ">=3.7",
+  "version": "2.0.7"
+}
