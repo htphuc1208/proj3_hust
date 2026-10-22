@@ -1,0 +1,63 @@
+{
+  "run_mode": "fully_synthetic_offline_fixture",
+  "not_an_ai_model": true,
+  "scope": "Python/PyPI; candidate dependency edges, not validated against installed artifacts",
+  "before": {
+    "components": 3,
+    "edges": 1
+  },
+  "after": {
+    "components": 4,
+    "edges": 3
+  },
+  "recovered_components": [
+    "pkg:pypi/acme-unsafe@0.9.0"
+  ],
+  "candidate_edges": [
+    {
+      "from": "pkg:pypi/acme-router@1.2.0",
+      "to": "pkg:pypi/acme-unsafe@0.9.0",
+      "source": "fixture_metadata",
+      "claim": "candidate_not_verified_in_target_build"
+    },
+    {
+      "from": "pkg:pypi/acme-web@1.0.0",
+      "to": "pkg:pypi/acme-router@1.2.0",
+      "source": "fixture_metadata",
+      "claim": "candidate_not_verified_in_target_build"
+    }
+  ],
+  "security_findings": [
+    {
+      "advisory": "SIMULATED-2026-0001",
+      "title": "Fictional vulnerability used only to demonstrate the pipeline",
+      "advisory_kind": "fictional_training_example",
+      "component": "pkg:pypi/acme-unsafe@0.9.0",
+      "dependency_path": [
+        "pkg:pypi/demo-app@1.0.0",
+        "pkg:pypi/acme-web@1.0.0",
+        "pkg:pypi/acme-router@1.2.0",
+        "pkg:pypi/acme-unsafe@0.9.0"
+      ],
+      "dependency_path_status": "candidate_path",
+      "vulnerable_function": "acme_unsafe.parser.parse_untrusted",
+      "function_reachability": "static_call_path_found_demo_only",
+      "static_call_path": [
+        "app.main",
+        "acme_web.service.handle_request",
+        "acme_router.routing.dispatch",
+        "acme_unsafe.parser.parse_untrusted"
+      ]
+    }
+  ],
+  "blocked": [],
+  "warnings": [],
+  "limitations": [
+    "Fixture packages and fixture advisory are entirely invented (not real vulnerabilities).",
+    "Live deps.dev resolution is for a generic environment; not evidence of actual installation.",
+    "OSV package/version match does not establish vulnerable-code execution.",
+    "Limited Python static call graph supports a small subset of call patterns.",
+    "A missing call path means UNKNOWN, never PROVEN_UNREACHABLE.",
+    "Explicit dependency declarations are preserved and not contradicted."
+  ]
+}
