@@ -1,0 +1,29 @@
+{
+  "interpretation": "Resource verification is after the historical horizon.",
+  "java_db": {
+    "bytes": 1564942336,
+    "metadata": {
+      "DownloadedAt": "2026-10-29T00:24:39.567840078Z",
+      "NextUpdate": "2026-10-31T01:07:04.331012865Z",
+      "UpdatedAt": "2026-10-28T01:07:04.331013306Z",
+      "Version": 1
+    },
+    "sha256": "6468b18d389316a0aa49fa847943cd3b1d95f7568b01f2d7f786562efba0cde8",
+    "source": "mirror.gcr.io/aquasec/trivy-java-db:1"
+  },
+  "schemas": [
+    {
+      "byte_equal": true,
+      "file": "research/schemas/bom-1.6.schema.json",
+      "sha256": "18f57f7482593bad9f21b4feed09084640cbeff419d62ad5090c5ceccca5b37d",
+      "url": "https://raw.githubusercontent.com/CycloneDX/specification/master/schema/bom-1.6.schema.json"
+    },
+    {
+      "byte_equal": true,
+      "file": "research/schemas/bom-1.7.schema.json",
+      "sha256": "73308edec3ab2d38bfffd993e96a042b594314143b6971a6e9ed98bbb6bd76ce",
+      "url": "https://raw.githubusercontent.com/CycloneDX/specification/master/schema/bom-1.7.schema.json"
+    }
+  ],
+  "verified_at": "2026-10-29T00:42:07.569284Z"
+}

@@ -1,0 +1,44 @@
+{
+  "acquired_at": "2026-10-28T17:34:08.089865Z",
+  "integrity_scope": "Frozen public acquisition bytes/commits; not a signature or build attestation",
+  "schema_version": "agent-toolchain-v1",
+  "tools": [
+    {
+      "commit": "521f3b8ee6e301e847f7cb113517ba46831e2b28",
+      "source": "https://github.com/MoriwakiYusuke/sbom-unifier.git",
+      "tool": "sbom-unifier"
+    },
+    {
+      "commit": "5b90367e247fced49fbf73d831f4e53b2aa45819",
+      "source": "https://github.com/MoriwakiYusuke/sbom-unifier-replication.git",
+      "tool": "sbom-unifier-replication"
+    },
+    {
+      "commit": "b94e0d36669c4cc086856adf57bc67ced8f1aaf0",
+      "source": "https://github.com/dmgerman/ninka.git",
+      "tool": "ninka"
+    },
+    {
+      "sha256": "dbf75864e7a7ff9e1fbf00552c31483f693188632a9f68f343cd7653dac513d6",
+      "tool": "syft",
+      "version": "v1.54.1"
+    },
+    {
+      "sha256": "d1dfca6ae10a1ad4540bb94e64f0510077c47008920a9b554986b39dca573d83",
+      "tool": "trivy",
+      "version": "v0.76.1"
+    },
+    {
+      "sha256": "bf5d4f99bc98c119d549d08fc02ae92598a7a42772f17317c01031a92632e05b",
+      "source": "https://github.com/microsoft/sbom-tool/releases/download/v4.1.5/sbom-tool-linux-x64",
+      "tool": "Microsoft sbom-tool",
+      "version": "4.1.5"
+    },
+    {
+      "module_sha256": "232ecc070475da3aeeefc7dd39d6a59f2be45c0b269e96663be2c419e70c189c",
+      "source": "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/IO-CaptureOutput-1.1105.tar.gz",
+      "tool": "IO::CaptureOutput",
+      "version": "1.1105"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "browser_acceptance": {
+    "artifact_links_checked": 80,
+    "browser": "141.0.7390.37",
+    "checks": [
+      "All seven screens render",
+      "Original/reconstructed edge counts match source JSON",
+      "Keyboard edge selection updates inspector",
+      "Project/evidence selection updates metrics",
+      "Undefined metrics stay undefined",
+      "Untrusted project text is inert",
+      "Artifact links resolve"
+    ],
+    "index_sha256": "fd9826517192f880124e487436611f7510cda6f5e356fdfeab2f8bf39e2e7226",
+    "javascript_errors": [],
+    "screenshots": [
+      "screenshot.png",
+      "graph_screenshot.png"
+    ],
+    "status": "PASS",
+    "tested_at": "2026-10-22T21:35:30.641596+00:00"
+  },
+  "deferred": [
+    "Agent experiments",
+    "B5/B6",
+    "New repository cohort",
+    "2026 topology replication"
+  ],
+  "frozen_engine_matches_current_source": true,
+  "ml_training_authorized": false,
+  "model_api_calls": 0,
+  "raw_legacy_inputs_unchanged": true,
+  "registered_artifacts_verified": 614,
+  "schema_documents_validated": 30,
+  "scientific_status": "Implemented; DSN partial reproduction; no claim of zero algorithmic failures",
+  "screenshot_sha256": {
+    "graph_screenshot.png": "b9db7538c9f4884de7716b32426f8ed427b0d04c7cfc770e1d4cc50e67d150ef",
+    "screenshot.png": "3b243926ed818325b5b2927a323e942c24a050155683e83231e60492e3b6e444"
+  },
+  "status": "PASS",
+  "unit_test_log_sha256": "3e99f7699e8682adc935b5b353c109c62b0ade3ff8c450075f1739fdbb21156a",
+  "unit_tests_passed": 54,
+  "verified_at": "2026-10-25T03:22:52.891622Z"
+}
