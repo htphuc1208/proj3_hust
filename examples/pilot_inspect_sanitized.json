@@ -1,0 +1,69 @@
+{
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.13.5",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_python_implementation": "CPython",
+    "platform_release": "6.18.55",
+    "platform_system": "Linux",
+    "platform_version": "#1 SMP Wed Oct 14 19:45:18 UTC 2026",
+    "python_full_version": "3.13.5",
+    "python_version": "3.13",
+    "sys_platform": "linux"
+  },
+  "installed": [
+    {
+      "metadata": {
+        "name": "certifi",
+        "version": "2026.5.20"
+      }
+    },
+    {
+      "metadata": {
+        "name": "charset-normalizer",
+        "version": "3.4.7"
+      }
+    },
+    {
+      "metadata": {
+        "name": "idna",
+        "requires_dist": [
+          "ruff >= 0.6.2 ; extra == \"all\"",
+          "mypy >= 1.11.2 ; extra == \"all\"",
+          "pytest >= 8.3.2 ; extra == \"all\""
+        ],
+        "version": "3.17"
+      }
+    },
+    {
+      "metadata": {
+        "name": "requests",
+        "requires_dist": [
+          "charset_normalizer<4,>=2",
+          "idna<4,>=2.5",
+          "urllib3<3,>=1.21.1",
+          "certifi>=2017.4.17",
+          "PySocks!=1.5.7,>=1.5.6; extra == \"socks\"",
+          "chardet<6,>=3.0.2; extra == \"use-chardet-on-py3\""
+        ],
+        "version": "2.32.5"
+      }
+    },
+    {
+      "metadata": {
+        "name": "urllib3",
+        "requires_dist": [
+          "brotli>=1.2.0; (platform_python_implementation == 'CPython') and extra == 'brotli'",
+          "brotlicffi>=1.2.0.0; (platform_python_implementation != 'CPython') and extra == 'brotli'",
+          "h2<5,>=4; extra == 'h2'",
+          "pysocks!=1.5.7,<2.0,>=1.5.6; extra == 'socks'",
+          "backports-zstd>=1.0.0; (python_version < '3.14') and extra == 'zstd'"
+        ],
+        "version": "2.7.0"
+      }
+    }
+  ],
+  "pip_version": "25.1.1",
+  "version": "1"
+}

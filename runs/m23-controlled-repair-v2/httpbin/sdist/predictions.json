@@ -1,0 +1,3421 @@
+{
+  "B0": {
+    "G_candidate": {
+      "contradictions": [],
+      "edges": [],
+      "nodes": []
+    },
+    "G_obs": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/attrs@26.1.0",
+          "name": "attrs",
+          "purl": "pkg:pypi/attrs@26.1.0",
+          "type": "library",
+          "version": "26.1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/blinker@1.9.0",
+          "name": "blinker",
+          "purl": "pkg:pypi/blinker@1.9.0",
+          "type": "library",
+          "version": "1.9.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/brotlicffi@1.2.0.2",
+          "name": "brotlicffi",
+          "purl": "pkg:pypi/brotlicffi@1.2.0.2",
+          "type": "library",
+          "version": "1.2.0.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/cffi@2.1.1",
+          "name": "cffi",
+          "purl": "pkg:pypi/cffi@2.1.1",
+          "type": "library",
+          "version": "2.1.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/click@8.5.0",
+          "name": "click",
+          "purl": "pkg:pypi/click@8.5.0",
+          "type": "library",
+          "version": "8.5.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/decorator@5.3.1",
+          "name": "decorator",
+          "purl": "pkg:pypi/decorator@5.3.1",
+          "type": "library",
+          "version": "5.3.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/flasgger@0.9.7.1",
+          "name": "flasgger",
+          "purl": "pkg:pypi/flasgger@0.9.7.1",
+          "type": "library",
+          "version": "0.9.7.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/flask@3.1.3",
+          "name": "flask",
+          "purl": "pkg:pypi/flask@3.1.3",
+          "type": "library",
+          "version": "3.1.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/greenlet@2.0.2",
+          "name": "greenlet",
+          "purl": "pkg:pypi/greenlet@2.0.2",
+          "type": "library",
+          "version": "2.0.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/itsdangerous@2.2.0",
+          "name": "itsdangerous",
+          "purl": "pkg:pypi/itsdangerous@2.2.0",
+          "type": "library",
+          "version": "2.2.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/jinja2@3.1.6",
+          "name": "jinja2",
+          "purl": "pkg:pypi/jinja2@3.1.6",
+          "type": "library",
+          "version": "3.1.6"
+        },
+        {
+          "bom-ref": "pkg:pypi/jsonschema@4.26.0",
+          "name": "jsonschema",
+          "purl": "pkg:pypi/jsonschema@4.26.0",
+          "type": "library",
+          "version": "4.26.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "name": "jsonschema-specifications",
+          "purl": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "type": "library",
+          "version": "2025.9.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/markupsafe@3.0.4",
+          "name": "markupsafe",
+          "purl": "pkg:pypi/markupsafe@3.0.4",
+          "type": "library",
+          "version": "3.0.4"
+        },
+        {
+          "bom-ref": "pkg:pypi/mistune@3.4.0",
+          "name": "mistune",
+          "purl": "pkg:pypi/mistune@3.4.0",
+          "type": "library",
+          "version": "3.4.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/packaging@26.3",
+          "name": "packaging",
+          "purl": "pkg:pypi/packaging@26.3",
+          "type": "library",
+          "version": "26.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pycparser@3.11",
+          "name": "pycparser",
+          "purl": "pkg:pypi/pycparser@3.11",
+          "type": "library",
+          "version": "3.11"
+        },
+        {
+          "bom-ref": "pkg:pypi/pyyaml@6.0.3",
+          "name": "pyyaml",
+          "purl": "pkg:pypi/pyyaml@6.0.3",
+          "type": "library",
+          "version": "6.0.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/referencing@0.37.0",
+          "name": "referencing",
+          "purl": "pkg:pypi/referencing@0.37.0",
+          "type": "library",
+          "version": "0.37.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/rpds-py@2026.9.1",
+          "name": "rpds-py",
+          "purl": "pkg:pypi/rpds-py@2026.9.1",
+          "type": "library",
+          "version": "2026.9.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/six@1.17.0",
+          "name": "six",
+          "purl": "pkg:pypi/six@1.17.0",
+          "type": "library",
+          "version": "1.17.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+          "name": "typing-extensions",
+          "purl": "pkg:pypi/typing-extensions@4.16.0",
+          "type": "library",
+          "version": "4.16.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/werkzeug@3.1.9",
+          "name": "werkzeug",
+          "purl": "pkg:pypi/werkzeug@3.1.9",
+          "type": "library",
+          "version": "3.1.9"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/httpbin@0.10.2",
+          "name": "httpbin",
+          "purl": "pkg:pypi/httpbin@0.10.2",
+          "type": "application",
+          "version": "0.10.2"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "G_reconstructed": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/attrs@26.1.0",
+          "name": "attrs",
+          "purl": "pkg:pypi/attrs@26.1.0",
+          "type": "library",
+          "version": "26.1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/blinker@1.9.0",
+          "name": "blinker",
+          "purl": "pkg:pypi/blinker@1.9.0",
+          "type": "library",
+          "version": "1.9.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/brotlicffi@1.2.0.2",
+          "name": "brotlicffi",
+          "purl": "pkg:pypi/brotlicffi@1.2.0.2",
+          "type": "library",
+          "version": "1.2.0.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/cffi@2.1.1",
+          "name": "cffi",
+          "purl": "pkg:pypi/cffi@2.1.1",
+          "type": "library",
+          "version": "2.1.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/click@8.5.0",
+          "name": "click",
+          "purl": "pkg:pypi/click@8.5.0",
+          "type": "library",
+          "version": "8.5.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/decorator@5.3.1",
+          "name": "decorator",
+          "purl": "pkg:pypi/decorator@5.3.1",
+          "type": "library",
+          "version": "5.3.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/flasgger@0.9.7.1",
+          "name": "flasgger",
+          "purl": "pkg:pypi/flasgger@0.9.7.1",
+          "type": "library",
+          "version": "0.9.7.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/flask@3.1.3",
+          "name": "flask",
+          "purl": "pkg:pypi/flask@3.1.3",
+          "type": "library",
+          "version": "3.1.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/greenlet@2.0.2",
+          "name": "greenlet",
+          "purl": "pkg:pypi/greenlet@2.0.2",
+          "type": "library",
+          "version": "2.0.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/itsdangerous@2.2.0",
+          "name": "itsdangerous",
+          "purl": "pkg:pypi/itsdangerous@2.2.0",
+          "type": "library",
+          "version": "2.2.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/jinja2@3.1.6",
+          "name": "jinja2",
+          "purl": "pkg:pypi/jinja2@3.1.6",
+          "type": "library",
+          "version": "3.1.6"
+        },
+        {
+          "bom-ref": "pkg:pypi/jsonschema@4.26.0",
+          "name": "jsonschema",
+          "purl": "pkg:pypi/jsonschema@4.26.0",
+          "type": "library",
+          "version": "4.26.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "name": "jsonschema-specifications",
+          "purl": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "type": "library",
+          "version": "2025.9.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/markupsafe@3.0.4",
+          "name": "markupsafe",
+          "purl": "pkg:pypi/markupsafe@3.0.4",
+          "type": "library",
+          "version": "3.0.4"
+        },
+        {
+          "bom-ref": "pkg:pypi/mistune@3.4.0",
+          "name": "mistune",
+          "purl": "pkg:pypi/mistune@3.4.0",
+          "type": "library",
+          "version": "3.4.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/packaging@26.3",
+          "name": "packaging",
+          "purl": "pkg:pypi/packaging@26.3",
+          "type": "library",
+          "version": "26.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pycparser@3.11",
+          "name": "pycparser",
+          "purl": "pkg:pypi/pycparser@3.11",
+          "type": "library",
+          "version": "3.11"
+        },
+        {
+          "bom-ref": "pkg:pypi/pyyaml@6.0.3",
+          "name": "pyyaml",
+          "purl": "pkg:pypi/pyyaml@6.0.3",
+          "type": "library",
+          "version": "6.0.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/referencing@0.37.0",
+          "name": "referencing",
+          "purl": "pkg:pypi/referencing@0.37.0",
+          "type": "library",
+          "version": "0.37.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/rpds-py@2026.9.1",
+          "name": "rpds-py",
+          "purl": "pkg:pypi/rpds-py@2026.9.1",
+          "type": "library",
+          "version": "2026.9.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/six@1.17.0",
+          "name": "six",
+          "purl": "pkg:pypi/six@1.17.0",
+          "type": "library",
+          "version": "1.17.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+          "name": "typing-extensions",
+          "purl": "pkg:pypi/typing-extensions@4.16.0",
+          "type": "library",
+          "version": "4.16.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/werkzeug@3.1.9",
+          "name": "werkzeug",
+          "purl": "pkg:pypi/werkzeug@3.1.9",
+          "type": "library",
+          "version": "3.1.9"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/httpbin@0.10.2",
+          "name": "httpbin",
+          "purl": "pkg:pypi/httpbin@0.10.2",
+          "type": "application",
+          "version": "0.10.2"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "baseline_id": "B0",
+    "baseline_name": "Observed-only",
+    "predicted_edges": []
+  },
+  "B1": {
+    "G_candidate": {
+      "contradictions": [],
+      "edges": [
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/brotlicffi@1.2.0.2"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/decorator@5.3.1"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/flasgger@0.9.7.1"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/flask@3.1.3"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/six@1.17.0"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/werkzeug@3.1.9"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/greenlet@2.0.2"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/importlib-metadata"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/greenlet@2.0.2"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/gunicorn"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/gevent"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pytest"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/tox"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/brotlicffi@1.2.0.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/cffi@2.1.1"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/brotlicffi@1.2.0.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/cffi@2.1.1"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/cffi@2.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pycparser@3.11"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/flasgger@0.9.7.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/flask@3.1.3"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/flasgger@0.9.7.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pyyaml@6.0.3"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/flasgger@0.9.7.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/jsonschema@4.26.0"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/flasgger@0.9.7.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/mistune@3.4.0"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/flasgger@0.9.7.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/six@1.17.0"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/flasgger@0.9.7.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/packaging@26.3"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/blinker@1.9.0"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/click@8.5.0"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/importlib-metadata"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/itsdangerous@2.2.0"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/jinja2@3.1.6"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/markupsafe@3.0.4"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/werkzeug@3.1.9"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/asgiref"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/python-dotenv"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/greenlet@2.0.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/sphinx"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/greenlet@2.0.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/docutils"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/greenlet@2.0.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/objgraph"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/greenlet@2.0.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/psutil"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jinja2@3.1.6",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/markupsafe@3.0.4"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jinja2@3.1.6",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/babel"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/attrs@26.1.0"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/jsonschema-specifications@2025.9.1"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/referencing@0.37.0"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/rpds-py@2026.9.1"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/fqdn"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/idna"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/isoduration"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/jsonpointer"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/rfc3339-validator"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/rfc3987"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/uri-template"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/webcolors"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/fqdn"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/idna"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/isoduration"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/jsonpointer"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/rfc3339-validator"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/rfc3986-validator"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/rfc3987-syntax"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/uri-template"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/webcolors"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/referencing@0.37.0"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/mistune@3.4.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/typing-extensions@4.16.0"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/referencing@0.37.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/attrs@26.1.0"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/referencing@0.37.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/rpds-py@2026.9.1"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/referencing@0.37.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/typing-extensions@4.16.0"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/werkzeug@3.1.9",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/markupsafe@3.0.4"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/werkzeug@3.1.9",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/watchdog"
+        }
+      ],
+      "nodes": []
+    },
+    "G_obs": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/attrs@26.1.0",
+          "name": "attrs",
+          "purl": "pkg:pypi/attrs@26.1.0",
+          "type": "library",
+          "version": "26.1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/blinker@1.9.0",
+          "name": "blinker",
+          "purl": "pkg:pypi/blinker@1.9.0",
+          "type": "library",
+          "version": "1.9.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/brotlicffi@1.2.0.2",
+          "name": "brotlicffi",
+          "purl": "pkg:pypi/brotlicffi@1.2.0.2",
+          "type": "library",
+          "version": "1.2.0.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/cffi@2.1.1",
+          "name": "cffi",
+          "purl": "pkg:pypi/cffi@2.1.1",
+          "type": "library",
+          "version": "2.1.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/click@8.5.0",
+          "name": "click",
+          "purl": "pkg:pypi/click@8.5.0",
+          "type": "library",
+          "version": "8.5.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/decorator@5.3.1",
+          "name": "decorator",
+          "purl": "pkg:pypi/decorator@5.3.1",
+          "type": "library",
+          "version": "5.3.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/flasgger@0.9.7.1",
+          "name": "flasgger",
+          "purl": "pkg:pypi/flasgger@0.9.7.1",
+          "type": "library",
+          "version": "0.9.7.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/flask@3.1.3",
+          "name": "flask",
+          "purl": "pkg:pypi/flask@3.1.3",
+          "type": "library",
+          "version": "3.1.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/greenlet@2.0.2",
+          "name": "greenlet",
+          "purl": "pkg:pypi/greenlet@2.0.2",
+          "type": "library",
+          "version": "2.0.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/itsdangerous@2.2.0",
+          "name": "itsdangerous",
+          "purl": "pkg:pypi/itsdangerous@2.2.0",
+          "type": "library",
+          "version": "2.2.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/jinja2@3.1.6",
+          "name": "jinja2",
+          "purl": "pkg:pypi/jinja2@3.1.6",
+          "type": "library",
+          "version": "3.1.6"
+        },
+        {
+          "bom-ref": "pkg:pypi/jsonschema@4.26.0",
+          "name": "jsonschema",
+          "purl": "pkg:pypi/jsonschema@4.26.0",
+          "type": "library",
+          "version": "4.26.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "name": "jsonschema-specifications",
+          "purl": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "type": "library",
+          "version": "2025.9.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/markupsafe@3.0.4",
+          "name": "markupsafe",
+          "purl": "pkg:pypi/markupsafe@3.0.4",
+          "type": "library",
+          "version": "3.0.4"
+        },
+        {
+          "bom-ref": "pkg:pypi/mistune@3.4.0",
+          "name": "mistune",
+          "purl": "pkg:pypi/mistune@3.4.0",
+          "type": "library",
+          "version": "3.4.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/packaging@26.3",
+          "name": "packaging",
+          "purl": "pkg:pypi/packaging@26.3",
+          "type": "library",
+          "version": "26.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pycparser@3.11",
+          "name": "pycparser",
+          "purl": "pkg:pypi/pycparser@3.11",
+          "type": "library",
+          "version": "3.11"
+        },
+        {
+          "bom-ref": "pkg:pypi/pyyaml@6.0.3",
+          "name": "pyyaml",
+          "purl": "pkg:pypi/pyyaml@6.0.3",
+          "type": "library",
+          "version": "6.0.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/referencing@0.37.0",
+          "name": "referencing",
+          "purl": "pkg:pypi/referencing@0.37.0",
+          "type": "library",
+          "version": "0.37.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/rpds-py@2026.9.1",
+          "name": "rpds-py",
+          "purl": "pkg:pypi/rpds-py@2026.9.1",
+          "type": "library",
+          "version": "2026.9.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/six@1.17.0",
+          "name": "six",
+          "purl": "pkg:pypi/six@1.17.0",
+          "type": "library",
+          "version": "1.17.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+          "name": "typing-extensions",
+          "purl": "pkg:pypi/typing-extensions@4.16.0",
+          "type": "library",
+          "version": "4.16.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/werkzeug@3.1.9",
+          "name": "werkzeug",
+          "purl": "pkg:pypi/werkzeug@3.1.9",
+          "type": "library",
+          "version": "3.1.9"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/httpbin@0.10.2",
+          "name": "httpbin",
+          "purl": "pkg:pypi/httpbin@0.10.2",
+          "type": "application",
+          "version": "0.10.2"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "G_reconstructed": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/attrs@26.1.0",
+          "name": "attrs",
+          "purl": "pkg:pypi/attrs@26.1.0",
+          "type": "library",
+          "version": "26.1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/blinker@1.9.0",
+          "name": "blinker",
+          "purl": "pkg:pypi/blinker@1.9.0",
+          "type": "library",
+          "version": "1.9.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/brotlicffi@1.2.0.2",
+          "name": "brotlicffi",
+          "purl": "pkg:pypi/brotlicffi@1.2.0.2",
+          "type": "library",
+          "version": "1.2.0.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/cffi@2.1.1",
+          "name": "cffi",
+          "purl": "pkg:pypi/cffi@2.1.1",
+          "type": "library",
+          "version": "2.1.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/click@8.5.0",
+          "name": "click",
+          "purl": "pkg:pypi/click@8.5.0",
+          "type": "library",
+          "version": "8.5.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/decorator@5.3.1",
+          "name": "decorator",
+          "purl": "pkg:pypi/decorator@5.3.1",
+          "type": "library",
+          "version": "5.3.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/flasgger@0.9.7.1",
+          "name": "flasgger",
+          "purl": "pkg:pypi/flasgger@0.9.7.1",
+          "type": "library",
+          "version": "0.9.7.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/flask@3.1.3",
+          "name": "flask",
+          "purl": "pkg:pypi/flask@3.1.3",
+          "type": "library",
+          "version": "3.1.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/greenlet@2.0.2",
+          "name": "greenlet",
+          "purl": "pkg:pypi/greenlet@2.0.2",
+          "type": "library",
+          "version": "2.0.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/itsdangerous@2.2.0",
+          "name": "itsdangerous",
+          "purl": "pkg:pypi/itsdangerous@2.2.0",
+          "type": "library",
+          "version": "2.2.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/jinja2@3.1.6",
+          "name": "jinja2",
+          "purl": "pkg:pypi/jinja2@3.1.6",
+          "type": "library",
+          "version": "3.1.6"
+        },
+        {
+          "bom-ref": "pkg:pypi/jsonschema@4.26.0",
+          "name": "jsonschema",
+          "purl": "pkg:pypi/jsonschema@4.26.0",
+          "type": "library",
+          "version": "4.26.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "name": "jsonschema-specifications",
+          "purl": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "type": "library",
+          "version": "2025.9.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/markupsafe@3.0.4",
+          "name": "markupsafe",
+          "purl": "pkg:pypi/markupsafe@3.0.4",
+          "type": "library",
+          "version": "3.0.4"
+        },
+        {
+          "bom-ref": "pkg:pypi/mistune@3.4.0",
+          "name": "mistune",
+          "purl": "pkg:pypi/mistune@3.4.0",
+          "type": "library",
+          "version": "3.4.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/packaging@26.3",
+          "name": "packaging",
+          "purl": "pkg:pypi/packaging@26.3",
+          "type": "library",
+          "version": "26.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pycparser@3.11",
+          "name": "pycparser",
+          "purl": "pkg:pypi/pycparser@3.11",
+          "type": "library",
+          "version": "3.11"
+        },
+        {
+          "bom-ref": "pkg:pypi/pyyaml@6.0.3",
+          "name": "pyyaml",
+          "purl": "pkg:pypi/pyyaml@6.0.3",
+          "type": "library",
+          "version": "6.0.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/referencing@0.37.0",
+          "name": "referencing",
+          "purl": "pkg:pypi/referencing@0.37.0",
+          "type": "library",
+          "version": "0.37.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/rpds-py@2026.9.1",
+          "name": "rpds-py",
+          "purl": "pkg:pypi/rpds-py@2026.9.1",
+          "type": "library",
+          "version": "2026.9.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/six@1.17.0",
+          "name": "six",
+          "purl": "pkg:pypi/six@1.17.0",
+          "type": "library",
+          "version": "1.17.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+          "name": "typing-extensions",
+          "purl": "pkg:pypi/typing-extensions@4.16.0",
+          "type": "library",
+          "version": "4.16.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/werkzeug@3.1.9",
+          "name": "werkzeug",
+          "purl": "pkg:pypi/werkzeug@3.1.9",
+          "type": "library",
+          "version": "3.1.9"
+        }
+      ],
+      "dependencies": [
+        {
+          "dependsOn": [
+            "pkg:pypi/cffi@2.1.1"
+          ],
+          "ref": "pkg:pypi/brotlicffi@1.2.0.2"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/pycparser@3.11"
+          ],
+          "ref": "pkg:pypi/cffi@2.1.1"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/flask@3.1.3",
+            "pkg:pypi/jsonschema@4.26.0",
+            "pkg:pypi/mistune@3.4.0",
+            "pkg:pypi/packaging@26.3",
+            "pkg:pypi/pyyaml@6.0.3",
+            "pkg:pypi/six@1.17.0"
+          ],
+          "ref": "pkg:pypi/flasgger@0.9.7.1"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/asgiref",
+            "pkg:pypi/blinker@1.9.0",
+            "pkg:pypi/click@8.5.0",
+            "pkg:pypi/importlib-metadata",
+            "pkg:pypi/itsdangerous@2.2.0",
+            "pkg:pypi/jinja2@3.1.6",
+            "pkg:pypi/markupsafe@3.0.4",
+            "pkg:pypi/python-dotenv",
+            "pkg:pypi/werkzeug@3.1.9"
+          ],
+          "ref": "pkg:pypi/flask@3.1.3"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/docutils",
+            "pkg:pypi/objgraph",
+            "pkg:pypi/psutil",
+            "pkg:pypi/sphinx"
+          ],
+          "ref": "pkg:pypi/greenlet@2.0.2"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/brotlicffi@1.2.0.2",
+            "pkg:pypi/decorator@5.3.1",
+            "pkg:pypi/flasgger@0.9.7.1",
+            "pkg:pypi/flask@3.1.3",
+            "pkg:pypi/gevent",
+            "pkg:pypi/greenlet@2.0.2",
+            "pkg:pypi/gunicorn",
+            "pkg:pypi/importlib-metadata",
+            "pkg:pypi/pytest",
+            "pkg:pypi/six@1.17.0",
+            "pkg:pypi/tox",
+            "pkg:pypi/werkzeug@3.1.9"
+          ],
+          "ref": "pkg:pypi/httpbin@0.10.2"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/babel",
+            "pkg:pypi/markupsafe@3.0.4"
+          ],
+          "ref": "pkg:pypi/jinja2@3.1.6"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/referencing@0.37.0"
+          ],
+          "ref": "pkg:pypi/jsonschema-specifications@2025.9.1"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/attrs@26.1.0",
+            "pkg:pypi/fqdn",
+            "pkg:pypi/idna",
+            "pkg:pypi/isoduration",
+            "pkg:pypi/jsonpointer",
+            "pkg:pypi/jsonschema-specifications@2025.9.1",
+            "pkg:pypi/referencing@0.37.0",
+            "pkg:pypi/rfc3339-validator",
+            "pkg:pypi/rfc3986-validator",
+            "pkg:pypi/rfc3987",
+            "pkg:pypi/rfc3987-syntax",
+            "pkg:pypi/rpds-py@2026.9.1",
+            "pkg:pypi/uri-template",
+            "pkg:pypi/webcolors"
+          ],
+          "ref": "pkg:pypi/jsonschema@4.26.0"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          "ref": "pkg:pypi/mistune@3.4.0"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/attrs@26.1.0",
+            "pkg:pypi/rpds-py@2026.9.1",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          "ref": "pkg:pypi/referencing@0.37.0"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/markupsafe@3.0.4",
+            "pkg:pypi/watchdog"
+          ],
+          "ref": "pkg:pypi/werkzeug@3.1.9"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/httpbin@0.10.2",
+          "name": "httpbin",
+          "purl": "pkg:pypi/httpbin@0.10.2",
+          "type": "application",
+          "version": "0.10.2"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "baseline_id": "B1",
+    "baseline_name": "Context-free Metadata",
+    "predicted_edges": [
+      [
+        "pkg:pypi/brotlicffi@1.2.0.2",
+        "pkg:pypi/cffi@2.1.1"
+      ],
+      [
+        "pkg:pypi/cffi@2.1.1",
+        "pkg:pypi/pycparser@3.11"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/flask@3.1.3"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/jsonschema@4.26.0"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/mistune@3.4.0"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/packaging@26.3"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/pyyaml@6.0.3"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/six@1.17.0"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/asgiref"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/blinker@1.9.0"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/click@8.5.0"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/importlib-metadata"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/itsdangerous@2.2.0"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/jinja2@3.1.6"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/markupsafe@3.0.4"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/python-dotenv"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/werkzeug@3.1.9"
+      ],
+      [
+        "pkg:pypi/greenlet@2.0.2",
+        "pkg:pypi/docutils"
+      ],
+      [
+        "pkg:pypi/greenlet@2.0.2",
+        "pkg:pypi/objgraph"
+      ],
+      [
+        "pkg:pypi/greenlet@2.0.2",
+        "pkg:pypi/psutil"
+      ],
+      [
+        "pkg:pypi/greenlet@2.0.2",
+        "pkg:pypi/sphinx"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/brotlicffi@1.2.0.2"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/decorator@5.3.1"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/flasgger@0.9.7.1"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/flask@3.1.3"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/gevent"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/greenlet@2.0.2"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/gunicorn"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/importlib-metadata"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/pytest"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/six@1.17.0"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/tox"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/werkzeug@3.1.9"
+      ],
+      [
+        "pkg:pypi/jinja2@3.1.6",
+        "pkg:pypi/babel"
+      ],
+      [
+        "pkg:pypi/jinja2@3.1.6",
+        "pkg:pypi/markupsafe@3.0.4"
+      ],
+      [
+        "pkg:pypi/jsonschema-specifications@2025.9.1",
+        "pkg:pypi/referencing@0.37.0"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/attrs@26.1.0"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/fqdn"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/idna"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/isoduration"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/jsonpointer"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/jsonschema-specifications@2025.9.1"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/referencing@0.37.0"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/rfc3339-validator"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/rfc3986-validator"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/rfc3987"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/rfc3987-syntax"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/rpds-py@2026.9.1"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/uri-template"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/webcolors"
+      ],
+      [
+        "pkg:pypi/mistune@3.4.0",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ],
+      [
+        "pkg:pypi/referencing@0.37.0",
+        "pkg:pypi/attrs@26.1.0"
+      ],
+      [
+        "pkg:pypi/referencing@0.37.0",
+        "pkg:pypi/rpds-py@2026.9.1"
+      ],
+      [
+        "pkg:pypi/referencing@0.37.0",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ],
+      [
+        "pkg:pypi/werkzeug@3.1.9",
+        "pkg:pypi/markupsafe@3.0.4"
+      ],
+      [
+        "pkg:pypi/werkzeug@3.1.9",
+        "pkg:pypi/watchdog"
+      ]
+    ]
+  },
+  "B2": {
+    "G_candidate": {
+      "contradictions": [],
+      "edges": [
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/brotlicffi@1.2.0.2"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/decorator@5.3.1"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/flasgger@0.9.7.1"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/flask@3.1.3"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/six@1.17.0"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/werkzeug@3.1.9"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/greenlet@2.0.2"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/greenlet@2.0.2"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/brotlicffi@1.2.0.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/cffi@2.1.1"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/cffi@2.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pycparser@3.11"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/flasgger@0.9.7.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/flask@3.1.3"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/flasgger@0.9.7.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pyyaml@6.0.3"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/flasgger@0.9.7.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/jsonschema@4.26.0"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/flasgger@0.9.7.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/mistune@3.4.0"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/flasgger@0.9.7.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/six@1.17.0"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/flasgger@0.9.7.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/packaging@26.3"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/blinker@1.9.0"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/click@8.5.0"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/itsdangerous@2.2.0"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/jinja2@3.1.6"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/markupsafe@3.0.4"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/werkzeug@3.1.9"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/jinja2@3.1.6",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/markupsafe@3.0.4"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/attrs@26.1.0"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/jsonschema-specifications@2025.9.1"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/referencing@0.37.0"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/rpds-py@2026.9.1"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/referencing@0.37.0"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/mistune@3.4.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/typing-extensions@4.16.0"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/referencing@0.37.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/attrs@26.1.0"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/referencing@0.37.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/rpds-py@2026.9.1"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/referencing@0.37.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/typing-extensions@4.16.0"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/werkzeug@3.1.9",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/markupsafe@3.0.4"
+        }
+      ],
+      "nodes": []
+    },
+    "G_obs": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/attrs@26.1.0",
+          "name": "attrs",
+          "purl": "pkg:pypi/attrs@26.1.0",
+          "type": "library",
+          "version": "26.1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/blinker@1.9.0",
+          "name": "blinker",
+          "purl": "pkg:pypi/blinker@1.9.0",
+          "type": "library",
+          "version": "1.9.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/brotlicffi@1.2.0.2",
+          "name": "brotlicffi",
+          "purl": "pkg:pypi/brotlicffi@1.2.0.2",
+          "type": "library",
+          "version": "1.2.0.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/cffi@2.1.1",
+          "name": "cffi",
+          "purl": "pkg:pypi/cffi@2.1.1",
+          "type": "library",
+          "version": "2.1.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/click@8.5.0",
+          "name": "click",
+          "purl": "pkg:pypi/click@8.5.0",
+          "type": "library",
+          "version": "8.5.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/decorator@5.3.1",
+          "name": "decorator",
+          "purl": "pkg:pypi/decorator@5.3.1",
+          "type": "library",
+          "version": "5.3.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/flasgger@0.9.7.1",
+          "name": "flasgger",
+          "purl": "pkg:pypi/flasgger@0.9.7.1",
+          "type": "library",
+          "version": "0.9.7.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/flask@3.1.3",
+          "name": "flask",
+          "purl": "pkg:pypi/flask@3.1.3",
+          "type": "library",
+          "version": "3.1.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/greenlet@2.0.2",
+          "name": "greenlet",
+          "purl": "pkg:pypi/greenlet@2.0.2",
+          "type": "library",
+          "version": "2.0.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/itsdangerous@2.2.0",
+          "name": "itsdangerous",
+          "purl": "pkg:pypi/itsdangerous@2.2.0",
+          "type": "library",
+          "version": "2.2.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/jinja2@3.1.6",
+          "name": "jinja2",
+          "purl": "pkg:pypi/jinja2@3.1.6",
+          "type": "library",
+          "version": "3.1.6"
+        },
+        {
+          "bom-ref": "pkg:pypi/jsonschema@4.26.0",
+          "name": "jsonschema",
+          "purl": "pkg:pypi/jsonschema@4.26.0",
+          "type": "library",
+          "version": "4.26.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "name": "jsonschema-specifications",
+          "purl": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "type": "library",
+          "version": "2025.9.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/markupsafe@3.0.4",
+          "name": "markupsafe",
+          "purl": "pkg:pypi/markupsafe@3.0.4",
+          "type": "library",
+          "version": "3.0.4"
+        },
+        {
+          "bom-ref": "pkg:pypi/mistune@3.4.0",
+          "name": "mistune",
+          "purl": "pkg:pypi/mistune@3.4.0",
+          "type": "library",
+          "version": "3.4.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/packaging@26.3",
+          "name": "packaging",
+          "purl": "pkg:pypi/packaging@26.3",
+          "type": "library",
+          "version": "26.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pycparser@3.11",
+          "name": "pycparser",
+          "purl": "pkg:pypi/pycparser@3.11",
+          "type": "library",
+          "version": "3.11"
+        },
+        {
+          "bom-ref": "pkg:pypi/pyyaml@6.0.3",
+          "name": "pyyaml",
+          "purl": "pkg:pypi/pyyaml@6.0.3",
+          "type": "library",
+          "version": "6.0.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/referencing@0.37.0",
+          "name": "referencing",
+          "purl": "pkg:pypi/referencing@0.37.0",
+          "type": "library",
+          "version": "0.37.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/rpds-py@2026.9.1",
+          "name": "rpds-py",
+          "purl": "pkg:pypi/rpds-py@2026.9.1",
+          "type": "library",
+          "version": "2026.9.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/six@1.17.0",
+          "name": "six",
+          "purl": "pkg:pypi/six@1.17.0",
+          "type": "library",
+          "version": "1.17.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+          "name": "typing-extensions",
+          "purl": "pkg:pypi/typing-extensions@4.16.0",
+          "type": "library",
+          "version": "4.16.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/werkzeug@3.1.9",
+          "name": "werkzeug",
+          "purl": "pkg:pypi/werkzeug@3.1.9",
+          "type": "library",
+          "version": "3.1.9"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/httpbin@0.10.2",
+          "name": "httpbin",
+          "purl": "pkg:pypi/httpbin@0.10.2",
+          "type": "application",
+          "version": "0.10.2"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "G_reconstructed": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/attrs@26.1.0",
+          "name": "attrs",
+          "purl": "pkg:pypi/attrs@26.1.0",
+          "type": "library",
+          "version": "26.1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/blinker@1.9.0",
+          "name": "blinker",
+          "purl": "pkg:pypi/blinker@1.9.0",
+          "type": "library",
+          "version": "1.9.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/brotlicffi@1.2.0.2",
+          "name": "brotlicffi",
+          "purl": "pkg:pypi/brotlicffi@1.2.0.2",
+          "type": "library",
+          "version": "1.2.0.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/cffi@2.1.1",
+          "name": "cffi",
+          "purl": "pkg:pypi/cffi@2.1.1",
+          "type": "library",
+          "version": "2.1.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/click@8.5.0",
+          "name": "click",
+          "purl": "pkg:pypi/click@8.5.0",
+          "type": "library",
+          "version": "8.5.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/decorator@5.3.1",
+          "name": "decorator",
+          "purl": "pkg:pypi/decorator@5.3.1",
+          "type": "library",
+          "version": "5.3.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/flasgger@0.9.7.1",
+          "name": "flasgger",
+          "purl": "pkg:pypi/flasgger@0.9.7.1",
+          "type": "library",
+          "version": "0.9.7.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/flask@3.1.3",
+          "name": "flask",
+          "purl": "pkg:pypi/flask@3.1.3",
+          "type": "library",
+          "version": "3.1.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/greenlet@2.0.2",
+          "name": "greenlet",
+          "purl": "pkg:pypi/greenlet@2.0.2",
+          "type": "library",
+          "version": "2.0.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/itsdangerous@2.2.0",
+          "name": "itsdangerous",
+          "purl": "pkg:pypi/itsdangerous@2.2.0",
+          "type": "library",
+          "version": "2.2.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/jinja2@3.1.6",
+          "name": "jinja2",
+          "purl": "pkg:pypi/jinja2@3.1.6",
+          "type": "library",
+          "version": "3.1.6"
+        },
+        {
+          "bom-ref": "pkg:pypi/jsonschema@4.26.0",
+          "name": "jsonschema",
+          "purl": "pkg:pypi/jsonschema@4.26.0",
+          "type": "library",
+          "version": "4.26.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "name": "jsonschema-specifications",
+          "purl": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "type": "library",
+          "version": "2025.9.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/markupsafe@3.0.4",
+          "name": "markupsafe",
+          "purl": "pkg:pypi/markupsafe@3.0.4",
+          "type": "library",
+          "version": "3.0.4"
+        },
+        {
+          "bom-ref": "pkg:pypi/mistune@3.4.0",
+          "name": "mistune",
+          "purl": "pkg:pypi/mistune@3.4.0",
+          "type": "library",
+          "version": "3.4.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/packaging@26.3",
+          "name": "packaging",
+          "purl": "pkg:pypi/packaging@26.3",
+          "type": "library",
+          "version": "26.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pycparser@3.11",
+          "name": "pycparser",
+          "purl": "pkg:pypi/pycparser@3.11",
+          "type": "library",
+          "version": "3.11"
+        },
+        {
+          "bom-ref": "pkg:pypi/pyyaml@6.0.3",
+          "name": "pyyaml",
+          "purl": "pkg:pypi/pyyaml@6.0.3",
+          "type": "library",
+          "version": "6.0.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/referencing@0.37.0",
+          "name": "referencing",
+          "purl": "pkg:pypi/referencing@0.37.0",
+          "type": "library",
+          "version": "0.37.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/rpds-py@2026.9.1",
+          "name": "rpds-py",
+          "purl": "pkg:pypi/rpds-py@2026.9.1",
+          "type": "library",
+          "version": "2026.9.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/six@1.17.0",
+          "name": "six",
+          "purl": "pkg:pypi/six@1.17.0",
+          "type": "library",
+          "version": "1.17.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+          "name": "typing-extensions",
+          "purl": "pkg:pypi/typing-extensions@4.16.0",
+          "type": "library",
+          "version": "4.16.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/werkzeug@3.1.9",
+          "name": "werkzeug",
+          "purl": "pkg:pypi/werkzeug@3.1.9",
+          "type": "library",
+          "version": "3.1.9"
+        }
+      ],
+      "dependencies": [
+        {
+          "dependsOn": [
+            "pkg:pypi/cffi@2.1.1"
+          ],
+          "ref": "pkg:pypi/brotlicffi@1.2.0.2"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/pycparser@3.11"
+          ],
+          "ref": "pkg:pypi/cffi@2.1.1"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/flask@3.1.3",
+            "pkg:pypi/jsonschema@4.26.0",
+            "pkg:pypi/mistune@3.4.0",
+            "pkg:pypi/packaging@26.3",
+            "pkg:pypi/pyyaml@6.0.3",
+            "pkg:pypi/six@1.17.0"
+          ],
+          "ref": "pkg:pypi/flasgger@0.9.7.1"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/blinker@1.9.0",
+            "pkg:pypi/click@8.5.0",
+            "pkg:pypi/itsdangerous@2.2.0",
+            "pkg:pypi/jinja2@3.1.6",
+            "pkg:pypi/markupsafe@3.0.4",
+            "pkg:pypi/werkzeug@3.1.9"
+          ],
+          "ref": "pkg:pypi/flask@3.1.3"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/brotlicffi@1.2.0.2",
+            "pkg:pypi/decorator@5.3.1",
+            "pkg:pypi/flasgger@0.9.7.1",
+            "pkg:pypi/flask@3.1.3",
+            "pkg:pypi/greenlet@2.0.2",
+            "pkg:pypi/six@1.17.0",
+            "pkg:pypi/werkzeug@3.1.9"
+          ],
+          "ref": "pkg:pypi/httpbin@0.10.2"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/markupsafe@3.0.4"
+          ],
+          "ref": "pkg:pypi/jinja2@3.1.6"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/referencing@0.37.0"
+          ],
+          "ref": "pkg:pypi/jsonschema-specifications@2025.9.1"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/attrs@26.1.0",
+            "pkg:pypi/jsonschema-specifications@2025.9.1",
+            "pkg:pypi/referencing@0.37.0",
+            "pkg:pypi/rpds-py@2026.9.1"
+          ],
+          "ref": "pkg:pypi/jsonschema@4.26.0"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          "ref": "pkg:pypi/mistune@3.4.0"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/attrs@26.1.0",
+            "pkg:pypi/rpds-py@2026.9.1",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          "ref": "pkg:pypi/referencing@0.37.0"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/markupsafe@3.0.4"
+          ],
+          "ref": "pkg:pypi/werkzeug@3.1.9"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/httpbin@0.10.2",
+          "name": "httpbin",
+          "purl": "pkg:pypi/httpbin@0.10.2",
+          "type": "application",
+          "version": "0.10.2"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "baseline_id": "B2",
+    "baseline_name": "Maximal Supergraph",
+    "predicted_edges": [
+      [
+        "pkg:pypi/brotlicffi@1.2.0.2",
+        "pkg:pypi/cffi@2.1.1"
+      ],
+      [
+        "pkg:pypi/cffi@2.1.1",
+        "pkg:pypi/pycparser@3.11"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/flask@3.1.3"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/jsonschema@4.26.0"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/mistune@3.4.0"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/packaging@26.3"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/pyyaml@6.0.3"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/six@1.17.0"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/blinker@1.9.0"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/click@8.5.0"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/itsdangerous@2.2.0"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/jinja2@3.1.6"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/markupsafe@3.0.4"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/werkzeug@3.1.9"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/brotlicffi@1.2.0.2"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/decorator@5.3.1"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/flasgger@0.9.7.1"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/flask@3.1.3"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/greenlet@2.0.2"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/six@1.17.0"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/werkzeug@3.1.9"
+      ],
+      [
+        "pkg:pypi/jinja2@3.1.6",
+        "pkg:pypi/markupsafe@3.0.4"
+      ],
+      [
+        "pkg:pypi/jsonschema-specifications@2025.9.1",
+        "pkg:pypi/referencing@0.37.0"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/attrs@26.1.0"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/jsonschema-specifications@2025.9.1"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/referencing@0.37.0"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/rpds-py@2026.9.1"
+      ],
+      [
+        "pkg:pypi/mistune@3.4.0",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ],
+      [
+        "pkg:pypi/referencing@0.37.0",
+        "pkg:pypi/attrs@26.1.0"
+      ],
+      [
+        "pkg:pypi/referencing@0.37.0",
+        "pkg:pypi/rpds-py@2026.9.1"
+      ],
+      [
+        "pkg:pypi/referencing@0.37.0",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ],
+      [
+        "pkg:pypi/werkzeug@3.1.9",
+        "pkg:pypi/markupsafe@3.0.4"
+      ]
+    ]
+  },
+  "B3": {
+    "G_candidate": {
+      "contradictions": [],
+      "edges": [
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": "python_version < \"3.13\"",
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: python_version < \"3.13\"",
+          "source_purl": "pkg:pypi/brotlicffi@1.2.0.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/cffi@2.1.1",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": "implementation_name != \"PyPy\"",
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: implementation_name != \"PyPy\"",
+          "source_purl": "pkg:pypi/cffi@2.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pycparser@3.11",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/flasgger@0.9.7.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/flask@3.1.3",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/flasgger@0.9.7.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pyyaml@6.0.3",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/flasgger@0.9.7.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/jsonschema@4.26.0",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/flasgger@0.9.7.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/mistune@3.4.0",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/flasgger@0.9.7.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/six@1.17.0",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/flasgger@0.9.7.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/packaging@26.3",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/blinker@1.9.0",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/click@8.5.0",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/itsdangerous@2.2.0",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/jinja2@3.1.6",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/markupsafe@3.0.4",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/flask@3.1.3",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/werkzeug@3.1.9",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/brotlicffi@1.2.0.2",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/decorator@5.3.1",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/flasgger@0.9.7.1",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/flask@3.1.3",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/six@1.17.0",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/werkzeug@3.1.9",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": "python_version < \"3.12\"",
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: python_version < \"3.12\"",
+          "source_purl": "pkg:pypi/httpbin@0.10.2",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/greenlet@2.0.2",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/jinja2@3.1.6",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/markupsafe@3.0.4",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/referencing@0.37.0",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/attrs@26.1.0",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/referencing@0.37.0",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/jsonschema@4.26.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/rpds-py@2026.9.1",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/referencing@0.37.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/attrs@26.1.0",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/referencing@0.37.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/rpds-py@2026.9.1",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": "python_version < \"3.13\"",
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: python_version < \"3.13\"",
+          "source_purl": "pkg:pypi/referencing@0.37.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/typing-extensions@4.16.0",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/werkzeug@3.1.9",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/markupsafe@3.0.4",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        }
+      ],
+      "nodes": []
+    },
+    "G_obs": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/attrs@26.1.0",
+          "name": "attrs",
+          "purl": "pkg:pypi/attrs@26.1.0",
+          "type": "library",
+          "version": "26.1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/blinker@1.9.0",
+          "name": "blinker",
+          "purl": "pkg:pypi/blinker@1.9.0",
+          "type": "library",
+          "version": "1.9.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/brotlicffi@1.2.0.2",
+          "name": "brotlicffi",
+          "purl": "pkg:pypi/brotlicffi@1.2.0.2",
+          "type": "library",
+          "version": "1.2.0.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/cffi@2.1.1",
+          "name": "cffi",
+          "purl": "pkg:pypi/cffi@2.1.1",
+          "type": "library",
+          "version": "2.1.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/click@8.5.0",
+          "name": "click",
+          "purl": "pkg:pypi/click@8.5.0",
+          "type": "library",
+          "version": "8.5.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/decorator@5.3.1",
+          "name": "decorator",
+          "purl": "pkg:pypi/decorator@5.3.1",
+          "type": "library",
+          "version": "5.3.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/flasgger@0.9.7.1",
+          "name": "flasgger",
+          "purl": "pkg:pypi/flasgger@0.9.7.1",
+          "type": "library",
+          "version": "0.9.7.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/flask@3.1.3",
+          "name": "flask",
+          "purl": "pkg:pypi/flask@3.1.3",
+          "type": "library",
+          "version": "3.1.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/greenlet@2.0.2",
+          "name": "greenlet",
+          "purl": "pkg:pypi/greenlet@2.0.2",
+          "type": "library",
+          "version": "2.0.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/itsdangerous@2.2.0",
+          "name": "itsdangerous",
+          "purl": "pkg:pypi/itsdangerous@2.2.0",
+          "type": "library",
+          "version": "2.2.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/jinja2@3.1.6",
+          "name": "jinja2",
+          "purl": "pkg:pypi/jinja2@3.1.6",
+          "type": "library",
+          "version": "3.1.6"
+        },
+        {
+          "bom-ref": "pkg:pypi/jsonschema@4.26.0",
+          "name": "jsonschema",
+          "purl": "pkg:pypi/jsonschema@4.26.0",
+          "type": "library",
+          "version": "4.26.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "name": "jsonschema-specifications",
+          "purl": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "type": "library",
+          "version": "2025.9.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/markupsafe@3.0.4",
+          "name": "markupsafe",
+          "purl": "pkg:pypi/markupsafe@3.0.4",
+          "type": "library",
+          "version": "3.0.4"
+        },
+        {
+          "bom-ref": "pkg:pypi/mistune@3.4.0",
+          "name": "mistune",
+          "purl": "pkg:pypi/mistune@3.4.0",
+          "type": "library",
+          "version": "3.4.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/packaging@26.3",
+          "name": "packaging",
+          "purl": "pkg:pypi/packaging@26.3",
+          "type": "library",
+          "version": "26.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pycparser@3.11",
+          "name": "pycparser",
+          "purl": "pkg:pypi/pycparser@3.11",
+          "type": "library",
+          "version": "3.11"
+        },
+        {
+          "bom-ref": "pkg:pypi/pyyaml@6.0.3",
+          "name": "pyyaml",
+          "purl": "pkg:pypi/pyyaml@6.0.3",
+          "type": "library",
+          "version": "6.0.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/referencing@0.37.0",
+          "name": "referencing",
+          "purl": "pkg:pypi/referencing@0.37.0",
+          "type": "library",
+          "version": "0.37.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/rpds-py@2026.9.1",
+          "name": "rpds-py",
+          "purl": "pkg:pypi/rpds-py@2026.9.1",
+          "type": "library",
+          "version": "2026.9.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/six@1.17.0",
+          "name": "six",
+          "purl": "pkg:pypi/six@1.17.0",
+          "type": "library",
+          "version": "1.17.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+          "name": "typing-extensions",
+          "purl": "pkg:pypi/typing-extensions@4.16.0",
+          "type": "library",
+          "version": "4.16.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/werkzeug@3.1.9",
+          "name": "werkzeug",
+          "purl": "pkg:pypi/werkzeug@3.1.9",
+          "type": "library",
+          "version": "3.1.9"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/httpbin@0.10.2",
+          "name": "httpbin",
+          "purl": "pkg:pypi/httpbin@0.10.2",
+          "type": "application",
+          "version": "0.10.2"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "G_reconstructed": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/attrs@26.1.0",
+          "name": "attrs",
+          "purl": "pkg:pypi/attrs@26.1.0",
+          "type": "library",
+          "version": "26.1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/blinker@1.9.0",
+          "name": "blinker",
+          "purl": "pkg:pypi/blinker@1.9.0",
+          "type": "library",
+          "version": "1.9.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/brotlicffi@1.2.0.2",
+          "name": "brotlicffi",
+          "purl": "pkg:pypi/brotlicffi@1.2.0.2",
+          "type": "library",
+          "version": "1.2.0.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/cffi@2.1.1",
+          "name": "cffi",
+          "purl": "pkg:pypi/cffi@2.1.1",
+          "type": "library",
+          "version": "2.1.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/click@8.5.0",
+          "name": "click",
+          "purl": "pkg:pypi/click@8.5.0",
+          "type": "library",
+          "version": "8.5.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/decorator@5.3.1",
+          "name": "decorator",
+          "purl": "pkg:pypi/decorator@5.3.1",
+          "type": "library",
+          "version": "5.3.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/flasgger@0.9.7.1",
+          "name": "flasgger",
+          "purl": "pkg:pypi/flasgger@0.9.7.1",
+          "type": "library",
+          "version": "0.9.7.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/flask@3.1.3",
+          "name": "flask",
+          "purl": "pkg:pypi/flask@3.1.3",
+          "type": "library",
+          "version": "3.1.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/greenlet@2.0.2",
+          "name": "greenlet",
+          "purl": "pkg:pypi/greenlet@2.0.2",
+          "type": "library",
+          "version": "2.0.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/itsdangerous@2.2.0",
+          "name": "itsdangerous",
+          "purl": "pkg:pypi/itsdangerous@2.2.0",
+          "type": "library",
+          "version": "2.2.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/jinja2@3.1.6",
+          "name": "jinja2",
+          "purl": "pkg:pypi/jinja2@3.1.6",
+          "type": "library",
+          "version": "3.1.6"
+        },
+        {
+          "bom-ref": "pkg:pypi/jsonschema@4.26.0",
+          "name": "jsonschema",
+          "purl": "pkg:pypi/jsonschema@4.26.0",
+          "type": "library",
+          "version": "4.26.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "name": "jsonschema-specifications",
+          "purl": "pkg:pypi/jsonschema-specifications@2025.9.1",
+          "type": "library",
+          "version": "2025.9.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/markupsafe@3.0.4",
+          "name": "markupsafe",
+          "purl": "pkg:pypi/markupsafe@3.0.4",
+          "type": "library",
+          "version": "3.0.4"
+        },
+        {
+          "bom-ref": "pkg:pypi/mistune@3.4.0",
+          "name": "mistune",
+          "purl": "pkg:pypi/mistune@3.4.0",
+          "type": "library",
+          "version": "3.4.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/packaging@26.3",
+          "name": "packaging",
+          "purl": "pkg:pypi/packaging@26.3",
+          "type": "library",
+          "version": "26.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pycparser@3.11",
+          "name": "pycparser",
+          "purl": "pkg:pypi/pycparser@3.11",
+          "type": "library",
+          "version": "3.11"
+        },
+        {
+          "bom-ref": "pkg:pypi/pyyaml@6.0.3",
+          "name": "pyyaml",
+          "purl": "pkg:pypi/pyyaml@6.0.3",
+          "type": "library",
+          "version": "6.0.3"
+        },
+        {
+          "bom-ref": "pkg:pypi/referencing@0.37.0",
+          "name": "referencing",
+          "purl": "pkg:pypi/referencing@0.37.0",
+          "type": "library",
+          "version": "0.37.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/rpds-py@2026.9.1",
+          "name": "rpds-py",
+          "purl": "pkg:pypi/rpds-py@2026.9.1",
+          "type": "library",
+          "version": "2026.9.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/six@1.17.0",
+          "name": "six",
+          "purl": "pkg:pypi/six@1.17.0",
+          "type": "library",
+          "version": "1.17.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+          "name": "typing-extensions",
+          "purl": "pkg:pypi/typing-extensions@4.16.0",
+          "type": "library",
+          "version": "4.16.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/werkzeug@3.1.9",
+          "name": "werkzeug",
+          "purl": "pkg:pypi/werkzeug@3.1.9",
+          "type": "library",
+          "version": "3.1.9"
+        }
+      ],
+      "dependencies": [
+        {
+          "dependsOn": [
+            "pkg:pypi/cffi@2.1.1"
+          ],
+          "ref": "pkg:pypi/brotlicffi@1.2.0.2"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/pycparser@3.11"
+          ],
+          "ref": "pkg:pypi/cffi@2.1.1"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/flask@3.1.3",
+            "pkg:pypi/jsonschema@4.26.0",
+            "pkg:pypi/mistune@3.4.0",
+            "pkg:pypi/packaging@26.3",
+            "pkg:pypi/pyyaml@6.0.3",
+            "pkg:pypi/six@1.17.0"
+          ],
+          "ref": "pkg:pypi/flasgger@0.9.7.1"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/blinker@1.9.0",
+            "pkg:pypi/click@8.5.0",
+            "pkg:pypi/itsdangerous@2.2.0",
+            "pkg:pypi/jinja2@3.1.6",
+            "pkg:pypi/markupsafe@3.0.4",
+            "pkg:pypi/werkzeug@3.1.9"
+          ],
+          "ref": "pkg:pypi/flask@3.1.3"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/brotlicffi@1.2.0.2",
+            "pkg:pypi/decorator@5.3.1",
+            "pkg:pypi/flasgger@0.9.7.1",
+            "pkg:pypi/flask@3.1.3",
+            "pkg:pypi/greenlet@2.0.2",
+            "pkg:pypi/six@1.17.0",
+            "pkg:pypi/werkzeug@3.1.9"
+          ],
+          "ref": "pkg:pypi/httpbin@0.10.2"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/markupsafe@3.0.4"
+          ],
+          "ref": "pkg:pypi/jinja2@3.1.6"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/referencing@0.37.0"
+          ],
+          "ref": "pkg:pypi/jsonschema-specifications@2025.9.1"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/attrs@26.1.0",
+            "pkg:pypi/jsonschema-specifications@2025.9.1",
+            "pkg:pypi/referencing@0.37.0",
+            "pkg:pypi/rpds-py@2026.9.1"
+          ],
+          "ref": "pkg:pypi/jsonschema@4.26.0"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/attrs@26.1.0",
+            "pkg:pypi/rpds-py@2026.9.1",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          "ref": "pkg:pypi/referencing@0.37.0"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/markupsafe@3.0.4"
+          ],
+          "ref": "pkg:pypi/werkzeug@3.1.9"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/httpbin@0.10.2",
+          "name": "httpbin",
+          "purl": "pkg:pypi/httpbin@0.10.2",
+          "type": "application",
+          "version": "0.10.2"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "baseline_id": "B3",
+    "baseline_name": "Context-aware Deterministic Heuristic",
+    "environment_mode": "single_target",
+    "extras_by_environment": [
+      {}
+    ],
+    "modality_scope": "target_environment",
+    "predicted_edges": [
+      [
+        "pkg:pypi/brotlicffi@1.2.0.2",
+        "pkg:pypi/cffi@2.1.1"
+      ],
+      [
+        "pkg:pypi/cffi@2.1.1",
+        "pkg:pypi/pycparser@3.11"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/flask@3.1.3"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/jsonschema@4.26.0"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/mistune@3.4.0"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/packaging@26.3"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/pyyaml@6.0.3"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/six@1.17.0"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/blinker@1.9.0"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/click@8.5.0"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/itsdangerous@2.2.0"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/jinja2@3.1.6"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/markupsafe@3.0.4"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/werkzeug@3.1.9"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/brotlicffi@1.2.0.2"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/decorator@5.3.1"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/flasgger@0.9.7.1"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/flask@3.1.3"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/greenlet@2.0.2"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/six@1.17.0"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/werkzeug@3.1.9"
+      ],
+      [
+        "pkg:pypi/jinja2@3.1.6",
+        "pkg:pypi/markupsafe@3.0.4"
+      ],
+      [
+        "pkg:pypi/jsonschema-specifications@2025.9.1",
+        "pkg:pypi/referencing@0.37.0"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/attrs@26.1.0"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/jsonschema-specifications@2025.9.1"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/referencing@0.37.0"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/rpds-py@2026.9.1"
+      ],
+      [
+        "pkg:pypi/referencing@0.37.0",
+        "pkg:pypi/attrs@26.1.0"
+      ],
+      [
+        "pkg:pypi/referencing@0.37.0",
+        "pkg:pypi/rpds-py@2026.9.1"
+      ],
+      [
+        "pkg:pypi/referencing@0.37.0",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ],
+      [
+        "pkg:pypi/werkzeug@3.1.9",
+        "pkg:pypi/markupsafe@3.0.4"
+      ]
+    ],
+    "summary": {
+      "candidate_edges": 31,
+      "contradictions_detected": 0,
+      "inferred_nodes": 0,
+      "observed_edges": 0,
+      "observed_nodes": 27,
+      "total_reconstructed_nodes": 27
+    },
+    "target_environment": {
+      "active_extras": [],
+      "os_name": "posix",
+      "platform_machine": "x86_64",
+      "platform_system": "Linux",
+      "python_full_version": null,
+      "python_version": "3.11",
+      "sys_platform": "linux"
+    },
+    "unresolved": [
+      {
+        "parent": "pkg:pypi/my-test-package@1.0",
+        "reason": "EVIDENCE_UNAVAILABLE"
+      },
+      {
+        "parent": "pkg:pypi/setuptools@79.0.1",
+        "reason": "EVIDENCE_UNAVAILABLE"
+      }
+    ]
+  }
+}

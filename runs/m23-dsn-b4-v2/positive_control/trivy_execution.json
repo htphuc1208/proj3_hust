@@ -1,0 +1,4 @@
+{
+  "input": "requests==2.31.0",
+  "stderr": "2026-10-23T04:22:20+07:00\tINFO\t\"--format cyclonedx\" disables security scanning. Specify \"--scanners vuln\" explicitly if you want to include vulnerabilities in the \"cyclonedx\" report.\n2026-10-23T04:22:20+07:00\tWARN\t[pip] Unable to find python `site-packages` directory. License detection is skipped.\terr=\"site-packages directory not found\"\n2026-10-23T04:22:20+07:00\tINFO\tNumber of language-specific files\tnum=1\n"
+}

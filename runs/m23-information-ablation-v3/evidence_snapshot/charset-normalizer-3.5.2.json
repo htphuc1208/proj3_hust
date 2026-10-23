@@ -1,0 +1,708 @@
+{
+  "attempts": [
+    {
+      "method": "public-wheel",
+      "status": "COMPLETE"
+    }
+  ],
+  "distribution_type": "bdist_wheel",
+  "dynamic_fields": [
+    "license-file"
+  ],
+  "extraction_method": "public-wheel",
+  "metadata_sha256": "89ce6362bb7be88558f4be99a98f5d1b4da93d19cd0323e5ee0bac05cf883dfb",
+  "metadata_status": "COMPLETE",
+  "metadata_version": "2.4",
+  "name": "charset-normalizer",
+  "provenance": {
+    "artifact_filename": "charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "artifact_sha256": "211d5a3eb6af8f513b8d4ca19a8c1b7accab1b5f0d3175f9826b03c1a920dc1f",
+    "artifact_url": "https://files.pythonhosted.org/packages/e4/ed/cf505d3011ffceb12c2067a7a5d3cfe92b875d4d44bb0ff0d69375e2c184/charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "cutoff": "2026-10-22T04:09:45.004707+00:00",
+    "cutoff_status": "INSTALLATION_TIME_UNKNOWN; conservative minimum observed SBOM horizon",
+    "fetched_at": "2026-10-22T21:07:08.513116Z",
+    "index_sha256": "9fda300857ae6a0486b4cd2d2fec7817ed2d45657249a6dfc0c2bbd1a44267b6",
+    "rejections": [
+      {
+        "filename": "charset_normalizer-3.5.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp310-cp310-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp310-cp310-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp310-cp310-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp310-cp310-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp310-cp310-musllinux_1_2_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp310-cp310-musllinux_1_2_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp310-cp310-musllinux_1_2_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp310-cp310-musllinux_1_2_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp310-cp310-musllinux_1_2_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp310-cp310-musllinux_1_2_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp310-cp310-win32.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp310-cp310-win_amd64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp310-cp310-win_arm64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp311-cp311-macosx_10_9_universal2.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp311-cp311-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp311-cp311-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp311-cp311-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp311-cp311-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp311-cp311-musllinux_1_2_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp311-cp311-musllinux_1_2_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp311-cp311-musllinux_1_2_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp311-cp311-musllinux_1_2_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp311-cp311-musllinux_1_2_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp311-cp311-musllinux_1_2_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp311-cp311-win32.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp311-cp311-win_amd64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp311-cp311-win_arm64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp312-cp312-macosx_10_13_universal2.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp312-cp312-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp312-cp312-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp312-cp312-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp312-cp312-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp312-cp312-musllinux_1_2_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp312-cp312-musllinux_1_2_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp312-cp312-musllinux_1_2_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp312-cp312-musllinux_1_2_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp312-cp312-musllinux_1_2_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp312-cp312-musllinux_1_2_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp312-cp312-win32.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp312-cp312-win_arm64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-android_24_arm64_v8a.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-android_24_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-ios_13_0_arm64_iphoneos.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-ios_13_0_arm64_iphonesimulator.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-macosx_10_13_universal2.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-musllinux_1_2_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-musllinux_1_2_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-musllinux_1_2_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-musllinux_1_2_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-musllinux_1_2_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-musllinux_1_2_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-pyemscripten_2025_0_wasm32.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-win32.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-win_amd64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp313-cp313-win_arm64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-android_24_arm64_v8a.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-android_24_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-ios_13_0_arm64_iphoneos.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-ios_13_0_arm64_iphonesimulator.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-macosx_10_15_universal2.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-musllinux_1_2_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-musllinux_1_2_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-musllinux_1_2_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-musllinux_1_2_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-musllinux_1_2_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-musllinux_1_2_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314t-macosx_10_15_universal2.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314t-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314t-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314t-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314t-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314t-musllinux_1_2_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314t-musllinux_1_2_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314t-musllinux_1_2_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314t-musllinux_1_2_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314t-musllinux_1_2_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314t-musllinux_1_2_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314t-win32.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314t-win_amd64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314t-win_arm64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-win32.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-win_amd64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp314-cp314-win_arm64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315-macosx_10_15_universal2.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315-musllinux_1_2_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315-musllinux_1_2_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315-musllinux_1_2_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315-musllinux_1_2_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315-musllinux_1_2_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315-musllinux_1_2_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315t-macosx_10_15_universal2.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315t-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315t-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315t-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315t-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315t-musllinux_1_2_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315t-musllinux_1_2_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315t-musllinux_1_2_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315t-musllinux_1_2_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315t-musllinux_1_2_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315t-musllinux_1_2_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315t-win32.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315t-win_amd64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315t-win_arm64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315-win32.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315-win_amd64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp315-cp315-win_arm64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp37-abi3-macosx_10_9_universal2.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp37-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp37-abi3-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp37-abi3-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp37-abi3-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp37-abi3-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp37-abi3-musllinux_1_2_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp37-abi3-musllinux_1_2_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp37-abi3-musllinux_1_2_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp37-abi3-musllinux_1_2_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp37-abi3-musllinux_1_2_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp37-abi3-musllinux_1_2_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp37-abi3-win32.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp37-abi3-win_amd64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp37-abi3-win_arm64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp39-cp39-macosx_10_9_universal2.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp39-cp39-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp39-cp39-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp39-cp39-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp39-cp39-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp39-cp39-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp39-cp39-musllinux_1_2_aarch64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp39-cp39-musllinux_1_2_armv7l.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp39-cp39-musllinux_1_2_ppc64le.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp39-cp39-musllinux_1_2_riscv64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp39-cp39-musllinux_1_2_s390x.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp39-cp39-musllinux_1_2_x86_64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp39-cp39-win32.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp39-cp39-win_amd64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2-cp39-cp39-win_arm64.whl",
+        "reason": "WHEEL_TAG_INCOMPATIBLE"
+      }
+    ],
+    "source_pypi_json_url": "https://pypi.org/pypi/charset-normalizer/3.5.2/json",
+    "uploaded_at": "2026-09-30T04:35:14.606238Z"
+  },
+  "provides_extra": [
+    "unicode-backport"
+  ],
+  "requires_dist": [],
+  "requires_python": ">=3.7",
+  "version": "3.5.2"
+}

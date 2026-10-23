@@ -1,0 +1,276 @@
+{
+  "data_kind": "AUTHORED_METADATA_BENCHMARK",
+  "entrypoint": "r.txt",
+  "fresh_reference": {
+    "edges": 9,
+    "nodes": 10,
+    "sha256": "8baefa149560636d08716e6130eaa55694390e6c8dc64fed4e23ba65fb2f9e87",
+    "unresolved_requirements": 0
+  },
+  "input_hashes": {
+    "const.txt": "cd1bee38b796825ce46d8505ef4267cd20ed0c9a2961ba6738659a106b50a3fc",
+    "r.txt": "c9c64c8135770a8279171a8107e86ebc3c7e24280104c48de021c71c7931f248"
+  },
+  "input_policy": "Original selected entrypoint plus referenced files; author groundtruth and other entrypoint NOT visible to scanners",
+  "installation_attempts": {
+    "b4": {
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--cap-drop=ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--memory=2g",
+        "--cpus=2",
+        "--pids-limit=128",
+        "--user",
+        "1000:1000",
+        "-v",
+        "/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/r:/source:ro",
+        "-v",
+        "/home/phucht/project/sbom_security_poc/runs/m23-dsn-b4-v2/r/b4:/out:rw",
+        "--workdir",
+        "/source",
+        "--entrypoint",
+        "python",
+        "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+        "-m",
+        "pip",
+        "install",
+        "--dry-run",
+        "--ignore-installed",
+        "--report",
+        "/out/resolution.json",
+        "-r",
+        "r.txt"
+      ],
+      "comparison_eligibility": "NONCOMPARABLE_TO_HISTORICAL_INSTALLATION; live index not a 2024 snapshot",
+      "exit_code": 0,
+      "log_sha256": "542a50cba06dd40a427656f7c40bd630bfc58f9e5712c89ee9d6046c6f829ec6",
+      "status": "RAN"
+    },
+    "independent_install": {
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--cap-drop=ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--memory=2g",
+        "--cpus=2",
+        "--pids-limit=128",
+        "--user",
+        "1000:1000",
+        "-v",
+        "/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/r:/source:ro",
+        "-v",
+        "/home/phucht/project/sbom_security_poc/runs/m23-dsn-b4-v2/r/independent_install:/out:rw",
+        "-v",
+        "/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/install_code:/code:ro",
+        "--workdir",
+        "/source",
+        "--entrypoint",
+        "python",
+        "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+        "/code/attempt_dsn_install.py",
+        "r.txt"
+      ],
+      "comparison_eligibility": "NONCOMPARABLE_TO_HISTORICAL_INSTALLATION; live index not a 2024 snapshot",
+      "exit_code": 0,
+      "log_sha256": "06dfa1a0a924680437f5edbf8bb22e0eaaaa331fcf40045aea2a2ed9228f7499",
+      "status": "RAN"
+    }
+  },
+  "reproduction_status": "PARTIALLY_REPRODUCED",
+  "scanners": {
+    "syft": {
+      "author_label_agreement": null,
+      "command": [
+        "/home/phucht/project/sbom_security_poc/research/.work/syft",
+        "scan",
+        "dir:/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/r",
+        "-o",
+        "cyclonedx-json"
+      ],
+      "completed_at": "2026-10-22T21:23:18.867525Z",
+      "component_count": 0,
+      "components": [],
+      "dependency_edge_metrics": "UNMEASURED; authors' component list has no direct-edge labels",
+      "fresh_installed_component_score": {
+        "f1": 0.0,
+        "fn": 10,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "fresh_installed_edge_evaluation": {
+        "additions": {
+          "f1": 0.0,
+          "fn": 9,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tp": 0
+        },
+        "edge_audit": [],
+        "excluded_or_unknown_edges": 0,
+        "false_positive_edges": [],
+        "missed_edges": [
+          [
+            "pkg:pypi/cffi@2.1.1",
+            "pkg:pypi/pycparser@3.12"
+          ],
+          [
+            "pkg:pypi/cryptography@50.0.2",
+            "pkg:pypi/cffi@2.1.1"
+          ],
+          [
+            "pkg:pypi/ndg-httpsclient@0.5.1",
+            "pkg:pypi/pyasn1@0.6.4"
+          ],
+          [
+            "pkg:pypi/ndg-httpsclient@0.5.1",
+            "pkg:pypi/pyopenssl@26.4.0"
+          ],
+          [
+            "pkg:pypi/pyopenssl@26.4.0",
+            "pkg:pypi/cryptography@50.0.2"
+          ],
+          [
+            "pkg:pypi/pyopenssl@26.4.0",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          [
+            "pkg:pypi/requests@2.8.1",
+            "pkg:pypi/ndg-httpsclient@0.5.1"
+          ],
+          [
+            "pkg:pypi/requests@2.8.1",
+            "pkg:pypi/pyasn1@0.6.4"
+          ],
+          [
+            "pkg:pypi/requests@2.8.1",
+            "pkg:pypi/pyopenssl@26.4.0"
+          ]
+        ],
+        "recovered_edges": [],
+        "reference_edges": 9,
+        "reference_nodes": 10,
+        "unresolved_reference_requirements": [],
+        "whole_graph": {
+          "f1": 0.0,
+          "fn": 9,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tp": 0
+        }
+      },
+      "fresh_reference_caveat": "Contemporary live-index installation; not the authors' 2024 environment",
+      "label_scope": "No released per-entrypoint label; no invented precision/recall",
+      "latency_seconds": 0.8716269940005077,
+      "output_sha256": "4d33abf2dc9c6fa4cfc59d69a0afbadf09ec1d1359a3816d56675a60fee72155",
+      "started_at": "2026-10-22T21:23:17.995895Z",
+      "status": "RAN"
+    },
+    "trivy": {
+      "author_label_agreement": null,
+      "command": [
+        "/home/phucht/project/sbom_security_poc/research/.work/trivy",
+        "fs",
+        "--format",
+        "cyclonedx",
+        "--skip-db-update",
+        "--skip-java-db-update",
+        "--offline-scan",
+        "--skip-check-update",
+        "/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/r"
+      ],
+      "completed_at": "2026-10-22T21:23:19.110358Z",
+      "component_count": 0,
+      "components": [],
+      "dependency_edge_metrics": "UNMEASURED; authors' component list has no direct-edge labels",
+      "fresh_installed_component_score": {
+        "f1": 0.0,
+        "fn": 10,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "fresh_installed_edge_evaluation": {
+        "additions": {
+          "f1": 0.0,
+          "fn": 9,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tp": 0
+        },
+        "edge_audit": [],
+        "excluded_or_unknown_edges": 0,
+        "false_positive_edges": [],
+        "missed_edges": [
+          [
+            "pkg:pypi/cffi@2.1.1",
+            "pkg:pypi/pycparser@3.12"
+          ],
+          [
+            "pkg:pypi/cryptography@50.0.2",
+            "pkg:pypi/cffi@2.1.1"
+          ],
+          [
+            "pkg:pypi/ndg-httpsclient@0.5.1",
+            "pkg:pypi/pyasn1@0.6.4"
+          ],
+          [
+            "pkg:pypi/ndg-httpsclient@0.5.1",
+            "pkg:pypi/pyopenssl@26.4.0"
+          ],
+          [
+            "pkg:pypi/pyopenssl@26.4.0",
+            "pkg:pypi/cryptography@50.0.2"
+          ],
+          [
+            "pkg:pypi/pyopenssl@26.4.0",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          [
+            "pkg:pypi/requests@2.8.1",
+            "pkg:pypi/ndg-httpsclient@0.5.1"
+          ],
+          [
+            "pkg:pypi/requests@2.8.1",
+            "pkg:pypi/pyasn1@0.6.4"
+          ],
+          [
+            "pkg:pypi/requests@2.8.1",
+            "pkg:pypi/pyopenssl@26.4.0"
+          ]
+        ],
+        "recovered_edges": [],
+        "reference_edges": 9,
+        "reference_nodes": 10,
+        "unresolved_reference_requirements": [],
+        "whole_graph": {
+          "f1": 0.0,
+          "fn": 9,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tp": 0
+        }
+      },
+      "fresh_reference_caveat": "Contemporary live-index installation; not the authors' 2024 environment",
+      "label_scope": "No released per-entrypoint label; no invented precision/recall",
+      "latency_seconds": 0.05407352299971535,
+      "output_sha256": "19f67f1d9849ed08adad14e8bdc7e4d260d969390f4b2ccc45794273b50061e3",
+      "started_at": "2026-10-22T21:23:19.056280Z",
+      "status": "RAN"
+    }
+  },
+  "source_commit": "e6bcf23b2f4e384f9fc398793529583845612b63"
+}

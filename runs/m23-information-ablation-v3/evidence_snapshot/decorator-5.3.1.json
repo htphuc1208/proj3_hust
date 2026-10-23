@@ -1,0 +1,25 @@
+{
+  "artifact_level_metadata": {
+    "wheel_bytes_verified": true,
+    "wheel_local_sha256": "f47fe6fdbd2edd623ecfe36875d37aba411624e2670dd395dddae1358689bb3c",
+    "wheel_metadata_file": "decorator-5.3.1.dist-info/METADATA",
+    "wheel_metadata_sha256": "2133792485403bbd739e1db5960228bedbcde6d00c0acc052b27f39dbae5b5c4"
+  },
+  "distribution_type": "wheel",
+  "name": "decorator",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T07:05:44.492586+00:00",
+    "provenance_chain": "PyPI index -> Distribution artifact -> Verified SHA-256 -> Extracted METADATA -> Frozen evidence record",
+    "source_pypi_json_url": "https://pypi.org/pypi/decorator/5.3.1/json",
+    "verification_status": "VERIFIED_ARTIFACT_DIGEST_AND_METADATA",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/05/7f/798705f5296a58ca505d600456748d1be48078eac8a7050d8a98bc9edb89/decorator-5.3.1-py3-none-any.whl",
+    "wheel_filename": "decorator-5.3.1-py3-none-any.whl",
+    "wheel_sha256": "f47fe6fdbd2edd623ecfe36875d37aba411624e2670dd395dddae1358689bb3c",
+    "wheel_upload_time_utc": "2026-05-18T06:03:26.517871Z"
+  },
+  "release_requires_dist": [],
+  "requires_dist": [],
+  "requires_python": ">=3.8",
+  "version": "5.3.1"
+}

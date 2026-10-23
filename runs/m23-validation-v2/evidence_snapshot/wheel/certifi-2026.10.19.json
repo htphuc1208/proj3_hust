@@ -1,0 +1,42 @@
+{
+  "attempts": [
+    {
+      "method": "public-wheel",
+      "status": "COMPLETE"
+    }
+  ],
+  "distribution_type": "bdist_wheel",
+  "dynamic_fields": [
+    "author",
+    "author-email",
+    "classifier",
+    "description",
+    "home-page",
+    "license",
+    "license-file",
+    "project-url",
+    "requires-python",
+    "summary"
+  ],
+  "extraction_method": "public-wheel",
+  "metadata_sha256": "a5c0be3a42daeef0edfaf58e6ea5b7550f3e4e8eb35420f72e902df9bcf00f5c",
+  "metadata_status": "COMPLETE",
+  "metadata_version": "2.4",
+  "name": "certifi",
+  "provenance": {
+    "artifact_filename": "certifi-2026.10.19-py3-none-any.whl",
+    "artifact_sha256": "42d35340cc5b9ba78e818ddbff0c5b1c2b779de448a340fd1b989f5fa8670e1b",
+    "artifact_url": "https://files.pythonhosted.org/packages/c4/51/29046e48f693c54e5b7412216d447a1d8362c9653148d98c02cdf65fa733/certifi-2026.10.19-py3-none-any.whl",
+    "cutoff": "2026-10-22T04:09:45.004707+00:00",
+    "cutoff_status": "INSTALLATION_TIME_UNKNOWN; conservative minimum observed SBOM horizon",
+    "fetched_at": "2026-10-22T21:07:07.818129Z",
+    "index_sha256": "5b6ba21c20c09f5e4ca52bf8251de25fafbdb56909c60e3ba44d4f2b6ef5d319",
+    "rejections": [],
+    "source_pypi_json_url": "https://pypi.org/pypi/certifi/2026.10.19/json",
+    "uploaded_at": "2026-10-20T02:24:15.072385Z"
+  },
+  "provides_extra": [],
+  "requires_dist": [],
+  "requires_python": ">=3.7",
+  "version": "2026.10.19"
+}

@@ -1,0 +1,118 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/certifi@2026.10.19",
+      "name": "certifi",
+      "purl": "pkg:pypi/certifi@2026.10.19",
+      "type": "library",
+      "version": "2026.10.19"
+    },
+    {
+      "bom-ref": "pkg:pypi/charset-normalizer@3.5.2",
+      "name": "charset-normalizer",
+      "purl": "pkg:pypi/charset-normalizer@3.5.2",
+      "type": "library",
+      "version": "3.5.2"
+    },
+    {
+      "bom-ref": "pkg:pypi/idna@3.20",
+      "name": "idna",
+      "purl": "pkg:pypi/idna@3.20",
+      "type": "library",
+      "version": "3.20"
+    },
+    {
+      "bom-ref": "pkg:pypi/my-test-package@1.0",
+      "name": "my-test-package",
+      "purl": "pkg:pypi/my-test-package@1.0",
+      "type": "library",
+      "version": "1.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/pip@24.0",
+      "name": "pip",
+      "purl": "pkg:pypi/pip@24.0",
+      "type": "library",
+      "version": "24.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/setuptools@79.0.1",
+      "name": "setuptools",
+      "purl": "pkg:pypi/setuptools@79.0.1",
+      "type": "library",
+      "version": "79.0.1"
+    },
+    {
+      "bom-ref": "pkg:pypi/urllib3@2.8.0",
+      "name": "urllib3",
+      "purl": "pkg:pypi/urllib3@2.8.0",
+      "type": "library",
+      "version": "2.8.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/brotli",
+      "name": "brotli",
+      "properties": [
+        {
+          "name": "reconstruction:status",
+          "value": "INFERRED"
+        },
+        {
+          "name": "reconstruction:evidence",
+          "value": "frozen-public-registry-snapshot"
+        }
+      ],
+      "purl": "pkg:pypi/brotli",
+      "type": "library",
+      "version": ""
+    },
+    {
+      "bom-ref": "pkg:pypi/brotlicffi",
+      "name": "brotlicffi",
+      "properties": [
+        {
+          "name": "reconstruction:status",
+          "value": "INFERRED"
+        },
+        {
+          "name": "reconstruction:evidence",
+          "value": "frozen-public-registry-snapshot"
+        }
+      ],
+      "purl": "pkg:pypi/brotlicffi",
+      "type": "library",
+      "version": ""
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [
+        "pkg:pypi/certifi@2026.10.19",
+        "pkg:pypi/charset-normalizer@3.5.2",
+        "pkg:pypi/idna@3.20",
+        "pkg:pypi/urllib3@2.8.0"
+      ],
+      "ref": "pkg:pypi/requests@2.31.0"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "pkg:pypi/requests@2.31.0",
+      "name": "requests",
+      "purl": "pkg:pypi/requests@2.31.0",
+      "type": "application",
+      "version": "2.31.0"
+    },
+    "properties": [
+      {
+        "name": "reconstruction:interpretation",
+        "value": "Candidate graph; no installed-artifact or exploitability assertion"
+      }
+    ],
+    "timestamp": "2026-10-22T21:20:40.420585Z"
+  },
+  "serialNumber": "urn:uuid:d49f3956-d663-4abd-a1d2-69765f8d86f4",
+  "specVersion": "1.5",
+  "version": 1
+}

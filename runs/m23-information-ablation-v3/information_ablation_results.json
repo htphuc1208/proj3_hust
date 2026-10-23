@@ -1,0 +1,1579 @@
+{
+  "claim_limit": "Information sensitivity over finite contexts; no independent causal-effects or calibration claim",
+  "data_kind": "CONTROLLED_SOURCE_MASKING_ON_REAL_INSTALLATIONS",
+  "protocol": "m2.3-information-ablation-v1",
+  "provided_extras_domain": [
+    "security",
+    "socks",
+    "use_chardet_on_py3"
+  ],
+  "results": {
+    "base": {
+      "E0X0": {
+        "context_uncertain": true,
+        "contexts": [
+          {
+            "platform": "linux",
+            "python": "3.10",
+            "requested_extras": []
+          },
+          {
+            "platform": "linux",
+            "python": "3.10",
+            "requested_extras": [
+              "security"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.10",
+            "requested_extras": [
+              "socks"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.10",
+            "requested_extras": [
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.10",
+            "requested_extras": [
+              "security",
+              "socks"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.10",
+            "requested_extras": [
+              "security",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.10",
+            "requested_extras": [
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.10",
+            "requested_extras": [
+              "security",
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": []
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "security"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "socks"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "socks"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.12",
+            "requested_extras": []
+          },
+          {
+            "platform": "linux",
+            "python": "3.12",
+            "requested_extras": [
+              "security"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.12",
+            "requested_extras": [
+              "socks"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.12",
+            "requested_extras": [
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.12",
+            "requested_extras": [
+              "security",
+              "socks"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.12",
+            "requested_extras": [
+              "security",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.12",
+            "requested_extras": [
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.12",
+            "requested_extras": [
+              "security",
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.10",
+            "requested_extras": []
+          },
+          {
+            "platform": "win32",
+            "python": "3.10",
+            "requested_extras": [
+              "security"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.10",
+            "requested_extras": [
+              "socks"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.10",
+            "requested_extras": [
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.10",
+            "requested_extras": [
+              "security",
+              "socks"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.10",
+            "requested_extras": [
+              "security",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.10",
+            "requested_extras": [
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.10",
+            "requested_extras": [
+              "security",
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.11",
+            "requested_extras": []
+          },
+          {
+            "platform": "win32",
+            "python": "3.11",
+            "requested_extras": [
+              "security"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.11",
+            "requested_extras": [
+              "socks"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.11",
+            "requested_extras": [
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "socks"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.11",
+            "requested_extras": [
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "darwin",
+            "python": "3.11",
+            "requested_extras": []
+          },
+          {
+            "platform": "darwin",
+            "python": "3.11",
+            "requested_extras": [
+              "security"
+            ]
+          },
+          {
+            "platform": "darwin",
+            "python": "3.11",
+            "requested_extras": [
+              "socks"
+            ]
+          },
+          {
+            "platform": "darwin",
+            "python": "3.11",
+            "requested_extras": [
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "darwin",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "socks"
+            ]
+          },
+          {
+            "platform": "darwin",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "darwin",
+            "python": "3.11",
+            "requested_extras": [
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "darwin",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          }
+        ],
+        "environment_known": false,
+        "may_only": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/chardet"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/pysocks"
+          ]
+        ],
+        "modality_scope": "Declared finite context set only; no calibrated probabilities",
+        "must": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "must_score": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 4
+        },
+        "possible": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/chardet"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/pysocks"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "possible_score": {
+          "f1": 0.8,
+          "fn": 0,
+          "fp": 2,
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "tp": 4
+        },
+        "requested_extras_known": false,
+        "unknown": [
+          [
+            "pkg:pypi/urllib3@2.8.0",
+            "pkg:pypi/brotli"
+          ],
+          [
+            "pkg:pypi/urllib3@2.8.0",
+            "pkg:pypi/brotlicffi"
+          ]
+        ]
+      },
+      "E0X1": {
+        "context_uncertain": true,
+        "contexts": [
+          {
+            "platform": "linux",
+            "python": "3.10",
+            "requested_extras": []
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": []
+          },
+          {
+            "platform": "linux",
+            "python": "3.12",
+            "requested_extras": []
+          },
+          {
+            "platform": "win32",
+            "python": "3.10",
+            "requested_extras": []
+          },
+          {
+            "platform": "win32",
+            "python": "3.11",
+            "requested_extras": []
+          },
+          {
+            "platform": "darwin",
+            "python": "3.11",
+            "requested_extras": []
+          }
+        ],
+        "environment_known": false,
+        "may_only": [],
+        "modality_scope": "Declared finite context set only; no calibrated probabilities",
+        "must": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "must_score": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 4
+        },
+        "possible": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "possible_score": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 4
+        },
+        "requested_extras_known": true,
+        "unknown": [
+          [
+            "pkg:pypi/urllib3@2.8.0",
+            "pkg:pypi/brotli"
+          ],
+          [
+            "pkg:pypi/urllib3@2.8.0",
+            "pkg:pypi/brotlicffi"
+          ]
+        ]
+      },
+      "E1X0": {
+        "context_uncertain": true,
+        "contexts": [
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": []
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "security"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "socks"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "socks"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          }
+        ],
+        "environment_known": true,
+        "may_only": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/chardet"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/pysocks"
+          ]
+        ],
+        "modality_scope": "Declared finite context set only; no calibrated probabilities",
+        "must": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "must_score": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 4
+        },
+        "possible": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/chardet"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/pysocks"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "possible_score": {
+          "f1": 0.8,
+          "fn": 0,
+          "fp": 2,
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "tp": 4
+        },
+        "requested_extras_known": false,
+        "unknown": [
+          [
+            "pkg:pypi/urllib3@2.8.0",
+            "pkg:pypi/brotli"
+          ],
+          [
+            "pkg:pypi/urllib3@2.8.0",
+            "pkg:pypi/brotlicffi"
+          ]
+        ]
+      },
+      "E1X1": {
+        "context_uncertain": false,
+        "contexts": [
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": []
+          }
+        ],
+        "environment_known": true,
+        "may_only": [],
+        "modality_scope": "Declared finite context set only; no calibrated probabilities",
+        "must": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "must_score": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 4
+        },
+        "possible": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "possible_score": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 4
+        },
+        "requested_extras_known": true,
+        "unknown": [
+          [
+            "pkg:pypi/urllib3@2.8.0",
+            "pkg:pypi/brotli"
+          ],
+          [
+            "pkg:pypi/urllib3@2.8.0",
+            "pkg:pypi/brotlicffi"
+          ]
+        ]
+      }
+    },
+    "socks": {
+      "E0X0": {
+        "context_uncertain": true,
+        "contexts": [
+          {
+            "platform": "linux",
+            "python": "3.10",
+            "requested_extras": []
+          },
+          {
+            "platform": "linux",
+            "python": "3.10",
+            "requested_extras": [
+              "security"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.10",
+            "requested_extras": [
+              "socks"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.10",
+            "requested_extras": [
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.10",
+            "requested_extras": [
+              "security",
+              "socks"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.10",
+            "requested_extras": [
+              "security",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.10",
+            "requested_extras": [
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.10",
+            "requested_extras": [
+              "security",
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": []
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "security"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "socks"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "socks"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.12",
+            "requested_extras": []
+          },
+          {
+            "platform": "linux",
+            "python": "3.12",
+            "requested_extras": [
+              "security"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.12",
+            "requested_extras": [
+              "socks"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.12",
+            "requested_extras": [
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.12",
+            "requested_extras": [
+              "security",
+              "socks"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.12",
+            "requested_extras": [
+              "security",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.12",
+            "requested_extras": [
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.12",
+            "requested_extras": [
+              "security",
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.10",
+            "requested_extras": []
+          },
+          {
+            "platform": "win32",
+            "python": "3.10",
+            "requested_extras": [
+              "security"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.10",
+            "requested_extras": [
+              "socks"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.10",
+            "requested_extras": [
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.10",
+            "requested_extras": [
+              "security",
+              "socks"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.10",
+            "requested_extras": [
+              "security",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.10",
+            "requested_extras": [
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.10",
+            "requested_extras": [
+              "security",
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.11",
+            "requested_extras": []
+          },
+          {
+            "platform": "win32",
+            "python": "3.11",
+            "requested_extras": [
+              "security"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.11",
+            "requested_extras": [
+              "socks"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.11",
+            "requested_extras": [
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "socks"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.11",
+            "requested_extras": [
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "darwin",
+            "python": "3.11",
+            "requested_extras": []
+          },
+          {
+            "platform": "darwin",
+            "python": "3.11",
+            "requested_extras": [
+              "security"
+            ]
+          },
+          {
+            "platform": "darwin",
+            "python": "3.11",
+            "requested_extras": [
+              "socks"
+            ]
+          },
+          {
+            "platform": "darwin",
+            "python": "3.11",
+            "requested_extras": [
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "darwin",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "socks"
+            ]
+          },
+          {
+            "platform": "darwin",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "darwin",
+            "python": "3.11",
+            "requested_extras": [
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "darwin",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          }
+        ],
+        "environment_known": false,
+        "may_only": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/chardet"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/pysocks@1.7.1"
+          ]
+        ],
+        "modality_scope": "Declared finite context set only; no calibrated probabilities",
+        "must": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "must_score": {
+          "f1": 0.8888888888888888,
+          "fn": 1,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.8,
+          "tp": 4
+        },
+        "possible": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/chardet"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/pysocks@1.7.1"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "possible_score": {
+          "f1": 0.9090909090909091,
+          "fn": 0,
+          "fp": 1,
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "tp": 5
+        },
+        "requested_extras_known": false,
+        "unknown": [
+          [
+            "pkg:pypi/urllib3@2.8.0",
+            "pkg:pypi/brotli"
+          ],
+          [
+            "pkg:pypi/urllib3@2.8.0",
+            "pkg:pypi/brotlicffi"
+          ]
+        ]
+      },
+      "E0X1": {
+        "context_uncertain": true,
+        "contexts": [
+          {
+            "platform": "linux",
+            "python": "3.10",
+            "requested_extras": [
+              "socks"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "socks"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.12",
+            "requested_extras": [
+              "socks"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.10",
+            "requested_extras": [
+              "socks"
+            ]
+          },
+          {
+            "platform": "win32",
+            "python": "3.11",
+            "requested_extras": [
+              "socks"
+            ]
+          },
+          {
+            "platform": "darwin",
+            "python": "3.11",
+            "requested_extras": [
+              "socks"
+            ]
+          }
+        ],
+        "environment_known": false,
+        "may_only": [],
+        "modality_scope": "Declared finite context set only; no calibrated probabilities",
+        "must": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/pysocks@1.7.1"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "must_score": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 5
+        },
+        "possible": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/pysocks@1.7.1"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "possible_score": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 5
+        },
+        "requested_extras_known": true,
+        "unknown": [
+          [
+            "pkg:pypi/urllib3@2.8.0",
+            "pkg:pypi/brotli"
+          ],
+          [
+            "pkg:pypi/urllib3@2.8.0",
+            "pkg:pypi/brotlicffi"
+          ]
+        ]
+      },
+      "E1X0": {
+        "context_uncertain": true,
+        "contexts": [
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": []
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "security"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "socks"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "socks"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          },
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "security",
+              "socks",
+              "use_chardet_on_py3"
+            ]
+          }
+        ],
+        "environment_known": true,
+        "may_only": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/chardet"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/pysocks@1.7.1"
+          ]
+        ],
+        "modality_scope": "Declared finite context set only; no calibrated probabilities",
+        "must": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "must_score": {
+          "f1": 0.8888888888888888,
+          "fn": 1,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.8,
+          "tp": 4
+        },
+        "possible": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/chardet"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/pysocks@1.7.1"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "possible_score": {
+          "f1": 0.9090909090909091,
+          "fn": 0,
+          "fp": 1,
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "tp": 5
+        },
+        "requested_extras_known": false,
+        "unknown": [
+          [
+            "pkg:pypi/urllib3@2.8.0",
+            "pkg:pypi/brotli"
+          ],
+          [
+            "pkg:pypi/urllib3@2.8.0",
+            "pkg:pypi/brotlicffi"
+          ]
+        ]
+      },
+      "E1X1": {
+        "context_uncertain": false,
+        "contexts": [
+          {
+            "platform": "linux",
+            "python": "3.11",
+            "requested_extras": [
+              "socks"
+            ]
+          }
+        ],
+        "environment_known": true,
+        "may_only": [],
+        "modality_scope": "Declared finite context set only; no calibrated probabilities",
+        "must": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/pysocks@1.7.1"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "must_score": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 5
+        },
+        "possible": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/pysocks@1.7.1"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "possible_score": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 5
+        },
+        "requested_extras_known": true,
+        "unknown": [
+          [
+            "pkg:pypi/urllib3@2.8.0",
+            "pkg:pypi/brotli"
+          ],
+          [
+            "pkg:pypi/urllib3@2.8.0",
+            "pkg:pypi/brotlicffi"
+          ]
+        ]
+      }
+    }
+  },
+  "snapshot_sha256": "5a270668d9a484803e2b343f3f25b143a72770d53e4ac0ef8aa803c8ef25409d"
+}

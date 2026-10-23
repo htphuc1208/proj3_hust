@@ -1,0 +1,29 @@
+{
+  "artifact_level_metadata": {
+    "wheel_bytes_verified": true,
+    "wheel_local_sha256": "98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe",
+    "wheel_metadata_file": "jsonschema_specifications-2025.9.1.dist-info/METADATA",
+    "wheel_metadata_sha256": "35abd41757f32b4ea24756920ded47b70173d77cbc052a5a6d3ab583b2e8d89d"
+  },
+  "distribution_type": "wheel",
+  "name": "jsonschema-specifications",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T07:05:44.492586+00:00",
+    "provenance_chain": "PyPI index -> Distribution artifact -> Verified SHA-256 -> Extracted METADATA -> Frozen evidence record",
+    "source_pypi_json_url": "https://pypi.org/pypi/jsonschema-specifications/2025.9.1/json",
+    "verification_status": "VERIFIED_ARTIFACT_DIGEST_AND_METADATA",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/41/45/1a4ed80516f02155c51f51e8cedb3c1902296743db0bbc66608a0db2814f/jsonschema_specifications-2025.9.1-py3-none-any.whl",
+    "wheel_filename": "jsonschema_specifications-2025.9.1-py3-none-any.whl",
+    "wheel_sha256": "98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe",
+    "wheel_upload_time_utc": "2025-09-08T01:34:57.871954Z"
+  },
+  "release_requires_dist": [
+    "referencing>=0.31.0"
+  ],
+  "requires_dist": [
+    "referencing>=0.31.0"
+  ],
+  "requires_python": ">=3.9",
+  "version": "2025.9.1"
+}

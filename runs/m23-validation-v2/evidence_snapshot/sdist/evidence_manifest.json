@@ -1,0 +1,508 @@
+{
+  "artifacts": [
+    {
+      "metadata_file": "attrs-26.1.0.json",
+      "name": "attrs",
+      "sha256": "11ba4c607e3b2a0beb1896e60c4d3fc628a73bdb440d1fac287f8d1c5ff7d9cb",
+      "version": "26.1.0"
+    },
+    {
+      "metadata_file": "blinker-1.9.0.json",
+      "name": "blinker",
+      "sha256": "cc8033d9961dcf5f8c05a3e7dc4022d4dd25f98d728c0b86f9a37774f66c826e",
+      "version": "1.9.0"
+    },
+    {
+      "metadata_file": "brotlicffi-1.2.0.2.json",
+      "name": "brotlicffi",
+      "sha256": "cb58c6e6cce55cd3c84325a361ef13a2f5107c6bafae6188e8332de4050e70f4",
+      "version": "1.2.0.2"
+    },
+    {
+      "metadata_file": "cattrs-26.2.1.json",
+      "name": "cattrs",
+      "sha256": "0c690e02291443f4f0df337008fde2d02bdfba080499569ca04b0dd075db045f",
+      "version": "26.2.1"
+    },
+    {
+      "metadata_file": "certifi-2023.7.22.json",
+      "name": "certifi",
+      "sha256": "2088d8f9a1870612f3992c8248efc63e165a1e86c71413995b566c75e1057ff4",
+      "version": "2023.7.22"
+    },
+    {
+      "metadata_file": "certifi-2024.2.2.json",
+      "name": "certifi",
+      "sha256": "a4f9a7c53e09017d669d6663d3cf2c52d65d156705a05d0817793a7570a29e9d",
+      "version": "2024.2.2"
+    },
+    {
+      "metadata_file": "certifi-2026.10.19.json",
+      "name": "certifi",
+      "sha256": "e48d5bde7c721be8a2081ffcc830dbef51d511a239b249526d5555e4ca393661",
+      "version": "2026.10.19"
+    },
+    {
+      "metadata_file": "cffi-1.15.1.json",
+      "name": "cffi",
+      "sha256": "648019f48a1e1d1b88f9b6f868d861ef405518408c7edbe79ea4bfece74e166e",
+      "version": "1.15.1"
+    },
+    {
+      "metadata_file": "cffi-1.16.0.json",
+      "name": "cffi",
+      "sha256": "8bcc26587a5edb9bd09b9c3f4a81f2035b8c5f3f5d6dec4451d82b299ce5aa73",
+      "version": "1.16.0"
+    },
+    {
+      "metadata_file": "cffi-2.1.1.json",
+      "name": "cffi",
+      "sha256": "bb1c3f411ee5821fdc0b8d4551634bcf16b4369ff066ae460daa2e51f7b5af5f",
+      "version": "2.1.1"
+    },
+    {
+      "metadata_file": "charset-normalizer-3.2.0.json",
+      "name": "charset-normalizer",
+      "sha256": "d80f393357340686336d725991e067db1a1241c328fff19c5c79f8872094e21a",
+      "version": "3.2.0"
+    },
+    {
+      "metadata_file": "charset-normalizer-3.3.2.json",
+      "name": "charset-normalizer",
+      "sha256": "578a86035bb5fdaa3b9d64d1911fac236d7b7b158b1734d5bf43476d23e9aea9",
+      "version": "3.3.2"
+    },
+    {
+      "metadata_file": "charset-normalizer-3.5.2.json",
+      "name": "charset-normalizer",
+      "sha256": "fb73510a2b62d652dd1b599f7704215afb9a43ddba1f3335c82a31145c095b3d",
+      "version": "3.5.2"
+    },
+    {
+      "metadata_file": "click-8.5.0.json",
+      "name": "click",
+      "sha256": "f114ab74e2e43fe1c730c6287395491b07892d744df1874015624a13c45afbae",
+      "version": "8.5.0"
+    },
+    {
+      "metadata_file": "cryptography-41.0.5.json",
+      "name": "cryptography",
+      "sha256": "ca219ad4e00671c73c2b7bc9df66e1e24fc6f999c64e47b3cf5b695f20b9bd38",
+      "version": "41.0.5"
+    },
+    {
+      "metadata_file": "cryptography-41.0.6.json",
+      "name": "cryptography",
+      "sha256": "d99cb3d4a15afed5cdf760896347c10916d7cfe9279d846344dfb58a1b3efb9f",
+      "version": "41.0.6"
+    },
+    {
+      "metadata_file": "cryptography-42.0.5.json",
+      "name": "cryptography",
+      "sha256": "460fe5be4a16137a10b8037e9467e9df1309200c18451ae78f5208a266626200",
+      "version": "42.0.5"
+    },
+    {
+      "metadata_file": "decorator-5.3.1.json",
+      "name": "decorator",
+      "sha256": "3414554c4103feb0b0b63ec25c1d8dc73be6caf8336399e1948bb26f0079108e",
+      "version": "5.3.1"
+    },
+    {
+      "metadata_file": "flasgger-0.9.7.1.json",
+      "name": "flasgger",
+      "sha256": "525e8acf0f5e6404a9d151df5ed053699f5139819aed04cb5f13789126071924",
+      "version": "0.9.7.1"
+    },
+    {
+      "metadata_file": "flask-3.1.3.json",
+      "name": "flask",
+      "sha256": "d8b0be3e60a5fe0b3216fd4735c250f51af21c7714ec11a9c71e071e9970dd90",
+      "version": "3.1.3"
+    },
+    {
+      "metadata_file": "greenlet-2.0.2.json",
+      "name": "greenlet",
+      "sha256": "2bff9e44002fca2f83248acb73c4e7a18371d78f4b7bacde39d66f8089bc9007",
+      "version": "2.0.2"
+    },
+    {
+      "metadata_file": "httpbin-0.10.2.json",
+      "name": "httpbin",
+      "sha256": "853692cdce7523c24fe762364996f9a3d81a6204fc199d8ed6d45c278a401b45",
+      "version": "0.10.2"
+    },
+    {
+      "metadata_file": "idna-3.20.json",
+      "name": "idna",
+      "sha256": "d328a66a4d1a1be2e8844e5c99da6c5b8e638fd45b01420071b913138bd5fb39",
+      "version": "3.20"
+    },
+    {
+      "metadata_file": "idna-3.4.json",
+      "name": "idna",
+      "sha256": "bb2332bdd8e91cd798fe8860526c70e2bc3f2863f3020098aa162148f891e7ae",
+      "version": "3.4"
+    },
+    {
+      "metadata_file": "idna-3.6.json",
+      "name": "idna",
+      "sha256": "ae304782dc57bc520c5c31258ea401704382da23dbf699af1d196b345c7bc09a",
+      "version": "3.6"
+    },
+    {
+      "metadata_file": "itsdangerous-2.2.0.json",
+      "name": "itsdangerous",
+      "sha256": "57116dd3ed56fd9cb394e0cc2b68e58e344ac2eee2586a7a97aafe742af37410",
+      "version": "2.2.0"
+    },
+    {
+      "metadata_file": "jinja2-3.1.6.json",
+      "name": "jinja2",
+      "sha256": "f921f78f1dad307bd3b9f9b266dacf95c56106f6e7daf0b39991cc0a7bc18a0c",
+      "version": "3.1.6"
+    },
+    {
+      "metadata_file": "jsonschema-4.26.0.json",
+      "name": "jsonschema",
+      "sha256": "3f59df19528b23921e4d99c34dec4542005b65176b2c970d270deaad68c6960f",
+      "version": "4.26.0"
+    },
+    {
+      "metadata_file": "jsonschema-specifications-2025.9.1.json",
+      "name": "jsonschema-specifications",
+      "sha256": "081ac05665ab3d8cb8f68bd9b90bc185de9d5f8a3e7a24dadfdc96b509ad2285",
+      "version": "2025.9.1"
+    },
+    {
+      "metadata_file": "markupsafe-3.0.4.json",
+      "name": "markupsafe",
+      "sha256": "02d9dfbb234feb90352d4eb9e754590177064b56abc267315b60f498e1e19c13",
+      "version": "3.0.4"
+    },
+    {
+      "metadata_file": "mistune-3.4.0.json",
+      "name": "mistune",
+      "sha256": "afbae5d0a96e93a0d97f6b709d717931a409827441769841e1dc429bdfaa2304",
+      "version": "3.4.0"
+    },
+    {
+      "metadata_file": "packaging-26.3.json",
+      "name": "packaging",
+      "sha256": "bb685476915715f3d04dc8e4e50deff0dfc425875ca950878d030d5a6de3eaa2",
+      "version": "26.3"
+    },
+    {
+      "metadata_file": "pip-24.0.json",
+      "name": "pip",
+      "sha256": "d76ffdb5d8e0858f94bfe7f4b660d60367fd4bd760e386178efe226f8c65ca50",
+      "version": "24.0"
+    },
+    {
+      "metadata_file": "platformdirs-4.13.5.json",
+      "name": "platformdirs",
+      "sha256": "8fcff0ecb890d3c58ca9aafadc75d8182fdc56c602b5b5355f6b70ed6515aa31",
+      "version": "4.13.5"
+    },
+    {
+      "metadata_file": "pycparser-2.21.json",
+      "name": "pycparser",
+      "sha256": "ce6f260e60fef18913bd06fa8c2c1a5da7b303c8fafbe46cec91f2f29f362b74",
+      "version": "2.21"
+    },
+    {
+      "metadata_file": "pycparser-3.11.json",
+      "name": "pycparser",
+      "sha256": "6656a88ad18f5c95fdffd0d7110ae454a3201c744c9a6271c0b295de223d050f",
+      "version": "3.11"
+    },
+    {
+      "metadata_file": "pyopenssl-23.2.0.json",
+      "name": "pyopenssl",
+      "sha256": "4fa8d94503579fbf78f50b3c035a81e646418ed3a0aa873f37cd2d8648ff19d8",
+      "version": "23.2.0"
+    },
+    {
+      "metadata_file": "pyopenssl-23.3.0.json",
+      "name": "pyopenssl",
+      "sha256": "890b7c738d9b52d30bd051fb5c8f9e97864cddf52fbe6daff82d284007eca7a9",
+      "version": "23.3.0"
+    },
+    {
+      "metadata_file": "pysocks-1.7.1.json",
+      "name": "pysocks",
+      "sha256": "05040ba154c0f080226966dd5751a429023d2c68b818ade02fbd5c1374006fcb",
+      "version": "1.7.1"
+    },
+    {
+      "metadata_file": "pyyaml-6.0.3.json",
+      "name": "pyyaml",
+      "sha256": "b259c9ab2d2e54ac5149ec726a335dd8ab1c852eea0463fb5c32fed7d3170105",
+      "version": "6.0.3"
+    },
+    {
+      "metadata_file": "referencing-0.37.0.json",
+      "name": "referencing",
+      "sha256": "1dd151d6f13a2013f6003af567da65c6f396dcbd4a920a2f794ec31f0571e64a",
+      "version": "0.37.0"
+    },
+    {
+      "metadata_file": "requests-2.28.2.json",
+      "name": "requests",
+      "sha256": "43784cd0a64b5685849a689b05239a3c7d7033d0e39f96b1eaf35d79d5ce90b9",
+      "version": "2.28.2"
+    },
+    {
+      "metadata_file": "requests-2.31.0.json",
+      "name": "requests",
+      "sha256": "6f749781e855208c35cab6d710077ab00c9728a57bc1d1d137d6f317b64b0095",
+      "version": "2.31.0"
+    },
+    {
+      "metadata_file": "requests-2.34.2.json",
+      "name": "requests",
+      "sha256": "b6108c4fb0da177d28d5d66cac8c0d593d448088954368b7305129cc76486c62",
+      "version": "2.34.2"
+    },
+    {
+      "metadata_file": "requests-cache-1.1.1.json",
+      "name": "requests-cache",
+      "sha256": "c609c084ec18bf079e36b3e044335063629404735ee07e2edf061ef2cb73ddc4",
+      "version": "1.1.1"
+    },
+    {
+      "metadata_file": "rpds-py-2026.9.1.json",
+      "name": "rpds-py",
+      "sha256": "97512187ef13720871e2c9a105863e0b73eedd84461d4b6d6817eb078cd62e48",
+      "version": "2026.9.1"
+    },
+    {
+      "metadata_file": "six-1.16.0.json",
+      "name": "six",
+      "sha256": "8f29cb2bebf8f6204bb3f362276f41d65cf348b69e90cb76a16436dd4a3b7560",
+      "version": "1.16.0"
+    },
+    {
+      "metadata_file": "six-1.17.0.json",
+      "name": "six",
+      "sha256": "8423cbc7208fcf7669ef417bd9d4bc59091e8f698a64b7cf2e263ff2a0d57b00",
+      "version": "1.17.0"
+    },
+    {
+      "metadata_file": "typing-extensions-4.16.0.json",
+      "name": "typing-extensions",
+      "sha256": "ed9a8cabda96790d88f08685b6045526c4b8912dd30c617128c2b73073e03680",
+      "version": "4.16.0"
+    },
+    {
+      "metadata_file": "url-normalize-3.0.1.json",
+      "name": "url-normalize",
+      "sha256": "3d18598dd2671cc7392394bf6c2a4f9d15846b19133d97274e9226b4fdbf3d81",
+      "version": "3.0.1"
+    },
+    {
+      "metadata_file": "urllib3-1.26.17.json",
+      "name": "urllib3",
+      "sha256": "4ef0e00c477372c1000bae57176bf4c06210af7c952fffda67bbc73c7e6669d6",
+      "version": "1.26.17"
+    },
+    {
+      "metadata_file": "urllib3-1.26.18.json",
+      "name": "urllib3",
+      "sha256": "a59f66ce151432702d4a3f0176a155b1b460c94653f0d2add3d78e8f03e0fd47",
+      "version": "1.26.18"
+    },
+    {
+      "metadata_file": "urllib3-2.0.7.json",
+      "name": "urllib3",
+      "sha256": "f5f65dc571b2269ec8a006fb3c5a7e5284f3bef55ade1737504cdd38b7f29ee8",
+      "version": "2.0.7"
+    },
+    {
+      "metadata_file": "urllib3-2.8.0.json",
+      "name": "urllib3",
+      "sha256": "5071d5861c46b3a8addf25266bb9fde00806d5bf14bf8a2b1ff42406f5e463ef",
+      "version": "2.8.0"
+    },
+    {
+      "metadata_file": "werkzeug-3.1.9.json",
+      "name": "werkzeug",
+      "sha256": "9fdbf7331c2a8df4e50319f0897370fb9f9f1e95182e0af314bcc497f000edf2",
+      "version": "3.1.9"
+    }
+  ],
+  "completeness": "PARTIAL_CANDIDATE_UNIVERSE",
+  "frozen_at_utc": "2026-10-22T21:07:13.015492Z",
+  "legacy_snapshot_sha256": "a9bc09ad266ebf8c0a6e34a1bc6e24644d609ed75c4cabbceb90cde69775ed98",
+  "query_audit": [
+    {
+      "name": "flasgger",
+      "status": "COMPLETE",
+      "version": "0.9.7.1"
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "name": "my-test-package",
+      "status": "BLOCKED",
+      "version": "1.0"
+    },
+    {
+      "error": "Ambiguous wheel METADATA",
+      "name": "setuptools",
+      "status": "BLOCKED",
+      "version": "79.0.1"
+    }
+  ],
+  "schema_version": "evidence-snapshot-v4",
+  "seeds": [
+    [
+      "attrs",
+      "26.1.0"
+    ],
+    [
+      "blinker",
+      "1.9.0"
+    ],
+    [
+      "brotlicffi",
+      "1.2.0.2"
+    ],
+    [
+      "cattrs",
+      "26.2.1"
+    ],
+    [
+      "certifi",
+      "2026.10.19"
+    ],
+    [
+      "cffi",
+      "2.1.1"
+    ],
+    [
+      "charset-normalizer",
+      "3.5.2"
+    ],
+    [
+      "click",
+      "8.5.0"
+    ],
+    [
+      "decorator",
+      "5.3.1"
+    ],
+    [
+      "flasgger",
+      "0.9.7.1"
+    ],
+    [
+      "flask",
+      "3.1.3"
+    ],
+    [
+      "greenlet",
+      "2.0.2"
+    ],
+    [
+      "httpbin",
+      "0.10.2"
+    ],
+    [
+      "idna",
+      "3.20"
+    ],
+    [
+      "itsdangerous",
+      "2.2.0"
+    ],
+    [
+      "jinja2",
+      "3.1.6"
+    ],
+    [
+      "jsonschema",
+      "4.26.0"
+    ],
+    [
+      "jsonschema-specifications",
+      "2025.9.1"
+    ],
+    [
+      "markupsafe",
+      "3.0.4"
+    ],
+    [
+      "mistune",
+      "3.4.0"
+    ],
+    [
+      "my-test-package",
+      "1.0"
+    ],
+    [
+      "packaging",
+      "26.3"
+    ],
+    [
+      "pip",
+      "24.0"
+    ],
+    [
+      "platformdirs",
+      "4.13.5"
+    ],
+    [
+      "pycparser",
+      "3.11"
+    ],
+    [
+      "pyyaml",
+      "6.0.3"
+    ],
+    [
+      "referencing",
+      "0.37.0"
+    ],
+    [
+      "requests",
+      "2.31.0"
+    ],
+    [
+      "requests",
+      "2.34.2"
+    ],
+    [
+      "requests-cache",
+      "1.1.1"
+    ],
+    [
+      "rpds-py",
+      "2026.9.1"
+    ],
+    [
+      "setuptools",
+      "79.0.1"
+    ],
+    [
+      "six",
+      "1.17.0"
+    ],
+    [
+      "typing-extensions",
+      "4.16.0"
+    ],
+    [
+      "url-normalize",
+      "3.0.1"
+    ],
+    [
+      "urllib3",
+      "2.8.0"
+    ],
+    [
+      "werkzeug",
+      "3.1.9"
+    ]
+  ],
+  "selection_policy": "All exact observed distribution identities; sorted, no oracle seeds"
+}

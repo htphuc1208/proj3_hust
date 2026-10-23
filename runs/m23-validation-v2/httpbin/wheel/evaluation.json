@@ -1,0 +1,1853 @@
+{
+  "B0": {
+    "additions": {
+      "f1": 0.0,
+      "fn": 2,
+      "fp": 0,
+      "precision": null,
+      "recall": 0.0,
+      "tp": 0
+    },
+    "edge_audit": [
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/brotlicffi@1.2.0.2",
+        "target": "pkg:pypi/cffi@2.1.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/cffi@2.1.1",
+        "target": "pkg:pypi/pycparser@3.11"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/flask@3.1.3"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/jsonschema@4.26.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/mistune@3.4.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/pyyaml@6.0.3"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/six@1.17.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/blinker@1.9.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/click@8.5.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/itsdangerous@2.2.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/jinja2@3.1.6"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/werkzeug@3.1.9"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/brotlicffi@1.2.0.2"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/decorator@5.3.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/flasgger@0.9.7.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/flask@3.1.3"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/greenlet@2.0.2"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/six@1.17.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/werkzeug@3.1.9"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jinja2@3.1.6",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema-specifications@2025.9.1",
+        "target": "pkg:pypi/referencing@0.37.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/jsonschema-specifications@2025.9.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/referencing@0.37.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/rpds-py@2026.9.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/referencing@0.37.0",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/referencing@0.37.0",
+        "target": "pkg:pypi/rpds-py@2026.9.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/pip@24.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/werkzeug@3.1.9",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/brotlicffi@1.2.0.2",
+        "target": "pkg:pypi/cffi@2.1.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/cffi@2.1.1",
+        "target": "pkg:pypi/pycparser@3.11"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/flask@3.1.3"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/jsonschema@4.26.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/mistune@3.4.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/pyyaml@6.0.3"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/six@1.17.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/blinker@1.9.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/click@8.5.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/itsdangerous@2.2.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/jinja2@3.1.6"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/werkzeug@3.1.9"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/brotlicffi@1.2.0.2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/decorator@5.3.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/flasgger@0.9.7.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/flask@3.1.3"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/greenlet@2.0.2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/six@1.17.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/werkzeug@3.1.9"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jinja2@3.1.6",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema-specifications@2025.9.1",
+        "target": "pkg:pypi/referencing@0.37.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/jsonschema-specifications@2025.9.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/referencing@0.37.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/rpds-py@2026.9.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/referencing@0.37.0",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/referencing@0.37.0",
+        "target": "pkg:pypi/rpds-py@2026.9.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/pip@24.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/werkzeug@3.1.9",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      }
+    ],
+    "excluded_or_unknown_edges": 2,
+    "false_positive_edges": [],
+    "missed_edges": [
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/packaging@26.3"
+      ],
+      [
+        "pkg:pypi/referencing@0.37.0",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ]
+    ],
+    "recovered_edges": [],
+    "reference_edges": 31,
+    "reference_nodes": 24,
+    "unresolved_reference_requirements": [],
+    "whole_graph": {
+      "f1": 0.9666666666666667,
+      "fn": 2,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 0.9354838709677419,
+      "tp": 29
+    }
+  },
+  "B1": {
+    "additions": {
+      "f1": 0.07142857142857142,
+      "fn": 1,
+      "fp": 25,
+      "precision": 0.038461538461538464,
+      "recall": 0.5,
+      "tp": 1
+    },
+    "edge_audit": [
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/brotlicffi@1.2.0.2",
+        "target": "pkg:pypi/cffi@2.1.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/cffi@2.1.1",
+        "target": "pkg:pypi/pycparser@3.11"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/flask@3.1.3"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/jsonschema@4.26.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/mistune@3.4.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/pyyaml@6.0.3"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/six@1.17.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/blinker@1.9.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/click@8.5.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/itsdangerous@2.2.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/jinja2@3.1.6"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/werkzeug@3.1.9"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/brotlicffi@1.2.0.2"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/decorator@5.3.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/flasgger@0.9.7.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/flask@3.1.3"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/greenlet@2.0.2"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/six@1.17.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/werkzeug@3.1.9"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jinja2@3.1.6",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema-specifications@2025.9.1",
+        "target": "pkg:pypi/referencing@0.37.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/jsonschema-specifications@2025.9.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/referencing@0.37.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/rpds-py@2026.9.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/referencing@0.37.0",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/referencing@0.37.0",
+        "target": "pkg:pypi/rpds-py@2026.9.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/pip@24.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/werkzeug@3.1.9",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/brotlicffi@1.2.0.2",
+        "target": "pkg:pypi/cffi@2.1.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/cffi@2.1.1",
+        "target": "pkg:pypi/pycparser@3.11"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/flask@3.1.3"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/jsonschema@4.26.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/mistune@3.4.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/pyyaml@6.0.3"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/six@1.17.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/asgiref"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/blinker@1.9.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/click@8.5.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/importlib-metadata"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/itsdangerous@2.2.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/jinja2@3.1.6"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/python-dotenv"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/werkzeug@3.1.9"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/greenlet@2.0.2",
+        "target": "pkg:pypi/docutils"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/greenlet@2.0.2",
+        "target": "pkg:pypi/objgraph"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/greenlet@2.0.2",
+        "target": "pkg:pypi/psutil"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/greenlet@2.0.2",
+        "target": "pkg:pypi/sphinx"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/brotlicffi@1.2.0.2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/decorator@5.3.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/flasgger@0.9.7.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/flask@3.1.3"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/gevent"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/greenlet@2.0.2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/gunicorn"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/importlib-metadata"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/pytest"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/six@1.17.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/tox"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/werkzeug@3.1.9"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/jinja2@3.1.6",
+        "target": "pkg:pypi/babel"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jinja2@3.1.6",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema-specifications@2025.9.1",
+        "target": "pkg:pypi/referencing@0.37.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/fqdn"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/idna"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/isoduration"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/jsonpointer"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/jsonschema-specifications@2025.9.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/referencing@0.37.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/rfc3339-validator"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/rfc3986-validator"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/rfc3987"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/rfc3987-syntax"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/rpds-py@2026.9.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/uri-template"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/webcolors"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/mistune@3.4.0",
+        "target": "pkg:pypi/typing-extensions@4.16.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/referencing@0.37.0",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/referencing@0.37.0",
+        "target": "pkg:pypi/rpds-py@2026.9.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/referencing@0.37.0",
+        "target": "pkg:pypi/typing-extensions@4.16.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/pip@24.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/werkzeug@3.1.9",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/werkzeug@3.1.9",
+        "target": "pkg:pypi/watchdog"
+      }
+    ],
+    "excluded_or_unknown_edges": 2,
+    "false_positive_edges": [
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/asgiref"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/importlib-metadata"
+      ],
+      [
+        "pkg:pypi/flask@3.1.3",
+        "pkg:pypi/python-dotenv"
+      ],
+      [
+        "pkg:pypi/greenlet@2.0.2",
+        "pkg:pypi/docutils"
+      ],
+      [
+        "pkg:pypi/greenlet@2.0.2",
+        "pkg:pypi/objgraph"
+      ],
+      [
+        "pkg:pypi/greenlet@2.0.2",
+        "pkg:pypi/psutil"
+      ],
+      [
+        "pkg:pypi/greenlet@2.0.2",
+        "pkg:pypi/sphinx"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/gevent"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/gunicorn"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/importlib-metadata"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/pytest"
+      ],
+      [
+        "pkg:pypi/httpbin@0.10.2",
+        "pkg:pypi/tox"
+      ],
+      [
+        "pkg:pypi/jinja2@3.1.6",
+        "pkg:pypi/babel"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/fqdn"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/idna"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/isoduration"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/jsonpointer"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/rfc3339-validator"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/rfc3986-validator"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/rfc3987"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/rfc3987-syntax"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/uri-template"
+      ],
+      [
+        "pkg:pypi/jsonschema@4.26.0",
+        "pkg:pypi/webcolors"
+      ],
+      [
+        "pkg:pypi/mistune@3.4.0",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ],
+      [
+        "pkg:pypi/werkzeug@3.1.9",
+        "pkg:pypi/watchdog"
+      ]
+    ],
+    "missed_edges": [
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/packaging@26.3"
+      ]
+    ],
+    "recovered_edges": [
+      [
+        "pkg:pypi/referencing@0.37.0",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ]
+    ],
+    "reference_edges": 31,
+    "reference_nodes": 24,
+    "unresolved_reference_requirements": [],
+    "whole_graph": {
+      "f1": 0.6976744186046512,
+      "fn": 1,
+      "fp": 25,
+      "precision": 0.5454545454545454,
+      "recall": 0.967741935483871,
+      "tp": 30
+    }
+  },
+  "B2": {
+    "additions": {
+      "f1": 0.5,
+      "fn": 1,
+      "fp": 1,
+      "precision": 0.5,
+      "recall": 0.5,
+      "tp": 1
+    },
+    "edge_audit": [
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/brotlicffi@1.2.0.2",
+        "target": "pkg:pypi/cffi@2.1.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/cffi@2.1.1",
+        "target": "pkg:pypi/pycparser@3.11"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/flask@3.1.3"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/jsonschema@4.26.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/mistune@3.4.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/pyyaml@6.0.3"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/six@1.17.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/blinker@1.9.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/click@8.5.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/itsdangerous@2.2.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/jinja2@3.1.6"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/werkzeug@3.1.9"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/brotlicffi@1.2.0.2"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/decorator@5.3.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/flasgger@0.9.7.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/flask@3.1.3"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/greenlet@2.0.2"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/six@1.17.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/werkzeug@3.1.9"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jinja2@3.1.6",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema-specifications@2025.9.1",
+        "target": "pkg:pypi/referencing@0.37.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/jsonschema-specifications@2025.9.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/referencing@0.37.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/rpds-py@2026.9.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/referencing@0.37.0",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/referencing@0.37.0",
+        "target": "pkg:pypi/rpds-py@2026.9.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/pip@24.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/werkzeug@3.1.9",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/brotlicffi@1.2.0.2",
+        "target": "pkg:pypi/cffi@2.1.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/cffi@2.1.1",
+        "target": "pkg:pypi/pycparser@3.11"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/blinker@1.9.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/click@8.5.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/itsdangerous@2.2.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/jinja2@3.1.6"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/werkzeug@3.1.9"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/brotlicffi@1.2.0.2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/decorator@5.3.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/flasgger@0.9.7.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/flask@3.1.3"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/greenlet@2.0.2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/six@1.17.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/werkzeug@3.1.9"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jinja2@3.1.6",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema-specifications@2025.9.1",
+        "target": "pkg:pypi/referencing@0.37.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/jsonschema-specifications@2025.9.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/referencing@0.37.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/rpds-py@2026.9.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/mistune@3.4.0",
+        "target": "pkg:pypi/typing-extensions@4.16.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/referencing@0.37.0",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/referencing@0.37.0",
+        "target": "pkg:pypi/rpds-py@2026.9.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/referencing@0.37.0",
+        "target": "pkg:pypi/typing-extensions@4.16.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/werkzeug@3.1.9",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      }
+    ],
+    "excluded_or_unknown_edges": 1,
+    "false_positive_edges": [
+      [
+        "pkg:pypi/mistune@3.4.0",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ]
+    ],
+    "missed_edges": [
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/flask@3.1.3"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/jsonschema@4.26.0"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/mistune@3.4.0"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/packaging@26.3"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/pyyaml@6.0.3"
+      ],
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/six@1.17.0"
+      ]
+    ],
+    "recovered_edges": [
+      [
+        "pkg:pypi/referencing@0.37.0",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ]
+    ],
+    "reference_edges": 31,
+    "reference_nodes": 24,
+    "unresolved_reference_requirements": [],
+    "whole_graph": {
+      "f1": 0.8771929824561403,
+      "fn": 6,
+      "fp": 1,
+      "precision": 0.9615384615384616,
+      "recall": 0.8064516129032258,
+      "tp": 25
+    }
+  },
+  "B3": {
+    "additions": {
+      "f1": 0.6666666666666666,
+      "fn": 1,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "tp": 1
+    },
+    "edge_audit": [
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/brotlicffi@1.2.0.2",
+        "target": "pkg:pypi/cffi@2.1.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/cffi@2.1.1",
+        "target": "pkg:pypi/pycparser@3.11"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/flask@3.1.3"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/jsonschema@4.26.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/mistune@3.4.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/pyyaml@6.0.3"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/six@1.17.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/blinker@1.9.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/click@8.5.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/itsdangerous@2.2.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/jinja2@3.1.6"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/werkzeug@3.1.9"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/brotlicffi@1.2.0.2"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/decorator@5.3.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/flasgger@0.9.7.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/flask@3.1.3"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/greenlet@2.0.2"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/six@1.17.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/werkzeug@3.1.9"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jinja2@3.1.6",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema-specifications@2025.9.1",
+        "target": "pkg:pypi/referencing@0.37.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/jsonschema-specifications@2025.9.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/referencing@0.37.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/rpds-py@2026.9.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/referencing@0.37.0",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/referencing@0.37.0",
+        "target": "pkg:pypi/rpds-py@2026.9.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/pip@24.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/werkzeug@3.1.9",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/brotlicffi@1.2.0.2",
+        "target": "pkg:pypi/cffi@2.1.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/cffi@2.1.1",
+        "target": "pkg:pypi/pycparser@3.11"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/flask@3.1.3"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/jsonschema@4.26.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/mistune@3.4.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/pyyaml@6.0.3"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flasgger@0.9.7.1",
+        "target": "pkg:pypi/six@1.17.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/blinker@1.9.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/click@8.5.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/itsdangerous@2.2.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/jinja2@3.1.6"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/flask@3.1.3",
+        "target": "pkg:pypi/werkzeug@3.1.9"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/brotlicffi@1.2.0.2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/decorator@5.3.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/flasgger@0.9.7.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/flask@3.1.3"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/greenlet@2.0.2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/six@1.17.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/httpbin@0.10.2",
+        "target": "pkg:pypi/werkzeug@3.1.9"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jinja2@3.1.6",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema-specifications@2025.9.1",
+        "target": "pkg:pypi/referencing@0.37.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/jsonschema-specifications@2025.9.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/referencing@0.37.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/jsonschema@4.26.0",
+        "target": "pkg:pypi/rpds-py@2026.9.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/referencing@0.37.0",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/referencing@0.37.0",
+        "target": "pkg:pypi/rpds-py@2026.9.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/referencing@0.37.0",
+        "target": "pkg:pypi/typing-extensions@4.16.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/pip@24.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/werkzeug@3.1.9",
+        "target": "pkg:pypi/markupsafe@3.0.4"
+      }
+    ],
+    "excluded_or_unknown_edges": 2,
+    "false_positive_edges": [],
+    "missed_edges": [
+      [
+        "pkg:pypi/flasgger@0.9.7.1",
+        "pkg:pypi/packaging@26.3"
+      ]
+    ],
+    "recovered_edges": [
+      [
+        "pkg:pypi/referencing@0.37.0",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ]
+    ],
+    "reference_edges": 31,
+    "reference_nodes": 24,
+    "unresolved_reference_requirements": [],
+    "whole_graph": {
+      "f1": 0.9836065573770492,
+      "fn": 1,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 0.967741935483871,
+      "tp": 30
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "artifact_level_metadata": {
+    "wheel_bytes_verified": true,
+    "wheel_local_sha256": "f4bcbefc124291925f1a26446da31a5178f9483862233b23c0c96a20701f670c",
+    "wheel_metadata_file": "flask-3.1.3.dist-info/METADATA",
+    "wheel_metadata_sha256": "aa6760ed6f545704474d70733e4a63a7f1481e376973edc896a13d02a7224c7c"
+  },
+  "distribution_type": "wheel",
+  "name": "flask",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T07:05:44.492586+00:00",
+    "provenance_chain": "PyPI index -> Distribution artifact -> Verified SHA-256 -> Extracted METADATA -> Frozen evidence record",
+    "source_pypi_json_url": "https://pypi.org/pypi/flask/3.1.3/json",
+    "verification_status": "VERIFIED_ARTIFACT_DIGEST_AND_METADATA",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/7f/9c/34f6962f9b9e9c71f6e5ed806e0d0ff03c9d1b0b2340088a0cf4bce09b18/flask-3.1.3-py3-none-any.whl",
+    "wheel_filename": "flask-3.1.3-py3-none-any.whl",
+    "wheel_sha256": "f4bcbefc124291925f1a26446da31a5178f9483862233b23c0c96a20701f670c",
+    "wheel_upload_time_utc": "2026-02-19T05:00:56.027585Z"
+  },
+  "release_requires_dist": [
+    "blinker>=1.9.0",
+    "click>=8.1.3",
+    "importlib-metadata>=3.6.0; python_version < \"3.10\"",
+    "itsdangerous>=2.2.0",
+    "jinja2>=3.1.2",
+    "markupsafe>=2.1.1",
+    "werkzeug>=3.1.0",
+    "asgiref>=3.2; extra == \"async\"",
+    "python-dotenv; extra == \"dotenv\""
+  ],
+  "requires_dist": [
+    "blinker>=1.9.0",
+    "click>=8.1.3",
+    "importlib-metadata>=3.6.0; python_version < '3.10'",
+    "itsdangerous>=2.2.0",
+    "jinja2>=3.1.2",
+    "markupsafe>=2.1.1",
+    "werkzeug>=3.1.0",
+    "asgiref>=3.2 ; extra == \"async\"",
+    "python-dotenv ; extra == \"dotenv\""
+  ],
+  "requires_python": ">=3.9",
+  "version": "3.1.3"
+}

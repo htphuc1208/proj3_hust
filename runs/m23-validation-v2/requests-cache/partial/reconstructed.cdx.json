@@ -1,0 +1,157 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/attrs@26.1.0",
+      "name": "attrs",
+      "purl": "pkg:pypi/attrs@26.1.0",
+      "type": "library",
+      "version": "26.1.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/cattrs@26.2.1",
+      "name": "cattrs",
+      "purl": "pkg:pypi/cattrs@26.2.1",
+      "type": "library",
+      "version": "26.2.1"
+    },
+    {
+      "bom-ref": "pkg:pypi/certifi@2026.10.19",
+      "name": "certifi",
+      "purl": "pkg:pypi/certifi@2026.10.19",
+      "type": "library",
+      "version": "2026.10.19"
+    },
+    {
+      "bom-ref": "pkg:pypi/charset-normalizer@3.5.2",
+      "name": "charset-normalizer",
+      "purl": "pkg:pypi/charset-normalizer@3.5.2",
+      "type": "library",
+      "version": "3.5.2"
+    },
+    {
+      "bom-ref": "pkg:pypi/idna@3.20",
+      "name": "idna",
+      "purl": "pkg:pypi/idna@3.20",
+      "type": "library",
+      "version": "3.20"
+    },
+    {
+      "bom-ref": "pkg:pypi/my-test-package@1.0",
+      "name": "my-test-package",
+      "purl": "pkg:pypi/my-test-package@1.0",
+      "type": "library",
+      "version": "1.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/pip@24.0",
+      "name": "pip",
+      "purl": "pkg:pypi/pip@24.0",
+      "type": "library",
+      "version": "24.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/platformdirs@4.13.5",
+      "name": "platformdirs",
+      "purl": "pkg:pypi/platformdirs@4.13.5",
+      "type": "library",
+      "version": "4.13.5"
+    },
+    {
+      "bom-ref": "pkg:pypi/requests@2.34.2",
+      "name": "requests",
+      "purl": "pkg:pypi/requests@2.34.2",
+      "type": "library",
+      "version": "2.34.2"
+    },
+    {
+      "bom-ref": "pkg:pypi/setuptools@79.0.1",
+      "name": "setuptools",
+      "purl": "pkg:pypi/setuptools@79.0.1",
+      "type": "library",
+      "version": "79.0.1"
+    },
+    {
+      "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+      "name": "typing-extensions",
+      "purl": "pkg:pypi/typing-extensions@4.16.0",
+      "type": "library",
+      "version": "4.16.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/url-normalize@3.0.1",
+      "name": "url-normalize",
+      "purl": "pkg:pypi/url-normalize@3.0.1",
+      "type": "library",
+      "version": "3.0.1"
+    },
+    {
+      "bom-ref": "pkg:pypi/urllib3@2.8.0",
+      "name": "urllib3",
+      "purl": "pkg:pypi/urllib3@2.8.0",
+      "type": "library",
+      "version": "2.8.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [
+        "pkg:pypi/attrs@26.1.0",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ],
+      "ref": "pkg:pypi/cattrs@26.2.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/attrs@26.1.0",
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/platformdirs@4.13.5",
+        "pkg:pypi/requests@2.34.2",
+        "pkg:pypi/url-normalize@3.0.1",
+        "pkg:pypi/urllib3@2.8.0"
+      ],
+      "ref": "pkg:pypi/requests-cache@1.1.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/certifi@2026.10.19",
+        "pkg:pypi/charset-normalizer@3.5.2",
+        "pkg:pypi/idna@3.20",
+        "pkg:pypi/urllib3@2.8.0"
+      ],
+      "ref": "pkg:pypi/requests@2.34.2"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/pip@24.0",
+        "pkg:pypi/platformdirs@4.13.5"
+      ],
+      "ref": "pkg:pypi/setuptools@79.0.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/idna@3.20"
+      ],
+      "ref": "pkg:pypi/url-normalize@3.0.1"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "pkg:pypi/requests-cache@1.1.1",
+      "name": "requests-cache",
+      "purl": "pkg:pypi/requests-cache@1.1.1",
+      "type": "application",
+      "version": "1.1.1"
+    },
+    "properties": [
+      {
+        "name": "reconstruction:interpretation",
+        "value": "Candidate graph; no installed-artifact or exploitability assertion"
+      }
+    ],
+    "timestamp": "2026-10-22T21:17:11.161707Z"
+  },
+  "serialNumber": "urn:uuid:b0682870-19ef-4e2a-a3c6-32eec1f290be",
+  "specVersion": "1.5",
+  "version": 1
+}

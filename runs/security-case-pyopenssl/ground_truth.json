@@ -1,0 +1,82 @@
+{
+  "context": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.11.16",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_python_implementation": "CPython",
+    "platform_release": "7.0.0-30-generic",
+    "platform_system": "Linux",
+    "platform_version": "#30~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:27:52 UTC 2",
+    "python_full_version": "3.11.16",
+    "python_version": "3.11",
+    "sys_platform": "linux"
+  },
+  "counts": {
+    "direct_package_edges": 3,
+    "evaluated_requirement_records": 26,
+    "packages": 4,
+    "unresolved": 0
+  },
+  "edges": [
+    {
+      "evidence": [
+        "pycparser; implementation_name != \"PyPy\" (base)"
+      ],
+      "from": "cffi",
+      "to": "pycparser"
+    },
+    {
+      "evidence": [
+        "cffi >=1.12 (unconditional)"
+      ],
+      "from": "cryptography",
+      "to": "cffi"
+    },
+    {
+      "evidence": [
+        "cryptography (!=40.0.0,!=40.0.1,<42,>=38.0.0) (unconditional)"
+      ],
+      "from": "pyopenssl",
+      "to": "cryptography"
+    }
+  ],
+  "nodes": [
+    {
+      "name": "cffi",
+      "purl": "pkg:pypi/cffi@2.1.1",
+      "requested_extras": [],
+      "requested_root": false,
+      "version": "2.1.1"
+    },
+    {
+      "name": "cryptography",
+      "purl": "pkg:pypi/cryptography@41.0.5",
+      "requested_extras": [],
+      "requested_root": false,
+      "version": "41.0.5"
+    },
+    {
+      "name": "pycparser",
+      "purl": "pkg:pypi/pycparser@3.11",
+      "requested_extras": [],
+      "requested_root": false,
+      "version": "3.11"
+    },
+    {
+      "name": "pyopenssl",
+      "purl": "pkg:pypi/pyopenssl@23.2.0",
+      "requested_extras": [],
+      "requested_root": true,
+      "version": "23.2.0"
+    }
+  ],
+  "project": "pyopenssl-security",
+  "roots": [
+    "pyopenssl"
+  ],
+  "schema_version": "benchmark-v1",
+  "semantics": "direct Requires-Dist dependency graph of installed distributions, projected onto requested roots and known extras",
+  "unresolved": [],
+  "warnings": []
+}

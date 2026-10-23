@@ -1,0 +1,72 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/requests@2.31.0?package-id=21ce5e236ab6b5c2",
+      "cpe": "cpe:2.3:a:python:requests:2.31.0:*:*:*:*:*:*:*",
+      "name": "requests",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/requirements.txt"
+        }
+      ],
+      "purl": "pkg:pypi/requests@2.31.0",
+      "type": "library",
+      "version": "2.31.0"
+    },
+    {
+      "bom-ref": "26ca2b7dc025d550",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d89f2af0a3fcc8a9dd0a4702d1655345323ccef3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1d277ef3981a3e49b02912a0f03fe1ab563539d7e4e1b5c1e6404a57b19d883f"
+        }
+      ],
+      "name": "/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/positive-control/requirements.txt",
+      "type": "file"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "d7b90aad79d73e05",
+      "name": "/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/positive-control",
+      "type": "file"
+    },
+    "timestamp": "2026-10-23T04:22:20+07:00",
+    "tools": {
+      "components": [
+        {
+          "author": "anchore",
+          "name": "syft",
+          "type": "application",
+          "version": "1.54.1"
+        }
+      ]
+    }
+  },
+  "serialNumber": "urn:uuid:6cf9b2f2-f91f-4da0-8ae0-0a86aac51818",
+  "specVersion": "1.7",
+  "version": 1
+}

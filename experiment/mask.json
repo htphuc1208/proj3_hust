@@ -1,0 +1,14 @@
+{
+  "warning": "Synthetic masking: NOT real generator omissions; reference is environment-specific",
+  "seed": 42,
+  "drop_node_probability": 0.25,
+  "drop_source_probability": 1.0,
+  "reference_nodes": 4,
+  "reference_edges": 3,
+  "observed_nodes": 3,
+  "observed_edges": 0,
+  "actually_missing_nodes": 1,
+  "actually_missing_edges": 3,
+  "removed_dependency_declarations": 4,
+  "ignored_dangling_reference_edges": 0
+}

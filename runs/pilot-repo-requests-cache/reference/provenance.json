@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "pip_inspect_sha256": "5651a0985b3d05614a8e5709fe4d8c1f15b022048f9956e186b226d5d40686a5",
+    "pip_install_report_sha256": "e518ee830ccb99eac8819f5765b949ae6d62f4b48f7d55a33a96e33a66e60f6a"
+  },
+  "pip_inspect_pip_version": "24.0",
+  "project": "requests-cache",
+  "root_requirements": [
+    "requests-cache==1.1.1"
+  ],
+  "time_utc": "2026-10-22T06:57:33.818803+00:00",
+  "warning": "Reference describes a concrete installed Python environment, not actual runtime calls or shipped binary contents"
+}

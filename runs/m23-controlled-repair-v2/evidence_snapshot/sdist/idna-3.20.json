@@ -1,0 +1,40 @@
+{
+  "attempts": [
+    {
+      "method": "public-wheel",
+      "status": "COMPLETE"
+    }
+  ],
+  "distribution_type": "bdist_wheel",
+  "dynamic_fields": [],
+  "extraction_method": "public-wheel",
+  "metadata_sha256": "dbd8c14c1e4ca1e0c9824a6dbc7cbbf78884f38eb52d91148cd3025f671e4b85",
+  "metadata_status": "COMPLETE",
+  "metadata_version": "2.5",
+  "name": "idna",
+  "provenance": {
+    "artifact_filename": "idna-3.20-py3-none-any.whl",
+    "artifact_sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+    "artifact_url": "https://files.pythonhosted.org/packages/58/a2/bb081bab032533a855d44de1d56f8e8426114ff1ba5d1f07a438a0a654f8/idna-3.20-py3-none-any.whl",
+    "cutoff": "2026-10-22T04:09:45.004707+00:00",
+    "cutoff_status": "INSTALLATION_TIME_UNKNOWN; conservative minimum observed SBOM horizon",
+    "fetched_at": "2026-10-22T21:07:09.540559Z",
+    "index_sha256": "e7cbd26e23ce60f6cb3a151d2adf3b1b087bb8f10ac2d9d6db70fdccbf3bb041",
+    "rejections": [],
+    "source_pypi_json_url": "https://pypi.org/pypi/idna/3.20/json",
+    "uploaded_at": "2026-09-17T14:11:03.168153Z"
+  },
+  "provides_extra": [
+    "all"
+  ],
+  "requires_dist": [
+    "ruff >= 0.16.0 ; extra == \"all\"",
+    "mypy >= 1.11.2 ; extra == \"all\"",
+    "ty >= 0.0.37 ; extra == \"all\"",
+    "pytest >= 8.3.2 ; extra == \"all\"",
+    "hypothesis >= 6.141.1 ; extra == \"all\"",
+    "coverage >= 7.10.0 ; extra == \"all\""
+  ],
+  "requires_python": ">=3.9",
+  "version": "3.20"
+}

@@ -1,0 +1,42 @@
+{
+  "attempts": [
+    {
+      "method": "public-wheel",
+      "status": "COMPLETE"
+    }
+  ],
+  "distribution_type": "bdist_wheel",
+  "dynamic_fields": [],
+  "extraction_method": "public-wheel",
+  "metadata_sha256": "7823e890e9db6f415138badf9744791290ef76e7ec6fd09a3789e8247fffe782",
+  "metadata_status": "COMPLETE",
+  "metadata_version": "2.1",
+  "name": "requests",
+  "provenance": {
+    "artifact_filename": "requests-2.31.0-py3-none-any.whl",
+    "artifact_sha256": "58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f",
+    "artifact_url": "https://files.pythonhosted.org/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl",
+    "cutoff": "2026-10-22T21:14:12.214022Z",
+    "cutoff_status": "OBSERVED_CURRENT_ACQUISITION; contemporary controlled captures",
+    "fetched_at": "2026-10-22T21:14:13.382672Z",
+    "index_sha256": "d9f9143e87ae832bb1ac5273596fa7167c24328845813797d633f9c3284b5a73",
+    "rejections": [],
+    "source_pypi_json_url": "https://pypi.org/pypi/requests/2.31.0/json",
+    "uploaded_at": "2023-05-22T15:12:42.313790Z"
+  },
+  "provides_extra": [
+    "security",
+    "socks",
+    "use_chardet_on_py3"
+  ],
+  "requires_dist": [
+    "charset-normalizer (<4,>=2)",
+    "idna (<4,>=2.5)",
+    "urllib3 (<3,>=1.21.1)",
+    "certifi (>=2017.4.17)",
+    "PySocks (!=1.5.7,>=1.5.6) ; extra == 'socks'",
+    "chardet (<6,>=3.0.2) ; extra == 'use_chardet_on_py3'"
+  ],
+  "requires_python": ">=3.7",
+  "version": "2.31.0"
+}

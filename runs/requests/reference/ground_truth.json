@@ -1,0 +1,96 @@
+{
+  "context": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.12.3",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_python_implementation": "CPython",
+    "platform_release": "7.0.0-30-generic",
+    "platform_system": "Linux",
+    "platform_version": "#30~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:27:52 UTC 2",
+    "python_full_version": "3.12.3",
+    "python_version": "3.12",
+    "sys_platform": "linux"
+  },
+  "counts": {
+    "direct_package_edges": 4,
+    "evaluated_requirement_records": 17,
+    "packages": 5,
+    "unresolved": 0
+  },
+  "edges": [
+    {
+      "evidence": [
+        "certifi (>=2017.4.17) (unconditional)"
+      ],
+      "from": "requests",
+      "to": "certifi"
+    },
+    {
+      "evidence": [
+        "charset-normalizer (<4,>=2) (unconditional)"
+      ],
+      "from": "requests",
+      "to": "charset-normalizer"
+    },
+    {
+      "evidence": [
+        "idna (<4,>=2.5) (unconditional)"
+      ],
+      "from": "requests",
+      "to": "idna"
+    },
+    {
+      "evidence": [
+        "urllib3 (<3,>=1.21.1) (unconditional)"
+      ],
+      "from": "requests",
+      "to": "urllib3"
+    }
+  ],
+  "nodes": [
+    {
+      "name": "certifi",
+      "purl": "pkg:pypi/certifi@2026.10.19",
+      "requested_extras": [],
+      "requested_root": false,
+      "version": "2026.10.19"
+    },
+    {
+      "name": "charset-normalizer",
+      "purl": "pkg:pypi/charset-normalizer@3.5.2",
+      "requested_extras": [],
+      "requested_root": false,
+      "version": "3.5.2"
+    },
+    {
+      "name": "idna",
+      "purl": "pkg:pypi/idna@3.20",
+      "requested_extras": [],
+      "requested_root": false,
+      "version": "3.20"
+    },
+    {
+      "name": "requests",
+      "purl": "pkg:pypi/requests@2.31.0",
+      "requested_extras": [],
+      "requested_root": true,
+      "version": "2.31.0"
+    },
+    {
+      "name": "urllib3",
+      "purl": "pkg:pypi/urllib3@2.8.0",
+      "requested_extras": [],
+      "requested_root": false,
+      "version": "2.8.0"
+    }
+  ],
+  "project": "requests-demo",
+  "roots": [
+    "requests"
+  ],
+  "schema_version": "benchmark-v1",
+  "semantics": "direct Requires-Dist dependency graph of installed distributions, projected onto requested roots and known extras",
+  "unresolved": [],
+  "warnings": []
+}

@@ -1,0 +1,390 @@
+{
+  "candidates": {
+    "contradictions": [],
+    "edges": [
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": "python_version < \"3.13\"",
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: python_version < \"3.13\"",
+        "source_purl": "pkg:pypi/brotlicffi@1.2.0.2",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/cffi@2.1.1",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": "implementation_name != \"PyPy\"",
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: implementation_name != \"PyPy\"",
+        "source_purl": "pkg:pypi/cffi@2.1.1",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/pycparser@3.11",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/flask@3.1.3",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/blinker@1.9.0",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/flask@3.1.3",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/click@8.5.0",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/flask@3.1.3",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/itsdangerous@2.2.0",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/flask@3.1.3",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/jinja2@3.1.6",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/flask@3.1.3",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/markupsafe@3.0.4",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/flask@3.1.3",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/werkzeug@3.1.9",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/httpbin@0.10.2",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/brotlicffi@1.2.0.2",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/httpbin@0.10.2",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/decorator@5.3.1",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/httpbin@0.10.2",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/flasgger@0.9.7.1",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/httpbin@0.10.2",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/flask@3.1.3",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/httpbin@0.10.2",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/six@1.17.0",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/httpbin@0.10.2",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/werkzeug@3.1.9",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": "python_version < \"3.12\"",
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: python_version < \"3.12\"",
+        "source_purl": "pkg:pypi/httpbin@0.10.2",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/greenlet@2.0.2",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/jinja2@3.1.6",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/markupsafe@3.0.4",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/jsonschema-specifications@2025.9.1",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/referencing@0.37.0",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/jsonschema@4.26.0",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/attrs@26.1.0",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/jsonschema@4.26.0",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/jsonschema-specifications@2025.9.1",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/jsonschema@4.26.0",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/referencing@0.37.0",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/jsonschema@4.26.0",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/rpds-py@2026.9.1",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/referencing@0.37.0",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/attrs@26.1.0",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/referencing@0.37.0",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/rpds-py@2026.9.1",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": "python_version < \"3.13\"",
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: python_version < \"3.13\"",
+        "source_purl": "pkg:pypi/referencing@0.37.0",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/typing-extensions@4.16.0",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/werkzeug@3.1.9",
+        "status": "INFERRED",
+        "target_purl": "pkg:pypi/markupsafe@3.0.4",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      }
+    ],
+    "nodes": []
+  },
+  "snapshot_sha256": "a9bc09ad266ebf8c0a6e34a1bc6e24644d609ed75c4cabbceb90cde69775ed98",
+  "trace": {
+    "command": [
+      "docker",
+      "run",
+      "--rm",
+      "--network",
+      "none",
+      "--cap-drop=ALL",
+      "--security-opt",
+      "no-new-privileges",
+      "--memory=2g",
+      "--cpus=2",
+      "--pids-limit=128",
+      "--user",
+      "1000:1000",
+      "-v",
+      "/tmp/sbom-blind-unib72hy/input:/work:ro",
+      "-v",
+      "/tmp/sbom-blind-unib72hy/output:/out:rw",
+      "--entrypoint",
+      "python",
+      "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+      "/work/inference_worker.py",
+      "--input",
+      "/work/input.cdx.json",
+      "--evidence",
+      "/work/evidence_snapshot",
+      "--context",
+      "/work/context.json",
+      "--out",
+      "/out/predictions.json",
+      "--mode",
+      "baseline"
+    ],
+    "completed_at": "2026-10-22T21:20:42.445683Z",
+    "context_sha256": "7b0e488d0b463e7ae74cfd64d38dd505aef9966c887239161edd26f51f289ae6",
+    "input_sha256": "96965f23e7e24a3806373ff02440af42ca759f9c7396070e9ddd663f14803e4b",
+    "network": "none",
+    "oracle_mounted": false,
+    "snapshot_sha256": "a9bc09ad266ebf8c0a6e34a1bc6e24644d609ed75c4cabbceb90cde69775ed98",
+    "started_at": "2026-10-22T21:20:42.080583Z"
+  },
+  "unresolved": [
+    {
+      "parent": "pkg:pypi/flasgger@0.9.7.1",
+      "reason": "EVIDENCE_UNAVAILABLE"
+    },
+    {
+      "parent": "pkg:pypi/my-test-package@1.0",
+      "reason": "EVIDENCE_UNAVAILABLE"
+    },
+    {
+      "parent": "pkg:pypi/setuptools@79.0.1",
+      "reason": "EVIDENCE_UNAVAILABLE"
+    }
+  ]
+}

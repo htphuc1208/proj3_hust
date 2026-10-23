@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "pip_inspect_sha256": "0c6e97750635fdfe4040b156b03dd55b4828beb05090c06acf5f4a795d85fb8a",
+    "pip_install_report_sha256": "2a222ad220e66cdbe0ab905b82bef99248e9152a0ae8da2c6db10a45342ff9b9"
+  },
+  "pip_inspect_pip_version": "24.0",
+  "project": "requests-demo",
+  "root_requirements": [
+    "requests==2.31.0"
+  ],
+  "time_utc": "2026-10-22T02:07:00.873786+00:00",
+  "warning": "Reference describes a concrete installed Python environment, not actual runtime calls or shipped binary contents"
+}

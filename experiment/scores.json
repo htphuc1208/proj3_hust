@@ -1,0 +1,34 @@
+{
+  "reference": {
+    "nodes": 4,
+    "edges": 3,
+    "dangling_edges": 0
+  },
+  "observed": {
+    "nodes": 3,
+    "edges": 0,
+    "dangling_edges": 0
+  },
+  "reconstructed": {
+    "nodes": 4,
+    "edges": 3,
+    "dangling_edges": 0
+  },
+  "new_component_recovery": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "new_edge_recovery": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "warning": "Scores relative to provided reference, not evidence of performance on unseen real SBOMs"
+}

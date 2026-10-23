@@ -1,0 +1,740 @@
+{
+  "data_kind": "AUTHORED_METADATA_BENCHMARK",
+  "entrypoint": "requirements.txt",
+  "fresh_reference": {
+    "edges": 65,
+    "nodes": 54,
+    "sha256": "4b89f9c5afd7fc04ff8a37e9e113b1793f39736a5012844feec31dd8f06a8357",
+    "unresolved_requirements": 0
+  },
+  "input_hashes": {
+    "const.txt": "cd1bee38b796825ce46d8505ef4267cd20ed0c9a2961ba6738659a106b50a3fc",
+    "downloads/fastapi-0.111.0-py3-none-any.whl": "97ecbf994be0bcbdadedf88c3150252bed7b2087075ac99735403b1b76cc8fc0",
+    "otherreq.txt": "85c3901ca6d8eb004a730f1a32879458931e892c19e42620684bc96adf39fd65",
+    "requirements.txt": "08e79fd48da8e9677a914c7e07a97944dfdd82ba059841251d140b39d0cedf44"
+  },
+  "input_policy": "Original selected entrypoint plus referenced files; author groundtruth and other entrypoint NOT visible to scanners",
+  "installation_attempts": {
+    "b4": {
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--cap-drop=ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--memory=2g",
+        "--cpus=2",
+        "--pids-limit=128",
+        "--user",
+        "1000:1000",
+        "-v",
+        "/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/requirements:/source:ro",
+        "-v",
+        "/home/phucht/project/sbom_security_poc/runs/m23-dsn-b4-v2/requirements/b4:/out:rw",
+        "--workdir",
+        "/source",
+        "--entrypoint",
+        "python",
+        "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+        "-m",
+        "pip",
+        "install",
+        "--dry-run",
+        "--ignore-installed",
+        "--report",
+        "/out/resolution.json",
+        "-r",
+        "requirements.txt"
+      ],
+      "comparison_eligibility": "NONCOMPARABLE_TO_HISTORICAL_INSTALLATION; live index not a 2024 snapshot",
+      "exit_code": 0,
+      "log_sha256": "769db465229a0b4f95405c1b31a567ac313428a676611943d05ff3b6524c4b00",
+      "status": "RAN"
+    },
+    "independent_install": {
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--cap-drop=ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--memory=2g",
+        "--cpus=2",
+        "--pids-limit=128",
+        "--user",
+        "1000:1000",
+        "-v",
+        "/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/requirements:/source:ro",
+        "-v",
+        "/home/phucht/project/sbom_security_poc/runs/m23-dsn-b4-v2/requirements/independent_install:/out:rw",
+        "-v",
+        "/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/install_code:/code:ro",
+        "--workdir",
+        "/source",
+        "--entrypoint",
+        "python",
+        "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+        "/code/attempt_dsn_install.py",
+        "requirements.txt"
+      ],
+      "comparison_eligibility": "NONCOMPARABLE_TO_HISTORICAL_INSTALLATION; live index not a 2024 snapshot",
+      "exit_code": 0,
+      "log_sha256": "3b050894b9e699d75d73e95e7314283172d83543e065a28dd7b223a1633e417d",
+      "status": "RAN"
+    }
+  },
+  "reproduction_status": "PARTIALLY_REPRODUCED",
+  "scanners": {
+    "syft": {
+      "author_label_agreement": {
+        "f1": 0.0,
+        "fn": 52,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "command": [
+        "/home/phucht/project/sbom_security_poc/research/.work/syft",
+        "scan",
+        "dir:/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/requirements",
+        "-o",
+        "cyclonedx-json"
+      ],
+      "completed_at": "2026-10-22T21:22:21.346638Z",
+      "component_count": 0,
+      "components": [],
+      "dependency_edge_metrics": "UNMEASURED; authors' component list has no direct-edge labels",
+      "fresh_installed_component_score": {
+        "f1": 0.0,
+        "fn": 54,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "fresh_installed_edge_evaluation": {
+        "additions": {
+          "f1": 0.0,
+          "fn": 65,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tp": 0
+        },
+        "edge_audit": [],
+        "excluded_or_unknown_edges": 0,
+        "false_positive_edges": [],
+        "missed_edges": [
+          [
+            "pkg:pypi/anyio@4.15.1",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/anyio@4.15.1",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          [
+            "pkg:pypi/botocore@1.43.118",
+            "pkg:pypi/jmespath@1.1.0"
+          ],
+          [
+            "pkg:pypi/botocore@1.43.118",
+            "pkg:pypi/python-dateutil@2.9.0.post0"
+          ],
+          [
+            "pkg:pypi/botocore@1.43.118",
+            "pkg:pypi/urllib3@1.26.8"
+          ],
+          [
+            "pkg:pypi/cffi@2.1.1",
+            "pkg:pypi/pycparser@3.12"
+          ],
+          [
+            "pkg:pypi/cryptography@50.0.2",
+            "pkg:pypi/cffi@2.1.1"
+          ],
+          [
+            "pkg:pypi/email-validator@2.3.0",
+            "pkg:pypi/dnspython@2.9.0"
+          ],
+          [
+            "pkg:pypi/email-validator@2.3.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/fastapi-cli@0.0.32",
+            "pkg:pypi/rich-toolkit@0.20.6"
+          ],
+          [
+            "pkg:pypi/fastapi-cli@0.0.32",
+            "pkg:pypi/typer@0.27.3"
+          ],
+          [
+            "pkg:pypi/fastapi-cli@0.0.32",
+            "pkg:pypi/uvicorn@0.54.0"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/email-validator@2.3.0"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/fastapi-cli@0.0.32"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/httpx@0.25.2"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/jinja2@3.1.6"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/orjson@3.13.0"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/pydantic@2.14.1"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/python-multipart@0.0.32"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/starlette@0.37.2"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/ujson@6.0.0"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/uvicorn@0.54.0"
+          ],
+          [
+            "pkg:pypi/httpcore@1.0.9",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/httpcore@1.0.9",
+            "pkg:pypi/h11@0.16.0"
+          ],
+          [
+            "pkg:pypi/httpx@0.25.2",
+            "pkg:pypi/anyio@4.15.1"
+          ],
+          [
+            "pkg:pypi/httpx@0.25.2",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/httpx@0.25.2",
+            "pkg:pypi/httpcore@1.0.9"
+          ],
+          [
+            "pkg:pypi/httpx@0.25.2",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/httpx@0.25.2",
+            "pkg:pypi/sniffio@1.3.1"
+          ],
+          [
+            "pkg:pypi/jinja2@3.1.6",
+            "pkg:pypi/markupsafe@3.0.4"
+          ],
+          [
+            "pkg:pypi/markdown-it-py@4.2.0",
+            "pkg:pypi/mdurl@0.1.2"
+          ],
+          [
+            "pkg:pypi/ndg-httpsclient@0.5.1",
+            "pkg:pypi/pyasn1@0.6.4"
+          ],
+          [
+            "pkg:pypi/ndg-httpsclient@0.5.1",
+            "pkg:pypi/pyopenssl@26.4.0"
+          ],
+          [
+            "pkg:pypi/pydantic-core@2.50.1",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          [
+            "pkg:pypi/pydantic@2.14.1",
+            "pkg:pypi/annotated-types@0.8.0"
+          ],
+          [
+            "pkg:pypi/pydantic@2.14.1",
+            "pkg:pypi/pydantic-core@2.50.1"
+          ],
+          [
+            "pkg:pypi/pydantic@2.14.1",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          [
+            "pkg:pypi/pydantic@2.14.1",
+            "pkg:pypi/typing-inspection@0.4.4"
+          ],
+          [
+            "pkg:pypi/pyopenssl@26.4.0",
+            "pkg:pypi/cryptography@50.0.2"
+          ],
+          [
+            "pkg:pypi/pyopenssl@26.4.0",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          [
+            "pkg:pypi/python-dateutil@2.9.0.post0",
+            "pkg:pypi/six@1.16.0"
+          ],
+          [
+            "pkg:pypi/requests@2.8.1",
+            "pkg:pypi/ndg-httpsclient@0.5.1"
+          ],
+          [
+            "pkg:pypi/requests@2.8.1",
+            "pkg:pypi/pyasn1@0.6.4"
+          ],
+          [
+            "pkg:pypi/requests@2.8.1",
+            "pkg:pypi/pyopenssl@26.4.0"
+          ],
+          [
+            "pkg:pypi/rich-toolkit@0.20.6",
+            "pkg:pypi/click@8.5.0"
+          ],
+          [
+            "pkg:pypi/rich-toolkit@0.20.6",
+            "pkg:pypi/rich@15.0.0"
+          ],
+          [
+            "pkg:pypi/rich-toolkit@0.20.6",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          [
+            "pkg:pypi/rich@15.0.0",
+            "pkg:pypi/markdown-it-py@4.2.0"
+          ],
+          [
+            "pkg:pypi/rich@15.0.0",
+            "pkg:pypi/pygments@2.21.0"
+          ],
+          [
+            "pkg:pypi/s3transfer@0.19.3",
+            "pkg:pypi/botocore@1.43.118"
+          ],
+          [
+            "pkg:pypi/starlette@0.37.2",
+            "pkg:pypi/anyio@4.15.1"
+          ],
+          [
+            "pkg:pypi/typer@0.27.3",
+            "pkg:pypi/annotated-doc@0.0.5"
+          ],
+          [
+            "pkg:pypi/typer@0.27.3",
+            "pkg:pypi/rich@15.0.0"
+          ],
+          [
+            "pkg:pypi/typer@0.27.3",
+            "pkg:pypi/shellingham@1.5.4"
+          ],
+          [
+            "pkg:pypi/typing-inspection@0.4.4",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          [
+            "pkg:pypi/uvicorn@0.54.0",
+            "pkg:pypi/click@8.5.0"
+          ],
+          [
+            "pkg:pypi/uvicorn@0.54.0",
+            "pkg:pypi/h11@0.16.0"
+          ],
+          [
+            "pkg:pypi/uvicorn@0.54.0",
+            "pkg:pypi/httptools@0.9.0"
+          ],
+          [
+            "pkg:pypi/uvicorn@0.54.0",
+            "pkg:pypi/python-dotenv@1.2.4"
+          ],
+          [
+            "pkg:pypi/uvicorn@0.54.0",
+            "pkg:pypi/pyyaml@6.0.3"
+          ],
+          [
+            "pkg:pypi/uvicorn@0.54.0",
+            "pkg:pypi/uvloop@0.23.0"
+          ],
+          [
+            "pkg:pypi/uvicorn@0.54.0",
+            "pkg:pypi/watchfiles@1.3.0"
+          ],
+          [
+            "pkg:pypi/uvicorn@0.54.0",
+            "pkg:pypi/websockets@17.3"
+          ],
+          [
+            "pkg:pypi/watchfiles@1.3.0",
+            "pkg:pypi/anyio@4.15.1"
+          ]
+        ],
+        "recovered_edges": [],
+        "reference_edges": 65,
+        "reference_nodes": 54,
+        "unresolved_reference_requirements": [],
+        "whole_graph": {
+          "f1": 0.0,
+          "fn": 65,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tp": 0
+        }
+      },
+      "fresh_reference_caveat": "Contemporary live-index installation; not the authors' 2024 environment",
+      "label_scope": "Archived authors' full requirements.txt component/version labels only",
+      "latency_seconds": 0.7845254100002421,
+      "output_sha256": "00702e1c0a43553d941e37b2b998faab955df7535e373141b9d4e0691e497eeb",
+      "started_at": "2026-10-22T21:22:20.562102Z",
+      "status": "RAN"
+    },
+    "trivy": {
+      "author_label_agreement": {
+        "f1": 0.0,
+        "fn": 52,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "command": [
+        "/home/phucht/project/sbom_security_poc/research/.work/trivy",
+        "fs",
+        "--format",
+        "cyclonedx",
+        "--skip-db-update",
+        "--skip-java-db-update",
+        "--offline-scan",
+        "--skip-check-update",
+        "/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/requirements"
+      ],
+      "completed_at": "2026-10-22T21:22:21.695623Z",
+      "component_count": 0,
+      "components": [],
+      "dependency_edge_metrics": "UNMEASURED; authors' component list has no direct-edge labels",
+      "fresh_installed_component_score": {
+        "f1": 0.0,
+        "fn": 54,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "fresh_installed_edge_evaluation": {
+        "additions": {
+          "f1": 0.0,
+          "fn": 65,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tp": 0
+        },
+        "edge_audit": [],
+        "excluded_or_unknown_edges": 0,
+        "false_positive_edges": [],
+        "missed_edges": [
+          [
+            "pkg:pypi/anyio@4.15.1",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/anyio@4.15.1",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          [
+            "pkg:pypi/botocore@1.43.118",
+            "pkg:pypi/jmespath@1.1.0"
+          ],
+          [
+            "pkg:pypi/botocore@1.43.118",
+            "pkg:pypi/python-dateutil@2.9.0.post0"
+          ],
+          [
+            "pkg:pypi/botocore@1.43.118",
+            "pkg:pypi/urllib3@1.26.8"
+          ],
+          [
+            "pkg:pypi/cffi@2.1.1",
+            "pkg:pypi/pycparser@3.12"
+          ],
+          [
+            "pkg:pypi/cryptography@50.0.2",
+            "pkg:pypi/cffi@2.1.1"
+          ],
+          [
+            "pkg:pypi/email-validator@2.3.0",
+            "pkg:pypi/dnspython@2.9.0"
+          ],
+          [
+            "pkg:pypi/email-validator@2.3.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/fastapi-cli@0.0.32",
+            "pkg:pypi/rich-toolkit@0.20.6"
+          ],
+          [
+            "pkg:pypi/fastapi-cli@0.0.32",
+            "pkg:pypi/typer@0.27.3"
+          ],
+          [
+            "pkg:pypi/fastapi-cli@0.0.32",
+            "pkg:pypi/uvicorn@0.54.0"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/email-validator@2.3.0"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/fastapi-cli@0.0.32"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/httpx@0.25.2"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/jinja2@3.1.6"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/orjson@3.13.0"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/pydantic@2.14.1"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/python-multipart@0.0.32"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/starlette@0.37.2"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/ujson@6.0.0"
+          ],
+          [
+            "pkg:pypi/fastapi@0.111.0",
+            "pkg:pypi/uvicorn@0.54.0"
+          ],
+          [
+            "pkg:pypi/httpcore@1.0.9",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/httpcore@1.0.9",
+            "pkg:pypi/h11@0.16.0"
+          ],
+          [
+            "pkg:pypi/httpx@0.25.2",
+            "pkg:pypi/anyio@4.15.1"
+          ],
+          [
+            "pkg:pypi/httpx@0.25.2",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/httpx@0.25.2",
+            "pkg:pypi/httpcore@1.0.9"
+          ],
+          [
+            "pkg:pypi/httpx@0.25.2",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/httpx@0.25.2",
+            "pkg:pypi/sniffio@1.3.1"
+          ],
+          [
+            "pkg:pypi/jinja2@3.1.6",
+            "pkg:pypi/markupsafe@3.0.4"
+          ],
+          [
+            "pkg:pypi/markdown-it-py@4.2.0",
+            "pkg:pypi/mdurl@0.1.2"
+          ],
+          [
+            "pkg:pypi/ndg-httpsclient@0.5.1",
+            "pkg:pypi/pyasn1@0.6.4"
+          ],
+          [
+            "pkg:pypi/ndg-httpsclient@0.5.1",
+            "pkg:pypi/pyopenssl@26.4.0"
+          ],
+          [
+            "pkg:pypi/pydantic-core@2.50.1",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          [
+            "pkg:pypi/pydantic@2.14.1",
+            "pkg:pypi/annotated-types@0.8.0"
+          ],
+          [
+            "pkg:pypi/pydantic@2.14.1",
+            "pkg:pypi/pydantic-core@2.50.1"
+          ],
+          [
+            "pkg:pypi/pydantic@2.14.1",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          [
+            "pkg:pypi/pydantic@2.14.1",
+            "pkg:pypi/typing-inspection@0.4.4"
+          ],
+          [
+            "pkg:pypi/pyopenssl@26.4.0",
+            "pkg:pypi/cryptography@50.0.2"
+          ],
+          [
+            "pkg:pypi/pyopenssl@26.4.0",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          [
+            "pkg:pypi/python-dateutil@2.9.0.post0",
+            "pkg:pypi/six@1.16.0"
+          ],
+          [
+            "pkg:pypi/requests@2.8.1",
+            "pkg:pypi/ndg-httpsclient@0.5.1"
+          ],
+          [
+            "pkg:pypi/requests@2.8.1",
+            "pkg:pypi/pyasn1@0.6.4"
+          ],
+          [
+            "pkg:pypi/requests@2.8.1",
+            "pkg:pypi/pyopenssl@26.4.0"
+          ],
+          [
+            "pkg:pypi/rich-toolkit@0.20.6",
+            "pkg:pypi/click@8.5.0"
+          ],
+          [
+            "pkg:pypi/rich-toolkit@0.20.6",
+            "pkg:pypi/rich@15.0.0"
+          ],
+          [
+            "pkg:pypi/rich-toolkit@0.20.6",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          [
+            "pkg:pypi/rich@15.0.0",
+            "pkg:pypi/markdown-it-py@4.2.0"
+          ],
+          [
+            "pkg:pypi/rich@15.0.0",
+            "pkg:pypi/pygments@2.21.0"
+          ],
+          [
+            "pkg:pypi/s3transfer@0.19.3",
+            "pkg:pypi/botocore@1.43.118"
+          ],
+          [
+            "pkg:pypi/starlette@0.37.2",
+            "pkg:pypi/anyio@4.15.1"
+          ],
+          [
+            "pkg:pypi/typer@0.27.3",
+            "pkg:pypi/annotated-doc@0.0.5"
+          ],
+          [
+            "pkg:pypi/typer@0.27.3",
+            "pkg:pypi/rich@15.0.0"
+          ],
+          [
+            "pkg:pypi/typer@0.27.3",
+            "pkg:pypi/shellingham@1.5.4"
+          ],
+          [
+            "pkg:pypi/typing-inspection@0.4.4",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          [
+            "pkg:pypi/uvicorn@0.54.0",
+            "pkg:pypi/click@8.5.0"
+          ],
+          [
+            "pkg:pypi/uvicorn@0.54.0",
+            "pkg:pypi/h11@0.16.0"
+          ],
+          [
+            "pkg:pypi/uvicorn@0.54.0",
+            "pkg:pypi/httptools@0.9.0"
+          ],
+          [
+            "pkg:pypi/uvicorn@0.54.0",
+            "pkg:pypi/python-dotenv@1.2.4"
+          ],
+          [
+            "pkg:pypi/uvicorn@0.54.0",
+            "pkg:pypi/pyyaml@6.0.3"
+          ],
+          [
+            "pkg:pypi/uvicorn@0.54.0",
+            "pkg:pypi/uvloop@0.23.0"
+          ],
+          [
+            "pkg:pypi/uvicorn@0.54.0",
+            "pkg:pypi/watchfiles@1.3.0"
+          ],
+          [
+            "pkg:pypi/uvicorn@0.54.0",
+            "pkg:pypi/websockets@17.3"
+          ],
+          [
+            "pkg:pypi/watchfiles@1.3.0",
+            "pkg:pypi/anyio@4.15.1"
+          ]
+        ],
+        "recovered_edges": [],
+        "reference_edges": 65,
+        "reference_nodes": 54,
+        "unresolved_reference_requirements": [],
+        "whole_graph": {
+          "f1": 0.0,
+          "fn": 65,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tp": 0
+        }
+      },
+      "fresh_reference_caveat": "Contemporary live-index installation; not the authors' 2024 environment",
+      "label_scope": "Archived authors' full requirements.txt component/version labels only",
+      "latency_seconds": 0.05586349399982282,
+      "output_sha256": "b0de54a766b81d2fe6cd0ec4e8539de000a8edba78d3d52073aff52a51ef4d6f",
+      "started_at": "2026-10-22T21:22:21.639751Z",
+      "status": "RAN"
+    }
+  },
+  "source_commit": "e6bcf23b2f4e384f9fc398793529583845612b63"
+}

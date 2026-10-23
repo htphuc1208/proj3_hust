@@ -1,0 +1,21 @@
+{
+  "authors": [
+    "Sheng Yu",
+    "Wei Song",
+    "Xunchao Hu",
+    "Heng Yin"
+  ],
+  "benchmark_commit": "e6bcf23b2f4e384f9fc398793529583845612b63",
+  "benchmark_repository": "https://github.com/DeepBitsTechnology/sbom-benchmark",
+  "entrypoints": [
+    "python/req/requirements.txt",
+    "python/req/r.txt"
+  ],
+  "input_kind": "AUTHORED_METADATA_BENCHMARK",
+  "paper_sha256": "db80633c638c5689f29514911a685bd0585134732b795fdd2ecfde6bbb51f66e",
+  "paper_url": "https://cs.ucr.edu/~heng/pubs/sbom-dsn24.pdf",
+  "reproduction_scope": "Python requirements subset with pinned contemporary tools; not full-paper reproduction",
+  "title": "On the Correctness of Metadata-Based SBOM Generation: A Differential Analysis Approach",
+  "venue": "IEEE/IFIP DSN",
+  "year": 2024
+}

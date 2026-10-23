@@ -1,0 +1,12 @@
+{
+  "A_observed_or_deterministically_recovered_with_partial_evidence": 47,
+  "B_recovered_with_additional_public_evidence": 1,
+  "C_structurally_underdetermined": "Not observed in this edge-only cohort; frequency not established for missing-version reconstruction",
+  "D_unrecoverable_from_permitted_information": "Not established; bounded failures cannot prove impossibility",
+  "data_kind": "EMPIRICAL_PILOT",
+  "evaluation_cost": "See per-arm inference timestamps and public metadata/build attempt logs; HTTP-call totals unmeasured",
+  "ml_training_authorized": false,
+  "population": "Exact-version reference edges in three pilots",
+  "remaining_unresolved": 0,
+  "security_consequences": "UNMEASURED; no new advisory/exploitability evaluation"
+}

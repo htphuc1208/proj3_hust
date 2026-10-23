@@ -1,0 +1,25 @@
+{
+  "artifact_level_metadata": {
+    "wheel_bytes_verified": true,
+    "wheel_local_sha256": "53d3ec4280b815c1e0b02edad7f9ee8fda1ba9c0865dd9c2e6e63849ce82fc1e",
+    "wheel_metadata_file": "platformdirs-4.13.5.dist-info/METADATA",
+    "wheel_metadata_sha256": "b42a0ee84bde8921b95c6c1e84e7675d34e67c5a61170ebcf7b44e394b64a768"
+  },
+  "distribution_type": "wheel",
+  "name": "platformdirs",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T07:05:44.492586+00:00",
+    "provenance_chain": "PyPI index -> Distribution artifact -> Verified SHA-256 -> Extracted METADATA -> Frozen evidence record",
+    "source_pypi_json_url": "https://pypi.org/pypi/platformdirs/4.13.5/json",
+    "verification_status": "VERIFIED_ARTIFACT_DIGEST_AND_METADATA",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/6c/8a/1d8cb3842909dc193a73835adedf412e32e18f8ffd59f43983949622fe6f/platformdirs-4.13.5-py3-none-any.whl",
+    "wheel_filename": "platformdirs-4.13.5-py3-none-any.whl",
+    "wheel_sha256": "53d3ec4280b815c1e0b02edad7f9ee8fda1ba9c0865dd9c2e6e63849ce82fc1e",
+    "wheel_upload_time_utc": "2026-10-19T01:02:10.170818Z"
+  },
+  "release_requires_dist": [],
+  "requires_dist": [],
+  "requires_python": ">=3.11",
+  "version": "4.13.5"
+}

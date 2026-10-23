@@ -1,0 +1,170 @@
+{
+  "schema_version": "benchmark-v1",
+  "project": "r.txt",
+  "semantics": "direct Requires-Dist dependency graph of installed distributions, projected onto requested roots and known extras",
+  "roots": [
+    "beautifulsoup4",
+    "numpy",
+    "requests"
+  ],
+  "context": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.11.16",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_release": "7.0.0-30-generic",
+    "platform_system": "Linux",
+    "platform_version": "#30~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:27:52 UTC 2",
+    "python_full_version": "3.11.16",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.11",
+    "sys_platform": "linux"
+  },
+  "nodes": [
+    {
+      "name": "beautifulsoup4",
+      "version": "4.1.0",
+      "purl": "pkg:pypi/beautifulsoup4@4.1.0",
+      "requested_extras": [],
+      "requested_root": true
+    },
+    {
+      "name": "cffi",
+      "version": "2.1.1",
+      "purl": "pkg:pypi/cffi@2.1.1",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "cryptography",
+      "version": "50.0.2",
+      "purl": "pkg:pypi/cryptography@50.0.2",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "ndg-httpsclient",
+      "version": "0.5.1",
+      "purl": "pkg:pypi/ndg-httpsclient@0.5.1",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "numpy",
+      "version": "1.26.2",
+      "purl": "pkg:pypi/numpy@1.26.2",
+      "requested_extras": [],
+      "requested_root": true
+    },
+    {
+      "name": "pyasn1",
+      "version": "0.6.4",
+      "purl": "pkg:pypi/pyasn1@0.6.4",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "pycparser",
+      "version": "3.12",
+      "purl": "pkg:pypi/pycparser@3.12",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "pyopenssl",
+      "version": "26.4.0",
+      "purl": "pkg:pypi/pyopenssl@26.4.0",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "requests",
+      "version": "2.8.1",
+      "purl": "pkg:pypi/requests@2.8.1",
+      "requested_extras": [
+        "security"
+      ],
+      "requested_root": true
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.16.0",
+      "purl": "pkg:pypi/typing-extensions@4.16.0",
+      "requested_extras": [],
+      "requested_root": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "cffi",
+      "to": "pycparser",
+      "evidence": [
+        "pycparser; implementation_name != \"PyPy\" (base)"
+      ]
+    },
+    {
+      "from": "cryptography",
+      "to": "cffi",
+      "evidence": [
+        "cffi>=2.0.0 ; platform_python_implementation != 'PyPy' (base)"
+      ]
+    },
+    {
+      "from": "ndg-httpsclient",
+      "to": "pyasn1",
+      "evidence": [
+        "pyasn1 (>=0.1.1) (unconditional)"
+      ]
+    },
+    {
+      "from": "ndg-httpsclient",
+      "to": "pyopenssl",
+      "evidence": [
+        "PyOpenSSL (unconditional)"
+      ]
+    },
+    {
+      "from": "pyopenssl",
+      "to": "cryptography",
+      "evidence": [
+        "cryptography<51,>=49.0.0 (unconditional)"
+      ]
+    },
+    {
+      "from": "pyopenssl",
+      "to": "typing-extensions",
+      "evidence": [
+        "typing-extensions>=4.9; python_version < \"3.13\" (base)"
+      ]
+    },
+    {
+      "from": "requests",
+      "to": "ndg-httpsclient",
+      "evidence": [
+        "ndg-httpsclient; extra == 'security' (extra:security)"
+      ]
+    },
+    {
+      "from": "requests",
+      "to": "pyasn1",
+      "evidence": [
+        "pyasn1; extra == 'security' (extra:security)"
+      ]
+    },
+    {
+      "from": "requests",
+      "to": "pyopenssl",
+      "evidence": [
+        "pyOpenSSL; extra == 'security' (extra:security)"
+      ]
+    }
+  ],
+  "unresolved": [],
+  "warnings": [],
+  "counts": {
+    "packages": 10,
+    "direct_package_edges": 9,
+    "evaluated_requirement_records": 16,
+    "unresolved": 0
+  }
+}

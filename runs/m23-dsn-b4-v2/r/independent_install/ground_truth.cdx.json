@@ -1,0 +1,149 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "r.txt",
+      "version": "0",
+      "bom-ref": "urn:sbom-benchmark:project:r.txt"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "beautifulsoup4",
+      "version": "4.1.0",
+      "purl": "pkg:pypi/beautifulsoup4@4.1.0",
+      "bom-ref": "pkg:pypi/beautifulsoup4@4.1.0"
+    },
+    {
+      "type": "library",
+      "name": "cffi",
+      "version": "2.1.1",
+      "purl": "pkg:pypi/cffi@2.1.1",
+      "bom-ref": "pkg:pypi/cffi@2.1.1"
+    },
+    {
+      "type": "library",
+      "name": "cryptography",
+      "version": "50.0.2",
+      "purl": "pkg:pypi/cryptography@50.0.2",
+      "bom-ref": "pkg:pypi/cryptography@50.0.2"
+    },
+    {
+      "type": "library",
+      "name": "ndg-httpsclient",
+      "version": "0.5.1",
+      "purl": "pkg:pypi/ndg-httpsclient@0.5.1",
+      "bom-ref": "pkg:pypi/ndg-httpsclient@0.5.1"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "1.26.2",
+      "purl": "pkg:pypi/numpy@1.26.2",
+      "bom-ref": "pkg:pypi/numpy@1.26.2"
+    },
+    {
+      "type": "library",
+      "name": "pyasn1",
+      "version": "0.6.4",
+      "purl": "pkg:pypi/pyasn1@0.6.4",
+      "bom-ref": "pkg:pypi/pyasn1@0.6.4"
+    },
+    {
+      "type": "library",
+      "name": "pycparser",
+      "version": "3.12",
+      "purl": "pkg:pypi/pycparser@3.12",
+      "bom-ref": "pkg:pypi/pycparser@3.12"
+    },
+    {
+      "type": "library",
+      "name": "pyopenssl",
+      "version": "26.4.0",
+      "purl": "pkg:pypi/pyopenssl@26.4.0",
+      "bom-ref": "pkg:pypi/pyopenssl@26.4.0"
+    },
+    {
+      "type": "library",
+      "name": "requests",
+      "version": "2.8.1",
+      "purl": "pkg:pypi/requests@2.8.1",
+      "bom-ref": "pkg:pypi/requests@2.8.1"
+    },
+    {
+      "type": "library",
+      "name": "typing-extensions",
+      "version": "4.16.0",
+      "purl": "pkg:pypi/typing-extensions@4.16.0",
+      "bom-ref": "pkg:pypi/typing-extensions@4.16.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "urn:sbom-benchmark:project:r.txt",
+      "dependsOn": [
+        "pkg:pypi/beautifulsoup4@4.1.0",
+        "pkg:pypi/numpy@1.26.2",
+        "pkg:pypi/requests@2.8.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/beautifulsoup4@4.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/cffi@2.1.1",
+      "dependsOn": [
+        "pkg:pypi/pycparser@3.12"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/cryptography@50.0.2",
+      "dependsOn": [
+        "pkg:pypi/cffi@2.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/ndg-httpsclient@0.5.1",
+      "dependsOn": [
+        "pkg:pypi/pyasn1@0.6.4",
+        "pkg:pypi/pyopenssl@26.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/numpy@1.26.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyasn1@0.6.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pycparser@3.12",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyopenssl@26.4.0",
+      "dependsOn": [
+        "pkg:pypi/cryptography@50.0.2",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/requests@2.8.1",
+      "dependsOn": [
+        "pkg:pypi/ndg-httpsclient@0.5.1",
+        "pkg:pypi/pyasn1@0.6.4",
+        "pkg:pypi/pyopenssl@26.4.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/typing-extensions@4.16.0",
+      "dependsOn": []
+    }
+  ]
+}

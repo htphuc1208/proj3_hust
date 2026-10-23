@@ -1,0 +1,42 @@
+{
+  "attempts": [
+    {
+      "method": "public-wheel",
+      "status": "COMPLETE"
+    }
+  ],
+  "distribution_type": "bdist_wheel",
+  "dynamic_fields": [],
+  "extraction_method": "public-wheel",
+  "metadata_sha256": "10898c620e8007c030e07fa5622b68358a43010025dfbd78a1cb797699de2bb4",
+  "metadata_status": "COMPLETE",
+  "metadata_version": "2.5",
+  "name": "urllib3",
+  "provenance": {
+    "artifact_filename": "urllib3-2.8.0-py3-none-any.whl",
+    "artifact_sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3",
+    "artifact_url": "https://files.pythonhosted.org/packages/92/9d/c4e665119135114480843e7ab388fa94d8480650450e6f8e26b70d323a4c/urllib3-2.8.0-py3-none-any.whl",
+    "cutoff": "2026-10-22T04:09:45.004707+00:00",
+    "cutoff_status": "INSTALLATION_TIME_UNKNOWN; conservative minimum observed SBOM horizon",
+    "fetched_at": "2026-10-22T21:07:12.686810Z",
+    "index_sha256": "5315e7401db3cacccd0c2ce5daf81f752a9cc3614b18c37f2b79930b7159ce2f",
+    "rejections": [],
+    "source_pypi_json_url": "https://pypi.org/pypi/urllib3/2.8.0/json",
+    "uploaded_at": "2026-09-15T19:29:34.577402Z"
+  },
+  "provides_extra": [
+    "brotli",
+    "h2",
+    "socks",
+    "zstd"
+  ],
+  "requires_dist": [
+    "brotli>=1.2.0; (platform_python_implementation == 'CPython') and extra == 'brotli'",
+    "brotlicffi>=1.2.0.0; (platform_python_implementation != 'CPython') and extra == 'brotli'",
+    "h2<5,>=4; extra == 'h2'",
+    "pysocks!=1.5.7,<2.0,>=1.5.6; extra == 'socks'",
+    "backports-zstd>=1.0.0; (python_version < '3.14') and extra == 'zstd'"
+  ],
+  "requires_python": ">=3.10",
+  "version": "2.8.0"
+}

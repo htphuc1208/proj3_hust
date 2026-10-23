@@ -1,0 +1,33 @@
+{
+  "artifact_level_metadata": {
+    "wheel_bytes_verified": true,
+    "wheel_local_sha256": "381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231",
+    "wheel_metadata_file": "referencing-0.37.0.dist-info/METADATA",
+    "wheel_metadata_sha256": "c93b00e6ab1524fd60848376604c189a114374776475c25a31d57be47b29de6a"
+  },
+  "distribution_type": "wheel",
+  "name": "referencing",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T07:05:44.492586+00:00",
+    "provenance_chain": "PyPI index -> Distribution artifact -> Verified SHA-256 -> Extracted METADATA -> Frozen evidence record",
+    "source_pypi_json_url": "https://pypi.org/pypi/referencing/0.37.0/json",
+    "verification_status": "VERIFIED_ARTIFACT_DIGEST_AND_METADATA",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/2c/58/ca301544e1fa93ed4f80d724bf5b194f6e4b945841c5bfd555878eea9fcb/referencing-0.37.0-py3-none-any.whl",
+    "wheel_filename": "referencing-0.37.0-py3-none-any.whl",
+    "wheel_sha256": "381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231",
+    "wheel_upload_time_utc": "2025-10-13T15:30:47.625937Z"
+  },
+  "release_requires_dist": [
+    "attrs>=22.2.0",
+    "rpds-py>=0.7.0",
+    "typing-extensions>=4.4.0; python_version < \"3.13\""
+  ],
+  "requires_dist": [
+    "attrs>=22.2.0",
+    "rpds-py>=0.7.0",
+    "typing-extensions>=4.4.0; python_version < '3.13'"
+  ],
+  "requires_python": ">=3.10",
+  "version": "0.37.0"
+}

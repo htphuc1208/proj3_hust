@@ -1,0 +1,112 @@
+{
+  "schema_version": "benchmark-v1",
+  "project": "out",
+  "semantics": "direct Requires-Dist dependency graph of installed distributions, projected onto requested roots and known extras",
+  "roots": [
+    "requests"
+  ],
+  "context": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.11.16",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_release": "7.0.0-30-generic",
+    "platform_system": "Linux",
+    "platform_version": "#30~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:27:52 UTC 2",
+    "python_full_version": "3.11.16",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.11",
+    "sys_platform": "linux"
+  },
+  "nodes": [
+    {
+      "name": "certifi",
+      "version": "2026.10.19",
+      "purl": "pkg:pypi/certifi@2026.10.19",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.2",
+      "purl": "pkg:pypi/charset-normalizer@3.5.2",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "idna",
+      "version": "3.20",
+      "purl": "pkg:pypi/idna@3.20",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "pysocks",
+      "version": "1.7.1",
+      "purl": "pkg:pypi/pysocks@1.7.1",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "requests",
+      "version": "2.31.0",
+      "purl": "pkg:pypi/requests@2.31.0",
+      "requested_extras": [
+        "socks"
+      ],
+      "requested_root": true
+    },
+    {
+      "name": "urllib3",
+      "version": "2.8.0",
+      "purl": "pkg:pypi/urllib3@2.8.0",
+      "requested_extras": [],
+      "requested_root": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "requests",
+      "to": "certifi",
+      "evidence": [
+        "certifi (>=2017.4.17) (unconditional)"
+      ]
+    },
+    {
+      "from": "requests",
+      "to": "charset-normalizer",
+      "evidence": [
+        "charset-normalizer (<4,>=2) (unconditional)"
+      ]
+    },
+    {
+      "from": "requests",
+      "to": "idna",
+      "evidence": [
+        "idna (<4,>=2.5) (unconditional)"
+      ]
+    },
+    {
+      "from": "requests",
+      "to": "pysocks",
+      "evidence": [
+        "PySocks (!=1.5.7,>=1.5.6) ; extra == 'socks' (extra:socks)"
+      ]
+    },
+    {
+      "from": "requests",
+      "to": "urllib3",
+      "evidence": [
+        "urllib3 (<3,>=1.21.1) (unconditional)"
+      ]
+    }
+  ],
+  "unresolved": [],
+  "warnings": [],
+  "counts": {
+    "packages": 6,
+    "direct_package_edges": 5,
+    "evaluated_requirement_records": 17,
+    "unresolved": 0
+  }
+}

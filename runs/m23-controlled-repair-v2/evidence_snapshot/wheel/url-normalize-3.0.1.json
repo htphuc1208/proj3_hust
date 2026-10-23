@@ -1,0 +1,41 @@
+{
+  "artifact_level_metadata": {
+    "wheel_bytes_verified": true,
+    "wheel_local_sha256": "97ea68fc543b1fc9f270f34c90cf164453e7d490da2ec653dcd8ebd4e3ac1faf",
+    "wheel_metadata_file": "url_normalize-3.0.1.dist-info/METADATA",
+    "wheel_metadata_sha256": "b4e10d3819d3deebd5facd9248acd80bc610eb04920de2eb00d199194916fa1b"
+  },
+  "distribution_type": "wheel",
+  "name": "url-normalize",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T07:05:44.492586+00:00",
+    "provenance_chain": "PyPI index -> Distribution artifact -> Verified SHA-256 -> Extracted METADATA -> Frozen evidence record",
+    "source_pypi_json_url": "https://pypi.org/pypi/url-normalize/3.0.1/json",
+    "verification_status": "VERIFIED_ARTIFACT_DIGEST_AND_METADATA",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/9d/bf/98209a164859c81d9eec311ee2b35cd1e5b33c7be8d3665c08850557abe1/url_normalize-3.0.1-py3-none-any.whl",
+    "wheel_filename": "url_normalize-3.0.1-py3-none-any.whl",
+    "wheel_sha256": "97ea68fc543b1fc9f270f34c90cf164453e7d490da2ec653dcd8ebd4e3ac1faf",
+    "wheel_upload_time_utc": "2026-09-22T22:20:53.342553Z"
+  },
+  "release_requires_dist": [
+    "idna>=3.3",
+    "mypy; extra == \"dev\"",
+    "pre-commit; extra == \"dev\"",
+    "pytest-cov; extra == \"dev\"",
+    "pytest-socket; extra == \"dev\"",
+    "pytest; extra == \"dev\"",
+    "ruff; extra == \"dev\""
+  ],
+  "requires_dist": [
+    "idna>=3.3",
+    "mypy; extra == \"dev\"",
+    "pre-commit; extra == \"dev\"",
+    "pytest-cov; extra == \"dev\"",
+    "pytest-socket; extra == \"dev\"",
+    "pytest; extra == \"dev\"",
+    "ruff; extra == \"dev\""
+  ],
+  "requires_python": ">=3.10",
+  "version": "3.0.1"
+}

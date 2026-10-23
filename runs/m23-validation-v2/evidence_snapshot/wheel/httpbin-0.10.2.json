@@ -1,0 +1,53 @@
+{
+  "artifact_level_metadata": {
+    "wheel_bytes_verified": true,
+    "wheel_local_sha256": "8e28e67f72ead4419977c9f2dba4ce86ce08768ada30ef9a87288527bb925d00",
+    "wheel_metadata_file": "httpbin-0.10.2.dist-info/METADATA",
+    "wheel_metadata_sha256": "1c433ca7f7426b8dec62bea0e63b62039f8a018255f3873495209202d7cb7b81"
+  },
+  "distribution_type": "wheel",
+  "name": "httpbin",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T07:05:44.492586+00:00",
+    "provenance_chain": "PyPI index -> Distribution artifact -> Verified SHA-256 -> Extracted METADATA -> Frozen evidence record",
+    "source_pypi_json_url": "https://pypi.org/pypi/httpbin/0.10.2/json",
+    "verification_status": "VERIFIED_ARTIFACT_DIGEST_AND_METADATA",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/1f/2a/12e12f8f07070cd12b46c60fd8fd709ff01414830213bfc5153ab527331f/httpbin-0.10.2-py2.py3-none-any.whl",
+    "wheel_filename": "httpbin-0.10.2-py2.py3-none-any.whl",
+    "wheel_sha256": "8e28e67f72ead4419977c9f2dba4ce86ce08768ada30ef9a87288527bb925d00",
+    "wheel_upload_time_utc": "2024-02-20T21:30:12.383785Z"
+  },
+  "release_requires_dist": [
+    "brotlicffi",
+    "decorator",
+    "flasgger",
+    "flask >=2.2.4",
+    "six",
+    "werkzeug >=2.2.2",
+    "greenlet <3.0 ; python_version < \"3.12\"",
+    "importlib-metadata ; python_version < \"3.8\"",
+    "greenlet >=3.0.0a1 ; python_version >= \"3.12.0rc0\"",
+    "gunicorn ; extra == 'mainapp'",
+    "gevent ; extra == 'mainapp'",
+    "pytest ; extra == 'test'",
+    "tox ; extra == 'test'"
+  ],
+  "requires_dist": [
+    "brotlicffi",
+    "decorator",
+    "flasgger",
+    "flask >=2.2.4",
+    "six",
+    "werkzeug >=2.2.2",
+    "greenlet <3.0 ; python_version < \"3.12\"",
+    "importlib-metadata ; python_version < \"3.8\"",
+    "greenlet >=3.0.0a1 ; python_version >= \"3.12.0rc0\"",
+    "gunicorn ; extra == 'mainapp'",
+    "gevent ; extra == 'mainapp'",
+    "pytest ; extra == 'test'",
+    "tox ; extra == 'test'"
+  ],
+  "requires_python": ">=3.7",
+  "version": "0.10.2"
+}

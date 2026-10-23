@@ -1,0 +1,44 @@
+{
+  "attempts": [
+    {
+      "method": "public-wheel",
+      "status": "COMPLETE"
+    }
+  ],
+  "distribution_type": "bdist_wheel",
+  "dynamic_fields": [
+    "license-file"
+  ],
+  "extraction_method": "public-wheel",
+  "metadata_sha256": "8c384ba3e979480faae2859d3c5e6c1276dd2c3616e322e124d52c8cfc556f27",
+  "metadata_status": "COMPLETE",
+  "metadata_version": "2.4",
+  "name": "requests",
+  "provenance": {
+    "artifact_filename": "requests-2.34.2-py3-none-any.whl",
+    "artifact_sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+    "artifact_url": "https://files.pythonhosted.org/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl",
+    "cutoff": "2026-10-22T04:09:45.004707+00:00",
+    "cutoff_status": "INSTALLATION_TIME_UNKNOWN; conservative minimum observed SBOM horizon",
+    "fetched_at": "2026-10-22T21:07:11.323592Z",
+    "index_sha256": "8622e50ffd295ed759ec793f2a009172a4ed0204bbc5e948de23111bc3d2aeae",
+    "rejections": [],
+    "source_pypi_json_url": "https://pypi.org/pypi/requests/2.34.2/json",
+    "uploaded_at": "2026-05-14T19:25:26.443000Z"
+  },
+  "provides_extra": [
+    "security",
+    "socks",
+    "use-chardet-on-py3"
+  ],
+  "requires_dist": [
+    "charset_normalizer<4,>=2",
+    "idna<4,>=2.5",
+    "urllib3<3,>=1.26",
+    "certifi>=2023.5.7",
+    "PySocks!=1.5.7,>=1.5.6; extra == \"socks\"",
+    "chardet<8,>=3.0.2; extra == \"use-chardet-on-py3\""
+  ],
+  "requires_python": ">=3.10",
+  "version": "2.34.2"
+}

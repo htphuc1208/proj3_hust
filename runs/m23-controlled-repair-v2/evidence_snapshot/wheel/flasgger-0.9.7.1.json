@@ -1,0 +1,20 @@
+{
+  "attempts": [
+    {
+      "method": "wheel",
+      "status": "NO_COMPATIBLE_PUBLIC_WHEEL"
+    }
+  ],
+  "metadata_status": "UNAVAILABLE",
+  "name": "flasgger",
+  "provenance": {
+    "cutoff": "2026-10-22T04:09:45.004707+00:00",
+    "cutoff_status": "INSTALLATION_TIME_UNKNOWN; conservative minimum observed SBOM horizon",
+    "fetched_at": "2026-10-22T21:07:09.349869Z",
+    "index_sha256": "9a6815eda8f209033a034a08534bd15c47d9420f215c836d2918b2d1661d83d1",
+    "rejections": [],
+    "source_pypi_json_url": "https://pypi.org/pypi/flasgger/0.9.7.1/json"
+  },
+  "requires_dist": [],
+  "version": "0.9.7.1"
+}

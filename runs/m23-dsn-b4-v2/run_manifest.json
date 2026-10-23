@@ -1,0 +1,247 @@
+{
+  "artifacts": {
+    "authors_groundtruth.txt": {
+      "sha256": "8e862651034b15f216b2a6f81e77ffd8ba8c659e0aa56ae0a550099bc17b2436",
+      "source": "/home/phucht/project/sbom_security_poc/research/.work/sbom-benchmark/python/req/groundtruth",
+      "written_at": "2026-10-22T21:22:19.485102Z"
+    },
+    "b4_comparison.json": {
+      "sha256": "ffbe101644bc94bcca0d5910e9e870aaebbc5a1364cf0ebe4ac44e8cbf457aa5",
+      "written_at": "2026-10-22T21:23:39.942208Z"
+    },
+    "paper.json": {
+      "sha256": "c0a7159905e430b4b2811a08832e12ab4738e6219fa67f6665feea5949b6e66c",
+      "written_at": "2026-10-22T21:22:19.481197Z"
+    },
+    "positive_control/syft.cdx.json": {
+      "sha256": "fc6ab39da4dc0ba30d611eefc7ee2edab96edf20bda7319e8e32afde6c4b9736",
+      "written_at": "2026-10-22T21:22:20.355167Z"
+    },
+    "positive_control/syft_execution.json": {
+      "sha256": "251a23630b19e2e999d044ffdc10445701d3eb7d0b01b9dc3d958f2a7f1b608f",
+      "written_at": "2026-10-22T21:22:20.355454Z"
+    },
+    "positive_control/trivy.cdx.json": {
+      "sha256": "fef94c5b28aa14831f10510d5103da0c0a0600ff0629a2051fb3a14fd85c80d5",
+      "written_at": "2026-10-22T21:22:20.428856Z"
+    },
+    "positive_control/trivy_execution.json": {
+      "sha256": "006fcbc36c97c790092346bc772474b68edce5984934e46dfeca4674b52d6052",
+      "written_at": "2026-10-22T21:22:20.429277Z"
+    },
+    "r/b4/execution.log": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.777831Z",
+      "sha256": "542a50cba06dd40a427656f7c40bd630bfc58f9e5712c89ee9d6046c6f829ec6"
+    },
+    "r/b4/resolution.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.777981Z",
+      "sha256": "4427585c59a37b545dc855f5a1b9c727b9489ca414e95439135e526a0ddafbb9"
+    },
+    "r/independent_install/attempt_manifest.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.778025Z",
+      "sha256": "8e68896339e67fcb24f678c2340190e550299b228d5e14cab9ecd09d6c078ed6"
+    },
+    "r/independent_install/execution.log": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.778176Z",
+      "sha256": "06dfa1a0a924680437f5edbf8bb22e0eaaaa331fcf40045aea2a2ed9228f7499"
+    },
+    "r/independent_install/ground_truth.cdx.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.778220Z",
+      "sha256": "fb9d121c3087de06fd191dc155d8810ea540f8538586af6afa757ea57c2bd2a0"
+    },
+    "r/independent_install/ground_truth.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.778262Z",
+      "sha256": "8baefa149560636d08716e6130eaa55694390e6c8dc64fed4e23ba65fb2f9e87"
+    },
+    "r/independent_install/installation.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.778420Z",
+      "sha256": "30fb426d22fbd52af537ff3d46f87e6c1b384debabb69d32cb77553766eeb7bd"
+    },
+    "r/independent_install/pip_inspect.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.778576Z",
+      "sha256": "45c68565ae94b3e39bf7f6ad1a8db71614d88c04116648adf7a6c599d0d4b8ed"
+    },
+    "r/input/const.txt": {
+      "sha256": "cd1bee38b796825ce46d8505ef4267cd20ed0c9a2961ba6738659a106b50a3fc",
+      "source": "/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/r/const.txt",
+      "written_at": "2026-10-22T21:23:17.900027Z"
+    },
+    "r/input/r.txt": {
+      "sha256": "c9c64c8135770a8279171a8107e86ebc3c7e24280104c48de021c71c7931f248",
+      "source": "/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/r/r.txt",
+      "written_at": "2026-10-22T21:23:17.899720Z"
+    },
+    "r/result.json": {
+      "sha256": "11905084b013a55b694e4ec410daaab40cd2b6a23946a434e79b8275db46475e",
+      "written_at": "2026-10-22T21:23:39.935830Z"
+    },
+    "r/syft.cdx.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.778724Z",
+      "sha256": "4d33abf2dc9c6fa4cfc59d69a0afbadf09ec1d1359a3816d56675a60fee72155"
+    },
+    "r/syft.log": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.778758Z",
+      "sha256": "d099d170723bfedbe19305be6d7c33f292791663a2291826925ae43c74ba9fdc"
+    },
+    "r/trivy.cdx.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.778792Z",
+      "sha256": "19f67f1d9849ed08adad14e8bdc7e4d260d969390f4b2ccc45794273b50061e3"
+    },
+    "r/trivy.log": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.778826Z",
+      "sha256": "6207edc2f4ddeb0c560e9683169a4b0c6feb5da2203fd50d4c75cefdaa9beeec"
+    },
+    "reproduction_results.json": {
+      "sha256": "1b1ecc98e37c2808f0122ecc5d1e246dd8c1380a9a135e9b2c549153edb0103d",
+      "written_at": "2026-10-22T21:23:39.943075Z"
+    },
+    "requirements/b4/execution.log": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.778927Z",
+      "sha256": "769db465229a0b4f95405c1b31a567ac313428a676611943d05ff3b6524c4b00"
+    },
+    "requirements/b4/resolution.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.780333Z",
+      "sha256": "a18087e97880922d8ac8fc07262b42cb173a03976d98be4d4b76de136553f83c"
+    },
+    "requirements/independent_install/attempt_manifest.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.780585Z",
+      "sha256": "697d5be0d46abbd05560377a056e060a3812a7c5a21789232f25323460d68c8e"
+    },
+    "requirements/independent_install/execution.log": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.781157Z",
+      "sha256": "3b050894b9e699d75d73e95e7314283172d83543e065a28dd7b223a1633e417d"
+    },
+    "requirements/independent_install/ground_truth.cdx.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.781424Z",
+      "sha256": "758642bf14f5ff0af871d4f56292fd20eabb329e280c7bc4d7fd1900ce8754a4"
+    },
+    "requirements/independent_install/ground_truth.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.781590Z",
+      "sha256": "4b89f9c5afd7fc04ff8a37e9e113b1793f39736a5012844feec31dd8f06a8357"
+    },
+    "requirements/independent_install/installation.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.782919Z",
+      "sha256": "0c6261a7fd5c644f6ad8ff4c45b4f0c516f3ea794fce7466b106e11a293bece8"
+    },
+    "requirements/independent_install/pip_inspect.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.784668Z",
+      "sha256": "ac92b2d440082b7f59d2188678b830fc79ef6fba2fd2ec96ad83198e8545812f"
+    },
+    "requirements/input/const.txt": {
+      "sha256": "cd1bee38b796825ce46d8505ef4267cd20ed0c9a2961ba6738659a106b50a3fc",
+      "source": "/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/requirements/const.txt",
+      "written_at": "2026-10-22T21:22:20.431037Z"
+    },
+    "requirements/input/downloads/fastapi-0.111.0-py3-none-any.whl": {
+      "sha256": "97ecbf994be0bcbdadedf88c3150252bed7b2087075ac99735403b1b76cc8fc0",
+      "source": "/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/requirements/downloads/fastapi-0.111.0-py3-none-any.whl",
+      "written_at": "2026-10-22T21:22:20.433656Z"
+    },
+    "requirements/input/otherreq.txt": {
+      "sha256": "85c3901ca6d8eb004a730f1a32879458931e892c19e42620684bc96adf39fd65",
+      "source": "/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/requirements/otherreq.txt",
+      "written_at": "2026-10-22T21:22:20.431572Z"
+    },
+    "requirements/input/requirements.txt": {
+      "sha256": "08e79fd48da8e9677a914c7e07a97944dfdd82ba059841251d140b39d0cedf44",
+      "source": "/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/requirements/requirements.txt",
+      "written_at": "2026-10-22T21:22:20.430297Z"
+    },
+    "requirements/result.json": {
+      "sha256": "899b52295dd33ac4a505f80fe1f5dab607c90be8ed3c2383dc9a640db51c9531",
+      "written_at": "2026-10-22T21:23:17.899116Z"
+    },
+    "requirements/syft.cdx.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.785065Z",
+      "sha256": "00702e1c0a43553d941e37b2b998faab955df7535e373141b9d4e0691e497eeb"
+    },
+    "requirements/syft.log": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.785105Z",
+      "sha256": "d099d170723bfedbe19305be6d7c33f292791663a2291826925ae43c74ba9fdc"
+    },
+    "requirements/trivy.cdx.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.785145Z",
+      "sha256": "b0de54a766b81d2fe6cd0ec4e8539de000a8edba78d3d52073aff52a51ef4d6f"
+    },
+    "requirements/trivy.log": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.785182Z",
+      "sha256": "9484afab06a747e5c8f9bf5d8f85e5c26dc810c651eda299c1dac1a953d76460"
+    },
+    "scanner_positive_controls.json": {
+      "sha256": "def0cb7eb5e866e0ff392e80b7d5271864b1543e0a6cdfee36d585601b151ed7",
+      "written_at": "2026-10-22T21:22:20.429631Z"
+    },
+    "toolchain.json": {
+      "sha256": "d33f50a643457d20183792eeb6dd69babf5bb87690ce76f05b594e2dc2ea90b8",
+      "written_at": "2026-10-22T21:22:19.481562Z"
+    }
+  },
+  "completed_at": "2026-10-22T21:23:39.943239Z",
+  "context": {
+    "data_kind": "AUTHORED_METADATA_BENCHMARK",
+    "purpose": "Partial DSN 2024 reproduction and B4 validation"
+  },
+  "protocol": "m2.3-validation-v1",
+  "reporting_completed_at": "2026-10-22T21:32:16.536174Z",
+  "run_id": "m23-dsn-b4-v2",
+  "schema_version": "run-manifest-v1",
+  "source_code_sha256": {
+    "agent_bridge.py": "2150a4c09dc00730a04f8e6289123572e687bb03163f745e6aed1e2779902957",
+    "benchmark.py": "c8095c75cacecceaa8b576c91f411fc363501804602453e85afcba8ade453580",
+    "bridge_server.py": "712e3ad1edea43b5d44d3cd8725318f5794fb5c8dfe0bc0bbc3370bf7061aaac",
+    "dashboard.py": "6b28332a42b4b18f1144141757752d4137239c4db04dec67b27a5592ce632669",
+    "evaluator.py": "78facce5cded43cb823fbff4f5a71b34daadf6bc83c2d4589c80b8a74f69be73",
+    "experiment.py": "7af01250dfd3ed6c50104b984f120f12310bab8c3ad83e3a4dbba94b9c0ac2ef",
+    "information_ablation.py": "07e8420bf2eda79f50d6502aac3dc8aa6a874b9a02d54e0bcf6e9cda302d1c0b",
+    "poc.py": "30e873220a3e25a1792ac310f4ef30c95cc4aa2c1c6da71e837dc43afc28d512",
+    "public_evidence.py": "bdf0200e920a98493a496700433247cfb4914c690d7cd14af5c1c8bff032a152",
+    "registry_provider.py": "cecb262a1f8caa5c224574fd78229dccb41149b8432fee0c3db051c9848ec9bc",
+    "research_baselines.py": "14da4f31f32b1efdf7882bd06ba3bff3d31f9e47cafc0391b3724ba3f45daf5b",
+    "research_core.py": "67910e84c566d4ce2ae3be8c8251dba82e52e7782ae9ef2c6ee0e4b77e6f7648",
+    "research_execution.py": "62edcd4c8828c0dc379acef2acfb4e7ae847ab07a034cf1a87ece7547f65758e",
+    "resolver.py": "64419edd63a707a3ca1ee9eb8ade78ec8d2749dd1b89869dd29b3de49026fbc7",
+    "scripts/attempt_dsn_install.py": "412f0345193dd3a8407dc8b086865916a68d3d54387c1dcfa466f5faf859d7c7",
+    "scripts/capture_environment.py": "57ae9611e35f6b7b22d84b50f1ae0db018c95fdff3e11fb6c4aa35a4035b0777",
+    "scripts/collect_public_evidence.py": "209e41966e8f01edfe5c1fcd6d6b694372c41a7b0bbb82b7744985f4bd6b595a",
+    "scripts/generate_fn_root_cause_report.py": "801362bf7d4857c41c3215591ce02ca0a7042e39855d04ba3f743d70f17614d6",
+    "scripts/inference_worker.py": "7cd18f7f4830a723ae80ecdaa86e2a5a280c7991dcf001392c5ce332ca40442a",
+    "scripts/prepare_research.py": "49bc704a1c872940c2320c7f6a6fad64ee87cf35a23a5053be26d50e0e1e6aa8",
+    "scripts/run_experiments_e1_to_e5.py": "80178083bcdb505263e09a0a3fec90a65b816ffd76ec202b939385872b96e593",
+    "scripts/run_factorial_ablation.py": "a67a7da8eeb712ccffee3ac34708b5ec1934ca8c62cf8a59814265f91626543d",
+    "scripts/run_information_ablation.py": "89624bfd901849ba9f1bc6fd8bb334717bab460280993f1f4ef478b5ec6a4ba0",
+    "scripts/run_paper_reproduction.py": "ae63b90f1e931f6eadeaadc8efe077e2c14092f638b2b1cdeac280d675a62f29",
+    "scripts/run_pilot_m2.py": "3f66b640fb2a3f36d6d1986b39cac961c8be4a0ffb9391f1c50baa3c0b6b490e",
+    "scripts/run_real_generator_reconstruction.py": "7f01be79162c41ea5774131d669abc1aed9d5bfa5e344951f0b2725320f0c9b1",
+    "scripts/run_repository_pilots.py": "374d3100c37fa234c7b41096f4659aba0260c80fc4bee63ad0a38346b14d1cab",
+    "scripts/run_scientific_validation.py": "f2ea26cf9f976954490f0241af93d139374fcc7c31dbf4776691c3f5593b8676",
+    "workbench.py": "f8e76ca553d445f5e4221ef563fd651d3c1429f964491a68aed923a4ac88bb99"
+  },
+  "source_commit": "545a1686da5342860456e1dfc54f4ee2d0d39079",
+  "stages": {},
+  "started_at": "2026-10-22T21:22:19.470256Z",
+  "status": "PARTIALLY_REPRODUCED"
+}

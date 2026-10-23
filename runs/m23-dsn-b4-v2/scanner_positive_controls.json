@@ -1,0 +1,33 @@
+{
+  "syft": {
+    "command": [
+      "/home/phucht/project/sbom_security_poc/research/.work/syft",
+      "scan",
+      "dir:/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/positive-control",
+      "-o",
+      "cyclonedx-json"
+    ],
+    "data_kind": "SYNTHETIC_PARSER_CONTROL",
+    "exit_code": 0,
+    "identities": [
+      "pkg:pypi/requests@2.31.0"
+    ]
+  },
+  "trivy": {
+    "command": [
+      "/home/phucht/project/sbom_security_poc/research/.work/trivy",
+      "fs",
+      "--format",
+      "cyclonedx",
+      "--skip-db-update",
+      "--skip-java-db-update",
+      "--offline-scan",
+      "/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/positive-control"
+    ],
+    "data_kind": "SYNTHETIC_PARSER_CONTROL",
+    "exit_code": 0,
+    "identities": [
+      "pkg:pypi/requests@2.31.0"
+    ]
+  }
+}

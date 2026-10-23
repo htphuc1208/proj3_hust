@@ -1,0 +1,1048 @@
+{
+  "B0": {
+    "G_candidate": {
+      "contradictions": [],
+      "edges": [],
+      "nodes": []
+    },
+    "G_obs": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/certifi@2026.10.19",
+          "name": "certifi",
+          "purl": "pkg:pypi/certifi@2026.10.19",
+          "type": "library",
+          "version": "2026.10.19"
+        },
+        {
+          "bom-ref": "pkg:pypi/charset-normalizer@3.5.2",
+          "name": "charset-normalizer",
+          "purl": "pkg:pypi/charset-normalizer@3.5.2",
+          "type": "library",
+          "version": "3.5.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/idna@3.20",
+          "name": "idna",
+          "purl": "pkg:pypi/idna@3.20",
+          "type": "library",
+          "version": "3.20"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/urllib3@2.8.0",
+          "name": "urllib3",
+          "purl": "pkg:pypi/urllib3@2.8.0",
+          "type": "library",
+          "version": "2.8.0"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/requests@2.31.0",
+          "name": "requests",
+          "purl": "pkg:pypi/requests@2.31.0",
+          "type": "application",
+          "version": "2.31.0"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "G_reconstructed": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/certifi@2026.10.19",
+          "name": "certifi",
+          "purl": "pkg:pypi/certifi@2026.10.19",
+          "type": "library",
+          "version": "2026.10.19"
+        },
+        {
+          "bom-ref": "pkg:pypi/charset-normalizer@3.5.2",
+          "name": "charset-normalizer",
+          "purl": "pkg:pypi/charset-normalizer@3.5.2",
+          "type": "library",
+          "version": "3.5.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/idna@3.20",
+          "name": "idna",
+          "purl": "pkg:pypi/idna@3.20",
+          "type": "library",
+          "version": "3.20"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/urllib3@2.8.0",
+          "name": "urllib3",
+          "purl": "pkg:pypi/urllib3@2.8.0",
+          "type": "library",
+          "version": "2.8.0"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/requests@2.31.0",
+          "name": "requests",
+          "purl": "pkg:pypi/requests@2.31.0",
+          "type": "application",
+          "version": "2.31.0"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "baseline_id": "B0",
+    "baseline_name": "Observed-only",
+    "predicted_edges": []
+  },
+  "B1": {
+    "G_candidate": {
+      "contradictions": [],
+      "edges": [
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests@2.31.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/charset-normalizer@3.5.2"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests@2.31.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/idna@3.20"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests@2.31.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/urllib3@2.8.0"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests@2.31.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/certifi@2026.10.19"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests@2.31.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pysocks"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests@2.31.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/chardet"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/idna@3.20",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/ruff"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/idna@3.20",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/mypy"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/idna@3.20",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/ty"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/idna@3.20",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pytest"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/idna@3.20",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/hypothesis"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/idna@3.20",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/coverage"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/urllib3@2.8.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/brotli"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/urllib3@2.8.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/brotlicffi"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/urllib3@2.8.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/h2"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/urllib3@2.8.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pysocks"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/urllib3@2.8.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/backports-zstd"
+        }
+      ],
+      "nodes": []
+    },
+    "G_obs": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/certifi@2026.10.19",
+          "name": "certifi",
+          "purl": "pkg:pypi/certifi@2026.10.19",
+          "type": "library",
+          "version": "2026.10.19"
+        },
+        {
+          "bom-ref": "pkg:pypi/charset-normalizer@3.5.2",
+          "name": "charset-normalizer",
+          "purl": "pkg:pypi/charset-normalizer@3.5.2",
+          "type": "library",
+          "version": "3.5.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/idna@3.20",
+          "name": "idna",
+          "purl": "pkg:pypi/idna@3.20",
+          "type": "library",
+          "version": "3.20"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/urllib3@2.8.0",
+          "name": "urllib3",
+          "purl": "pkg:pypi/urllib3@2.8.0",
+          "type": "library",
+          "version": "2.8.0"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/requests@2.31.0",
+          "name": "requests",
+          "purl": "pkg:pypi/requests@2.31.0",
+          "type": "application",
+          "version": "2.31.0"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "G_reconstructed": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/certifi@2026.10.19",
+          "name": "certifi",
+          "purl": "pkg:pypi/certifi@2026.10.19",
+          "type": "library",
+          "version": "2026.10.19"
+        },
+        {
+          "bom-ref": "pkg:pypi/charset-normalizer@3.5.2",
+          "name": "charset-normalizer",
+          "purl": "pkg:pypi/charset-normalizer@3.5.2",
+          "type": "library",
+          "version": "3.5.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/idna@3.20",
+          "name": "idna",
+          "purl": "pkg:pypi/idna@3.20",
+          "type": "library",
+          "version": "3.20"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/urllib3@2.8.0",
+          "name": "urllib3",
+          "purl": "pkg:pypi/urllib3@2.8.0",
+          "type": "library",
+          "version": "2.8.0"
+        }
+      ],
+      "dependencies": [
+        {
+          "dependsOn": [
+            "pkg:pypi/coverage",
+            "pkg:pypi/hypothesis",
+            "pkg:pypi/mypy",
+            "pkg:pypi/pytest",
+            "pkg:pypi/ruff",
+            "pkg:pypi/ty"
+          ],
+          "ref": "pkg:pypi/idna@3.20"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/certifi@2026.10.19",
+            "pkg:pypi/chardet",
+            "pkg:pypi/charset-normalizer@3.5.2",
+            "pkg:pypi/idna@3.20",
+            "pkg:pypi/pysocks",
+            "pkg:pypi/urllib3@2.8.0"
+          ],
+          "ref": "pkg:pypi/requests@2.31.0"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/backports-zstd",
+            "pkg:pypi/brotli",
+            "pkg:pypi/brotlicffi",
+            "pkg:pypi/h2",
+            "pkg:pypi/pysocks"
+          ],
+          "ref": "pkg:pypi/urllib3@2.8.0"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/requests@2.31.0",
+          "name": "requests",
+          "purl": "pkg:pypi/requests@2.31.0",
+          "type": "application",
+          "version": "2.31.0"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "baseline_id": "B1",
+    "baseline_name": "Context-free Metadata",
+    "predicted_edges": [
+      [
+        "pkg:pypi/idna@3.20",
+        "pkg:pypi/coverage"
+      ],
+      [
+        "pkg:pypi/idna@3.20",
+        "pkg:pypi/hypothesis"
+      ],
+      [
+        "pkg:pypi/idna@3.20",
+        "pkg:pypi/mypy"
+      ],
+      [
+        "pkg:pypi/idna@3.20",
+        "pkg:pypi/pytest"
+      ],
+      [
+        "pkg:pypi/idna@3.20",
+        "pkg:pypi/ruff"
+      ],
+      [
+        "pkg:pypi/idna@3.20",
+        "pkg:pypi/ty"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/certifi@2026.10.19"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/chardet"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/charset-normalizer@3.5.2"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/idna@3.20"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/pysocks"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/urllib3@2.8.0"
+      ],
+      [
+        "pkg:pypi/urllib3@2.8.0",
+        "pkg:pypi/backports-zstd"
+      ],
+      [
+        "pkg:pypi/urllib3@2.8.0",
+        "pkg:pypi/brotli"
+      ],
+      [
+        "pkg:pypi/urllib3@2.8.0",
+        "pkg:pypi/brotlicffi"
+      ],
+      [
+        "pkg:pypi/urllib3@2.8.0",
+        "pkg:pypi/h2"
+      ],
+      [
+        "pkg:pypi/urllib3@2.8.0",
+        "pkg:pypi/pysocks"
+      ]
+    ]
+  },
+  "B2": {
+    "G_candidate": {
+      "contradictions": [],
+      "edges": [
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/requests@2.31.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/charset-normalizer@3.5.2"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/requests@2.31.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/idna@3.20"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/requests@2.31.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/urllib3@2.8.0"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/requests@2.31.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/certifi@2026.10.19"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/requests@2.31.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pysocks"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/urllib3@2.8.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pysocks"
+        }
+      ],
+      "nodes": []
+    },
+    "G_obs": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/certifi@2026.10.19",
+          "name": "certifi",
+          "purl": "pkg:pypi/certifi@2026.10.19",
+          "type": "library",
+          "version": "2026.10.19"
+        },
+        {
+          "bom-ref": "pkg:pypi/charset-normalizer@3.5.2",
+          "name": "charset-normalizer",
+          "purl": "pkg:pypi/charset-normalizer@3.5.2",
+          "type": "library",
+          "version": "3.5.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/idna@3.20",
+          "name": "idna",
+          "purl": "pkg:pypi/idna@3.20",
+          "type": "library",
+          "version": "3.20"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/urllib3@2.8.0",
+          "name": "urllib3",
+          "purl": "pkg:pypi/urllib3@2.8.0",
+          "type": "library",
+          "version": "2.8.0"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/requests@2.31.0",
+          "name": "requests",
+          "purl": "pkg:pypi/requests@2.31.0",
+          "type": "application",
+          "version": "2.31.0"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "G_reconstructed": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/certifi@2026.10.19",
+          "name": "certifi",
+          "purl": "pkg:pypi/certifi@2026.10.19",
+          "type": "library",
+          "version": "2026.10.19"
+        },
+        {
+          "bom-ref": "pkg:pypi/charset-normalizer@3.5.2",
+          "name": "charset-normalizer",
+          "purl": "pkg:pypi/charset-normalizer@3.5.2",
+          "type": "library",
+          "version": "3.5.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/idna@3.20",
+          "name": "idna",
+          "purl": "pkg:pypi/idna@3.20",
+          "type": "library",
+          "version": "3.20"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/urllib3@2.8.0",
+          "name": "urllib3",
+          "purl": "pkg:pypi/urllib3@2.8.0",
+          "type": "library",
+          "version": "2.8.0"
+        }
+      ],
+      "dependencies": [
+        {
+          "dependsOn": [
+            "pkg:pypi/certifi@2026.10.19",
+            "pkg:pypi/charset-normalizer@3.5.2",
+            "pkg:pypi/idna@3.20",
+            "pkg:pypi/pysocks",
+            "pkg:pypi/urllib3@2.8.0"
+          ],
+          "ref": "pkg:pypi/requests@2.31.0"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/pysocks"
+          ],
+          "ref": "pkg:pypi/urllib3@2.8.0"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/requests@2.31.0",
+          "name": "requests",
+          "purl": "pkg:pypi/requests@2.31.0",
+          "type": "application",
+          "version": "2.31.0"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "baseline_id": "B2",
+    "baseline_name": "Maximal Supergraph",
+    "predicted_edges": [
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/certifi@2026.10.19"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/charset-normalizer@3.5.2"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/idna@3.20"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/pysocks"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/urllib3@2.8.0"
+      ],
+      [
+        "pkg:pypi/urllib3@2.8.0",
+        "pkg:pypi/pysocks"
+      ]
+    ]
+  },
+  "B3": {
+    "G_candidate": {
+      "contradictions": [],
+      "edges": [
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/requests@2.31.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/charset-normalizer@3.5.2",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/requests@2.31.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/idna@3.20",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/requests@2.31.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/urllib3@2.8.0",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/requests@2.31.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/certifi@2026.10.19",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": "platform_python_implementation == \"CPython\" and extra == \"brotli\"",
+          "modality": "UNKNOWN",
+          "provenance_detail": "PEP508 condition: platform_python_implementation == \"CPython\" and extra == \"brotli\"",
+          "source_purl": "pkg:pypi/urllib3@2.8.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/brotli",
+          "valid_environments": []
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": "platform_python_implementation != \"CPython\" and extra == \"brotli\"",
+          "modality": "UNKNOWN",
+          "provenance_detail": "PEP508 condition: platform_python_implementation != \"CPython\" and extra == \"brotli\"",
+          "source_purl": "pkg:pypi/urllib3@2.8.0",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/brotlicffi",
+          "valid_environments": []
+        }
+      ],
+      "nodes": [
+        {
+          "evidence_source": "frozen-public-registry-snapshot",
+          "provenance_detail": "Required by pkg:pypi/urllib3@2.8.0 with marker 'platform_python_implementation == \"CPython\" and extra == \"brotli\"', constraint='>=1.2.0'",
+          "purl": "pkg:pypi/brotli",
+          "status": "INFERRED"
+        },
+        {
+          "evidence_source": "frozen-public-registry-snapshot",
+          "provenance_detail": "Required by pkg:pypi/urllib3@2.8.0 with marker 'platform_python_implementation != \"CPython\" and extra == \"brotli\"', constraint='>=1.2.0.0'",
+          "purl": "pkg:pypi/brotlicffi",
+          "status": "INFERRED"
+        }
+      ]
+    },
+    "G_obs": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/certifi@2026.10.19",
+          "name": "certifi",
+          "purl": "pkg:pypi/certifi@2026.10.19",
+          "type": "library",
+          "version": "2026.10.19"
+        },
+        {
+          "bom-ref": "pkg:pypi/charset-normalizer@3.5.2",
+          "name": "charset-normalizer",
+          "purl": "pkg:pypi/charset-normalizer@3.5.2",
+          "type": "library",
+          "version": "3.5.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/idna@3.20",
+          "name": "idna",
+          "purl": "pkg:pypi/idna@3.20",
+          "type": "library",
+          "version": "3.20"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/urllib3@2.8.0",
+          "name": "urllib3",
+          "purl": "pkg:pypi/urllib3@2.8.0",
+          "type": "library",
+          "version": "2.8.0"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/requests@2.31.0",
+          "name": "requests",
+          "purl": "pkg:pypi/requests@2.31.0",
+          "type": "application",
+          "version": "2.31.0"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "G_reconstructed": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/certifi@2026.10.19",
+          "name": "certifi",
+          "purl": "pkg:pypi/certifi@2026.10.19",
+          "type": "library",
+          "version": "2026.10.19"
+        },
+        {
+          "bom-ref": "pkg:pypi/charset-normalizer@3.5.2",
+          "name": "charset-normalizer",
+          "purl": "pkg:pypi/charset-normalizer@3.5.2",
+          "type": "library",
+          "version": "3.5.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/idna@3.20",
+          "name": "idna",
+          "purl": "pkg:pypi/idna@3.20",
+          "type": "library",
+          "version": "3.20"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/urllib3@2.8.0",
+          "name": "urllib3",
+          "purl": "pkg:pypi/urllib3@2.8.0",
+          "type": "library",
+          "version": "2.8.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/brotli",
+          "name": "brotli",
+          "properties": [
+            {
+              "name": "reconstruction:status",
+              "value": "INFERRED"
+            },
+            {
+              "name": "reconstruction:evidence",
+              "value": "frozen-public-registry-snapshot"
+            }
+          ],
+          "purl": "pkg:pypi/brotli",
+          "type": "library",
+          "version": ""
+        },
+        {
+          "bom-ref": "pkg:pypi/brotlicffi",
+          "name": "brotlicffi",
+          "properties": [
+            {
+              "name": "reconstruction:status",
+              "value": "INFERRED"
+            },
+            {
+              "name": "reconstruction:evidence",
+              "value": "frozen-public-registry-snapshot"
+            }
+          ],
+          "purl": "pkg:pypi/brotlicffi",
+          "type": "library",
+          "version": ""
+        }
+      ],
+      "dependencies": [
+        {
+          "dependsOn": [
+            "pkg:pypi/certifi@2026.10.19",
+            "pkg:pypi/charset-normalizer@3.5.2",
+            "pkg:pypi/idna@3.20",
+            "pkg:pypi/urllib3@2.8.0"
+          ],
+          "ref": "pkg:pypi/requests@2.31.0"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/requests@2.31.0",
+          "name": "requests",
+          "purl": "pkg:pypi/requests@2.31.0",
+          "type": "application",
+          "version": "2.31.0"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "baseline_id": "B3",
+    "baseline_name": "Context-aware Deterministic Heuristic",
+    "environment_mode": "single_target",
+    "extras_by_environment": [
+      {}
+    ],
+    "modality_scope": "target_environment",
+    "predicted_edges": [
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/certifi@2026.10.19"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/charset-normalizer@3.5.2"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/idna@3.20"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/urllib3@2.8.0"
+      ]
+    ],
+    "summary": {
+      "candidate_edges": 6,
+      "contradictions_detected": 0,
+      "inferred_nodes": 2,
+      "observed_edges": 0,
+      "observed_nodes": 8,
+      "total_reconstructed_nodes": 10
+    },
+    "target_environment": {
+      "active_extras": [],
+      "os_name": "posix",
+      "platform_machine": "x86_64",
+      "platform_system": "Linux",
+      "python_full_version": null,
+      "python_version": "3.11",
+      "sys_platform": "linux"
+    },
+    "unresolved": [
+      {
+        "parent": "pkg:pypi/my-test-package@1.0",
+        "reason": "EVIDENCE_UNAVAILABLE"
+      },
+      {
+        "parent": "pkg:pypi/setuptools@79.0.1",
+        "reason": "EVIDENCE_UNAVAILABLE"
+      },
+      {
+        "marker": "platform_python_implementation == \"CPython\" and extra == \"brotli\"",
+        "parent": "pkg:pypi/urllib3@2.8.0",
+        "reason": "MARKER_CONTEXT_UNKNOWN"
+      },
+      {
+        "marker": "platform_python_implementation != \"CPython\" and extra == \"brotli\"",
+        "parent": "pkg:pypi/urllib3@2.8.0",
+        "reason": "MARKER_CONTEXT_UNKNOWN"
+      },
+      {
+        "parent": "pkg:pypi/brotli",
+        "reason": "EVIDENCE_UNAVAILABLE"
+      },
+      {
+        "parent": "pkg:pypi/brotlicffi",
+        "reason": "EVIDENCE_UNAVAILABLE"
+      }
+    ]
+  }
+}

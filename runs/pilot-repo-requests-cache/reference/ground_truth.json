@@ -1,0 +1,201 @@
+{
+  "context": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.11.16",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_python_implementation": "CPython",
+    "platform_release": "7.0.0-30-generic",
+    "platform_system": "Linux",
+    "platform_version": "#30~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:27:52 UTC 2",
+    "python_full_version": "3.11.16",
+    "python_version": "3.11",
+    "sys_platform": "linux"
+  },
+  "counts": {
+    "direct_package_edges": 13,
+    "evaluated_requirement_records": 62,
+    "packages": 11,
+    "unresolved": 0
+  },
+  "edges": [
+    {
+      "evidence": [
+        "attrs>=25.4.0 (unconditional)"
+      ],
+      "from": "cattrs",
+      "to": "attrs"
+    },
+    {
+      "evidence": [
+        "typing-extensions>=4.14.0 (unconditional)"
+      ],
+      "from": "cattrs",
+      "to": "typing-extensions"
+    },
+    {
+      "evidence": [
+        "certifi>=2023.5.7 (unconditional)"
+      ],
+      "from": "requests",
+      "to": "certifi"
+    },
+    {
+      "evidence": [
+        "charset_normalizer<4,>=2 (unconditional)"
+      ],
+      "from": "requests",
+      "to": "charset-normalizer"
+    },
+    {
+      "evidence": [
+        "idna<4,>=2.5 (unconditional)"
+      ],
+      "from": "requests",
+      "to": "idna"
+    },
+    {
+      "evidence": [
+        "urllib3<3,>=1.26 (unconditional)"
+      ],
+      "from": "requests",
+      "to": "urllib3"
+    },
+    {
+      "evidence": [
+        "attrs (>=21.2) (unconditional)"
+      ],
+      "from": "requests-cache",
+      "to": "attrs"
+    },
+    {
+      "evidence": [
+        "cattrs (>=22.2) (unconditional)"
+      ],
+      "from": "requests-cache",
+      "to": "cattrs"
+    },
+    {
+      "evidence": [
+        "platformdirs (>=2.5) (unconditional)"
+      ],
+      "from": "requests-cache",
+      "to": "platformdirs"
+    },
+    {
+      "evidence": [
+        "requests (>=2.22) (unconditional)"
+      ],
+      "from": "requests-cache",
+      "to": "requests"
+    },
+    {
+      "evidence": [
+        "url-normalize (>=1.4) (unconditional)"
+      ],
+      "from": "requests-cache",
+      "to": "url-normalize"
+    },
+    {
+      "evidence": [
+        "urllib3 (>=1.25.5) (unconditional)"
+      ],
+      "from": "requests-cache",
+      "to": "urllib3"
+    },
+    {
+      "evidence": [
+        "idna>=3.3 (unconditional)"
+      ],
+      "from": "url-normalize",
+      "to": "idna"
+    }
+  ],
+  "nodes": [
+    {
+      "name": "attrs",
+      "purl": "pkg:pypi/attrs@26.1.0",
+      "requested_extras": [],
+      "requested_root": false,
+      "version": "26.1.0"
+    },
+    {
+      "name": "cattrs",
+      "purl": "pkg:pypi/cattrs@26.2.1",
+      "requested_extras": [],
+      "requested_root": false,
+      "version": "26.2.1"
+    },
+    {
+      "name": "certifi",
+      "purl": "pkg:pypi/certifi@2026.10.19",
+      "requested_extras": [],
+      "requested_root": false,
+      "version": "2026.10.19"
+    },
+    {
+      "name": "charset-normalizer",
+      "purl": "pkg:pypi/charset-normalizer@3.5.2",
+      "requested_extras": [],
+      "requested_root": false,
+      "version": "3.5.2"
+    },
+    {
+      "name": "idna",
+      "purl": "pkg:pypi/idna@3.20",
+      "requested_extras": [],
+      "requested_root": false,
+      "version": "3.20"
+    },
+    {
+      "name": "platformdirs",
+      "purl": "pkg:pypi/platformdirs@4.13.5",
+      "requested_extras": [],
+      "requested_root": false,
+      "version": "4.13.5"
+    },
+    {
+      "name": "requests",
+      "purl": "pkg:pypi/requests@2.34.2",
+      "requested_extras": [],
+      "requested_root": false,
+      "version": "2.34.2"
+    },
+    {
+      "name": "requests-cache",
+      "purl": "pkg:pypi/requests-cache@1.1.1",
+      "requested_extras": [],
+      "requested_root": true,
+      "version": "1.1.1"
+    },
+    {
+      "name": "typing-extensions",
+      "purl": "pkg:pypi/typing-extensions@4.16.0",
+      "requested_extras": [],
+      "requested_root": false,
+      "version": "4.16.0"
+    },
+    {
+      "name": "url-normalize",
+      "purl": "pkg:pypi/url-normalize@3.0.1",
+      "requested_extras": [],
+      "requested_root": false,
+      "version": "3.0.1"
+    },
+    {
+      "name": "urllib3",
+      "purl": "pkg:pypi/urllib3@2.8.0",
+      "requested_extras": [],
+      "requested_root": false,
+      "version": "2.8.0"
+    }
+  ],
+  "project": "requests-cache",
+  "roots": [
+    "requests-cache"
+  ],
+  "schema_version": "benchmark-v1",
+  "semantics": "direct Requires-Dist dependency graph of installed distributions, projected onto requested roots and known extras",
+  "unresolved": [],
+  "warnings": []
+}

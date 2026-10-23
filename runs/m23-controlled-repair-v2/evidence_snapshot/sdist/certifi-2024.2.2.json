@@ -1,0 +1,25 @@
+{
+  "artifact_level_metadata": {
+    "wheel_bytes_verified": true,
+    "wheel_local_sha256": "dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1",
+    "wheel_metadata_file": "certifi-2024.2.2.dist-info/METADATA",
+    "wheel_metadata_sha256": "d67a2b78b4428693a07928f4b894f599e862065f27821df71ae73b29dbf36183"
+  },
+  "distribution_type": "wheel",
+  "name": "certifi",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T07:05:44.492586+00:00",
+    "provenance_chain": "PyPI index -> Distribution artifact -> Verified SHA-256 -> Extracted METADATA -> Frozen evidence record",
+    "source_pypi_json_url": "https://pypi.org/pypi/certifi/2024.2.2/json",
+    "verification_status": "VERIFIED_ARTIFACT_DIGEST_AND_METADATA",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/ba/06/a07f096c664aeb9f01624f858c3add0a4e913d6c96257acb4fce61e7de14/certifi-2024.2.2-py3-none-any.whl",
+    "wheel_filename": "certifi-2024.2.2-py3-none-any.whl",
+    "wheel_sha256": "dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1",
+    "wheel_upload_time_utc": "2024-02-02T01:22:14.860767Z"
+  },
+  "release_requires_dist": [],
+  "requires_dist": [],
+  "requires_python": ">=3.6",
+  "version": "2024.2.2"
+}

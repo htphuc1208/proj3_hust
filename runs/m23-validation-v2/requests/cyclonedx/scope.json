@@ -1,0 +1,134 @@
+{
+  "bootstrap_context": [
+    "pip",
+    "setuptools"
+  ],
+  "components": [
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/certifi@2026.10.19",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator",
+      "component_type": "library",
+      "name": "certifi",
+      "origin_paths": [],
+      "original_ref": "certifi==2026.10.19",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "2026.10.19"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/charset-normalizer@3.5.2",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator",
+      "component_type": "library",
+      "name": "charset-normalizer",
+      "origin_paths": [],
+      "original_ref": "charset-normalizer==3.5.2",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "3.5.2"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/idna@3.20",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator",
+      "component_type": "library",
+      "name": "idna",
+      "origin_paths": [],
+      "original_ref": "idna==3.20",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "3.20"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/pip@24.0",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator",
+      "component_type": "library",
+      "name": "pip",
+      "origin_paths": [],
+      "original_ref": "pip==24.0",
+      "retained_for_inference": true,
+      "role": "BOOTSTRAP",
+      "version": "24.0"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/requests@2.31.0",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator",
+      "component_type": "library",
+      "name": "requests",
+      "origin_paths": [],
+      "original_ref": "requests==2.31.0",
+      "retained_for_inference": true,
+      "role": "DECLARED_ROOT",
+      "version": "2.31.0"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/setuptools@79.0.1",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator",
+      "component_type": "library",
+      "name": "setuptools",
+      "origin_paths": [],
+      "original_ref": "setuptools==79.0.1",
+      "retained_for_inference": true,
+      "role": "BOOTSTRAP",
+      "version": "79.0.1"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/urllib3@2.8.0",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator",
+      "component_type": "library",
+      "name": "urllib3",
+      "origin_paths": [],
+      "original_ref": "urllib3==2.8.0",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "2.8.0"
+    }
+  ],
+  "counts": {
+    "DISTRIBUTION_CANDIDATE": 7
+  },
+  "edges": [
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/requests@2.31.0",
+      "source_original_ref": "requests==2.31.0",
+      "target": "pkg:pypi/certifi@2026.10.19",
+      "target_original_ref": "certifi==2026.10.19"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/requests@2.31.0",
+      "source_original_ref": "requests==2.31.0",
+      "target": "pkg:pypi/charset-normalizer@3.5.2",
+      "target_original_ref": "charset-normalizer==3.5.2"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/requests@2.31.0",
+      "source_original_ref": "requests==2.31.0",
+      "target": "pkg:pypi/idna@3.20",
+      "target_original_ref": "idna==3.20"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/requests@2.31.0",
+      "source_original_ref": "requests==2.31.0",
+      "target": "pkg:pypi/urllib3@2.8.0",
+      "target_original_ref": "urllib3==2.8.0"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/setuptools@79.0.1",
+      "source_original_ref": "setuptools==79.0.1",
+      "target": "pkg:pypi/pip@24.0",
+      "target_original_ref": "pip==24.0"
+    }
+  ],
+  "root_status": "OBSERVED_DECLARED_ROOT",
+  "schema_version": "scope-audit-v1"
+}

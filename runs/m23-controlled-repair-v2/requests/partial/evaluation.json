@@ -1,0 +1,281 @@
+{
+  "B0": {
+    "additions": {
+      "f1": 0.0,
+      "fn": 4,
+      "fp": 0,
+      "precision": null,
+      "recall": 0.0,
+      "tp": 0
+    },
+    "edge_audit": [],
+    "excluded_or_unknown_edges": 0,
+    "false_positive_edges": [],
+    "missed_edges": [
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/certifi@2026.10.19"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/charset-normalizer@3.5.2"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/idna@3.20"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/urllib3@2.8.0"
+      ]
+    ],
+    "recovered_edges": [],
+    "reference_edges": 4,
+    "reference_nodes": 5,
+    "unresolved_reference_requirements": [],
+    "whole_graph": {
+      "f1": 0.0,
+      "fn": 4,
+      "fp": 0,
+      "precision": null,
+      "recall": 0.0,
+      "tp": 0
+    }
+  },
+  "B1": {
+    "additions": {
+      "f1": 0.8,
+      "fn": 0,
+      "fp": 2,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "tp": 4
+    },
+    "edge_audit": [
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.31.0",
+        "target": "pkg:pypi/certifi@2026.10.19"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests@2.31.0",
+        "target": "pkg:pypi/chardet"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.31.0",
+        "target": "pkg:pypi/charset-normalizer@3.5.2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.31.0",
+        "target": "pkg:pypi/idna@3.20"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests@2.31.0",
+        "target": "pkg:pypi/pysocks"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.31.0",
+        "target": "pkg:pypi/urllib3@2.8.0"
+      }
+    ],
+    "excluded_or_unknown_edges": 0,
+    "false_positive_edges": [
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/chardet"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/pysocks"
+      ]
+    ],
+    "missed_edges": [],
+    "recovered_edges": [
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/certifi@2026.10.19"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/charset-normalizer@3.5.2"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/idna@3.20"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/urllib3@2.8.0"
+      ]
+    ],
+    "reference_edges": 4,
+    "reference_nodes": 5,
+    "unresolved_reference_requirements": [],
+    "whole_graph": {
+      "f1": 0.8,
+      "fn": 0,
+      "fp": 2,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "tp": 4
+    }
+  },
+  "B2": {
+    "additions": {
+      "f1": 0.8888888888888888,
+      "fn": 0,
+      "fp": 1,
+      "precision": 0.8,
+      "recall": 1.0,
+      "tp": 4
+    },
+    "edge_audit": [
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.31.0",
+        "target": "pkg:pypi/certifi@2026.10.19"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.31.0",
+        "target": "pkg:pypi/charset-normalizer@3.5.2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.31.0",
+        "target": "pkg:pypi/idna@3.20"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests@2.31.0",
+        "target": "pkg:pypi/pysocks"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.31.0",
+        "target": "pkg:pypi/urllib3@2.8.0"
+      }
+    ],
+    "excluded_or_unknown_edges": 0,
+    "false_positive_edges": [
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/pysocks"
+      ]
+    ],
+    "missed_edges": [],
+    "recovered_edges": [
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/certifi@2026.10.19"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/charset-normalizer@3.5.2"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/idna@3.20"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/urllib3@2.8.0"
+      ]
+    ],
+    "reference_edges": 4,
+    "reference_nodes": 5,
+    "unresolved_reference_requirements": [],
+    "whole_graph": {
+      "f1": 0.8888888888888888,
+      "fn": 0,
+      "fp": 1,
+      "precision": 0.8,
+      "recall": 1.0,
+      "tp": 4
+    }
+  },
+  "B3": {
+    "additions": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 4
+    },
+    "edge_audit": [
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.31.0",
+        "target": "pkg:pypi/certifi@2026.10.19"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.31.0",
+        "target": "pkg:pypi/charset-normalizer@3.5.2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.31.0",
+        "target": "pkg:pypi/idna@3.20"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.31.0",
+        "target": "pkg:pypi/urllib3@2.8.0"
+      }
+    ],
+    "excluded_or_unknown_edges": 0,
+    "false_positive_edges": [],
+    "missed_edges": [],
+    "recovered_edges": [
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/certifi@2026.10.19"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/charset-normalizer@3.5.2"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/idna@3.20"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/urllib3@2.8.0"
+      ]
+    ],
+    "reference_edges": 4,
+    "reference_nodes": 5,
+    "unresolved_reference_requirements": [],
+    "whole_graph": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 4
+    }
+  }
+}

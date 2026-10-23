@@ -1,0 +1,15 @@
+{
+  "caution": "Pip check validates installed requirement consistency, not exact extras provenance or runtime reachability",
+  "installed_report_provided": true,
+  "interpreter": {
+    "base_prefix": "/usr",
+    "executable": "/home/phucht/project/sbom_security_poc/runs/requests/.venv/bin/python",
+    "prefix": "/home/phucht/project/sbom_security_poc/runs/requests/.venv"
+  },
+  "isolated_venv": true,
+  "pip_check_exit_code": 0,
+  "preliminary_capture_gates_passed": true,
+  "requested_root_requirements": [
+    "requests==2.31.0"
+  ]
+}

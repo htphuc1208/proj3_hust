@@ -1,0 +1,170 @@
+[
+  {
+    "baselines_on_degraded_sbom": {
+      "B0_Observed_Only": {
+        "f1": 0.0,
+        "fn": 13,
+        "fp": 0,
+        "tp": 0
+      },
+      "B1_Context_Free": {
+        "f1": 0.3103448275862069,
+        "fn": 4,
+        "fp": 36,
+        "tp": 9
+      },
+      "B2_Maximal_Supergraph": {
+        "f1": 0.6923076923076923,
+        "fn": 4,
+        "fp": 4,
+        "tp": 9
+      },
+      "B3_Context_Aware": {
+        "f1": 0.8181818181818182,
+        "fn": 4,
+        "fp": 0,
+        "tp": 9
+      }
+    },
+    "commit_sha": "715b148a1518ada880f1334cb148dbf5eeb43fa1",
+    "generator_discrepancy_and_scope_analysis": {
+      "anchore_syft": {
+        "direct_app_edges_reported": 0,
+        "notes": "dir: scan mode captures file artifacts without reconstructing inter-package dependency edges",
+        "scope_analysis": {
+          "installed_app_packages": 11,
+          "scope_type": "Filesystem / Artifact Inventory Scope (includes build-time vendored packages)",
+          "vendored_and_tooling_packages": 116
+        },
+        "total_cataloged": 127,
+        "version": "syft 1.54.1"
+      },
+      "cyclonedx_py": {
+        "direct_app_edges_reported": 13,
+        "scope_analysis": {
+          "installed_app_packages": 11,
+          "scope_type": "Python Environment Scope (wheel distribution metadata)",
+          "tooling_packages": 2
+        },
+        "taxonomy_classification": "CROSS_TOOL_IDENTITY_NORMALIZATION_REQUIRED (uses name==version instead of canonical PURL)",
+        "total_cataloged": 13,
+        "version": "cyclonedx-py 7.5.0"
+      }
+    },
+    "ground_truth_oracle": {
+      "application_components_count": 11,
+      "direct_edges": [
+        "cattrs -> attrs",
+        "cattrs -> typing-extensions",
+        "requests -> certifi",
+        "requests -> charset-normalizer",
+        "requests -> idna",
+        "requests -> urllib3",
+        "requests-cache -> attrs",
+        "requests-cache -> cattrs",
+        "requests-cache -> platformdirs",
+        "requests-cache -> requests",
+        "requests-cache -> url-normalize",
+        "requests-cache -> urllib3",
+        "url-normalize -> idna"
+      ],
+      "direct_edges_count": 13
+    },
+    "repo_url": "https://github.com/requests-cache/requests-cache.git",
+    "repository": "requests-cache",
+    "tag": "v1.1.1"
+  },
+  {
+    "baselines_on_degraded_sbom": {
+      "B0_Observed_Only": {
+        "f1": 0.0,
+        "fn": 31,
+        "fp": 0,
+        "tp": 0
+      },
+      "B1_Context_Free": {
+        "f1": 0.6172839506172839,
+        "fn": 6,
+        "fp": 25,
+        "tp": 25
+      },
+      "B2_Maximal_Supergraph": {
+        "f1": 0.8771929824561403,
+        "fn": 6,
+        "fp": 1,
+        "tp": 25
+      },
+      "B3_Context_Aware": {
+        "f1": 0.8928571428571429,
+        "fn": 6,
+        "fp": 0,
+        "tp": 25
+      }
+    },
+    "commit_sha": "888754822b81c9d8f1202a079c207ce8d9b8c037",
+    "generator_discrepancy_and_scope_analysis": {
+      "anchore_syft": {
+        "direct_app_edges_reported": 0,
+        "notes": "dir: scan mode captures file artifacts without reconstructing inter-package dependency edges",
+        "scope_analysis": {
+          "installed_app_packages": 24,
+          "scope_type": "Filesystem / Artifact Inventory Scope (includes build-time vendored packages)",
+          "vendored_and_tooling_packages": 149
+        },
+        "total_cataloged": 173,
+        "version": "syft 1.54.1"
+      },
+      "cyclonedx_py": {
+        "direct_app_edges_reported": 32,
+        "scope_analysis": {
+          "installed_app_packages": 24,
+          "scope_type": "Python Environment Scope (wheel distribution metadata)",
+          "tooling_packages": 2
+        },
+        "taxonomy_classification": "CROSS_TOOL_IDENTITY_NORMALIZATION_REQUIRED (uses name==version instead of canonical PURL)",
+        "total_cataloged": 26,
+        "version": "cyclonedx-py 7.5.0"
+      }
+    },
+    "ground_truth_oracle": {
+      "application_components_count": 24,
+      "direct_edges": [
+        "brotlicffi -> cffi",
+        "cffi -> pycparser",
+        "flasgger -> flask",
+        "flasgger -> jsonschema",
+        "flasgger -> mistune",
+        "flasgger -> packaging",
+        "flasgger -> pyyaml",
+        "flasgger -> six",
+        "flask -> blinker",
+        "flask -> click",
+        "flask -> itsdangerous",
+        "flask -> jinja2",
+        "flask -> markupsafe",
+        "flask -> werkzeug",
+        "httpbin -> brotlicffi",
+        "httpbin -> decorator",
+        "httpbin -> flasgger",
+        "httpbin -> flask",
+        "httpbin -> greenlet",
+        "httpbin -> six",
+        "httpbin -> werkzeug",
+        "jinja2 -> markupsafe",
+        "jsonschema -> attrs",
+        "jsonschema -> jsonschema-specifications",
+        "jsonschema -> referencing",
+        "jsonschema -> rpds-py",
+        "jsonschema-specifications -> referencing",
+        "referencing -> attrs",
+        "referencing -> rpds-py",
+        "referencing -> typing-extensions",
+        "werkzeug -> markupsafe"
+      ],
+      "direct_edges_count": 31
+    },
+    "repo_url": "https://github.com/psf/httpbin.git",
+    "repository": "httpbin",
+    "tag": "v0.10.2"
+  }
+]

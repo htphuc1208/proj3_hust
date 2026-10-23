@@ -1,0 +1,9 @@
+Processing /source/flasgger-0.9.7.1.tar.gz
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: flasgger
+  Building wheel for flasgger (pyproject.toml): started
+  Building wheel for flasgger (pyproject.toml): finished with status 'done'
+  Created wheel for flasgger: filename=flasgger-0.9.7.1-py2.py3-none-any.whl size=3865269 sha256=9b1821e13c9187f7d6e16660c16ea67c90e62b32c0bc5880e97c4fc2ba1032bc
+  Stored in directory: /home/researcher/.cache/pip/wheels/a9/6e/f4/4e00b673d72a7a12711033b08e465e3816f4a4b399924ccbdf
+Successfully built flasgger

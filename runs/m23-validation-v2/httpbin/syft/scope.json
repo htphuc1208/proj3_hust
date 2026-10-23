@@ -1,0 +1,2811 @@
+{
+  "bootstrap_context": [
+    "pip",
+    "setuptools"
+  ],
+  "components": [
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv",
+      "origin_paths": [],
+      "original_ref": "f2fa99427bdb8729",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "application",
+      "name": "Simple Launcher",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/pip/_vendor/distlib/t32.exe"
+      ],
+      "original_ref": "a44285c28ded40d9",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "1.1.0.14"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "application",
+      "name": "Simple Launcher",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/pip/_vendor/distlib/t64-arm.exe"
+      ],
+      "original_ref": "0adacc207c3f4a90",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "1.1.0.14"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "application",
+      "name": "Simple Launcher",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/pip/_vendor/distlib/t64.exe"
+      ],
+      "original_ref": "155265e0cc280d26",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "1.1.0.14"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "application",
+      "name": "Simple Launcher",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/pip/_vendor/distlib/w32.exe"
+      ],
+      "original_ref": "96ca15df6e892e0b",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "1.1.0.14"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "application",
+      "name": "Simple Launcher",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/pip/_vendor/distlib/w64-arm.exe"
+      ],
+      "original_ref": "234c4176e1f4ee2b",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "1.1.0.14"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "application",
+      "name": "Simple Launcher",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/pip/_vendor/distlib/w64.exe"
+      ],
+      "original_ref": "f74225a542780316",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "1.1.0.14"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/attrs@26.1.0",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "attrs",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/attrs-26.1.0.dist-info/METADATA",
+        "/lib/python3.11/site-packages/attrs-26.1.0.dist-info/RECORD"
+      ],
+      "original_ref": "pkg:pypi/attrs@26.1.0?package-id=2daeb040a8f0b0f3",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "26.1.0"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "library",
+      "name": "autocommand",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/METADATA",
+        "/lib/python3.11/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/RECORD",
+        "/lib/python3.11/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/autocommand@2.2.2?package-id=1d5bb88bbdd45a29",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "2.2.2"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "library",
+      "name": "backports-tarfile",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/METADATA",
+        "/lib/python3.11/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/RECORD",
+        "/lib/python3.11/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/backports-tarfile@1.2.0?package-id=7bb5380f6d177676",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "1.2.0"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/blinker@1.9.0",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "blinker",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/blinker-1.9.0.dist-info/METADATA",
+        "/lib/python3.11/site-packages/blinker-1.9.0.dist-info/RECORD"
+      ],
+      "original_ref": "pkg:pypi/blinker@1.9.0?package-id=0e9a1d4163c92cab",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "1.9.0"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/brotlicffi@1.2.0.2",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "brotlicffi",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/brotlicffi-1.2.0.2.dist-info/METADATA",
+        "/lib/python3.11/site-packages/brotlicffi-1.2.0.2.dist-info/RECORD",
+        "/lib/python3.11/site-packages/brotlicffi-1.2.0.2.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/brotlicffi@1.2.0.2?package-id=7f509e8aef33e259",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "1.2.0.2"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/cffi@2.1.1",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "cffi",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/cffi-2.1.1.dist-info/METADATA",
+        "/lib/python3.11/site-packages/cffi-2.1.1.dist-info/RECORD",
+        "/lib/python3.11/site-packages/cffi-2.1.1.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/cffi@2.1.1?package-id=e22cd98ab84055b3",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "2.1.1"
+    },
+    {
+      "artifact_kind": "ARTIFACT",
+      "canonical_identity": "",
+      "classification_evidence": "Non-PyPI application/binary component",
+      "component_type": "application",
+      "name": "cli",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/cli.exe"
+      ],
+      "original_ref": "83650cc0f73168af",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "UNKNOWN"
+    },
+    {
+      "artifact_kind": "ARTIFACT",
+      "canonical_identity": "",
+      "classification_evidence": "Non-PyPI application/binary component",
+      "component_type": "application",
+      "name": "cli-32",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/cli-32.exe"
+      ],
+      "original_ref": "3537c7a1e294b533",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "UNKNOWN"
+    },
+    {
+      "artifact_kind": "ARTIFACT",
+      "canonical_identity": "",
+      "classification_evidence": "Non-PyPI application/binary component",
+      "component_type": "application",
+      "name": "cli-64",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/cli-64.exe"
+      ],
+      "original_ref": "1d8b91b866d3f200",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "UNKNOWN"
+    },
+    {
+      "artifact_kind": "ARTIFACT",
+      "canonical_identity": "",
+      "classification_evidence": "Non-PyPI application/binary component",
+      "component_type": "application",
+      "name": "cli-arm64",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/cli-arm64.exe"
+      ],
+      "original_ref": "38c02814806a9f67",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "UNKNOWN"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/click@8.5.0",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "click",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/click-8.5.0.dist-info/METADATA",
+        "/lib/python3.11/site-packages/click-8.5.0.dist-info/RECORD"
+      ],
+      "original_ref": "pkg:pypi/click@8.5.0?package-id=1053eb10f5ff0b68",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "8.5.0"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/decorator@5.3.1",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "decorator",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/decorator-5.3.1.dist-info/METADATA",
+        "/lib/python3.11/site-packages/decorator-5.3.1.dist-info/RECORD",
+        "/lib/python3.11/site-packages/decorator-5.3.1.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/decorator@5.3.1?package-id=52ee2ad7f919e43c",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "5.3.1"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/flasgger@0.9.7.1",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "flasgger",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/flasgger-0.9.7.1.dist-info/METADATA",
+        "/lib/python3.11/site-packages/flasgger-0.9.7.1.dist-info/RECORD",
+        "/lib/python3.11/site-packages/flasgger-0.9.7.1.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/flasgger@0.9.7.1?package-id=e61a81222d3f60af",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "0.9.7.1"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/flask@3.1.3",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "flask",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/flask-3.1.3.dist-info/METADATA",
+        "/lib/python3.11/site-packages/flask-3.1.3.dist-info/RECORD"
+      ],
+      "original_ref": "pkg:pypi/flask@3.1.3?package-id=cbb7a80b6dce867a",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "3.1.3"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/greenlet@2.0.2",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "greenlet",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/greenlet-2.0.2.dist-info/METADATA",
+        "/lib/python3.11/site-packages/greenlet-2.0.2.dist-info/RECORD",
+        "/lib/python3.11/site-packages/greenlet-2.0.2.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/greenlet@2.0.2?package-id=1f239f45315f8d1d",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "2.0.2"
+    },
+    {
+      "artifact_kind": "ARTIFACT",
+      "canonical_identity": "",
+      "classification_evidence": "Non-PyPI application/binary component",
+      "component_type": "application",
+      "name": "gui",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/gui.exe"
+      ],
+      "original_ref": "9c5de4fa9a0374bc",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "UNKNOWN"
+    },
+    {
+      "artifact_kind": "ARTIFACT",
+      "canonical_identity": "",
+      "classification_evidence": "Non-PyPI application/binary component",
+      "component_type": "application",
+      "name": "gui-32",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/gui-32.exe"
+      ],
+      "original_ref": "0876080b2c58fd68",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "UNKNOWN"
+    },
+    {
+      "artifact_kind": "ARTIFACT",
+      "canonical_identity": "",
+      "classification_evidence": "Non-PyPI application/binary component",
+      "component_type": "application",
+      "name": "gui-64",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/gui-64.exe"
+      ],
+      "original_ref": "c8a87c656caafca9",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "UNKNOWN"
+    },
+    {
+      "artifact_kind": "ARTIFACT",
+      "canonical_identity": "",
+      "classification_evidence": "Non-PyPI application/binary component",
+      "component_type": "application",
+      "name": "gui-arm64",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/gui-arm64.exe"
+      ],
+      "original_ref": "255cf3e4ad598fb1",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "UNKNOWN"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/httpbin@0.10.2",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "httpbin",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/httpbin-0.10.2.dist-info/METADATA",
+        "/lib/python3.11/site-packages/httpbin-0.10.2.dist-info/RECORD",
+        "/lib/python3.11/site-packages/httpbin-0.10.2.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/httpbin@0.10.2?package-id=82ce8474d8d6f9ec",
+      "retained_for_inference": true,
+      "role": "DECLARED_ROOT",
+      "version": "0.10.2"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "library",
+      "name": "importlib-metadata",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA",
+        "/lib/python3.11/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/RECORD",
+        "/lib/python3.11/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/importlib-metadata@8.0.0?package-id=587e5d030197d8be",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "8.0.0"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "library",
+      "name": "inflect",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/METADATA",
+        "/lib/python3.11/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/RECORD",
+        "/lib/python3.11/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/inflect@7.3.1?package-id=051eccf3da38b7a8",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "7.3.1"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/itsdangerous@2.2.0",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "itsdangerous",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/itsdangerous-2.2.0.dist-info/METADATA",
+        "/lib/python3.11/site-packages/itsdangerous-2.2.0.dist-info/RECORD"
+      ],
+      "original_ref": "pkg:pypi/itsdangerous@2.2.0?package-id=1b2e20a8cd0be3ca",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "2.2.0"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "library",
+      "name": "jaraco-collections",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/METADATA",
+        "/lib/python3.11/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/RECORD",
+        "/lib/python3.11/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/jaraco-collections@5.1.0?package-id=e074243c2b7dd70d",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "5.1.0"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "library",
+      "name": "jaraco-context",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/METADATA",
+        "/lib/python3.11/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/RECORD",
+        "/lib/python3.11/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/jaraco-context@5.3.0?package-id=ee2001f8be723bea",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "5.3.0"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "library",
+      "name": "jaraco-functools",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/METADATA",
+        "/lib/python3.11/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/RECORD",
+        "/lib/python3.11/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/jaraco-functools@4.0.1?package-id=f44a0053651c9204",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "4.0.1"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "library",
+      "name": "jaraco-text",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/METADATA",
+        "/lib/python3.11/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/RECORD",
+        "/lib/python3.11/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/jaraco-text@3.12.1?package-id=7c63fb5152a423fd",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "3.12.1"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/jinja2@3.1.6",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "jinja2",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/jinja2-3.1.6.dist-info/METADATA",
+        "/lib/python3.11/site-packages/jinja2-3.1.6.dist-info/RECORD"
+      ],
+      "original_ref": "pkg:pypi/jinja2@3.1.6?package-id=635615c14ee0ad24",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "3.1.6"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/jsonschema@4.26.0",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "jsonschema",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/jsonschema-4.26.0.dist-info/METADATA",
+        "/lib/python3.11/site-packages/jsonschema-4.26.0.dist-info/RECORD"
+      ],
+      "original_ref": "pkg:pypi/jsonschema@4.26.0?package-id=a574ff04aa45a5ce",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "4.26.0"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/jsonschema-specifications@2025.9.1",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "jsonschema-specifications",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/jsonschema_specifications-2025.9.1.dist-info/METADATA",
+        "/lib/python3.11/site-packages/jsonschema_specifications-2025.9.1.dist-info/RECORD"
+      ],
+      "original_ref": "pkg:pypi/jsonschema-specifications@2025.9.1?package-id=18d819e4b4f87cf4",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "2025.9.1"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/markupsafe@3.0.4",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "markupsafe",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/markupsafe-3.0.4.dist-info/METADATA",
+        "/lib/python3.11/site-packages/markupsafe-3.0.4.dist-info/RECORD",
+        "/lib/python3.11/site-packages/markupsafe-3.0.4.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/markupsafe@3.0.4?package-id=3143e90d7d38388b",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "3.0.4"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/mistune@3.4.0",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "mistune",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/mistune-3.4.0.dist-info/METADATA",
+        "/lib/python3.11/site-packages/mistune-3.4.0.dist-info/RECORD",
+        "/lib/python3.11/site-packages/mistune-3.4.0.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/mistune@3.4.0?package-id=2e6d977df3b7d904",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "3.4.0"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "library",
+      "name": "more-itertools",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/_vendor/more_itertools-10.3.0.dist-info/METADATA",
+        "/lib/python3.11/site-packages/setuptools/_vendor/more_itertools-10.3.0.dist-info/RECORD"
+      ],
+      "original_ref": "pkg:pypi/more-itertools@10.3.0?package-id=e36b3d93f19c667c",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "10.3.0"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/my-test-package@1.0",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "my-test-package",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/pkg_resources/tests/data/my-test-package_unpacked-egg/my_test_package-1.0-py3.7.egg/EGG-INFO/PKG-INFO",
+        "/lib/python3.11/site-packages/pkg_resources/tests/data/my-test-package_unpacked-egg/my_test_package-1.0-py3.7.egg/EGG-INFO/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/my-test-package@1.0?package-id=d1218a652a8fa722",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "1.0"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "library",
+      "name": "packaging",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/_vendor/packaging-24.2.dist-info/METADATA",
+        "/lib/python3.11/site-packages/setuptools/_vendor/packaging-24.2.dist-info/RECORD"
+      ],
+      "original_ref": "pkg:pypi/packaging@24.2?package-id=686009a7c6e3a48b",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "24.2"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/packaging@26.3",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "packaging",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/packaging-26.3.dist-info/METADATA",
+        "/lib/python3.11/site-packages/packaging-26.3.dist-info/RECORD"
+      ],
+      "original_ref": "pkg:pypi/packaging@26.3?package-id=0afc982467c81584",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "26.3"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/pip@24.0",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "pip",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+        "/lib/python3.11/site-packages/pip-24.0.dist-info/RECORD",
+        "/lib/python3.11/site-packages/pip-24.0.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/pip@24.0?package-id=42fe48f1043b4dc1",
+      "retained_for_inference": true,
+      "role": "BOOTSTRAP",
+      "version": "24.0"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "library",
+      "name": "platformdirs",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/_vendor/platformdirs-4.2.2.dist-info/METADATA",
+        "/lib/python3.11/site-packages/setuptools/_vendor/platformdirs-4.2.2.dist-info/RECORD"
+      ],
+      "original_ref": "pkg:pypi/platformdirs@4.2.2?package-id=4b62779e59b20d35",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "4.2.2"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/pycparser@3.11",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "pycparser",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/pycparser-3.11.dist-info/METADATA",
+        "/lib/python3.11/site-packages/pycparser-3.11.dist-info/RECORD",
+        "/lib/python3.11/site-packages/pycparser-3.11.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/pycparser@3.11?package-id=10e2d7bb64076ea5",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "3.11"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/pyyaml@6.0.3",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "pyyaml",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/pyyaml-6.0.3.dist-info/METADATA",
+        "/lib/python3.11/site-packages/pyyaml-6.0.3.dist-info/RECORD",
+        "/lib/python3.11/site-packages/pyyaml-6.0.3.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/pyyaml@6.0.3?package-id=2147aa278d04d5f8",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "6.0.3"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/referencing@0.37.0",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "referencing",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/referencing-0.37.0.dist-info/METADATA",
+        "/lib/python3.11/site-packages/referencing-0.37.0.dist-info/RECORD"
+      ],
+      "original_ref": "pkg:pypi/referencing@0.37.0?package-id=8d1ca0a410358927",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "0.37.0"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/rpds-py@2026.9.1",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "rpds-py",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/METADATA",
+        "/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/RECORD"
+      ],
+      "original_ref": "pkg:pypi/rpds-py@2026.9.1?package-id=a5499f7492ea5da5",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "2026.9.1"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/setuptools@79.0.1",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "setuptools",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+        "/lib/python3.11/site-packages/setuptools-79.0.1.dist-info/RECORD",
+        "/lib/python3.11/site-packages/setuptools-79.0.1.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/setuptools@79.0.1?package-id=8f8f89fbb5224ccd",
+      "retained_for_inference": true,
+      "role": "BOOTSTRAP",
+      "version": "79.0.1"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/six@1.17.0",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "six",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/six-1.17.0.dist-info/METADATA",
+        "/lib/python3.11/site-packages/six-1.17.0.dist-info/RECORD",
+        "/lib/python3.11/site-packages/six-1.17.0.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/six@1.17.0?package-id=1ab55e1d14e468ae",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "1.17.0"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "library",
+      "name": "tomli",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info/METADATA",
+        "/lib/python3.11/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info/RECORD"
+      ],
+      "original_ref": "pkg:pypi/tomli@2.0.1?package-id=f04d63d7233a932e",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "2.0.1"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "library",
+      "name": "typeguard",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/METADATA",
+        "/lib/python3.11/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/RECORD",
+        "/lib/python3.11/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/typeguard@4.3.0?package-id=090eeb1c4c8a4108",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "4.3.0"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "library",
+      "name": "typing-extensions",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/METADATA",
+        "/lib/python3.11/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/RECORD"
+      ],
+      "original_ref": "pkg:pypi/typing-extensions@4.12.2?package-id=35e335623e007cd8",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "4.12.2"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/typing-extensions@4.16.0",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "typing-extensions",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/typing_extensions-4.16.0.dist-info/METADATA",
+        "/lib/python3.11/site-packages/typing_extensions-4.16.0.dist-info/RECORD"
+      ],
+      "original_ref": "pkg:pypi/typing-extensions@4.16.0?package-id=f58127e07d93dc11",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "4.16.0"
+    },
+    {
+      "artifact_kind": "DISTRIBUTION_CANDIDATE",
+      "canonical_identity": "pkg:pypi/werkzeug@3.1.9",
+      "classification_evidence": "Versioned PyPI PURL supplied by generator; installed-package cataloger and distribution paths",
+      "component_type": "library",
+      "name": "werkzeug",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/werkzeug-3.1.9.dist-info/METADATA",
+        "/lib/python3.11/site-packages/werkzeug-3.1.9.dist-info/RECORD"
+      ],
+      "original_ref": "pkg:pypi/werkzeug@3.1.9?package-id=57d929adb5af3d18",
+      "retained_for_inference": true,
+      "role": "UNKNOWN",
+      "version": "3.1.9"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "library",
+      "name": "wheel",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/METADATA",
+        "/lib/python3.11/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/RECORD"
+      ],
+      "original_ref": "pkg:pypi/wheel@0.45.1?package-id=ce76d6e61bd8dde0",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "0.45.1"
+    },
+    {
+      "artifact_kind": "VENDORED",
+      "canonical_identity": "",
+      "classification_evidence": "Scanner origin path is inside a vendored directory",
+      "component_type": "library",
+      "name": "zipp",
+      "origin_paths": [
+        "/lib/python3.11/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/METADATA",
+        "/lib/python3.11/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/RECORD",
+        "/lib/python3.11/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/top_level.txt"
+      ],
+      "original_ref": "pkg:pypi/zipp@3.19.2?package-id=08219ba3ee20c318",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": "3.19.2"
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/attrs-26.1.0.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "8d6e4a8c9648bb7f",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/attrs-26.1.0.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "863b6deb35601207",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/blinker-1.9.0.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "994f59866648df22",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/blinker-1.9.0.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "a93d5f758db0f5ef",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/brotlicffi-1.2.0.2.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "ee423a6e6fc5ddb7",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/brotlicffi-1.2.0.2.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "b2df457a5341ca92",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/brotlicffi-1.2.0.2.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "58e94e58ce13d671",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/cffi-2.1.1.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "e11051358a1105d0",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/cffi-2.1.1.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "f6330d3d8effd1c4",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/cffi-2.1.1.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "1417e217e7fb9386",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/click-8.5.0.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "0f0f2bbb8a58d413",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/click-8.5.0.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "67b5cb5b375b687f",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/decorator-5.3.1.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "1e9f3a36d0c85885",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/decorator-5.3.1.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "cefda351f77eaa84",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/decorator-5.3.1.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "f0f00517bcb08403",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/flasgger-0.9.7.1.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "550e932bed37e04d",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/flasgger-0.9.7.1.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "b50bc676c6a6d78f",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/flasgger-0.9.7.1.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "f684b7b76b3ec96f",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/flask-3.1.3.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "ef98724b24a66ffd",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/flask-3.1.3.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "9898e1c210dad3b6",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/greenlet-2.0.2.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "c2439b39f6260e9b",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/greenlet-2.0.2.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "f89286ed4a3d75cf",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/greenlet-2.0.2.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "6a470d6ab345b895",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/httpbin-0.10.2.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "06aa0ad1b84112d5",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/httpbin-0.10.2.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "01f8e1b6de093820",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/httpbin-0.10.2.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "5d136224c3a610ed",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/itsdangerous-2.2.0.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "736852aae837029d",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/itsdangerous-2.2.0.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "deb32c3adc4dc5e1",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/jinja2-3.1.6.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "aa63b40c17384e41",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/jinja2-3.1.6.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "e312c50ef690d986",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/jsonschema-4.26.0.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "7dc210e216835ec3",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/jsonschema-4.26.0.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "9d4b2d23094f0b16",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/jsonschema_specifications-2025.9.1.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "de7802774bd9aa49",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/jsonschema_specifications-2025.9.1.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "1faf555f05ed20bf",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/markupsafe-3.0.4.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "15a5beaefac30bd5",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/markupsafe-3.0.4.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "eb8a2c1e1388b70f",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/markupsafe-3.0.4.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "6d3068c1dad39e8b",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/mistune-3.4.0.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "3e5aafcb0cf19631",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/mistune-3.4.0.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "c231ba016eebca96",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/mistune-3.4.0.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "39f9874623fb8a71",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/packaging-26.3.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "ac21169c1c157506",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/packaging-26.3.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "c7ba64a32ba3c507",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "e4cd6f4a63288b5c",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/pip-24.0.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "c8107bd75103736e",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/pip-24.0.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "4df95acdcd2e7e8d",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/pip/_vendor/distlib/t32.exe",
+      "origin_paths": [],
+      "original_ref": "05e91d1f64f7dbf0",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/pip/_vendor/distlib/t64-arm.exe",
+      "origin_paths": [],
+      "original_ref": "747a75510fd85cfe",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/pip/_vendor/distlib/t64.exe",
+      "origin_paths": [],
+      "original_ref": "1146a050cb3b0460",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/pip/_vendor/distlib/w32.exe",
+      "origin_paths": [],
+      "original_ref": "441af514ca1e8256",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/pip/_vendor/distlib/w64-arm.exe",
+      "origin_paths": [],
+      "original_ref": "7696484562084d01",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/pip/_vendor/distlib/w64.exe",
+      "origin_paths": [],
+      "original_ref": "9e1c3418430b4943",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/pkg_resources/tests/data/my-test-package_unpacked-egg/my_test_package-1.0-py3.7.egg/EGG-INFO/PKG-INFO",
+      "origin_paths": [],
+      "original_ref": "ad22b1336400682b",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/pkg_resources/tests/data/my-test-package_unpacked-egg/my_test_package-1.0-py3.7.egg/EGG-INFO/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "6bc2a7290841a9e8",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/pycparser-3.11.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "541ecd1c45b29c4e",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/pycparser-3.11.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "0accd5f375776f5b",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/pycparser-3.11.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "723ab5a4f5f4aced",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/pyyaml-6.0.3.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "3a1e5a759e8a15f0",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/pyyaml-6.0.3.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "7e393b6840755252",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/pyyaml-6.0.3.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "4693dafc4f1aa965",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/referencing-0.37.0.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "44d79ce2913162ba",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/referencing-0.37.0.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "cde034b85466cc20",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "ca8c420302581baa",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "bdecd9a8fe890ba4",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "5749f581436e7ce8",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools-79.0.1.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "aac9f08a273b257c",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools-79.0.1.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "cffd8c2c4f171cde",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "d92c1ba2c66e807b",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "fbb83b4a4f902220",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "9924e083f335927f",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "099a9fdaa0aecdc6",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "6656cb00e7881f92",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "e1b98b67892d475f",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "26c643ec1bbb8e21",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "ffeca5bb7ab21570",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "f52b350316aadf7f",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "3644062a0d281f53",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "81e1fe57c50f3809",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "2741a8208ba56221",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "115e807469d11348",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "033bcb6ace2d7907",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "bf06d0e3a67a283d",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "8789ca39c75c86c4",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "8f8ea52e52d254ee",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "4564ea1633406919",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "8a9cfd4f16a967c3",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "6da9a7a8806596f8",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "0b1cac3ddcaddbcb",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "b6e595142038817c",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "0c6d8edccfc83c5b",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "9a85c5461dea6c91",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/more_itertools-10.3.0.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "ba08febfe1c3d291",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/more_itertools-10.3.0.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "4f73b93d36486456",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/packaging-24.2.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "2a50ca555f26308b",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/packaging-24.2.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "554b26b4a18931e5",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/platformdirs-4.2.2.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "9b684720dff05dc3",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/platformdirs-4.2.2.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "124fcac136fe97da",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "f8bc4b98782d3ae8",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "563cbec3eccf74d7",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "af25eb6240650956",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "6b3752391550096f",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "394bb73e1bb8de7f",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "afe34afc8f5a4d52",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "1029a0ad65b487b4",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "14fb718a6d6dc104",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "66c6dd5d9737197c",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "e86183192bfa317e",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "02f6540e1ff69a83",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "42be36cc8cbefe7f",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/cli-32.exe",
+      "origin_paths": [],
+      "original_ref": "3ee45fcb63a71d26",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/cli-64.exe",
+      "origin_paths": [],
+      "original_ref": "418e394f2d4aa5d5",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/cli-arm64.exe",
+      "origin_paths": [],
+      "original_ref": "bd602594faba5240",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/cli.exe",
+      "origin_paths": [],
+      "original_ref": "792b098316c8b06f",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/gui-32.exe",
+      "origin_paths": [],
+      "original_ref": "0c32544f4f2bf203",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/gui-64.exe",
+      "origin_paths": [],
+      "original_ref": "aa0f5b6fff1ed9b5",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/gui-arm64.exe",
+      "origin_paths": [],
+      "original_ref": "9806b0ffe6ad1bb9",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/setuptools/gui.exe",
+      "origin_paths": [],
+      "original_ref": "6e1672e44518d7b3",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/six-1.17.0.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "9f3cb75bb3db20ed",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/six-1.17.0.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "e5b8a51dce846ebd",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/six-1.17.0.dist-info/top_level.txt",
+      "origin_paths": [],
+      "original_ref": "9e799ba90e2df201",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/typing_extensions-4.16.0.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "584fe7158944ab6d",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/typing_extensions-4.16.0.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "701d8b4f363b0cb2",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/werkzeug-3.1.9.dist-info/METADATA",
+      "origin_paths": [],
+      "original_ref": "1ab43033434f1fb1",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    },
+    {
+      "artifact_kind": "FILE",
+      "canonical_identity": "",
+      "classification_evidence": "Raw CycloneDX component type=file",
+      "component_type": "file",
+      "name": "/scan/venv/lib/python3.11/site-packages/werkzeug-3.1.9.dist-info/RECORD",
+      "origin_paths": [],
+      "original_ref": "7195d078384fdbe7",
+      "retained_for_inference": false,
+      "role": "UNKNOWN",
+      "version": ""
+    }
+  ],
+  "counts": {
+    "ARTIFACT": 8,
+    "DISTRIBUTION_CANDIDATE": 27,
+    "FILE": 124,
+    "VENDORED": 22
+  },
+  "edges": [
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/brotlicffi@1.2.0.2",
+      "source_original_ref": "pkg:pypi/brotlicffi@1.2.0.2?package-id=7f509e8aef33e259",
+      "target": "pkg:pypi/cffi@2.1.1",
+      "target_original_ref": "pkg:pypi/cffi@2.1.1?package-id=e22cd98ab84055b3"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/cffi@2.1.1",
+      "source_original_ref": "pkg:pypi/cffi@2.1.1?package-id=e22cd98ab84055b3",
+      "target": "pkg:pypi/pycparser@3.11",
+      "target_original_ref": "pkg:pypi/pycparser@3.11?package-id=10e2d7bb64076ea5"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/flasgger@0.9.7.1",
+      "source_original_ref": "pkg:pypi/flasgger@0.9.7.1?package-id=e61a81222d3f60af",
+      "target": "pkg:pypi/flask@3.1.3",
+      "target_original_ref": "pkg:pypi/flask@3.1.3?package-id=cbb7a80b6dce867a"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/flasgger@0.9.7.1",
+      "source_original_ref": "pkg:pypi/flasgger@0.9.7.1?package-id=e61a81222d3f60af",
+      "target": "pkg:pypi/jsonschema@4.26.0",
+      "target_original_ref": "pkg:pypi/jsonschema@4.26.0?package-id=a574ff04aa45a5ce"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/flasgger@0.9.7.1",
+      "source_original_ref": "pkg:pypi/flasgger@0.9.7.1?package-id=e61a81222d3f60af",
+      "target": "pkg:pypi/mistune@3.4.0",
+      "target_original_ref": "pkg:pypi/mistune@3.4.0?package-id=2e6d977df3b7d904"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": "pkg:pypi/flasgger@0.9.7.1",
+      "source_original_ref": "pkg:pypi/flasgger@0.9.7.1?package-id=e61a81222d3f60af",
+      "target": null,
+      "target_original_ref": "pkg:pypi/packaging@24.2?package-id=686009a7c6e3a48b"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/flasgger@0.9.7.1",
+      "source_original_ref": "pkg:pypi/flasgger@0.9.7.1?package-id=e61a81222d3f60af",
+      "target": "pkg:pypi/pyyaml@6.0.3",
+      "target_original_ref": "pkg:pypi/pyyaml@6.0.3?package-id=2147aa278d04d5f8"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/flasgger@0.9.7.1",
+      "source_original_ref": "pkg:pypi/flasgger@0.9.7.1?package-id=e61a81222d3f60af",
+      "target": "pkg:pypi/six@1.17.0",
+      "target_original_ref": "pkg:pypi/six@1.17.0?package-id=1ab55e1d14e468ae"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/flask@3.1.3",
+      "source_original_ref": "pkg:pypi/flask@3.1.3?package-id=cbb7a80b6dce867a",
+      "target": "pkg:pypi/blinker@1.9.0",
+      "target_original_ref": "pkg:pypi/blinker@1.9.0?package-id=0e9a1d4163c92cab"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/flask@3.1.3",
+      "source_original_ref": "pkg:pypi/flask@3.1.3?package-id=cbb7a80b6dce867a",
+      "target": "pkg:pypi/click@8.5.0",
+      "target_original_ref": "pkg:pypi/click@8.5.0?package-id=1053eb10f5ff0b68"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": "pkg:pypi/flask@3.1.3",
+      "source_original_ref": "pkg:pypi/flask@3.1.3?package-id=cbb7a80b6dce867a",
+      "target": null,
+      "target_original_ref": "pkg:pypi/importlib-metadata@8.0.0?package-id=587e5d030197d8be"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/flask@3.1.3",
+      "source_original_ref": "pkg:pypi/flask@3.1.3?package-id=cbb7a80b6dce867a",
+      "target": "pkg:pypi/itsdangerous@2.2.0",
+      "target_original_ref": "pkg:pypi/itsdangerous@2.2.0?package-id=1b2e20a8cd0be3ca"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/flask@3.1.3",
+      "source_original_ref": "pkg:pypi/flask@3.1.3?package-id=cbb7a80b6dce867a",
+      "target": "pkg:pypi/jinja2@3.1.6",
+      "target_original_ref": "pkg:pypi/jinja2@3.1.6?package-id=635615c14ee0ad24"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/flask@3.1.3",
+      "source_original_ref": "pkg:pypi/flask@3.1.3?package-id=cbb7a80b6dce867a",
+      "target": "pkg:pypi/markupsafe@3.0.4",
+      "target_original_ref": "pkg:pypi/markupsafe@3.0.4?package-id=3143e90d7d38388b"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/flask@3.1.3",
+      "source_original_ref": "pkg:pypi/flask@3.1.3?package-id=cbb7a80b6dce867a",
+      "target": "pkg:pypi/werkzeug@3.1.9",
+      "target_original_ref": "pkg:pypi/werkzeug@3.1.9?package-id=57d929adb5af3d18"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/httpbin@0.10.2",
+      "source_original_ref": "pkg:pypi/httpbin@0.10.2?package-id=82ce8474d8d6f9ec",
+      "target": "pkg:pypi/brotlicffi@1.2.0.2",
+      "target_original_ref": "pkg:pypi/brotlicffi@1.2.0.2?package-id=7f509e8aef33e259"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/httpbin@0.10.2",
+      "source_original_ref": "pkg:pypi/httpbin@0.10.2?package-id=82ce8474d8d6f9ec",
+      "target": "pkg:pypi/decorator@5.3.1",
+      "target_original_ref": "pkg:pypi/decorator@5.3.1?package-id=52ee2ad7f919e43c"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/httpbin@0.10.2",
+      "source_original_ref": "pkg:pypi/httpbin@0.10.2?package-id=82ce8474d8d6f9ec",
+      "target": "pkg:pypi/flasgger@0.9.7.1",
+      "target_original_ref": "pkg:pypi/flasgger@0.9.7.1?package-id=e61a81222d3f60af"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/httpbin@0.10.2",
+      "source_original_ref": "pkg:pypi/httpbin@0.10.2?package-id=82ce8474d8d6f9ec",
+      "target": "pkg:pypi/flask@3.1.3",
+      "target_original_ref": "pkg:pypi/flask@3.1.3?package-id=cbb7a80b6dce867a"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/httpbin@0.10.2",
+      "source_original_ref": "pkg:pypi/httpbin@0.10.2?package-id=82ce8474d8d6f9ec",
+      "target": "pkg:pypi/greenlet@2.0.2",
+      "target_original_ref": "pkg:pypi/greenlet@2.0.2?package-id=1f239f45315f8d1d"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": "pkg:pypi/httpbin@0.10.2",
+      "source_original_ref": "pkg:pypi/httpbin@0.10.2?package-id=82ce8474d8d6f9ec",
+      "target": null,
+      "target_original_ref": "pkg:pypi/importlib-metadata@8.0.0?package-id=587e5d030197d8be"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/httpbin@0.10.2",
+      "source_original_ref": "pkg:pypi/httpbin@0.10.2?package-id=82ce8474d8d6f9ec",
+      "target": "pkg:pypi/six@1.17.0",
+      "target_original_ref": "pkg:pypi/six@1.17.0?package-id=1ab55e1d14e468ae"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/httpbin@0.10.2",
+      "source_original_ref": "pkg:pypi/httpbin@0.10.2?package-id=82ce8474d8d6f9ec",
+      "target": "pkg:pypi/werkzeug@3.1.9",
+      "target_original_ref": "pkg:pypi/werkzeug@3.1.9?package-id=57d929adb5af3d18"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/importlib-metadata@8.0.0?package-id=587e5d030197d8be",
+      "target": null,
+      "target_original_ref": "pkg:pypi/packaging@24.2?package-id=686009a7c6e3a48b"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/importlib-metadata@8.0.0?package-id=587e5d030197d8be",
+      "target": null,
+      "target_original_ref": "pkg:pypi/typing-extensions@4.12.2?package-id=35e335623e007cd8"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/importlib-metadata@8.0.0?package-id=587e5d030197d8be",
+      "target": null,
+      "target_original_ref": "pkg:pypi/zipp@3.19.2?package-id=08219ba3ee20c318"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/inflect@7.3.1?package-id=051eccf3da38b7a8",
+      "target": null,
+      "target_original_ref": "pkg:pypi/more-itertools@10.3.0?package-id=e36b3d93f19c667c"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/inflect@7.3.1?package-id=051eccf3da38b7a8",
+      "target": null,
+      "target_original_ref": "pkg:pypi/typeguard@4.3.0?package-id=090eeb1c4c8a4108"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/inflect@7.3.1?package-id=051eccf3da38b7a8",
+      "target": null,
+      "target_original_ref": "pkg:pypi/typing-extensions@4.12.2?package-id=35e335623e007cd8"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/jaraco-collections@5.1.0?package-id=e074243c2b7dd70d",
+      "target": null,
+      "target_original_ref": "pkg:pypi/jaraco-text@3.12.1?package-id=7c63fb5152a423fd"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/jaraco-context@5.3.0?package-id=ee2001f8be723bea",
+      "target": null,
+      "target_original_ref": "pkg:pypi/backports-tarfile@1.2.0?package-id=7bb5380f6d177676"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/jaraco-functools@4.0.1?package-id=f44a0053651c9204",
+      "target": null,
+      "target_original_ref": "pkg:pypi/more-itertools@10.3.0?package-id=e36b3d93f19c667c"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/jaraco-text@3.12.1?package-id=7c63fb5152a423fd",
+      "target": null,
+      "target_original_ref": "pkg:pypi/autocommand@2.2.2?package-id=1d5bb88bbdd45a29"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/jaraco-text@3.12.1?package-id=7c63fb5152a423fd",
+      "target": null,
+      "target_original_ref": "pkg:pypi/inflect@7.3.1?package-id=051eccf3da38b7a8"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/jaraco-text@3.12.1?package-id=7c63fb5152a423fd",
+      "target": null,
+      "target_original_ref": "pkg:pypi/jaraco-context@5.3.0?package-id=ee2001f8be723bea"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/jaraco-text@3.12.1?package-id=7c63fb5152a423fd",
+      "target": null,
+      "target_original_ref": "pkg:pypi/jaraco-functools@4.0.1?package-id=f44a0053651c9204"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/jaraco-text@3.12.1?package-id=7c63fb5152a423fd",
+      "target": null,
+      "target_original_ref": "pkg:pypi/more-itertools@10.3.0?package-id=e36b3d93f19c667c"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/jinja2@3.1.6",
+      "source_original_ref": "pkg:pypi/jinja2@3.1.6?package-id=635615c14ee0ad24",
+      "target": "pkg:pypi/markupsafe@3.0.4",
+      "target_original_ref": "pkg:pypi/markupsafe@3.0.4?package-id=3143e90d7d38388b"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/jsonschema-specifications@2025.9.1",
+      "source_original_ref": "pkg:pypi/jsonschema-specifications@2025.9.1?package-id=18d819e4b4f87cf4",
+      "target": "pkg:pypi/referencing@0.37.0",
+      "target_original_ref": "pkg:pypi/referencing@0.37.0?package-id=8d1ca0a410358927"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/jsonschema@4.26.0",
+      "source_original_ref": "pkg:pypi/jsonschema@4.26.0?package-id=a574ff04aa45a5ce",
+      "target": "pkg:pypi/attrs@26.1.0",
+      "target_original_ref": "pkg:pypi/attrs@26.1.0?package-id=2daeb040a8f0b0f3"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/jsonschema@4.26.0",
+      "source_original_ref": "pkg:pypi/jsonschema@4.26.0?package-id=a574ff04aa45a5ce",
+      "target": "pkg:pypi/jsonschema-specifications@2025.9.1",
+      "target_original_ref": "pkg:pypi/jsonschema-specifications@2025.9.1?package-id=18d819e4b4f87cf4"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/jsonschema@4.26.0",
+      "source_original_ref": "pkg:pypi/jsonschema@4.26.0?package-id=a574ff04aa45a5ce",
+      "target": "pkg:pypi/referencing@0.37.0",
+      "target_original_ref": "pkg:pypi/referencing@0.37.0?package-id=8d1ca0a410358927"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/jsonschema@4.26.0",
+      "source_original_ref": "pkg:pypi/jsonschema@4.26.0?package-id=a574ff04aa45a5ce",
+      "target": "pkg:pypi/rpds-py@2026.9.1",
+      "target_original_ref": "pkg:pypi/rpds-py@2026.9.1?package-id=a5499f7492ea5da5"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": "pkg:pypi/mistune@3.4.0",
+      "source_original_ref": "pkg:pypi/mistune@3.4.0?package-id=2e6d977df3b7d904",
+      "target": null,
+      "target_original_ref": "pkg:pypi/typing-extensions@4.12.2?package-id=35e335623e007cd8"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/referencing@0.37.0",
+      "source_original_ref": "pkg:pypi/referencing@0.37.0?package-id=8d1ca0a410358927",
+      "target": "pkg:pypi/attrs@26.1.0",
+      "target_original_ref": "pkg:pypi/attrs@26.1.0?package-id=2daeb040a8f0b0f3"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/referencing@0.37.0",
+      "source_original_ref": "pkg:pypi/referencing@0.37.0?package-id=8d1ca0a410358927",
+      "target": "pkg:pypi/rpds-py@2026.9.1",
+      "target_original_ref": "pkg:pypi/rpds-py@2026.9.1?package-id=a5499f7492ea5da5"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": "pkg:pypi/referencing@0.37.0",
+      "source_original_ref": "pkg:pypi/referencing@0.37.0?package-id=8d1ca0a410358927",
+      "target": null,
+      "target_original_ref": "pkg:pypi/typing-extensions@4.12.2?package-id=35e335623e007cd8"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": "pkg:pypi/setuptools@79.0.1",
+      "source_original_ref": "pkg:pypi/setuptools@79.0.1?package-id=8f8f89fbb5224ccd",
+      "target": null,
+      "target_original_ref": "pkg:pypi/importlib-metadata@8.0.0?package-id=587e5d030197d8be"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": "pkg:pypi/setuptools@79.0.1",
+      "source_original_ref": "pkg:pypi/setuptools@79.0.1?package-id=8f8f89fbb5224ccd",
+      "target": null,
+      "target_original_ref": "pkg:pypi/jaraco-functools@4.0.1?package-id=f44a0053651c9204"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": "pkg:pypi/setuptools@79.0.1",
+      "source_original_ref": "pkg:pypi/setuptools@79.0.1?package-id=8f8f89fbb5224ccd",
+      "target": null,
+      "target_original_ref": "pkg:pypi/jaraco-text@3.12.1?package-id=7c63fb5152a423fd"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": "pkg:pypi/setuptools@79.0.1",
+      "source_original_ref": "pkg:pypi/setuptools@79.0.1?package-id=8f8f89fbb5224ccd",
+      "target": null,
+      "target_original_ref": "pkg:pypi/more-itertools@10.3.0?package-id=e36b3d93f19c667c"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": "pkg:pypi/setuptools@79.0.1",
+      "source_original_ref": "pkg:pypi/setuptools@79.0.1?package-id=8f8f89fbb5224ccd",
+      "target": null,
+      "target_original_ref": "pkg:pypi/packaging@24.2?package-id=686009a7c6e3a48b"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/setuptools@79.0.1",
+      "source_original_ref": "pkg:pypi/setuptools@79.0.1?package-id=8f8f89fbb5224ccd",
+      "target": "pkg:pypi/pip@24.0",
+      "target_original_ref": "pkg:pypi/pip@24.0?package-id=42fe48f1043b4dc1"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": "pkg:pypi/setuptools@79.0.1",
+      "source_original_ref": "pkg:pypi/setuptools@79.0.1?package-id=8f8f89fbb5224ccd",
+      "target": null,
+      "target_original_ref": "pkg:pypi/platformdirs@4.2.2?package-id=4b62779e59b20d35"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": "pkg:pypi/setuptools@79.0.1",
+      "source_original_ref": "pkg:pypi/setuptools@79.0.1?package-id=8f8f89fbb5224ccd",
+      "target": null,
+      "target_original_ref": "pkg:pypi/tomli@2.0.1?package-id=f04d63d7233a932e"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": "pkg:pypi/setuptools@79.0.1",
+      "source_original_ref": "pkg:pypi/setuptools@79.0.1?package-id=8f8f89fbb5224ccd",
+      "target": null,
+      "target_original_ref": "pkg:pypi/wheel@0.45.1?package-id=ce76d6e61bd8dde0"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/typeguard@4.3.0?package-id=090eeb1c4c8a4108",
+      "target": null,
+      "target_original_ref": "pkg:pypi/importlib-metadata@8.0.0?package-id=587e5d030197d8be"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/typeguard@4.3.0?package-id=090eeb1c4c8a4108",
+      "target": null,
+      "target_original_ref": "pkg:pypi/packaging@24.2?package-id=686009a7c6e3a48b"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/typeguard@4.3.0?package-id=090eeb1c4c8a4108",
+      "target": null,
+      "target_original_ref": "pkg:pypi/typing-extensions@4.12.2?package-id=35e335623e007cd8"
+    },
+    {
+      "decision": "RETAINED",
+      "source": "pkg:pypi/werkzeug@3.1.9",
+      "source_original_ref": "pkg:pypi/werkzeug@3.1.9?package-id=57d929adb5af3d18",
+      "target": "pkg:pypi/markupsafe@3.0.4",
+      "target_original_ref": "pkg:pypi/markupsafe@3.0.4?package-id=3143e90d7d38388b"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/wheel@0.45.1?package-id=ce76d6e61bd8dde0",
+      "target": "pkg:pypi/setuptools@79.0.1",
+      "target_original_ref": "pkg:pypi/setuptools@79.0.1?package-id=8f8f89fbb5224ccd"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/zipp@3.19.2?package-id=08219ba3ee20c318",
+      "target": null,
+      "target_original_ref": "pkg:pypi/jaraco-functools@4.0.1?package-id=f44a0053651c9204"
+    },
+    {
+      "decision": "INVENTORY_OR_UNRESOLVED_REFERENCE",
+      "source": null,
+      "source_original_ref": "pkg:pypi/zipp@3.19.2?package-id=08219ba3ee20c318",
+      "target": null,
+      "target_original_ref": "pkg:pypi/more-itertools@10.3.0?package-id=e36b3d93f19c667c"
+    }
+  ],
+  "root_status": "OBSERVED_DECLARED_ROOT",
+  "schema_version": "scope-audit-v1"
+}

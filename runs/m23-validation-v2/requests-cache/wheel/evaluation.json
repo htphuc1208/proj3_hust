@@ -1,0 +1,1360 @@
+{
+  "B0": {
+    "additions": {
+      "f1": 0.0,
+      "fn": 1,
+      "fp": 0,
+      "precision": null,
+      "recall": 0.0,
+      "tp": 0
+    },
+    "edge_audit": [
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/cattrs@26.2.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/platformdirs@4.13.5"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/requests@2.34.2"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/url-normalize@3.0.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/urllib3@2.8.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/certifi@2026.10.19"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/charset-normalizer@3.5.2"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/idna@3.20"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/urllib3@2.8.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/pip@24.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/platformdirs@4.13.5"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/url-normalize@3.0.1",
+        "target": "pkg:pypi/idna@3.20"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/cattrs@26.2.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/platformdirs@4.13.5"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/requests@2.34.2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/url-normalize@3.0.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/urllib3@2.8.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/certifi@2026.10.19"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/charset-normalizer@3.5.2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/idna@3.20"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/urllib3@2.8.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/pip@24.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/platformdirs@4.13.5"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/url-normalize@3.0.1",
+        "target": "pkg:pypi/idna@3.20"
+      }
+    ],
+    "excluded_or_unknown_edges": 4,
+    "false_positive_edges": [],
+    "missed_edges": [
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ]
+    ],
+    "recovered_edges": [],
+    "reference_edges": 13,
+    "reference_nodes": 11,
+    "unresolved_reference_requirements": [],
+    "whole_graph": {
+      "f1": 0.96,
+      "fn": 1,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 0.9230769230769231,
+      "tp": 12
+    }
+  },
+  "B1": {
+    "additions": {
+      "f1": 0.0392156862745098,
+      "fn": 0,
+      "fp": 49,
+      "precision": 0.02,
+      "recall": 1.0,
+      "tp": 1
+    },
+    "edge_audit": [
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/cattrs@26.2.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/platformdirs@4.13.5"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/requests@2.34.2"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/url-normalize@3.0.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/urllib3@2.8.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/certifi@2026.10.19"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/charset-normalizer@3.5.2"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/idna@3.20"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/urllib3@2.8.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/pip@24.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/platformdirs@4.13.5"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/url-normalize@3.0.1",
+        "target": "pkg:pypi/idna@3.20"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/cbor2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/exceptiongroup"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/msgpack"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/msgspec"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/orjson"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/pymongo"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/pyyaml"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/tomli"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/tomli-w"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/tomlkit"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/typing-extensions@4.16.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/ujson"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/idna@3.20",
+        "target": "pkg:pypi/coverage"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/idna@3.20",
+        "target": "pkg:pypi/hypothesis"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/idna@3.20",
+        "target": "pkg:pypi/mypy"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/idna@3.20",
+        "target": "pkg:pypi/pytest"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/idna@3.20",
+        "target": "pkg:pypi/ruff"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/idna@3.20",
+        "target": "pkg:pypi/ty"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/boto3"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/botocore"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/bson"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/cattrs@26.2.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/furo"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/itsdangerous"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/linkify-it-py"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/myst-parser"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/platformdirs@4.13.5"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/pymongo"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/pyyaml"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/redis"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/requests@2.34.2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/sphinx"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/sphinx-autodoc-typehints"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/sphinx-automodapi"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/sphinx-copybutton"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/sphinx-design"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/sphinx-notfound-page"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/sphinxcontrib-apidoc"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/sphinxext-opengraph"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/ujson"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/url-normalize@3.0.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/urllib3@2.8.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/certifi@2026.10.19"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/chardet"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/charset-normalizer@3.5.2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/idna@3.20"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/pysocks"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/urllib3@2.8.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/pip@24.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/platformdirs@4.13.5"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/url-normalize@3.0.1",
+        "target": "pkg:pypi/idna@3.20"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/url-normalize@3.0.1",
+        "target": "pkg:pypi/mypy"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/url-normalize@3.0.1",
+        "target": "pkg:pypi/pre-commit"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/url-normalize@3.0.1",
+        "target": "pkg:pypi/pytest"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/url-normalize@3.0.1",
+        "target": "pkg:pypi/pytest-cov"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/url-normalize@3.0.1",
+        "target": "pkg:pypi/pytest-socket"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/url-normalize@3.0.1",
+        "target": "pkg:pypi/ruff"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/urllib3@2.8.0",
+        "target": "pkg:pypi/backports-zstd"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/urllib3@2.8.0",
+        "target": "pkg:pypi/brotli"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/urllib3@2.8.0",
+        "target": "pkg:pypi/brotlicffi"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/urllib3@2.8.0",
+        "target": "pkg:pypi/h2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/urllib3@2.8.0",
+        "target": "pkg:pypi/pysocks"
+      }
+    ],
+    "excluded_or_unknown_edges": 4,
+    "false_positive_edges": [
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/cbor2"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/exceptiongroup"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/msgpack"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/msgspec"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/orjson"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/pymongo"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/pyyaml"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/tomli"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/tomli-w"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/tomlkit"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/ujson"
+      ],
+      [
+        "pkg:pypi/idna@3.20",
+        "pkg:pypi/coverage"
+      ],
+      [
+        "pkg:pypi/idna@3.20",
+        "pkg:pypi/hypothesis"
+      ],
+      [
+        "pkg:pypi/idna@3.20",
+        "pkg:pypi/mypy"
+      ],
+      [
+        "pkg:pypi/idna@3.20",
+        "pkg:pypi/pytest"
+      ],
+      [
+        "pkg:pypi/idna@3.20",
+        "pkg:pypi/ruff"
+      ],
+      [
+        "pkg:pypi/idna@3.20",
+        "pkg:pypi/ty"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/boto3"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/botocore"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/bson"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/furo"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/itsdangerous"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/linkify-it-py"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/myst-parser"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/pymongo"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/pyyaml"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/redis"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/sphinx"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/sphinx-autodoc-typehints"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/sphinx-automodapi"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/sphinx-copybutton"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/sphinx-design"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/sphinx-notfound-page"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/sphinxcontrib-apidoc"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/sphinxext-opengraph"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/ujson"
+      ],
+      [
+        "pkg:pypi/requests@2.34.2",
+        "pkg:pypi/chardet"
+      ],
+      [
+        "pkg:pypi/requests@2.34.2",
+        "pkg:pypi/pysocks"
+      ],
+      [
+        "pkg:pypi/url-normalize@3.0.1",
+        "pkg:pypi/mypy"
+      ],
+      [
+        "pkg:pypi/url-normalize@3.0.1",
+        "pkg:pypi/pre-commit"
+      ],
+      [
+        "pkg:pypi/url-normalize@3.0.1",
+        "pkg:pypi/pytest"
+      ],
+      [
+        "pkg:pypi/url-normalize@3.0.1",
+        "pkg:pypi/pytest-cov"
+      ],
+      [
+        "pkg:pypi/url-normalize@3.0.1",
+        "pkg:pypi/pytest-socket"
+      ],
+      [
+        "pkg:pypi/url-normalize@3.0.1",
+        "pkg:pypi/ruff"
+      ],
+      [
+        "pkg:pypi/urllib3@2.8.0",
+        "pkg:pypi/backports-zstd"
+      ],
+      [
+        "pkg:pypi/urllib3@2.8.0",
+        "pkg:pypi/brotli"
+      ],
+      [
+        "pkg:pypi/urllib3@2.8.0",
+        "pkg:pypi/brotlicffi"
+      ],
+      [
+        "pkg:pypi/urllib3@2.8.0",
+        "pkg:pypi/h2"
+      ],
+      [
+        "pkg:pypi/urllib3@2.8.0",
+        "pkg:pypi/pysocks"
+      ]
+    ],
+    "missed_edges": [],
+    "recovered_edges": [
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ]
+    ],
+    "reference_edges": 13,
+    "reference_nodes": 11,
+    "unresolved_reference_requirements": [],
+    "whole_graph": {
+      "f1": 0.3466666666666667,
+      "fn": 0,
+      "fp": 49,
+      "precision": 0.20967741935483872,
+      "recall": 1.0,
+      "tp": 13
+    }
+  },
+  "B2": {
+    "additions": {
+      "f1": 0.25,
+      "fn": 0,
+      "fp": 6,
+      "precision": 0.14285714285714285,
+      "recall": 1.0,
+      "tp": 1
+    },
+    "edge_audit": [
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/cattrs@26.2.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/platformdirs@4.13.5"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/requests@2.34.2"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/url-normalize@3.0.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/urllib3@2.8.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/certifi@2026.10.19"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/charset-normalizer@3.5.2"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/idna@3.20"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/urllib3@2.8.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/pip@24.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/platformdirs@4.13.5"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/url-normalize@3.0.1",
+        "target": "pkg:pypi/idna@3.20"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/exceptiongroup"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/typing-extensions@4.16.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/cattrs@26.2.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/itsdangerous"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/platformdirs@4.13.5"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/pymongo"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/redis"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/requests@2.34.2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/url-normalize@3.0.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/urllib3@2.8.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/certifi@2026.10.19"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/charset-normalizer@3.5.2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/idna@3.20"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/pysocks"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/urllib3@2.8.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/url-normalize@3.0.1",
+        "target": "pkg:pypi/idna@3.20"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_FP",
+        "source": "pkg:pypi/urllib3@2.8.0",
+        "target": "pkg:pypi/pysocks"
+      }
+    ],
+    "excluded_or_unknown_edges": 2,
+    "false_positive_edges": [
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/exceptiongroup"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/itsdangerous"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/pymongo"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/redis"
+      ],
+      [
+        "pkg:pypi/requests@2.34.2",
+        "pkg:pypi/pysocks"
+      ],
+      [
+        "pkg:pypi/urllib3@2.8.0",
+        "pkg:pypi/pysocks"
+      ]
+    ],
+    "missed_edges": [],
+    "recovered_edges": [
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ]
+    ],
+    "reference_edges": 13,
+    "reference_nodes": 11,
+    "unresolved_reference_requirements": [],
+    "whole_graph": {
+      "f1": 0.8125,
+      "fn": 0,
+      "fp": 6,
+      "precision": 0.6842105263157895,
+      "recall": 1.0,
+      "tp": 13
+    }
+  },
+  "B3": {
+    "additions": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 1
+    },
+    "edge_audit": [
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/cattrs@26.2.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/platformdirs@4.13.5"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/requests@2.34.2"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/url-normalize@3.0.1"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/urllib3@2.8.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/certifi@2026.10.19"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/charset-normalizer@3.5.2"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/idna@3.20"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/urllib3@2.8.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/pip@24.0"
+      },
+      {
+        "arm": "observed",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/platformdirs@4.13.5"
+      },
+      {
+        "arm": "observed",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/url-normalize@3.0.1",
+        "target": "pkg:pypi/idna@3.20"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/cattrs@26.2.1",
+        "target": "pkg:pypi/typing-extensions@4.16.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/attrs@26.1.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/cattrs@26.2.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/platformdirs@4.13.5"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/requests@2.34.2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/url-normalize@3.0.1"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests-cache@1.1.1",
+        "target": "pkg:pypi/urllib3@2.8.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/certifi@2026.10.19"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/charset-normalizer@3.5.2"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/idna@3.20"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/requests@2.34.2",
+        "target": "pkg:pypi/urllib3@2.8.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/pip@24.0"
+      },
+      {
+        "arm": "predicted",
+        "decision": "EXCLUDED_BOOTSTRAP_SOURCE",
+        "source": "pkg:pypi/setuptools@79.0.1",
+        "target": "pkg:pypi/platformdirs@4.13.5"
+      },
+      {
+        "arm": "predicted",
+        "decision": "SCORED_TP",
+        "source": "pkg:pypi/url-normalize@3.0.1",
+        "target": "pkg:pypi/idna@3.20"
+      }
+    ],
+    "excluded_or_unknown_edges": 4,
+    "false_positive_edges": [],
+    "missed_edges": [],
+    "recovered_edges": [
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ]
+    ],
+    "reference_edges": 13,
+    "reference_nodes": 11,
+    "unresolved_reference_requirements": [],
+    "whole_graph": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 13
+    }
+  }
+}

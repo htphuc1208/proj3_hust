@@ -1,0 +1,73 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/cffi@2.1.1",
+      "name": "cffi",
+      "purl": "pkg:pypi/cffi@2.1.1",
+      "type": "library",
+      "version": "2.1.1"
+    },
+    {
+      "bom-ref": "pkg:pypi/cryptography@41.0.5",
+      "name": "cryptography",
+      "purl": "pkg:pypi/cryptography@41.0.5",
+      "type": "library",
+      "version": "41.0.5"
+    },
+    {
+      "bom-ref": "pkg:pypi/pycparser@3.11",
+      "name": "pycparser",
+      "purl": "pkg:pypi/pycparser@3.11",
+      "type": "library",
+      "version": "3.11"
+    },
+    {
+      "bom-ref": "pkg:pypi/pyopenssl@23.2.0",
+      "name": "pyopenssl",
+      "purl": "pkg:pypi/pyopenssl@23.2.0",
+      "type": "library",
+      "version": "23.2.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [
+        "pkg:pypi/pyopenssl@23.2.0"
+      ],
+      "ref": "urn:sbom-benchmark:project:pyopenssl-security"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/pycparser@3.11"
+      ],
+      "ref": "pkg:pypi/cffi@2.1.1"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/cffi@2.1.1"
+      ],
+      "ref": "pkg:pypi/cryptography@41.0.5"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/pycparser@3.11"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/cryptography@41.0.5"
+      ],
+      "ref": "pkg:pypi/pyopenssl@23.2.0"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "urn:sbom-benchmark:project:pyopenssl-security",
+      "name": "pyopenssl-security",
+      "type": "application",
+      "version": "0"
+    }
+  },
+  "specVersion": "1.5",
+  "version": 1
+}

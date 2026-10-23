@@ -1,0 +1,166 @@
+{
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "pip",
+        "download",
+        "--only-binary=:all:",
+        "--dest",
+        "/out/wheelhouse",
+        "requests==2.31.0"
+      ],
+      "completed_at": "2026-10-22T21:13:55.958848+00:00",
+      "exit_code": 0,
+      "latency_seconds": 2.553840892000153,
+      "name": "download",
+      "started_at": "2026-10-22T21:13:53.405003+00:00"
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "pip",
+        "install",
+        "--dry-run",
+        "--ignore-installed",
+        "--no-index",
+        "--find-links",
+        "/out/wheelhouse",
+        "--report",
+        "/out/b4_resolution.json",
+        "requests==2.31.0"
+      ],
+      "completed_at": "2026-10-22T21:13:56.283666+00:00",
+      "exit_code": 0,
+      "latency_seconds": 0.3236839159999363,
+      "name": "b4_dry_run",
+      "started_at": "2026-10-22T21:13:55.959984+00:00"
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "venv",
+        "/tmp/target"
+      ],
+      "completed_at": "2026-10-22T21:13:59.029575+00:00",
+      "exit_code": 0,
+      "latency_seconds": 2.745776664999994,
+      "name": "venv",
+      "started_at": "2026-10-22T21:13:56.283809+00:00"
+    },
+    {
+      "command": [
+        "/tmp/target/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--no-index",
+        "--find-links",
+        "/out/wheelhouse",
+        "--report",
+        "/out/pip_install_report.json",
+        "requests==2.31.0"
+      ],
+      "completed_at": "2026-10-22T21:13:59.581359+00:00",
+      "exit_code": 0,
+      "latency_seconds": 0.5515542870002719,
+      "name": "install",
+      "started_at": "2026-10-22T21:13:59.029811+00:00"
+    },
+    {
+      "command": [
+        "/tmp/target/bin/python",
+        "-m",
+        "pip",
+        "inspect",
+        "--local"
+      ],
+      "completed_at": "2026-10-22T21:13:59.886398+00:00",
+      "exit_code": 0,
+      "latency_seconds": 0.3048748760002127,
+      "name": "inspect",
+      "started_at": "2026-10-22T21:13:59.581530+00:00"
+    },
+    {
+      "command": [
+        "/tmp/target/bin/python",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "completed_at": "2026-10-22T21:14:00.199512+00:00",
+      "exit_code": 0,
+      "latency_seconds": 0.31215747100031876,
+      "name": "pip_check",
+      "started_at": "2026-10-22T21:13:59.887359+00:00"
+    },
+    {
+      "command": [
+        "cyclonedx-py",
+        "environment",
+        "/tmp/target/bin/python",
+        "--output-format",
+        "JSON",
+        "--output-file",
+        "/out/original.cdx.json"
+      ],
+      "completed_at": "2026-10-22T21:14:02.278596+00:00",
+      "exit_code": 0,
+      "latency_seconds": 2.0770515269996395,
+      "name": "cyclonedx_scan",
+      "started_at": "2026-10-22T21:14:00.201548+00:00"
+    }
+  ],
+  "container_command": [
+    "docker",
+    "run",
+    "--rm",
+    "--cap-drop=ALL",
+    "--security-opt",
+    "no-new-privileges",
+    "--memory=2g",
+    "--cpus=2",
+    "--pids-limit=128",
+    "--user",
+    "1000:1000",
+    "-v",
+    "/home/phucht/project/sbom_security_poc/research/.work/m23-information-ablation-v2/capture_code:/code:ro",
+    "-v",
+    "/home/phucht/project/sbom_security_poc/research/.work/m23-information-ablation-v2/base:/out:rw",
+    "--entrypoint",
+    "python",
+    "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+    "/code/capture_environment.py",
+    "--out",
+    "/out",
+    "--spec",
+    "requests==2.31.0"
+  ],
+  "container_completed_at": "2026-10-22T21:14:02.498805Z",
+  "container_started_at": "2026-10-22T21:13:53.125043Z",
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.11.16",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_python_implementation": "CPython",
+    "platform_release": "7.0.0-30-generic",
+    "platform_system": "Linux",
+    "platform_version": "#30~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:27:52 UTC 2",
+    "python_full_version": "3.11.16",
+    "python_version": "3.11",
+    "sys_platform": "linux"
+  },
+  "image": "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+  "information_budget": "B4 sees manifest roots plus a frozen finite public artifact set",
+  "oracle_source": "Independent installed METADATA / pip inspect, not B4 report",
+  "schema_version": "capture-manifest-v1",
+  "specifications": [
+    "requests==2.31.0"
+  ],
+  "status": "COMPLETE",
+  "wheelhouse_sha256": "a3b278a751209c584ee5de4ab8056e02d5f62b3e544c5e26533b305a48839ae3"
+}

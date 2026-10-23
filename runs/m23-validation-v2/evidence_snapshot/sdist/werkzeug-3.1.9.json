@@ -1,0 +1,31 @@
+{
+  "artifact_level_metadata": {
+    "wheel_bytes_verified": true,
+    "wheel_local_sha256": "6392e50c78460ba618e5b21f08a71f59c99ce99cdc6cf6e3dd7e6ccca8754fab",
+    "wheel_metadata_file": "werkzeug-3.1.9.dist-info/METADATA",
+    "wheel_metadata_sha256": "9f04352e946ecb0883fbf379994c1cacf6720a124acdd7fd59029a889f4eebba"
+  },
+  "distribution_type": "wheel",
+  "name": "werkzeug",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T07:05:44.492586+00:00",
+    "provenance_chain": "PyPI index -> Distribution artifact -> Verified SHA-256 -> Extracted METADATA -> Frozen evidence record",
+    "source_pypi_json_url": "https://pypi.org/pypi/werkzeug/3.1.9/json",
+    "verification_status": "VERIFIED_ARTIFACT_DIGEST_AND_METADATA",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/a1/38/df03f564f43cec2684823f3cccae1a652ee7face1cbaa76fb223096e64d7/werkzeug-3.1.9-py3-none-any.whl",
+    "wheel_filename": "werkzeug-3.1.9-py3-none-any.whl",
+    "wheel_sha256": "6392e50c78460ba618e5b21f08a71f59c99ce99cdc6cf6e3dd7e6ccca8754fab",
+    "wheel_upload_time_utc": "2026-09-27T18:33:39.685530Z"
+  },
+  "release_requires_dist": [
+    "markupsafe>=2.1.1",
+    "watchdog>=2.3; extra == \"watchdog\""
+  ],
+  "requires_dist": [
+    "markupsafe>=2.1.1",
+    "watchdog>=2.3 ; extra == \"watchdog\""
+  ],
+  "requires_python": ">=3.9",
+  "version": "3.1.9"
+}

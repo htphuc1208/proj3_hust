@@ -1,0 +1,25 @@
+Collecting requests==2.31.0 (from requests[socks]==2.31.0)
+  Downloading requests-2.31.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting charset-normalizer<4,>=2 (from requests==2.31.0->requests[socks]==2.31.0)
+  Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+Collecting idna<4,>=2.5 (from requests==2.31.0->requests[socks]==2.31.0)
+  Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Collecting urllib3<3,>=1.21.1 (from requests==2.31.0->requests[socks]==2.31.0)
+  Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting certifi>=2017.4.17 (from requests==2.31.0->requests[socks]==2.31.0)
+  Downloading certifi-2026.10.19-py3-none-any.whl.metadata (2.5 kB)
+Collecting PySocks!=1.5.7,>=1.5.6 (from requests[socks]==2.31.0)
+  Downloading PySocks-1.7.1-py3-none-any.whl.metadata (13 kB)
+Downloading requests-2.31.0-py3-none-any.whl (62 kB)
+Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (269 kB)
+Downloading idna-3.20-py3-none-any.whl (69 kB)
+Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+Downloading certifi-2026.10.19-py3-none-any.whl (136 kB)
+Downloading PySocks-1.7.1-py3-none-any.whl (16 kB)
+Saved /out/wheelhouse/requests-2.31.0-py3-none-any.whl
+Saved /out/wheelhouse/charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+Saved /out/wheelhouse/idna-3.20-py3-none-any.whl
+Saved /out/wheelhouse/urllib3-2.8.0-py3-none-any.whl
+Saved /out/wheelhouse/certifi-2026.10.19-py3-none-any.whl
+Saved /out/wheelhouse/PySocks-1.7.1-py3-none-any.whl
+Successfully downloaded requests charset-normalizer idna urllib3 certifi PySocks

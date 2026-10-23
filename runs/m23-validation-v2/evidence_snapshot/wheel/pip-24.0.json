@@ -1,0 +1,31 @@
+{
+  "attempts": [
+    {
+      "method": "public-wheel",
+      "status": "COMPLETE"
+    }
+  ],
+  "distribution_type": "bdist_wheel",
+  "dynamic_fields": [],
+  "extraction_method": "public-wheel",
+  "metadata_sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+  "metadata_status": "COMPLETE",
+  "metadata_version": "2.1",
+  "name": "pip",
+  "provenance": {
+    "artifact_filename": "pip-24.0-py3-none-any.whl",
+    "artifact_sha256": "ba0d021a166865d2265246961bec0152ff124de910c5cc39f1156ce3fa7c69dc",
+    "artifact_url": "https://files.pythonhosted.org/packages/8a/6a/19e9fe04fca059ccf770861c7d5721ab4c2aebc539889e97c7977528a53b/pip-24.0-py3-none-any.whl",
+    "cutoff": "2026-10-22T04:09:45.004707+00:00",
+    "cutoff_status": "INSTALLATION_TIME_UNKNOWN; conservative minimum observed SBOM horizon",
+    "fetched_at": "2026-10-22T21:07:10.558365Z",
+    "index_sha256": "5d1baeb9419aa6575607671fe386e91bdc095404726a8ff365c4df4ba6f8093e",
+    "rejections": [],
+    "source_pypi_json_url": "https://pypi.org/pypi/pip/24.0/json",
+    "uploaded_at": "2024-02-03T09:53:09.575683Z"
+  },
+  "provides_extra": [],
+  "requires_dist": [],
+  "requires_python": ">=3.7",
+  "version": "24.0"
+}

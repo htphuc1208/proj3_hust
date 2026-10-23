@@ -1,0 +1,8 @@
+Defaulting to user installation because normal site-packages is not writeable
+Looking in links: /out/wheelhouse
+Processing /out/wheelhouse/requests-2.31.0-py3-none-any.whl
+Processing /out/wheelhouse/charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from requests==2.31.0)
+Processing /out/wheelhouse/idna-3.20-py3-none-any.whl (from requests==2.31.0)
+Processing /out/wheelhouse/urllib3-2.8.0-py3-none-any.whl (from requests==2.31.0)
+Processing /out/wheelhouse/certifi-2026.10.19-py3-none-any.whl (from requests==2.31.0)
+Would install certifi-2026.10.19 charset-normalizer-3.5.2 idna-3.20 requests-2.31.0 urllib3-2.8.0

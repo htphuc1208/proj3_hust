@@ -1,0 +1,83 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "276b1046-54dd-4171-882f-3b1d98b49747",
+      "name": "requirements.txt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pip"
+        }
+      ],
+      "type": "application"
+    },
+    {
+      "bom-ref": "pkg:pypi/requests@2.31.0",
+      "name": "requests",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ],
+      "purl": "pkg:pypi/requests@2.31.0",
+      "type": "library",
+      "version": "2.31.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [
+        "pkg:pypi/requests@2.31.0"
+      ],
+      "ref": "276b1046-54dd-4171-882f-3b1d98b49747"
+    },
+    {
+      "dependsOn": [
+        "276b1046-54dd-4171-882f-3b1d98b49747"
+      ],
+      "ref": "2a1da6f8-0862-4d98-a080-0705e1959d36"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/requests@2.31.0"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "2a1da6f8-0862-4d98-a080-0705e1959d36",
+      "name": "/home/phucht/project/sbom_security_poc/research/.work/m23-dsn-b4-v2/positive-control",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ],
+      "type": "application"
+    },
+    "timestamp": "2026-10-22T21:22:20+00:00",
+    "tools": {
+      "components": [
+        {
+          "group": "aquasecurity",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "name": "trivy",
+          "type": "application",
+          "version": "0.76.1"
+        }
+      ]
+    }
+  },
+  "serialNumber": "urn:uuid:d27aa471-27f3-4203-9fcd-3d2015759c2b",
+  "specVersion": "1.7",
+  "version": 1,
+  "vulnerabilities": []
+}

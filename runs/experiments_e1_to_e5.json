@@ -1,0 +1,483 @@
+{
+  "baseline_fair_evaluation_summary": {
+    "baselines": {
+      "B0_Observed_Only": {
+        "f1": 0.0,
+        "fn": 4,
+        "fp": 0,
+        "known_inputs": "Observed SBOM only",
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "B1_Context_Free": {
+        "f1": 0.8,
+        "fn": 0,
+        "fp": 2,
+        "known_inputs": "Observed SBOM + Requires-Dist (ignoring markers & extras)",
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "tp": 4
+      },
+      "B2_Maximal_Supergraph": {
+        "f1": 0.8888888888888888,
+        "fn": 0,
+        "fp": 1,
+        "known_inputs": "Observed SBOM + Requires-Dist (union over all plausible envs & extras)",
+        "precision": 0.8,
+        "recall": 1.0,
+        "tp": 4
+      },
+      "B3_Context_Aware_Known_Context": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "known_inputs": "Observed SBOM + Requires-Dist + Target Environment (markers evaluated, requested extras gated)",
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 4
+      }
+    },
+    "benchmark_dataset": "requests==2.31.0 on Python 3.11 Linux x86_64",
+    "evidence_source": "Public PyPI JSON API Snapshot (Verified Wheel SHA-256)"
+  },
+  "experiment_e1_optional_extras": {
+    "description": "Compares installation without extras vs with extras, demonstrating B1 False Positives vs B3 accuracy",
+    "ground_truth_plain_edges": 4,
+    "ground_truth_socks_edges": 5,
+    "regime_u_uncertainty": {
+      "abstention_rate": 0.0,
+      "details": {
+        "falsely_certain_edges": []
+      },
+      "false_certainty_rate": 0.0,
+      "invariants_verified": {
+        "must_intersect_may_only_empty": true,
+        "must_subset_possible": true
+      },
+      "must_precision": 1.0,
+      "possible_recall": 1.0,
+      "predicted_may_only_count": 0,
+      "predicted_must_count": 4,
+      "predicted_possible_count": 4,
+      "regime": "Regime_U_Partial_or_Missing_Context",
+      "target_coverage": 1.0,
+      "unknown_count": 0
+    },
+    "target_with_extras": {
+      "baseline_b3_known_context": {
+        "actually_missing_total": 5,
+        "f1": 1.0,
+        "false_positive_edges": [],
+        "fn": 0,
+        "fp": 0,
+        "ground_truth_total": 5,
+        "missed_edges": [],
+        "newly_proposed_total": 5,
+        "observed_total": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "recovered_edges": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/pysocks@1.7.1"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "tp": 5
+      }
+    },
+    "target_without_extras": {
+      "baseline_b0_observed_only": {
+        "actually_missing_total": 4,
+        "f1": 0.0,
+        "false_positive_edges": [],
+        "fn": 4,
+        "fp": 0,
+        "ground_truth_total": 4,
+        "missed_edges": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "newly_proposed_total": 0,
+        "observed_total": 0,
+        "precision": null,
+        "recall": 0.0,
+        "recovered_edges": [],
+        "tp": 0
+      },
+      "baseline_b1_context_free": {
+        "actually_missing_total": 4,
+        "f1": 0.8,
+        "false_positive_edges": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/chardet"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/pysocks"
+          ]
+        ],
+        "fn": 0,
+        "fp": 2,
+        "ground_truth_total": 4,
+        "missed_edges": [],
+        "newly_proposed_total": 6,
+        "observed_total": 0,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "recovered_edges": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "tp": 4
+      },
+      "baseline_b2_maximal_supergraph": {
+        "actually_missing_total": 4,
+        "f1": 0.8888888888888888,
+        "false_positive_edges": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/pysocks"
+          ]
+        ],
+        "fn": 0,
+        "fp": 1,
+        "ground_truth_total": 4,
+        "missed_edges": [],
+        "newly_proposed_total": 5,
+        "observed_total": 0,
+        "precision": 0.8,
+        "recall": 1.0,
+        "recovered_edges": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "tp": 4
+      },
+      "baseline_b3_known_context": {
+        "actually_missing_total": 4,
+        "f1": 1.0,
+        "false_positive_edges": [],
+        "fn": 0,
+        "fp": 0,
+        "ground_truth_total": 4,
+        "missed_edges": [],
+        "newly_proposed_total": 4,
+        "observed_total": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "recovered_edges": [
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/certifi@2026.10.19"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/charset-normalizer@3.5.2"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/idna@3.20"
+          ],
+          [
+            "pkg:pypi/requests@2.31.0",
+            "pkg:pypi/urllib3@2.8.0"
+          ]
+        ],
+        "tp": 4
+      }
+    }
+  },
+  "experiment_e2_ambiguous_identity": {
+    "case_c0_missing_component": {
+      "cardinality": 0,
+      "missing_node_hypotheses_count": 1,
+      "sample_hypothesis": {
+        "evidence_source": "frozen-public-registry-snapshot",
+        "provenance_detail": "Required by pkg:pypi/requests@2.31.0 with marker '', constraint='<3,>=1.21.1'",
+        "purl": "pkg:pypi/urllib3",
+        "status": "INFERRED"
+      },
+      "status": "PASS_UNPINNED_HYPOTHESIS"
+    },
+    "case_c1_unique_bind": {
+      "cardinality": 1,
+      "sample_bound": {
+        "candidate_refs": [],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "MUST",
+        "provenance_detail": "PEP508 condition: unconditional",
+        "source_purl": "pkg:pypi/requests@2.31.0",
+        "status": "CONTRADICTED_DECLARATION",
+        "target_purl": "pkg:pypi/charset-normalizer@3.5.2",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      "status": "PASS_UNIQUE_BIND",
+      "unique_bind_count": 4
+    },
+    "case_c_multi_ambiguous": {
+      "ambiguous_match_count": 1,
+      "cardinality": ">1",
+      "epistemic_abstention": true,
+      "sample_ambiguous": {
+        "candidate_refs": [
+          "pkg:pypi/urllib3@2.8.0",
+          "pkg:pypi/urllib3@1.26.17"
+        ],
+        "evidence_source": "frozen-public-registry-snapshot",
+        "marker": null,
+        "modality": "UNKNOWN",
+        "provenance_detail": "Ambiguous match across 2 candidates for urllib3 with specifier '<3,>=1.21.1'",
+        "source_purl": "pkg:pypi/requests@2.31.0",
+        "status": "AMBIGUOUS_MATCH",
+        "target_purl": "pkg:pypi/urllib3",
+        "valid_environments": [
+          "linux_3.11"
+        ]
+      },
+      "status": "PASS_AMBIGUOUS_ABSTENTION"
+    },
+    "description": "Decision B cardinality rules: |C|=1 (unique bind), |C|>1 (ambiguous bind), |C|=0 (unpinned missing candidate)"
+  },
+  "experiment_e3_missing_component": {
+    "description": "Evaluation of unpinned candidate hypothesis and proof of exact-version indeterminacy",
+    "exact_version_indeterminacy": {
+      "declared_requirement_specifier": "<3,>=1.21.1",
+      "exact_version_eval_if_forced_to_guess": {
+        "f1": 0.0,
+        "failure_taxonomy": "(D) Registry Ambiguity / Version Indeterminacy under Incomplete Information",
+        "fn": 1,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "ground_truth_installed_version": "2.0.7",
+      "is_underdetermined": true,
+      "missing_package": "urllib3",
+      "public_candidates_satisfying_specifier": [
+        "1.26.17",
+        "1.26.18",
+        "2.0.7"
+      ],
+      "scientific_conclusion": "Exact installed version cannot be determined uniquely from public requirement metadata alone. Formalizes the ML contribution: evidence-guided candidate ranking and calibrated uncertainty rather than deterministic exact-version reconstruction."
+    },
+    "package_level_node_evaluation": {
+      "actually_missing_components": 1,
+      "f1": 0.0,
+      "false_positive_components": [
+        "pkg:pypi/urllib3"
+      ],
+      "fn": 1,
+      "fp": 1,
+      "ground_truth_components": 5,
+      "missed_components": [
+        "pkg:pypi/urllib3@2.8.0"
+      ],
+      "newly_proposed_components": 1,
+      "observed_components": 5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "recovered_components": [],
+      "tp": 0
+    }
+  },
+  "experiment_e4_generator_discrepancy": {
+    "anchore_syft": {
+      "command": "syft scan dir:/scan/venv -o cyclonedx-json",
+      "components_cataloged": 110,
+      "dependencies_entries": 11,
+      "direct_edges_count": 33,
+      "discrepancies": {
+        "classification": "SCOPE_MISMATCH (Artifact Inventory Scope vs Target Application Dependency Scope)",
+        "scope_analysis": {
+          "installed_app_packages": 5,
+          "scope_type": "Filesystem / Artifact Inventory Scope (includes internal vendored packages from setuptools/_vendor/*)",
+          "vendored_tooling_artifacts": 105
+        },
+        "scope_mismatch_count": 105,
+        "vendored_tooling_pollution": [
+          "/scan/venv/lib/python3-11/site-packages/certifi-2026-10-19-dist-info/metadata",
+          "/scan/venv/lib/python3-11/site-packages/certifi-2026-10-19-dist-info/record",
+          "/scan/venv/lib/python3-11/site-packages/certifi-2026-10-19-dist-info/top-level-txt",
+          "/scan/venv/lib/python3-11/site-packages/charset-normalizer-3-5-2-dist-info/metadata",
+          "/scan/venv/lib/python3-11/site-packages/charset-normalizer-3-5-2-dist-info/record",
+          "/scan/venv/lib/python3-11/site-packages/charset-normalizer-3-5-2-dist-info/top-level-txt",
+          "/scan/venv/lib/python3-11/site-packages/idna-3-20-dist-info/metadata",
+          "/scan/venv/lib/python3-11/site-packages/idna-3-20-dist-info/record",
+          "/scan/venv/lib/python3-11/site-packages/pip-24-0-dist-info/metadata",
+          "/scan/venv/lib/python3-11/site-packages/pip-24-0-dist-info/record"
+        ]
+      },
+      "version": "syft 1.54.1"
+    },
+    "cyclonedx_py": {
+      "command": "cyclonedx-py environment /out/venv/bin/python --output-format JSON",
+      "components_cataloged": 7,
+      "direct_edges": [
+        "requests->certifi",
+        "requests->charset-normalizer",
+        "requests->idna",
+        "requests->urllib3",
+        "setuptools->pip"
+      ],
+      "direct_edges_count": 5,
+      "discrepancies": {
+        "app_dependency_edges_recovered": [
+          "requests->certifi",
+          "requests->charset-normalizer",
+          "requests->idna",
+          "requests->urllib3"
+        ],
+        "representation_normalization": "Uses name==version strings as bom-ref instead of canonical PackageURL (CROSS_TOOL_IDENTITY_NORMALIZATION_REQUIRED; CycloneDX standard permits any unique string, but inter-tool joining requires PURL normalization)",
+        "tooling_packages_included": [
+          "pip",
+          "setuptools"
+        ]
+      },
+      "version": "cyclonedx-py 7.5.0"
+    },
+    "description": "Empirical comparison of raw generated SBOMs against Ground Truth Oracle on identical virtualenv",
+    "environment": "Python 3.11.16 on Linux x86_64",
+    "ground_truth_oracle": {
+      "components": {
+        "certifi": "2026.10.19",
+        "charset-normalizer": "3.5.2",
+        "idna": "3.20",
+        "requests": "2.31.0",
+        "urllib3": "2.8.0"
+      },
+      "components_count": 5,
+      "direct_edges": [
+        "requests->certifi",
+        "requests->charset-normalizer",
+        "requests->idna",
+        "requests->urllib3"
+      ],
+      "direct_edges_count": 4,
+      "generator": "benchmark.py collect (installed distribution metadata)"
+    }
+  },
+  "experiment_e5_security_reachability": {
+    "advisory": {
+      "advisory_id": "GHSA-jfhm-5ghh-2f97",
+      "affected_package": "cryptography",
+      "affected_version_range": ">=3.1,<41.0.6",
+      "cve_id": "CVE-2023-49083",
+      "installed_version": "41.0.5",
+      "is_affected": true
+    },
+    "description": "Vulnerability path reachability evaluation separated into Case S1 (Missing Edge) and Case S2 (Missing Component)",
+    "security_case_s1_missing_edge": {
+      "advisory_match_confirmed": true,
+      "affected_component_identified": true,
+      "edge_recovery_fn": 0,
+      "edge_recovery_fp": 0,
+      "edge_recovery_tp": 1,
+      "edge_removed_in_observed_graph": "pyopenssl -> cryptography",
+      "false_assurance_eliminated": true,
+      "path_to_vulnerable_component_after_reconstruction": "DEPENDENCY_PATH_ESTABLISHED",
+      "path_to_vulnerable_component_before_reconstruction": "PATH_NOT_ESTABLISHED_IN_GRAPH",
+      "reachability_level_boundary": "Level 1 (Dependency Graph Path Established). Does NOT imply Level 2 (FUNCTION_REACHABLE) or Level 3 (EXPLOITABLE)",
+      "root_package": "pkg:pypi/pyopenssl@23.2.0",
+      "scientific_note": "Recovering intermediate edge restores level-1 reachable dependency path from application root to vulnerable component.",
+      "security_triage_semantics": "DEPENDENCY_PATH_ESTABLISHED / AFFECTED_COMPONENT_IDENTIFIED / ADVISORY_MATCH_CONFIRMED",
+      "vulnerable_component": "pkg:pypi/cryptography@41.0.5"
+    },
+    "security_case_s2_missing_component": {
+      "candidate_versions_in_evidence": [
+        {
+          "affected_by_advisory": true,
+          "satisfies_constraint": true,
+          "version": "41.0.5"
+        },
+        {
+          "affected_by_advisory": false,
+          "satisfies_constraint": true,
+          "version": "41.0.6"
+        },
+        {
+          "affected_by_advisory": false,
+          "satisfies_constraint": false,
+          "version": "42.0.5"
+        }
+      ],
+      "evidence_based_abstention": true,
+      "exact_version_recovered": false,
+      "missing_candidate_hypothesis": {
+        "evidence_source": "frozen-public-registry-snapshot",
+        "provenance_detail": "Required by pkg:pypi/pyopenssl@23.2.0 with marker '', constraint='!=40.0.0,!=40.0.1,<42,>=38.0.0'",
+        "purl": "pkg:pypi/cryptography",
+        "status": "INFERRED"
+      },
+      "omitted_component": "cryptography",
+      "package_name_recovered": true,
+      "path_status": "PATH_POSSIBLE (Underdetermined exact version)",
+      "scientific_note": "System strictly maintains VERSION_UNRESOLVED / TRIAGE_UNDER_INVESTIGATION via evidence-based abstention because candidate pool spans both vulnerable (41.0.5) and patched (41.0.6) releases under GHSA-jfhm-5ghh-2f97. A release being unlisted in this advisory does not certify it as safe against all vulnerabilities.",
+      "security_triage_status": "VERSION_UNRESOLVED / TRIAGE_UNDER_INVESTIGATION",
+      "version_ambiguity_present": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "artifact_level_metadata": {
+    "wheel_bytes_verified": true,
+    "wheel_local_sha256": "e4108df7fe9b707191e55f33efbcb2d81928e10cea45527879a4749cbe472614",
+    "wheel_metadata_file": "cffi-1.16.0.dist-info/METADATA",
+    "wheel_metadata_sha256": "a8e048da2d2a4a52ce2b09b33636c97cb9ab4f31d5fc9152eee29b7058ffa7d6"
+  },
+  "distribution_type": "wheel",
+  "name": "cffi",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T07:05:44.492586+00:00",
+    "provenance_chain": "PyPI index -> Distribution artifact -> Verified SHA-256 -> Extracted METADATA -> Frozen evidence record",
+    "source_pypi_json_url": "https://pypi.org/pypi/cffi/1.16.0/json",
+    "verification_status": "VERIFIED_ARTIFACT_DIGEST_AND_METADATA",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/c9/7c/43d81bdd5a915923c3bad5bb4bff401ea00ccc8e28433fb6083d2e3bf58e/cffi-1.16.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "wheel_filename": "cffi-1.16.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "wheel_sha256": "e4108df7fe9b707191e55f33efbcb2d81928e10cea45527879a4749cbe472614",
+    "wheel_upload_time_utc": "2023-09-28T18:00:37.697262Z"
+  },
+  "release_requires_dist": [
+    "pycparser"
+  ],
+  "requires_dist": [
+    "pycparser"
+  ],
+  "requires_python": ">=3.8",
+  "version": "1.16.0"
+}

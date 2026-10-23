@@ -1,0 +1,312 @@
+{
+  "base": {
+    "component_evaluation": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 5
+    },
+    "cost": {
+      "command": [
+        "python",
+        "-m",
+        "pip",
+        "install",
+        "--dry-run",
+        "--ignore-installed",
+        "--no-index",
+        "--find-links",
+        "/out/wheelhouse",
+        "--report",
+        "/out/b4_resolution.json",
+        "requests==2.31.0"
+      ],
+      "completed_at": "2026-10-22T21:13:56.283666+00:00",
+      "exit_code": 0,
+      "latency_seconds": 0.3236839159999363,
+      "name": "b4_dry_run",
+      "started_at": "2026-10-22T21:13:55.959984+00:00"
+    },
+    "edge_evaluation": {
+      "additions": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 4
+      },
+      "edge_audit": [
+        {
+          "arm": "predicted",
+          "decision": "SCORED_TP",
+          "source": "pkg:pypi/requests@2.31.0",
+          "target": "pkg:pypi/certifi@2026.10.19"
+        },
+        {
+          "arm": "predicted",
+          "decision": "SCORED_TP",
+          "source": "pkg:pypi/requests@2.31.0",
+          "target": "pkg:pypi/charset-normalizer@3.5.2"
+        },
+        {
+          "arm": "predicted",
+          "decision": "SCORED_TP",
+          "source": "pkg:pypi/requests@2.31.0",
+          "target": "pkg:pypi/idna@3.20"
+        },
+        {
+          "arm": "predicted",
+          "decision": "SCORED_TP",
+          "source": "pkg:pypi/requests@2.31.0",
+          "target": "pkg:pypi/urllib3@2.8.0"
+        }
+      ],
+      "excluded_or_unknown_edges": 0,
+      "false_positive_edges": [],
+      "missed_edges": [],
+      "recovered_edges": [
+        [
+          "pkg:pypi/requests@2.31.0",
+          "pkg:pypi/certifi@2026.10.19"
+        ],
+        [
+          "pkg:pypi/requests@2.31.0",
+          "pkg:pypi/charset-normalizer@3.5.2"
+        ],
+        [
+          "pkg:pypi/requests@2.31.0",
+          "pkg:pypi/idna@3.20"
+        ],
+        [
+          "pkg:pypi/requests@2.31.0",
+          "pkg:pypi/urllib3@2.8.0"
+        ]
+      ],
+      "reference_edges": 4,
+      "reference_nodes": 5,
+      "unresolved_reference_requirements": [],
+      "whole_graph": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 4
+      }
+    },
+    "oracle_sha256": "2b7cfe1dced12ec6406d7aee9f85192e30358991ca10480689d6561259057d1b",
+    "prediction": {
+      "baseline_id": "B4",
+      "baseline_name": "Package-manager resolution reference",
+      "information_budget": "PRIVILEGED_MANIFEST_ENVIRONMENT_AND_FROZEN_PUBLIC_ARTIFACT_SET",
+      "interpretation": "Hypothetical resolved graph; target installation needs independent verification",
+      "predicted_edges": [
+        [
+          "pkg:pypi/requests@2.31.0",
+          "pkg:pypi/certifi@2026.10.19"
+        ],
+        [
+          "pkg:pypi/requests@2.31.0",
+          "pkg:pypi/charset-normalizer@3.5.2"
+        ],
+        [
+          "pkg:pypi/requests@2.31.0",
+          "pkg:pypi/idna@3.20"
+        ],
+        [
+          "pkg:pypi/requests@2.31.0",
+          "pkg:pypi/urllib3@2.8.0"
+        ]
+      ],
+      "predicted_nodes": [
+        "pkg:pypi/certifi@2026.10.19",
+        "pkg:pypi/charset-normalizer@3.5.2",
+        "pkg:pypi/idna@3.20",
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/urllib3@2.8.0"
+      ],
+      "root_requirements": [
+        "requests==2.31.0"
+      ],
+      "unresolved": []
+    },
+    "reference_source": "Separate installed-environment METADATA capture",
+    "resolution_sha256": "9139dac2b8000ce3ec27e629f1363cd8dee7f80fb38a7eb497238aed3f7da699",
+    "wheelhouse_manifest": {
+      "artifacts": {
+        "certifi-2026.10.19-py3-none-any.whl": "42d35340cc5b9ba78e818ddbff0c5b1c2b779de448a340fd1b989f5fa8670e1b",
+        "charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl": "211d5a3eb6af8f513b8d4ca19a8c1b7accab1b5f0d3175f9826b03c1a920dc1f",
+        "idna-3.20-py3-none-any.whl": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+        "requests-2.31.0-py3-none-any.whl": "58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f",
+        "urllib3-2.8.0-py3-none-any.whl": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
+      },
+      "status": "PARTIAL_CANDIDATE_UNIVERSE"
+    }
+  },
+  "socks": {
+    "component_evaluation": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 6
+    },
+    "cost": {
+      "command": [
+        "python",
+        "-m",
+        "pip",
+        "install",
+        "--dry-run",
+        "--ignore-installed",
+        "--no-index",
+        "--find-links",
+        "/out/wheelhouse",
+        "--report",
+        "/out/b4_resolution.json",
+        "requests[socks]==2.31.0"
+      ],
+      "completed_at": "2026-10-22T21:14:05.715502+00:00",
+      "exit_code": 0,
+      "latency_seconds": 0.37065722700026527,
+      "name": "b4_dry_run",
+      "started_at": "2026-10-22T21:14:05.344843+00:00"
+    },
+    "edge_evaluation": {
+      "additions": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 5
+      },
+      "edge_audit": [
+        {
+          "arm": "predicted",
+          "decision": "SCORED_TP",
+          "source": "pkg:pypi/requests@2.31.0",
+          "target": "pkg:pypi/certifi@2026.10.19"
+        },
+        {
+          "arm": "predicted",
+          "decision": "SCORED_TP",
+          "source": "pkg:pypi/requests@2.31.0",
+          "target": "pkg:pypi/charset-normalizer@3.5.2"
+        },
+        {
+          "arm": "predicted",
+          "decision": "SCORED_TP",
+          "source": "pkg:pypi/requests@2.31.0",
+          "target": "pkg:pypi/idna@3.20"
+        },
+        {
+          "arm": "predicted",
+          "decision": "SCORED_TP",
+          "source": "pkg:pypi/requests@2.31.0",
+          "target": "pkg:pypi/pysocks@1.7.1"
+        },
+        {
+          "arm": "predicted",
+          "decision": "SCORED_TP",
+          "source": "pkg:pypi/requests@2.31.0",
+          "target": "pkg:pypi/urllib3@2.8.0"
+        }
+      ],
+      "excluded_or_unknown_edges": 0,
+      "false_positive_edges": [],
+      "missed_edges": [],
+      "recovered_edges": [
+        [
+          "pkg:pypi/requests@2.31.0",
+          "pkg:pypi/certifi@2026.10.19"
+        ],
+        [
+          "pkg:pypi/requests@2.31.0",
+          "pkg:pypi/charset-normalizer@3.5.2"
+        ],
+        [
+          "pkg:pypi/requests@2.31.0",
+          "pkg:pypi/idna@3.20"
+        ],
+        [
+          "pkg:pypi/requests@2.31.0",
+          "pkg:pypi/pysocks@1.7.1"
+        ],
+        [
+          "pkg:pypi/requests@2.31.0",
+          "pkg:pypi/urllib3@2.8.0"
+        ]
+      ],
+      "reference_edges": 5,
+      "reference_nodes": 6,
+      "unresolved_reference_requirements": [],
+      "whole_graph": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 5
+      }
+    },
+    "oracle_sha256": "f85365edeec0bb8ed4a32eab6010b6492d3d79777d7dfe8bc12b560e7866c6c2",
+    "prediction": {
+      "baseline_id": "B4",
+      "baseline_name": "Package-manager resolution reference",
+      "information_budget": "PRIVILEGED_MANIFEST_ENVIRONMENT_AND_FROZEN_PUBLIC_ARTIFACT_SET",
+      "interpretation": "Hypothetical resolved graph; target installation needs independent verification",
+      "predicted_edges": [
+        [
+          "pkg:pypi/requests@2.31.0",
+          "pkg:pypi/certifi@2026.10.19"
+        ],
+        [
+          "pkg:pypi/requests@2.31.0",
+          "pkg:pypi/charset-normalizer@3.5.2"
+        ],
+        [
+          "pkg:pypi/requests@2.31.0",
+          "pkg:pypi/idna@3.20"
+        ],
+        [
+          "pkg:pypi/requests@2.31.0",
+          "pkg:pypi/pysocks@1.7.1"
+        ],
+        [
+          "pkg:pypi/requests@2.31.0",
+          "pkg:pypi/urllib3@2.8.0"
+        ]
+      ],
+      "predicted_nodes": [
+        "pkg:pypi/certifi@2026.10.19",
+        "pkg:pypi/charset-normalizer@3.5.2",
+        "pkg:pypi/idna@3.20",
+        "pkg:pypi/pysocks@1.7.1",
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/urllib3@2.8.0"
+      ],
+      "root_requirements": [
+        "requests[socks]==2.31.0"
+      ],
+      "unresolved": []
+    },
+    "reference_source": "Separate installed-environment METADATA capture",
+    "resolution_sha256": "a7fae801e614480bf0fb6ad5b3209f37f7c7f4f0c13d6ecbd9372441bc5e1ed7",
+    "wheelhouse_manifest": {
+      "artifacts": {
+        "PySocks-1.7.1-py3-none-any.whl": "2725bd0a9925919b9b51739eea5f9e2bae91e83288108a9ad338b2e3a4435ee5",
+        "certifi-2026.10.19-py3-none-any.whl": "42d35340cc5b9ba78e818ddbff0c5b1c2b779de448a340fd1b989f5fa8670e1b",
+        "charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl": "211d5a3eb6af8f513b8d4ca19a8c1b7accab1b5f0d3175f9826b03c1a920dc1f",
+        "idna-3.20-py3-none-any.whl": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+        "requests-2.31.0-py3-none-any.whl": "58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f",
+        "urllib3-2.8.0-py3-none-any.whl": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
+      },
+      "status": "PARTIAL_CANDIDATE_UNIVERSE"
+    }
+  }
+}

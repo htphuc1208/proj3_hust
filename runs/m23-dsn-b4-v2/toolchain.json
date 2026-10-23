@@ -1,0 +1,22 @@
+{
+  "frozen_at": "2026-10-22T21:05:25.461209Z",
+  "image": "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+  "tools": {
+    "syft": {
+      "archive_sha256": "c069905b391cc4c20a5ba65ad5c10be2a7ba074f8ea6ad203e24d14e303dad47",
+      "archive_url": "https://github.com/anchore/syft/releases/download/v1.54.1/syft_1.54.1_linux_amd64.tar.gz",
+      "binary_sha256": "dbf75864e7a7ff9e1fbf00552c31483f693188632a9f68f343cd7653dac513d6",
+      "checksums_url": "https://github.com/anchore/syft/releases/download/v1.54.1/syft_1.54.1_checksums.txt",
+      "tag": "v1.54.1",
+      "version_output": "Application:   syft\nVersion:       1.54.1\nBuildDate:     2026-10-06T15:32:19Z\nGitCommit:     b254e6d92f28c3868a755f62fb3ca8f26e9fee76\nGitDescription: v1.54.1\nPlatform:      linux/amd64\nGoVersion:     go1.26.8\nCompiler:      gc\nSchemaVersion: 16.1.11"
+    },
+    "trivy": {
+      "archive_sha256": "c7cbe3137fb8a48a17574bede3dd6beb16742d1e9772929940fc90082c39d9c0",
+      "archive_url": "https://github.com/aquasecurity/trivy/releases/download/v0.76.1/trivy_0.76.1_Linux-64bit.tar.gz",
+      "binary_sha256": "d1dfca6ae10a1ad4540bb94e64f0510077c47008920a9b554986b39dca573d83",
+      "checksums_url": "https://github.com/aquasecurity/trivy/releases/download/v0.76.1/trivy_0.76.1_checksums.txt",
+      "tag": "v0.76.1",
+      "version_output": "Version: 0.76.1"
+    }
+  }
+}

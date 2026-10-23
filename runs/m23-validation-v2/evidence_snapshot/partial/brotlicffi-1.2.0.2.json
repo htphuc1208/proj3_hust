@@ -1,0 +1,31 @@
+{
+  "artifact_level_metadata": {
+    "wheel_bytes_verified": true,
+    "wheel_local_sha256": "97bae40d45ebc2a6ac7b1c9b30825496a257192194b672ef5869e2df93467f69",
+    "wheel_metadata_file": "brotlicffi-1.2.0.2.dist-info/METADATA",
+    "wheel_metadata_sha256": "22408cf61c36f42369298c4a116add9dbe13445e7a98e708e377627540c7dca1"
+  },
+  "distribution_type": "wheel",
+  "name": "brotlicffi",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T07:05:44.492586+00:00",
+    "provenance_chain": "PyPI index -> Distribution artifact -> Verified SHA-256 -> Extracted METADATA -> Frozen evidence record",
+    "source_pypi_json_url": "https://pypi.org/pypi/brotlicffi/1.2.0.2/json",
+    "verification_status": "VERIFIED_ARTIFACT_DIGEST_AND_METADATA",
+    "wheel_download_url": "https://files.pythonhosted.org/packages/9f/d6/74cee9f9fbea8c42030a81056c64e092030a95bd2756ea83da1d1e8f5f29/brotlicffi-1.2.0.2-cp314-cp314t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "wheel_filename": "brotlicffi-1.2.0.2-cp314-cp314t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "wheel_sha256": "97bae40d45ebc2a6ac7b1c9b30825496a257192194b672ef5869e2df93467f69",
+    "wheel_upload_time_utc": "2026-08-21T17:28:59.502355Z"
+  },
+  "release_requires_dist": [
+    "cffi>=1.0.0; python_version < \"3.13\"",
+    "cffi>=1.17.0; python_version >= \"3.13\""
+  ],
+  "requires_dist": [
+    "cffi>=1.0.0; python_version < \"3.13\"",
+    "cffi>=1.17.0; python_version >= \"3.13\""
+  ],
+  "requires_python": ">=3.8",
+  "version": "1.2.0.2"
+}

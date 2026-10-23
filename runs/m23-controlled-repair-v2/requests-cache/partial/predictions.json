@@ -1,0 +1,1811 @@
+{
+  "B0": {
+    "G_candidate": {
+      "contradictions": [],
+      "edges": [],
+      "nodes": []
+    },
+    "G_obs": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/attrs@26.1.0",
+          "name": "attrs",
+          "purl": "pkg:pypi/attrs@26.1.0",
+          "type": "library",
+          "version": "26.1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/cattrs@26.2.1",
+          "name": "cattrs",
+          "purl": "pkg:pypi/cattrs@26.2.1",
+          "type": "library",
+          "version": "26.2.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/certifi@2026.10.19",
+          "name": "certifi",
+          "purl": "pkg:pypi/certifi@2026.10.19",
+          "type": "library",
+          "version": "2026.10.19"
+        },
+        {
+          "bom-ref": "pkg:pypi/charset-normalizer@3.5.2",
+          "name": "charset-normalizer",
+          "purl": "pkg:pypi/charset-normalizer@3.5.2",
+          "type": "library",
+          "version": "3.5.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/idna@3.20",
+          "name": "idna",
+          "purl": "pkg:pypi/idna@3.20",
+          "type": "library",
+          "version": "3.20"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/platformdirs@4.13.5",
+          "name": "platformdirs",
+          "purl": "pkg:pypi/platformdirs@4.13.5",
+          "type": "library",
+          "version": "4.13.5"
+        },
+        {
+          "bom-ref": "pkg:pypi/requests@2.34.2",
+          "name": "requests",
+          "purl": "pkg:pypi/requests@2.34.2",
+          "type": "library",
+          "version": "2.34.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+          "name": "typing-extensions",
+          "purl": "pkg:pypi/typing-extensions@4.16.0",
+          "type": "library",
+          "version": "4.16.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/url-normalize@3.0.1",
+          "name": "url-normalize",
+          "purl": "pkg:pypi/url-normalize@3.0.1",
+          "type": "library",
+          "version": "3.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/urllib3@2.8.0",
+          "name": "urllib3",
+          "purl": "pkg:pypi/urllib3@2.8.0",
+          "type": "library",
+          "version": "2.8.0"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/requests-cache@1.1.1",
+          "name": "requests-cache",
+          "purl": "pkg:pypi/requests-cache@1.1.1",
+          "type": "application",
+          "version": "1.1.1"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "G_reconstructed": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/attrs@26.1.0",
+          "name": "attrs",
+          "purl": "pkg:pypi/attrs@26.1.0",
+          "type": "library",
+          "version": "26.1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/cattrs@26.2.1",
+          "name": "cattrs",
+          "purl": "pkg:pypi/cattrs@26.2.1",
+          "type": "library",
+          "version": "26.2.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/certifi@2026.10.19",
+          "name": "certifi",
+          "purl": "pkg:pypi/certifi@2026.10.19",
+          "type": "library",
+          "version": "2026.10.19"
+        },
+        {
+          "bom-ref": "pkg:pypi/charset-normalizer@3.5.2",
+          "name": "charset-normalizer",
+          "purl": "pkg:pypi/charset-normalizer@3.5.2",
+          "type": "library",
+          "version": "3.5.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/idna@3.20",
+          "name": "idna",
+          "purl": "pkg:pypi/idna@3.20",
+          "type": "library",
+          "version": "3.20"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/platformdirs@4.13.5",
+          "name": "platformdirs",
+          "purl": "pkg:pypi/platformdirs@4.13.5",
+          "type": "library",
+          "version": "4.13.5"
+        },
+        {
+          "bom-ref": "pkg:pypi/requests@2.34.2",
+          "name": "requests",
+          "purl": "pkg:pypi/requests@2.34.2",
+          "type": "library",
+          "version": "2.34.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+          "name": "typing-extensions",
+          "purl": "pkg:pypi/typing-extensions@4.16.0",
+          "type": "library",
+          "version": "4.16.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/url-normalize@3.0.1",
+          "name": "url-normalize",
+          "purl": "pkg:pypi/url-normalize@3.0.1",
+          "type": "library",
+          "version": "3.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/urllib3@2.8.0",
+          "name": "urllib3",
+          "purl": "pkg:pypi/urllib3@2.8.0",
+          "type": "library",
+          "version": "2.8.0"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/requests-cache@1.1.1",
+          "name": "requests-cache",
+          "purl": "pkg:pypi/requests-cache@1.1.1",
+          "type": "application",
+          "version": "1.1.1"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "baseline_id": "B0",
+    "baseline_name": "Observed-only",
+    "predicted_edges": []
+  },
+  "B1": {
+    "G_candidate": {
+      "contradictions": [],
+      "edges": [
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/attrs@26.1.0"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/boto3"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/botocore"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/bson"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/cattrs@26.2.1"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/furo"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/itsdangerous"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/linkify-it-py"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/myst-parser"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/platformdirs@4.13.5"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pymongo"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pyyaml"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/redis"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/requests@2.34.2"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/sphinx"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/sphinx-autodoc-typehints"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/sphinx-automodapi"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/sphinx-copybutton"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/sphinx-design"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/sphinx-notfound-page"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/sphinxcontrib-apidoc"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/sphinxext-opengraph"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/ujson"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/url-normalize@3.0.1"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/urllib3@2.8.0"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/cattrs@26.2.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/attrs@26.1.0"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/cattrs@26.2.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/exceptiongroup"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/cattrs@26.2.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/typing-extensions@4.16.0"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/cattrs@26.2.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pymongo"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/cattrs@26.2.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/cbor2"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/cattrs@26.2.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/msgpack"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/cattrs@26.2.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/msgspec"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/cattrs@26.2.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/orjson"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/cattrs@26.2.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pyyaml"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/cattrs@26.2.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/tomlkit"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/cattrs@26.2.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/tomli-w"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/cattrs@26.2.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/tomli"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/cattrs@26.2.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/ujson"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/url-normalize@3.0.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/idna@3.20"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/url-normalize@3.0.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/mypy"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/url-normalize@3.0.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pre-commit"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/url-normalize@3.0.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pytest-cov"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/url-normalize@3.0.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pytest-socket"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/url-normalize@3.0.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pytest"
+        },
+        {
+          "modality": "MUST",
+          "source_purl": "pkg:pypi/url-normalize@3.0.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/ruff"
+        }
+      ],
+      "nodes": []
+    },
+    "G_obs": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/attrs@26.1.0",
+          "name": "attrs",
+          "purl": "pkg:pypi/attrs@26.1.0",
+          "type": "library",
+          "version": "26.1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/cattrs@26.2.1",
+          "name": "cattrs",
+          "purl": "pkg:pypi/cattrs@26.2.1",
+          "type": "library",
+          "version": "26.2.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/certifi@2026.10.19",
+          "name": "certifi",
+          "purl": "pkg:pypi/certifi@2026.10.19",
+          "type": "library",
+          "version": "2026.10.19"
+        },
+        {
+          "bom-ref": "pkg:pypi/charset-normalizer@3.5.2",
+          "name": "charset-normalizer",
+          "purl": "pkg:pypi/charset-normalizer@3.5.2",
+          "type": "library",
+          "version": "3.5.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/idna@3.20",
+          "name": "idna",
+          "purl": "pkg:pypi/idna@3.20",
+          "type": "library",
+          "version": "3.20"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/platformdirs@4.13.5",
+          "name": "platformdirs",
+          "purl": "pkg:pypi/platformdirs@4.13.5",
+          "type": "library",
+          "version": "4.13.5"
+        },
+        {
+          "bom-ref": "pkg:pypi/requests@2.34.2",
+          "name": "requests",
+          "purl": "pkg:pypi/requests@2.34.2",
+          "type": "library",
+          "version": "2.34.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+          "name": "typing-extensions",
+          "purl": "pkg:pypi/typing-extensions@4.16.0",
+          "type": "library",
+          "version": "4.16.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/url-normalize@3.0.1",
+          "name": "url-normalize",
+          "purl": "pkg:pypi/url-normalize@3.0.1",
+          "type": "library",
+          "version": "3.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/urllib3@2.8.0",
+          "name": "urllib3",
+          "purl": "pkg:pypi/urllib3@2.8.0",
+          "type": "library",
+          "version": "2.8.0"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/requests-cache@1.1.1",
+          "name": "requests-cache",
+          "purl": "pkg:pypi/requests-cache@1.1.1",
+          "type": "application",
+          "version": "1.1.1"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "G_reconstructed": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/attrs@26.1.0",
+          "name": "attrs",
+          "purl": "pkg:pypi/attrs@26.1.0",
+          "type": "library",
+          "version": "26.1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/cattrs@26.2.1",
+          "name": "cattrs",
+          "purl": "pkg:pypi/cattrs@26.2.1",
+          "type": "library",
+          "version": "26.2.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/certifi@2026.10.19",
+          "name": "certifi",
+          "purl": "pkg:pypi/certifi@2026.10.19",
+          "type": "library",
+          "version": "2026.10.19"
+        },
+        {
+          "bom-ref": "pkg:pypi/charset-normalizer@3.5.2",
+          "name": "charset-normalizer",
+          "purl": "pkg:pypi/charset-normalizer@3.5.2",
+          "type": "library",
+          "version": "3.5.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/idna@3.20",
+          "name": "idna",
+          "purl": "pkg:pypi/idna@3.20",
+          "type": "library",
+          "version": "3.20"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/platformdirs@4.13.5",
+          "name": "platformdirs",
+          "purl": "pkg:pypi/platformdirs@4.13.5",
+          "type": "library",
+          "version": "4.13.5"
+        },
+        {
+          "bom-ref": "pkg:pypi/requests@2.34.2",
+          "name": "requests",
+          "purl": "pkg:pypi/requests@2.34.2",
+          "type": "library",
+          "version": "2.34.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+          "name": "typing-extensions",
+          "purl": "pkg:pypi/typing-extensions@4.16.0",
+          "type": "library",
+          "version": "4.16.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/url-normalize@3.0.1",
+          "name": "url-normalize",
+          "purl": "pkg:pypi/url-normalize@3.0.1",
+          "type": "library",
+          "version": "3.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/urllib3@2.8.0",
+          "name": "urllib3",
+          "purl": "pkg:pypi/urllib3@2.8.0",
+          "type": "library",
+          "version": "2.8.0"
+        }
+      ],
+      "dependencies": [
+        {
+          "dependsOn": [
+            "pkg:pypi/attrs@26.1.0",
+            "pkg:pypi/cbor2",
+            "pkg:pypi/exceptiongroup",
+            "pkg:pypi/msgpack",
+            "pkg:pypi/msgspec",
+            "pkg:pypi/orjson",
+            "pkg:pypi/pymongo",
+            "pkg:pypi/pyyaml",
+            "pkg:pypi/tomli",
+            "pkg:pypi/tomli-w",
+            "pkg:pypi/tomlkit",
+            "pkg:pypi/typing-extensions@4.16.0",
+            "pkg:pypi/ujson"
+          ],
+          "ref": "pkg:pypi/cattrs@26.2.1"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/attrs@26.1.0",
+            "pkg:pypi/boto3",
+            "pkg:pypi/botocore",
+            "pkg:pypi/bson",
+            "pkg:pypi/cattrs@26.2.1",
+            "pkg:pypi/furo",
+            "pkg:pypi/itsdangerous",
+            "pkg:pypi/linkify-it-py",
+            "pkg:pypi/myst-parser",
+            "pkg:pypi/platformdirs@4.13.5",
+            "pkg:pypi/pymongo",
+            "pkg:pypi/pyyaml",
+            "pkg:pypi/redis",
+            "pkg:pypi/requests@2.34.2",
+            "pkg:pypi/sphinx",
+            "pkg:pypi/sphinx-autodoc-typehints",
+            "pkg:pypi/sphinx-automodapi",
+            "pkg:pypi/sphinx-copybutton",
+            "pkg:pypi/sphinx-design",
+            "pkg:pypi/sphinx-notfound-page",
+            "pkg:pypi/sphinxcontrib-apidoc",
+            "pkg:pypi/sphinxext-opengraph",
+            "pkg:pypi/ujson",
+            "pkg:pypi/url-normalize@3.0.1",
+            "pkg:pypi/urllib3@2.8.0"
+          ],
+          "ref": "pkg:pypi/requests-cache@1.1.1"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/idna@3.20",
+            "pkg:pypi/mypy",
+            "pkg:pypi/pre-commit",
+            "pkg:pypi/pytest",
+            "pkg:pypi/pytest-cov",
+            "pkg:pypi/pytest-socket",
+            "pkg:pypi/ruff"
+          ],
+          "ref": "pkg:pypi/url-normalize@3.0.1"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/requests-cache@1.1.1",
+          "name": "requests-cache",
+          "purl": "pkg:pypi/requests-cache@1.1.1",
+          "type": "application",
+          "version": "1.1.1"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "baseline_id": "B1",
+    "baseline_name": "Context-free Metadata",
+    "predicted_edges": [
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/attrs@26.1.0"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/cbor2"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/exceptiongroup"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/msgpack"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/msgspec"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/orjson"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/pymongo"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/pyyaml"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/tomli"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/tomli-w"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/tomlkit"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/ujson"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/attrs@26.1.0"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/boto3"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/botocore"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/bson"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/cattrs@26.2.1"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/furo"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/itsdangerous"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/linkify-it-py"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/myst-parser"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/platformdirs@4.13.5"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/pymongo"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/pyyaml"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/redis"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/requests@2.34.2"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/sphinx"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/sphinx-autodoc-typehints"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/sphinx-automodapi"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/sphinx-copybutton"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/sphinx-design"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/sphinx-notfound-page"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/sphinxcontrib-apidoc"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/sphinxext-opengraph"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/ujson"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/url-normalize@3.0.1"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/urllib3@2.8.0"
+      ],
+      [
+        "pkg:pypi/url-normalize@3.0.1",
+        "pkg:pypi/idna@3.20"
+      ],
+      [
+        "pkg:pypi/url-normalize@3.0.1",
+        "pkg:pypi/mypy"
+      ],
+      [
+        "pkg:pypi/url-normalize@3.0.1",
+        "pkg:pypi/pre-commit"
+      ],
+      [
+        "pkg:pypi/url-normalize@3.0.1",
+        "pkg:pypi/pytest"
+      ],
+      [
+        "pkg:pypi/url-normalize@3.0.1",
+        "pkg:pypi/pytest-cov"
+      ],
+      [
+        "pkg:pypi/url-normalize@3.0.1",
+        "pkg:pypi/pytest-socket"
+      ],
+      [
+        "pkg:pypi/url-normalize@3.0.1",
+        "pkg:pypi/ruff"
+      ]
+    ]
+  },
+  "B2": {
+    "G_candidate": {
+      "contradictions": [],
+      "edges": [
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/attrs@26.1.0"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/cattrs@26.2.1"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/itsdangerous"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/platformdirs@4.13.5"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/pymongo"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/redis"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/requests@2.34.2"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/url-normalize@3.0.1"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/urllib3@2.8.0"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/cattrs@26.2.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/attrs@26.1.0"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/cattrs@26.2.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/exceptiongroup"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/cattrs@26.2.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/typing-extensions@4.16.0"
+        },
+        {
+          "modality": "MAY_ONLY",
+          "source_purl": "pkg:pypi/url-normalize@3.0.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/idna@3.20"
+        }
+      ],
+      "nodes": []
+    },
+    "G_obs": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/attrs@26.1.0",
+          "name": "attrs",
+          "purl": "pkg:pypi/attrs@26.1.0",
+          "type": "library",
+          "version": "26.1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/cattrs@26.2.1",
+          "name": "cattrs",
+          "purl": "pkg:pypi/cattrs@26.2.1",
+          "type": "library",
+          "version": "26.2.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/certifi@2026.10.19",
+          "name": "certifi",
+          "purl": "pkg:pypi/certifi@2026.10.19",
+          "type": "library",
+          "version": "2026.10.19"
+        },
+        {
+          "bom-ref": "pkg:pypi/charset-normalizer@3.5.2",
+          "name": "charset-normalizer",
+          "purl": "pkg:pypi/charset-normalizer@3.5.2",
+          "type": "library",
+          "version": "3.5.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/idna@3.20",
+          "name": "idna",
+          "purl": "pkg:pypi/idna@3.20",
+          "type": "library",
+          "version": "3.20"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/platformdirs@4.13.5",
+          "name": "platformdirs",
+          "purl": "pkg:pypi/platformdirs@4.13.5",
+          "type": "library",
+          "version": "4.13.5"
+        },
+        {
+          "bom-ref": "pkg:pypi/requests@2.34.2",
+          "name": "requests",
+          "purl": "pkg:pypi/requests@2.34.2",
+          "type": "library",
+          "version": "2.34.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+          "name": "typing-extensions",
+          "purl": "pkg:pypi/typing-extensions@4.16.0",
+          "type": "library",
+          "version": "4.16.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/url-normalize@3.0.1",
+          "name": "url-normalize",
+          "purl": "pkg:pypi/url-normalize@3.0.1",
+          "type": "library",
+          "version": "3.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/urllib3@2.8.0",
+          "name": "urllib3",
+          "purl": "pkg:pypi/urllib3@2.8.0",
+          "type": "library",
+          "version": "2.8.0"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/requests-cache@1.1.1",
+          "name": "requests-cache",
+          "purl": "pkg:pypi/requests-cache@1.1.1",
+          "type": "application",
+          "version": "1.1.1"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "G_reconstructed": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/attrs@26.1.0",
+          "name": "attrs",
+          "purl": "pkg:pypi/attrs@26.1.0",
+          "type": "library",
+          "version": "26.1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/cattrs@26.2.1",
+          "name": "cattrs",
+          "purl": "pkg:pypi/cattrs@26.2.1",
+          "type": "library",
+          "version": "26.2.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/certifi@2026.10.19",
+          "name": "certifi",
+          "purl": "pkg:pypi/certifi@2026.10.19",
+          "type": "library",
+          "version": "2026.10.19"
+        },
+        {
+          "bom-ref": "pkg:pypi/charset-normalizer@3.5.2",
+          "name": "charset-normalizer",
+          "purl": "pkg:pypi/charset-normalizer@3.5.2",
+          "type": "library",
+          "version": "3.5.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/idna@3.20",
+          "name": "idna",
+          "purl": "pkg:pypi/idna@3.20",
+          "type": "library",
+          "version": "3.20"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/platformdirs@4.13.5",
+          "name": "platformdirs",
+          "purl": "pkg:pypi/platformdirs@4.13.5",
+          "type": "library",
+          "version": "4.13.5"
+        },
+        {
+          "bom-ref": "pkg:pypi/requests@2.34.2",
+          "name": "requests",
+          "purl": "pkg:pypi/requests@2.34.2",
+          "type": "library",
+          "version": "2.34.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+          "name": "typing-extensions",
+          "purl": "pkg:pypi/typing-extensions@4.16.0",
+          "type": "library",
+          "version": "4.16.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/url-normalize@3.0.1",
+          "name": "url-normalize",
+          "purl": "pkg:pypi/url-normalize@3.0.1",
+          "type": "library",
+          "version": "3.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/urllib3@2.8.0",
+          "name": "urllib3",
+          "purl": "pkg:pypi/urllib3@2.8.0",
+          "type": "library",
+          "version": "2.8.0"
+        }
+      ],
+      "dependencies": [
+        {
+          "dependsOn": [
+            "pkg:pypi/attrs@26.1.0",
+            "pkg:pypi/exceptiongroup",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          "ref": "pkg:pypi/cattrs@26.2.1"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/attrs@26.1.0",
+            "pkg:pypi/cattrs@26.2.1",
+            "pkg:pypi/itsdangerous",
+            "pkg:pypi/platformdirs@4.13.5",
+            "pkg:pypi/pymongo",
+            "pkg:pypi/redis",
+            "pkg:pypi/requests@2.34.2",
+            "pkg:pypi/url-normalize@3.0.1",
+            "pkg:pypi/urllib3@2.8.0"
+          ],
+          "ref": "pkg:pypi/requests-cache@1.1.1"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/idna@3.20"
+          ],
+          "ref": "pkg:pypi/url-normalize@3.0.1"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/requests-cache@1.1.1",
+          "name": "requests-cache",
+          "purl": "pkg:pypi/requests-cache@1.1.1",
+          "type": "application",
+          "version": "1.1.1"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "baseline_id": "B2",
+    "baseline_name": "Maximal Supergraph",
+    "predicted_edges": [
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/attrs@26.1.0"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/exceptiongroup"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/attrs@26.1.0"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/cattrs@26.2.1"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/itsdangerous"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/platformdirs@4.13.5"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/pymongo"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/redis"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/requests@2.34.2"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/url-normalize@3.0.1"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/urllib3@2.8.0"
+      ],
+      [
+        "pkg:pypi/url-normalize@3.0.1",
+        "pkg:pypi/idna@3.20"
+      ]
+    ]
+  },
+  "B3": {
+    "G_candidate": {
+      "contradictions": [],
+      "edges": [
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/cattrs@26.2.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/attrs@26.1.0",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/cattrs@26.2.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/typing-extensions@4.16.0",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/attrs@26.1.0",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/cattrs@26.2.1",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/platformdirs@4.13.5",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/requests@2.34.2",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/url-normalize@3.0.1",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/requests-cache@1.1.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/urllib3@2.8.0",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        },
+        {
+          "candidate_refs": [],
+          "evidence_source": "frozen-public-registry-snapshot",
+          "marker": null,
+          "modality": "MUST",
+          "provenance_detail": "PEP508 condition: unconditional",
+          "source_purl": "pkg:pypi/url-normalize@3.0.1",
+          "status": "INFERRED",
+          "target_purl": "pkg:pypi/idna@3.20",
+          "valid_environments": [
+            "linux_3.11"
+          ]
+        }
+      ],
+      "nodes": []
+    },
+    "G_obs": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/attrs@26.1.0",
+          "name": "attrs",
+          "purl": "pkg:pypi/attrs@26.1.0",
+          "type": "library",
+          "version": "26.1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/cattrs@26.2.1",
+          "name": "cattrs",
+          "purl": "pkg:pypi/cattrs@26.2.1",
+          "type": "library",
+          "version": "26.2.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/certifi@2026.10.19",
+          "name": "certifi",
+          "purl": "pkg:pypi/certifi@2026.10.19",
+          "type": "library",
+          "version": "2026.10.19"
+        },
+        {
+          "bom-ref": "pkg:pypi/charset-normalizer@3.5.2",
+          "name": "charset-normalizer",
+          "purl": "pkg:pypi/charset-normalizer@3.5.2",
+          "type": "library",
+          "version": "3.5.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/idna@3.20",
+          "name": "idna",
+          "purl": "pkg:pypi/idna@3.20",
+          "type": "library",
+          "version": "3.20"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/platformdirs@4.13.5",
+          "name": "platformdirs",
+          "purl": "pkg:pypi/platformdirs@4.13.5",
+          "type": "library",
+          "version": "4.13.5"
+        },
+        {
+          "bom-ref": "pkg:pypi/requests@2.34.2",
+          "name": "requests",
+          "purl": "pkg:pypi/requests@2.34.2",
+          "type": "library",
+          "version": "2.34.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+          "name": "typing-extensions",
+          "purl": "pkg:pypi/typing-extensions@4.16.0",
+          "type": "library",
+          "version": "4.16.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/url-normalize@3.0.1",
+          "name": "url-normalize",
+          "purl": "pkg:pypi/url-normalize@3.0.1",
+          "type": "library",
+          "version": "3.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/urllib3@2.8.0",
+          "name": "urllib3",
+          "purl": "pkg:pypi/urllib3@2.8.0",
+          "type": "library",
+          "version": "2.8.0"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/requests-cache@1.1.1",
+          "name": "requests-cache",
+          "purl": "pkg:pypi/requests-cache@1.1.1",
+          "type": "application",
+          "version": "1.1.1"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "G_reconstructed": {
+      "bomFormat": "CycloneDX",
+      "components": [
+        {
+          "bom-ref": "pkg:pypi/attrs@26.1.0",
+          "name": "attrs",
+          "purl": "pkg:pypi/attrs@26.1.0",
+          "type": "library",
+          "version": "26.1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/cattrs@26.2.1",
+          "name": "cattrs",
+          "purl": "pkg:pypi/cattrs@26.2.1",
+          "type": "library",
+          "version": "26.2.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/certifi@2026.10.19",
+          "name": "certifi",
+          "purl": "pkg:pypi/certifi@2026.10.19",
+          "type": "library",
+          "version": "2026.10.19"
+        },
+        {
+          "bom-ref": "pkg:pypi/charset-normalizer@3.5.2",
+          "name": "charset-normalizer",
+          "purl": "pkg:pypi/charset-normalizer@3.5.2",
+          "type": "library",
+          "version": "3.5.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/idna@3.20",
+          "name": "idna",
+          "purl": "pkg:pypi/idna@3.20",
+          "type": "library",
+          "version": "3.20"
+        },
+        {
+          "bom-ref": "pkg:pypi/my-test-package@1.0",
+          "name": "my-test-package",
+          "purl": "pkg:pypi/my-test-package@1.0",
+          "type": "library",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/pip@24.0",
+          "name": "pip",
+          "purl": "pkg:pypi/pip@24.0",
+          "type": "library",
+          "version": "24.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/platformdirs@4.13.5",
+          "name": "platformdirs",
+          "purl": "pkg:pypi/platformdirs@4.13.5",
+          "type": "library",
+          "version": "4.13.5"
+        },
+        {
+          "bom-ref": "pkg:pypi/requests@2.34.2",
+          "name": "requests",
+          "purl": "pkg:pypi/requests@2.34.2",
+          "type": "library",
+          "version": "2.34.2"
+        },
+        {
+          "bom-ref": "pkg:pypi/setuptools@79.0.1",
+          "name": "setuptools",
+          "purl": "pkg:pypi/setuptools@79.0.1",
+          "type": "library",
+          "version": "79.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+          "name": "typing-extensions",
+          "purl": "pkg:pypi/typing-extensions@4.16.0",
+          "type": "library",
+          "version": "4.16.0"
+        },
+        {
+          "bom-ref": "pkg:pypi/url-normalize@3.0.1",
+          "name": "url-normalize",
+          "purl": "pkg:pypi/url-normalize@3.0.1",
+          "type": "library",
+          "version": "3.0.1"
+        },
+        {
+          "bom-ref": "pkg:pypi/urllib3@2.8.0",
+          "name": "urllib3",
+          "purl": "pkg:pypi/urllib3@2.8.0",
+          "type": "library",
+          "version": "2.8.0"
+        }
+      ],
+      "dependencies": [
+        {
+          "dependsOn": [
+            "pkg:pypi/attrs@26.1.0",
+            "pkg:pypi/typing-extensions@4.16.0"
+          ],
+          "ref": "pkg:pypi/cattrs@26.2.1"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/attrs@26.1.0",
+            "pkg:pypi/cattrs@26.2.1",
+            "pkg:pypi/platformdirs@4.13.5",
+            "pkg:pypi/requests@2.34.2",
+            "pkg:pypi/url-normalize@3.0.1",
+            "pkg:pypi/urllib3@2.8.0"
+          ],
+          "ref": "pkg:pypi/requests-cache@1.1.1"
+        },
+        {
+          "dependsOn": [
+            "pkg:pypi/idna@3.20"
+          ],
+          "ref": "pkg:pypi/url-normalize@3.0.1"
+        }
+      ],
+      "metadata": {
+        "component": {
+          "bom-ref": "pkg:pypi/requests-cache@1.1.1",
+          "name": "requests-cache",
+          "purl": "pkg:pypi/requests-cache@1.1.1",
+          "type": "application",
+          "version": "1.1.1"
+        }
+      },
+      "specVersion": "1.5",
+      "version": 1
+    },
+    "baseline_id": "B3",
+    "baseline_name": "Context-aware Deterministic Heuristic",
+    "environment_mode": "single_target",
+    "extras_by_environment": [
+      {}
+    ],
+    "modality_scope": "target_environment",
+    "predicted_edges": [
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/attrs@26.1.0"
+      ],
+      [
+        "pkg:pypi/cattrs@26.2.1",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/attrs@26.1.0"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/cattrs@26.2.1"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/platformdirs@4.13.5"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/requests@2.34.2"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/url-normalize@3.0.1"
+      ],
+      [
+        "pkg:pypi/requests-cache@1.1.1",
+        "pkg:pypi/urllib3@2.8.0"
+      ],
+      [
+        "pkg:pypi/url-normalize@3.0.1",
+        "pkg:pypi/idna@3.20"
+      ]
+    ],
+    "summary": {
+      "candidate_edges": 9,
+      "contradictions_detected": 0,
+      "inferred_nodes": 0,
+      "observed_edges": 0,
+      "observed_nodes": 14,
+      "total_reconstructed_nodes": 14
+    },
+    "target_environment": {
+      "active_extras": [],
+      "os_name": "posix",
+      "platform_machine": "x86_64",
+      "platform_system": "Linux",
+      "python_full_version": null,
+      "python_version": "3.11",
+      "sys_platform": "linux"
+    },
+    "unresolved": [
+      {
+        "parent": "pkg:pypi/certifi@2026.10.19",
+        "reason": "EVIDENCE_UNAVAILABLE"
+      },
+      {
+        "parent": "pkg:pypi/charset-normalizer@3.5.2",
+        "reason": "EVIDENCE_UNAVAILABLE"
+      },
+      {
+        "parent": "pkg:pypi/idna@3.20",
+        "reason": "EVIDENCE_UNAVAILABLE"
+      },
+      {
+        "parent": "pkg:pypi/my-test-package@1.0",
+        "reason": "EVIDENCE_UNAVAILABLE"
+      },
+      {
+        "parent": "pkg:pypi/pip@24.0",
+        "reason": "EVIDENCE_UNAVAILABLE"
+      },
+      {
+        "parent": "pkg:pypi/requests@2.34.2",
+        "reason": "EVIDENCE_UNAVAILABLE"
+      },
+      {
+        "parent": "pkg:pypi/setuptools@79.0.1",
+        "reason": "EVIDENCE_UNAVAILABLE"
+      },
+      {
+        "parent": "pkg:pypi/urllib3@2.8.0",
+        "reason": "EVIDENCE_UNAVAILABLE"
+      }
+    ]
+  }
+}

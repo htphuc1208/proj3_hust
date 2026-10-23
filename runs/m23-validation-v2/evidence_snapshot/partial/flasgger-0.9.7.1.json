@@ -1,0 +1,25 @@
+{
+  "artifact_level_metadata": {
+    "wheel_bytes_verified": false,
+    "wheel_local_sha256": null,
+    "wheel_metadata_file": null,
+    "wheel_metadata_sha256": null
+  },
+  "distribution_type": "sdist",
+  "name": "flasgger",
+  "provenance": {
+    "collector": "scripts/collect_public_evidence.py",
+    "fetch_timestamp_utc": "2026-10-22T07:05:44.492586+00:00",
+    "provenance_chain": "PyPI index -> Distribution artifact -> Verified SHA-256 -> Extracted METADATA -> Frozen evidence record",
+    "source_pypi_json_url": "https://pypi.org/pypi/flasgger/0.9.7.1/json",
+    "verification_status": "RELEASE_METADATA_FALLBACK",
+    "wheel_download_url": "none",
+    "wheel_filename": "none",
+    "wheel_sha256": "none",
+    "wheel_upload_time_utc": null
+  },
+  "release_requires_dist": [],
+  "requires_dist": [],
+  "requires_python": "",
+  "version": "0.9.7.1"
+}

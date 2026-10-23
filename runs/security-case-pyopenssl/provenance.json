@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "pip_inspect_sha256": "07c09b058e875191917300d2e7026373a0b0bd074237cfcc65f8ca6110add12e",
+    "pip_install_report_sha256": "2f40ff62815cc96b371aad4d0b677b50b70219d95a325904bba0487a4efc2b62"
+  },
+  "pip_inspect_pip_version": "24.0",
+  "project": "pyopenssl-security",
+  "root_requirements": [
+    "pyOpenSSL==23.2.0"
+  ],
+  "time_utc": "2026-10-22T04:13:22.862777+00:00",
+  "warning": "Reference describes a concrete installed Python environment, not actual runtime calls or shipped binary contents"
+}

@@ -1,0 +1,5807 @@
+[
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "partial",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/certifi@2026.10.19"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "partial",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/chardet"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "partial",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/charset-normalizer@3.5.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "partial",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "partial",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/pysocks"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "partial",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "partial",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/certifi@2026.10.19"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "partial",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/charset-normalizer@3.5.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "partial",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "partial",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/pysocks"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "partial",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "partial",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/certifi@2026.10.19"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "partial",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/charset-normalizer@3.5.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "partial",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "partial",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/coverage"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/hypothesis"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/mypy"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/pytest"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/ruff"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/ty"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/certifi@2026.10.19"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/chardet"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/charset-normalizer@3.5.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/pysocks"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/backports-zstd"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/brotli"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/brotlicffi"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/h2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/pysocks"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/certifi@2026.10.19"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/charset-normalizer@3.5.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/pysocks"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/pysocks"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/certifi@2026.10.19"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/charset-normalizer@3.5.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/coverage"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/hypothesis"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/mypy"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/pytest"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/ruff"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/ty"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/certifi@2026.10.19"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/chardet"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/charset-normalizer@3.5.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/pysocks"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/backports-zstd"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/brotli"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/brotlicffi"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/h2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/pysocks"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/certifi@2026.10.19"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/charset-normalizer@3.5.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/pysocks"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/pysocks"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/certifi@2026.10.19"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/charset-normalizer@3.5.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.31.0",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/cbor2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/exceptiongroup"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/msgpack"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/msgspec"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/orjson"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/pymongo"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/pyyaml"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/tomli"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/tomli-w"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/tomlkit"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/ujson"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/boto3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/botocore"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/bson"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/cattrs@26.2.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/furo"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/itsdangerous"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/linkify-it-py"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/myst-parser"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/platformdirs@4.13.5"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/pymongo"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/pyyaml"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/redis"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/requests@2.34.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinx"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinx-autodoc-typehints"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinx-automodapi"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinx-copybutton"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinx-design"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinx-notfound-page"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinxcontrib-apidoc"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinxext-opengraph"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/ujson"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/url-normalize@3.0.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/mypy"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/pre-commit"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/pytest"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/pytest-cov"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/pytest-socket"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/ruff"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/exceptiongroup"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/cattrs@26.2.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/itsdangerous"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/platformdirs@4.13.5"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/pymongo"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/redis"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/requests@2.34.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/url-normalize@3.0.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/cattrs@26.2.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/platformdirs@4.13.5"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/requests@2.34.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/url-normalize@3.0.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "partial",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/cbor2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/exceptiongroup"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/msgpack"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/msgspec"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/orjson"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/pymongo"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/pyyaml"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/tomli"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/tomli-w"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/tomlkit"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/ujson"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/coverage"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/hypothesis"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/mypy"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/pytest"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/ruff"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/ty"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/boto3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/botocore"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/bson"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/cattrs@26.2.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/furo"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/itsdangerous"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/linkify-it-py"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/myst-parser"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/platformdirs@4.13.5"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/pymongo"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/pyyaml"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/redis"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/requests@2.34.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinx"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinx-autodoc-typehints"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinx-automodapi"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinx-copybutton"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinx-design"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinx-notfound-page"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinxcontrib-apidoc"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinxext-opengraph"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/ujson"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/url-normalize@3.0.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/certifi@2026.10.19"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/chardet"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/charset-normalizer@3.5.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/pysocks"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/mypy"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/pre-commit"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/pytest"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/pytest-cov"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/pytest-socket"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/ruff"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/backports-zstd"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/brotli"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/brotlicffi"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/h2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/pysocks"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/exceptiongroup"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/cattrs@26.2.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/itsdangerous"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/platformdirs@4.13.5"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/pymongo"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/redis"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/requests@2.34.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/url-normalize@3.0.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/certifi@2026.10.19"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/charset-normalizer@3.5.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/pysocks"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/pysocks"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/cattrs@26.2.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/platformdirs@4.13.5"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/requests@2.34.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/url-normalize@3.0.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/certifi@2026.10.19"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/charset-normalizer@3.5.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "wheel",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/cbor2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/exceptiongroup"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/msgpack"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/msgspec"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/orjson"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/pymongo"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/pyyaml"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/tomli"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/tomli-w"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/tomlkit"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/ujson"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/coverage"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/hypothesis"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/mypy"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/pytest"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/ruff"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/idna@3.20",
+    "target": "pkg:pypi/ty"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/boto3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/botocore"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/bson"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/cattrs@26.2.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/furo"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/itsdangerous"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/linkify-it-py"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/myst-parser"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/platformdirs@4.13.5"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/pymongo"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/pyyaml"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/redis"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/requests@2.34.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinx"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinx-autodoc-typehints"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinx-automodapi"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinx-copybutton"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinx-design"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinx-notfound-page"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinxcontrib-apidoc"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/sphinxext-opengraph"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/ujson"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/url-normalize@3.0.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/certifi@2026.10.19"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/chardet"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/charset-normalizer@3.5.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/pysocks"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/mypy"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/pre-commit"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/pytest"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/pytest-cov"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/pytest-socket"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/ruff"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/backports-zstd"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/brotli"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/brotlicffi"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/h2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/pysocks"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/exceptiongroup"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/cattrs@26.2.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/itsdangerous"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/platformdirs@4.13.5"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/pymongo"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/redis"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/requests@2.34.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/url-normalize@3.0.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/certifi@2026.10.19"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/charset-normalizer@3.5.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/pysocks"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/urllib3@2.8.0",
+    "target": "pkg:pypi/pysocks"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/cattrs@26.2.1",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/cattrs@26.2.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/platformdirs@4.13.5"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/requests@2.34.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/url-normalize@3.0.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests-cache@1.1.1",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/certifi@2026.10.19"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/charset-normalizer@3.5.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/requests@2.34.2",
+    "target": "pkg:pypi/urllib3@2.8.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "requests-cache",
+    "regime": "sdist",
+    "source": "pkg:pypi/url-normalize@3.0.1",
+    "target": "pkg:pypi/idna@3.20"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/brotlicffi@1.2.0.2",
+    "target": "pkg:pypi/cffi@2.1.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/cffi@2.1.1",
+    "target": "pkg:pypi/pycparser@3.11"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/asgiref"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/blinker@1.9.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/click@8.5.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/importlib-metadata"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/itsdangerous@2.2.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/jinja2@3.1.6"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/python-dotenv"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/werkzeug@3.1.9"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/greenlet@2.0.2",
+    "target": "pkg:pypi/docutils"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/greenlet@2.0.2",
+    "target": "pkg:pypi/objgraph"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/greenlet@2.0.2",
+    "target": "pkg:pypi/psutil"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/greenlet@2.0.2",
+    "target": "pkg:pypi/sphinx"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/brotlicffi@1.2.0.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/decorator@5.3.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/flasgger@0.9.7.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/flask@3.1.3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/gevent"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/greenlet@2.0.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/gunicorn"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/importlib-metadata"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/pytest"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/six@1.17.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/tox"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/werkzeug@3.1.9"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jinja2@3.1.6",
+    "target": "pkg:pypi/babel"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jinja2@3.1.6",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema-specifications@2025.9.1",
+    "target": "pkg:pypi/referencing@0.37.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/fqdn"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/idna"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/isoduration"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/jsonpointer"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/jsonschema-specifications@2025.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/referencing@0.37.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rfc3339-validator"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rfc3986-validator"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rfc3987"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rfc3987-syntax"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rpds-py@2026.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/uri-template"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/webcolors"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/mistune@3.4.0",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/rpds-py@2026.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/werkzeug@3.1.9",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/werkzeug@3.1.9",
+    "target": "pkg:pypi/watchdog"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/brotlicffi@1.2.0.2",
+    "target": "pkg:pypi/cffi@2.1.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/cffi@2.1.1",
+    "target": "pkg:pypi/pycparser@3.11"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/blinker@1.9.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/click@8.5.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/itsdangerous@2.2.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/jinja2@3.1.6"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/werkzeug@3.1.9"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/brotlicffi@1.2.0.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/decorator@5.3.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/flasgger@0.9.7.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/flask@3.1.3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/greenlet@2.0.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/six@1.17.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/werkzeug@3.1.9"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jinja2@3.1.6",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema-specifications@2025.9.1",
+    "target": "pkg:pypi/referencing@0.37.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/jsonschema-specifications@2025.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/referencing@0.37.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rpds-py@2026.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/mistune@3.4.0",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/rpds-py@2026.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/werkzeug@3.1.9",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/brotlicffi@1.2.0.2",
+    "target": "pkg:pypi/cffi@2.1.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/cffi@2.1.1",
+    "target": "pkg:pypi/pycparser@3.11"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/blinker@1.9.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/click@8.5.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/itsdangerous@2.2.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/jinja2@3.1.6"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/werkzeug@3.1.9"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/brotlicffi@1.2.0.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/decorator@5.3.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/flasgger@0.9.7.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/flask@3.1.3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/greenlet@2.0.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/six@1.17.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/werkzeug@3.1.9"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jinja2@3.1.6",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema-specifications@2025.9.1",
+    "target": "pkg:pypi/referencing@0.37.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/jsonschema-specifications@2025.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/referencing@0.37.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rpds-py@2026.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/rpds-py@2026.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "partial",
+    "source": "pkg:pypi/werkzeug@3.1.9",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/brotlicffi@1.2.0.2",
+    "target": "pkg:pypi/cffi@2.1.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/cffi@2.1.1",
+    "target": "pkg:pypi/pycparser@3.11"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/asgiref"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/blinker@1.9.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/click@8.5.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/importlib-metadata"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/itsdangerous@2.2.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/jinja2@3.1.6"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/python-dotenv"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/werkzeug@3.1.9"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/greenlet@2.0.2",
+    "target": "pkg:pypi/docutils"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/greenlet@2.0.2",
+    "target": "pkg:pypi/objgraph"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/greenlet@2.0.2",
+    "target": "pkg:pypi/psutil"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/greenlet@2.0.2",
+    "target": "pkg:pypi/sphinx"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/brotlicffi@1.2.0.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/decorator@5.3.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/flasgger@0.9.7.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/flask@3.1.3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/gevent"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/greenlet@2.0.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/gunicorn"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/importlib-metadata"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/pytest"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/six@1.17.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/tox"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/werkzeug@3.1.9"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jinja2@3.1.6",
+    "target": "pkg:pypi/babel"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jinja2@3.1.6",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema-specifications@2025.9.1",
+    "target": "pkg:pypi/referencing@0.37.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/fqdn"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/idna"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/isoduration"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/jsonpointer"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/jsonschema-specifications@2025.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/referencing@0.37.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rfc3339-validator"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rfc3986-validator"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rfc3987"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rfc3987-syntax"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rpds-py@2026.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/uri-template"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/webcolors"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/mistune@3.4.0",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/rpds-py@2026.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/werkzeug@3.1.9",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/werkzeug@3.1.9",
+    "target": "pkg:pypi/watchdog"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/brotlicffi@1.2.0.2",
+    "target": "pkg:pypi/cffi@2.1.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/cffi@2.1.1",
+    "target": "pkg:pypi/pycparser@3.11"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/blinker@1.9.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/click@8.5.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/itsdangerous@2.2.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/jinja2@3.1.6"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/werkzeug@3.1.9"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/brotlicffi@1.2.0.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/decorator@5.3.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/flasgger@0.9.7.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/flask@3.1.3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/greenlet@2.0.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/six@1.17.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/werkzeug@3.1.9"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jinja2@3.1.6",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema-specifications@2025.9.1",
+    "target": "pkg:pypi/referencing@0.37.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/jsonschema-specifications@2025.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/referencing@0.37.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rpds-py@2026.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/mistune@3.4.0",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/rpds-py@2026.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/werkzeug@3.1.9",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/brotlicffi@1.2.0.2",
+    "target": "pkg:pypi/cffi@2.1.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/cffi@2.1.1",
+    "target": "pkg:pypi/pycparser@3.11"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/blinker@1.9.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/click@8.5.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/itsdangerous@2.2.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/jinja2@3.1.6"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/werkzeug@3.1.9"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/brotlicffi@1.2.0.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/decorator@5.3.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/flasgger@0.9.7.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/flask@3.1.3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/greenlet@2.0.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/six@1.17.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/werkzeug@3.1.9"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jinja2@3.1.6",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema-specifications@2025.9.1",
+    "target": "pkg:pypi/referencing@0.37.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/jsonschema-specifications@2025.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/referencing@0.37.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rpds-py@2026.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/rpds-py@2026.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "wheel",
+    "source": "pkg:pypi/werkzeug@3.1.9",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/brotlicffi@1.2.0.2",
+    "target": "pkg:pypi/cffi@2.1.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/cffi@2.1.1",
+    "target": "pkg:pypi/pycparser@3.11"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flasgger@0.9.7.1",
+    "target": "pkg:pypi/flask@3.1.3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flasgger@0.9.7.1",
+    "target": "pkg:pypi/jsonschema@4.26.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flasgger@0.9.7.1",
+    "target": "pkg:pypi/mistune@3.4.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flasgger@0.9.7.1",
+    "target": "pkg:pypi/packaging@26.3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flasgger@0.9.7.1",
+    "target": "pkg:pypi/pyyaml@6.0.3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flasgger@0.9.7.1",
+    "target": "pkg:pypi/six@1.17.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/asgiref"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/blinker@1.9.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/click@8.5.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/importlib-metadata"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/itsdangerous@2.2.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/jinja2@3.1.6"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/python-dotenv"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/werkzeug@3.1.9"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/greenlet@2.0.2",
+    "target": "pkg:pypi/docutils"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/greenlet@2.0.2",
+    "target": "pkg:pypi/objgraph"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/greenlet@2.0.2",
+    "target": "pkg:pypi/psutil"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/greenlet@2.0.2",
+    "target": "pkg:pypi/sphinx"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/brotlicffi@1.2.0.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/decorator@5.3.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/flasgger@0.9.7.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/flask@3.1.3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/gevent"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/greenlet@2.0.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/gunicorn"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/importlib-metadata"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/pytest"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/six@1.17.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/tox"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/werkzeug@3.1.9"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jinja2@3.1.6",
+    "target": "pkg:pypi/babel"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jinja2@3.1.6",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema-specifications@2025.9.1",
+    "target": "pkg:pypi/referencing@0.37.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/fqdn"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/idna"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/isoduration"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/jsonpointer"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/jsonschema-specifications@2025.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/referencing@0.37.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rfc3339-validator"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rfc3986-validator"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rfc3987"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rfc3987-syntax"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rpds-py@2026.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/uri-template"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/webcolors"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/mistune@3.4.0",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/rpds-py@2026.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/werkzeug@3.1.9",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B1",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/werkzeug@3.1.9",
+    "target": "pkg:pypi/watchdog"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/brotlicffi@1.2.0.2",
+    "target": "pkg:pypi/cffi@2.1.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/cffi@2.1.1",
+    "target": "pkg:pypi/pycparser@3.11"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flasgger@0.9.7.1",
+    "target": "pkg:pypi/flask@3.1.3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flasgger@0.9.7.1",
+    "target": "pkg:pypi/jsonschema@4.26.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flasgger@0.9.7.1",
+    "target": "pkg:pypi/mistune@3.4.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flasgger@0.9.7.1",
+    "target": "pkg:pypi/packaging@26.3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flasgger@0.9.7.1",
+    "target": "pkg:pypi/pyyaml@6.0.3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flasgger@0.9.7.1",
+    "target": "pkg:pypi/six@1.17.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/blinker@1.9.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/click@8.5.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/itsdangerous@2.2.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/jinja2@3.1.6"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/werkzeug@3.1.9"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/brotlicffi@1.2.0.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/decorator@5.3.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/flasgger@0.9.7.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/flask@3.1.3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/greenlet@2.0.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/six@1.17.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/werkzeug@3.1.9"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jinja2@3.1.6",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema-specifications@2025.9.1",
+    "target": "pkg:pypi/referencing@0.37.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/jsonschema-specifications@2025.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/referencing@0.37.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rpds-py@2026.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_FP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/mistune@3.4.0",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/rpds-py@2026.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B2",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/werkzeug@3.1.9",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/brotlicffi@1.2.0.2",
+    "target": "pkg:pypi/cffi@2.1.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/cffi@2.1.1",
+    "target": "pkg:pypi/pycparser@3.11"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flasgger@0.9.7.1",
+    "target": "pkg:pypi/flask@3.1.3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flasgger@0.9.7.1",
+    "target": "pkg:pypi/jsonschema@4.26.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flasgger@0.9.7.1",
+    "target": "pkg:pypi/mistune@3.4.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flasgger@0.9.7.1",
+    "target": "pkg:pypi/packaging@26.3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flasgger@0.9.7.1",
+    "target": "pkg:pypi/pyyaml@6.0.3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flasgger@0.9.7.1",
+    "target": "pkg:pypi/six@1.17.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/blinker@1.9.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/click@8.5.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/itsdangerous@2.2.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/jinja2@3.1.6"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/flask@3.1.3",
+    "target": "pkg:pypi/werkzeug@3.1.9"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/brotlicffi@1.2.0.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/decorator@5.3.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/flasgger@0.9.7.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/flask@3.1.3"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/greenlet@2.0.2"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/six@1.17.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/httpbin@0.10.2",
+    "target": "pkg:pypi/werkzeug@3.1.9"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jinja2@3.1.6",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema-specifications@2025.9.1",
+    "target": "pkg:pypi/referencing@0.37.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/jsonschema-specifications@2025.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/referencing@0.37.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/jsonschema@4.26.0",
+    "target": "pkg:pypi/rpds-py@2026.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/attrs@26.1.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/rpds-py@2026.9.1"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/referencing@0.37.0",
+    "target": "pkg:pypi/typing-extensions@4.16.0"
+  },
+  {
+    "arm": "predicted",
+    "baseline": "B3",
+    "decision": "SCORED_TP",
+    "project": "httpbin",
+    "regime": "sdist",
+    "source": "pkg:pypi/werkzeug@3.1.9",
+    "target": "pkg:pypi/markupsafe@3.0.4"
+  }
+]

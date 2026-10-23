@@ -1,0 +1,1184 @@
+{
+  "artifacts": {
+    "ai_feasibility.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.746166Z",
+      "sha256": "9e01caf903202e26ebfdce6cab8454575c258f7f740c24158a11ba25d53d4ed5"
+    },
+    "context.json": {
+      "sha256": "01d068d53883eb9a9a6d25e8722f2721f40df97082a5b98771fe8c8342eb1b46",
+      "written_at": "2026-10-22T21:17:09.265049Z"
+    },
+    "counterfactual_evidence_repair.json": {
+      "sha256": "397f3e420e54defd58ba36a52436c71a93e325d9ae0e301f2903d9664f0504ef",
+      "written_at": "2026-10-22T21:17:13.293615Z"
+    },
+    "edge_scope_audit.json": {
+      "sha256": "620fc8be8b73c9488bce276401bfc9b0bdbf4e9dcb75b81c147a94fa39006bc1",
+      "written_at": "2026-10-22T21:17:13.300490Z"
+    },
+    "evidence_snapshot/partial/attrs-26.1.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.746894Z",
+      "sha256": "11ba4c607e3b2a0beb1896e60c4d3fc628a73bdb440d1fac287f8d1c5ff7d9cb"
+    },
+    "evidence_snapshot/partial/blinker-1.9.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.746940Z",
+      "sha256": "cc8033d9961dcf5f8c05a3e7dc4022d4dd25f98d728c0b86f9a37774f66c826e"
+    },
+    "evidence_snapshot/partial/brotlicffi-1.2.0.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.746980Z",
+      "sha256": "cb58c6e6cce55cd3c84325a361ef13a2f5107c6bafae6188e8332de4050e70f4"
+    },
+    "evidence_snapshot/partial/cattrs-26.2.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747020Z",
+      "sha256": "0c690e02291443f4f0df337008fde2d02bdfba080499569ca04b0dd075db045f"
+    },
+    "evidence_snapshot/partial/certifi-2023.7.22.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747059Z",
+      "sha256": "2088d8f9a1870612f3992c8248efc63e165a1e86c71413995b566c75e1057ff4"
+    },
+    "evidence_snapshot/partial/certifi-2024.2.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747099Z",
+      "sha256": "a4f9a7c53e09017d669d6663d3cf2c52d65d156705a05d0817793a7570a29e9d"
+    },
+    "evidence_snapshot/partial/cffi-1.15.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747136Z",
+      "sha256": "648019f48a1e1d1b88f9b6f868d861ef405518408c7edbe79ea4bfece74e166e"
+    },
+    "evidence_snapshot/partial/cffi-1.16.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747175Z",
+      "sha256": "8bcc26587a5edb9bd09b9c3f4a81f2035b8c5f3f5d6dec4451d82b299ce5aa73"
+    },
+    "evidence_snapshot/partial/cffi-2.1.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747212Z",
+      "sha256": "bb1c3f411ee5821fdc0b8d4551634bcf16b4369ff066ae460daa2e51f7b5af5f"
+    },
+    "evidence_snapshot/partial/charset-normalizer-3.2.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747250Z",
+      "sha256": "d80f393357340686336d725991e067db1a1241c328fff19c5c79f8872094e21a"
+    },
+    "evidence_snapshot/partial/charset-normalizer-3.3.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747286Z",
+      "sha256": "578a86035bb5fdaa3b9d64d1911fac236d7b7b158b1734d5bf43476d23e9aea9"
+    },
+    "evidence_snapshot/partial/click-8.5.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747333Z",
+      "sha256": "f114ab74e2e43fe1c730c6287395491b07892d744df1874015624a13c45afbae"
+    },
+    "evidence_snapshot/partial/cryptography-41.0.5.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747384Z",
+      "sha256": "ca219ad4e00671c73c2b7bc9df66e1e24fc6f999c64e47b3cf5b695f20b9bd38"
+    },
+    "evidence_snapshot/partial/cryptography-41.0.6.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747427Z",
+      "sha256": "d99cb3d4a15afed5cdf760896347c10916d7cfe9279d846344dfb58a1b3efb9f"
+    },
+    "evidence_snapshot/partial/cryptography-42.0.5.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747470Z",
+      "sha256": "460fe5be4a16137a10b8037e9467e9df1309200c18451ae78f5208a266626200"
+    },
+    "evidence_snapshot/partial/decorator-5.3.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747512Z",
+      "sha256": "3414554c4103feb0b0b63ec25c1d8dc73be6caf8336399e1948bb26f0079108e"
+    },
+    "evidence_snapshot/partial/evidence_manifest.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747567Z",
+      "sha256": "ae5910488e2e5713ba9508cfc4f54250d00dce9ff45b42311b2eb9bdbb879aff"
+    },
+    "evidence_snapshot/partial/flasgger-0.9.7.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747605Z",
+      "sha256": "edc04bb6a3f0dce7a7d72113a3dc19d24b5d8564e64f953d26f059971d4a010d"
+    },
+    "evidence_snapshot/partial/flask-3.1.3.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747642Z",
+      "sha256": "d8b0be3e60a5fe0b3216fd4735c250f51af21c7714ec11a9c71e071e9970dd90"
+    },
+    "evidence_snapshot/partial/greenlet-2.0.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747679Z",
+      "sha256": "2bff9e44002fca2f83248acb73c4e7a18371d78f4b7bacde39d66f8089bc9007"
+    },
+    "evidence_snapshot/partial/httpbin-0.10.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747722Z",
+      "sha256": "853692cdce7523c24fe762364996f9a3d81a6204fc199d8ed6d45c278a401b45"
+    },
+    "evidence_snapshot/partial/idna-3.4.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747760Z",
+      "sha256": "bb2332bdd8e91cd798fe8860526c70e2bc3f2863f3020098aa162148f891e7ae"
+    },
+    "evidence_snapshot/partial/idna-3.6.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747797Z",
+      "sha256": "ae304782dc57bc520c5c31258ea401704382da23dbf699af1d196b345c7bc09a"
+    },
+    "evidence_snapshot/partial/itsdangerous-2.2.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747835Z",
+      "sha256": "57116dd3ed56fd9cb394e0cc2b68e58e344ac2eee2586a7a97aafe742af37410"
+    },
+    "evidence_snapshot/partial/jinja2-3.1.6.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747872Z",
+      "sha256": "f921f78f1dad307bd3b9f9b266dacf95c56106f6e7daf0b39991cc0a7bc18a0c"
+    },
+    "evidence_snapshot/partial/jsonschema-4.26.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747910Z",
+      "sha256": "3f59df19528b23921e4d99c34dec4542005b65176b2c970d270deaad68c6960f"
+    },
+    "evidence_snapshot/partial/jsonschema-specifications-2025.9.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747947Z",
+      "sha256": "081ac05665ab3d8cb8f68bd9b90bc185de9d5f8a3e7a24dadfdc96b509ad2285"
+    },
+    "evidence_snapshot/partial/markupsafe-3.0.4.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.747985Z",
+      "sha256": "02d9dfbb234feb90352d4eb9e754590177064b56abc267315b60f498e1e19c13"
+    },
+    "evidence_snapshot/partial/mistune-3.4.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748021Z",
+      "sha256": "afbae5d0a96e93a0d97f6b709d717931a409827441769841e1dc429bdfaa2304"
+    },
+    "evidence_snapshot/partial/packaging-26.3.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748059Z",
+      "sha256": "bb685476915715f3d04dc8e4e50deff0dfc425875ca950878d030d5a6de3eaa2"
+    },
+    "evidence_snapshot/partial/platformdirs-4.13.5.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748096Z",
+      "sha256": "8fcff0ecb890d3c58ca9aafadc75d8182fdc56c602b5b5355f6b70ed6515aa31"
+    },
+    "evidence_snapshot/partial/pycparser-2.21.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748132Z",
+      "sha256": "ce6f260e60fef18913bd06fa8c2c1a5da7b303c8fafbe46cec91f2f29f362b74"
+    },
+    "evidence_snapshot/partial/pycparser-3.11.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748168Z",
+      "sha256": "6656a88ad18f5c95fdffd0d7110ae454a3201c744c9a6271c0b295de223d050f"
+    },
+    "evidence_snapshot/partial/pyopenssl-23.2.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748204Z",
+      "sha256": "4fa8d94503579fbf78f50b3c035a81e646418ed3a0aa873f37cd2d8648ff19d8"
+    },
+    "evidence_snapshot/partial/pyopenssl-23.3.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748241Z",
+      "sha256": "890b7c738d9b52d30bd051fb5c8f9e97864cddf52fbe6daff82d284007eca7a9"
+    },
+    "evidence_snapshot/partial/pysocks-1.7.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748277Z",
+      "sha256": "05040ba154c0f080226966dd5751a429023d2c68b818ade02fbd5c1374006fcb"
+    },
+    "evidence_snapshot/partial/pyyaml-6.0.3.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748313Z",
+      "sha256": "b259c9ab2d2e54ac5149ec726a335dd8ab1c852eea0463fb5c32fed7d3170105"
+    },
+    "evidence_snapshot/partial/referencing-0.37.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748375Z",
+      "sha256": "1dd151d6f13a2013f6003af567da65c6f396dcbd4a920a2f794ec31f0571e64a"
+    },
+    "evidence_snapshot/partial/requests-2.28.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748415Z",
+      "sha256": "43784cd0a64b5685849a689b05239a3c7d7033d0e39f96b1eaf35d79d5ce90b9"
+    },
+    "evidence_snapshot/partial/requests-2.31.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748455Z",
+      "sha256": "6f749781e855208c35cab6d710077ab00c9728a57bc1d1d137d6f317b64b0095"
+    },
+    "evidence_snapshot/partial/requests-cache-1.1.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748496Z",
+      "sha256": "c609c084ec18bf079e36b3e044335063629404735ee07e2edf061ef2cb73ddc4"
+    },
+    "evidence_snapshot/partial/rpds-py-2026.9.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748534Z",
+      "sha256": "97512187ef13720871e2c9a105863e0b73eedd84461d4b6d6817eb078cd62e48"
+    },
+    "evidence_snapshot/partial/six-1.16.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748572Z",
+      "sha256": "8f29cb2bebf8f6204bb3f362276f41d65cf348b69e90cb76a16436dd4a3b7560"
+    },
+    "evidence_snapshot/partial/six-1.17.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748609Z",
+      "sha256": "8423cbc7208fcf7669ef417bd9d4bc59091e8f698a64b7cf2e263ff2a0d57b00"
+    },
+    "evidence_snapshot/partial/typing-extensions-4.16.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748646Z",
+      "sha256": "ed9a8cabda96790d88f08685b6045526c4b8912dd30c617128c2b73073e03680"
+    },
+    "evidence_snapshot/partial/url-normalize-3.0.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748683Z",
+      "sha256": "3d18598dd2671cc7392394bf6c2a4f9d15846b19133d97274e9226b4fdbf3d81"
+    },
+    "evidence_snapshot/partial/urllib3-1.26.17.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748722Z",
+      "sha256": "4ef0e00c477372c1000bae57176bf4c06210af7c952fffda67bbc73c7e6669d6"
+    },
+    "evidence_snapshot/partial/urllib3-1.26.18.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748759Z",
+      "sha256": "a59f66ce151432702d4a3f0176a155b1b460c94653f0d2add3d78e8f03e0fd47"
+    },
+    "evidence_snapshot/partial/urllib3-2.0.7.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748796Z",
+      "sha256": "f5f65dc571b2269ec8a006fb3c5a7e5284f3bef55ade1737504cdd38b7f29ee8"
+    },
+    "evidence_snapshot/partial/werkzeug-3.1.9.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748832Z",
+      "sha256": "9fdbf7331c2a8df4e50319f0897370fb9f9f1e95182e0af314bcc497f000edf2"
+    },
+    "evidence_snapshot/sdist/attrs-26.1.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748872Z",
+      "sha256": "11ba4c607e3b2a0beb1896e60c4d3fc628a73bdb440d1fac287f8d1c5ff7d9cb"
+    },
+    "evidence_snapshot/sdist/blinker-1.9.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748910Z",
+      "sha256": "cc8033d9961dcf5f8c05a3e7dc4022d4dd25f98d728c0b86f9a37774f66c826e"
+    },
+    "evidence_snapshot/sdist/brotlicffi-1.2.0.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748948Z",
+      "sha256": "cb58c6e6cce55cd3c84325a361ef13a2f5107c6bafae6188e8332de4050e70f4"
+    },
+    "evidence_snapshot/sdist/cattrs-26.2.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.748987Z",
+      "sha256": "0c690e02291443f4f0df337008fde2d02bdfba080499569ca04b0dd075db045f"
+    },
+    "evidence_snapshot/sdist/certifi-2023.7.22.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749024Z",
+      "sha256": "2088d8f9a1870612f3992c8248efc63e165a1e86c71413995b566c75e1057ff4"
+    },
+    "evidence_snapshot/sdist/certifi-2024.2.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749061Z",
+      "sha256": "a4f9a7c53e09017d669d6663d3cf2c52d65d156705a05d0817793a7570a29e9d"
+    },
+    "evidence_snapshot/sdist/certifi-2026.10.19.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749098Z",
+      "sha256": "e48d5bde7c721be8a2081ffcc830dbef51d511a239b249526d5555e4ca393661"
+    },
+    "evidence_snapshot/sdist/cffi-1.15.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749136Z",
+      "sha256": "648019f48a1e1d1b88f9b6f868d861ef405518408c7edbe79ea4bfece74e166e"
+    },
+    "evidence_snapshot/sdist/cffi-1.16.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749173Z",
+      "sha256": "8bcc26587a5edb9bd09b9c3f4a81f2035b8c5f3f5d6dec4451d82b299ce5aa73"
+    },
+    "evidence_snapshot/sdist/cffi-2.1.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749210Z",
+      "sha256": "bb1c3f411ee5821fdc0b8d4551634bcf16b4369ff066ae460daa2e51f7b5af5f"
+    },
+    "evidence_snapshot/sdist/charset-normalizer-3.2.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749247Z",
+      "sha256": "d80f393357340686336d725991e067db1a1241c328fff19c5c79f8872094e21a"
+    },
+    "evidence_snapshot/sdist/charset-normalizer-3.3.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749283Z",
+      "sha256": "578a86035bb5fdaa3b9d64d1911fac236d7b7b158b1734d5bf43476d23e9aea9"
+    },
+    "evidence_snapshot/sdist/charset-normalizer-3.5.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749343Z",
+      "sha256": "fb73510a2b62d652dd1b599f7704215afb9a43ddba1f3335c82a31145c095b3d"
+    },
+    "evidence_snapshot/sdist/click-8.5.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749388Z",
+      "sha256": "f114ab74e2e43fe1c730c6287395491b07892d744df1874015624a13c45afbae"
+    },
+    "evidence_snapshot/sdist/cryptography-41.0.5.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749432Z",
+      "sha256": "ca219ad4e00671c73c2b7bc9df66e1e24fc6f999c64e47b3cf5b695f20b9bd38"
+    },
+    "evidence_snapshot/sdist/cryptography-41.0.6.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749477Z",
+      "sha256": "d99cb3d4a15afed5cdf760896347c10916d7cfe9279d846344dfb58a1b3efb9f"
+    },
+    "evidence_snapshot/sdist/cryptography-42.0.5.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749524Z",
+      "sha256": "460fe5be4a16137a10b8037e9467e9df1309200c18451ae78f5208a266626200"
+    },
+    "evidence_snapshot/sdist/decorator-5.3.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749570Z",
+      "sha256": "3414554c4103feb0b0b63ec25c1d8dc73be6caf8336399e1948bb26f0079108e"
+    },
+    "evidence_snapshot/sdist/evidence_manifest.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749627Z",
+      "sha256": "a4f922be6f4156c4b60a5e08cc77c461e2e8b936dd5104efa84ca09f713cc7c1"
+    },
+    "evidence_snapshot/sdist/flasgger-0.9.7.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749709Z",
+      "sha256": "525e8acf0f5e6404a9d151df5ed053699f5139819aed04cb5f13789126071924"
+    },
+    "evidence_snapshot/sdist/flask-3.1.3.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749751Z",
+      "sha256": "d8b0be3e60a5fe0b3216fd4735c250f51af21c7714ec11a9c71e071e9970dd90"
+    },
+    "evidence_snapshot/sdist/greenlet-2.0.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749792Z",
+      "sha256": "2bff9e44002fca2f83248acb73c4e7a18371d78f4b7bacde39d66f8089bc9007"
+    },
+    "evidence_snapshot/sdist/httpbin-0.10.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749833Z",
+      "sha256": "853692cdce7523c24fe762364996f9a3d81a6204fc199d8ed6d45c278a401b45"
+    },
+    "evidence_snapshot/sdist/idna-3.20.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749874Z",
+      "sha256": "d328a66a4d1a1be2e8844e5c99da6c5b8e638fd45b01420071b913138bd5fb39"
+    },
+    "evidence_snapshot/sdist/idna-3.4.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749914Z",
+      "sha256": "bb2332bdd8e91cd798fe8860526c70e2bc3f2863f3020098aa162148f891e7ae"
+    },
+    "evidence_snapshot/sdist/idna-3.6.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749955Z",
+      "sha256": "ae304782dc57bc520c5c31258ea401704382da23dbf699af1d196b345c7bc09a"
+    },
+    "evidence_snapshot/sdist/itsdangerous-2.2.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.749996Z",
+      "sha256": "57116dd3ed56fd9cb394e0cc2b68e58e344ac2eee2586a7a97aafe742af37410"
+    },
+    "evidence_snapshot/sdist/jinja2-3.1.6.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.750036Z",
+      "sha256": "f921f78f1dad307bd3b9f9b266dacf95c56106f6e7daf0b39991cc0a7bc18a0c"
+    },
+    "evidence_snapshot/sdist/jsonschema-4.26.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.750077Z",
+      "sha256": "3f59df19528b23921e4d99c34dec4542005b65176b2c970d270deaad68c6960f"
+    },
+    "evidence_snapshot/sdist/jsonschema-specifications-2025.9.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.750117Z",
+      "sha256": "081ac05665ab3d8cb8f68bd9b90bc185de9d5f8a3e7a24dadfdc96b509ad2285"
+    },
+    "evidence_snapshot/sdist/markupsafe-3.0.4.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.750158Z",
+      "sha256": "02d9dfbb234feb90352d4eb9e754590177064b56abc267315b60f498e1e19c13"
+    },
+    "evidence_snapshot/sdist/mistune-3.4.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.750197Z",
+      "sha256": "afbae5d0a96e93a0d97f6b709d717931a409827441769841e1dc429bdfaa2304"
+    },
+    "evidence_snapshot/sdist/packaging-26.3.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.750237Z",
+      "sha256": "bb685476915715f3d04dc8e4e50deff0dfc425875ca950878d030d5a6de3eaa2"
+    },
+    "evidence_snapshot/sdist/pip-24.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.750276Z",
+      "sha256": "d76ffdb5d8e0858f94bfe7f4b660d60367fd4bd760e386178efe226f8c65ca50"
+    },
+    "evidence_snapshot/sdist/platformdirs-4.13.5.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.750316Z",
+      "sha256": "8fcff0ecb890d3c58ca9aafadc75d8182fdc56c602b5b5355f6b70ed6515aa31"
+    },
+    "evidence_snapshot/sdist/pycparser-2.21.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.750363Z",
+      "sha256": "ce6f260e60fef18913bd06fa8c2c1a5da7b303c8fafbe46cec91f2f29f362b74"
+    },
+    "evidence_snapshot/sdist/pycparser-3.11.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.750403Z",
+      "sha256": "6656a88ad18f5c95fdffd0d7110ae454a3201c744c9a6271c0b295de223d050f"
+    },
+    "evidence_snapshot/sdist/pyopenssl-23.2.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.750456Z",
+      "sha256": "4fa8d94503579fbf78f50b3c035a81e646418ed3a0aa873f37cd2d8648ff19d8"
+    },
+    "evidence_snapshot/sdist/pyopenssl-23.3.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.750513Z",
+      "sha256": "890b7c738d9b52d30bd051fb5c8f9e97864cddf52fbe6daff82d284007eca7a9"
+    },
+    "evidence_snapshot/sdist/pysocks-1.7.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.750573Z",
+      "sha256": "05040ba154c0f080226966dd5751a429023d2c68b818ade02fbd5c1374006fcb"
+    },
+    "evidence_snapshot/sdist/pyyaml-6.0.3.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.750636Z",
+      "sha256": "b259c9ab2d2e54ac5149ec726a335dd8ab1c852eea0463fb5c32fed7d3170105"
+    },
+    "evidence_snapshot/sdist/referencing-0.37.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.750707Z",
+      "sha256": "1dd151d6f13a2013f6003af567da65c6f396dcbd4a920a2f794ec31f0571e64a"
+    },
+    "evidence_snapshot/sdist/requests-2.28.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.750781Z",
+      "sha256": "43784cd0a64b5685849a689b05239a3c7d7033d0e39f96b1eaf35d79d5ce90b9"
+    },
+    "evidence_snapshot/sdist/requests-2.31.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.750845Z",
+      "sha256": "6f749781e855208c35cab6d710077ab00c9728a57bc1d1d137d6f317b64b0095"
+    },
+    "evidence_snapshot/sdist/requests-2.34.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.750912Z",
+      "sha256": "b6108c4fb0da177d28d5d66cac8c0d593d448088954368b7305129cc76486c62"
+    },
+    "evidence_snapshot/sdist/requests-cache-1.1.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.750973Z",
+      "sha256": "c609c084ec18bf079e36b3e044335063629404735ee07e2edf061ef2cb73ddc4"
+    },
+    "evidence_snapshot/sdist/rpds-py-2026.9.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751021Z",
+      "sha256": "97512187ef13720871e2c9a105863e0b73eedd84461d4b6d6817eb078cd62e48"
+    },
+    "evidence_snapshot/sdist/six-1.16.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751080Z",
+      "sha256": "8f29cb2bebf8f6204bb3f362276f41d65cf348b69e90cb76a16436dd4a3b7560"
+    },
+    "evidence_snapshot/sdist/six-1.17.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751140Z",
+      "sha256": "8423cbc7208fcf7669ef417bd9d4bc59091e8f698a64b7cf2e263ff2a0d57b00"
+    },
+    "evidence_snapshot/sdist/typing-extensions-4.16.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751198Z",
+      "sha256": "ed9a8cabda96790d88f08685b6045526c4b8912dd30c617128c2b73073e03680"
+    },
+    "evidence_snapshot/sdist/url-normalize-3.0.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751243Z",
+      "sha256": "3d18598dd2671cc7392394bf6c2a4f9d15846b19133d97274e9226b4fdbf3d81"
+    },
+    "evidence_snapshot/sdist/urllib3-1.26.17.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751297Z",
+      "sha256": "4ef0e00c477372c1000bae57176bf4c06210af7c952fffda67bbc73c7e6669d6"
+    },
+    "evidence_snapshot/sdist/urllib3-1.26.18.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751353Z",
+      "sha256": "a59f66ce151432702d4a3f0176a155b1b460c94653f0d2add3d78e8f03e0fd47"
+    },
+    "evidence_snapshot/sdist/urllib3-2.0.7.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751398Z",
+      "sha256": "f5f65dc571b2269ec8a006fb3c5a7e5284f3bef55ade1737504cdd38b7f29ee8"
+    },
+    "evidence_snapshot/sdist/urllib3-2.8.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751435Z",
+      "sha256": "5071d5861c46b3a8addf25266bb9fde00806d5bf14bf8a2b1ff42406f5e463ef"
+    },
+    "evidence_snapshot/sdist/werkzeug-3.1.9.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751474Z",
+      "sha256": "9fdbf7331c2a8df4e50319f0897370fb9f9f1e95182e0af314bcc497f000edf2"
+    },
+    "evidence_snapshot/wheel/attrs-26.1.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751514Z",
+      "sha256": "11ba4c607e3b2a0beb1896e60c4d3fc628a73bdb440d1fac287f8d1c5ff7d9cb"
+    },
+    "evidence_snapshot/wheel/blinker-1.9.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751552Z",
+      "sha256": "cc8033d9961dcf5f8c05a3e7dc4022d4dd25f98d728c0b86f9a37774f66c826e"
+    },
+    "evidence_snapshot/wheel/brotlicffi-1.2.0.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751589Z",
+      "sha256": "cb58c6e6cce55cd3c84325a361ef13a2f5107c6bafae6188e8332de4050e70f4"
+    },
+    "evidence_snapshot/wheel/cattrs-26.2.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751626Z",
+      "sha256": "0c690e02291443f4f0df337008fde2d02bdfba080499569ca04b0dd075db045f"
+    },
+    "evidence_snapshot/wheel/certifi-2023.7.22.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751663Z",
+      "sha256": "2088d8f9a1870612f3992c8248efc63e165a1e86c71413995b566c75e1057ff4"
+    },
+    "evidence_snapshot/wheel/certifi-2024.2.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751700Z",
+      "sha256": "a4f9a7c53e09017d669d6663d3cf2c52d65d156705a05d0817793a7570a29e9d"
+    },
+    "evidence_snapshot/wheel/certifi-2026.10.19.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751737Z",
+      "sha256": "e48d5bde7c721be8a2081ffcc830dbef51d511a239b249526d5555e4ca393661"
+    },
+    "evidence_snapshot/wheel/cffi-1.15.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751775Z",
+      "sha256": "648019f48a1e1d1b88f9b6f868d861ef405518408c7edbe79ea4bfece74e166e"
+    },
+    "evidence_snapshot/wheel/cffi-1.16.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751812Z",
+      "sha256": "8bcc26587a5edb9bd09b9c3f4a81f2035b8c5f3f5d6dec4451d82b299ce5aa73"
+    },
+    "evidence_snapshot/wheel/cffi-2.1.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751850Z",
+      "sha256": "bb1c3f411ee5821fdc0b8d4551634bcf16b4369ff066ae460daa2e51f7b5af5f"
+    },
+    "evidence_snapshot/wheel/charset-normalizer-3.2.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751889Z",
+      "sha256": "d80f393357340686336d725991e067db1a1241c328fff19c5c79f8872094e21a"
+    },
+    "evidence_snapshot/wheel/charset-normalizer-3.3.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751927Z",
+      "sha256": "578a86035bb5fdaa3b9d64d1911fac236d7b7b158b1734d5bf43476d23e9aea9"
+    },
+    "evidence_snapshot/wheel/charset-normalizer-3.5.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.751983Z",
+      "sha256": "fb73510a2b62d652dd1b599f7704215afb9a43ddba1f3335c82a31145c095b3d"
+    },
+    "evidence_snapshot/wheel/click-8.5.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752020Z",
+      "sha256": "f114ab74e2e43fe1c730c6287395491b07892d744df1874015624a13c45afbae"
+    },
+    "evidence_snapshot/wheel/cryptography-41.0.5.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752059Z",
+      "sha256": "ca219ad4e00671c73c2b7bc9df66e1e24fc6f999c64e47b3cf5b695f20b9bd38"
+    },
+    "evidence_snapshot/wheel/cryptography-41.0.6.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752097Z",
+      "sha256": "d99cb3d4a15afed5cdf760896347c10916d7cfe9279d846344dfb58a1b3efb9f"
+    },
+    "evidence_snapshot/wheel/cryptography-42.0.5.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752135Z",
+      "sha256": "460fe5be4a16137a10b8037e9467e9df1309200c18451ae78f5208a266626200"
+    },
+    "evidence_snapshot/wheel/decorator-5.3.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752172Z",
+      "sha256": "3414554c4103feb0b0b63ec25c1d8dc73be6caf8336399e1948bb26f0079108e"
+    },
+    "evidence_snapshot/wheel/evidence_manifest.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752218Z",
+      "sha256": "a9bc09ad266ebf8c0a6e34a1bc6e24644d609ed75c4cabbceb90cde69775ed98"
+    },
+    "evidence_snapshot/wheel/flasgger-0.9.7.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752255Z",
+      "sha256": "3a00cff7d29001275891d0698333eebdb36792aa25fd7ff6be4c93e78fe4b848"
+    },
+    "evidence_snapshot/wheel/flask-3.1.3.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752291Z",
+      "sha256": "d8b0be3e60a5fe0b3216fd4735c250f51af21c7714ec11a9c71e071e9970dd90"
+    },
+    "evidence_snapshot/wheel/greenlet-2.0.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752338Z",
+      "sha256": "2bff9e44002fca2f83248acb73c4e7a18371d78f4b7bacde39d66f8089bc9007"
+    },
+    "evidence_snapshot/wheel/httpbin-0.10.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752380Z",
+      "sha256": "853692cdce7523c24fe762364996f9a3d81a6204fc199d8ed6d45c278a401b45"
+    },
+    "evidence_snapshot/wheel/idna-3.20.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752418Z",
+      "sha256": "d328a66a4d1a1be2e8844e5c99da6c5b8e638fd45b01420071b913138bd5fb39"
+    },
+    "evidence_snapshot/wheel/idna-3.4.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752456Z",
+      "sha256": "bb2332bdd8e91cd798fe8860526c70e2bc3f2863f3020098aa162148f891e7ae"
+    },
+    "evidence_snapshot/wheel/idna-3.6.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752493Z",
+      "sha256": "ae304782dc57bc520c5c31258ea401704382da23dbf699af1d196b345c7bc09a"
+    },
+    "evidence_snapshot/wheel/itsdangerous-2.2.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752531Z",
+      "sha256": "57116dd3ed56fd9cb394e0cc2b68e58e344ac2eee2586a7a97aafe742af37410"
+    },
+    "evidence_snapshot/wheel/jinja2-3.1.6.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752568Z",
+      "sha256": "f921f78f1dad307bd3b9f9b266dacf95c56106f6e7daf0b39991cc0a7bc18a0c"
+    },
+    "evidence_snapshot/wheel/jsonschema-4.26.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752605Z",
+      "sha256": "3f59df19528b23921e4d99c34dec4542005b65176b2c970d270deaad68c6960f"
+    },
+    "evidence_snapshot/wheel/jsonschema-specifications-2025.9.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752642Z",
+      "sha256": "081ac05665ab3d8cb8f68bd9b90bc185de9d5f8a3e7a24dadfdc96b509ad2285"
+    },
+    "evidence_snapshot/wheel/markupsafe-3.0.4.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752678Z",
+      "sha256": "02d9dfbb234feb90352d4eb9e754590177064b56abc267315b60f498e1e19c13"
+    },
+    "evidence_snapshot/wheel/mistune-3.4.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752715Z",
+      "sha256": "afbae5d0a96e93a0d97f6b709d717931a409827441769841e1dc429bdfaa2304"
+    },
+    "evidence_snapshot/wheel/packaging-26.3.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752751Z",
+      "sha256": "bb685476915715f3d04dc8e4e50deff0dfc425875ca950878d030d5a6de3eaa2"
+    },
+    "evidence_snapshot/wheel/pip-24.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752788Z",
+      "sha256": "d76ffdb5d8e0858f94bfe7f4b660d60367fd4bd760e386178efe226f8c65ca50"
+    },
+    "evidence_snapshot/wheel/platformdirs-4.13.5.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752824Z",
+      "sha256": "8fcff0ecb890d3c58ca9aafadc75d8182fdc56c602b5b5355f6b70ed6515aa31"
+    },
+    "evidence_snapshot/wheel/pycparser-2.21.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752861Z",
+      "sha256": "ce6f260e60fef18913bd06fa8c2c1a5da7b303c8fafbe46cec91f2f29f362b74"
+    },
+    "evidence_snapshot/wheel/pycparser-3.11.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752897Z",
+      "sha256": "6656a88ad18f5c95fdffd0d7110ae454a3201c744c9a6271c0b295de223d050f"
+    },
+    "evidence_snapshot/wheel/pyopenssl-23.2.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752934Z",
+      "sha256": "4fa8d94503579fbf78f50b3c035a81e646418ed3a0aa873f37cd2d8648ff19d8"
+    },
+    "evidence_snapshot/wheel/pyopenssl-23.3.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.752970Z",
+      "sha256": "890b7c738d9b52d30bd051fb5c8f9e97864cddf52fbe6daff82d284007eca7a9"
+    },
+    "evidence_snapshot/wheel/pysocks-1.7.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.753007Z",
+      "sha256": "05040ba154c0f080226966dd5751a429023d2c68b818ade02fbd5c1374006fcb"
+    },
+    "evidence_snapshot/wheel/pyyaml-6.0.3.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.753042Z",
+      "sha256": "b259c9ab2d2e54ac5149ec726a335dd8ab1c852eea0463fb5c32fed7d3170105"
+    },
+    "evidence_snapshot/wheel/referencing-0.37.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.753079Z",
+      "sha256": "1dd151d6f13a2013f6003af567da65c6f396dcbd4a920a2f794ec31f0571e64a"
+    },
+    "evidence_snapshot/wheel/requests-2.28.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.753115Z",
+      "sha256": "43784cd0a64b5685849a689b05239a3c7d7033d0e39f96b1eaf35d79d5ce90b9"
+    },
+    "evidence_snapshot/wheel/requests-2.31.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.753150Z",
+      "sha256": "6f749781e855208c35cab6d710077ab00c9728a57bc1d1d137d6f317b64b0095"
+    },
+    "evidence_snapshot/wheel/requests-2.34.2.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.753185Z",
+      "sha256": "b6108c4fb0da177d28d5d66cac8c0d593d448088954368b7305129cc76486c62"
+    },
+    "evidence_snapshot/wheel/requests-cache-1.1.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.753222Z",
+      "sha256": "c609c084ec18bf079e36b3e044335063629404735ee07e2edf061ef2cb73ddc4"
+    },
+    "evidence_snapshot/wheel/rpds-py-2026.9.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.753258Z",
+      "sha256": "97512187ef13720871e2c9a105863e0b73eedd84461d4b6d6817eb078cd62e48"
+    },
+    "evidence_snapshot/wheel/six-1.16.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.753293Z",
+      "sha256": "8f29cb2bebf8f6204bb3f362276f41d65cf348b69e90cb76a16436dd4a3b7560"
+    },
+    "evidence_snapshot/wheel/six-1.17.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.753348Z",
+      "sha256": "8423cbc7208fcf7669ef417bd9d4bc59091e8f698a64b7cf2e263ff2a0d57b00"
+    },
+    "evidence_snapshot/wheel/typing-extensions-4.16.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.753387Z",
+      "sha256": "ed9a8cabda96790d88f08685b6045526c4b8912dd30c617128c2b73073e03680"
+    },
+    "evidence_snapshot/wheel/url-normalize-3.0.1.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.753424Z",
+      "sha256": "3d18598dd2671cc7392394bf6c2a4f9d15846b19133d97274e9226b4fdbf3d81"
+    },
+    "evidence_snapshot/wheel/urllib3-1.26.17.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.753471Z",
+      "sha256": "4ef0e00c477372c1000bae57176bf4c06210af7c952fffda67bbc73c7e6669d6"
+    },
+    "evidence_snapshot/wheel/urllib3-1.26.18.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.753517Z",
+      "sha256": "a59f66ce151432702d4a3f0176a155b1b460c94653f0d2add3d78e8f03e0fd47"
+    },
+    "evidence_snapshot/wheel/urllib3-2.0.7.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.753554Z",
+      "sha256": "f5f65dc571b2269ec8a006fb3c5a7e5284f3bef55ade1737504cdd38b7f29ee8"
+    },
+    "evidence_snapshot/wheel/urllib3-2.8.0.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.753590Z",
+      "sha256": "5071d5861c46b3a8addf25266bb9fde00806d5bf14bf8a2b1ff42406f5e463ef"
+    },
+    "evidence_snapshot/wheel/werkzeug-3.1.9.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.753629Z",
+      "sha256": "9fdbf7331c2a8df4e50319f0897370fb9f9f1e95182e0af314bcc497f000edf2"
+    },
+    "httpbin/cyclonedx/normalized.cdx.json": {
+      "sha256": "270e5f82144d97a98b297fe34475ba8bf276c6c96bc2f101e9c970fe491c5a11",
+      "written_at": "2026-10-22T21:17:09.256236Z"
+    },
+    "httpbin/cyclonedx/original.cdx.json": {
+      "sha256": "a9fc5c0606e77001888e2e0fdde8ed0109804bb070b849552d4cd41b185bbf8b",
+      "source": "/home/phucht/project/sbom_security_poc/runs/pilot-repo-httpbin/generator_cyclonedx.cdx.json",
+      "written_at": "2026-10-22T21:17:09.257471Z"
+    },
+    "httpbin/cyclonedx/schema_validation.json": {
+      "sha256": "634adcbfb2c0fa49ea6c24ba5bc9b502ba976b006765f2e383db53d81596be75",
+      "written_at": "2026-10-22T21:17:13.280598Z"
+    },
+    "httpbin/cyclonedx/scope.json": {
+      "sha256": "216d1eac5c6125bc8d0e78d4d30acf62320dfb2d0c13c58063da3fe5b1b9fea9",
+      "written_at": "2026-10-22T21:17:09.257089Z"
+    },
+    "httpbin/partial/evaluation.json": {
+      "sha256": "dff44c61a51b15733c642f63016b21d5d94513030d80d6b80f62b6c753f44271",
+      "written_at": "2026-10-22T21:17:12.416896Z"
+    },
+    "httpbin/partial/evidence.json": {
+      "sha256": "17333911a70bd8aa4e067ce643135ae301a24681190ca5dbce3615f2730aad50",
+      "written_at": "2026-10-22T21:17:12.417497Z"
+    },
+    "httpbin/partial/predictions.json": {
+      "sha256": "a514dda6373b6810bbfe230aabb5b63293ffd51e5c53f817e1375797056f249e",
+      "written_at": "2026-10-22T21:17:12.415403Z"
+    },
+    "httpbin/partial/reconstructed.cdx.json": {
+      "sha256": "2f3854ddc24f311ea9be3bd8add79e07a99e35188e2ed13fb8265410e2d7a480",
+      "written_at": "2026-10-22T21:17:12.418134Z"
+    },
+    "httpbin/partial/schema_validation.json": {
+      "sha256": "634adcbfb2c0fa49ea6c24ba5bc9b502ba976b006765f2e383db53d81596be75",
+      "written_at": "2026-10-22T21:17:12.424364Z"
+    },
+    "httpbin/sdist/evaluation.json": {
+      "sha256": "9a9caf6e066e3a213f099e648cd37a0f9d388dea31337bbb426d9c48c363ce3e",
+      "written_at": "2026-10-22T21:17:13.246691Z"
+    },
+    "httpbin/sdist/evidence.json": {
+      "sha256": "a0b140305eacdab01d2da1119f951e9ed0df652570bae4c23edf7eb4e0086e2c",
+      "written_at": "2026-10-22T21:17:13.247724Z"
+    },
+    "httpbin/sdist/predictions.json": {
+      "sha256": "934e48a15f05ddcfdaf3f9b8b9e2a989b841eb06f1281520cc9d5785cfc013dc",
+      "written_at": "2026-10-22T21:17:13.244133Z"
+    },
+    "httpbin/sdist/reconstructed.cdx.json": {
+      "sha256": "4191136bd4d79d86c112a182be56db00465ba470b244fb36d4614a218645c46a",
+      "written_at": "2026-10-22T21:17:13.248956Z"
+    },
+    "httpbin/sdist/schema_validation.json": {
+      "sha256": "634adcbfb2c0fa49ea6c24ba5bc9b502ba976b006765f2e383db53d81596be75",
+      "written_at": "2026-10-22T21:17:13.260300Z"
+    },
+    "httpbin/syft/normalized.cdx.json": {
+      "sha256": "3cae15f1c0830e58569f66c13bf8beda2f72c2f50c030f31c413bfb34534c48e",
+      "written_at": "2026-10-22T21:17:09.249955Z"
+    },
+    "httpbin/syft/original.cdx.json": {
+      "sha256": "114eedfd5e6a5f2dbae39cb4f11ca041914bd1ad25b841190488894eae6fb270",
+      "source": "/home/phucht/project/sbom_security_poc/runs/pilot-repo-httpbin/generator_syft.cdx.json",
+      "written_at": "2026-10-22T21:17:09.253824Z"
+    },
+    "httpbin/syft/schema_validation.json": {
+      "sha256": "634adcbfb2c0fa49ea6c24ba5bc9b502ba976b006765f2e383db53d81596be75",
+      "written_at": "2026-10-22T21:17:13.273027Z"
+    },
+    "httpbin/syft/scope.json": {
+      "sha256": "429bc90c377b99a4cf6706f02ae69f0ec4a8c663cc081363918232c0f0a4b703",
+      "written_at": "2026-10-22T21:17:09.252953Z"
+    },
+    "httpbin/wheel/evaluation.json": {
+      "sha256": "dff44c61a51b15733c642f63016b21d5d94513030d80d6b80f62b6c753f44271",
+      "written_at": "2026-10-22T21:17:12.821884Z"
+    },
+    "httpbin/wheel/evidence.json": {
+      "sha256": "8b87a75403c6559e8b206173bba104ecbdbc1325e0e780b13f5c07a7b516b567",
+      "written_at": "2026-10-22T21:17:12.822511Z"
+    },
+    "httpbin/wheel/predictions.json": {
+      "sha256": "8a3e40476e15eff24daa80f3d41135a5a35a4c814cb9fd12e8286b4171149c08",
+      "written_at": "2026-10-22T21:17:12.820167Z"
+    },
+    "httpbin/wheel/reconstructed.cdx.json": {
+      "sha256": "6943f764512b28eb5cf76ff9caa2da0f7f10bcf1a5f9089c8a76a948b3b3f62c",
+      "written_at": "2026-10-22T21:17:12.823173Z"
+    },
+    "httpbin/wheel/schema_validation.json": {
+      "sha256": "634adcbfb2c0fa49ea6c24ba5bc9b502ba976b006765f2e383db53d81596be75",
+      "written_at": "2026-10-22T21:17:12.828947Z"
+    },
+    "public_acquisition_logs/flasgger-0.9.7.1.index.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:28:33.203021Z",
+      "sha256": "9a6815eda8f209033a034a08534bd15c47d9420f215c836d2918b2d1661d83d1"
+    },
+    "public_acquisition_logs/flasgger-independent-build.log": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:28:33.203079Z",
+      "sha256": "4621068160ad6abf3c3021ddf1611b2f2a9d614be0e6d993503518f0094585ff"
+    },
+    "public_acquisition_logs/requests-2.34.2.index.json": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:28:33.203127Z",
+      "sha256": "8622e50ffd295ed759ec793f2a009172a4ed0204bbc5e948de23111bc3d2aeae"
+    },
+    "requests-cache/cyclonedx/normalized.cdx.json": {
+      "sha256": "a7a70a221a7d4d2a07bb93d5ef9048ac2529ddbeb9ba5d8bae19ff2c83d35fcb",
+      "written_at": "2026-10-22T21:17:09.241085Z"
+    },
+    "requests-cache/cyclonedx/original.cdx.json": {
+      "sha256": "3e7c61dd44bfe24a3430640fe852909297c493e809352838d864a017dcf9a5d2",
+      "source": "/home/phucht/project/sbom_security_poc/runs/pilot-repo-requests-cache/generator_cyclonedx.cdx.json",
+      "written_at": "2026-10-22T21:17:09.241809Z"
+    },
+    "requests-cache/cyclonedx/schema_validation.json": {
+      "sha256": "634adcbfb2c0fa49ea6c24ba5bc9b502ba976b006765f2e383db53d81596be75",
+      "written_at": "2026-10-22T21:17:12.019029Z"
+    },
+    "requests-cache/cyclonedx/scope.json": {
+      "sha256": "7af0a2d723383f507ad34ddd1ba42ee8ca2ef23540e90afd0a670ec0fe9f84b4",
+      "written_at": "2026-10-22T21:17:09.241533Z"
+    },
+    "requests-cache/partial/evaluation.json": {
+      "sha256": "636645a982f9d8bdd8d17da551f60e852b131669243bf04e09dfdccb0f5ba399",
+      "written_at": "2026-10-22T21:17:11.160893Z"
+    },
+    "requests-cache/partial/evidence.json": {
+      "sha256": "a1c130759206d6df1c64cffec888aed24404d2a6130c68118500f75a5ae819b6",
+      "written_at": "2026-10-22T21:17:11.161315Z"
+    },
+    "requests-cache/partial/predictions.json": {
+      "sha256": "2c6f54e53f92a5239d9d928082c123fc84cb9b9c75ab9810829653329ef612ae",
+      "written_at": "2026-10-22T21:17:11.159830Z"
+    },
+    "requests-cache/partial/reconstructed.cdx.json": {
+      "sha256": "c98c9c141c8aa54fe5d00edaa5e0daf06e601f7cae597b2d2ecc0e42300297e4",
+      "written_at": "2026-10-22T21:17:11.161884Z"
+    },
+    "requests-cache/partial/schema_validation.json": {
+      "sha256": "634adcbfb2c0fa49ea6c24ba5bc9b502ba976b006765f2e383db53d81596be75",
+      "written_at": "2026-10-22T21:17:11.165658Z"
+    },
+    "requests-cache/sdist/evaluation.json": {
+      "sha256": "a0bbdf31fd468c8f770dfd2d80ed5e083d948e292d5e8515e62ab9f362b465b2",
+      "written_at": "2026-10-22T21:17:12.005652Z"
+    },
+    "requests-cache/sdist/evidence.json": {
+      "sha256": "ba3f4f13f3df584cf14a0d607d801df92b4dd7008b17f95462b719d4ca1b6a4d",
+      "written_at": "2026-10-22T21:17:12.006180Z"
+    },
+    "requests-cache/sdist/predictions.json": {
+      "sha256": "74dfaf86100d759f8622b7481b26aeea1a8a3536025c33a197826c084a68529a",
+      "written_at": "2026-10-22T21:17:12.004146Z"
+    },
+    "requests-cache/sdist/reconstructed.cdx.json": {
+      "sha256": "0f69cad104d7d09e4b9674f584887987b3768b7ab01c6f8ee76b5d51355f2700",
+      "written_at": "2026-10-22T21:17:12.006734Z"
+    },
+    "requests-cache/sdist/schema_validation.json": {
+      "sha256": "634adcbfb2c0fa49ea6c24ba5bc9b502ba976b006765f2e383db53d81596be75",
+      "written_at": "2026-10-22T21:17:12.010791Z"
+    },
+    "requests-cache/syft/normalized.cdx.json": {
+      "sha256": "8ea2f8ea8ae848fe4c575a825a9bc3a21e92c848e5d1a0380239daa1fd7113f6",
+      "written_at": "2026-10-22T21:17:09.236721Z"
+    },
+    "requests-cache/syft/original.cdx.json": {
+      "sha256": "de1c80186124b4ed63c353f63a9504721f6d17beeecb69c656f4f67203335855",
+      "source": "/home/phucht/project/sbom_security_poc/runs/pilot-repo-requests-cache/generator_syft.cdx.json",
+      "written_at": "2026-10-22T21:17:09.238935Z"
+    },
+    "requests-cache/syft/schema_validation.json": {
+      "sha256": "634adcbfb2c0fa49ea6c24ba5bc9b502ba976b006765f2e383db53d81596be75",
+      "written_at": "2026-10-22T21:17:12.014815Z"
+    },
+    "requests-cache/syft/scope.json": {
+      "sha256": "0b80abd7c99ef07a97fb74b1842d37922d88a6fe08c76352d34793a4e128ee85",
+      "written_at": "2026-10-22T21:17:09.238368Z"
+    },
+    "requests-cache/wheel/evaluation.json": {
+      "sha256": "a0bbdf31fd468c8f770dfd2d80ed5e083d948e292d5e8515e62ab9f362b465b2",
+      "written_at": "2026-10-22T21:17:11.578857Z"
+    },
+    "requests-cache/wheel/evidence.json": {
+      "sha256": "3f7e9f2037d34b31595a98e3a8cc5662f1d911720b3794b632c8a64ba996f2a5",
+      "written_at": "2026-10-22T21:17:11.579354Z"
+    },
+    "requests-cache/wheel/predictions.json": {
+      "sha256": "74dfaf86100d759f8622b7481b26aeea1a8a3536025c33a197826c084a68529a",
+      "written_at": "2026-10-22T21:17:11.577672Z"
+    },
+    "requests-cache/wheel/reconstructed.cdx.json": {
+      "sha256": "1fafb8c55a75e891c749c2460fb95afba3d2b7c9499bb6b463310220a80457b1",
+      "written_at": "2026-10-22T21:17:11.579864Z"
+    },
+    "requests-cache/wheel/schema_validation.json": {
+      "sha256": "634adcbfb2c0fa49ea6c24ba5bc9b502ba976b006765f2e383db53d81596be75",
+      "written_at": "2026-10-22T21:17:11.583946Z"
+    },
+    "requests/cyclonedx/normalized.cdx.json": {
+      "sha256": "f77ef6e680018783735a688ca6cc65a72616ed4232e2db8614634273a7e10e3d",
+      "written_at": "2026-10-22T21:17:09.228424Z"
+    },
+    "requests/cyclonedx/original.cdx.json": {
+      "sha256": "177c804931be0ee7b46e39a653636d5407f49d338908345492793cd385dd6072",
+      "source": "/home/phucht/project/sbom_security_poc/runs/e4-generator-discrepancy/generator_cyclonedx.cdx.json",
+      "written_at": "2026-10-22T21:17:09.228997Z"
+    },
+    "requests/cyclonedx/schema_validation.json": {
+      "sha256": "634adcbfb2c0fa49ea6c24ba5bc9b502ba976b006765f2e383db53d81596be75",
+      "written_at": "2026-10-22T21:17:10.767887Z"
+    },
+    "requests/cyclonedx/scope.json": {
+      "sha256": "303aca5294549d82e3b0782a89efc29ea5ed07d0d64f5fd678adbc7036ab4da8",
+      "written_at": "2026-10-22T21:17:09.228754Z"
+    },
+    "requests/partial/evaluation.json": {
+      "sha256": "6ad6d9d677a342bcfa690bc658c761e5bd5943fcb15c3c9dbd4699e089f733a0",
+      "written_at": "2026-10-22T21:17:09.730829Z"
+    },
+    "requests/partial/evidence.json": {
+      "sha256": "3f82f846e5fab3149dc6a8332877d54433b1b9f652c0794442506bc1d9d6015f",
+      "written_at": "2026-10-22T21:17:09.731588Z"
+    },
+    "requests/partial/predictions.json": {
+      "sha256": "5664e87a62a096aad6e5385ec8f578c9c97526ab4682a18c50a2f5d39ac41e6c",
+      "written_at": "2026-10-22T21:17:09.729803Z"
+    },
+    "requests/partial/reconstructed.cdx.json": {
+      "sha256": "dfd32c2a37256e6ad0872386ddb2f9ee5b6f07698aec017c06e97940bba25b15",
+      "written_at": "2026-10-22T21:17:09.732370Z"
+    },
+    "requests/partial/schema_validation.json": {
+      "sha256": "634adcbfb2c0fa49ea6c24ba5bc9b502ba976b006765f2e383db53d81596be75",
+      "written_at": "2026-10-22T21:17:09.892985Z"
+    },
+    "requests/sdist/evaluation.json": {
+      "sha256": "c2e7142ab7b767f0fe981246f48a2ccc093afe6f9f73b1b5444c0c173f8487f1",
+      "written_at": "2026-10-22T21:17:10.757213Z"
+    },
+    "requests/sdist/evidence.json": {
+      "sha256": "9e34b47c2b8c1858f021007e71e167ae44a4152a5a605550680d017d129fc3ac",
+      "written_at": "2026-10-22T21:17:10.757640Z"
+    },
+    "requests/sdist/predictions.json": {
+      "sha256": "3506ae221b7ad0df8e2b27f58cc3608074614c3162a4f25c19730e5bb2cdfadc",
+      "written_at": "2026-10-22T21:17:10.756510Z"
+    },
+    "requests/sdist/reconstructed.cdx.json": {
+      "sha256": "df9d5c213cfcb76a5633844ee98f16957798a45399425b960f95f0683e3e50eb",
+      "written_at": "2026-10-22T21:17:10.758081Z"
+    },
+    "requests/sdist/schema_validation.json": {
+      "sha256": "634adcbfb2c0fa49ea6c24ba5bc9b502ba976b006765f2e383db53d81596be75",
+      "written_at": "2026-10-22T21:17:10.761476Z"
+    },
+    "requests/syft/normalized.cdx.json": {
+      "sha256": "6c6c4f441818f1dbcf971274f9cb90c187dc50d4f89e4b3872dcc6d0139d11e2",
+      "written_at": "2026-10-22T21:17:09.225204Z"
+    },
+    "requests/syft/original.cdx.json": {
+      "sha256": "9bcf0dfe35b560afd5ac19a52d407f26a368c74346ec98ce04e38832000d821c",
+      "source": "/home/phucht/project/sbom_security_poc/runs/e4-generator-discrepancy/generator_syft.cdx.json",
+      "written_at": "2026-10-22T21:17:09.227059Z"
+    },
+    "requests/syft/schema_validation.json": {
+      "sha256": "634adcbfb2c0fa49ea6c24ba5bc9b502ba976b006765f2e383db53d81596be75",
+      "written_at": "2026-10-22T21:17:10.764733Z"
+    },
+    "requests/syft/scope.json": {
+      "sha256": "85cdb9591c161d6d5e66ff3b94c1cca6331bcd296adb8d6d85e3aae0e183de8f",
+      "written_at": "2026-10-22T21:17:09.226686Z"
+    },
+    "requests/wheel/evaluation.json": {
+      "sha256": "c2e7142ab7b767f0fe981246f48a2ccc093afe6f9f73b1b5444c0c173f8487f1",
+      "written_at": "2026-10-22T21:17:10.386513Z"
+    },
+    "requests/wheel/evidence.json": {
+      "sha256": "0bf45ca12c6e93324105dcd16c7685525982af551ef93e15ede513ced1300302",
+      "written_at": "2026-10-22T21:17:10.387169Z"
+    },
+    "requests/wheel/predictions.json": {
+      "sha256": "3506ae221b7ad0df8e2b27f58cc3608074614c3162a4f25c19730e5bb2cdfadc",
+      "written_at": "2026-10-22T21:17:10.385095Z"
+    },
+    "requests/wheel/reconstructed.cdx.json": {
+      "sha256": "cac5dc2f3c7ca296acfdfe06943be7e5bd41e2b27ec7f34e08a95aa30cb20b4a",
+      "written_at": "2026-10-22T21:17:10.387872Z"
+    },
+    "requests/wheel/schema_validation.json": {
+      "sha256": "634adcbfb2c0fa49ea6c24ba5bc9b502ba976b006765f2e383db53d81596be75",
+      "written_at": "2026-10-22T21:17:10.393220Z"
+    },
+    "scope_audit.csv": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.757458Z",
+      "sha256": "bad5ea4505525e0e1a54b87b34f345cf632811bc363b2c635ea6b1cbe9ca5baf"
+    },
+    "scope_reference_audit.csv": {
+      "original_creation_timestamp": "UNKNOWN unless independently recorded in content/stage trace",
+      "registered_at": "2026-10-22T21:26:44.757558Z",
+      "sha256": "4c5ae949f6536e6a7b1ac2404d3b6b9cdf2db210d655a3f81b531f37efbb2f2c"
+    }
+  },
+  "completed_at": "2026-10-22T21:17:13.300931Z",
+  "context": {
+    "build_kind": "PyPI release installation; not verified Git-commit build",
+    "data_kind": "EMPIRICAL_PILOT",
+    "installation_time": "UNKNOWN",
+    "purpose": "scope audit and counterfactual repair"
+  },
+  "protocol": "m2.3-validation-v1",
+  "replay_of": "/home/phucht/project/sbom_security_poc/runs/m23-validation-v1",
+  "reporting_completed_at": "2026-10-22T21:32:16.509667Z",
+  "run_id": "m23-validation-v2",
+  "schema_version": "run-manifest-v1",
+  "source_code_sha256": {
+    "agent_bridge.py": "2150a4c09dc00730a04f8e6289123572e687bb03163f745e6aed1e2779902957",
+    "benchmark.py": "c8095c75cacecceaa8b576c91f411fc363501804602453e85afcba8ade453580",
+    "bridge_server.py": "712e3ad1edea43b5d44d3cd8725318f5794fb5c8dfe0bc0bbc3370bf7061aaac",
+    "dashboard.py": "6b28332a42b4b18f1144141757752d4137239c4db04dec67b27a5592ce632669",
+    "evaluator.py": "78facce5cded43cb823fbff4f5a71b34daadf6bc83c2d4589c80b8a74f69be73",
+    "experiment.py": "7af01250dfd3ed6c50104b984f120f12310bab8c3ad83e3a4dbba94b9c0ac2ef",
+    "information_ablation.py": "07e8420bf2eda79f50d6502aac3dc8aa6a874b9a02d54e0bcf6e9cda302d1c0b",
+    "poc.py": "30e873220a3e25a1792ac310f4ef30c95cc4aa2c1c6da71e837dc43afc28d512",
+    "public_evidence.py": "bdf0200e920a98493a496700433247cfb4914c690d7cd14af5c1c8bff032a152",
+    "registry_provider.py": "cecb262a1f8caa5c224574fd78229dccb41149b8432fee0c3db051c9848ec9bc",
+    "research_baselines.py": "14da4f31f32b1efdf7882bd06ba3bff3d31f9e47cafc0391b3724ba3f45daf5b",
+    "research_core.py": "67910e84c566d4ce2ae3be8c8251dba82e52e7782ae9ef2c6ee0e4b77e6f7648",
+    "research_execution.py": "62edcd4c8828c0dc379acef2acfb4e7ae847ab07a034cf1a87ece7547f65758e",
+    "resolver.py": "64419edd63a707a3ca1ee9eb8ade78ec8d2749dd1b89869dd29b3de49026fbc7",
+    "scripts/attempt_dsn_install.py": "412f0345193dd3a8407dc8b086865916a68d3d54387c1dcfa466f5faf859d7c7",
+    "scripts/capture_environment.py": "57ae9611e35f6b7b22d84b50f1ae0db018c95fdff3e11fb6c4aa35a4035b0777",
+    "scripts/collect_public_evidence.py": "209e41966e8f01edfe5c1fcd6d6b694372c41a7b0bbb82b7744985f4bd6b595a",
+    "scripts/generate_fn_root_cause_report.py": "801362bf7d4857c41c3215591ce02ca0a7042e39855d04ba3f743d70f17614d6",
+    "scripts/inference_worker.py": "7cd18f7f4830a723ae80ecdaa86e2a5a280c7991dcf001392c5ce332ca40442a",
+    "scripts/prepare_research.py": "49bc704a1c872940c2320c7f6a6fad64ee87cf35a23a5053be26d50e0e1e6aa8",
+    "scripts/run_experiments_e1_to_e5.py": "80178083bcdb505263e09a0a3fec90a65b816ffd76ec202b939385872b96e593",
+    "scripts/run_factorial_ablation.py": "a67a7da8eeb712ccffee3ac34708b5ec1934ca8c62cf8a59814265f91626543d",
+    "scripts/run_information_ablation.py": "89624bfd901849ba9f1bc6fd8bb334717bab460280993f1f4ef478b5ec6a4ba0",
+    "scripts/run_paper_reproduction.py": "da9f5a1b49327803c91eb05bc0cd23fe98fa48ce3a75e36532722dd62d321395",
+    "scripts/run_pilot_m2.py": "3f66b640fb2a3f36d6d1986b39cac961c8be4a0ffb9391f1c50baa3c0b6b490e",
+    "scripts/run_real_generator_reconstruction.py": "7f01be79162c41ea5774131d669abc1aed9d5bfa5e344951f0b2725320f0c9b1",
+    "scripts/run_repository_pilots.py": "374d3100c37fa234c7b41096f4659aba0260c80fc4bee63ad0a38346b14d1cab",
+    "scripts/run_scientific_validation.py": "f2ea26cf9f976954490f0241af93d139374fcc7c31dbf4776691c3f5593b8676"
+  },
+  "source_commit": "545a1686da5342860456e1dfc54f4ee2d0d39079",
+  "stages": {},
+  "started_at": "2026-10-22T21:17:09.213157Z",
+  "status": "COMPLETE"
+}

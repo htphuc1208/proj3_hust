@@ -1,0 +1,182 @@
+[
+  {
+    "project_id": "requests",
+    "project_name": "requests",
+    "raw_generator_inputs": {
+      "anchore_syft": {
+        "raw_file": "runs/e4-generator-discrepancy/generator_syft.cdx.json",
+        "total_components": 115,
+        "scope_1_app_components": 83,
+        "scope_2_3_inventory_components": 32,
+        "direct_app_dependency_edges_reported": 0
+      },
+      "cyclonedx_py": {
+        "raw_file": "runs/e4-generator-discrepancy/generator_cyclonedx.cdx.json",
+        "total_components": 7,
+        "direct_app_dependency_edges_reported": 5,
+        "raw_precision": 0.8,
+        "raw_recall": 1.0,
+        "raw_f1": 0.8888888888888888
+      }
+    },
+    "ground_truth_oracle": {
+      "total_application_nodes": 5,
+      "total_direct_edges": 4
+    },
+    "reconstruction_on_syft_sbom": {
+      "B0_Observed_Only": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 4,
+        "precision": null,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "B1_Context_Free": {
+        "tp": 4,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "B2_Maximal_Supergraph": {
+        "tp": 4,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1": 0.8888888888888888
+      },
+      "B3_Context_Aware": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "reconstructed_artifact_path": "runs/e4-generator-discrepancy/reconstructed_from_syft.cdx.json"
+  },
+  {
+    "project_id": "requests-cache",
+    "project_name": "requests-cache",
+    "raw_generator_inputs": {
+      "anchore_syft": {
+        "raw_file": "runs/pilot-repo-requests-cache/generator_syft.cdx.json",
+        "total_components": 134,
+        "scope_1_app_components": 102,
+        "scope_2_3_inventory_components": 32,
+        "direct_app_dependency_edges_reported": 0
+      },
+      "cyclonedx_py": {
+        "raw_file": "runs/pilot-repo-requests-cache/generator_cyclonedx.cdx.json",
+        "total_components": 13,
+        "direct_app_dependency_edges_reported": 15,
+        "raw_precision": 0.8666666666666667,
+        "raw_recall": 1.0,
+        "raw_f1": 0.9285714285714286
+      }
+    },
+    "ground_truth_oracle": {
+      "total_application_nodes": 11,
+      "total_direct_edges": 13
+    },
+    "reconstruction_on_syft_sbom": {
+      "B0_Observed_Only": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 13,
+        "precision": null,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "B1_Context_Free": {
+        "tp": 9,
+        "fp": 36,
+        "fn": 4,
+        "precision": 0.2,
+        "recall": 0.6923076923076923,
+        "f1": 0.3103448275862069
+      },
+      "B2_Maximal_Supergraph": {
+        "tp": 9,
+        "fp": 4,
+        "fn": 4,
+        "precision": 0.6923076923076923,
+        "recall": 0.6923076923076923,
+        "f1": 0.6923076923076923
+      },
+      "B3_Context_Aware": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 4,
+        "precision": 1.0,
+        "recall": 0.6923076923076923,
+        "f1": 0.8181818181818182
+      }
+    },
+    "reconstructed_artifact_path": "runs/pilot-repo-requests-cache/reconstructed_from_syft.cdx.json"
+  },
+  {
+    "project_id": "httpbin",
+    "project_name": "httpbin",
+    "raw_generator_inputs": {
+      "anchore_syft": {
+        "raw_file": "runs/pilot-repo-httpbin/generator_syft.cdx.json",
+        "total_components": 180,
+        "scope_1_app_components": 148,
+        "scope_2_3_inventory_components": 32,
+        "direct_app_dependency_edges_reported": 0
+      },
+      "cyclonedx_py": {
+        "raw_file": "runs/pilot-repo-httpbin/generator_cyclonedx.cdx.json",
+        "total_components": 26,
+        "direct_app_dependency_edges_reported": 34,
+        "raw_precision": 0.9117647058823529,
+        "raw_recall": 1.0,
+        "raw_f1": 0.9538461538461539
+      }
+    },
+    "ground_truth_oracle": {
+      "total_application_nodes": 24,
+      "total_direct_edges": 31
+    },
+    "reconstruction_on_syft_sbom": {
+      "B0_Observed_Only": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 31,
+        "precision": null,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "B1_Context_Free": {
+        "tp": 25,
+        "fp": 25,
+        "fn": 6,
+        "precision": 0.5,
+        "recall": 0.8064516129032258,
+        "f1": 0.6172839506172839
+      },
+      "B2_Maximal_Supergraph": {
+        "tp": 25,
+        "fp": 1,
+        "fn": 6,
+        "precision": 0.9615384615384616,
+        "recall": 0.8064516129032258,
+        "f1": 0.8771929824561403
+      },
+      "B3_Context_Aware": {
+        "tp": 25,
+        "fp": 0,
+        "fn": 6,
+        "precision": 1.0,
+        "recall": 0.8064516129032258,
+        "f1": 0.8928571428571429
+      }
+    },
+    "reconstructed_artifact_path": "runs/pilot-repo-httpbin/reconstructed_from_syft.cdx.json"
+  }
+]

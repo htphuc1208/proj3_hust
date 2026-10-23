@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "pip_inspect_sha256": "1f2e1b7f3f4ee76f9473481cca93a9bddbc38bafd48b3e74ab05632d9d3fc290",
+    "pip_install_report_sha256": "cef487f9da2c841a91bdcfc38d0bd63e17fc0c087b39cc9d4dda21d85308c2a0"
+  },
+  "pip_inspect_pip_version": "24.0",
+  "project": "httpbin",
+  "root_requirements": [
+    "httpbin==0.10.2"
+  ],
+  "time_utc": "2026-10-22T07:08:27.827056+00:00",
+  "warning": "Reference describes a concrete installed Python environment, not actual runtime calls or shipped binary contents"
+}
