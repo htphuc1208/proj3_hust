@@ -1,0 +1,46 @@
+{
+  "schema_version": "level23-controlled-pilot-v1",
+  "evidence_scope": "CONTROLLED_BENIGN_CVE_MECHANISM; not a natural-project or AI-superiority benchmark",
+  "advisory": "CVE-2020-14343",
+  "base_image": "sha256:9c900dea9e8fb7e16277c179b555cc72d29a352dbc33cff48ad5a0412fd5bfc7",
+  "base_image_reference": "python:3.11-slim",
+  "expected_python": "3.11.16",
+  "versions": {
+    "5.3.1": {
+      "sha256": "b8eac752c5e14d3eca0e6dd9199cd627518cb5ec06add0de9d32baeee6fe645d",
+      "upstream_commit": "538b5c93f7d5dee40322893c1e524e94a4f8bbde",
+      "role": "VULNERABLE_UPSTREAM"
+    },
+    "5.4.1": {
+      "sha256": "607774cbba28732bfa802b54baa7484215f530991055bb562efbed5b2f20a45e",
+      "upstream_commit": "ee37f4653c08fc07aecff69cfd92848e6b1a540e",
+      "role": "PATCHED_UPSTREAM_CONTROL"
+    }
+  },
+  "analyzer": {
+    "name": "PyCG",
+    "distribution": "pycg",
+    "version": "0.0.8",
+    "wheel_sha256": "90109b8b787d4496c2198576b0bb08ee5872e1a9a1d1ca557cb856c6798ec0da",
+    "artifact_kind": "PINNED_UNMODIFIED_UPSTREAM_SOURCE",
+    "commit": "8d5dc40837803beef1d8d379fbf2cdad6cd94641",
+    "source_archive": "https://codeload.github.com/vitsalis/PyCG/tar.gz/8d5dc40837803beef1d8d379fbf2cdad6cd94641",
+    "source_archive_sha256": "dae62ee403a90d9b49e890777f91fa296afc3ad58937d51c6adfd34f34478730",
+    "wheel_feasibility": "Original wheel contains PyCG/ but imports pycg; preparation attempt preserved in runs/level23-pilot-v2",
+    "publication": "Salis et al., 2021, PyCG: Practical Call Graph Generation in Python, ICSE",
+    "wheel_source_equivalence": "UNMEASURED; source profile uses upstream commit without renaming or patching the wheel"
+  },
+  "profiles": ["direct", "wrapper", "safe", "cooccurrence", "guard"],
+  "inputs": ["ordinary", "arithmetic"],
+  "entry_symbol": "app.entry",
+  "api_symbol": "yaml.load",
+  "patch_linked_symbol": "yaml.constructor.FullConstructor.construct_python_object_new",
+  "execution_kind": "UNMODIFIED_RELEASE_SDIST_SOURCE_TREE; not an installed-distribution capture",
+  "static_before_runtime": true,
+  "missing_path_status": "UNKNOWN",
+  "missing_witness_status": "NOT_OBSERVED_FOR_THIS_INPUT",
+  "product_vex": "under_investigation",
+  "product_triage_delta": "UNMEASURED",
+  "vrr": "UNMEASURED",
+  "confidence_calibration": "UNMEASURED"
+}

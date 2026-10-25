@@ -1,0 +1,56 @@
+{
+  "schema_version": "followup-evidence-acquisition-design-v1",
+  "status": "DESIGN_DRAFT_COHORT_AND_IMPLEMENTATION_PENDING",
+  "motivated_by_inspected_m25_test_results": true,
+  "requires_untouched_test_repositories": true,
+  "exclude_cohort": "runs/m25-cohort-buildable-v4/cohort.json",
+  "target_projects": {"development": 20, "calibration": 20, "test": 60},
+  "release_windows": {
+    "development": {"end": "2025-12-31T23:59:59Z"},
+    "calibration": {"start": "2026-01-01T00:00:00Z", "end": "2026-06-30T23:59:59Z"},
+    "test": {"start": "2026-07-01T00:00:00Z", "end": "2026-10-28T16:59:59Z"}
+  },
+  "selection_seed": 42,
+  "minimum_permitted_target_metadata_sources": 32,
+  "primary_acquisition_budget": 4,
+  "sensitivity_acquisition_budget": 16,
+  "llm_repetitions": 3,
+  "methods": [
+    "observed",
+    "additive_deterministic",
+    "reconciliation_fixed_order",
+    "reconciliation_cheapest_source",
+    "reconciliation_information_gain",
+    "single_agent_reconciliation"
+  ],
+  "conditions": ["full_metadata_reconciliation_control", "budgeted_acquisition"],
+  "primary_acquisition_metric": "new_direct_edge_f1",
+  "reconciliation_metrics": ["whole_direct_edge_precision", "whole_direct_edge_recall_delta"],
+  "unknown_labels": "EXCLUDED_FROM_KNOWN_NEGATIVES_AND_REPORTED_SEPARATELY",
+  "path_absence": "UNKNOWN",
+  "preserve_raw_observation": true,
+  "reconciliation_output": "SEPARATELY_NAMED_DERIVED_VIEW_AND_EVIDENCE_SIDECAR",
+  "bootstrap_repetitions": 10000,
+  "bootstrap_unit": "project",
+  "h2_holm_family": "three acquisition controls times two budgets",
+  "monetary_cost": "UNMEASURED_WITHOUT_VERIFIED_PRICING",
+  "security_test_strata_targets": {
+    "advisory_path_missing_in_raw_scanner": 15,
+    "advisory_path_already_visible": 15,
+    "zero_advisory_denominator": 30
+  },
+  "security_stratification": "TRUSTED_SELECTION_BEFORE_METHOD_PREDICTION; labels unavailable to inference",
+  "vrr_unit": "project/package_purl/advisory_id",
+  "vex_triage_delta": "UNMEASURED_WITHOUT_INDEPENDENT_PRODUCT_LABELS",
+  "false_assurance_reduction": "UNMEASURED_WITHOUT_INDEPENDENT_PRODUCT_LABELS",
+  "exploitability": "UNMEASURED",
+  "pending_before_registration": [
+    "freeze_candidate_pool_and_exclusion_manifest",
+    "freeze_builds_context_and_independent_references",
+    "establish_stratum_feasibility",
+    "implement_and_freeze_all_deterministic_controls",
+    "finish_development_transport_and_model_selection",
+    "estimate_detectable_effects_without_test_labels",
+    "freeze_advisory_snapshot_and_analysis_plan"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "pilot30-selection-protocol-v1",
+  "status": "DESIGN_ONLY_NOT_A_COLLECTED_CORPUS",
+  "purpose": "Development feasibility pilot before the proposed 300-repository evaluation",
+  "target_repository_count": 30,
+  "existing_development_case_manifest": "runs/gold-pilot-v3/manifest.json",
+  "existing_development_repository_count": 9,
+  "additional_repositories_collected_by_this_protocol": 0,
+  "strata": {
+    "pypi": 3,
+    "maven_gradle": 3,
+    "npm": 3,
+    "go_modules": 3,
+    "cargo": 3,
+    "bundler": 3,
+    "composer": 3,
+    "nuget": 3,
+    "swiftpm": 3,
+    "multi_ecosystem": 3
+  },
+  "selection_seed": 42,
+  "selection_policy": {
+    "rank_before_method_outputs": "SHA-256 of seed and canonical repository URL within each eligible stratum",
+    "deduplication_unit": "Repository family, including forks and shared monorepo roots",
+    "multi_ecosystem_requirement": "At least two independently configured package-manager targets; multiple languages alone do not suffice",
+    "replacement_basis": "Predeclared evidence/build feasibility only; retain failures and parent manifests",
+    "score_based_replacement": false,
+    "release_mapping": "COMMIT_ONLY until a release-to-source/artifact mapping is independently verified",
+    "test_eligibility": "Development/public families may not enter a future blind test; verify release chronology before any temporal claim",
+    "environment": "Pin OS, architecture, runtime and immutable toolchain image per target before resolution"
+  },
+  "collection_gate": {
+    "nine_case_machine_provenance": "PASSED; see the versioned run verification",
+    "independent_human_qa": "PENDING",
+    "independent_discovery_review": "PENDING",
+    "scanner_scope_matching_correctness": "PARTIAL: 22 native-crosschecked Python file bindings; npm coordinate groups and Java/weak-digest uncertainty remain; whole-inventory matching correctness unmeasured",
+    "materialized_scope_manifest": "runs/materialized-scope-v3/manifest.json",
+    "materialized_scope_verification": "runs/materialized-scope-v3-sandbox-audit/validation/verification.json",
+    "ready_for_new_collection": false
+  },
+  "reporting": {
+    "g1": "Source declarations with retrievable evidence",
+    "g2": "Native graph only where resolution and context checks succeed",
+    "g3": "Only inspected artifact claims; no forced completeness",
+    "failed_or_unavailable": "Keep explicit failure or UNKNOWN; never fabricate a resolved graph",
+    "confidence_and_downstream_security": "UNMEASURED until separately evaluated"
+  }
+}

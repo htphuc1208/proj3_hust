@@ -1,0 +1,407 @@
+{
+  "pilot-java-RxJava": {
+    "case_id": "pilot-java-RxJava",
+    "ecosystem": "maven",
+    "language": "java",
+    "project": "RxJava",
+    "pushed_at": "2026-03-11T08:58:01Z",
+    "repository_url": "https://github.com/ReactiveX/RxJava",
+    "tool_sboms": {
+      "combined_unifier": {
+        "edge_count": 16,
+        "package_count": 19,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/java/RxJava/combined_sbom.json",
+        "sha256": "d6c50b55021b2aa400e1bc8c8c447d1155d4a92fcff3f127478a56e0b0071d3c",
+        "size_bytes": 6351739
+      },
+      "dependency_graph": {
+        "edge_count": 8,
+        "package_count": 9,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/java/RxJava/dependency-graph-sbom.json",
+        "sha256": "f1c06129f45240559f562bc9563e7b82a092a75ab4158814177bf584be9dbdc2",
+        "size_bytes": 7507
+      },
+      "manifest_spdx": {
+        "edge_count": 0,
+        "package_count": 1,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/java/RxJava/_manifest/spdx_2.2/manifest.spdx.json",
+        "sha256": "d99b8e9342ef0d5442a5ba108f1606cb6ee8eb9d83b59a73ff017afb54dca913",
+        "size_bytes": 1676552
+      },
+      "syft": {
+        "edge_count": 0,
+        "package_count": 27,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/java/RxJava/syft-sbom.json",
+        "sha256": "15654bf97551166a26d8d590badc8879d279937d42f870a38b0fb6d448220307",
+        "size_bytes": 49155
+      },
+      "trivy": {
+        "edge_count": 0,
+        "package_count": 1,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/java/RxJava/trivy-sbom.json",
+        "sha256": "6f769b970f8f8cc2f52121c0c69c5f6552ea72f207a90efa2c031dd763e5b6d7",
+        "size_bytes": 973
+      }
+    }
+  },
+  "pilot-java-gson": {
+    "case_id": "pilot-java-gson",
+    "ecosystem": "maven",
+    "language": "java",
+    "project": "gson",
+    "pushed_at": "2026-03-10T15:12:15Z",
+    "repository_url": "https://github.com/google/gson",
+    "tool_sboms": {
+      "combined_unifier": {
+        "edge_count": 281,
+        "package_count": 120,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/java/gson/combined_sbom.json",
+        "sha256": "6c7323a04d3a7c6989da48dca723f3b19bb9ce0902c297556f19264c774c1135",
+        "size_bytes": 1262326
+      },
+      "dependency_graph": {
+        "edge_count": 66,
+        "package_count": 67,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/java/gson/dependency-graph-sbom.json",
+        "sha256": "72ebafe4bacc80933f52bf695b5938ce8fb42cba0e60398dd24cdc49970218d6",
+        "size_bytes": 48951
+      },
+      "manifest_spdx": {
+        "edge_count": 0,
+        "package_count": 1,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/java/gson/_manifest/spdx_2.2/manifest.spdx.json",
+        "sha256": "d92ddb6574801033dd24d463be0e7e5ca68a77646111123dc1d69498f8e9d9ce",
+        "size_bytes": 246130
+      },
+      "syft": {
+        "edge_count": 27,
+        "package_count": 40,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/java/gson/syft-sbom.json",
+        "sha256": "7fdb890577e02da28805b96048f4a60163f5ea6e58230c52cdbd8ba0c92fc375",
+        "size_bytes": 118394
+      },
+      "trivy": {
+        "edge_count": 170,
+        "package_count": 114,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/java/gson/trivy-sbom.json",
+        "sha256": "a042ab778ac727b25ffb86b2366f6c2796e50faefbfe3d0b044c9a7539c5b266",
+        "size_bytes": 160401
+      }
+    }
+  },
+  "pilot-java-zxing": {
+    "case_id": "pilot-java-zxing",
+    "ecosystem": "maven",
+    "language": "java",
+    "project": "zxing",
+    "pushed_at": "2026-03-10T13:38:46Z",
+    "repository_url": "https://github.com/zxing/zxing",
+    "tool_sboms": {
+      "combined_unifier": {
+        "edge_count": 176,
+        "package_count": 87,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/java/zxing/combined_sbom.json",
+        "sha256": "4c7043e06c93f201c4314962b2003e701bd0995e5eef07a1bd1d28046bb30af3",
+        "size_bytes": 15912495
+      },
+      "dependency_graph": {
+        "edge_count": 71,
+        "package_count": 72,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/java/zxing/dependency-graph-sbom.json",
+        "sha256": "bb2a3edc4b859d31dbafb6ba20c5c33aae3158b3e1ed69934a9cc4f558277461",
+        "size_bytes": 55373
+      },
+      "manifest_spdx": {
+        "edge_count": 0,
+        "package_count": 1,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/java/zxing/_manifest/spdx_2.2/manifest.spdx.json",
+        "sha256": "46bbcba6c7d733e29c8b930f82ab1d7899deda1ed7d63595ce8746f0d8d51036",
+        "size_bytes": 2937960
+      },
+      "syft": {
+        "edge_count": 18,
+        "package_count": 31,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/java/zxing/syft-sbom.json",
+        "sha256": "56cf26d39153d2fe16bb92b23565c967b49500d47b1f1303cd0e26d09e264277",
+        "size_bytes": 72068
+      },
+      "trivy": {
+        "edge_count": 18,
+        "package_count": 38,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/java/zxing/trivy-sbom.json",
+        "sha256": "768b7c38e372b27aeb8c19f50b8829fdbb9084ab646642842311ce762749d613",
+        "size_bytes": 43743
+      }
+    }
+  },
+  "pilot-javascript-ejs": {
+    "case_id": "pilot-javascript-ejs",
+    "ecosystem": "npm",
+    "language": "javascript",
+    "project": "ejs",
+    "pushed_at": "2026-03-05T23:45:10Z",
+    "repository_url": "https://github.com/mde/ejs",
+    "tool_sboms": {
+      "combined_unifier": {
+        "edge_count": 29,
+        "package_count": 19,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/javascript/ejs/combined_sbom.json",
+        "sha256": "6af7b2a70d5f056fd372780472ffd97dc89879279813a7ca995e5aab24387014",
+        "size_bytes": 302807
+      },
+      "dependency_graph": {
+        "edge_count": 14,
+        "package_count": 15,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/javascript/ejs/dependency-graph-sbom.json",
+        "sha256": "d7c42c57607f33de44dd1ce606b9fcd0e1759c5883b69f37b2f5a0ec7f291eaa",
+        "size_bytes": 9191
+      },
+      "manifest_spdx": {
+        "edge_count": 1,
+        "package_count": 2,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/javascript/ejs/_manifest/spdx_2.2/manifest.spdx.json",
+        "sha256": "42ef804bf2a79746f372a4a3b158a1f23432667412efa03d41c2b95ec5fdae34",
+        "size_bytes": 86924
+      },
+      "syft": {
+        "edge_count": 0,
+        "package_count": 3,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/javascript/ejs/syft-sbom.json",
+        "sha256": "ccfc872c0f1b5119ec4c642a85859b96a02d60fcfbea974fca70089cf8743083",
+        "size_bytes": 4452
+      },
+      "trivy": {
+        "edge_count": 0,
+        "package_count": 1,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/javascript/ejs/trivy-sbom.json",
+        "sha256": "8deca5ad5e0884ac8bcf86b5fd3f103dab1383679ab71165bdcdaca1da45f2e7",
+        "size_bytes": 973
+      }
+    }
+  },
+  "pilot-javascript-jquery-validation": {
+    "case_id": "pilot-javascript-jquery-validation",
+    "ecosystem": "npm",
+    "language": "javascript",
+    "project": "jquery-validation",
+    "pushed_at": "2026-02-25T09:41:08Z",
+    "repository_url": "https://github.com/jzaefferer/jquery-validation",
+    "tool_sboms": {
+      "combined_unifier": {
+        "edge_count": 39,
+        "package_count": 27,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/javascript/jquery-validation/combined_sbom.json",
+        "sha256": "4aa6bfc612e189caa8fa8c329cc6f99c532b31fa3c87c00cdb88ccdac8addf21",
+        "size_bytes": 729662
+      },
+      "dependency_graph": {
+        "edge_count": 19,
+        "package_count": 20,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/javascript/jquery-validation/dependency-graph-sbom.json",
+        "sha256": "0a0f223df418827d0c0a66f9d62889a2f3bb4503d301202ad2687987a28e1436",
+        "size_bytes": 14752
+      },
+      "manifest_spdx": {
+        "edge_count": 1,
+        "package_count": 2,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/javascript/jquery-validation/_manifest/spdx_2.2/manifest.spdx.json",
+        "sha256": "a82fc413bccc815d93763d97cd330456aa4f200169f0c32bb5c3a79b0716dfbe",
+        "size_bytes": 189221
+      },
+      "syft": {
+        "edge_count": 0,
+        "package_count": 7,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/javascript/jquery-validation/syft-sbom.json",
+        "sha256": "12230410f2ea4d3265179eadb308c48cd9002943cc91f196f4c576d607fbd6e9",
+        "size_bytes": 12070
+      },
+      "trivy": {
+        "edge_count": 0,
+        "package_count": 1,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/javascript/jquery-validation/trivy-sbom.json",
+        "sha256": "2e1b92f653a0f46a8ffcf81c44332815cafd14e2edc801aff7381be1973ab3c8",
+        "size_bytes": 973
+      }
+    }
+  },
+  "pilot-javascript-microbundle": {
+    "case_id": "pilot-javascript-microbundle",
+    "ecosystem": "npm",
+    "language": "javascript",
+    "project": "microbundle",
+    "pushed_at": "2026-02-01T19:24:38Z",
+    "repository_url": "https://github.com/developit/microbundle",
+    "tool_sboms": {
+      "combined_unifier": {
+        "edge_count": 9350,
+        "package_count": 1331,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/javascript/microbundle/combined_sbom.json",
+        "sha256": "d17e454b120be871b84dcba75a6136d2ebcc641bf29f01b60ff8328bd3872b2c",
+        "size_bytes": 6888294
+      },
+      "dependency_graph": {
+        "edge_count": 2250,
+        "package_count": 1129,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/javascript/microbundle/dependency-graph-sbom.json",
+        "sha256": "0215f1ada0e8860601899c8753a58d4404f7f914da0fd3297efebc3778ecbc6a",
+        "size_bytes": 1047522
+      },
+      "manifest_spdx": {
+        "edge_count": 7791,
+        "package_count": 1126,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/javascript/microbundle/_manifest/spdx_2.2/manifest.spdx.json",
+        "sha256": "a593d8caddd45e99c88753353b7d108ec34a2982744e34b81c44ea12c70a7175",
+        "size_bytes": 2954683
+      },
+      "syft": {
+        "edge_count": 0,
+        "package_count": 480,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/javascript/microbundle/syft-sbom.json",
+        "sha256": "2d0014f8970fdc61195999b43a7d22757c3896c19d46e1a19fefd549ab22d760",
+        "size_bytes": 1041336
+      },
+      "trivy": {
+        "edge_count": 806,
+        "package_count": 474,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/javascript/microbundle/trivy-sbom.json",
+        "sha256": "f3deab7e79fd6176f91eb6aebd786e3de78a924d8a9961560c43f260065be24b",
+        "size_bytes": 644639
+      }
+    }
+  },
+  "pilot-python-flask": {
+    "case_id": "pilot-python-flask",
+    "ecosystem": "pypi",
+    "language": "python",
+    "project": "flask",
+    "pushed_at": "2026-03-08T23:24:17Z",
+    "repository_url": "https://github.com/pallets/flask",
+    "tool_sboms": {
+      "combined_unifier": {
+        "edge_count": 388,
+        "package_count": 127,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/python/flask/combined_sbom.json",
+        "sha256": "f245e1b8a2482bb8a9a0500e8703c9b447b3472b7f4aee26d2b06c7f8c5b7c63",
+        "size_bytes": 1292329
+      },
+      "dependency_graph": {
+        "edge_count": 115,
+        "package_count": 116,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/python/flask/dependency-graph-sbom.json",
+        "sha256": "4903fd79e87259a943a3cf9884d9c151f9d6d7f79ec6b84f14d3669b09f3ee06",
+        "size_bytes": 98978
+      },
+      "manifest_spdx": {
+        "edge_count": 34,
+        "package_count": 22,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/python/flask/_manifest/spdx_2.2/manifest.spdx.json",
+        "sha256": "11568794c8c05b58838ec304c0644030344e89eb12885de5602bbf21f4ed39e9",
+        "size_bytes": 188392
+      },
+      "syft": {
+        "edge_count": 144,
+        "package_count": 122,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/python/flask/syft-sbom.json",
+        "sha256": "07ead2f7081bb64acdacdb673024f2a71eb136ab99eb7b21a8a076faab1bf7a8",
+        "size_bytes": 426478
+      },
+      "trivy": {
+        "edge_count": 12,
+        "package_count": 35,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/python/flask/trivy-sbom.json",
+        "sha256": "e73085c4baababf4bf778cfa00a656f869b43e3e8e5ae92d83712ebccd7571ff",
+        "size_bytes": 37112
+      }
+    }
+  },
+  "pilot-python-requests": {
+    "case_id": "pilot-python-requests",
+    "ecosystem": "pypi",
+    "language": "python",
+    "project": "requests",
+    "pushed_at": "2026-03-05T20:14:30Z",
+    "repository_url": "https://github.com/psf/requests",
+    "tool_sboms": {
+      "combined_unifier": {
+        "edge_count": 72,
+        "package_count": 56,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/python/requests/combined_sbom.json",
+        "sha256": "75344a87c331ea578dbcda48b406d990d06fd4d18bf97bac86b1a4d7f9690163",
+        "size_bytes": 462140
+      },
+      "dependency_graph": {
+        "edge_count": 21,
+        "package_count": 22,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/python/requests/dependency-graph-sbom.json",
+        "sha256": "93e59bc427ee87ad79dcc71849cb61b6f8c8d8e6eb6128b04d99d8d375e20389",
+        "size_bytes": 17065
+      },
+      "manifest_spdx": {
+        "edge_count": 31,
+        "package_count": 23,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/python/requests/_manifest/spdx_2.2/manifest.spdx.json",
+        "sha256": "5329a04cdf43573bffdd3dc7a96be7a42a60d208cadd3fbc338540f6076a74c7",
+        "size_bytes": 119419
+      },
+      "syft": {
+        "edge_count": 0,
+        "package_count": 20,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/python/requests/syft-sbom.json",
+        "sha256": "301c9d19d665bb2682061f11218e1ee1fcb78ea708f8cd11ccbe9ff44a26af1f",
+        "size_bytes": 44853
+      },
+      "trivy": {
+        "edge_count": 0,
+        "package_count": 3,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/python/requests/trivy-sbom.json",
+        "sha256": "c7f54cbe50c9df69518ddee929cfea3dac051d2739be676b594d6da5387e5509",
+        "size_bytes": 2776
+      }
+    }
+  },
+  "pilot-python-rich": {
+    "case_id": "pilot-python-rich",
+    "ecosystem": "pypi",
+    "language": "python",
+    "project": "rich",
+    "pushed_at": "2026-02-26T09:52:16Z",
+    "repository_url": "https://github.com/Textualize/rich",
+    "tool_sboms": {
+      "combined_unifier": {
+        "edge_count": 332,
+        "package_count": 97,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/python/rich/combined_sbom.json",
+        "sha256": "e842d03c250cafc27cc33f93d9bf637d17c2cc0b918cf143c7b25d20b9bffa14",
+        "size_bytes": 1820752
+      },
+      "dependency_graph": {
+        "edge_count": 63,
+        "package_count": 64,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/python/rich/dependency-graph-sbom.json",
+        "sha256": "27c7fa3b90467e455515355c2ecb175dfb9e4a264ce70a600963f04a9b92428d",
+        "size_bytes": 63442
+      },
+      "manifest_spdx": {
+        "edge_count": 105,
+        "package_count": 30,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/python/rich/_manifest/spdx_2.2/manifest.spdx.json",
+        "sha256": "a4d75066eafb08ae8562d135dddc976668498b350a89ff8364d58a1cbdb73113",
+        "size_bytes": 453648
+      },
+      "syft": {
+        "edge_count": 106,
+        "package_count": 68,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/python/rich/syft-sbom.json",
+        "sha256": "d2e8dc646b835571dce77539062dcb0c47096e50b63cba49d51df35ec0667180",
+        "size_bytes": 229039
+      },
+      "trivy": {
+        "edge_count": 26,
+        "package_count": 33,
+        "rel_path": "research/.work/sbom-unifier-replication/sbom/python/rich/trivy-sbom.json",
+        "sha256": "c193cc0f6331ae72cfc08db2b296df374f77f08dcd03611c6c00d56db745c3f8",
+        "size_bytes": 38160
+      }
+    }
+  }
+}

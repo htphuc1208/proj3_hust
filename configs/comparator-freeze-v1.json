@@ -1,0 +1,103 @@
+{
+  "schema_version": "comparator-protocol-freeze-v1",
+  "status": "FROZEN_PREPREDICTION_PROTOCOL",
+  "frozen_at": "2026-11-04T23:00:00Z",
+  "execution_status": "NO_FRESH_HELDOUT_PREDICTIONS",
+  "study": {
+    "population": "fresh unrestricted cohort only",
+    "partitions": {"development": 20, "calibration": 20, "test": 60},
+    "chronological_windows": {
+      "development_end": "2025-12-31T23:59:59Z",
+      "calibration_start": "2026-01-01T00:00:00Z",
+      "calibration_end": "2026-06-30T23:59:59Z",
+      "test_start": "2026-07-01T00:00:00Z",
+      "test_end": "2026-10-28T16:59:59Z"
+    },
+    "selection_seed": 42,
+    "repository_family_disjoint": true,
+    "original_cohort_excluded": true,
+    "development_policy_selection_only": true,
+    "calibration_labels_for_thresholds_only": true,
+    "test_labels_opened_after_freeze": true
+  },
+  "reference": {
+    "target": "installed_context_active_declared_direct_dependency_graph",
+    "source": "independent_installed_metadata_and_pinned_build_evidence",
+    "oracle_available_to_inference": false,
+    "deps_dev_as_oracle": false,
+    "environment_fields": ["os_name", "sys_platform", "platform_machine", "python_full_version", "active_extras", "wheel_tags"],
+    "views": ["observed", "candidate", "reconciled"],
+    "path_absence": "UNKNOWN",
+    "unresolved_context": "UNKNOWN",
+    "scope_exclusions": ["function_call_reachability", "dynamic_exploitability", "product_vex_not_affected"]
+  },
+  "information_regimes": {
+    "observed": {"raw_scanner_outputs": true, "metadata_catalog": false, "reference": false},
+    "full_metadata_deterministic": {"raw_scanner_outputs": true, "metadata_catalog": true, "reference": false},
+    "native_regeneration": {"raw_scanner_outputs": false, "metadata_catalog": false, "reference": false, "installed_environment": true},
+    "agent": {"raw_scanner_outputs": true, "metadata_catalog": true, "reference": false, "same_gate_as_deterministic": true}
+  },
+  "methods": [
+    {"id": "observed", "role": "lower-bound_observation", "status": "implemented"},
+    {"id": "single_scanner", "role": "development_selected_native_scanner", "status": "implemented"},
+    {"id": "sbom_unifier", "role": "published_integration_baseline", "status": "existing_artifact_reproduction"},
+    {"id": "full_metadata_deterministic", "role": "strong_deterministic_full_evidence_control", "status": "implemented"},
+    {"id": "pip_sbom_native", "role": "published_python_regeneration", "status": "feasibility_pending"},
+    {"id": "sit_native_generate", "role": "published_source_environment_regeneration", "status": "feasibility_pending"},
+    {"id": "single_agent", "role": "unrestricted_evidence_guided_agent", "status": "implemented"}
+  ],
+  "fairness_constraints": [
+    "Agent and deterministic full-evidence controls receive identical source catalog and acquisition permissions",
+    "No method receives reference files, removed-item logs, advisory labels or oracle membership",
+    "Native comparator outputs are preserved without silent repair",
+    "Any adapter, modified extractor or different evidence channel receives a distinct method id",
+    "Operational failures remain in the end-to-end denominator and are not relabeled successful"
+  ],
+  "primary_metrics": {
+    "graph": ["project_macro_direct_edge_precision", "project_macro_direct_edge_recall", "project_macro_direct_edge_f1", "whole_graph_f1", "node_precision", "node_recall"],
+    "errors": ["incorrect_retractions", "new_false_positive_edges", "retained_false_negative_edges", "unresolved_unknowns", "native_invalid_outputs"],
+    "selective": ["coverage", "selective_risk", "calibration_error"],
+    "operations": ["completion_rate", "elapsed_seconds", "source_attempts", "bytes_acquired", "llm_calls", "reported_tokens", "unknown_usage"],
+    "security": ["incremental_vrr"],
+    "unmeasured_without_labels": ["product_triage_delta", "false_assurance_reduction", "dynamic_exploitability"]
+  },
+  "security_metric": {
+    "unit": "root_purl_advisory_id",
+    "reference_requirement": "independent_reference_confirmed_dependency_path",
+    "formula": "newly_visible_reference_confirmed_advisory_triples / reference_confirmed_advisory_triples_missing_from_observation",
+    "zero_denominator": "NA",
+    "advisory_snapshot_frozen_before_scoring": true,
+    "exploitability_claim": false
+  },
+  "statistical_plan": {
+    "unit_of_analysis": "project",
+    "paired_project_differences": true,
+    "bootstrap_or_randomization_draws": 10000,
+    "agent_contrasts": "agent_against_full_metadata_deterministic_and_each_declared_acquisition_control",
+    "multiple_comparison_correction": "Holm_within_predeclared_agent_contrast_family",
+    "model_repetitions_as_independent_samples": false,
+    "shared_dependencies_as_independent_samples": false,
+    "detectable_effect_estimation": "development_and_calibration_only",
+    "wins_equivalence_regressions": "all_reported_with_project_level_uncertainty"
+  },
+  "failure_taxonomy": [
+    "A_NAMESPACE_PURL_NORMALIZATION",
+    "B_DYNAMIC_INSTALLATION_SCRIPT",
+    "C_OPTIONAL_EXTRAS_ENVIRONMENT_MARKERS",
+    "D_REGISTRY_AMBIGUITY",
+    "E_TOPOLOGICAL_GRAPH_SPARSITY",
+    "EXECUTION_FAILURE",
+    "SOURCE_UNAVAILABLE",
+    "INVALID_NATIVE_OUTPUT",
+    "SEMANTIC_SCOPE_MISMATCH",
+    "UNRESOLVED"
+  ],
+  "gates_before_heldout": [
+    "final build-valid disjoint cohort",
+    "comparator feasibility and faithful invocation frozen",
+    "development method policy frozen",
+    "independent calibration and detectable-effect analysis complete",
+    "advisory snapshot and security strata feasibility recorded",
+    "metric denominators and statistical analysis frozen"
+  ]
+}
