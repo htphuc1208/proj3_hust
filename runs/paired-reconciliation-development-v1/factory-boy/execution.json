@@ -1,0 +1,6 @@
+{
+  "container_elapsed_seconds": 1.7006437910004024,
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\"status\": \"SEALED\", \"methods\": {\"observed\": \"COMPLETE\", \"additive\": \"COMPLETE\", \"additive_reconciliation\": \"COMPLETE\"}}\n"
+}

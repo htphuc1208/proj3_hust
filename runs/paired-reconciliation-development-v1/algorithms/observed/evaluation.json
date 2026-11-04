@@ -1,0 +1,593 @@
+{
+  "downstream": {
+    "false_assurance_reduction": null,
+    "status": "UNMEASURED_WITHOUT_INDEPENDENT_ADVISORY_AND_PRODUCT_LABELS",
+    "triage_delta": null,
+    "vrr": null
+  },
+  "failure_taxonomy": {
+    "A": [],
+    "B": [],
+    "C": [],
+    "D": [],
+    "E": [],
+    "UNRESOLVED": [
+      {
+        "attribution": "UNRESOLVED_NO_CAUSAL_EVIDENCE",
+        "direction": "FP",
+        "fact": [
+          "pkg:pypi/setuptools@79.0.1",
+          "pkg:pypi/pip@24.0"
+        ],
+        "unit": "direct_edge"
+      }
+    ]
+  },
+  "failure_taxonomy_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "E": 0,
+    "UNRESOLVED": 1
+  },
+  "false_positive_edges": [
+    [
+      "pkg:pypi/setuptools@79.0.1",
+      "pkg:pypi/pip@24.0"
+    ]
+  ],
+  "false_positive_metadata": [],
+  "false_positive_nodes": [],
+  "missed_edges": [],
+  "missed_metadata": [],
+  "missed_nodes": [],
+  "new_edges": {
+    "f1": null,
+    "fn": 0,
+    "fp": 0,
+    "precision": null,
+    "recall": null,
+    "tp": 0
+  },
+  "new_metadata": {
+    "f1": null,
+    "fn": 0,
+    "fp": 0,
+    "precision": null,
+    "recall": null,
+    "tp": 0
+  },
+  "new_nodes": {
+    "f1": null,
+    "fn": 0,
+    "fp": 0,
+    "precision": null,
+    "recall": null,
+    "tp": 0
+  },
+  "scope_audit": {
+    "excluded_exact_bootstrap_purls": [],
+    "observed": [
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/pip/_vendor/distlib/t32.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-a44285c28ded40d9",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/pip/_vendor/distlib/t64-arm.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-0adacc207c3f4a90",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/pip/_vendor/distlib/t64.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-155265e0cc280d26",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/pip/_vendor/distlib/w32.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-96ca15df6e892e0b",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/pip/_vendor/distlib/w64-arm.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-234c4176e1f4ee2b",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/pip/_vendor/distlib/w64.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-f74225a542780316",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": false,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/algorithms-0.1.4.dist-info/METADATA, /lib/python3.11/site-packages/algorithms-0.1.4.dist-info/RECORD, /lib/python3.11/site-packages/algorithms-0.1.4.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/algorithms@0.1.4",
+        "ref": "SPDXRef-Package-python-algorithms-5e0f125f1a05c85c",
+        "role": "DISTRIBUTION_CANDIDATE"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/autocommand@2.2.2",
+        "ref": "SPDXRef-Package-python-autocommand-1d5bb88bbdd45a29",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/backports-tarfile@1.2.0",
+        "ref": "SPDXRef-Package-python-backports-tarfile-7bb5380f6d177676",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/setuptools/cli.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-cli-83650cc0f73168af",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/setuptools/cli-32.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-cli-32-3537c7a1e294b533",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/setuptools/cli-64.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-cli-64-1d8b91b866d3f200",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/setuptools/cli-arm64.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-cli-arm64-38c02814806a9f67",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/setuptools/gui.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-gui-9c5de4fa9a0374bc",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/setuptools/gui-32.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-gui-32-0876080b2c58fd68",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/setuptools/gui-64.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-gui-64-c8a87c656caafca9",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/setuptools/gui-arm64.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-gui-arm64-255cf3e4ad598fb1",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/importlib-metadata@8.0.0",
+        "ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/inflect@7.3.1",
+        "ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/jaraco-collections@5.1.0",
+        "ref": "SPDXRef-Package-python-jaraco-collections-e074243c2b7dd70d",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/jaraco-context@5.3.0",
+        "ref": "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/jaraco-functools@4.0.1",
+        "ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/jaraco-text@3.12.1",
+        "ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/more_itertools-10.3.0.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/more_itertools-10.3.0.dist-info/RECORD  ",
+        "purl": "pkg:pypi/more-itertools@10.3.0",
+        "ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/pkg_resources/tests/data/my-test-package_unpacked-egg/my_test_package-1.0-py3.7.egg/EGG-INFO/PKG-INFO, /lib/python3.11/site-packages/pkg_resources/tests/data/my-test-package_unpacked-egg/my_test_package-1.0-py3.7.egg/EGG-INFO/top_level.txt  ",
+        "purl": "pkg:pypi/my-test-package@1.0",
+        "ref": "SPDXRef-Package-python-my-test-package-d1218a652a8fa722",
+        "role": "TEST_METADATA_FIXTURE"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/packaging-24.2.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/packaging-24.2.dist-info/RECORD  ",
+        "purl": "pkg:pypi/packaging@24.2",
+        "ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": false,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/pip-24.0.dist-info/METADATA, /lib/python3.11/site-packages/pip-24.0.dist-info/RECORD, /lib/python3.11/site-packages/pip-24.0.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/pip@24.0",
+        "ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9",
+        "role": "DISTRIBUTION_CANDIDATE"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/platformdirs-4.2.2.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/platformdirs-4.2.2.dist-info/RECORD  ",
+        "purl": "pkg:pypi/platformdirs@4.2.2",
+        "ref": "SPDXRef-Package-python-platformdirs-4b62779e59b20d35",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": false,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA, /lib/python3.11/site-packages/setuptools-79.0.1.dist-info/RECORD, /lib/python3.11/site-packages/setuptools-79.0.1.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/setuptools@79.0.1",
+        "ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "role": "DISTRIBUTION_CANDIDATE"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info/RECORD  ",
+        "purl": "pkg:pypi/tomli@2.0.1",
+        "ref": "SPDXRef-Package-python-tomli-f04d63d7233a932e",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/typeguard@4.3.0",
+        "ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/RECORD  ",
+        "purl": "pkg:pypi/typing-extensions@4.12.2",
+        "ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/RECORD  ",
+        "purl": "pkg:pypi/wheel@0.45.1",
+        "ref": "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/zipp@3.19.2",
+        "ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "  ",
+        "purl": null,
+        "ref": "SPDXRef-DocumentRoot-Directory--home-phucht-project-sbom-security-poc-research-.work-m25-cohort-captures-algorithms-runtime-target",
+        "role": "NON_PYPI_INVENTORY"
+      }
+    ],
+    "predicted": [
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/pip/_vendor/distlib/t32.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-a44285c28ded40d9",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/pip/_vendor/distlib/t64-arm.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-0adacc207c3f4a90",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/pip/_vendor/distlib/t64.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-155265e0cc280d26",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/pip/_vendor/distlib/w32.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-96ca15df6e892e0b",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/pip/_vendor/distlib/w64-arm.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-234c4176e1f4ee2b",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/pip/_vendor/distlib/w64.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-f74225a542780316",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": false,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/algorithms-0.1.4.dist-info/METADATA, /lib/python3.11/site-packages/algorithms-0.1.4.dist-info/RECORD, /lib/python3.11/site-packages/algorithms-0.1.4.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/algorithms@0.1.4",
+        "ref": "SPDXRef-Package-python-algorithms-5e0f125f1a05c85c",
+        "role": "DISTRIBUTION_CANDIDATE"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/autocommand@2.2.2",
+        "ref": "SPDXRef-Package-python-autocommand-1d5bb88bbdd45a29",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/backports-tarfile@1.2.0",
+        "ref": "SPDXRef-Package-python-backports-tarfile-7bb5380f6d177676",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/setuptools/cli.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-cli-83650cc0f73168af",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/setuptools/cli-32.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-cli-32-3537c7a1e294b533",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/setuptools/cli-64.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-cli-64-1d8b91b866d3f200",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/setuptools/cli-arm64.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-cli-arm64-38c02814806a9f67",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/setuptools/gui.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-gui-9c5de4fa9a0374bc",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/setuptools/gui-32.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-gui-32-0876080b2c58fd68",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/setuptools/gui-64.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-gui-64-c8a87c656caafca9",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from the following paths: /lib/python3.11/site-packages/setuptools/gui-arm64.exe  ",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-gui-arm64-255cf3e4ad598fb1",
+        "role": "NON_PYPI_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/importlib-metadata@8.0.0",
+        "ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/inflect@7.3.1",
+        "ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/jaraco-collections@5.1.0",
+        "ref": "SPDXRef-Package-python-jaraco-collections-e074243c2b7dd70d",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/jaraco-context@5.3.0",
+        "ref": "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/jaraco-functools@4.0.1",
+        "ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/jaraco-text@3.12.1",
+        "ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/more_itertools-10.3.0.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/more_itertools-10.3.0.dist-info/RECORD  ",
+        "purl": "pkg:pypi/more-itertools@10.3.0",
+        "ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/pkg_resources/tests/data/my-test-package_unpacked-egg/my_test_package-1.0-py3.7.egg/EGG-INFO/PKG-INFO, /lib/python3.11/site-packages/pkg_resources/tests/data/my-test-package_unpacked-egg/my_test_package-1.0-py3.7.egg/EGG-INFO/top_level.txt  ",
+        "purl": "pkg:pypi/my-test-package@1.0",
+        "ref": "SPDXRef-Package-python-my-test-package-d1218a652a8fa722",
+        "role": "TEST_METADATA_FIXTURE"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/packaging-24.2.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/packaging-24.2.dist-info/RECORD  ",
+        "purl": "pkg:pypi/packaging@24.2",
+        "ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": false,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/pip-24.0.dist-info/METADATA, /lib/python3.11/site-packages/pip-24.0.dist-info/RECORD, /lib/python3.11/site-packages/pip-24.0.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/pip@24.0",
+        "ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9",
+        "role": "DISTRIBUTION_CANDIDATE"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/platformdirs-4.2.2.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/platformdirs-4.2.2.dist-info/RECORD  ",
+        "purl": "pkg:pypi/platformdirs@4.2.2",
+        "ref": "SPDXRef-Package-python-platformdirs-4b62779e59b20d35",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": false,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA, /lib/python3.11/site-packages/setuptools-79.0.1.dist-info/RECORD, /lib/python3.11/site-packages/setuptools-79.0.1.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/setuptools@79.0.1",
+        "ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "role": "DISTRIBUTION_CANDIDATE"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info/RECORD  ",
+        "purl": "pkg:pypi/tomli@2.0.1",
+        "ref": "SPDXRef-Package-python-tomli-f04d63d7233a932e",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/typeguard@4.3.0",
+        "ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/RECORD  ",
+        "purl": "pkg:pypi/typing-extensions@4.12.2",
+        "ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/RECORD  ",
+        "purl": "pkg:pypi/wheel@0.45.1",
+        "ref": "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "acquired package info from installed python package manifest file: /lib/python3.11/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/METADATA, /lib/python3.11/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/RECORD, /lib/python3.11/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/top_level.txt  ",
+        "purl": "pkg:pypi/zipp@3.19.2",
+        "ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+        "role": "VENDORED_INVENTORY"
+      },
+      {
+        "excluded_from_installed_distribution_view": true,
+        "origin_evidence": "  ",
+        "purl": null,
+        "ref": "SPDXRef-DocumentRoot-Directory--home-phucht-project-sbom-security-poc-research-.work-m25-cohort-captures-algorithms-runtime-target",
+        "role": "NON_PYPI_INVENTORY"
+      }
+    ]
+  },
+  "unknown_label_edge_count": 0,
+  "unknown_label_edges": [],
+  "unlabeled_metadata_facts": 19,
+  "whole_edges": {
+    "f1": 0.0,
+    "fn": 0,
+    "fp": 1,
+    "precision": 0.0,
+    "recall": null,
+    "tp": 0
+  },
+  "whole_metadata": {
+    "f1": 1.0,
+    "fn": 0,
+    "fp": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tp": 9
+  },
+  "whole_nodes": {
+    "f1": 1.0,
+    "fn": 0,
+    "fp": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tp": 3
+  }
+}

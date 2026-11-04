@@ -1,0 +1,49 @@
+{
+  "available_at": "2026-10-28T17:06:48.060869Z",
+  "context_sha256": "7c3cf6eef012ae8a6e8b2bd39a50ec761d95ceea01f5992368fb7d95c5d73c68",
+  "evidence_manifest_sha256": "c1599c3d7ac7f3d9c254b7e39aee8bad642fdee441d5ac3acc1c66dfd15bf216",
+  "rights": "Same full top-level METADATA bytes; no peers, registry, labels or network",
+  "shared_preparation_seconds": 0.29556348599908233,
+  "snapshot_diagnostics": [
+    {
+      "path": "lib/python3.11/site-packages/pynamodb-6.1.0.dist-info/METADATA",
+      "reason": "DYNAMIC_REQUIREMENTS",
+      "sha256": "2cbf076ae0300da28793fd1c72724e5c9ba44a59607a13114ba33d4ff7362198"
+    }
+  ],
+  "sources": [
+    {
+      "path": "lib/python3.11/site-packages/botocore-1.42.19.dist-info/METADATA",
+      "sha256": "8521a7a40535d7907dc4fc453c7998193b8dd9eba035d1ff44e97aa10f200145"
+    },
+    {
+      "path": "lib/python3.11/site-packages/jmespath-1.0.1.dist-info/METADATA",
+      "sha256": "80988328de27cd8a43af8a980a5f3c16a26568a7a798de70d3165cb67e0be110"
+    },
+    {
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2"
+    },
+    {
+      "path": "lib/python3.11/site-packages/pynamodb-6.1.0.dist-info/METADATA",
+      "sha256": "2cbf076ae0300da28793fd1c72724e5c9ba44a59607a13114ba33d4ff7362198"
+    },
+    {
+      "path": "lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/METADATA",
+      "sha256": "a9d436da322be808332f98d88325998e87cb693a678a9969feb4cfad729a6e93"
+    },
+    {
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5"
+    },
+    {
+      "path": "lib/python3.11/site-packages/six-1.17.0.dist-info/METADATA",
+      "sha256": "562042078c2752549f6d8a7c86dbc5dd708088a7be6d80672ec7b07100b72468"
+    },
+    {
+      "path": "lib/python3.11/site-packages/urllib3-2.6.2.dist-info/METADATA",
+      "sha256": "532da8b2c7b39b017e837451b0d9c946061a2ec4a9e04d4161e487166a731a53"
+    }
+  ],
+  "target_id": "f021daf3e34be311b30c1b34c6c76bfd35ef114ab519034b51d193b964263ef5"
+}

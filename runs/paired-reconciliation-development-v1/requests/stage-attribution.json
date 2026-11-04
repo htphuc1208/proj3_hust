@@ -1,0 +1,14 @@
+{
+  "causal_taxonomy": "Residual FP/FN causes remain UNRESOLVED unless independently supported; no scanner-internal cause inferred",
+  "changes": {
+    "additive": {
+      "added": [],
+      "removed": []
+    },
+    "reconciliation": {
+      "added": [],
+      "removed": []
+    }
+  },
+  "retraction_fact_labels": []
+}

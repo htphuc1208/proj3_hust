@@ -1,0 +1,67 @@
+{
+  "available_at": "2026-10-28T17:06:18.180054Z",
+  "context_sha256": "e9516a846a47304738164d17fc5f7bc06007b94c8fcd533a744b125fed2bfe30",
+  "evidence_manifest_sha256": "2f46e9a799706fa73591c67c09a855127a95706e383cb36da7f77901d225cc61",
+  "rights": "Same full top-level METADATA bytes; no peers, registry, labels or network",
+  "shared_preparation_seconds": 0.30797411799903784,
+  "snapshot_diagnostics": [],
+  "sources": [
+    {
+      "path": "lib/python3.11/site-packages/PyJWT-2.10.1.dist-info/METADATA",
+      "sha256": "1247b017a0fa294f1219a690cd561fc54514d4ffe0b3f769d6961392862f031f"
+    },
+    {
+      "path": "lib/python3.11/site-packages/click-8.3.1.dist-info/METADATA",
+      "sha256": "5d9781acc004d2085313cf128dfad20ee4b2342a413e9971251d6d6f00fda198"
+    },
+    {
+      "path": "lib/python3.11/site-packages/configobj-5.0.9.dist-info/METADATA",
+      "sha256": "10c1ebbe69c3b8805b61ab9ddc8aa4eb93ccf929f0db8d5959f0782c6e3bf9a5"
+    },
+    {
+      "path": "lib/python3.11/site-packages/iredis-1.15.2.dist-info/METADATA",
+      "sha256": "ee0dacad9d394aec7af946a35fd730433e746284d0adef652614824cd8240965"
+    },
+    {
+      "path": "lib/python3.11/site-packages/mistune-3.2.0.dist-info/METADATA",
+      "sha256": "da6f993ed3c28034f296c822a3d5806f69310c9b91c3f9e2c08f39f94e2de95e"
+    },
+    {
+      "path": "lib/python3.11/site-packages/packaging-23.2.dist-info/METADATA",
+      "sha256": "b3574943ce848d906e97f50291034674771b2edb3a660e3f9b10aa93ad17eb1b"
+    },
+    {
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2"
+    },
+    {
+      "path": "lib/python3.11/site-packages/prompt_toolkit-3.0.52.dist-info/METADATA",
+      "sha256": "80d4bd40a6a171dfd25c332baebee1fd8722342f133db5385e2d5719a5da2e29"
+    },
+    {
+      "path": "lib/python3.11/site-packages/pygments-2.19.2.dist-info/METADATA",
+      "sha256": "7ae100d67d67006c6479803dd835fcf47a9b59fac794441ea8e66aa7f5984d82"
+    },
+    {
+      "path": "lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/METADATA",
+      "sha256": "a9d436da322be808332f98d88325998e87cb693a678a9969feb4cfad729a6e93"
+    },
+    {
+      "path": "lib/python3.11/site-packages/redis-5.3.1.dist-info/METADATA",
+      "sha256": "71cac2ab27f057e87818c8428343d40e595dc302f5d123b07165f41b52da271a"
+    },
+    {
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5"
+    },
+    {
+      "path": "lib/python3.11/site-packages/six-1.17.0.dist-info/METADATA",
+      "sha256": "562042078c2752549f6d8a7c86dbc5dd708088a7be6d80672ec7b07100b72468"
+    },
+    {
+      "path": "lib/python3.11/site-packages/wcwidth-0.1.9.dist-info/METADATA",
+      "sha256": "c3be4d238b4d8f408cb10849c8d454227744430afc142e9cd85287f29a62c795"
+    }
+  ],
+  "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+}

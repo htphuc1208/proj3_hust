@@ -1,0 +1,203 @@
+{
+  "cases": [
+    {
+      "available_at": "2026-10-28T17:04:12.712426Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/requests",
+      "context_sha256": "b131227228746bb9491140005182551b809cb402f0a350431cab2fc264d1ac5f",
+      "input_sha256": "1a50edbbd33089237de6022731de7d7a8963b395e4a4514943ca2efd5b41f610",
+      "project": "requests",
+      "target_id": "07aea7b2ff54bd849c28df69f9f3aa33c31d802141aacd585a23421bc31f8ffd"
+    },
+    {
+      "available_at": "2026-10-28T17:04:03.355000Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/pika",
+      "context_sha256": "4793d3ba2b071a3b768feae858dc5481ea40dde31766a51927c67965a4b7b9ce",
+      "input_sha256": "667d8361c11bc8351f88091018d55f807887fa7fe22434f210f1a9facb313d2f",
+      "project": "pika",
+      "target_id": "6347f06586cb492426fc0c396e43e490abf9f43465c1bbec0a9bbb0dd0d6067c"
+    },
+    {
+      "available_at": "2026-10-28T17:04:03.337694Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/boltons",
+      "context_sha256": "b210c8165d4e09932a2bcd8e4e7382343aa35057d137b9891faec9c0543b1936",
+      "input_sha256": "1b6d5b0fbd3a580ab9ad401c825c59d48d41c56f82e7dea368c3248987f736bc",
+      "project": "boltons",
+      "target_id": "e6e120cfcf209d32f3a3604ac80432a31f4e9ddcf51fb5f88d97622d453d8aa5"
+    },
+    {
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/imbalanced-learn",
+      "context_sha256": "644d68104c5c738a6d2c5dbff24f73878f81348c6ebd363f1758885f61c52ffa",
+      "input_sha256": "d3b2a6a59564b95e57b5fca235fdc06d76a3718b9950132b0ced3d705004b26f",
+      "project": "imbalanced-learn",
+      "target_id": "2aa555bf5f90a8117e89c3b8b094353c372a6cd893a189bcccb35ca9100eae04"
+    },
+    {
+      "available_at": "2026-10-28T17:05:47.920303Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/vulture",
+      "context_sha256": "b24784a251faf68e7921e54221b7daf900464fbd5713dce98e6aaa04f2af0157",
+      "input_sha256": "c39a63ca2c565d0ee46f92366519456715074a809ea81b9e7949cc812201d5a4",
+      "project": "vulture",
+      "target_id": "a2167a355d11b28abec4395fd434eccece853d6fd7a8fc381c9414c3d49d9360"
+    },
+    {
+      "available_at": "2026-10-28T17:05:46.800554Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/pypandoc",
+      "context_sha256": "73659b8919f6d4fceb5d36c721c3c32b3d8c6516dc55d4dc03360cdfecd442fa",
+      "input_sha256": "c148543a4c98dd0f6be7330e4b1d88960706f9e5f97b490212f258536529e097",
+      "project": "pypandoc",
+      "target_id": "f74b2cbbb3b47c00b7f99f97a86b903e376a9c5d3ae27a4abeb9d195ba1c79ee"
+    },
+    {
+      "available_at": "2026-10-28T17:05:52.356998Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/algorithms",
+      "context_sha256": "769bbb79c15ae1d65a1d86af32e0ec6d2332f67a4c7b6ebcf89944ceb76d1917",
+      "input_sha256": "4b1f1f8f105b5af32c1b7dcc6ae4dd4e9eff3f39773eceec01934755c5eaabbf",
+      "project": "algorithms",
+      "target_id": "2c2e7bb8c45b7de2ca25ed2a7a10e462a8116333085dec444682f99b8e619a7f"
+    },
+    {
+      "available_at": "2026-10-28T17:06:05.150438Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/sqlparse",
+      "context_sha256": "9a1d6df5c0682bbafe91f23c8febbe3780e6e83373e8af8687295f2eb9bf8147",
+      "input_sha256": "0408bb34bc6cb8d614029fede8a7390fbbacb46d783d782789772031464ec244",
+      "project": "sqlparse",
+      "target_id": "cea3a828ac21f154842a0665cc517686664e92e89ba6bc48e6469fd1bd351135"
+    },
+    {
+      "available_at": "2026-10-28T17:06:12.330873Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/typer",
+      "context_sha256": "2392c066f99f25a94ee542df481612f62142062c1ec90b0ec4dc82c221a495ee",
+      "input_sha256": "9faca4cbefce43a1f4dcace52f9a52a455604f6df55258c4bd612c8cdae84602",
+      "project": "typer",
+      "target_id": "5d69540686e209e26cfdabd60b3b27ed1f740a3c43b1098ad457b2914bc65403"
+    },
+    {
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/iredis",
+      "context_sha256": "e9516a846a47304738164d17fc5f7bc06007b94c8fcd533a744b125fed2bfe30",
+      "input_sha256": "cfb20e7aaf9fa999862dc072347d5b6f7cbbd83331ae5fde453c3dcb279a92c4",
+      "project": "iredis",
+      "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+    },
+    {
+      "available_at": "2026-10-28T17:06:23.864464Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/attrs",
+      "context_sha256": "5557eb3fac1a44bcfecf39a516314f5b3e355a86ffff12f1bdb3784788807539",
+      "input_sha256": "45a36105dba1f9c58ca675514a1791ac92279d977bc5b30da6ff879be6f0f383",
+      "project": "attrs",
+      "target_id": "f2699b0659e8833a451ff4f9692b73d1209612958eaf4118657323f527e2f76b"
+    },
+    {
+      "available_at": "2026-10-28T17:06:30.599938Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/pyserial",
+      "context_sha256": "8b9f92f2ebf02f9ac1da47de2637228aa230d0505cb6b7cde3d08d55055ac1aa",
+      "input_sha256": "3cf3e283348087e487b5b3c4e65ebbddf53e93eec3b40d126f09d39e2d4764df",
+      "project": "pyserial",
+      "target_id": "6b8282a526ef4ca198f76306e2b71ae418607e9a687e3e4c5dce1d5f2a928454"
+    },
+    {
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/nox",
+      "context_sha256": "43c16944e656b722c7f2a910d1abc7bb7a23522f7e2625e547d844ed9e32f771",
+      "input_sha256": "5ce85a6419e35fbe149e0c48207b1c6eb30cd83a6a63c278cd9c959049cc2514",
+      "project": "nox",
+      "target_id": "d1d388f0145e20cce44bccc124068dd439da33aa311f84c8b7a88187ffbb846e"
+    },
+    {
+      "available_at": "2026-10-28T17:06:48.060869Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/pynamodb",
+      "context_sha256": "7c3cf6eef012ae8a6e8b2bd39a50ec761d95ceea01f5992368fb7d95c5d73c68",
+      "input_sha256": "ca7a439a6c2d3cbdf0d8835ba6f5363961a3ab66d0dd15a6f478d1abd5f64bff",
+      "project": "pynamodb",
+      "target_id": "f021daf3e34be311b30c1b34c6c76bfd35ef114ab519034b51d193b964263ef5"
+    },
+    {
+      "available_at": "2026-10-28T17:07:12.322454Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/hyperopt",
+      "context_sha256": "e037aa5f415f1249f0857b7080b4678b5b54fc869923b4889571fa431cd3f6d7",
+      "input_sha256": "7b02359acfcf2ddac23e75ae26abadb14d46e06190d3235fbf1f9c1f8f6ac689",
+      "project": "hyperopt",
+      "target_id": "e02c74ffc5c7f41825141b00b2c536b00536ed4f3ace11aa201233c1f148f86d"
+    },
+    {
+      "available_at": "2026-10-28T17:29:18.440982Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/factory-boy",
+      "context_sha256": "e54c0d81cfb1a5d59d9ae36916c366c0ea9686b5ea26d9167eef8e0e4e6569d1",
+      "input_sha256": "f5f003d1aab9ab0b55019160a883620ae18c604b63a2e388a3a5c1eaac7f4593",
+      "project": "factory-boy",
+      "target_id": "9441f3722773ef231fb634e2f146daf1d413a6be1a40369dd9e4a94d0c72bca8"
+    },
+    {
+      "available_at": "2026-10-28T17:07:58.267932Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/faster-whisper",
+      "context_sha256": "83d94a3b3162f0212a8cd9077543dff158c2adde0c7324feaa887a456ec5c3cb",
+      "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+      "project": "faster-whisper",
+      "target_id": "0b23645bd782534ecf4b4f57670e895a245bae33c2c2b14b043cb071abafe0a4"
+    },
+    {
+      "available_at": "2026-10-28T17:07:14.712404Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/django-debug-toolbar",
+      "context_sha256": "04b96f5ce8c31bae939e793f4dac5a8ec8efc126ce292a97cfa8469a201baa51",
+      "input_sha256": "dabe925636dd529301d3fa2a51b13de3d3d90ccab861b90cc1ac5ece92205750",
+      "project": "django-debug-toolbar",
+      "target_id": "c1fd87bb3d13cc60d73fa8bb1bf1e2faba239451d69d8c352a3ce6e36185c77a"
+    },
+    {
+      "available_at": "2026-10-28T17:07:23.289587Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/pypdf",
+      "context_sha256": "c5adabe56b1d86d0e821537235c7c25a0c69c3d88b54c3737c9685514448db1c",
+      "input_sha256": "4bb9f1f7bba9d9af3c161250f734fd4a930c7c21acd63622d830d8bc4f20acb1",
+      "project": "pypdf",
+      "target_id": "e650841c87133b1d6c57c38bb78c6beb34f72731f611597fa12d66e7c8dd4236"
+    },
+    {
+      "available_at": "2026-10-28T17:08:20.697697Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/markitdown",
+      "context_sha256": "64a03c4f621aef04d800774b8ea85dc4a5caa0da2866e887e18647f080d9be01",
+      "input_sha256": "8c467f921fb297cbab59637b444913c838601416479332bc52ccdaa3498e6e9b",
+      "project": "markitdown",
+      "target_id": "3bc605d81664d1e90eb6ea3e48afe1641cc28308f96a93a59fe79e2379ed37dd"
+    }
+  ],
+  "cohort_sha256": "ffce07c8b94f21c57624227f7d8b3610c73685bacc012b03dd615366e5957c5d",
+  "condition": "full_metadata",
+  "heldout_roots_used": 0,
+  "image": "sha256:5d35ccd9b572ffdef2179956b480fd32923ad90f41a1887a4c248334cfa37174",
+  "llm_api_calls": 0,
+  "methods": [
+    "observed",
+    "additive",
+    "additive_reconciliation"
+  ],
+  "partition": "development",
+  "projects": [
+    "requests",
+    "pika",
+    "boltons",
+    "imbalanced-learn",
+    "vulture",
+    "pypandoc",
+    "algorithms",
+    "sqlparse",
+    "typer",
+    "iredis",
+    "attrs",
+    "pyserial",
+    "nox",
+    "pynamodb",
+    "hyperopt",
+    "factory-boy",
+    "faster-whisper",
+    "django-debug-toolbar",
+    "pypdf",
+    "markitdown"
+  ],
+  "reference_manifest_sha256": "d55538dfc37e7a441430fd1cd43ceabbf8d4ccdd01288551539e9310213aba04",
+  "runner_sha256": "ac84112ae9de3382828839ad359208ec42187de55b5733ff3fdd905957971599",
+  "schema_version": "paired-reconciliation-development-v1",
+  "source_sha256": "4372ccdfe611b587c4fe39be96a08be5bf2d40a0c8d973779beea0f3deef8a78",
+  "started_at": "2026-11-04T07:07:49.659286+00:00",
+  "time_scope": "Contemporary captured metadata reanalysis"
+}

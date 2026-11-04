@@ -1,0 +1,18 @@
+{
+  "api_path": {
+    "locations": [],
+    "status": "UNKNOWN",
+    "symbols": null,
+    "target": "yaml.load"
+  },
+  "constructor_path": {
+    "locations": [],
+    "status": "UNKNOWN",
+    "symbols": null,
+    "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+  },
+  "entry_in_graph": false,
+  "entry_symbol": "app.entry",
+  "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+  "status": "ANALYZER_ERROR"
+}

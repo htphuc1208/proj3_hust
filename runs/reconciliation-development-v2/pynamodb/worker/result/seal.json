@@ -1,0 +1,10 @@
+{
+  "assessment_sha256": "ccf547f55ffea56aca646f446b4db6c45cc3db421b3a38482a0a7ce6bf71ac2d",
+  "context_sha256": "7c3cf6eef012ae8a6e8b2bd39a50ec761d95ceea01f5992368fb7d95c5d73c68",
+  "input_sha256": "ca7a439a6c2d3cbdf0d8835ba6f5363961a3ab66d0dd15a6f478d1abd5f64bff",
+  "llm_api_calls": 0,
+  "policy": "inactive-declaration-reconciliation-v1",
+  "prediction_sha256": "ca7a439a6c2d3cbdf0d8835ba6f5363961a3ab66d0dd15a6f478d1abd5f64bff",
+  "reference_labels_read": false,
+  "target_id": "f021daf3e34be311b30c1b34c6c76bfd35ef114ab519034b51d193b964263ef5"
+}

@@ -1,0 +1,11 @@
+{
+  "elapsed_seconds": 4.235800042806659e-05,
+  "environment": {
+    "implementation": "CPython",
+    "machine": "x86_64",
+    "python": "3.11.16",
+    "system": "Linux"
+  },
+  "mode": "probe",
+  "status": "COMPLETE"
+}

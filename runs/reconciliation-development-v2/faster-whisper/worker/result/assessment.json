@@ -1,0 +1,1692 @@
+{
+  "assessments": [
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "idna>=2.8",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/anyio-4.12.0.dist-info/METADATA",
+          "sha256": "aed7b6fc2da160a3fdfe254c158a204b3071747073c18e394b54eb2e206cc5d9"
+        },
+        {
+          "path": "lib/python3.11/site-packages/idna-3.11.dist-info/METADATA",
+          "sha256": "7c2c12c30f52ba237c4c81e59454804944025b9e6102cf1dcca9ebf5168411b0"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-anyio-263101f2c1f6e3c6",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-idna-74a748adbda627c4"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "typing_extensions>=4.5; python_version < \"3.13\"",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/anyio-4.12.0.dist-info/METADATA",
+          "sha256": "aed7b6fc2da160a3fdfe254c158a204b3071747073c18e394b54eb2e206cc5d9"
+        },
+        {
+          "path": "lib/python3.11/site-packages/typing_extensions-4.15.0.dist-info/METADATA",
+          "sha256": "c138378fe8f18934ac99de060535c53ec6c13aeed65e94c32641da7ee3192a72"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-anyio-263101f2c1f6e3c6",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-938e04f225233ed9"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "humanfriendly (>=9.1)",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/coloredlogs-15.0.1.dist-info/METADATA",
+          "sha256": "1663baba746f35eefb249d945345d88566cc4f3643863eb31a91258c3cac674c"
+        },
+        {
+          "path": "lib/python3.11/site-packages/humanfriendly-10.0.dist-info/METADATA",
+          "sha256": "68bb349388cdfeca602acc3455b83a7b2fe3cbe84025e27493bcbe76f3ab6c82"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-coloredlogs-f61859a8af6e4523",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-humanfriendly-b09b7885b3ea7892"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "numpy",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/ctranslate2-4.6.2.dist-info/METADATA",
+          "sha256": "9601a6d82b902c7fc264bda733aa0ddedc2398b25b3dcf21c6777094aaeefc19"
+        },
+        {
+          "path": "lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA",
+          "sha256": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-ctranslate2-a5569521bb68f70a",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "pyyaml<7,>=5.3",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/ctranslate2-4.6.2.dist-info/METADATA",
+          "sha256": "9601a6d82b902c7fc264bda733aa0ddedc2398b25b3dcf21c6777094aaeefc19"
+        },
+        {
+          "path": "lib/python3.11/site-packages/pyyaml-6.0.3.dist-info/METADATA",
+          "sha256": "03c3b415ed38d09faedc49360e930769b40c58f68585e6de00e2e4916a858d34"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-ctranslate2-a5569521bb68f70a",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-pyyaml-13a209a9c0a27f20"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "setuptools",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/ctranslate2-4.6.2.dist-info/METADATA",
+          "sha256": "9601a6d82b902c7fc264bda733aa0ddedc2398b25b3dcf21c6777094aaeefc19"
+        },
+        {
+          "path": "lib/python3.11/site-packages/setuptools-80.9.0.dist-info/METADATA",
+          "sha256": "7f890ca8dbc16b63b568c89312ed6a7f9f0a79d0b2b7f3c83bf796ac3d930615"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-ctranslate2-a5569521bb68f70a",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "av>=11",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/faster_whisper-1.2.1.dist-info/METADATA",
+          "sha256": "b85622132a43897972924db98e024c0d40dcec19c577b1ee5640f1bc1b59aada"
+        },
+        {
+          "path": "lib/python3.11/site-packages/av-16.0.1.dist-info/METADATA",
+          "sha256": "2d8da0f6323d5173e63b54f8b117b8cfcb0149d4c6d443309607572f37517c31"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-faster-whisper-51486032944a720f",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-av-89f2d531402101ec"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "ctranslate2<5,>=4.0",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/faster_whisper-1.2.1.dist-info/METADATA",
+          "sha256": "b85622132a43897972924db98e024c0d40dcec19c577b1ee5640f1bc1b59aada"
+        },
+        {
+          "path": "lib/python3.11/site-packages/ctranslate2-4.6.2.dist-info/METADATA",
+          "sha256": "9601a6d82b902c7fc264bda733aa0ddedc2398b25b3dcf21c6777094aaeefc19"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-faster-whisper-51486032944a720f",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-ctranslate2-a5569521bb68f70a"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "huggingface-hub>=0.21",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/faster_whisper-1.2.1.dist-info/METADATA",
+          "sha256": "b85622132a43897972924db98e024c0d40dcec19c577b1ee5640f1bc1b59aada"
+        },
+        {
+          "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+          "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-faster-whisper-51486032944a720f",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "onnxruntime<2,>=1.14",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/faster_whisper-1.2.1.dist-info/METADATA",
+          "sha256": "b85622132a43897972924db98e024c0d40dcec19c577b1ee5640f1bc1b59aada"
+        },
+        {
+          "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+          "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-faster-whisper-51486032944a720f",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "tokenizers<1,>=0.13",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/faster_whisper-1.2.1.dist-info/METADATA",
+          "sha256": "b85622132a43897972924db98e024c0d40dcec19c577b1ee5640f1bc1b59aada"
+        },
+        {
+          "path": "lib/python3.11/site-packages/tokenizers-0.22.1.dist-info/METADATA",
+          "sha256": "ddc92f061ff422fb05d19da58e9161c5098da143c38aa23779bf8a5b48ce76ca"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-faster-whisper-51486032944a720f",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-tokenizers-ccd6312beaad8054"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "tqdm",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/faster_whisper-1.2.1.dist-info/METADATA",
+          "sha256": "b85622132a43897972924db98e024c0d40dcec19c577b1ee5640f1bc1b59aada"
+        },
+        {
+          "path": "lib/python3.11/site-packages/tqdm-4.67.1.dist-info/METADATA",
+          "sha256": "688a1632df525a198fec52dcfefb1246d31eacee9c035aacac2d7eaf8d8ff669"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-faster-whisper-51486032944a720f",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-tqdm-933eed35aa8e5d8c"
+    },
+    {
+      "declarations": [
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "numpy; extra == 'test'",
+          "version_matches": true
+        },
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "numpy; extra == 'test-full'",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/fsspec-2025.12.0.dist-info/METADATA",
+          "sha256": "166d9b20c8a8d0d632d4474c7f1806ab8384da41399edd6a64368361b3ae0b43"
+        },
+        {
+          "path": "lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA",
+          "sha256": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-fsspec-5d651c3b2af7d874",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+    },
+    {
+      "declarations": [
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "tqdm; extra == 'full'",
+          "version_matches": true
+        },
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "tqdm; extra == 'test-full'",
+          "version_matches": true
+        },
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "tqdm; extra == 'tqdm'",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/fsspec-2025.12.0.dist-info/METADATA",
+          "sha256": "166d9b20c8a8d0d632d4474c7f1806ab8384da41399edd6a64368361b3ae0b43"
+        },
+        {
+          "path": "lib/python3.11/site-packages/tqdm-4.67.1.dist-info/METADATA",
+          "sha256": "688a1632df525a198fec52dcfefb1246d31eacee9c035aacac2d7eaf8d8ff669"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-fsspec-5d651c3b2af7d874",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-tqdm-933eed35aa8e5d8c"
+    },
+    {
+      "declarations": [
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "anyio<5.0,>=4.0; extra == 'asyncio'",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/httpcore-1.0.9.dist-info/METADATA",
+          "sha256": "fe2d4fda6199128978779e0cf27f3c045c531863fcdd987eacc74f3a18d41c21"
+        },
+        {
+          "path": "lib/python3.11/site-packages/anyio-4.12.0.dist-info/METADATA",
+          "sha256": "aed7b6fc2da160a3fdfe254c158a204b3071747073c18e394b54eb2e206cc5d9"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-httpcore-1e1a335902941bd3",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-anyio-263101f2c1f6e3c6"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "certifi",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/httpcore-1.0.9.dist-info/METADATA",
+          "sha256": "fe2d4fda6199128978779e0cf27f3c045c531863fcdd987eacc74f3a18d41c21"
+        },
+        {
+          "path": "lib/python3.11/site-packages/certifi-2025.11.12.dist-info/METADATA",
+          "sha256": "fc9a6b1aeff595649d1e5aee44129ca2b5e7adfbc10e1bd7ffa291afc1d06cb7"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-httpcore-1e1a335902941bd3",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-certifi-dc77913862cec55d"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "h11>=0.16",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/httpcore-1.0.9.dist-info/METADATA",
+          "sha256": "fe2d4fda6199128978779e0cf27f3c045c531863fcdd987eacc74f3a18d41c21"
+        },
+        {
+          "path": "lib/python3.11/site-packages/h11-0.16.0.dist-info/METADATA",
+          "sha256": "28f326098ac09fcba79b8f180f96087c841fe2456215cb7b872a9c7d5cd19d64"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-httpcore-1e1a335902941bd3",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-h11-c7b7fb650396d666"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "anyio",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/httpx-0.28.1.dist-info/METADATA",
+          "sha256": "febb9b0f8f3e80d57c8199c304f35c4336e8581d1d18d7983c92766b82793b25"
+        },
+        {
+          "path": "lib/python3.11/site-packages/anyio-4.12.0.dist-info/METADATA",
+          "sha256": "aed7b6fc2da160a3fdfe254c158a204b3071747073c18e394b54eb2e206cc5d9"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-httpx-4dc96a8146e073ad",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-anyio-263101f2c1f6e3c6"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "certifi",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/httpx-0.28.1.dist-info/METADATA",
+          "sha256": "febb9b0f8f3e80d57c8199c304f35c4336e8581d1d18d7983c92766b82793b25"
+        },
+        {
+          "path": "lib/python3.11/site-packages/certifi-2025.11.12.dist-info/METADATA",
+          "sha256": "fc9a6b1aeff595649d1e5aee44129ca2b5e7adfbc10e1bd7ffa291afc1d06cb7"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-httpx-4dc96a8146e073ad",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-certifi-dc77913862cec55d"
+    },
+    {
+      "declarations": [
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "click==8.*; extra == 'cli'",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/httpx-0.28.1.dist-info/METADATA",
+          "sha256": "febb9b0f8f3e80d57c8199c304f35c4336e8581d1d18d7983c92766b82793b25"
+        },
+        {
+          "path": "lib/python3.11/site-packages/click-8.3.1.dist-info/METADATA",
+          "sha256": "5d9781acc004d2085313cf128dfad20ee4b2342a413e9971251d6d6f00fda198"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-httpx-4dc96a8146e073ad",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-click-8c3e7e30488f8d69"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "httpcore==1.*",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/httpx-0.28.1.dist-info/METADATA",
+          "sha256": "febb9b0f8f3e80d57c8199c304f35c4336e8581d1d18d7983c92766b82793b25"
+        },
+        {
+          "path": "lib/python3.11/site-packages/httpcore-1.0.9.dist-info/METADATA",
+          "sha256": "fe2d4fda6199128978779e0cf27f3c045c531863fcdd987eacc74f3a18d41c21"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-httpx-4dc96a8146e073ad",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-httpcore-1e1a335902941bd3"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "idna",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/httpx-0.28.1.dist-info/METADATA",
+          "sha256": "febb9b0f8f3e80d57c8199c304f35c4336e8581d1d18d7983c92766b82793b25"
+        },
+        {
+          "path": "lib/python3.11/site-packages/idna-3.11.dist-info/METADATA",
+          "sha256": "7c2c12c30f52ba237c4c81e59454804944025b9e6102cf1dcca9ebf5168411b0"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-httpx-4dc96a8146e073ad",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-idna-74a748adbda627c4"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "filelock",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+          "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+        },
+        {
+          "path": "lib/python3.11/site-packages/filelock-3.20.1.dist-info/METADATA",
+          "sha256": "d80519f60191d419d597b42c0476690d4667e30272fb2c5e00667295dd3ee33b"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-filelock-2eeef8d0e239d49a"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "fsspec>=2023.5.0",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+          "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+        },
+        {
+          "path": "lib/python3.11/site-packages/fsspec-2025.12.0.dist-info/METADATA",
+          "sha256": "166d9b20c8a8d0d632d4474c7f1806ab8384da41399edd6a64368361b3ae0b43"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-fsspec-5d651c3b2af7d874"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "hf-xet<2.0.0,>=1.2.0; platform_machine == \"x86_64\" or platform_machine == \"amd64\" or platform_machine == \"AMD64\" or platform_machine == \"arm64\" or platform_machine == \"aarch64\"",
+          "version_matches": true
+        },
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "hf-xet<2.0.0,>=1.1.3; extra == \"hf-xet\"",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+          "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+        },
+        {
+          "path": "lib/python3.11/site-packages/hf_xet-1.2.0.dist-info/METADATA",
+          "sha256": "53edc9ec39c8f94c9cb07f8e3d5feadbfb378e1b494a441889f434df24bd89ef"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-hf-xet-e855e578094d1045"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "httpx<1,>=0.23.0",
+          "version_matches": true
+        },
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "httpx; extra == \"oauth\"",
+          "version_matches": true
+        },
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "httpx; extra == \"testing\"",
+          "version_matches": true
+        },
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "httpx; extra == \"all\"",
+          "version_matches": true
+        },
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "httpx; extra == \"dev\"",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+          "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+        },
+        {
+          "path": "lib/python3.11/site-packages/httpx-0.28.1.dist-info/METADATA",
+          "sha256": "febb9b0f8f3e80d57c8199c304f35c4336e8581d1d18d7983c92766b82793b25"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-httpx-4dc96a8146e073ad"
+    },
+    {
+      "declarations": [
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "numpy; extra == \"testing\"",
+          "version_matches": true
+        },
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "numpy; extra == \"all\"",
+          "version_matches": true
+        },
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "numpy; extra == \"dev\"",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+          "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+        },
+        {
+          "path": "lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA",
+          "sha256": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "pyyaml>=5.1",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+          "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+        },
+        {
+          "path": "lib/python3.11/site-packages/pyyaml-6.0.3.dist-info/METADATA",
+          "sha256": "03c3b415ed38d09faedc49360e930769b40c58f68585e6de00e2e4916a858d34"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-pyyaml-13a209a9c0a27f20"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "shellingham",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+          "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+        },
+        {
+          "path": "lib/python3.11/site-packages/shellingham-1.5.4.dist-info/METADATA",
+          "sha256": "183d80220a37493262795739dd357cc5bb3f49bd390cc9198d5180e5451a07fa"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-shellingham-8e45d048d30793e5"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "tqdm>=4.42.1",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+          "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+        },
+        {
+          "path": "lib/python3.11/site-packages/tqdm-4.67.1.dist-info/METADATA",
+          "sha256": "688a1632df525a198fec52dcfefb1246d31eacee9c035aacac2d7eaf8d8ff669"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-tqdm-933eed35aa8e5d8c"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "typer-slim",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+          "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+        },
+        {
+          "path": "lib/python3.11/site-packages/typer_slim-0.21.0.dist-info/METADATA",
+          "sha256": "bcd8386e456092186b6ea39cb07c5ff760ad4aff8799fa8612e28acb338bdb5c"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typer-slim-750358fd1d9c94e8"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "typing-extensions>=3.7.4.3",
+          "version_matches": true
+        },
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "typing-extensions>=4.8.0; extra == \"typing\"",
+          "version_matches": true
+        },
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "typing-extensions>=4.8.0; extra == \"all\"",
+          "version_matches": true
+        },
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "typing-extensions>=4.8.0; extra == \"dev\"",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+          "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+        },
+        {
+          "path": "lib/python3.11/site-packages/typing_extensions-4.15.0.dist-info/METADATA",
+          "sha256": "c138378fe8f18934ac99de060535c53ec6c13aeed65e94c32641da7ee3192a72"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-938e04f225233ed9"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-938e04f225233ed9"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-938e04f225233ed9"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-jaraco-collections-e074243c2b7dd70d",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-backports-tarfile-7bb5380f6d177676"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-autocommand-1d5bb88bbdd45a29"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-mpmath-ff1bd20574cfa684",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "coloredlogs",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+          "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+        },
+        {
+          "path": "lib/python3.11/site-packages/coloredlogs-15.0.1.dist-info/METADATA",
+          "sha256": "1663baba746f35eefb249d945345d88566cc4f3643863eb31a91258c3cac674c"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-coloredlogs-f61859a8af6e4523"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "flatbuffers",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+          "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+        },
+        {
+          "path": "lib/python3.11/site-packages/flatbuffers-25.12.19.dist-info/METADATA",
+          "sha256": "9f38239f96faa21522a6aadab6912e1e560708bbe9c9f696a0679c9403fa089e"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-flatbuffers-8aebbd4c12cd05f5"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "numpy>=1.21.6",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+          "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+        },
+        {
+          "path": "lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA",
+          "sha256": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "protobuf",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+          "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+        },
+        {
+          "path": "lib/python3.11/site-packages/protobuf-6.33.2.dist-info/METADATA",
+          "sha256": "ad469488c5773500cc7545ee5b923acfe53abcc1935328729e74e42e783725bd"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-protobuf-518fa62d78a36315"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "sympy",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+          "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+        },
+        {
+          "path": "lib/python3.11/site-packages/sympy-1.14.0.dist-info/METADATA",
+          "sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-sympy-e6da66b9d4816c73"
+    },
+    {
+      "declarations": [
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "filelock>=3.4.0; extra == \"test\"",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/setuptools-80.9.0.dist-info/METADATA",
+          "sha256": "7f890ca8dbc16b63b568c89312ed6a7f9f0a79d0b2b7f3c83bf796ac3d930615"
+        },
+        {
+          "path": "lib/python3.11/site-packages/filelock-3.20.1.dist-info/METADATA",
+          "sha256": "d80519f60191d419d597b42c0476690d4667e30272fb2c5e00667295dd3ee33b"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-filelock-2eeef8d0e239d49a"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+    },
+    {
+      "declarations": [
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "pip>=19.1; extra == \"test\"",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/setuptools-80.9.0.dist-info/METADATA",
+          "sha256": "7f890ca8dbc16b63b568c89312ed6a7f9f0a79d0b2b7f3c83bf796ac3d930615"
+        },
+        {
+          "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+          "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-platformdirs-4b62779e59b20d35"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-tomli-f04d63d7233a932e"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "mpmath<1.4,>=1.1.0",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/sympy-1.14.0.dist-info/METADATA",
+          "sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595"
+        },
+        {
+          "path": "lib/python3.11/site-packages/mpmath-1.3.0.dist-info/METADATA",
+          "sha256": "44b66ea444b9c0d19ae94815d356bf047ae6b680c19268b5c265687cd6a81406"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-sympy-e6da66b9d4816c73",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-mpmath-ff1bd20574cfa684"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "huggingface-hub>=0.16.4,<2.0",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/tokenizers-0.22.1.dist-info/METADATA",
+          "sha256": "ddc92f061ff422fb05d19da58e9161c5098da143c38aa23779bf8a5b48ce76ca"
+        },
+        {
+          "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+          "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-tokenizers-ccd6312beaad8054",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d"
+    },
+    {
+      "declarations": [
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "numpy ; extra == 'testing'",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/tokenizers-0.22.1.dist-info/METADATA",
+          "sha256": "ddc92f061ff422fb05d19da58e9161c5098da143c38aa23779bf8a5b48ce76ca"
+        },
+        {
+          "path": "lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA",
+          "sha256": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-tokenizers-ccd6312beaad8054",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+    },
+    {
+      "declarations": [
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "tokenizers[testing] ; extra == 'dev'",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/tokenizers-0.22.1.dist-info/METADATA",
+          "sha256": "ddc92f061ff422fb05d19da58e9161c5098da143c38aa23779bf8a5b48ce76ca"
+        },
+        {
+          "path": "lib/python3.11/site-packages/tokenizers-0.22.1.dist-info/METADATA",
+          "sha256": "ddc92f061ff422fb05d19da58e9161c5098da143c38aa23779bf8a5b48ce76ca"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-tokenizers-ccd6312beaad8054",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-tokenizers-ccd6312beaad8054"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-938e04f225233ed9"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "click>=8.0.0",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/typer_slim-0.21.0.dist-info/METADATA",
+          "sha256": "bcd8386e456092186b6ea39cb07c5ff760ad4aff8799fa8612e28acb338bdb5c"
+        },
+        {
+          "path": "lib/python3.11/site-packages/click-8.3.1.dist-info/METADATA",
+          "sha256": "5d9781acc004d2085313cf128dfad20ee4b2342a413e9971251d6d6f00fda198"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-typer-slim-750358fd1d9c94e8",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-click-8c3e7e30488f8d69"
+    },
+    {
+      "declarations": [
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "shellingham>=1.3.0; extra == \"standard\"",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/typer_slim-0.21.0.dist-info/METADATA",
+          "sha256": "bcd8386e456092186b6ea39cb07c5ff760ad4aff8799fa8612e28acb338bdb5c"
+        },
+        {
+          "path": "lib/python3.11/site-packages/shellingham-1.5.4.dist-info/METADATA",
+          "sha256": "183d80220a37493262795739dd357cc5bb3f49bd390cc9198d5180e5451a07fa"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-typer-slim-750358fd1d9c94e8",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-shellingham-8e45d048d30793e5"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "typing-extensions>=3.7.4.3",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/typer_slim-0.21.0.dist-info/METADATA",
+          "sha256": "bcd8386e456092186b6ea39cb07c5ff760ad4aff8799fa8612e28acb338bdb5c"
+        },
+        {
+          "path": "lib/python3.11/site-packages/typing_extensions-4.15.0.dist-info/METADATA",
+          "sha256": "c138378fe8f18934ac99de060535c53ec6c13aeed65e94c32641da7ee3192a72"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "INCOMPLETE_METADATA_OR_CONTEXT",
+      "source_ref": "SPDXRef-Package-python-typer-slim-750358fd1d9c94e8",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-938e04f225233ed9"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    }
+  ],
+  "confidence": null,
+  "context_sha256": "83d94a3b3162f0212a8cd9077543dff158c2adde0c7324feaa887a456ec5c3cb",
+  "counts": {
+    "UNKNOWN": 77
+  },
+  "diagnostics": [
+    {
+      "path": "lib/python3.11/site-packages/ctranslate2-4.6.2.dist-info/METADATA",
+      "reason": "DYNAMIC_REQUIREMENTS",
+      "sha256": "9601a6d82b902c7fc264bda733aa0ddedc2398b25b3dcf21c6777094aaeefc19"
+    },
+    {
+      "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+      "reason": "DYNAMIC_REQUIREMENTS",
+      "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+    },
+    {
+      "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+      "reason": "DYNAMIC_REQUIREMENTS",
+      "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+    },
+    {
+      "path": "lib/python3.11/site-packages/sympy-1.14.0.dist-info/METADATA",
+      "reason": "DYNAMIC_REQUIREMENTS",
+      "sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595"
+    }
+  ],
+  "evidence_available_at": "2026-10-28T17:07:58.267932Z",
+  "evidence_sources": [
+    {
+      "path": "lib/python3.11/site-packages/anyio-4.12.0.dist-info/METADATA",
+      "sha256": "aed7b6fc2da160a3fdfe254c158a204b3071747073c18e394b54eb2e206cc5d9"
+    },
+    {
+      "path": "lib/python3.11/site-packages/av-16.0.1.dist-info/METADATA",
+      "sha256": "2d8da0f6323d5173e63b54f8b117b8cfcb0149d4c6d443309607572f37517c31"
+    },
+    {
+      "path": "lib/python3.11/site-packages/certifi-2025.11.12.dist-info/METADATA",
+      "sha256": "fc9a6b1aeff595649d1e5aee44129ca2b5e7adfbc10e1bd7ffa291afc1d06cb7"
+    },
+    {
+      "path": "lib/python3.11/site-packages/click-8.3.1.dist-info/METADATA",
+      "sha256": "5d9781acc004d2085313cf128dfad20ee4b2342a413e9971251d6d6f00fda198"
+    },
+    {
+      "path": "lib/python3.11/site-packages/coloredlogs-15.0.1.dist-info/METADATA",
+      "sha256": "1663baba746f35eefb249d945345d88566cc4f3643863eb31a91258c3cac674c"
+    },
+    {
+      "path": "lib/python3.11/site-packages/ctranslate2-4.6.2.dist-info/METADATA",
+      "sha256": "9601a6d82b902c7fc264bda733aa0ddedc2398b25b3dcf21c6777094aaeefc19"
+    },
+    {
+      "path": "lib/python3.11/site-packages/faster_whisper-1.2.1.dist-info/METADATA",
+      "sha256": "b85622132a43897972924db98e024c0d40dcec19c577b1ee5640f1bc1b59aada"
+    },
+    {
+      "path": "lib/python3.11/site-packages/filelock-3.20.1.dist-info/METADATA",
+      "sha256": "d80519f60191d419d597b42c0476690d4667e30272fb2c5e00667295dd3ee33b"
+    },
+    {
+      "path": "lib/python3.11/site-packages/flatbuffers-25.12.19.dist-info/METADATA",
+      "sha256": "9f38239f96faa21522a6aadab6912e1e560708bbe9c9f696a0679c9403fa089e"
+    },
+    {
+      "path": "lib/python3.11/site-packages/fsspec-2025.12.0.dist-info/METADATA",
+      "sha256": "166d9b20c8a8d0d632d4474c7f1806ab8384da41399edd6a64368361b3ae0b43"
+    },
+    {
+      "path": "lib/python3.11/site-packages/h11-0.16.0.dist-info/METADATA",
+      "sha256": "28f326098ac09fcba79b8f180f96087c841fe2456215cb7b872a9c7d5cd19d64"
+    },
+    {
+      "path": "lib/python3.11/site-packages/hf_xet-1.2.0.dist-info/METADATA",
+      "sha256": "53edc9ec39c8f94c9cb07f8e3d5feadbfb378e1b494a441889f434df24bd89ef"
+    },
+    {
+      "path": "lib/python3.11/site-packages/httpcore-1.0.9.dist-info/METADATA",
+      "sha256": "fe2d4fda6199128978779e0cf27f3c045c531863fcdd987eacc74f3a18d41c21"
+    },
+    {
+      "path": "lib/python3.11/site-packages/httpx-0.28.1.dist-info/METADATA",
+      "sha256": "febb9b0f8f3e80d57c8199c304f35c4336e8581d1d18d7983c92766b82793b25"
+    },
+    {
+      "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+      "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+    },
+    {
+      "path": "lib/python3.11/site-packages/humanfriendly-10.0.dist-info/METADATA",
+      "sha256": "68bb349388cdfeca602acc3455b83a7b2fe3cbe84025e27493bcbe76f3ab6c82"
+    },
+    {
+      "path": "lib/python3.11/site-packages/idna-3.11.dist-info/METADATA",
+      "sha256": "7c2c12c30f52ba237c4c81e59454804944025b9e6102cf1dcca9ebf5168411b0"
+    },
+    {
+      "path": "lib/python3.11/site-packages/mpmath-1.3.0.dist-info/METADATA",
+      "sha256": "44b66ea444b9c0d19ae94815d356bf047ae6b680c19268b5c265687cd6a81406"
+    },
+    {
+      "path": "lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA",
+      "sha256": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3"
+    },
+    {
+      "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+      "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+    },
+    {
+      "path": "lib/python3.11/site-packages/packaging-25.0.dist-info/METADATA",
+      "sha256": "5b611a609c38fefc3d616bf45d20aec98fb7d53f245daca9e2c30fc85c7ac282"
+    },
+    {
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2"
+    },
+    {
+      "path": "lib/python3.11/site-packages/protobuf-6.33.2.dist-info/METADATA",
+      "sha256": "ad469488c5773500cc7545ee5b923acfe53abcc1935328729e74e42e783725bd"
+    },
+    {
+      "path": "lib/python3.11/site-packages/pyyaml-6.0.3.dist-info/METADATA",
+      "sha256": "03c3b415ed38d09faedc49360e930769b40c58f68585e6de00e2e4916a858d34"
+    },
+    {
+      "path": "lib/python3.11/site-packages/setuptools-80.9.0.dist-info/METADATA",
+      "sha256": "7f890ca8dbc16b63b568c89312ed6a7f9f0a79d0b2b7f3c83bf796ac3d930615"
+    },
+    {
+      "path": "lib/python3.11/site-packages/shellingham-1.5.4.dist-info/METADATA",
+      "sha256": "183d80220a37493262795739dd357cc5bb3f49bd390cc9198d5180e5451a07fa"
+    },
+    {
+      "path": "lib/python3.11/site-packages/sympy-1.14.0.dist-info/METADATA",
+      "sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595"
+    },
+    {
+      "path": "lib/python3.11/site-packages/tokenizers-0.22.1.dist-info/METADATA",
+      "sha256": "ddc92f061ff422fb05d19da58e9161c5098da143c38aa23779bf8a5b48ce76ca"
+    },
+    {
+      "path": "lib/python3.11/site-packages/tqdm-4.67.1.dist-info/METADATA",
+      "sha256": "688a1632df525a198fec52dcfefb1246d31eacee9c035aacac2d7eaf8d8ff669"
+    },
+    {
+      "path": "lib/python3.11/site-packages/typer_slim-0.21.0.dist-info/METADATA",
+      "sha256": "bcd8386e456092186b6ea39cb07c5ff760ad4aff8799fa8612e28acb338bdb5c"
+    },
+    {
+      "path": "lib/python3.11/site-packages/typing_extensions-4.15.0.dist-info/METADATA",
+      "sha256": "c138378fe8f18934ac99de060535c53ec6c13aeed65e94c32641da7ee3192a72"
+    }
+  ],
+  "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+  "output_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+  "path_absence_status": "UNKNOWN",
+  "policy": "inactive-declaration-reconciliation-v1",
+  "retracted_edges": [],
+  "scope": "Target metadata declarations; runtime use and exploitability unmeasured",
+  "target_id": "0b23645bd782534ecf4b4f57670e895a245bae33c2c2b14b043cb071abafe0a4",
+  "validation": {
+    "errors": [],
+    "format": "spdx",
+    "valid": true
+  }
+}

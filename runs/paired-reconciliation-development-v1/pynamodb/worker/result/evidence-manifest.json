@@ -1,0 +1,101 @@
+{
+  "records": [
+    {
+      "acquired_at": "2026-11-04T07:08:17.877790Z",
+      "authority": "VERIFIED_TARGET",
+      "availability_kind": "OBSERVED_TIME",
+      "available_at": "2026-10-28T17:06:48.060869Z",
+      "evidence_id": "13af7e0e52385c79eae8c374529c0c2a1c309ad1897e3861b0109f9ea0941c68",
+      "kind": "target_metadata",
+      "schema_version": "evidence-v1",
+      "sha256": "8521a7a40535d7907dc4fc453c7998193b8dd9eba035d1ff44e97aa10f200145",
+      "source": "target:lib/python3.11/site-packages/botocore-1.42.19.dist-info/METADATA",
+      "target_id": "f021daf3e34be311b30c1b34c6c76bfd35ef114ab519034b51d193b964263ef5"
+    },
+    {
+      "acquired_at": "2026-11-04T07:08:17.923689Z",
+      "authority": "VERIFIED_TARGET",
+      "availability_kind": "OBSERVED_TIME",
+      "available_at": "2026-10-28T17:06:48.060869Z",
+      "evidence_id": "2c70600b2e826656e85edb95c33a9d6b3ea983292514797a9defea60f161c80a",
+      "kind": "target_metadata",
+      "schema_version": "evidence-v1",
+      "sha256": "532da8b2c7b39b017e837451b0d9c946061a2ec4a9e04d4161e487166a731a53",
+      "source": "target:lib/python3.11/site-packages/urllib3-2.6.2.dist-info/METADATA",
+      "target_id": "f021daf3e34be311b30c1b34c6c76bfd35ef114ab519034b51d193b964263ef5"
+    },
+    {
+      "acquired_at": "2026-11-04T07:08:17.910480Z",
+      "authority": "VERIFIED_TARGET",
+      "availability_kind": "OBSERVED_TIME",
+      "available_at": "2026-10-28T17:06:48.060869Z",
+      "evidence_id": "4f4c03567fb321100d9dab57acd455b220f17b6bd50621c169a63b6a1466a9f0",
+      "kind": "target_metadata",
+      "schema_version": "evidence-v1",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source": "target:lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "target_id": "f021daf3e34be311b30c1b34c6c76bfd35ef114ab519034b51d193b964263ef5"
+    },
+    {
+      "acquired_at": "2026-11-04T07:08:17.904096Z",
+      "authority": "VERIFIED_TARGET",
+      "availability_kind": "OBSERVED_TIME",
+      "available_at": "2026-10-28T17:06:48.060869Z",
+      "evidence_id": "9804f282aeb37b9ac9058d66d9f6fa04dd3bbcf07447295a3c44ef330aad3cb3",
+      "kind": "target_metadata",
+      "schema_version": "evidence-v1",
+      "sha256": "a9d436da322be808332f98d88325998e87cb693a678a9969feb4cfad729a6e93",
+      "source": "target:lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/METADATA",
+      "target_id": "f021daf3e34be311b30c1b34c6c76bfd35ef114ab519034b51d193b964263ef5"
+    },
+    {
+      "acquired_at": "2026-11-04T07:08:17.916862Z",
+      "authority": "VERIFIED_TARGET",
+      "availability_kind": "OBSERVED_TIME",
+      "available_at": "2026-10-28T17:06:48.060869Z",
+      "evidence_id": "a61dc7a95bf2ea62b263bd8345edc6c404c6fdde378c6371466d3bf590e56ea7",
+      "kind": "target_metadata",
+      "schema_version": "evidence-v1",
+      "sha256": "562042078c2752549f6d8a7c86dbc5dd708088a7be6d80672ec7b07100b72468",
+      "source": "target:lib/python3.11/site-packages/six-1.17.0.dist-info/METADATA",
+      "target_id": "f021daf3e34be311b30c1b34c6c76bfd35ef114ab519034b51d193b964263ef5"
+    },
+    {
+      "acquired_at": "2026-11-04T07:08:17.891002Z",
+      "authority": "VERIFIED_TARGET",
+      "availability_kind": "OBSERVED_TIME",
+      "available_at": "2026-10-28T17:06:48.060869Z",
+      "evidence_id": "d8715c80b33d1f0aeed0de6e00c6a881e024fa1f064e9b594f5ecf63e79f853f",
+      "kind": "target_metadata",
+      "schema_version": "evidence-v1",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source": "target:lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "target_id": "f021daf3e34be311b30c1b34c6c76bfd35ef114ab519034b51d193b964263ef5"
+    },
+    {
+      "acquired_at": "2026-11-04T07:08:17.897503Z",
+      "authority": "VERIFIED_TARGET",
+      "availability_kind": "OBSERVED_TIME",
+      "available_at": "2026-10-28T17:06:48.060869Z",
+      "evidence_id": "dcc28df2179d150c542778335d239aecb807473b62ed752bd5aaf0fbbb69f2a7",
+      "kind": "target_metadata",
+      "schema_version": "evidence-v1",
+      "sha256": "2cbf076ae0300da28793fd1c72724e5c9ba44a59607a13114ba33d4ff7362198",
+      "source": "target:lib/python3.11/site-packages/pynamodb-6.1.0.dist-info/METADATA",
+      "target_id": "f021daf3e34be311b30c1b34c6c76bfd35ef114ab519034b51d193b964263ef5"
+    },
+    {
+      "acquired_at": "2026-11-04T07:08:17.884422Z",
+      "authority": "VERIFIED_TARGET",
+      "availability_kind": "OBSERVED_TIME",
+      "available_at": "2026-10-28T17:06:48.060869Z",
+      "evidence_id": "f32ae672c6e6b7b24923a89bb5b10b7b477021ddda1c5b06f1abd3c895a4e4d6",
+      "kind": "target_metadata",
+      "schema_version": "evidence-v1",
+      "sha256": "80988328de27cd8a43af8a980a5f3c16a26568a7a798de70d3165cb67e0be110",
+      "source": "target:lib/python3.11/site-packages/jmespath-1.0.1.dist-info/METADATA",
+      "target_id": "f021daf3e34be311b30c1b34c6c76bfd35ef114ab519034b51d193b964263ef5"
+    }
+  ],
+  "schema_version": "evidence-manifest-v1"
+}

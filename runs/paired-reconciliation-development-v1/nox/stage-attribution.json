@@ -1,0 +1,114 @@
+{
+  "causal_taxonomy": "Residual FP/FN causes remain UNRESOLVED unless independently supported; no scanner-internal cause inferred",
+  "changes": {
+    "additive": {
+      "added": [],
+      "removed": []
+    },
+    "reconciliation": {
+      "added": [],
+      "removed": [
+        {
+          "edge": [
+            "pkg:pypi/setuptools@79.0.1",
+            "pkg:pypi/filelock@3.20.1"
+          ],
+          "label": "KNOWN_FALSE"
+        },
+        {
+          "edge": [
+            "pkg:pypi/setuptools@79.0.1",
+            "pkg:pypi/packaging@25.0"
+          ],
+          "label": "KNOWN_FALSE"
+        },
+        {
+          "edge": [
+            "pkg:pypi/setuptools@79.0.1",
+            "pkg:pypi/pip@24.0"
+          ],
+          "label": "KNOWN_FALSE"
+        },
+        {
+          "edge": [
+            "pkg:pypi/setuptools@79.0.1",
+            "pkg:pypi/platformdirs@4.5.1"
+          ],
+          "label": "KNOWN_FALSE"
+        },
+        {
+          "edge": [
+            "pkg:pypi/setuptools@79.0.1",
+            "pkg:pypi/virtualenv@20.35.4"
+          ],
+          "label": "KNOWN_FALSE"
+        },
+        {
+          "edge": [
+            "pkg:pypi/virtualenv@20.35.4",
+            "pkg:pypi/packaging@25.0"
+          ],
+          "label": "KNOWN_FALSE"
+        },
+        {
+          "edge": [
+            "pkg:pypi/virtualenv@20.35.4",
+            "pkg:pypi/setuptools@79.0.1"
+          ],
+          "label": "KNOWN_FALSE"
+        }
+      ]
+    }
+  },
+  "retraction_fact_labels": [
+    {
+      "edge": [
+        "pkg:pypi/setuptools@79.0.1",
+        "pkg:pypi/filelock@3.20.1"
+      ],
+      "label": "KNOWN_FALSE"
+    },
+    {
+      "edge": [
+        "pkg:pypi/setuptools@79.0.1",
+        "pkg:pypi/packaging@25.0"
+      ],
+      "label": "KNOWN_FALSE"
+    },
+    {
+      "edge": [
+        "pkg:pypi/setuptools@79.0.1",
+        "pkg:pypi/pip@24.0"
+      ],
+      "label": "KNOWN_FALSE"
+    },
+    {
+      "edge": [
+        "pkg:pypi/setuptools@79.0.1",
+        "pkg:pypi/platformdirs@4.5.1"
+      ],
+      "label": "KNOWN_FALSE"
+    },
+    {
+      "edge": [
+        "pkg:pypi/setuptools@79.0.1",
+        "pkg:pypi/virtualenv@20.35.4"
+      ],
+      "label": "KNOWN_FALSE"
+    },
+    {
+      "edge": [
+        "pkg:pypi/virtualenv@20.35.4",
+        "pkg:pypi/packaging@25.0"
+      ],
+      "label": "KNOWN_FALSE"
+    },
+    {
+      "edge": [
+        "pkg:pypi/virtualenv@20.35.4",
+        "pkg:pypi/setuptools@79.0.1"
+      ],
+      "label": "KNOWN_FALSE"
+    }
+  ]
+}

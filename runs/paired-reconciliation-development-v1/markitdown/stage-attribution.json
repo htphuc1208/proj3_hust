@@ -1,0 +1,22 @@
+{
+  "causal_taxonomy": "Residual FP/FN causes remain UNRESOLVED unless independently supported; no scanner-internal cause inferred",
+  "changes": {
+    "additive": {
+      "added": [
+        {
+          "edge": [
+            "pkg:pypi/onnxruntime@1.23.2",
+            "pkg:pypi/packaging@25.0"
+          ],
+          "label": "KNOWN_TRUE"
+        }
+      ],
+      "removed": []
+    },
+    "reconciliation": {
+      "added": [],
+      "removed": []
+    }
+  },
+  "retraction_fact_labels": []
+}

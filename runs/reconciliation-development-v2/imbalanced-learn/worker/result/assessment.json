@@ -1,0 +1,712 @@
+{
+  "assessments": [
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "joblib<2,>=1.2.0",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/imbalanced_learn-0.14.1.dist-info/METADATA",
+          "sha256": "73bceae78d13bb145c59da1cfb7db98239bf4322fae736b2d315e7b7173e9332"
+        },
+        {
+          "path": "lib/python3.11/site-packages/joblib-1.5.3.dist-info/METADATA",
+          "sha256": "cee9c60896ae4e7a965a840fbde50d111d2f8018f61201d1ed2e9fc3dd4883e6"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+      "source_ref": "SPDXRef-Package-python-imbalanced-learn-ce80d6eb27c6cf1e",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-joblib-e06c90a7cb2111a6"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "numpy<3,>=1.25.2",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/imbalanced_learn-0.14.1.dist-info/METADATA",
+          "sha256": "73bceae78d13bb145c59da1cfb7db98239bf4322fae736b2d315e7b7173e9332"
+        },
+        {
+          "path": "lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA",
+          "sha256": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+      "source_ref": "SPDXRef-Package-python-imbalanced-learn-ce80d6eb27c6cf1e",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-imbalanced-learn-ce80d6eb27c6cf1e",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "scikit-learn<2,>=1.4.2",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/imbalanced_learn-0.14.1.dist-info/METADATA",
+          "sha256": "73bceae78d13bb145c59da1cfb7db98239bf4322fae736b2d315e7b7173e9332"
+        },
+        {
+          "path": "lib/python3.11/site-packages/scikit_learn-1.8.0.dist-info/METADATA",
+          "sha256": "95a8f42f4170fc940a71fedfed4fd9353723eb44126130a971a072fe5305d967"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+      "source_ref": "SPDXRef-Package-python-imbalanced-learn-ce80d6eb27c6cf1e",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-scikit-learn-def31832c6c63dcd"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "scipy<2,>=1.11.4",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/imbalanced_learn-0.14.1.dist-info/METADATA",
+          "sha256": "73bceae78d13bb145c59da1cfb7db98239bf4322fae736b2d315e7b7173e9332"
+        },
+        {
+          "path": "lib/python3.11/site-packages/scipy-1.16.3.dist-info/METADATA",
+          "sha256": "a54602d0aa61fb25ac030b1d7b0faf0c8cfec508290d4d824198d6b43647ec1b"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+      "source_ref": "SPDXRef-Package-python-imbalanced-learn-ce80d6eb27c6cf1e",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-scipy-5a8c605853822992"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "sklearn-compat<0.2,>=0.1.5",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/imbalanced_learn-0.14.1.dist-info/METADATA",
+          "sha256": "73bceae78d13bb145c59da1cfb7db98239bf4322fae736b2d315e7b7173e9332"
+        },
+        {
+          "path": "lib/python3.11/site-packages/sklearn_compat-0.1.5.dist-info/METADATA",
+          "sha256": "6c825792a96c07c5bf05e37685c852e5ca3f18001f0ce03790c29297cc68db84"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+      "source_ref": "SPDXRef-Package-python-imbalanced-learn-ce80d6eb27c6cf1e",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-sklearn-compat-0f77782861cf0889"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "threadpoolctl<4,>=2.0.0",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/imbalanced_learn-0.14.1.dist-info/METADATA",
+          "sha256": "73bceae78d13bb145c59da1cfb7db98239bf4322fae736b2d315e7b7173e9332"
+        },
+        {
+          "path": "lib/python3.11/site-packages/threadpoolctl-3.6.0.dist-info/METADATA",
+          "sha256": "a45df8d07ea1883d772183a501d7d526076aa70dfcfddb276a2cbdc04def5341"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+      "source_ref": "SPDXRef-Package-python-imbalanced-learn-ce80d6eb27c6cf1e",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-threadpoolctl-5cf8773978e57991"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-jaraco-collections-e074243c2b7dd70d",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-backports-tarfile-7bb5380f6d177676"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-autocommand-1d5bb88bbdd45a29"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "joblib>=1.3.0",
+          "version_matches": true
+        },
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "joblib>=1.3.0; extra == \"install\"",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/scikit_learn-1.8.0.dist-info/METADATA",
+          "sha256": "95a8f42f4170fc940a71fedfed4fd9353723eb44126130a971a072fe5305d967"
+        },
+        {
+          "path": "lib/python3.11/site-packages/joblib-1.5.3.dist-info/METADATA",
+          "sha256": "cee9c60896ae4e7a965a840fbde50d111d2f8018f61201d1ed2e9fc3dd4883e6"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+      "source_ref": "SPDXRef-Package-python-scikit-learn-def31832c6c63dcd",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-joblib-e06c90a7cb2111a6"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "numpy>=1.24.1",
+          "version_matches": true
+        },
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "numpy>=1.24.1; extra == \"build\"",
+          "version_matches": true
+        },
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "numpy>=1.24.1; extra == \"install\"",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/scikit_learn-1.8.0.dist-info/METADATA",
+          "sha256": "95a8f42f4170fc940a71fedfed4fd9353723eb44126130a971a072fe5305d967"
+        },
+        {
+          "path": "lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA",
+          "sha256": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+      "source_ref": "SPDXRef-Package-python-scikit-learn-def31832c6c63dcd",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "scipy>=1.10.0",
+          "version_matches": true
+        },
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "scipy>=1.10.0; extra == \"build\"",
+          "version_matches": true
+        },
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "scipy>=1.10.0; extra == \"install\"",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/scikit_learn-1.8.0.dist-info/METADATA",
+          "sha256": "95a8f42f4170fc940a71fedfed4fd9353723eb44126130a971a072fe5305d967"
+        },
+        {
+          "path": "lib/python3.11/site-packages/scipy-1.16.3.dist-info/METADATA",
+          "sha256": "a54602d0aa61fb25ac030b1d7b0faf0c8cfec508290d4d824198d6b43647ec1b"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+      "source_ref": "SPDXRef-Package-python-scikit-learn-def31832c6c63dcd",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-scipy-5a8c605853822992"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "threadpoolctl>=3.2.0",
+          "version_matches": true
+        },
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "threadpoolctl>=3.2.0; extra == \"install\"",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/scikit_learn-1.8.0.dist-info/METADATA",
+          "sha256": "95a8f42f4170fc940a71fedfed4fd9353723eb44126130a971a072fe5305d967"
+        },
+        {
+          "path": "lib/python3.11/site-packages/threadpoolctl-3.6.0.dist-info/METADATA",
+          "sha256": "a45df8d07ea1883d772183a501d7d526076aa70dfcfddb276a2cbdc04def5341"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+      "source_ref": "SPDXRef-Package-python-scikit-learn-def31832c6c63dcd",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-threadpoolctl-5cf8773978e57991"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "numpy<2.6,>=1.25.2",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/scipy-1.16.3.dist-info/METADATA",
+          "sha256": "a54602d0aa61fb25ac030b1d7b0faf0c8cfec508290d4d824198d6b43647ec1b"
+        },
+        {
+          "path": "lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA",
+          "sha256": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+      "source_ref": "SPDXRef-Package-python-scipy-5a8c605853822992",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+    },
+    {
+      "declarations": [
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "threadpoolctl; extra == \"test\"",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/scipy-1.16.3.dist-info/METADATA",
+          "sha256": "a54602d0aa61fb25ac030b1d7b0faf0c8cfec508290d4d824198d6b43647ec1b"
+        },
+        {
+          "path": "lib/python3.11/site-packages/threadpoolctl-3.6.0.dist-info/METADATA",
+          "sha256": "a45df8d07ea1883d772183a501d7d526076aa70dfcfddb276a2cbdc04def5341"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+      "source_ref": "SPDXRef-Package-python-scipy-5a8c605853822992",
+      "status": "CONTRADICTED",
+      "target_ref": "SPDXRef-Package-python-threadpoolctl-5cf8773978e57991"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-scipy-5a8c605853822992",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+    },
+    {
+      "declarations": [
+        {
+          "active": false,
+          "possibly_active": false,
+          "text": "pip>=19.1; extra == \"test\"",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+          "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5"
+        },
+        {
+          "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+          "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+      "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+      "status": "CONTRADICTED",
+      "target_ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-platformdirs-4b62779e59b20d35"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-tomli-f04d63d7233a932e"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0"
+    },
+    {
+      "declarations": [
+        {
+          "active": true,
+          "possibly_active": true,
+          "text": "scikit-learn<1.9,>=1.2",
+          "version_matches": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "lib/python3.11/site-packages/sklearn_compat-0.1.5.dist-info/METADATA",
+          "sha256": "6c825792a96c07c5bf05e37685c852e5ca3f18001f0ce03790c29297cc68db84"
+        },
+        {
+          "path": "lib/python3.11/site-packages/scikit_learn-1.8.0.dist-info/METADATA",
+          "sha256": "95a8f42f4170fc940a71fedfed4fd9353723eb44126130a971a072fe5305d967"
+        }
+      ],
+      "known_extras": [],
+      "possible_extras": [],
+      "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+      "source_ref": "SPDXRef-Package-python-sklearn-compat-0f77782861cf0889",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-scikit-learn-def31832c6c63dcd"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+    },
+    {
+      "declarations": [],
+      "evidence": [],
+      "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+      "source_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    }
+  ],
+  "confidence": null,
+  "context_sha256": "644d68104c5c738a6d2c5dbff24f73878f81348c6ebd363f1758885f61c52ffa",
+  "counts": {
+    "CONTRADICTED": 2,
+    "SUPPORTED": 12,
+    "UNKNOWN": 30
+  },
+  "diagnostics": [],
+  "evidence_available_at": "2026-10-28T17:06:25.262609Z",
+  "evidence_sources": [
+    {
+      "path": "lib/python3.11/site-packages/imbalanced_learn-0.14.1.dist-info/METADATA",
+      "sha256": "73bceae78d13bb145c59da1cfb7db98239bf4322fae736b2d315e7b7173e9332"
+    },
+    {
+      "path": "lib/python3.11/site-packages/joblib-1.5.3.dist-info/METADATA",
+      "sha256": "cee9c60896ae4e7a965a840fbde50d111d2f8018f61201d1ed2e9fc3dd4883e6"
+    },
+    {
+      "path": "lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA",
+      "sha256": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3"
+    },
+    {
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2"
+    },
+    {
+      "path": "lib/python3.11/site-packages/scikit_learn-1.8.0.dist-info/METADATA",
+      "sha256": "95a8f42f4170fc940a71fedfed4fd9353723eb44126130a971a072fe5305d967"
+    },
+    {
+      "path": "lib/python3.11/site-packages/scipy-1.16.3.dist-info/METADATA",
+      "sha256": "a54602d0aa61fb25ac030b1d7b0faf0c8cfec508290d4d824198d6b43647ec1b"
+    },
+    {
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5"
+    },
+    {
+      "path": "lib/python3.11/site-packages/sklearn_compat-0.1.5.dist-info/METADATA",
+      "sha256": "6c825792a96c07c5bf05e37685c852e5ca3f18001f0ce03790c29297cc68db84"
+    },
+    {
+      "path": "lib/python3.11/site-packages/threadpoolctl-3.6.0.dist-info/METADATA",
+      "sha256": "a45df8d07ea1883d772183a501d7d526076aa70dfcfddb276a2cbdc04def5341"
+    }
+  ],
+  "input_sha256": "d3b2a6a59564b95e57b5fca235fdc06d76a3718b9950132b0ced3d705004b26f",
+  "output_sha256": "19435491081e011916228b0fa3ded1ff2d9674f7b138149f415e84fc5ca23a04",
+  "path_absence_status": "UNKNOWN",
+  "policy": "inactive-declaration-reconciliation-v1",
+  "retracted_edges": [
+    [
+      "SPDXRef-Package-python-scipy-5a8c605853822992",
+      "SPDXRef-Package-python-threadpoolctl-5cf8773978e57991"
+    ],
+    [
+      "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+      "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+    ]
+  ],
+  "scope": "Target metadata declarations; runtime use and exploitability unmeasured",
+  "target_id": "2aa555bf5f90a8117e89c3b8b094353c372a6cd893a189bcccb35ca9100eae04",
+  "validation": {
+    "errors": [],
+    "format": "spdx",
+    "valid": true
+  }
+}

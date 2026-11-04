@@ -1,0 +1,615 @@
+{
+  "confidence": null,
+  "context_sha256": "644d68104c5c738a6d2c5dbff24f73878f81348c6ebd363f1758885f61c52ffa",
+  "duration_seconds": 0.601628692000304,
+  "evidence_manifest_sha256": "45e534f25aaa37f6e7b0f9156be6898d6b469349ab5a084d9d596906977b81d3",
+  "input_sha256": "d3b2a6a59564b95e57b5fca235fdc06d76a3718b9950132b0ced3d705004b26f",
+  "llm_api_calls": 0,
+  "model_cost": 0,
+  "native_changes_from_observation": {
+    "added_component_refs": [],
+    "added_native_edges": [],
+    "changed_identity_refs": [],
+    "removed_component_refs": [],
+    "removed_native_edges": []
+  },
+  "path_absence_status": "UNKNOWN",
+  "policy": "DETERMINISTIC_ACQUIRE_AND_VERIFY",
+  "proposals": [],
+  "status": "COMPLETE",
+  "tool_trace": [
+    {
+      "arguments": {},
+      "duration_seconds": 0.018286434999026824,
+      "output": {
+        "acquisition_allowed": false,
+        "components": [
+          {
+            "name": "Simple Launcher",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-Simple-Launcher-a44285c28ded40d9",
+            "version": "1.1.0.14"
+          },
+          {
+            "name": "Simple Launcher",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-Simple-Launcher-0adacc207c3f4a90",
+            "version": "1.1.0.14"
+          },
+          {
+            "name": "Simple Launcher",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-Simple-Launcher-155265e0cc280d26",
+            "version": "1.1.0.14"
+          },
+          {
+            "name": "Simple Launcher",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-Simple-Launcher-96ca15df6e892e0b",
+            "version": "1.1.0.14"
+          },
+          {
+            "name": "Simple Launcher",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-Simple-Launcher-234c4176e1f4ee2b",
+            "version": "1.1.0.14"
+          },
+          {
+            "name": "Simple Launcher",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-Simple-Launcher-f74225a542780316",
+            "version": "1.1.0.14"
+          },
+          {
+            "name": "autocommand",
+            "purl": "pkg:pypi/autocommand@2.2.2",
+            "ref": "SPDXRef-Package-python-autocommand-1d5bb88bbdd45a29",
+            "version": "2.2.2"
+          },
+          {
+            "name": "backports-tarfile",
+            "purl": "pkg:pypi/backports-tarfile@1.2.0",
+            "ref": "SPDXRef-Package-python-backports-tarfile-7bb5380f6d177676",
+            "version": "1.2.0"
+          },
+          {
+            "name": "cli",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-cli-83650cc0f73168af",
+            "version": "UNKNOWN"
+          },
+          {
+            "name": "cli-32",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-cli-32-3537c7a1e294b533",
+            "version": "UNKNOWN"
+          },
+          {
+            "name": "cli-64",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-cli-64-1d8b91b866d3f200",
+            "version": "UNKNOWN"
+          },
+          {
+            "name": "cli-arm64",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-cli-arm64-38c02814806a9f67",
+            "version": "UNKNOWN"
+          },
+          {
+            "name": "gui",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-gui-9c5de4fa9a0374bc",
+            "version": "UNKNOWN"
+          },
+          {
+            "name": "gui-32",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-gui-32-0876080b2c58fd68",
+            "version": "UNKNOWN"
+          },
+          {
+            "name": "gui-64",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-gui-64-c8a87c656caafca9",
+            "version": "UNKNOWN"
+          },
+          {
+            "name": "gui-arm64",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-gui-arm64-255cf3e4ad598fb1",
+            "version": "UNKNOWN"
+          },
+          {
+            "name": "imbalanced-learn",
+            "purl": "pkg:pypi/imbalanced-learn@0.14.1",
+            "ref": "SPDXRef-Package-python-imbalanced-learn-ce80d6eb27c6cf1e",
+            "version": "0.14.1"
+          },
+          {
+            "name": "importlib-metadata",
+            "purl": "pkg:pypi/importlib-metadata@8.0.0",
+            "ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+            "version": "8.0.0"
+          },
+          {
+            "name": "inflect",
+            "purl": "pkg:pypi/inflect@7.3.1",
+            "ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+            "version": "7.3.1"
+          },
+          {
+            "name": "jaraco-collections",
+            "purl": "pkg:pypi/jaraco-collections@5.1.0",
+            "ref": "SPDXRef-Package-python-jaraco-collections-e074243c2b7dd70d",
+            "version": "5.1.0"
+          },
+          {
+            "name": "jaraco-context",
+            "purl": "pkg:pypi/jaraco-context@5.3.0",
+            "ref": "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea",
+            "version": "5.3.0"
+          },
+          {
+            "name": "jaraco-functools",
+            "purl": "pkg:pypi/jaraco-functools@4.0.1",
+            "ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204",
+            "version": "4.0.1"
+          },
+          {
+            "name": "jaraco-text",
+            "purl": "pkg:pypi/jaraco-text@3.12.1",
+            "ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+            "version": "3.12.1"
+          },
+          {
+            "name": "joblib",
+            "purl": "pkg:pypi/joblib@1.5.3",
+            "ref": "SPDXRef-Package-python-joblib-e06c90a7cb2111a6",
+            "version": "1.5.3"
+          },
+          {
+            "name": "more-itertools",
+            "purl": "pkg:pypi/more-itertools@10.3.0",
+            "ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c",
+            "version": "10.3.0"
+          },
+          {
+            "name": "my-test-package",
+            "purl": "pkg:pypi/my-test-package@1.0",
+            "ref": "SPDXRef-Package-python-my-test-package-d1218a652a8fa722",
+            "version": "1.0"
+          },
+          {
+            "name": "numpy",
+            "purl": "pkg:pypi/numpy@2.3.5",
+            "ref": "SPDXRef-Package-python-numpy-fd64f537ba5ad208",
+            "version": "2.3.5"
+          },
+          {
+            "name": "packaging",
+            "purl": "pkg:pypi/packaging@24.2",
+            "ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b",
+            "version": "24.2"
+          },
+          {
+            "name": "pip",
+            "purl": "pkg:pypi/pip@24.0",
+            "ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9",
+            "version": "24.0"
+          },
+          {
+            "name": "platformdirs",
+            "purl": "pkg:pypi/platformdirs@4.2.2",
+            "ref": "SPDXRef-Package-python-platformdirs-4b62779e59b20d35",
+            "version": "4.2.2"
+          },
+          {
+            "name": "scikit-learn",
+            "purl": "pkg:pypi/scikit-learn@1.8.0",
+            "ref": "SPDXRef-Package-python-scikit-learn-def31832c6c63dcd",
+            "version": "1.8.0"
+          },
+          {
+            "name": "scipy",
+            "purl": "pkg:pypi/scipy@1.16.3",
+            "ref": "SPDXRef-Package-python-scipy-5a8c605853822992",
+            "version": "1.16.3"
+          },
+          {
+            "name": "setuptools",
+            "purl": "pkg:pypi/setuptools@79.0.1",
+            "ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "version": "79.0.1"
+          },
+          {
+            "name": "sklearn-compat",
+            "purl": "pkg:pypi/sklearn-compat@0.1.5",
+            "ref": "SPDXRef-Package-python-sklearn-compat-0f77782861cf0889",
+            "version": "0.1.5"
+          },
+          {
+            "name": "threadpoolctl",
+            "purl": "pkg:pypi/threadpoolctl@3.6.0",
+            "ref": "SPDXRef-Package-python-threadpoolctl-5cf8773978e57991",
+            "version": "3.6.0"
+          },
+          {
+            "name": "tomli",
+            "purl": "pkg:pypi/tomli@2.0.1",
+            "ref": "SPDXRef-Package-python-tomli-f04d63d7233a932e",
+            "version": "2.0.1"
+          },
+          {
+            "name": "typeguard",
+            "purl": "pkg:pypi/typeguard@4.3.0",
+            "ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+            "version": "4.3.0"
+          },
+          {
+            "name": "typing-extensions",
+            "purl": "pkg:pypi/typing-extensions@4.12.2",
+            "ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8",
+            "version": "4.12.2"
+          },
+          {
+            "name": "wheel",
+            "purl": "pkg:pypi/wheel@0.45.1",
+            "ref": "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0",
+            "version": "0.45.1"
+          },
+          {
+            "name": "zipp",
+            "purl": "pkg:pypi/zipp@3.19.2",
+            "ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+            "version": "3.19.2"
+          },
+          {
+            "name": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures/imbalanced-learn/runtime/target",
+            "purl": null,
+            "ref": "SPDXRef-DocumentRoot-Directory--home-phucht-project-sbom-security-poc-research-.work-m25-cohort-captures-imbalanced-learn-runtime-target",
+            "version": null
+          }
+        ],
+        "context": {
+          "active_extras": [],
+          "evidence_cutoff": "2026-10-28T17:06:25.262609Z",
+          "extras_by_purl": {},
+          "os_name": "posix",
+          "platform_machine": "x86_64",
+          "platform_system": "Linux",
+          "python_full_version": "3.11.16",
+          "python_version": "3.11",
+          "root_purls": [
+            "pkg:pypi/imbalanced-learn@0.14.1"
+          ],
+          "sys_platform": "linux",
+          "target_id": "2aa555bf5f90a8117e89c3b8b094353c372a6cd893a189bcccb35ca9100eae04"
+        },
+        "edges": [
+          [
+            "SPDXRef-Package-python-imbalanced-learn-ce80d6eb27c6cf1e",
+            "SPDXRef-Package-python-joblib-e06c90a7cb2111a6"
+          ],
+          [
+            "SPDXRef-Package-python-imbalanced-learn-ce80d6eb27c6cf1e",
+            "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+          ],
+          [
+            "SPDXRef-Package-python-imbalanced-learn-ce80d6eb27c6cf1e",
+            "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+          ],
+          [
+            "SPDXRef-Package-python-imbalanced-learn-ce80d6eb27c6cf1e",
+            "SPDXRef-Package-python-scikit-learn-def31832c6c63dcd"
+          ],
+          [
+            "SPDXRef-Package-python-imbalanced-learn-ce80d6eb27c6cf1e",
+            "SPDXRef-Package-python-scipy-5a8c605853822992"
+          ],
+          [
+            "SPDXRef-Package-python-imbalanced-learn-ce80d6eb27c6cf1e",
+            "SPDXRef-Package-python-sklearn-compat-0f77782861cf0889"
+          ],
+          [
+            "SPDXRef-Package-python-imbalanced-learn-ce80d6eb27c6cf1e",
+            "SPDXRef-Package-python-threadpoolctl-5cf8773978e57991"
+          ],
+          [
+            "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+            "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+          ],
+          [
+            "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+            "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+          ],
+          [
+            "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+            "SPDXRef-Package-python-zipp-08219ba3ee20c318"
+          ],
+          [
+            "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+            "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+          ],
+          [
+            "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+            "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108"
+          ],
+          [
+            "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+            "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+          ],
+          [
+            "SPDXRef-Package-python-jaraco-collections-e074243c2b7dd70d",
+            "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd"
+          ],
+          [
+            "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea",
+            "SPDXRef-Package-python-backports-tarfile-7bb5380f6d177676"
+          ],
+          [
+            "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204",
+            "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+          ],
+          [
+            "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+            "SPDXRef-Package-python-autocommand-1d5bb88bbdd45a29"
+          ],
+          [
+            "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+            "SPDXRef-Package-python-inflect-051eccf3da38b7a8"
+          ],
+          [
+            "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+            "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea"
+          ],
+          [
+            "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+            "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+          ],
+          [
+            "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+            "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+          ],
+          [
+            "SPDXRef-Package-python-scikit-learn-def31832c6c63dcd",
+            "SPDXRef-Package-python-joblib-e06c90a7cb2111a6"
+          ],
+          [
+            "SPDXRef-Package-python-scikit-learn-def31832c6c63dcd",
+            "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+          ],
+          [
+            "SPDXRef-Package-python-scikit-learn-def31832c6c63dcd",
+            "SPDXRef-Package-python-scipy-5a8c605853822992"
+          ],
+          [
+            "SPDXRef-Package-python-scikit-learn-def31832c6c63dcd",
+            "SPDXRef-Package-python-threadpoolctl-5cf8773978e57991"
+          ],
+          [
+            "SPDXRef-Package-python-scipy-5a8c605853822992",
+            "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+          ],
+          [
+            "SPDXRef-Package-python-scipy-5a8c605853822992",
+            "SPDXRef-Package-python-threadpoolctl-5cf8773978e57991"
+          ],
+          [
+            "SPDXRef-Package-python-scipy-5a8c605853822992",
+            "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+          ],
+          [
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be"
+          ],
+          [
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+          ],
+          [
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd"
+          ],
+          [
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+          ],
+          [
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+          ],
+          [
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+          ],
+          [
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "SPDXRef-Package-python-platformdirs-4b62779e59b20d35"
+          ],
+          [
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "SPDXRef-Package-python-tomli-f04d63d7233a932e"
+          ],
+          [
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0"
+          ],
+          [
+            "SPDXRef-Package-python-sklearn-compat-0f77782861cf0889",
+            "SPDXRef-Package-python-scikit-learn-def31832c6c63dcd"
+          ],
+          [
+            "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+            "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be"
+          ],
+          [
+            "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+            "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+          ],
+          [
+            "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+            "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+          ],
+          [
+            "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0",
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd"
+          ],
+          [
+            "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+            "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+          ],
+          [
+            "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+            "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+          ]
+        ],
+        "evidence": {
+          "records": [
+            {
+              "acquired_at": "2026-11-04T07:07:58.205381Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:25.262609Z",
+              "evidence_id": "05a80dcd7a7d4779afeac6d079eb6fb27de1cd823b696561274f583edb29c0a1",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "a54602d0aa61fb25ac030b1d7b0faf0c8cfec508290d4d824198d6b43647ec1b",
+              "source": "target:lib/python3.11/site-packages/scipy-1.16.3.dist-info/METADATA",
+              "target_id": "2aa555bf5f90a8117e89c3b8b094353c372a6cd893a189bcccb35ca9100eae04"
+            },
+            {
+              "acquired_at": "2026-11-04T07:07:58.184772Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:25.262609Z",
+              "evidence_id": "3755549254c096f526598da11ae25b7955ddc3238022cfb4935f9c6a4e84ebfa",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3",
+              "source": "target:lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA",
+              "target_id": "2aa555bf5f90a8117e89c3b8b094353c372a6cd893a189bcccb35ca9100eae04"
+            },
+            {
+              "acquired_at": "2026-11-04T07:07:58.191490Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:25.262609Z",
+              "evidence_id": "484c55b0ea7536a37df2fbd35a081ef2e267a71237c8bf3295f9075979f3a68f",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+              "source": "target:lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+              "target_id": "2aa555bf5f90a8117e89c3b8b094353c372a6cd893a189bcccb35ca9100eae04"
+            },
+            {
+              "acquired_at": "2026-11-04T07:07:58.171283Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:25.262609Z",
+              "evidence_id": "6c121f8d0b1c3213c514e989aa19d9bce17fd250d4e39599f774a428e1e527e5",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "73bceae78d13bb145c59da1cfb7db98239bf4322fae736b2d315e7b7173e9332",
+              "source": "target:lib/python3.11/site-packages/imbalanced_learn-0.14.1.dist-info/METADATA",
+              "target_id": "2aa555bf5f90a8117e89c3b8b094353c372a6cd893a189bcccb35ca9100eae04"
+            },
+            {
+              "acquired_at": "2026-11-04T07:07:58.211866Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:25.262609Z",
+              "evidence_id": "83337357f68b227efcca6a2fef099d8dd9200ae94f26384ccfc9eef637feff3e",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+              "source": "target:lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+              "target_id": "2aa555bf5f90a8117e89c3b8b094353c372a6cd893a189bcccb35ca9100eae04"
+            },
+            {
+              "acquired_at": "2026-11-04T07:07:58.225595Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:25.262609Z",
+              "evidence_id": "87a1c55c25e7cca994647effdfbaf64749809fbc44c689700d61028a299032a6",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "a45df8d07ea1883d772183a501d7d526076aa70dfcfddb276a2cbdc04def5341",
+              "source": "target:lib/python3.11/site-packages/threadpoolctl-3.6.0.dist-info/METADATA",
+              "target_id": "2aa555bf5f90a8117e89c3b8b094353c372a6cd893a189bcccb35ca9100eae04"
+            },
+            {
+              "acquired_at": "2026-11-04T07:07:58.218927Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:25.262609Z",
+              "evidence_id": "9684eeb457eb182cb42e2422b793c4cb180836bc7270cb30caf9701609f16fab",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "6c825792a96c07c5bf05e37685c852e5ca3f18001f0ce03790c29297cc68db84",
+              "source": "target:lib/python3.11/site-packages/sklearn_compat-0.1.5.dist-info/METADATA",
+              "target_id": "2aa555bf5f90a8117e89c3b8b094353c372a6cd893a189bcccb35ca9100eae04"
+            },
+            {
+              "acquired_at": "2026-11-04T07:07:58.198010Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:25.262609Z",
+              "evidence_id": "d599df9184098f6075d247d161291a9c2dfeb7449cf5e470ba85e7941ad1a240",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "95a8f42f4170fc940a71fedfed4fd9353723eb44126130a971a072fe5305d967",
+              "source": "target:lib/python3.11/site-packages/scikit_learn-1.8.0.dist-info/METADATA",
+              "target_id": "2aa555bf5f90a8117e89c3b8b094353c372a6cd893a189bcccb35ca9100eae04"
+            },
+            {
+              "acquired_at": "2026-11-04T07:07:58.177893Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:25.262609Z",
+              "evidence_id": "f4d07c7e1f53b699e1702a9fef56e0f2dffe97b523fada8e255248394b6248d0",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "cee9c60896ae4e7a965a840fbde50d111d2f8018f61201d1ed2e9fc3dd4883e6",
+              "source": "target:lib/python3.11/site-packages/joblib-1.5.3.dist-info/METADATA",
+              "target_id": "2aa555bf5f90a8117e89c3b8b094353c372a6cd893a189bcccb35ca9100eae04"
+            }
+          ],
+          "schema_version": "evidence-manifest-v1"
+        },
+        "format": "spdx",
+        "input_sha256": "d3b2a6a59564b95e57b5fca235fdc06d76a3718b9950132b0ced3d705004b26f",
+        "issues": [],
+        "path_absence_status": "UNKNOWN",
+        "sources": []
+      },
+      "output_sha256": "aa94d295ca8fd6824fc212786e3d53f4b5af970bad81e3f28055026ae14060a5",
+      "status": "OK",
+      "tool": "inspect"
+    }
+  ],
+  "validation": {
+    "errors": [],
+    "format": "spdx",
+    "valid": true
+  },
+  "verified": {
+    "accepted": [],
+    "calibration": "UNMEASURED",
+    "confidence": null,
+    "input_sha256": "d3b2a6a59564b95e57b5fca235fdc06d76a3718b9950132b0ced3d705004b26f",
+    "openvex_status": "under_investigation",
+    "output_sha256": "d3b2a6a59564b95e57b5fca235fdc06d76a3718b9950132b0ced3d705004b26f",
+    "path_absence_status": "UNKNOWN",
+    "rejected": [],
+    "schema_version": "verification-v1",
+    "supported": [],
+    "unresolved": [],
+    "validation": {
+      "errors": [],
+      "format": "spdx",
+      "valid": true
+    },
+    "verification_scope": "TARGET_METADATA_DECLARATIONS_ONLY; executable contents and runtime use unverified"
+  }
+}

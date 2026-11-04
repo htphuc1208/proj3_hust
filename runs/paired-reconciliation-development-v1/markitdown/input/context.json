@@ -1,0 +1,15 @@
+{
+  "active_extras": [],
+  "evidence_cutoff": "2026-10-28T17:08:20.697697Z",
+  "extras_by_purl": {},
+  "os_name": "posix",
+  "platform_machine": "x86_64",
+  "platform_system": "Linux",
+  "python_full_version": "3.11.16",
+  "python_version": "3.11",
+  "root_purls": [
+    "pkg:pypi/markitdown@0.1.4"
+  ],
+  "sys_platform": "linux",
+  "target_id": "3bc605d81664d1e90eb6ea3e48afe1641cc28308f96a93a59fe79e2379ed37dd"
+}

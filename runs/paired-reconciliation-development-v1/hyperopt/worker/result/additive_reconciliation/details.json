@@ -1,0 +1,668 @@
+{
+  "additive_prediction_sha256": "7b02359acfcf2ddac23e75ae26abadb14d46e06190d3235fbf1f9c1f8f6ac689",
+  "assessment": {
+    "assessments": [
+      {
+        "declarations": [
+          {
+            "active": true,
+            "possibly_active": true,
+            "text": "cloudpickle",
+            "version_matches": true
+          }
+        ],
+        "evidence": [
+          {
+            "path": "lib/python3.11/site-packages/hyperopt-0.2.7.dist-info/METADATA",
+            "sha256": "8823c834d017ec3966c7808824c6fe77a2f946bd5391ad53b679670a9b97276f"
+          },
+          {
+            "path": "lib/python3.11/site-packages/cloudpickle-3.1.2.dist-info/METADATA",
+            "sha256": "3d0263bfe9ee4f23b244bdcaff73acbe7a1957ebf82743b6ae42693adc48d721"
+          }
+        ],
+        "known_extras": [],
+        "possible_extras": [],
+        "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+        "source_ref": "SPDXRef-Package-python-hyperopt-085069039fdac009",
+        "status": "SUPPORTED",
+        "target_ref": "SPDXRef-Package-python-cloudpickle-c790987ddedad692"
+      },
+      {
+        "declarations": [
+          {
+            "active": true,
+            "possibly_active": true,
+            "text": "future",
+            "version_matches": true
+          }
+        ],
+        "evidence": [
+          {
+            "path": "lib/python3.11/site-packages/hyperopt-0.2.7.dist-info/METADATA",
+            "sha256": "8823c834d017ec3966c7808824c6fe77a2f946bd5391ad53b679670a9b97276f"
+          },
+          {
+            "path": "lib/python3.11/site-packages/future-1.0.0.dist-info/METADATA",
+            "sha256": "30d35a50a3116d9026558ab9026ffed4db58675562102a526bc56c4235db913e"
+          }
+        ],
+        "known_extras": [],
+        "possible_extras": [],
+        "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+        "source_ref": "SPDXRef-Package-python-hyperopt-085069039fdac009",
+        "status": "SUPPORTED",
+        "target_ref": "SPDXRef-Package-python-future-29abf444cb9892b2"
+      },
+      {
+        "declarations": [
+          {
+            "active": true,
+            "possibly_active": true,
+            "text": "networkx (>=2.2)",
+            "version_matches": true
+          }
+        ],
+        "evidence": [
+          {
+            "path": "lib/python3.11/site-packages/hyperopt-0.2.7.dist-info/METADATA",
+            "sha256": "8823c834d017ec3966c7808824c6fe77a2f946bd5391ad53b679670a9b97276f"
+          },
+          {
+            "path": "lib/python3.11/site-packages/networkx-3.6.1.dist-info/METADATA",
+            "sha256": "aca5d94a97d1f70f301d033addb635f6e66be8973a00aba4127637eed2ef316a"
+          }
+        ],
+        "known_extras": [],
+        "possible_extras": [],
+        "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+        "source_ref": "SPDXRef-Package-python-hyperopt-085069039fdac009",
+        "status": "SUPPORTED",
+        "target_ref": "SPDXRef-Package-python-networkx-400810cf0ef75d37"
+      },
+      {
+        "declarations": [
+          {
+            "active": true,
+            "possibly_active": true,
+            "text": "numpy",
+            "version_matches": true
+          }
+        ],
+        "evidence": [
+          {
+            "path": "lib/python3.11/site-packages/hyperopt-0.2.7.dist-info/METADATA",
+            "sha256": "8823c834d017ec3966c7808824c6fe77a2f946bd5391ad53b679670a9b97276f"
+          },
+          {
+            "path": "lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA",
+            "sha256": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3"
+          }
+        ],
+        "known_extras": [],
+        "possible_extras": [],
+        "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+        "source_ref": "SPDXRef-Package-python-hyperopt-085069039fdac009",
+        "status": "SUPPORTED",
+        "target_ref": "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+      },
+      {
+        "declarations": [
+          {
+            "active": true,
+            "possibly_active": true,
+            "text": "py4j",
+            "version_matches": true
+          }
+        ],
+        "evidence": [
+          {
+            "path": "lib/python3.11/site-packages/hyperopt-0.2.7.dist-info/METADATA",
+            "sha256": "8823c834d017ec3966c7808824c6fe77a2f946bd5391ad53b679670a9b97276f"
+          },
+          {
+            "path": "lib/python3.11/site-packages/py4j-0.10.9.9.dist-info/METADATA",
+            "sha256": "4de63437be85fcbac12941e952e7c08d9af8ba2ef3c5940660a8934a487c8de2"
+          }
+        ],
+        "known_extras": [],
+        "possible_extras": [],
+        "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+        "source_ref": "SPDXRef-Package-python-hyperopt-085069039fdac009",
+        "status": "SUPPORTED",
+        "target_ref": "SPDXRef-Package-python-py4j-211d5aa039bf3d36"
+      },
+      {
+        "declarations": [
+          {
+            "active": true,
+            "possibly_active": true,
+            "text": "scipy",
+            "version_matches": true
+          }
+        ],
+        "evidence": [
+          {
+            "path": "lib/python3.11/site-packages/hyperopt-0.2.7.dist-info/METADATA",
+            "sha256": "8823c834d017ec3966c7808824c6fe77a2f946bd5391ad53b679670a9b97276f"
+          },
+          {
+            "path": "lib/python3.11/site-packages/scipy-1.16.3.dist-info/METADATA",
+            "sha256": "a54602d0aa61fb25ac030b1d7b0faf0c8cfec508290d4d824198d6b43647ec1b"
+          }
+        ],
+        "known_extras": [],
+        "possible_extras": [],
+        "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+        "source_ref": "SPDXRef-Package-python-hyperopt-085069039fdac009",
+        "status": "SUPPORTED",
+        "target_ref": "SPDXRef-Package-python-scipy-5a8c605853822992"
+      },
+      {
+        "declarations": [
+          {
+            "active": true,
+            "possibly_active": true,
+            "text": "six",
+            "version_matches": true
+          }
+        ],
+        "evidence": [
+          {
+            "path": "lib/python3.11/site-packages/hyperopt-0.2.7.dist-info/METADATA",
+            "sha256": "8823c834d017ec3966c7808824c6fe77a2f946bd5391ad53b679670a9b97276f"
+          },
+          {
+            "path": "lib/python3.11/site-packages/six-1.17.0.dist-info/METADATA",
+            "sha256": "562042078c2752549f6d8a7c86dbc5dd708088a7be6d80672ec7b07100b72468"
+          }
+        ],
+        "known_extras": [],
+        "possible_extras": [],
+        "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+        "source_ref": "SPDXRef-Package-python-hyperopt-085069039fdac009",
+        "status": "SUPPORTED",
+        "target_ref": "SPDXRef-Package-python-six-5309db424b251291"
+      },
+      {
+        "declarations": [
+          {
+            "active": true,
+            "possibly_active": true,
+            "text": "tqdm",
+            "version_matches": true
+          }
+        ],
+        "evidence": [
+          {
+            "path": "lib/python3.11/site-packages/hyperopt-0.2.7.dist-info/METADATA",
+            "sha256": "8823c834d017ec3966c7808824c6fe77a2f946bd5391ad53b679670a9b97276f"
+          },
+          {
+            "path": "lib/python3.11/site-packages/tqdm-4.67.1.dist-info/METADATA",
+            "sha256": "688a1632df525a198fec52dcfefb1246d31eacee9c035aacac2d7eaf8d8ff669"
+          }
+        ],
+        "known_extras": [],
+        "possible_extras": [],
+        "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+        "source_ref": "SPDXRef-Package-python-hyperopt-085069039fdac009",
+        "status": "SUPPORTED",
+        "target_ref": "SPDXRef-Package-python-tqdm-933eed35aa8e5d8c"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-jaraco-collections-e074243c2b7dd70d",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-backports-tarfile-7bb5380f6d177676"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-autocommand-1d5bb88bbdd45a29"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+      },
+      {
+        "declarations": [
+          {
+            "active": false,
+            "possibly_active": false,
+            "text": "numpy>=1.25; extra == \"default\"",
+            "version_matches": true
+          }
+        ],
+        "evidence": [
+          {
+            "path": "lib/python3.11/site-packages/networkx-3.6.1.dist-info/METADATA",
+            "sha256": "aca5d94a97d1f70f301d033addb635f6e66be8973a00aba4127637eed2ef316a"
+          },
+          {
+            "path": "lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA",
+            "sha256": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3"
+          }
+        ],
+        "known_extras": [],
+        "possible_extras": [],
+        "reason": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+        "source_ref": "SPDXRef-Package-python-networkx-400810cf0ef75d37",
+        "status": "CONTRADICTED",
+        "target_ref": "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+      },
+      {
+        "declarations": [
+          {
+            "active": false,
+            "possibly_active": false,
+            "text": "scipy>=1.11.2; extra == \"default\"",
+            "version_matches": true
+          }
+        ],
+        "evidence": [
+          {
+            "path": "lib/python3.11/site-packages/networkx-3.6.1.dist-info/METADATA",
+            "sha256": "aca5d94a97d1f70f301d033addb635f6e66be8973a00aba4127637eed2ef316a"
+          },
+          {
+            "path": "lib/python3.11/site-packages/scipy-1.16.3.dist-info/METADATA",
+            "sha256": "a54602d0aa61fb25ac030b1d7b0faf0c8cfec508290d4d824198d6b43647ec1b"
+          }
+        ],
+        "known_extras": [],
+        "possible_extras": [],
+        "reason": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+        "source_ref": "SPDXRef-Package-python-networkx-400810cf0ef75d37",
+        "status": "CONTRADICTED",
+        "target_ref": "SPDXRef-Package-python-scipy-5a8c605853822992"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-networkx-400810cf0ef75d37",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0"
+      },
+      {
+        "declarations": [
+          {
+            "active": true,
+            "possibly_active": true,
+            "text": "numpy<2.6,>=1.25.2",
+            "version_matches": true
+          }
+        ],
+        "evidence": [
+          {
+            "path": "lib/python3.11/site-packages/scipy-1.16.3.dist-info/METADATA",
+            "sha256": "a54602d0aa61fb25ac030b1d7b0faf0c8cfec508290d4d824198d6b43647ec1b"
+          },
+          {
+            "path": "lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA",
+            "sha256": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3"
+          }
+        ],
+        "known_extras": [],
+        "possible_extras": [],
+        "reason": "ACTIVE_VERSION_COMPATIBLE_DECLARATION",
+        "source_ref": "SPDXRef-Package-python-scipy-5a8c605853822992",
+        "status": "SUPPORTED",
+        "target_ref": "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-scipy-5a8c605853822992",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+      },
+      {
+        "declarations": [
+          {
+            "active": false,
+            "possibly_active": false,
+            "text": "pip>=19.1; extra == \"test\"",
+            "version_matches": true
+          }
+        ],
+        "evidence": [
+          {
+            "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+            "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5"
+          },
+          {
+            "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+            "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2"
+          }
+        ],
+        "known_extras": [],
+        "possible_extras": [],
+        "reason": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+        "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "status": "CONTRADICTED",
+        "target_ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-platformdirs-4b62779e59b20d35"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-tomli-f04d63d7233a932e"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+      },
+      {
+        "declarations": [],
+        "evidence": [],
+        "reason": "UNBOUND_OR_AMBIGUOUS_INSTANCE",
+        "source_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+      }
+    ],
+    "confidence": null,
+    "context_sha256": "e037aa5f415f1249f0857b7080b4678b5b54fc869923b4889571fa431cd3f6d7",
+    "counts": {
+      "CONTRADICTED": 3,
+      "SUPPORTED": 9,
+      "UNKNOWN": 30
+    },
+    "diagnostics": [],
+    "evidence_available_at": "2026-10-28T17:07:12.322454Z",
+    "evidence_sources": [
+      {
+        "path": "lib/python3.11/site-packages/cloudpickle-3.1.2.dist-info/METADATA",
+        "sha256": "3d0263bfe9ee4f23b244bdcaff73acbe7a1957ebf82743b6ae42693adc48d721"
+      },
+      {
+        "path": "lib/python3.11/site-packages/future-1.0.0.dist-info/METADATA",
+        "sha256": "30d35a50a3116d9026558ab9026ffed4db58675562102a526bc56c4235db913e"
+      },
+      {
+        "path": "lib/python3.11/site-packages/hyperopt-0.2.7.dist-info/METADATA",
+        "sha256": "8823c834d017ec3966c7808824c6fe77a2f946bd5391ad53b679670a9b97276f"
+      },
+      {
+        "path": "lib/python3.11/site-packages/networkx-3.6.1.dist-info/METADATA",
+        "sha256": "aca5d94a97d1f70f301d033addb635f6e66be8973a00aba4127637eed2ef316a"
+      },
+      {
+        "path": "lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA",
+        "sha256": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3"
+      },
+      {
+        "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+        "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2"
+      },
+      {
+        "path": "lib/python3.11/site-packages/py4j-0.10.9.9.dist-info/METADATA",
+        "sha256": "4de63437be85fcbac12941e952e7c08d9af8ba2ef3c5940660a8934a487c8de2"
+      },
+      {
+        "path": "lib/python3.11/site-packages/scipy-1.16.3.dist-info/METADATA",
+        "sha256": "a54602d0aa61fb25ac030b1d7b0faf0c8cfec508290d4d824198d6b43647ec1b"
+      },
+      {
+        "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+        "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5"
+      },
+      {
+        "path": "lib/python3.11/site-packages/six-1.17.0.dist-info/METADATA",
+        "sha256": "562042078c2752549f6d8a7c86dbc5dd708088a7be6d80672ec7b07100b72468"
+      },
+      {
+        "path": "lib/python3.11/site-packages/tqdm-4.67.1.dist-info/METADATA",
+        "sha256": "688a1632df525a198fec52dcfefb1246d31eacee9c035aacac2d7eaf8d8ff669"
+      }
+    ],
+    "input_sha256": "7b02359acfcf2ddac23e75ae26abadb14d46e06190d3235fbf1f9c1f8f6ac689",
+    "output_sha256": "84b011592a713937d5e33a9328af4b68270813c4ecb185664a7c3e77a99c038a",
+    "path_absence_status": "UNKNOWN",
+    "policy": "inactive-declaration-reconciliation-v1",
+    "retracted_edges": [
+      [
+        "SPDXRef-Package-python-networkx-400810cf0ef75d37",
+        "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+      ],
+      [
+        "SPDXRef-Package-python-networkx-400810cf0ef75d37",
+        "SPDXRef-Package-python-scipy-5a8c605853822992"
+      ],
+      [
+        "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+      ]
+    ],
+    "scope": "Target metadata declarations; runtime use and exploitability unmeasured",
+    "target_id": "e02c74ffc5c7f41825141b00b2c536b00536ed4f3ace11aa201233c1f148f86d"
+  },
+  "confidence": null,
+  "context_sha256": "e037aa5f415f1249f0857b7080b4678b5b54fc869923b4889571fa431cd3f6d7",
+  "duration_seconds": 0.9606652769998618,
+  "evidence_manifest_sha256": "0abdb5cfc6fa4f9c3c5b1555ca0fd8e3e8c07f622845718fbb78c2d135f1edac",
+  "incremental_reconciliation_seconds": 0.09834241499993368,
+  "input_sha256": "7b02359acfcf2ddac23e75ae26abadb14d46e06190d3235fbf1f9c1f8f6ac689",
+  "native_changes_from_observation": {
+    "added_component_refs": [],
+    "added_native_edges": [],
+    "changed_identity_refs": [],
+    "removed_component_refs": [],
+    "removed_native_edges": [
+      [
+        "SPDXRef-Package-python-networkx-400810cf0ef75d37",
+        "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+      ],
+      [
+        "SPDXRef-Package-python-networkx-400810cf0ef75d37",
+        "SPDXRef-Package-python-scipy-5a8c605853822992"
+      ],
+      [
+        "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+      ]
+    ]
+  },
+  "path_absence_status": "UNKNOWN",
+  "policy": "EXISTING_ADDITIVE_THEN_INACTIVE_RECONCILIATION",
+  "status": "COMPLETE",
+  "validation": {
+    "errors": [],
+    "format": "spdx",
+    "valid": true
+  }
+}

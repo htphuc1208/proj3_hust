@@ -1,0 +1,23 @@
+{
+  "available_at": "2026-10-28T17:04:03.337694Z",
+  "context_sha256": "b210c8165d4e09932a2bcd8e4e7382343aa35057d137b9891faec9c0543b1936",
+  "evidence_manifest_sha256": "f7e89e9fa42d3455aa104b1d182584fa500b424490bf3c701e4153fdfaa72b00",
+  "rights": "Same full top-level METADATA bytes; no peers, registry, labels or network",
+  "shared_preparation_seconds": 0.09797901499950967,
+  "snapshot_diagnostics": [],
+  "sources": [
+    {
+      "path": "lib/python3.11/site-packages/boltons-25.0.0.dist-info/METADATA",
+      "sha256": "1204e7bd877cea9b78a7323ff22d483eb3bf27a835b1eeb74df99b0c2046e90c"
+    },
+    {
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2"
+    },
+    {
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5"
+    }
+  ],
+  "target_id": "e6e120cfcf209d32f3a3604ac80432a31f4e9ddcf51fb5f88d97622d453d8aa5"
+}

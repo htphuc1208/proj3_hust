@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\"policy\": \"inactive-declaration-reconciliation-v1\", \"counts\": {\"UNKNOWN\": 32}, \"valid\": true}\n"
+}

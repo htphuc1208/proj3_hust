@@ -1,0 +1,22 @@
+{
+  "confidence": null,
+  "context_sha256": "2392c066f99f25a94ee542df481612f62142062c1ec90b0ec4dc82c221a495ee",
+  "duration_seconds": 0.005512742000064463,
+  "evidence_manifest_sha256": "9a7391d9197ac8d353e1276f8a9728025d035a15e8cf799e4da7692d56543b61",
+  "input_sha256": "9faca4cbefce43a1f4dcace52f9a52a455604f6df55258c4bd612c8cdae84602",
+  "native_changes_from_observation": {
+    "added_component_refs": [],
+    "added_native_edges": [],
+    "changed_identity_refs": [],
+    "removed_component_refs": [],
+    "removed_native_edges": []
+  },
+  "path_absence_status": "UNKNOWN",
+  "policy": "OBSERVED_ONLY",
+  "status": "COMPLETE",
+  "validation": {
+    "errors": [],
+    "format": "spdx",
+    "valid": true
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "checked_arms": 60,
+  "failure_taxonomy": {
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "E": 0,
+    "UNRESOLVED": 17
+  },
+  "frozen_artifacts_checked": 663,
+  "independence": "Separate re-scoring execution; shared evaluator/standards libraries, not human QA",
+  "interval_scope": "Exploratory pointwise project-bootstrap intervals on the common 11-project nonempty-reference panel; selected development population/shared dependencies limit interpretation; no familywise or generalization guarantee",
+  "llm_api_calls": 0,
+  "native_valid_arms": 60,
+  "prediction_seals_checked": true,
+  "project_intervals": [
+    {
+      "baseline": "observed",
+      "bootstrap_unit": "project",
+      "ci95": [
+        0.0,
+        0.006529527444070194
+      ],
+      "mean_delta": 0.0028648013655509963,
+      "method": "additive",
+      "metric": "precision",
+      "n_projects": 11,
+      "repetitions": 10000,
+      "status": "MEASURED"
+    },
+    {
+      "baseline": "observed",
+      "bootstrap_unit": "project",
+      "ci95": [
+        0.0,
+        0.049450549450549455
+      ],
+      "mean_delta": 0.021268205478731803,
+      "method": "additive",
+      "metric": "recall",
+      "n_projects": 11,
+      "repetitions": 10000,
+      "status": "MEASURED"
+    },
+    {
+      "baseline": "observed",
+      "bootstrap_unit": "project",
+      "ci95": [
+        0.0,
+        0.026092089728453397
+      ],
+      "mean_delta": 0.011113551705517895,
+      "method": "additive",
+      "metric": "f1",
+      "n_projects": 11,
+      "repetitions": 10000,
+      "status": "MEASURED"
+    },
+    {
+      "baseline": "additive",
+      "bootstrap_unit": "project",
+      "ci95": [
+        0.045454545454545456,
+        0.1904761904761905
+      ],
+      "mean_delta": 0.1136002886002886,
+      "method": "additive_reconciliation",
+      "metric": "precision",
+      "n_projects": 11,
+      "repetitions": 10000,
+      "status": "MEASURED"
+    },
+    {
+      "baseline": "additive",
+      "bootstrap_unit": "project",
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean_delta": 0.0,
+      "method": "additive_reconciliation",
+      "metric": "recall",
+      "n_projects": 11,
+      "repetitions": 10000,
+      "status": "MEASURED"
+    },
+    {
+      "baseline": "additive",
+      "bootstrap_unit": "project",
+      "ci95": [
+        0.025174825174825166,
+        0.11213026437164368
+      ],
+      "mean_delta": 0.06507821680235473,
+      "method": "additive_reconciliation",
+      "metric": "f1",
+      "n_projects": 11,
+      "repetitions": 10000,
+      "status": "MEASURED"
+    },
+    {
+      "baseline": "observed",
+      "bootstrap_unit": "project",
+      "ci95": [
+        0.04870129870129871,
+        0.192009451172682
+      ],
+      "mean_delta": 0.11646508996583961,
+      "method": "additive_reconciliation",
+      "metric": "precision",
+      "n_projects": 11,
+      "repetitions": 10000,
+      "status": "MEASURED"
+    },
+    {
+      "baseline": "observed",
+      "bootstrap_unit": "project",
+      "ci95": [
+        0.0,
+        0.049450549450549455
+      ],
+      "mean_delta": 0.021268205478731803,
+      "method": "additive_reconciliation",
+      "metric": "recall",
+      "n_projects": 11,
+      "repetitions": 10000,
+      "status": "MEASURED"
+    },
+    {
+      "baseline": "observed",
+      "bootstrap_unit": "project",
+      "ci95": [
+        0.0344412106568555,
+        0.12233985749696184
+      ],
+      "mean_delta": 0.07619176850787263,
+      "method": "additive_reconciliation",
+      "metric": "f1",
+      "n_projects": 11,
+      "repetitions": 10000,
+      "status": "MEASURED"
+    }
+  ],
+  "projects": 20,
+  "residual_assessment_reasons": {
+    "INCOMPLETE_METADATA_OR_CONTEXT": 17
+  },
+  "residual_known_fp": 17,
+  "run_manifest_sha256": "28862dfc578d4126a71a4cd361b3a4ad72982b968cdb946440d4e567e132d6cb",
+  "source_hashes": {
+    "audit": "fa2d2450775467d2bf24e46df681f570727bae05aa825f2225433dbfe215bb1e",
+    "comparison": "8d787abe4903428f691cd711ea945b99aa95d5b46a39c794087b4e7e80941a4b",
+    "metrics": "ec320b60fa68c01c448cc03df758e19cb82bcdb60dc049b16c7295458c4e1a37"
+  },
+  "status": "PASSED",
+  "summary_recomputed": true
+}

@@ -1,0 +1,44 @@
+{
+  "cap_drop": [
+    "ALL"
+  ],
+  "checked_at": "2026-11-04T15:39:23.506413+00:00",
+  "command": [
+    "docker",
+    "create",
+    "--name",
+    "sbom-reachability-5c25a501f3b946c0bcc8fa6777d228b6",
+    "--network=none",
+    "--read-only",
+    "--cap-drop=ALL",
+    "--security-opt=no-new-privileges",
+    "--user=65534:65534",
+    "--tmpfs=/tmp:rw,mode=1777",
+    "-e",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "sha256:20ef7fd81efae26885e464f5702e684e038bbfc121444da9efd00f77812a1999",
+    "static",
+    "--version",
+    "5.3.1",
+    "--profile",
+    "cooccurrence"
+  ],
+  "credentials_mounted": false,
+  "environment_variable_names": [
+    "PYTHONDONTWRITEBYTECODE",
+    "PATH",
+    "LANG",
+    "GPG_KEY",
+    "PYTHON_VERSION",
+    "PYTHON_SHA256"
+  ],
+  "host_tree_mounted": false,
+  "image": "sha256:20ef7fd81efae26885e464f5702e684e038bbfc121444da9efd00f77812a1999",
+  "mounts": [],
+  "network": "none",
+  "read_only_root": true,
+  "security_options": [
+    "no-new-privileges"
+  ],
+  "user": "65534:65534"
+}

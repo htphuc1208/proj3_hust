@@ -1,0 +1,37 @@
+{
+  "available_at": "2026-10-28T17:29:18.440982Z",
+  "context_sha256": "e54c0d81cfb1a5d59d9ae36916c366c0ea9686b5ea26d9167eef8e0e4e6569d1",
+  "evidence_manifest_sha256": "419413441fe173494187dae7f75aee4498a89cbd2852d432b2c86fbee1f53ba9",
+  "rights": "Same full top-level METADATA bytes; no peers, registry, labels or network",
+  "shared_preparation_seconds": 0.3037867359998927,
+  "snapshot_diagnostics": [
+    {
+      "path": "lib/python3.11/site-packages/faker-40.1.0.dist-info/METADATA",
+      "reason": "DYNAMIC_REQUIREMENTS",
+      "sha256": "2f121bf683f8a273f006e8b0573f1e8479c8dd6b722f72b96ff3360722edd8f7"
+    }
+  ],
+  "sources": [
+    {
+      "path": "lib/python3.11/site-packages/factory_boy-3.3.3.dist-info/METADATA",
+      "sha256": "01e233294e8de67b85293c9f7f0cd650850ca2a48bc1b14a9687da7d86c1fb91"
+    },
+    {
+      "path": "lib/python3.11/site-packages/faker-40.1.0.dist-info/METADATA",
+      "sha256": "2f121bf683f8a273f006e8b0573f1e8479c8dd6b722f72b96ff3360722edd8f7"
+    },
+    {
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2"
+    },
+    {
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5"
+    },
+    {
+      "path": "lib/python3.11/site-packages/tzdata-2025.3.dist-info/METADATA",
+      "sha256": "4225d7bb5592b2007f665b38624e93dbadd36413fbfcf3c1fa7cd80ae7b087f8"
+    }
+  ],
+  "target_id": "9441f3722773ef231fb634e2f146daf1d413a6be1a40369dd9e4a94d0c72bca8"
+}

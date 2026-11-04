@@ -1,0 +1,9 @@
+{
+  "context_sha256": "c5adabe56b1d86d0e821537235c7c25a0c69c3d88b54c3737c9685514448db1c",
+  "details_sha256": "d52d6d6ce57227e9c50bb3d0771d4b33c257fb5c4c5d68c436640878658138c6",
+  "evidence_manifest_sha256": "2e0d1f706ed17655f2d44961133ea92da88ed301d2afc18260877698a300ba30",
+  "input_sha256": "4bb9f1f7bba9d9af3c161250f734fd4a930c7c21acd63622d830d8bc4f20acb1",
+  "method": "observed",
+  "prediction_sha256": "4bb9f1f7bba9d9af3c161250f734fd4a930c7c21acd63622d830d8bc4f20acb1",
+  "reference_labels_read": false
+}

@@ -1,0 +1,63 @@
+{
+  "available_at": "2026-10-28T17:06:43.141493Z",
+  "context_sha256": "43c16944e656b722c7f2a910d1abc7bb7a23522f7e2625e547d844ed9e32f771",
+  "evidence_manifest_sha256": "0bfec6e7a7a64ecf8acd295d13409117e80b848b170ec0c6c32b84d57b93c4d5",
+  "rights": "Same full top-level METADATA bytes; no peers, registry, labels or network",
+  "shared_preparation_seconds": 0.22873604199958208,
+  "snapshot_diagnostics": [],
+  "sources": [
+    {
+      "path": "lib/python3.11/site-packages/argcomplete-3.6.3.dist-info/METADATA",
+      "sha256": "a6078603bafea6fd0cb70196de08d0088ecfefde7d45ef7a5bda697c1c6408c7"
+    },
+    {
+      "path": "lib/python3.11/site-packages/attrs-25.4.0.dist-info/METADATA",
+      "sha256": "d917abc63eda81c311c62c1d92dea50b682ea870269062821f5de75962bb6684"
+    },
+    {
+      "path": "lib/python3.11/site-packages/colorlog-6.10.1.dist-info/METADATA",
+      "sha256": "8d2bc5088a07a5c554206fb453916d0c918c643aa4f67e452084d1417c93cbe0"
+    },
+    {
+      "path": "lib/python3.11/site-packages/dependency_groups-1.3.1.dist-info/METADATA",
+      "sha256": "0033546dd2b5e361e7b1aac074462d1aad1c543c5ceed7c0003375719e799828"
+    },
+    {
+      "path": "lib/python3.11/site-packages/distlib-0.4.0.dist-info/METADATA",
+      "sha256": "8c3ae3fc9faff13706d3357ec3750777f0c50054abc026c9c24ce5882ef1dde7"
+    },
+    {
+      "path": "lib/python3.11/site-packages/filelock-3.20.1.dist-info/METADATA",
+      "sha256": "d80519f60191d419d597b42c0476690d4667e30272fb2c5e00667295dd3ee33b"
+    },
+    {
+      "path": "lib/python3.11/site-packages/humanize-4.15.0.dist-info/METADATA",
+      "sha256": "a0b134eb3f4708b777994033630b14d878348d78bb77c184065db175b4110334"
+    },
+    {
+      "path": "lib/python3.11/site-packages/nox-2025.11.12.dist-info/METADATA",
+      "sha256": "813a18bd54393f776443a3e903f69ba2571a5e7e1b54201f7208e5bf99f6fd1b"
+    },
+    {
+      "path": "lib/python3.11/site-packages/packaging-25.0.dist-info/METADATA",
+      "sha256": "5b611a609c38fefc3d616bf45d20aec98fb7d53f245daca9e2c30fc85c7ac282"
+    },
+    {
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2"
+    },
+    {
+      "path": "lib/python3.11/site-packages/platformdirs-4.5.1.dist-info/METADATA",
+      "sha256": "3a7ef90c694e34649fece11d27e88621cd6bc1344497e3e31e56d46bd423e928"
+    },
+    {
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5"
+    },
+    {
+      "path": "lib/python3.11/site-packages/virtualenv-20.35.4.dist-info/METADATA",
+      "sha256": "45226c222270a9ad1d1060adb5b9bfeb34d5c4722264245cc0892cb7a2454917"
+    }
+  ],
+  "target_id": "d1d388f0145e20cce44bccc124068dd439da33aa311f84c8b7a88187ffbb846e"
+}

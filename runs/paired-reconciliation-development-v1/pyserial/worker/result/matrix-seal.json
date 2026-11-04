@@ -1,0 +1,20 @@
+{
+  "arms": {
+    "additive": "6783c5b1f51c89b4975a37714a25e54400f88a3436e8f58fcf4a6ed82f4e339b",
+    "additive_reconciliation": "2e6854bc0154ef936ae4a48c8f31970748c5b6ef230d4d233924247dc49da056",
+    "observed": "d28a96e413ff696fbffd218954034e3bfbd0940133168ff0d0d747a755acdd1b"
+  },
+  "context_sha256": "8b9f92f2ebf02f9ac1da47de2637228aa230d0505cb6b7cde3d08d55055ac1aa",
+  "evidence_contract_sha256": "3c457ddd4b13024667f66acd33e64531cac216348516f09f88ae4c2207d7a25b",
+  "evidence_manifest_sha256": "44db173696c1dcbabe4392612317b12e1bfa10be68311087182878e98a3bdc3d",
+  "input_sha256": "3cf3e283348087e487b5b3c4e65ebbddf53e93eec3b40d126f09d39e2d4764df",
+  "llm_api_calls": 0,
+  "methods": [
+    "observed",
+    "additive",
+    "additive_reconciliation"
+  ],
+  "reference_labels_read": false,
+  "schema_version": "paired-reconciliation-matrix-v1",
+  "target_id": "6b8282a526ef4ca198f76306e2b71ae418607e9a687e3e4c5dce1d5f2a928454"
+}

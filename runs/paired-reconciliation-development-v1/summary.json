@@ -1,0 +1,5621 @@
+{
+  "assessment_counts": {
+    "CONTRADICTED": 25,
+    "SUPPORTED": 55,
+    "UNKNOWN": 673
+  },
+  "downstream_metrics": "UNMEASURED",
+  "empty_reference_projects": 9,
+  "failed_projects": [],
+  "heldout_roots_used": 0,
+  "identity_changed_refs": 0,
+  "llm_api_calls": 0,
+  "native_edge_additions": 4,
+  "native_edge_retractions": 25,
+  "new_acquisitions": 0,
+  "operational_failure_policy": "Retain every failure; absent worker outputs have no graph score and completion is reported separately",
+  "paired_all_projects": {
+    "metrics": {
+      "f1": {
+        "eligible_projects": 11,
+        "means": {
+          "additive": 0.8813101610870803,
+          "additive_reconciliation": 0.946388377889435,
+          "observed": 0.8701966093815623
+        }
+      },
+      "precision": {
+        "eligible_projects": 11,
+        "means": {
+          "additive": 0.7917027417027417,
+          "additive_reconciliation": 0.9053030303030303,
+          "observed": 0.7888379403371907
+        }
+      },
+      "recall": {
+        "eligible_projects": 11,
+        "means": {
+          "additive": 1.0,
+          "additive_reconciliation": 1.0,
+          "observed": 0.9787317945212682
+        }
+      }
+    },
+    "population_projects": 20
+  },
+  "paired_nonempty_reference": {
+    "metrics": {
+      "f1": {
+        "eligible_projects": 11,
+        "means": {
+          "additive": 0.8813101610870803,
+          "additive_reconciliation": 0.946388377889435,
+          "observed": 0.8701966093815623
+        }
+      },
+      "precision": {
+        "eligible_projects": 11,
+        "means": {
+          "additive": 0.7917027417027417,
+          "additive_reconciliation": 0.9053030303030303,
+          "observed": 0.7888379403371907
+        }
+      },
+      "recall": {
+        "eligible_projects": 11,
+        "means": {
+          "additive": 1.0,
+          "additive_reconciliation": 1.0,
+          "observed": 0.9787317945212682
+        }
+      }
+    },
+    "population_projects": 11
+  },
+  "plan_sha256": "89fa70eff9dece1e5267c389b86dcabf07f517dc7a36f628286cb2a65ff6b86b",
+  "planned_projects": 20,
+  "records": [
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.38196099500055425,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.8888888888888888,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.8,
+            "recall": 1.0,
+            "tp": 4
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 21
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 7
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "UNKNOWN": 33
+          },
+          "duration_seconds": 0.41218579200176464,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.8888888888888888,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.8,
+            "recall": 1.0,
+            "tp": 4
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 21
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 7
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.004090976999577833,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.8888888888888888,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.8,
+            "recall": 1.0,
+            "tp": 4
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 21
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 7
+          }
+        }
+      },
+      "project": "requests",
+      "reference_edges": 4,
+      "reference_hashes": {
+        "installed_field_labels.json": "455c9f4dd8e1a2ffe90b99079641bc13c4808195888e36aff2fd622e093493f1",
+        "installed_reference.cdx.json": "b97e2d7ff1505e3d05478614ee5364b6e6e57a9d9f0340b32ae61c6096b8c115",
+        "installed_reference.json": "66632e075cd0f6d97ded2b2744915a31bd55841a71e8206784132ac88ce71283",
+        "installed_reference_provenance.json": "6eb2d4084210b87d845214bb107c971f3e61254459b5ca832707b9738b128ab6"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": []
+        }
+      },
+      "status": "SCORED"
+    },
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.33515757500026666,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.0,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.0,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "CONTRADICTED": 1,
+            "UNKNOWN": 28
+          },
+          "duration_seconds": 0.36984732400014764,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 0
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.003146559000015259,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.0,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.0,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        }
+      },
+      "project": "pika",
+      "reference_edges": 0,
+      "reference_hashes": {
+        "installed_field_labels.json": "023c85cb9faab35ab07539727e4dac769fae259a30b758cef2d279e430049ed0",
+        "installed_reference.cdx.json": "72d4ebecf458d75547b621b9ae0350583e75b7f1945cd77ec6f684191a1bac51",
+        "installed_reference.json": "7e1001dd261f9bb2a29c42e659d2358f9e7ccc6014baa68d5c738f6dc4889880",
+        "installed_reference_provenance.json": "de2f4cdbec5f22017083f050f5bd707c746412990f332f50248f59fb969385fc"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": [
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/pip@24.0"
+              ],
+              "label": "KNOWN_FALSE"
+            }
+          ]
+        }
+      },
+      "status": "SCORED"
+    },
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.4248729299997649,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.0,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.0,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "CONTRADICTED": 1,
+            "UNKNOWN": 28
+          },
+          "duration_seconds": 0.4616188649997639,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 0
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.005561420000958606,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.0,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.0,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        }
+      },
+      "project": "boltons",
+      "reference_edges": 0,
+      "reference_hashes": {
+        "installed_field_labels.json": "4f282102957b92a157c6cda728213fa6e15752a77d86f8f889eccfdecec008b7",
+        "installed_reference.cdx.json": "f15688f4461702367d396d5e4d659f6409abbb01fd4651b0e849cc74d3747c6a",
+        "installed_reference.json": "0a63daa35725aac6ebe6ad107064be77bb41a0ef3303cd1a347e3fb5477b8cea",
+        "installed_reference_provenance.json": "d161af2f86af02d93237361197010f71bfd126dbff186284d8b52e9fe4a8289b"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": [
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/pip@24.0"
+              ],
+              "label": "KNOWN_FALSE"
+            }
+          ]
+        }
+      },
+      "status": "SCORED"
+    },
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.601628692000304,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 2
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.9230769230769231,
+            "fn": 0,
+            "fp": 2,
+            "precision": 0.8571428571428571,
+            "recall": 1.0,
+            "tp": 12
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 27
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "CONTRADICTED": 2,
+            "SUPPORTED": 12,
+            "UNKNOWN": 30
+          },
+          "duration_seconds": 0.6842047210011515,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 0
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-scipy-5a8c605853822992",
+                "SPDXRef-Package-python-threadpoolctl-5cf8773978e57991"
+              ],
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-scipy-5a8c605853822992",
+                "SPDXRef-Package-python-threadpoolctl-5cf8773978e57991"
+              ],
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 12
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 27
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.00786155799869448,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 2
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.9230769230769231,
+            "fn": 0,
+            "fp": 2,
+            "precision": 0.8571428571428571,
+            "recall": 1.0,
+            "tp": 12
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 27
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          }
+        }
+      },
+      "project": "imbalanced-learn",
+      "reference_edges": 12,
+      "reference_hashes": {
+        "installed_field_labels.json": "2e041e3d6301dd6d5e41a47a4955013311c544d8625376fc1589fd3b03373508",
+        "installed_reference.cdx.json": "52956e08c8665d1c0b55b35ff9e46ce5c7d47f7f373fa36b65f2979756067d4d",
+        "installed_reference.json": "f5e3efd819d46ab60441fc0f5230ced9c9ece5538d97a252ae164736cdd325ce",
+        "installed_reference_provenance.json": "a883c4f32c156cab698c0c5ea68ee204b6d023d4f23d66163cc0d356d7d6b171"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": [
+            {
+              "edge": [
+                "pkg:pypi/scipy@1.16.3",
+                "pkg:pypi/threadpoolctl@3.6.0"
+              ],
+              "label": "KNOWN_FALSE"
+            },
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/pip@24.0"
+              ],
+              "label": "KNOWN_FALSE"
+            }
+          ]
+        }
+      },
+      "status": "SCORED"
+    },
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.3811197960003483,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.0,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.0,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "CONTRADICTED": 1,
+            "UNKNOWN": 29
+          },
+          "duration_seconds": 0.41754289900018193,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 0
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.005387121000239858,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.0,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.0,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        }
+      },
+      "project": "vulture",
+      "reference_edges": 0,
+      "reference_hashes": {
+        "installed_field_labels.json": "fd3a6226ffdb6b540af215dfda8fe7e7d3ab32eff2fbb43e9c192540f72d129f",
+        "installed_reference.cdx.json": "8162997ec263cb228ee537a367d61118c1f53688680f6b1ed839a532d4f84e03",
+        "installed_reference.json": "3eb18db0435bb193124596b6ea396a59f79e6d37d8f9a86eab71e92894be0c2b",
+        "installed_reference_provenance.json": "e688b490f4ecea5ec8cdad9fdbfbd42ed59d1530e5a48bfca10a8198f665f924"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": [
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/pip@24.0"
+              ],
+              "label": "KNOWN_FALSE"
+            }
+          ]
+        }
+      },
+      "status": "SCORED"
+    },
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.6462785820003774,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.0,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.0,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "CONTRADICTED": 1,
+            "UNKNOWN": 28
+          },
+          "duration_seconds": 0.7065047609994508,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 0
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.005838712999320705,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.0,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.0,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        }
+      },
+      "project": "pypandoc",
+      "reference_edges": 0,
+      "reference_hashes": {
+        "installed_field_labels.json": "f6e8186e0723773fe44ee0c1f67f49037d7152136b14cb43c63ff414bc875efc",
+        "installed_reference.cdx.json": "b9aa3ae9cf91002b159caa0ddd4ac55ab1b55e73605d859dd8c6b8bd64155f3c",
+        "installed_reference.json": "cd7636cd4d30328ac48351f832d276365e3f857184434101e0c6b3ca107b18c5",
+        "installed_reference_provenance.json": "edf0971c0c8a559acb6a0894c6809632563aa7058550ad958686919bfa2755cb"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": [
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/pip@24.0"
+              ],
+              "label": "KNOWN_FALSE"
+            }
+          ]
+        }
+      },
+      "status": "SCORED"
+    },
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.43654863699885027,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.0,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.0,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "CONTRADICTED": 1,
+            "UNKNOWN": 28
+          },
+          "duration_seconds": 0.47926841999833414,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 0
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.005231700999502209,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.0,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.0,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        }
+      },
+      "project": "algorithms",
+      "reference_edges": 0,
+      "reference_hashes": {
+        "installed_field_labels.json": "adc4bbdc1bc95bf1cee56b49800a369542a81ef51f2b512d8ee1f164ed5189c4",
+        "installed_reference.cdx.json": "e082d8e07bd63f06600834e936d4944cefad724cdb3644083797717e11bf07a1",
+        "installed_reference.json": "e4cf34d95d96cf5256b398a36e9ede0d706c7989887cd7bc726b37d043e66bf8",
+        "installed_reference_provenance.json": "3bdcd0e5634df46df6c503682c5d1d48dc415d1f9201026bf7c9b4fb8f8b2d90"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": [
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/pip@24.0"
+              ],
+              "label": "KNOWN_FALSE"
+            }
+          ]
+        }
+      },
+      "status": "SCORED"
+    },
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.4078217599999334,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.0,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.0,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "CONTRADICTED": 1,
+            "UNKNOWN": 28
+          },
+          "duration_seconds": 0.4436494159999711,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 0
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.00556097799926647,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.0,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.0,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        }
+      },
+      "project": "sqlparse",
+      "reference_edges": 0,
+      "reference_hashes": {
+        "installed_field_labels.json": "c19440095b1a54688144c28f7daa62942db8cca3cf11dc23f4244cae5607162c",
+        "installed_reference.cdx.json": "f2e10d990e6c46a59906735a80879c3e80d9d3d1826f515588e3029c2c1c8a4f",
+        "installed_reference.json": "8ad089dc33aea3eae18a0f7854286d252456ec4ab74501b6ef2703e6f04f85e3",
+        "installed_reference_provenance.json": "cc9d9aa1ea3b2fd261031bab6f6b46f1acb849b93ecd2eeaedf68580dd528d9c"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": [
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/pip@24.0"
+              ],
+              "label": "KNOWN_FALSE"
+            }
+          ]
+        }
+      },
+      "status": "SCORED"
+    },
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {
+            "add_dependency": 1
+          },
+          "assessment_counts": {},
+          "duration_seconds": 0.4888760660014668,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [
+              [
+                "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+                "SPDXRef-Package-python-typing-extensions-938e04f225233ed9"
+              ]
+            ],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 1
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.9333333333333333,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.875,
+            "recall": 1.0,
+            "tp": 7
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 30
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 10
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "CONTRADICTED": 1,
+            "SUPPORTED": 7,
+            "UNKNOWN": 30
+          },
+          "duration_seconds": 0.5428029160011647,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 0
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [
+              [
+                "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+                "SPDXRef-Package-python-typing-extensions-938e04f225233ed9"
+              ]
+            ],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 1
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 7
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 30
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 10
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.005512742000064463,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 2
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": 0.0,
+            "fn": 1,
+            "fp": 0,
+            "precision": null,
+            "recall": 0.0,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.8571428571428571,
+            "fn": 1,
+            "fp": 1,
+            "precision": 0.8571428571428571,
+            "recall": 0.8571428571428571,
+            "tp": 6
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 30
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 10
+          }
+        }
+      },
+      "project": "typer",
+      "reference_edges": 7,
+      "reference_hashes": {
+        "installed_field_labels.json": "60b9bcb6a4f91e48f27a400f4fbd590cd05bb0174192c72a5bdf5c2fd8e5391e",
+        "installed_reference.cdx.json": "2bc83562cd056b3861ac141129cd22b02e7071feb515ffbfd3c583618d65c4e3",
+        "installed_reference.json": "4c54726fc70d27c9e7fdca63a56e8e86cda8a11f47224ae8beacc220c1b8dd3a",
+        "installed_reference_provenance.json": "cb0f341b166d3d7a829d859f3df937c5d06da817752df6608eda55ffbbef89eb"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [
+            {
+              "edge": [
+                "pkg:pypi/typer@0.21.0",
+                "pkg:pypi/typing-extensions@4.15.0"
+              ],
+              "label": "KNOWN_TRUE"
+            }
+          ],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": [
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/pip@24.0"
+              ],
+              "label": "KNOWN_FALSE"
+            }
+          ]
+        }
+      },
+      "status": "SCORED"
+    },
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.7814325179988373,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 2
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.9230769230769231,
+            "fn": 0,
+            "fp": 2,
+            "precision": 0.8571428571428571,
+            "recall": 1.0,
+            "tp": 12
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 42
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 14
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "CONTRADICTED": 2,
+            "SUPPORTED": 12,
+            "UNKNOWN": 29
+          },
+          "duration_seconds": 0.8397632119995251,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 0
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-packaging-7fc98dc99b1bda4f"
+              ],
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-packaging-7fc98dc99b1bda4f"
+              ],
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 12
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 42
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 14
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.010164678000364802,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 2
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.9230769230769231,
+            "fn": 0,
+            "fp": 2,
+            "precision": 0.8571428571428571,
+            "recall": 1.0,
+            "tp": 12
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 42
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 14
+          }
+        }
+      },
+      "project": "iredis",
+      "reference_edges": 12,
+      "reference_hashes": {
+        "installed_field_labels.json": "e2138e04d00f8b1f97521564edaaffa435bb7ff4ae0776d1987d1bf0bc7423db",
+        "installed_reference.cdx.json": "73ef02b7f79b56a3492476250ee2fc849687d58cfb1c5bdf42cffffb1b8b526b",
+        "installed_reference.json": "b7c269cf04c1843c0373f1b11949f9c5204a8520970a3f3d6b1bc8eecdcdfcff",
+        "installed_reference_provenance.json": "e68605a8850f9dc242492e5b42444929450f68cd5475a716e554458ad232fabb"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": [
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/packaging@23.2"
+              ],
+              "label": "KNOWN_FALSE"
+            },
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/pip@24.0"
+              ],
+              "label": "KNOWN_FALSE"
+            }
+          ]
+        }
+      },
+      "status": "SCORED"
+    },
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.4234415690007154,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.0,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.0,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "CONTRADICTED": 1,
+            "UNKNOWN": 28
+          },
+          "duration_seconds": 0.4715526449999743,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 0
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.005237465999016422,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.0,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.0,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        }
+      },
+      "project": "attrs",
+      "reference_edges": 0,
+      "reference_hashes": {
+        "installed_field_labels.json": "8ec839e3ebf9627ca20e1639efd4caa8c2e6cc5e53a1cee6c518be2ee3fdb3b2",
+        "installed_reference.cdx.json": "1d7bc01926544afb14f5c2d37702352c0bd9f94c1352a15cdf0441a9ee13e7fe",
+        "installed_reference.json": "395571b4a31d6048b7191be10ab2f3934a32684c2f3607212a11e3d818688826",
+        "installed_reference_provenance.json": "b4575e3155f52355028ddaa4ea52ebbf1e7bd6c6c69d30e33a5a29e46db25ca7"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": [
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/pip@24.0"
+              ],
+              "label": "KNOWN_FALSE"
+            }
+          ]
+        }
+      },
+      "status": "SCORED"
+    },
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.7052122660006717,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.0,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.0,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "CONTRADICTED": 1,
+            "UNKNOWN": 28
+          },
+          "duration_seconds": 0.7453525719993195,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 0
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.009537025998724857,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.0,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.0,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        }
+      },
+      "project": "pyserial",
+      "reference_edges": 0,
+      "reference_hashes": {
+        "installed_field_labels.json": "b4313f861d6433be8f123dc1458e619c131f0e10dbdcf29564fede3b6503b294",
+        "installed_reference.cdx.json": "ee7957cffd8b5df1f440550ca3f0041f9a4e6be715f09d74f0f74a1157802a33",
+        "installed_reference.json": "2d633fef6fbc53b7e9d6957cee6f423d4609de1c569fadc5ef4c45139a9e14f4",
+        "installed_reference_provenance.json": "7bf2f363ff5469f86363dbecda1f3b3a97ea0c4055f27cdbac735db994dd7e78"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": [
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/pip@24.0"
+              ],
+              "label": "KNOWN_FALSE"
+            }
+          ]
+        }
+      },
+      "status": "SCORED"
+    },
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.5123119550007686,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 7
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.7586206896551724,
+            "fn": 0,
+            "fp": 7,
+            "precision": 0.6111111111111112,
+            "recall": 1.0,
+            "tp": 11
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 39
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 13
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "CONTRADICTED": 7,
+            "SUPPORTED": 11,
+            "UNKNOWN": 31
+          },
+          "duration_seconds": 0.5756230269998923,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 0
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-filelock-2eeef8d0e239d49a"
+              ],
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+              ],
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ],
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-platformdirs-c5d745fa435e55b6"
+              ],
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-virtualenv-47df05818598d409"
+              ],
+              [
+                "SPDXRef-Package-python-virtualenv-47df05818598d409",
+                "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+              ],
+              [
+                "SPDXRef-Package-python-virtualenv-47df05818598d409",
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd"
+              ]
+            ]
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-filelock-2eeef8d0e239d49a"
+              ],
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+              ],
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ],
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-platformdirs-c5d745fa435e55b6"
+              ],
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-virtualenv-47df05818598d409"
+              ],
+              [
+                "SPDXRef-Package-python-virtualenv-47df05818598d409",
+                "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+              ],
+              [
+                "SPDXRef-Package-python-virtualenv-47df05818598d409",
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd"
+              ]
+            ]
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 11
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 39
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 13
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.007763749001242104,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 7
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.7586206896551724,
+            "fn": 0,
+            "fp": 7,
+            "precision": 0.6111111111111112,
+            "recall": 1.0,
+            "tp": 11
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 39
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 13
+          }
+        }
+      },
+      "project": "nox",
+      "reference_edges": 11,
+      "reference_hashes": {
+        "installed_field_labels.json": "d1f3e5b96ed888f187dc3e64aee053e2de86dc8ddb624e23375737dcc2f32dc9",
+        "installed_reference.cdx.json": "72fb97b7c59cdd57d30359b4e0ec4cf2f565aaee3c76e1a7bd4b444c2a0a267d",
+        "installed_reference.json": "3689d34585575d70b3b9a79447b56c91572fb8a498bb16c7b01dd500cdbb0253",
+        "installed_reference_provenance.json": "e803f013274466f97b01363f3c1b1b37dc215a9623915c70f8e7be6581e25c51"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": [
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/filelock@3.20.1"
+              ],
+              "label": "KNOWN_FALSE"
+            },
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/packaging@25.0"
+              ],
+              "label": "KNOWN_FALSE"
+            },
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/pip@24.0"
+              ],
+              "label": "KNOWN_FALSE"
+            },
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/platformdirs@4.5.1"
+              ],
+              "label": "KNOWN_FALSE"
+            },
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/virtualenv@20.35.4"
+              ],
+              "label": "KNOWN_FALSE"
+            },
+            {
+              "edge": [
+                "pkg:pypi/virtualenv@20.35.4",
+                "pkg:pypi/packaging@25.0"
+              ],
+              "label": "KNOWN_FALSE"
+            },
+            {
+              "edge": [
+                "pkg:pypi/virtualenv@20.35.4",
+                "pkg:pypi/setuptools@79.0.1"
+              ],
+              "label": "KNOWN_FALSE"
+            }
+          ]
+        }
+      },
+      "status": "SCORED"
+    },
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.3727308199995605,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.9090909090909091,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.8333333333333334,
+            "recall": 1.0,
+            "tp": 5
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 24
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 8
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "UNKNOWN": 35
+          },
+          "duration_seconds": 0.4141331800001353,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.9090909090909091,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.8333333333333334,
+            "recall": 1.0,
+            "tp": 5
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 24
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 8
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.005543803001273773,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.9090909090909091,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.8333333333333334,
+            "recall": 1.0,
+            "tp": 5
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 24
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 8
+          }
+        }
+      },
+      "project": "pynamodb",
+      "reference_edges": 5,
+      "reference_hashes": {
+        "installed_field_labels.json": "8aeab8f1be9f66d06a090a7daae33b8d1b490c1394de55a981858b8096b79b20",
+        "installed_reference.cdx.json": "104a9373781a61be3ee0581c780b7f580971bfac6916e4c7aced15a86210a57b",
+        "installed_reference.json": "b654e0dcc2984838b795ed0f3c83860c781f6766f394c8140806a7a69e949ac3",
+        "installed_reference_provenance.json": "56836b3d49b70013e2bce20f62396244c71e1cc4b0002632ee6ad96ee5222b08"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": []
+        }
+      },
+      "status": "SCORED"
+    },
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.8623228619999281,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 3
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.8571428571428571,
+            "fn": 0,
+            "fp": 3,
+            "precision": 0.75,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 33
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 11
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "CONTRADICTED": 3,
+            "SUPPORTED": 9,
+            "UNKNOWN": 30
+          },
+          "duration_seconds": 0.9606652769998618,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 0
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-networkx-400810cf0ef75d37",
+                "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+              ],
+              [
+                "SPDXRef-Package-python-networkx-400810cf0ef75d37",
+                "SPDXRef-Package-python-scipy-5a8c605853822992"
+              ],
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-networkx-400810cf0ef75d37",
+                "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+              ],
+              [
+                "SPDXRef-Package-python-networkx-400810cf0ef75d37",
+                "SPDXRef-Package-python-scipy-5a8c605853822992"
+              ],
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 33
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 11
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.008756035000260454,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 3
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.8571428571428571,
+            "fn": 0,
+            "fp": 3,
+            "precision": 0.75,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 33
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 11
+          }
+        }
+      },
+      "project": "hyperopt",
+      "reference_edges": 9,
+      "reference_hashes": {
+        "installed_field_labels.json": "2a4d90429978d9d3134765ca11f2094bafbeb4e630a675d4f001db82e2b2bf54",
+        "installed_reference.cdx.json": "cd6d2b25e1780b64e4443a7b748e349a8cd4cf0cc9b58acb4e9d6cea4c056f02",
+        "installed_reference.json": "e44eb1bdfedff0dce25fe47bf7574993848c8d4f15a3b77fbfe12ebefeaeb69c",
+        "installed_reference_provenance.json": "365838626d079a15a85860d2ab1cbdabcd6adea4f9e38747c377a657adbbe2b5"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": [
+            {
+              "edge": [
+                "pkg:pypi/networkx@3.6.1",
+                "pkg:pypi/numpy@2.3.5"
+              ],
+              "label": "KNOWN_FALSE"
+            },
+            {
+              "edge": [
+                "pkg:pypi/networkx@3.6.1",
+                "pkg:pypi/scipy@1.16.3"
+              ],
+              "label": "KNOWN_FALSE"
+            },
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/pip@24.0"
+              ],
+              "label": "KNOWN_FALSE"
+            }
+          ]
+        }
+      },
+      "status": "SCORED"
+    },
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.3620451509996201,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.8,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "tp": 2
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 15
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 5
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "UNKNOWN": 32
+          },
+          "duration_seconds": 0.4002833480008121,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.8,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "tp": 2
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 15
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 5
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.00537309900028049,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.8,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "tp": 2
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 15
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 5
+          }
+        }
+      },
+      "project": "factory-boy",
+      "reference_edges": 2,
+      "reference_hashes": {
+        "installed_field_labels.json": "bac5bd773b49bce4a91d38d434b56fdacbcd2b1dafc61d09af6795b108163f7c",
+        "installed_reference.cdx.json": "2a62626b765ff2ab994920d237610a596f72ef1190f8a430c8910f23cff1cbde",
+        "installed_reference.json": "63f95624e12a54deb3ad8526c2d78b1030f6ebf8a7ee5a71e129a7d31ac3d9d9",
+        "installed_reference_provenance.json": "28e1d93cedd95e48efa55bedc9238b4c00f959d0917dc623fd9d2e790c00d67b"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": []
+        }
+      },
+      "status": "SCORED"
+    },
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {
+            "add_dependency": 2
+          },
+          "assessment_counts": {},
+          "duration_seconds": 0.7720522710005753,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 10
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [
+              [
+                "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+                "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+              ],
+              [
+                "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+                "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+              ]
+            ],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 2
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.8837209302325582,
+            "fn": 0,
+            "fp": 10,
+            "precision": 0.7916666666666666,
+            "recall": 1.0,
+            "tp": 38
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 93
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 31
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "UNKNOWN": 79
+          },
+          "duration_seconds": 0.8877437110004394,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 10
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [
+              [
+                "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+                "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+              ],
+              [
+                "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+                "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+              ]
+            ],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 2
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.8837209302325582,
+            "fn": 0,
+            "fp": 10,
+            "precision": 0.7916666666666666,
+            "recall": 1.0,
+            "tp": 38
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 93
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 31
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.014181397998981993,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 12
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": 0.0,
+            "fn": 2,
+            "fp": 0,
+            "precision": null,
+            "recall": 0.0,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.8571428571428571,
+            "fn": 2,
+            "fp": 10,
+            "precision": 0.782608695652174,
+            "recall": 0.9473684210526315,
+            "tp": 36
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 93
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 31
+          }
+        }
+      },
+      "project": "faster-whisper",
+      "reference_edges": 38,
+      "reference_hashes": {
+        "installed_field_labels.json": "354e3c276939ea98a816718b4d7f82f77bb9ee9da1dc0d801c51781c4a4697fc",
+        "installed_reference.cdx.json": "aa784bac02d7072425360a72bdd069d8bc66d48f5084b017f109f92869e81a8a",
+        "installed_reference.json": "614465273700d0fcbb821e6993462e09dc00543df056a44ce051da496aa2a4fc",
+        "installed_reference_provenance.json": "fe1eb1d6807dec9e2ac4ab45ce97db2944c9a385a995f772c1db27a0dad0c75a"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [
+            {
+              "edge": [
+                "pkg:pypi/huggingface-hub@1.2.3",
+                "pkg:pypi/packaging@25.0"
+              ],
+              "label": "KNOWN_TRUE"
+            },
+            {
+              "edge": [
+                "pkg:pypi/onnxruntime@1.23.2",
+                "pkg:pypi/packaging@25.0"
+              ],
+              "label": "KNOWN_TRUE"
+            }
+          ],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": []
+        }
+      },
+      "status": "SCORED"
+    },
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.43951897700026166,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.8888888888888888,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.8,
+            "recall": 1.0,
+            "tp": 4
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 18
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 6
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "CONTRADICTED": 1,
+            "SUPPORTED": 4,
+            "UNKNOWN": 29
+          },
+          "duration_seconds": 0.4789095360010833,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 0
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 4
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 18
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 6
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.006210834999365034,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.8888888888888888,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.8,
+            "recall": 1.0,
+            "tp": 4
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 18
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 6
+          }
+        }
+      },
+      "project": "django-debug-toolbar",
+      "reference_edges": 4,
+      "reference_hashes": {
+        "installed_field_labels.json": "9e2de870b542da6ea0f0a8848bb0656a8b9c9dd2032042bc00bde8166f82689f",
+        "installed_reference.cdx.json": "9cc095bb9e7e0db0376f477acf2d61c6bc0ba8c7aa5833002cbd39feee2eefff",
+        "installed_reference.json": "4d45af8c5e6fcf798c0b1234e90212fbbc100a0c8f519ddc1820178b9a51fa74",
+        "installed_reference_provenance.json": "25fdb8846305041d3c21220fccf30debcd885f0b29eb30277c3e9b88650f1fdd"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": [
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/pip@24.0"
+              ],
+              "label": "KNOWN_FALSE"
+            }
+          ]
+        }
+      },
+      "status": "SCORED"
+    },
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.44609070400110795,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.0,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.0,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "CONTRADICTED": 1,
+            "UNKNOWN": 30
+          },
+          "duration_seconds": 0.4907273670014547,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 0
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": [
+              [
+                "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+                "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+              ]
+            ]
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.005338190001566545,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 1
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.0,
+            "fn": 0,
+            "fp": 1,
+            "precision": 0.0,
+            "recall": null,
+            "tp": 0
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 9
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 3
+          }
+        }
+      },
+      "project": "pypdf",
+      "reference_edges": 0,
+      "reference_hashes": {
+        "installed_field_labels.json": "6fabcb027ef70d758b4e993a63ef7d6b9b0308436da5935be076bdee0f03153f",
+        "installed_reference.cdx.json": "aceb88bd329eb4b8e50ab9699488f7f1ff9f9e9c628ebb695164c9741db5e7da",
+        "installed_reference.json": "88b73f1ca0ff9276e292635d1e12bf290cabfc12ea2cb9d75a4f5f26350b0d72",
+        "installed_reference_provenance.json": "33a4af6be26d6f5d25f34e19fbc5e627cc1c52dfe5484cf74dde9b88c0fa61c2"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": [
+            {
+              "edge": [
+                "pkg:pypi/setuptools@79.0.1",
+                "pkg:pypi/pip@24.0"
+              ],
+              "label": "KNOWN_FALSE"
+            }
+          ]
+        }
+      },
+      "status": "SCORED"
+    },
+    {
+      "arms": {
+        "additive": {
+          "accepted_operations": {
+            "add_dependency": 1
+          },
+          "assessment_counts": {},
+          "duration_seconds": 0.5889712240004883,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 4
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [
+              [
+                "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+                "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+              ]
+            ],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 1
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.9285714285714286,
+            "fn": 0,
+            "fp": 4,
+            "precision": 0.8666666666666667,
+            "recall": 1.0,
+            "tp": 26
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 78
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 26
+          }
+        },
+        "additive_reconciliation": {
+          "accepted_operations": {},
+          "assessment_counts": {
+            "UNKNOWN": 60
+          },
+          "duration_seconds": 0.6625148259990965,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 4
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [
+              [
+                "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+                "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+              ]
+            ],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_changes_from_additive": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 1
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.9285714285714286,
+            "fn": 0,
+            "fp": 4,
+            "precision": 0.8666666666666667,
+            "recall": 1.0,
+            "tp": 26
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 78
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 26
+          }
+        },
+        "observed": {
+          "accepted_operations": {},
+          "assessment_counts": {},
+          "duration_seconds": 0.007942497000840376,
+          "failure_taxonomy_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "UNRESOLVED": 5
+          },
+          "native_changes": {
+            "added_component_refs": [],
+            "added_native_edges": [],
+            "changed_identity_refs": [],
+            "removed_component_refs": [],
+            "removed_native_edges": []
+          },
+          "native_valid": true,
+          "new_edges": {
+            "f1": 0.0,
+            "fn": 1,
+            "fp": 0,
+            "precision": null,
+            "recall": 0.0,
+            "tp": 0
+          },
+          "new_metadata": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "new_nodes": {
+            "f1": null,
+            "fn": 0,
+            "fp": 0,
+            "precision": null,
+            "recall": null,
+            "tp": 0
+          },
+          "status": "COMPLETE",
+          "unknown_label_edges": 0,
+          "whole_edges": {
+            "f1": 0.9090909090909091,
+            "fn": 1,
+            "fp": 4,
+            "precision": 0.8620689655172413,
+            "recall": 0.9615384615384616,
+            "tp": 25
+          },
+          "whole_metadata": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 78
+          },
+          "whole_nodes": {
+            "f1": 1.0,
+            "fn": 0,
+            "fp": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 26
+          }
+        }
+      },
+      "project": "markitdown",
+      "reference_edges": 26,
+      "reference_hashes": {
+        "installed_field_labels.json": "772a403665bc66e9a0caae770bcb7154db3da78c892e32229bb97aaf8732672a",
+        "installed_reference.cdx.json": "5e5e553151cba1f4a1140f6f5045ecdefd1ded21b5b6c8ee93edf15e1af17aa9",
+        "installed_reference.json": "7fc546ed0e5cfb203bc477ebaa36a14ef53fc0a1f175b4d8cca3189970a777f3",
+        "installed_reference_provenance.json": "5c367dc6e1193488e9f87bf945c303879657f94bfc74616a548cd47e92397aaf"
+      },
+      "stage_changes": {
+        "additive": {
+          "added": [
+            {
+              "edge": [
+                "pkg:pypi/onnxruntime@1.23.2",
+                "pkg:pypi/packaging@25.0"
+              ],
+              "label": "KNOWN_TRUE"
+            }
+          ],
+          "removed": []
+        },
+        "reconciliation": {
+          "added": [],
+          "removed": []
+        }
+      },
+      "status": "SCORED"
+    }
+  ],
+  "retraction_operating_point": {
+    "assessed_edges": 753,
+    "calibration": "UNMEASURED; one deterministic operating point, no probability threshold",
+    "coverage": 0.033200531208499334,
+    "known_labeled_retractions": 25,
+    "population": "Native direct edges in additive predictions, across projects",
+    "selective_risk": 0.0,
+    "unknown_labeled_retractions": 0
+  },
+  "scored_projects": 20,
+  "stage_changes": {
+    "additive": {
+      "added": {
+        "KNOWN_TRUE": 4
+      },
+      "removed": {}
+    },
+    "reconciliation": {
+      "added": {},
+      "removed": {
+        "KNOWN_FALSE": 25
+      }
+    }
+  },
+  "status": "COMPLETE_DEVELOPMENT_COMPARISON",
+  "totals": {
+    "additive": {
+      "available_case_means": {
+        "f1": {
+          "eligible_projects": 20,
+          "mean": 0.48472058859789413
+        },
+        "precision": {
+          "eligible_projects": 20,
+          "mean": 0.43543650793650795
+        },
+        "recall": {
+          "eligible_projects": 11,
+          "mean": 1.0
+        }
+      },
+      "edge_counts": {
+        "fn": 0,
+        "fp": 42,
+        "tp": 130
+      },
+      "mean_policy_seconds": 0.51851976750022,
+      "native_invalid": 0,
+      "new_edges": {
+        "fn": 0,
+        "fp": 0,
+        "tp": 4
+      },
+      "projects": 20,
+      "status_counts": {
+        "COMPLETE": 20
+      },
+      "unknown_label_edges": 0
+    },
+    "additive_reconciliation": {
+      "available_case_means": {
+        "f1": {
+          "eligible_projects": 11,
+          "mean": 0.946388377889435
+        },
+        "precision": {
+          "eligible_projects": 11,
+          "mean": 0.9053030303030303
+        },
+        "recall": {
+          "eligible_projects": 11,
+          "mean": 1.0
+        }
+      },
+      "edge_counts": {
+        "fn": 0,
+        "fp": 17,
+        "tp": 130
+      },
+      "mean_policy_seconds": 0.5722446907501763,
+      "native_invalid": 0,
+      "new_edges": {
+        "fn": 0,
+        "fp": 0,
+        "tp": 4
+      },
+      "projects": 20,
+      "status_counts": {
+        "COMPLETE": 20
+      },
+      "unknown_label_edges": 0
+    },
+    "observed": {
+      "available_case_means": {
+        "f1": {
+          "eligible_projects": 20,
+          "mean": 0.4786081351598593
+        },
+        "precision": {
+          "eligible_projects": 20,
+          "mean": 0.4338608671854549
+        },
+        "recall": {
+          "eligible_projects": 11,
+          "mean": 0.9787317945212682
+        }
+      },
+      "edge_counts": {
+        "fn": 4,
+        "fp": 42,
+        "tp": 126
+      },
+      "mean_policy_seconds": 0.006712027249977837,
+      "native_invalid": 0,
+      "new_edges": {
+        "fn": 4,
+        "fp": 0,
+        "tp": 0
+      },
+      "projects": 20,
+      "status_counts": {
+        "COMPLETE": 20
+      },
+      "unknown_label_edges": 0
+    }
+  }
+}

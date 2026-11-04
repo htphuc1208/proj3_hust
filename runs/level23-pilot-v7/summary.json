@@ -1,0 +1,780 @@
+{
+  "advisory": "CVE-2020-14343",
+  "ai_superiority": "UNMEASURED",
+  "analyzer_status_counts": {
+    "ANALYZER_ERROR": 10
+  },
+  "api_path_counts": {
+    "UNKNOWN": 10
+  },
+  "cases": [
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "NOT_OBSERVED"
+      },
+      "error": null,
+      "fault_witness": "NOT_OBSERVED_FOR_THIS_INPUT",
+      "input": "ordinary",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "direct",
+      "raw_result": "runtime/5.3.1/direct/ordinary/result.json",
+      "raw_sha256": "5c3fa9cec4e021305675a985f7527e623e2d57b750c282f7194c2b1e186032d9",
+      "result_repr": "{'answer': 42}",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.3.1",
+      "worker_status": "COMPLETE"
+    },
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "OBSERVED"
+      },
+      "error": null,
+      "fault_witness": "BENIGN_FAULT_WITNESSED",
+      "input": "arithmetic",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "direct",
+      "raw_result": "runtime/5.3.1/direct/arithmetic/result.json",
+      "raw_sha256": "e0655913913d1445cd9641869214cf3a83a0f54436cad50881bd1ed08f9d9b69",
+      "result_repr": "(42,)",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.3.1",
+      "worker_status": "COMPLETE"
+    },
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "NOT_OBSERVED"
+      },
+      "error": null,
+      "fault_witness": "NOT_OBSERVED_FOR_THIS_INPUT",
+      "input": "ordinary",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "wrapper",
+      "raw_result": "runtime/5.3.1/wrapper/ordinary/result.json",
+      "raw_sha256": "36d8594dbe90111584022d24383de8704187f81ab1de7a0cc0fec88cdc15f844",
+      "result_repr": "{'answer': 42}",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.3.1",
+      "worker_status": "COMPLETE"
+    },
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "OBSERVED"
+      },
+      "error": null,
+      "fault_witness": "BENIGN_FAULT_WITNESSED",
+      "input": "arithmetic",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "wrapper",
+      "raw_result": "runtime/5.3.1/wrapper/arithmetic/result.json",
+      "raw_sha256": "e2418441271159fa163009455787d0c668902e042f5892db10eda8da2fdb8182",
+      "result_repr": "(42,)",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.3.1",
+      "worker_status": "COMPLETE"
+    },
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "NOT_OBSERVED"
+      },
+      "error": null,
+      "fault_witness": "NOT_OBSERVED_FOR_THIS_INPUT",
+      "input": "ordinary",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "safe",
+      "raw_result": "runtime/5.3.1/safe/ordinary/result.json",
+      "raw_sha256": "e5b0dcdf4a9a2f839d9874ed76ec8e3135f2dba3b3421d7de6897566ee045840",
+      "result_repr": "{'answer': 42}",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.3.1",
+      "worker_status": "COMPLETE"
+    },
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "NOT_OBSERVED"
+      },
+      "error": {
+        "message": "could not determine a constructor for the tag 'tag:yaml.org,2002:python/object/new:tuple'\n  in \"<unicode string>\", line 1, column 1:\n    !!python/object/new:tuple\n    ^",
+        "module": "yaml.constructor",
+        "type": "ConstructorError"
+      },
+      "fault_witness": "NOT_OBSERVED_FOR_THIS_INPUT",
+      "input": "arithmetic",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "safe",
+      "raw_result": "runtime/5.3.1/safe/arithmetic/result.json",
+      "raw_sha256": "3e7a29c3bc28d6c878534dcec3e7ec5edb72a92af33ff896ac66e012a4bf92d8",
+      "result_repr": "None",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.3.1",
+      "worker_status": "COMPLETE"
+    },
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "NOT_OBSERVED"
+      },
+      "error": null,
+      "fault_witness": "NOT_OBSERVED_FOR_THIS_INPUT",
+      "input": "ordinary",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "cooccurrence",
+      "raw_result": "runtime/5.3.1/cooccurrence/ordinary/result.json",
+      "raw_sha256": "0e12595a94732e134a7e5a28add950191044e3dca78bb8adf5e21021004ae084",
+      "result_repr": "{'ignored': True}",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.3.1",
+      "worker_status": "COMPLETE"
+    },
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "NOT_OBSERVED"
+      },
+      "error": null,
+      "fault_witness": "NOT_OBSERVED_FOR_THIS_INPUT",
+      "input": "arithmetic",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "cooccurrence",
+      "raw_result": "runtime/5.3.1/cooccurrence/arithmetic/result.json",
+      "raw_sha256": "e317a2d788badecc2636da9606e65f2c70aea41a6f92cd94f6b1feb098fa3306",
+      "result_repr": "{'ignored': True}",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.3.1",
+      "worker_status": "COMPLETE"
+    },
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "NOT_OBSERVED"
+      },
+      "error": null,
+      "fault_witness": "NOT_OBSERVED_FOR_THIS_INPUT",
+      "input": "ordinary",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "guard",
+      "raw_result": "runtime/5.3.1/guard/ordinary/result.json",
+      "raw_sha256": "872c05dc1c382e033dddfed12d742ea9cad52671f6c1dcb959eaf227586202d4",
+      "result_repr": "{'answer': 42}",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.3.1",
+      "worker_status": "COMPLETE"
+    },
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "NOT_OBSERVED"
+      },
+      "error": {
+        "message": "tag rejected by application guard",
+        "module": "builtins",
+        "type": "ValueError"
+      },
+      "fault_witness": "NOT_OBSERVED_FOR_THIS_INPUT",
+      "input": "arithmetic",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "guard",
+      "raw_result": "runtime/5.3.1/guard/arithmetic/result.json",
+      "raw_sha256": "7e8d9b7c41f068c1f53dd5a6a72b454491a3e96e8d013ae3a1cb6074d54fb8f6",
+      "result_repr": "None",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.3.1",
+      "worker_status": "COMPLETE"
+    },
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "NOT_OBSERVED"
+      },
+      "error": null,
+      "fault_witness": "NOT_OBSERVED_FOR_THIS_INPUT",
+      "input": "ordinary",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "direct",
+      "raw_result": "runtime/5.4.1/direct/ordinary/result.json",
+      "raw_sha256": "24c7d053fd3f6507655912d493a6679678a3097ddbb5567a0b40fb0fd2680d87",
+      "result_repr": "{'answer': 42}",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.4.1",
+      "worker_status": "COMPLETE"
+    },
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "NOT_OBSERVED"
+      },
+      "error": {
+        "message": "could not determine a constructor for the tag 'tag:yaml.org,2002:python/object/new:tuple'\n  in \"<unicode string>\", line 1, column 1:\n    !!python/object/new:tuple\n    ^",
+        "module": "yaml.constructor",
+        "type": "ConstructorError"
+      },
+      "fault_witness": "NOT_OBSERVED_FOR_THIS_INPUT",
+      "input": "arithmetic",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "direct",
+      "raw_result": "runtime/5.4.1/direct/arithmetic/result.json",
+      "raw_sha256": "b81fd560fbc1657d83fffc4350061571258fa1d3d0a82a6a69de013a3f9c0d6a",
+      "result_repr": "None",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.4.1",
+      "worker_status": "COMPLETE"
+    },
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "NOT_OBSERVED"
+      },
+      "error": null,
+      "fault_witness": "NOT_OBSERVED_FOR_THIS_INPUT",
+      "input": "ordinary",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "wrapper",
+      "raw_result": "runtime/5.4.1/wrapper/ordinary/result.json",
+      "raw_sha256": "c77ebca9048e2f9c9a1fbaf0a4b9bea87b49fff08365c444caea63124a4555f8",
+      "result_repr": "{'answer': 42}",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.4.1",
+      "worker_status": "COMPLETE"
+    },
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "NOT_OBSERVED"
+      },
+      "error": {
+        "message": "could not determine a constructor for the tag 'tag:yaml.org,2002:python/object/new:tuple'\n  in \"<unicode string>\", line 1, column 1:\n    !!python/object/new:tuple\n    ^",
+        "module": "yaml.constructor",
+        "type": "ConstructorError"
+      },
+      "fault_witness": "NOT_OBSERVED_FOR_THIS_INPUT",
+      "input": "arithmetic",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "wrapper",
+      "raw_result": "runtime/5.4.1/wrapper/arithmetic/result.json",
+      "raw_sha256": "6cf6dc2cf324adc515aa5bf88997a122cf462abb84b7b114fce9bc3e44b60c46",
+      "result_repr": "None",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.4.1",
+      "worker_status": "COMPLETE"
+    },
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "NOT_OBSERVED"
+      },
+      "error": null,
+      "fault_witness": "NOT_OBSERVED_FOR_THIS_INPUT",
+      "input": "ordinary",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "safe",
+      "raw_result": "runtime/5.4.1/safe/ordinary/result.json",
+      "raw_sha256": "89941751b636a27f6325854d783df65f511f35e18d22cc1fceda135d057f3753",
+      "result_repr": "{'answer': 42}",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.4.1",
+      "worker_status": "COMPLETE"
+    },
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "NOT_OBSERVED"
+      },
+      "error": {
+        "message": "could not determine a constructor for the tag 'tag:yaml.org,2002:python/object/new:tuple'\n  in \"<unicode string>\", line 1, column 1:\n    !!python/object/new:tuple\n    ^",
+        "module": "yaml.constructor",
+        "type": "ConstructorError"
+      },
+      "fault_witness": "NOT_OBSERVED_FOR_THIS_INPUT",
+      "input": "arithmetic",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "safe",
+      "raw_result": "runtime/5.4.1/safe/arithmetic/result.json",
+      "raw_sha256": "1eff603554e0d703ee57c172e69de939a1146e533ce69ac88ea9cda85d573a4c",
+      "result_repr": "None",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.4.1",
+      "worker_status": "COMPLETE"
+    },
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "NOT_OBSERVED"
+      },
+      "error": null,
+      "fault_witness": "NOT_OBSERVED_FOR_THIS_INPUT",
+      "input": "ordinary",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "cooccurrence",
+      "raw_result": "runtime/5.4.1/cooccurrence/ordinary/result.json",
+      "raw_sha256": "d5b59ef40970b4d2694dfb722fbeebf5f4f4767ba103263beecb56f0595a6c5b",
+      "result_repr": "{'ignored': True}",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.4.1",
+      "worker_status": "COMPLETE"
+    },
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "NOT_OBSERVED"
+      },
+      "error": null,
+      "fault_witness": "NOT_OBSERVED_FOR_THIS_INPUT",
+      "input": "arithmetic",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "cooccurrence",
+      "raw_result": "runtime/5.4.1/cooccurrence/arithmetic/result.json",
+      "raw_sha256": "257d9a329e482a81673d2582ab5539ed154be638c10f81cb1567c89af52e09d9",
+      "result_repr": "{'ignored': True}",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.4.1",
+      "worker_status": "COMPLETE"
+    },
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "NOT_OBSERVED"
+      },
+      "error": null,
+      "fault_witness": "NOT_OBSERVED_FOR_THIS_INPUT",
+      "input": "ordinary",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "guard",
+      "raw_result": "runtime/5.4.1/guard/ordinary/result.json",
+      "raw_sha256": "7ec8ab69781702ae19f55be999a82078bc09ae287371f06083692c1fb6546628",
+      "result_repr": "{'answer': 42}",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.4.1",
+      "worker_status": "COMPLETE"
+    },
+    {
+      "confidence": "UNMEASURED",
+      "dynamic_function_entry": {
+        "scope": "THIS_INPUT_EXECUTION",
+        "status": "NOT_OBSERVED"
+      },
+      "error": {
+        "message": "tag rejected by application guard",
+        "module": "builtins",
+        "type": "ValueError"
+      },
+      "fault_witness": "NOT_OBSERVED_FOR_THIS_INPUT",
+      "input": "arithmetic",
+      "instrumentation_valid": true,
+      "product_vex": "under_investigation",
+      "profile": "guard",
+      "raw_result": "runtime/5.4.1/guard/arithmetic/result.json",
+      "raw_sha256": "e78e76174baf4805b2c7bb221274aa78afdff84554484f8a4092f300357fa14d",
+      "result_repr": "None",
+      "static": {
+        "api_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.load"
+        },
+        "constructor_path": {
+          "locations": [],
+          "status": "UNKNOWN",
+          "symbols": null,
+          "target": "yaml.constructor.FullConstructor.construct_python_object_new"
+        },
+        "entry_in_graph": false,
+        "entry_symbol": "app.entry",
+        "provenance": "Raw PyCG adjacency only; source locations added after prediction",
+        "status": "ANALYZER_ERROR"
+      },
+      "version": "5.4.1",
+      "worker_status": "COMPLETE"
+    }
+  ],
+  "completed_at": "2026-11-04T15:39:40.693567+00:00",
+  "constructor_path_counts": {
+    "UNKNOWN": 10
+  },
+  "execution_kind": "UNMODIFIED_RELEASE_SDIST_SOURCE_TREE; not an installed-distribution capture",
+  "image": "sha256:20ef7fd81efae26885e464f5702e684e038bbfc121444da9efd00f77812a1999",
+  "instrumentation_controls": {
+    "5.3.1": true,
+    "5.4.1": true
+  },
+  "llm_calls": 0,
+  "plan_sha256": "043a12cb38b6b550838ca60619f8114274b6414ae7ed26dc2999ec6f6cbda923",
+  "product_triage_delta": "UNMEASURED",
+  "product_vex": "under_investigation",
+  "runtime_case_count": 20,
+  "schema_version": "level23-pilot-results-v1",
+  "scope": "CONTROLLED_BENIGN_CVE_MECHANISM; not a natural-project or AI-superiority benchmark",
+  "static_case_count": 10,
+  "static_seal_sha256": "cc21fe5f4b53aa2ac92e815ce1ed12a96fe13eb0b7b9ad4bbe197908d00f42a1",
+  "vrr": "UNMEASURED",
+  "witness_counts": {
+    "BENIGN_FAULT_WITNESSED": 2,
+    "NOT_OBSERVED_FOR_THIS_INPUT": 18
+  }
+}

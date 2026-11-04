@@ -1,0 +1,54 @@
+{
+  "audit_events": [
+    {
+      "event": "compile",
+      "filename": "<string>",
+      "sequence": 0,
+      "source_sha256": "0fcd24935d76f7d5eda64ffde9e33f08079ca2c7e398557915a7e25d60bae721",
+      "stack": []
+    },
+    {
+      "event": "exec",
+      "matches_expected": true,
+      "sequence": 1,
+      "signature": {
+        "bytecode": "970064005300",
+        "constants": "(42,)",
+        "filename": "<string>",
+        "flags": 0,
+        "name": "<module>",
+        "names": []
+      },
+      "stack": []
+    }
+  ],
+  "elapsed_seconds": 0.046779947999311844,
+  "environment": {
+    "implementation": "CPython",
+    "machine": "x86_64",
+    "python": "3.11.16",
+    "system": "Linux"
+  },
+  "error": null,
+  "expected_code_signature": {
+    "bytecode": "970064005300",
+    "constants": "(42,)",
+    "filename": "<string>",
+    "flags": 0,
+    "name": "<module>",
+    "names": []
+  },
+  "input_kind": "ordinary",
+  "input_sha256": "1f3c4ea1abdc49fd2dc7cb3f4a68ea183a6d6bae10e2267b3f8b762e07087b5e",
+  "is_arithmetic_scalar": true,
+  "is_arithmetic_tuple": false,
+  "library_origin": "/analysis/5.4.1/direct/yaml/__init__.py",
+  "library_version": "5.4.1",
+  "libyaml_active": false,
+  "mode": "audit_control",
+  "ordinary_parse": false,
+  "python_calls": [],
+  "result_repr": "42",
+  "result_type": "int",
+  "status": "COMPLETE"
+}

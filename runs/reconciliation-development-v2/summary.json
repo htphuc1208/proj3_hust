@@ -1,0 +1,711 @@
+{
+  "added_fn": 0,
+  "after": {
+    "f1": {
+      "eligible_projects": 11,
+      "mean": 0.935208226117317
+    },
+    "precision": {
+      "eligible_projects": 11,
+      "mean": 0.9040616055608559
+    },
+    "recall": {
+      "eligible_projects": 11,
+      "mean": 0.9787317945212682
+    }
+  },
+  "agent_advantage": "UNMEASURED",
+  "before": {
+    "f1": {
+      "eligible_projects": 20,
+      "mean": 0.4786081351598593
+    },
+    "precision": {
+      "eligible_projects": 20,
+      "mean": 0.4338608671854549
+    },
+    "recall": {
+      "eligible_projects": 11,
+      "mean": 0.9787317945212682
+    }
+  },
+  "calibration": "UNMEASURED",
+  "cohort_sha256": "ffce07c8b94f21c57624227f7d8b3610c73685bacc012b03dd615366e5957c5d",
+  "comparison": "Observed graph versus inactive-declaration reconciliation; not additive-control H1 test",
+  "empty_reference_projects": 9,
+  "generated_at": "2026-11-04T06:48:59.785990+00:00",
+  "heldout_roots_used": 0,
+  "image": "sha256:5d35ccd9b572ffdef2179956b480fd32923ad90f41a1887a4c248334cfa37174",
+  "input": "Unmodified native Syft installed-target capture",
+  "llm_api_calls": 0,
+  "new_acquisitions": 0,
+  "paired_nonempty_reference": {
+    "after": {
+      "f1": 0.935208226117317,
+      "precision": 0.9040616055608559,
+      "recall": 0.9787317945212682
+    },
+    "before": {
+      "f1": 0.8701966093815623,
+      "precision": 0.7888379403371907,
+      "recall": 0.9787317945212682
+    },
+    "projects": 11
+  },
+  "partition": "development",
+  "projects": [
+    "requests",
+    "pika",
+    "boltons",
+    "imbalanced-learn",
+    "vulture",
+    "pypandoc",
+    "algorithms",
+    "sqlparse",
+    "typer",
+    "iredis",
+    "attrs",
+    "pyserial",
+    "nox",
+    "pynamodb",
+    "hyperopt",
+    "factory-boy",
+    "faster-whisper",
+    "django-debug-toolbar",
+    "pypdf",
+    "markitdown"
+  ],
+  "records": [
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": 0.8888888888888888,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.8,
+        "recall": 1.0,
+        "tp": 4
+      },
+      "assessment_counts": {
+        "UNKNOWN": 33
+      },
+      "before": {
+        "f1": 0.8888888888888888,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.8,
+        "recall": 1.0,
+        "tp": 4
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/requests",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/requests",
+      "project": "requests",
+      "reference_provenance_sha256": "6eb2d4084210b87d845214bb107c971f3e61254459b5ca832707b9738b128ab6",
+      "removed_known_fp": 0,
+      "retracted": 0,
+      "status": "SCORED",
+      "validation": true
+    },
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "before": {
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": null,
+        "tp": 0
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/pika",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/pika",
+      "project": "pika",
+      "reference_provenance_sha256": "de2f4cdbec5f22017083f050f5bd707c746412990f332f50248f59fb969385fc",
+      "removed_known_fp": 1,
+      "retracted": 1,
+      "status": "SCORED",
+      "validation": true
+    },
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "before": {
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": null,
+        "tp": 0
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/boltons",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/boltons",
+      "project": "boltons",
+      "reference_provenance_sha256": "d161af2f86af02d93237361197010f71bfd126dbff186284d8b52e9fe4a8289b",
+      "removed_known_fp": 1,
+      "retracted": 1,
+      "status": "SCORED",
+      "validation": true
+    },
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 12
+      },
+      "assessment_counts": {
+        "CONTRADICTED": 2,
+        "SUPPORTED": 12,
+        "UNKNOWN": 30
+      },
+      "before": {
+        "f1": 0.9230769230769231,
+        "fn": 0,
+        "fp": 2,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "tp": 12
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/imbalanced-learn",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/imbalanced-learn",
+      "project": "imbalanced-learn",
+      "reference_provenance_sha256": "a883c4f32c156cab698c0c5ea68ee204b6d023d4f23d66163cc0d356d7d6b171",
+      "removed_known_fp": 2,
+      "retracted": 2,
+      "status": "SCORED",
+      "validation": true
+    },
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 29
+      },
+      "before": {
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": null,
+        "tp": 0
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/vulture",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/vulture",
+      "project": "vulture",
+      "reference_provenance_sha256": "e688b490f4ecea5ec8cdad9fdbfbd42ed59d1530e5a48bfca10a8198f665f924",
+      "removed_known_fp": 1,
+      "retracted": 1,
+      "status": "SCORED",
+      "validation": true
+    },
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "before": {
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": null,
+        "tp": 0
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/pypandoc",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/pypandoc",
+      "project": "pypandoc",
+      "reference_provenance_sha256": "edf0971c0c8a559acb6a0894c6809632563aa7058550ad958686919bfa2755cb",
+      "removed_known_fp": 1,
+      "retracted": 1,
+      "status": "SCORED",
+      "validation": true
+    },
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "before": {
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": null,
+        "tp": 0
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/algorithms",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/algorithms",
+      "project": "algorithms",
+      "reference_provenance_sha256": "3bdcd0e5634df46df6c503682c5d1d48dc415d1f9201026bf7c9b4fb8f8b2d90",
+      "removed_known_fp": 1,
+      "retracted": 1,
+      "status": "SCORED",
+      "validation": true
+    },
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "before": {
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": null,
+        "tp": 0
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/sqlparse",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/sqlparse",
+      "project": "sqlparse",
+      "reference_provenance_sha256": "cc9d9aa1ea3b2fd261031bab6f6b46f1acb849b93ecd2eeaedf68580dd528d9c",
+      "removed_known_fp": 1,
+      "retracted": 1,
+      "status": "SCORED",
+      "validation": true
+    },
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": 0.9230769230769231,
+        "fn": 1,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "tp": 6
+      },
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 6,
+        "UNKNOWN": 30
+      },
+      "before": {
+        "f1": 0.8571428571428571,
+        "fn": 1,
+        "fp": 1,
+        "precision": 0.8571428571428571,
+        "recall": 0.8571428571428571,
+        "tp": 6
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/typer",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/typer",
+      "project": "typer",
+      "reference_provenance_sha256": "cb0f341b166d3d7a829d859f3df937c5d06da817752df6608eda55ffbbef89eb",
+      "removed_known_fp": 1,
+      "retracted": 1,
+      "status": "SCORED",
+      "validation": true
+    },
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 12
+      },
+      "assessment_counts": {
+        "CONTRADICTED": 2,
+        "SUPPORTED": 12,
+        "UNKNOWN": 29
+      },
+      "before": {
+        "f1": 0.9230769230769231,
+        "fn": 0,
+        "fp": 2,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "tp": 12
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/iredis",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/iredis",
+      "project": "iredis",
+      "reference_provenance_sha256": "e68605a8850f9dc242492e5b42444929450f68cd5475a716e554458ad232fabb",
+      "removed_known_fp": 2,
+      "retracted": 2,
+      "status": "SCORED",
+      "validation": true
+    },
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "before": {
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": null,
+        "tp": 0
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/attrs",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/attrs",
+      "project": "attrs",
+      "reference_provenance_sha256": "b4575e3155f52355028ddaa4ea52ebbf1e7bd6c6c69d30e33a5a29e46db25ca7",
+      "removed_known_fp": 1,
+      "retracted": 1,
+      "status": "SCORED",
+      "validation": true
+    },
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "before": {
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": null,
+        "tp": 0
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/pyserial",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/pyserial",
+      "project": "pyserial",
+      "reference_provenance_sha256": "7bf2f363ff5469f86363dbecda1f3b3a97ea0c4055f27cdbac735db994dd7e78",
+      "removed_known_fp": 1,
+      "retracted": 1,
+      "status": "SCORED",
+      "validation": true
+    },
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 11
+      },
+      "assessment_counts": {
+        "CONTRADICTED": 7,
+        "SUPPORTED": 11,
+        "UNKNOWN": 31
+      },
+      "before": {
+        "f1": 0.7586206896551724,
+        "fn": 0,
+        "fp": 7,
+        "precision": 0.6111111111111112,
+        "recall": 1.0,
+        "tp": 11
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/nox",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/nox",
+      "project": "nox",
+      "reference_provenance_sha256": "e803f013274466f97b01363f3c1b1b37dc215a9623915c70f8e7be6581e25c51",
+      "removed_known_fp": 7,
+      "retracted": 7,
+      "status": "SCORED",
+      "validation": true
+    },
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": 0.9090909090909091,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "tp": 5
+      },
+      "assessment_counts": {
+        "UNKNOWN": 35
+      },
+      "before": {
+        "f1": 0.9090909090909091,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "tp": 5
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/pynamodb",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/pynamodb",
+      "project": "pynamodb",
+      "reference_provenance_sha256": "56836b3d49b70013e2bce20f62396244c71e1cc4b0002632ee6ad96ee5222b08",
+      "removed_known_fp": 0,
+      "retracted": 0,
+      "status": "SCORED",
+      "validation": true
+    },
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 9
+      },
+      "assessment_counts": {
+        "CONTRADICTED": 3,
+        "SUPPORTED": 9,
+        "UNKNOWN": 30
+      },
+      "before": {
+        "f1": 0.8571428571428571,
+        "fn": 0,
+        "fp": 3,
+        "precision": 0.75,
+        "recall": 1.0,
+        "tp": 9
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/hyperopt",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/hyperopt",
+      "project": "hyperopt",
+      "reference_provenance_sha256": "365838626d079a15a85860d2ab1cbdabcd6adea4f9e38747c377a657adbbe2b5",
+      "removed_known_fp": 3,
+      "retracted": 3,
+      "status": "SCORED",
+      "validation": true
+    },
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": 0.8,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "tp": 2
+      },
+      "assessment_counts": {
+        "UNKNOWN": 32
+      },
+      "before": {
+        "f1": 0.8,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "tp": 2
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/factory-boy",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/factory-boy",
+      "project": "factory-boy",
+      "reference_provenance_sha256": "28e1d93cedd95e48efa55bedc9238b4c00f959d0917dc623fd9d2e790c00d67b",
+      "removed_known_fp": 0,
+      "retracted": 0,
+      "status": "SCORED",
+      "validation": true
+    },
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": 0.8571428571428571,
+        "fn": 2,
+        "fp": 10,
+        "precision": 0.782608695652174,
+        "recall": 0.9473684210526315,
+        "tp": 36
+      },
+      "assessment_counts": {
+        "UNKNOWN": 77
+      },
+      "before": {
+        "f1": 0.8571428571428571,
+        "fn": 2,
+        "fp": 10,
+        "precision": 0.782608695652174,
+        "recall": 0.9473684210526315,
+        "tp": 36
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/faster-whisper",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/faster-whisper",
+      "project": "faster-whisper",
+      "reference_provenance_sha256": "fe1eb1d6807dec9e2ac4ab45ce97db2944c9a385a995f772c1db27a0dad0c75a",
+      "removed_known_fp": 0,
+      "retracted": 0,
+      "status": "SCORED",
+      "validation": true
+    },
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 4
+      },
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 4,
+        "UNKNOWN": 29
+      },
+      "before": {
+        "f1": 0.8888888888888888,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.8,
+        "recall": 1.0,
+        "tp": 4
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/django-debug-toolbar",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/django-debug-toolbar",
+      "project": "django-debug-toolbar",
+      "reference_provenance_sha256": "25fdb8846305041d3c21220fccf30debcd885f0b29eb30277c3e9b88650f1fdd",
+      "removed_known_fp": 1,
+      "retracted": 1,
+      "status": "SCORED",
+      "validation": true
+    },
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 30
+      },
+      "before": {
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": null,
+        "tp": 0
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/pypdf",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/pypdf",
+      "project": "pypdf",
+      "reference_provenance_sha256": "33a4af6be26d6f5d25f34e19fbc5e627cc1c52dfe5484cf74dde9b88c0fa61c2",
+      "removed_known_fp": 1,
+      "retracted": 1,
+      "status": "SCORED",
+      "validation": true
+    },
+    {
+      "added_fn": 0,
+      "after": {
+        "f1": 0.9090909090909091,
+        "fn": 1,
+        "fp": 4,
+        "precision": 0.8620689655172413,
+        "recall": 0.9615384615384616,
+        "tp": 25
+      },
+      "assessment_counts": {
+        "UNKNOWN": 59
+      },
+      "before": {
+        "f1": 0.9090909090909091,
+        "fn": 1,
+        "fp": 4,
+        "precision": 0.8620689655172413,
+        "recall": 0.9615384615384616,
+        "tp": 25
+      },
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/markitdown",
+      "case": "/home/phucht/project/sbom_security_poc/runs/reconciliation-development-v2/markitdown",
+      "project": "markitdown",
+      "reference_provenance_sha256": "5c367dc6e1193488e9f87bf945c303879657f94bfc74616a548cd47e92397aaf",
+      "removed_known_fp": 0,
+      "retracted": 0,
+      "status": "SCORED",
+      "validation": true
+    }
+  ],
+  "removed_known_fp": 25,
+  "retracted_edges": 25,
+  "runner_sha256": "9ec13d8d6bdb19bc759e3cd4c250dfbe62b99b0416cb371d41584c82f4ea5d0b",
+  "security_metrics": "UNMEASURED",
+  "source_sha256": "3c09af84da1f536fd822dd5d13452f1493835541929a9f708d8c085068f1f2b8",
+  "status": "COMPLETE_DEVELOPMENT_DIAGNOSTIC",
+  "status_counts": {
+    "SCORED": 20
+  },
+  "time_scope": "Contemporary captured metadata reanalysis; not historical metadata availability"
+}

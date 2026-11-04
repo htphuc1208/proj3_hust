@@ -1,0 +1,10 @@
+{
+  "confidence": "UNMEASURED",
+  "dynamic_function_entry": {
+    "scope": "THIS_INPUT_EXECUTION",
+    "status": "OBSERVED"
+  },
+  "fault_witness": "BENIGN_FAULT_WITNESSED",
+  "instrumentation_valid": true,
+  "product_vex": "under_investigation"
+}

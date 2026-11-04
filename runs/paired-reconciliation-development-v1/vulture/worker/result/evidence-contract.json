@@ -1,0 +1,23 @@
+{
+  "available_at": "2026-10-28T17:05:47.920303Z",
+  "context_sha256": "b24784a251faf68e7921e54221b7daf900464fbd5713dce98e6aaa04f2af0157",
+  "evidence_manifest_sha256": "e839ce118585d07786b11c76d8b5689d5535c0151e92f791cc07c7fca6ddf26d",
+  "rights": "Same full top-level METADATA bytes; no peers, registry, labels or network",
+  "shared_preparation_seconds": 0.10171873000035703,
+  "snapshot_diagnostics": [],
+  "sources": [
+    {
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2"
+    },
+    {
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5"
+    },
+    {
+      "path": "lib/python3.11/site-packages/vulture-2.14.dist-info/METADATA",
+      "sha256": "94122353746bc779b3cfc21b4eaf11b3a17b35d9fdeb45bc2fea9183dbb61990"
+    }
+  ],
+  "target_id": "a2167a355d11b28abec4395fd434eccece853d6fd7a8fc381c9414c3d49d9360"
+}

@@ -1,0 +1,41 @@
+{
+  "records": [
+    {
+      "acquired_at": "2026-11-04T07:08:13.900979Z",
+      "authority": "VERIFIED_TARGET",
+      "availability_kind": "OBSERVED_TIME",
+      "available_at": "2026-10-28T17:06:30.599938Z",
+      "evidence_id": "583c41e03038e8e91f023cd6df570d065c8e8d7719e903e2c799654fd2d7ccd4",
+      "kind": "target_metadata",
+      "schema_version": "evidence-v1",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source": "target:lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "target_id": "6b8282a526ef4ca198f76306e2b71ae418607e9a687e3e4c5dce1d5f2a928454"
+    },
+    {
+      "acquired_at": "2026-11-04T07:08:13.911512Z",
+      "authority": "VERIFIED_TARGET",
+      "availability_kind": "OBSERVED_TIME",
+      "available_at": "2026-10-28T17:06:30.599938Z",
+      "evidence_id": "69716da6dc21903e7cf9ec6eeb8f89d5199dd08bbd2ffc907ad9d85cd9c48640",
+      "kind": "target_metadata",
+      "schema_version": "evidence-v1",
+      "sha256": "42a8ab7e94ef0b7baa7e94cdac65d6b9254c608476f630120c990007bf472943",
+      "source": "target:lib/python3.11/site-packages/pyserial-3.5.dist-info/METADATA",
+      "target_id": "6b8282a526ef4ca198f76306e2b71ae418607e9a687e3e4c5dce1d5f2a928454"
+    },
+    {
+      "acquired_at": "2026-11-04T07:08:13.922179Z",
+      "authority": "VERIFIED_TARGET",
+      "availability_kind": "OBSERVED_TIME",
+      "available_at": "2026-10-28T17:06:30.599938Z",
+      "evidence_id": "fc0aca089b9446c77962893094b857d2f2bec131bc228accd94a46bf72015a78",
+      "kind": "target_metadata",
+      "schema_version": "evidence-v1",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source": "target:lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "target_id": "6b8282a526ef4ca198f76306e2b71ae418607e9a687e3e4c5dce1d5f2a928454"
+    }
+  ],
+  "schema_version": "evidence-manifest-v1"
+}

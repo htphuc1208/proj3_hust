@@ -1,0 +1,515 @@
+[
+  {
+    "assessment_reasons": [
+      "INCOMPLETE_METADATA_OR_CONTEXT"
+    ],
+    "edge": [
+      "pkg:pypi/setuptools@79.0.1",
+      "pkg:pypi/pip@24.0"
+    ],
+    "failure_category": "UNRESOLVED",
+    "interpretation": "Abstention reasons are not a proven scanner-internal causal attribution",
+    "project": "requests",
+    "snapshot_diagnostics": [
+      {
+        "path": "lib/python3.11/site-packages/requests-2.32.5.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "65b5a08da81f4915513e760965ff14b7518f65b7bb3efe0dab364bbcc4d40cb0"
+      }
+    ]
+  },
+  {
+    "assessment_reasons": [
+      "INCOMPLETE_METADATA_OR_CONTEXT"
+    ],
+    "edge": [
+      "pkg:pypi/setuptools@79.0.1",
+      "pkg:pypi/pip@24.0"
+    ],
+    "failure_category": "UNRESOLVED",
+    "interpretation": "Abstention reasons are not a proven scanner-internal causal attribution",
+    "project": "pynamodb",
+    "snapshot_diagnostics": [
+      {
+        "path": "lib/python3.11/site-packages/pynamodb-6.1.0.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "2cbf076ae0300da28793fd1c72724e5c9ba44a59607a13114ba33d4ff7362198"
+      }
+    ]
+  },
+  {
+    "assessment_reasons": [
+      "INCOMPLETE_METADATA_OR_CONTEXT"
+    ],
+    "edge": [
+      "pkg:pypi/setuptools@79.0.1",
+      "pkg:pypi/pip@24.0"
+    ],
+    "failure_category": "UNRESOLVED",
+    "interpretation": "Abstention reasons are not a proven scanner-internal causal attribution",
+    "project": "factory-boy",
+    "snapshot_diagnostics": [
+      {
+        "path": "lib/python3.11/site-packages/faker-40.1.0.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "2f121bf683f8a273f006e8b0573f1e8479c8dd6b722f72b96ff3360722edd8f7"
+      }
+    ]
+  },
+  {
+    "assessment_reasons": [
+      "INCOMPLETE_METADATA_OR_CONTEXT"
+    ],
+    "edge": [
+      "pkg:pypi/fsspec@2025.12.0",
+      "pkg:pypi/numpy@2.3.5"
+    ],
+    "failure_category": "UNRESOLVED",
+    "interpretation": "Abstention reasons are not a proven scanner-internal causal attribution",
+    "project": "faster-whisper",
+    "snapshot_diagnostics": [
+      {
+        "path": "lib/python3.11/site-packages/ctranslate2-4.6.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "9601a6d82b902c7fc264bda733aa0ddedc2398b25b3dcf21c6777094aaeefc19"
+      },
+      {
+        "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+      },
+      {
+        "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+      },
+      {
+        "path": "lib/python3.11/site-packages/sympy-1.14.0.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595"
+      }
+    ]
+  },
+  {
+    "assessment_reasons": [
+      "INCOMPLETE_METADATA_OR_CONTEXT"
+    ],
+    "edge": [
+      "pkg:pypi/fsspec@2025.12.0",
+      "pkg:pypi/tqdm@4.67.1"
+    ],
+    "failure_category": "UNRESOLVED",
+    "interpretation": "Abstention reasons are not a proven scanner-internal causal attribution",
+    "project": "faster-whisper",
+    "snapshot_diagnostics": [
+      {
+        "path": "lib/python3.11/site-packages/ctranslate2-4.6.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "9601a6d82b902c7fc264bda733aa0ddedc2398b25b3dcf21c6777094aaeefc19"
+      },
+      {
+        "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+      },
+      {
+        "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+      },
+      {
+        "path": "lib/python3.11/site-packages/sympy-1.14.0.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595"
+      }
+    ]
+  },
+  {
+    "assessment_reasons": [
+      "INCOMPLETE_METADATA_OR_CONTEXT"
+    ],
+    "edge": [
+      "pkg:pypi/httpcore@1.0.9",
+      "pkg:pypi/anyio@4.12.0"
+    ],
+    "failure_category": "UNRESOLVED",
+    "interpretation": "Abstention reasons are not a proven scanner-internal causal attribution",
+    "project": "faster-whisper",
+    "snapshot_diagnostics": [
+      {
+        "path": "lib/python3.11/site-packages/ctranslate2-4.6.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "9601a6d82b902c7fc264bda733aa0ddedc2398b25b3dcf21c6777094aaeefc19"
+      },
+      {
+        "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+      },
+      {
+        "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+      },
+      {
+        "path": "lib/python3.11/site-packages/sympy-1.14.0.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595"
+      }
+    ]
+  },
+  {
+    "assessment_reasons": [
+      "INCOMPLETE_METADATA_OR_CONTEXT"
+    ],
+    "edge": [
+      "pkg:pypi/httpx@0.28.1",
+      "pkg:pypi/click@8.3.1"
+    ],
+    "failure_category": "UNRESOLVED",
+    "interpretation": "Abstention reasons are not a proven scanner-internal causal attribution",
+    "project": "faster-whisper",
+    "snapshot_diagnostics": [
+      {
+        "path": "lib/python3.11/site-packages/ctranslate2-4.6.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "9601a6d82b902c7fc264bda733aa0ddedc2398b25b3dcf21c6777094aaeefc19"
+      },
+      {
+        "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+      },
+      {
+        "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+      },
+      {
+        "path": "lib/python3.11/site-packages/sympy-1.14.0.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595"
+      }
+    ]
+  },
+  {
+    "assessment_reasons": [
+      "INCOMPLETE_METADATA_OR_CONTEXT"
+    ],
+    "edge": [
+      "pkg:pypi/huggingface-hub@1.2.3",
+      "pkg:pypi/numpy@2.3.5"
+    ],
+    "failure_category": "UNRESOLVED",
+    "interpretation": "Abstention reasons are not a proven scanner-internal causal attribution",
+    "project": "faster-whisper",
+    "snapshot_diagnostics": [
+      {
+        "path": "lib/python3.11/site-packages/ctranslate2-4.6.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "9601a6d82b902c7fc264bda733aa0ddedc2398b25b3dcf21c6777094aaeefc19"
+      },
+      {
+        "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+      },
+      {
+        "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+      },
+      {
+        "path": "lib/python3.11/site-packages/sympy-1.14.0.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595"
+      }
+    ]
+  },
+  {
+    "assessment_reasons": [
+      "INCOMPLETE_METADATA_OR_CONTEXT"
+    ],
+    "edge": [
+      "pkg:pypi/setuptools@80.9.0",
+      "pkg:pypi/filelock@3.20.1"
+    ],
+    "failure_category": "UNRESOLVED",
+    "interpretation": "Abstention reasons are not a proven scanner-internal causal attribution",
+    "project": "faster-whisper",
+    "snapshot_diagnostics": [
+      {
+        "path": "lib/python3.11/site-packages/ctranslate2-4.6.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "9601a6d82b902c7fc264bda733aa0ddedc2398b25b3dcf21c6777094aaeefc19"
+      },
+      {
+        "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+      },
+      {
+        "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+      },
+      {
+        "path": "lib/python3.11/site-packages/sympy-1.14.0.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595"
+      }
+    ]
+  },
+  {
+    "assessment_reasons": [
+      "INCOMPLETE_METADATA_OR_CONTEXT"
+    ],
+    "edge": [
+      "pkg:pypi/setuptools@80.9.0",
+      "pkg:pypi/pip@24.0"
+    ],
+    "failure_category": "UNRESOLVED",
+    "interpretation": "Abstention reasons are not a proven scanner-internal causal attribution",
+    "project": "faster-whisper",
+    "snapshot_diagnostics": [
+      {
+        "path": "lib/python3.11/site-packages/ctranslate2-4.6.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "9601a6d82b902c7fc264bda733aa0ddedc2398b25b3dcf21c6777094aaeefc19"
+      },
+      {
+        "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+      },
+      {
+        "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+      },
+      {
+        "path": "lib/python3.11/site-packages/sympy-1.14.0.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595"
+      }
+    ]
+  },
+  {
+    "assessment_reasons": [
+      "INCOMPLETE_METADATA_OR_CONTEXT"
+    ],
+    "edge": [
+      "pkg:pypi/tokenizers@0.22.1",
+      "pkg:pypi/numpy@2.3.5"
+    ],
+    "failure_category": "UNRESOLVED",
+    "interpretation": "Abstention reasons are not a proven scanner-internal causal attribution",
+    "project": "faster-whisper",
+    "snapshot_diagnostics": [
+      {
+        "path": "lib/python3.11/site-packages/ctranslate2-4.6.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "9601a6d82b902c7fc264bda733aa0ddedc2398b25b3dcf21c6777094aaeefc19"
+      },
+      {
+        "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+      },
+      {
+        "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+      },
+      {
+        "path": "lib/python3.11/site-packages/sympy-1.14.0.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595"
+      }
+    ]
+  },
+  {
+    "assessment_reasons": [
+      "INCOMPLETE_METADATA_OR_CONTEXT"
+    ],
+    "edge": [
+      "pkg:pypi/tokenizers@0.22.1",
+      "pkg:pypi/tokenizers@0.22.1"
+    ],
+    "failure_category": "UNRESOLVED",
+    "interpretation": "Abstention reasons are not a proven scanner-internal causal attribution",
+    "project": "faster-whisper",
+    "snapshot_diagnostics": [
+      {
+        "path": "lib/python3.11/site-packages/ctranslate2-4.6.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "9601a6d82b902c7fc264bda733aa0ddedc2398b25b3dcf21c6777094aaeefc19"
+      },
+      {
+        "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+      },
+      {
+        "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+      },
+      {
+        "path": "lib/python3.11/site-packages/sympy-1.14.0.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595"
+      }
+    ]
+  },
+  {
+    "assessment_reasons": [
+      "INCOMPLETE_METADATA_OR_CONTEXT"
+    ],
+    "edge": [
+      "pkg:pypi/typer-slim@0.21.0",
+      "pkg:pypi/shellingham@1.5.4"
+    ],
+    "failure_category": "UNRESOLVED",
+    "interpretation": "Abstention reasons are not a proven scanner-internal causal attribution",
+    "project": "faster-whisper",
+    "snapshot_diagnostics": [
+      {
+        "path": "lib/python3.11/site-packages/ctranslate2-4.6.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "9601a6d82b902c7fc264bda733aa0ddedc2398b25b3dcf21c6777094aaeefc19"
+      },
+      {
+        "path": "lib/python3.11/site-packages/huggingface_hub-1.2.3.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "7977f35bdfa0880eecdf03221d18dc866d59ac8e3bf534aadf5dccb3aeb94d59"
+      },
+      {
+        "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+      },
+      {
+        "path": "lib/python3.11/site-packages/sympy-1.14.0.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595"
+      }
+    ]
+  },
+  {
+    "assessment_reasons": [
+      "INCOMPLETE_METADATA_OR_CONTEXT"
+    ],
+    "edge": [
+      "pkg:pypi/beautifulsoup4@4.14.3",
+      "pkg:pypi/charset-normalizer@3.4.4"
+    ],
+    "failure_category": "UNRESOLVED",
+    "interpretation": "Abstention reasons are not a proven scanner-internal causal attribution",
+    "project": "markitdown",
+    "snapshot_diagnostics": [
+      {
+        "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+      },
+      {
+        "path": "lib/python3.11/site-packages/requests-2.32.5.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "65b5a08da81f4915513e760965ff14b7518f65b7bb3efe0dab364bbcc4d40cb0"
+      },
+      {
+        "path": "lib/python3.11/site-packages/sympy-1.14.0.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595"
+      }
+    ]
+  },
+  {
+    "assessment_reasons": [
+      "INCOMPLETE_METADATA_OR_CONTEXT"
+    ],
+    "edge": [
+      "pkg:pypi/markitdown@0.1.4",
+      "pkg:pypi/onnxruntime@1.23.2"
+    ],
+    "failure_category": "UNRESOLVED",
+    "interpretation": "Abstention reasons are not a proven scanner-internal causal attribution",
+    "project": "markitdown",
+    "snapshot_diagnostics": [
+      {
+        "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+      },
+      {
+        "path": "lib/python3.11/site-packages/requests-2.32.5.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "65b5a08da81f4915513e760965ff14b7518f65b7bb3efe0dab364bbcc4d40cb0"
+      },
+      {
+        "path": "lib/python3.11/site-packages/sympy-1.14.0.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595"
+      }
+    ]
+  },
+  {
+    "assessment_reasons": [
+      "INCOMPLETE_METADATA_OR_CONTEXT"
+    ],
+    "edge": [
+      "pkg:pypi/python-dotenv@1.2.1",
+      "pkg:pypi/click@8.3.1"
+    ],
+    "failure_category": "UNRESOLVED",
+    "interpretation": "Abstention reasons are not a proven scanner-internal causal attribution",
+    "project": "markitdown",
+    "snapshot_diagnostics": [
+      {
+        "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+      },
+      {
+        "path": "lib/python3.11/site-packages/requests-2.32.5.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "65b5a08da81f4915513e760965ff14b7518f65b7bb3efe0dab364bbcc4d40cb0"
+      },
+      {
+        "path": "lib/python3.11/site-packages/sympy-1.14.0.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595"
+      }
+    ]
+  },
+  {
+    "assessment_reasons": [
+      "INCOMPLETE_METADATA_OR_CONTEXT"
+    ],
+    "edge": [
+      "pkg:pypi/setuptools@79.0.1",
+      "pkg:pypi/pip@24.0"
+    ],
+    "failure_category": "UNRESOLVED",
+    "interpretation": "Abstention reasons are not a proven scanner-internal causal attribution",
+    "project": "markitdown",
+    "snapshot_diagnostics": [
+      {
+        "path": "lib/python3.11/site-packages/onnxruntime-1.23.2.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "0681c4f873cc6fdd4f27591efa63e630b79d09f0a00f4a211a1463b7c4893f23"
+      },
+      {
+        "path": "lib/python3.11/site-packages/requests-2.32.5.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "65b5a08da81f4915513e760965ff14b7518f65b7bb3efe0dab364bbcc4d40cb0"
+      },
+      {
+        "path": "lib/python3.11/site-packages/sympy-1.14.0.dist-info/METADATA",
+        "reason": "DYNAMIC_REQUIREMENTS",
+        "sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595"
+      }
+    ]
+  }
+]

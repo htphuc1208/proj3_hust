@@ -1,0 +1,38 @@
+{
+  "causal_taxonomy": "Residual FP/FN causes remain UNRESOLVED unless independently supported; no scanner-internal cause inferred",
+  "changes": {
+    "additive": {
+      "added": [
+        {
+          "edge": [
+            "pkg:pypi/typer@0.21.0",
+            "pkg:pypi/typing-extensions@4.15.0"
+          ],
+          "label": "KNOWN_TRUE"
+        }
+      ],
+      "removed": []
+    },
+    "reconciliation": {
+      "added": [],
+      "removed": [
+        {
+          "edge": [
+            "pkg:pypi/setuptools@79.0.1",
+            "pkg:pypi/pip@24.0"
+          ],
+          "label": "KNOWN_FALSE"
+        }
+      ]
+    }
+  },
+  "retraction_fact_labels": [
+    {
+      "edge": [
+        "pkg:pypi/setuptools@79.0.1",
+        "pkg:pypi/pip@24.0"
+      ],
+      "label": "KNOWN_FALSE"
+    }
+  ]
+}

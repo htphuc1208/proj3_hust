@@ -1,0 +1,1908 @@
+{
+  "audit_events": [],
+  "elapsed_seconds": 0.05357748099959281,
+  "environment": {
+    "implementation": "CPython",
+    "machine": "x86_64",
+    "python": "3.11.16",
+    "system": "Linux"
+  },
+  "error": null,
+  "expected_code_signature": {
+    "bytecode": "970064005300",
+    "constants": "(42,)",
+    "filename": "<string>",
+    "flags": 0,
+    "name": "<module>",
+    "names": []
+  },
+  "input_kind": "ordinary",
+  "input_sha256": "1f3c4ea1abdc49fd2dc7cb3f4a68ea183a6d6bae10e2267b3f8b762e07087b5e",
+  "is_arithmetic_scalar": false,
+  "is_arithmetic_tuple": false,
+  "library_origin": "/analysis/5.4.1/safe/yaml/__init__.py",
+  "library_version": "5.4.1",
+  "libyaml_active": false,
+  "mode": "runtime",
+  "ordinary_parse": true,
+  "python_calls": [
+    {
+      "file": "app.py",
+      "first_line": 3,
+      "function": "entry"
+    },
+    {
+      "file": "yaml/__init__.py",
+      "first_line": 103,
+      "function": "load"
+    },
+    {
+      "file": "yaml/loader.py",
+      "first_line": 33,
+      "function": "SafeLoader.__init__"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 59,
+      "function": "Reader.__init__"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 138,
+      "function": "Reader.check_printable"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 48,
+      "function": "Scanner.__init__"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 359,
+      "function": "Scanner.fetch_stream_start"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 114,
+      "function": "Reader.get_mark"
+    },
+    {
+      "file": "yaml/error.py",
+      "first_line": 6,
+      "function": "Mark.__init__"
+    },
+    {
+      "file": "yaml/tokens.py",
+      "first_line": 33,
+      "function": "StreamStartToken.__init__"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 81,
+      "function": "Parser.__init__"
+    },
+    {
+      "file": "yaml/composer.py",
+      "first_line": 13,
+      "function": "Composer.__init__"
+    },
+    {
+      "file": "yaml/constructor.py",
+      "first_line": 24,
+      "function": "BaseConstructor.__init__"
+    },
+    {
+      "file": "yaml/resolver.py",
+      "first_line": 21,
+      "function": "BaseResolver.__init__"
+    },
+    {
+      "file": "yaml/constructor.py",
+      "first_line": 47,
+      "function": "BaseConstructor.get_single_data"
+    },
+    {
+      "file": "yaml/composer.py",
+      "first_line": 29,
+      "function": "Composer.get_single_node"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 114,
+      "function": "Parser.get_event"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 127,
+      "function": "Parser.parse_stream_start"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 135,
+      "function": "Scanner.get_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/events.py",
+      "first_line": 37,
+      "function": "StreamStartEvent.__init__"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 94,
+      "function": "Parser.check_event"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 139,
+      "function": "Parser.parse_implicit_document_start"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 156,
+      "function": "Scanner.fetch_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 752,
+      "function": "Scanner.scan_to_next_token"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 1416,
+      "function": "Scanner.scan_line_break"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 325,
+      "function": "Scanner.unwind_indent"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 731,
+      "function": "Scanner.check_plain"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 668,
+      "function": "Scanner.fetch_plain"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 295,
+      "function": "Scanner.save_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 312,
+      "function": "Scanner.remove_possible_simple_key"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 114,
+      "function": "Reader.get_mark"
+    },
+    {
+      "file": "yaml/error.py",
+      "first_line": 6,
+      "function": "Mark.__init__"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 38,
+      "function": "SimpleKey.__init__"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 1270,
+      "function": "Scanner.scan_plain"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 114,
+      "function": "Reader.get_mark"
+    },
+    {
+      "file": "yaml/error.py",
+      "first_line": 6,
+      "function": "Mark.__init__"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 94,
+      "function": "Reader.prefix"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 99,
+      "function": "Reader.forward"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 114,
+      "function": "Reader.get_mark"
+    },
+    {
+      "file": "yaml/error.py",
+      "first_line": 6,
+      "function": "Mark.__init__"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 1311,
+      "function": "Scanner.scan_plain_spaces"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 94,
+      "function": "Reader.prefix"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 99,
+      "function": "Reader.forward"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/tokens.py",
+      "first_line": 98,
+      "function": "ScalarToken.__init__"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 156,
+      "function": "Scanner.fetch_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 752,
+      "function": "Scanner.scan_to_next_token"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 1416,
+      "function": "Scanner.scan_line_break"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 325,
+      "function": "Scanner.unwind_indent"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 721,
+      "function": "Scanner.check_value"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 545,
+      "function": "Scanner.fetch_value"
+    },
+    {
+      "file": "yaml/tokens.py",
+      "first_line": 3,
+      "function": "Token.__init__"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 349,
+      "function": "Scanner.add_indent"
+    },
+    {
+      "file": "yaml/tokens.py",
+      "first_line": 3,
+      "function": "Token.__init__"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 114,
+      "function": "Reader.get_mark"
+    },
+    {
+      "file": "yaml/error.py",
+      "first_line": 6,
+      "function": "Mark.__init__"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 99,
+      "function": "Reader.forward"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 114,
+      "function": "Reader.get_mark"
+    },
+    {
+      "file": "yaml/error.py",
+      "first_line": 6,
+      "function": "Mark.__init__"
+    },
+    {
+      "file": "yaml/tokens.py",
+      "first_line": 3,
+      "function": "Token.__init__"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 125,
+      "function": "Scanner.peek_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/events.py",
+      "first_line": 46,
+      "function": "DocumentStartEvent.__init__"
+    },
+    {
+      "file": "yaml/composer.py",
+      "first_line": 50,
+      "function": "Composer.compose_document"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 114,
+      "function": "Parser.get_event"
+    },
+    {
+      "file": "yaml/composer.py",
+      "first_line": 63,
+      "function": "Composer.compose_node"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 94,
+      "function": "Parser.check_event"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 264,
+      "function": "Parser.parse_block_node"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 273,
+      "function": "Parser.parse_node"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 125,
+      "function": "Scanner.peek_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 125,
+      "function": "Scanner.peek_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/events.py",
+      "first_line": 22,
+      "function": "CollectionStartEvent.__init__"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 107,
+      "function": "Parser.peek_event"
+    },
+    {
+      "file": "yaml/resolver.py",
+      "first_line": 91,
+      "function": "BaseResolver.descend_resolver"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 94,
+      "function": "Parser.check_event"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 94,
+      "function": "Parser.check_event"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 94,
+      "function": "Parser.check_event"
+    },
+    {
+      "file": "yaml/composer.py",
+      "first_line": 117,
+      "function": "Composer.compose_mapping_node"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 114,
+      "function": "Parser.get_event"
+    },
+    {
+      "file": "yaml/resolver.py",
+      "first_line": 143,
+      "function": "BaseResolver.resolve"
+    },
+    {
+      "file": "yaml/nodes.py",
+      "first_line": 36,
+      "function": "CollectionNode.__init__"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 94,
+      "function": "Parser.check_event"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 422,
+      "function": "Parser.parse_block_mapping_first_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 135,
+      "function": "Scanner.get_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 427,
+      "function": "Parser.parse_block_mapping_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 135,
+      "function": "Scanner.get_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 270,
+      "function": "Parser.parse_block_node_or_indentless_sequence"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 273,
+      "function": "Parser.parse_node"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 125,
+      "function": "Scanner.peek_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 135,
+      "function": "Scanner.get_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/events.py",
+      "first_line": 65,
+      "function": "ScalarEvent.__init__"
+    },
+    {
+      "file": "yaml/composer.py",
+      "first_line": 63,
+      "function": "Composer.compose_node"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 94,
+      "function": "Parser.check_event"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 107,
+      "function": "Parser.peek_event"
+    },
+    {
+      "file": "yaml/resolver.py",
+      "first_line": 91,
+      "function": "BaseResolver.descend_resolver"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 94,
+      "function": "Parser.check_event"
+    },
+    {
+      "file": "yaml/composer.py",
+      "first_line": 88,
+      "function": "Composer.compose_scalar_node"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 114,
+      "function": "Parser.get_event"
+    },
+    {
+      "file": "yaml/resolver.py",
+      "first_line": 143,
+      "function": "BaseResolver.resolve"
+    },
+    {
+      "file": "yaml/nodes.py",
+      "first_line": 27,
+      "function": "ScalarNode.__init__"
+    },
+    {
+      "file": "yaml/resolver.py",
+      "first_line": 114,
+      "function": "BaseResolver.ascend_resolver"
+    },
+    {
+      "file": "yaml/composer.py",
+      "first_line": 63,
+      "function": "Composer.compose_node"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 94,
+      "function": "Parser.check_event"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 446,
+      "function": "Parser.parse_block_mapping_value"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 135,
+      "function": "Scanner.get_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 156,
+      "function": "Scanner.fetch_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 752,
+      "function": "Scanner.scan_to_next_token"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 99,
+      "function": "Reader.forward"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 1416,
+      "function": "Scanner.scan_line_break"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 325,
+      "function": "Scanner.unwind_indent"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 731,
+      "function": "Scanner.check_plain"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 668,
+      "function": "Scanner.fetch_plain"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 295,
+      "function": "Scanner.save_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 1270,
+      "function": "Scanner.scan_plain"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 114,
+      "function": "Reader.get_mark"
+    },
+    {
+      "file": "yaml/error.py",
+      "first_line": 6,
+      "function": "Mark.__init__"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 94,
+      "function": "Reader.prefix"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 99,
+      "function": "Reader.forward"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 114,
+      "function": "Reader.get_mark"
+    },
+    {
+      "file": "yaml/error.py",
+      "first_line": 6,
+      "function": "Mark.__init__"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 1311,
+      "function": "Scanner.scan_plain_spaces"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 94,
+      "function": "Reader.prefix"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 99,
+      "function": "Reader.forward"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 1416,
+      "function": "Scanner.scan_line_break"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 94,
+      "function": "Reader.prefix"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 146,
+      "function": "Reader.update"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 99,
+      "function": "Reader.forward"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 146,
+      "function": "Reader.update"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 94,
+      "function": "Reader.prefix"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 146,
+      "function": "Reader.update"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/tokens.py",
+      "first_line": 98,
+      "function": "ScalarToken.__init__"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 270,
+      "function": "Parser.parse_block_node_or_indentless_sequence"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 273,
+      "function": "Parser.parse_node"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 125,
+      "function": "Scanner.peek_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 135,
+      "function": "Scanner.get_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 264,
+      "function": "Scanner.next_possible_simple_key"
+    },
+    {
+      "file": "yaml/events.py",
+      "first_line": 65,
+      "function": "ScalarEvent.__init__"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 107,
+      "function": "Parser.peek_event"
+    },
+    {
+      "file": "yaml/resolver.py",
+      "first_line": 91,
+      "function": "BaseResolver.descend_resolver"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 94,
+      "function": "Parser.check_event"
+    },
+    {
+      "file": "yaml/composer.py",
+      "first_line": 88,
+      "function": "Composer.compose_scalar_node"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 114,
+      "function": "Parser.get_event"
+    },
+    {
+      "file": "yaml/resolver.py",
+      "first_line": 143,
+      "function": "BaseResolver.resolve"
+    },
+    {
+      "file": "yaml/nodes.py",
+      "first_line": 27,
+      "function": "ScalarNode.__init__"
+    },
+    {
+      "file": "yaml/resolver.py",
+      "first_line": 114,
+      "function": "BaseResolver.ascend_resolver"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 94,
+      "function": "Parser.check_event"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 427,
+      "function": "Parser.parse_block_mapping_key"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 156,
+      "function": "Scanner.fetch_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 752,
+      "function": "Scanner.scan_to_next_token"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 1416,
+      "function": "Scanner.scan_line_break"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 279,
+      "function": "Scanner.stale_possible_simple_keys"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 325,
+      "function": "Scanner.unwind_indent"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 87,
+      "function": "Reader.peek"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 371,
+      "function": "Scanner.fetch_stream_end"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 325,
+      "function": "Scanner.unwind_indent"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 114,
+      "function": "Reader.get_mark"
+    },
+    {
+      "file": "yaml/error.py",
+      "first_line": 6,
+      "function": "Mark.__init__"
+    },
+    {
+      "file": "yaml/tokens.py",
+      "first_line": 3,
+      "function": "Token.__init__"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 312,
+      "function": "Scanner.remove_possible_simple_key"
+    },
+    {
+      "file": "yaml/reader.py",
+      "first_line": 114,
+      "function": "Reader.get_mark"
+    },
+    {
+      "file": "yaml/error.py",
+      "first_line": 6,
+      "function": "Mark.__init__"
+    },
+    {
+      "file": "yaml/tokens.py",
+      "first_line": 3,
+      "function": "Token.__init__"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 135,
+      "function": "Scanner.get_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/events.py",
+      "first_line": 5,
+      "function": "Event.__init__"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 114,
+      "function": "Parser.get_event"
+    },
+    {
+      "file": "yaml/resolver.py",
+      "first_line": 114,
+      "function": "BaseResolver.ascend_resolver"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 114,
+      "function": "Parser.get_event"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 190,
+      "function": "Parser.parse_document_end"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 125,
+      "function": "Scanner.peek_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/events.py",
+      "first_line": 55,
+      "function": "DocumentEndEvent.__init__"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 94,
+      "function": "Parser.check_event"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 159,
+      "function": "Parser.parse_document_start"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 113,
+      "function": "Scanner.check_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 135,
+      "function": "Scanner.get_token"
+    },
+    {
+      "file": "yaml/scanner.py",
+      "first_line": 145,
+      "function": "Scanner.need_more_tokens"
+    },
+    {
+      "file": "yaml/events.py",
+      "first_line": 5,
+      "function": "Event.__init__"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 114,
+      "function": "Parser.get_event"
+    },
+    {
+      "file": "yaml/constructor.py",
+      "first_line": 54,
+      "function": "BaseConstructor.construct_document"
+    },
+    {
+      "file": "yaml/constructor.py",
+      "first_line": 67,
+      "function": "BaseConstructor.construct_object"
+    },
+    {
+      "file": "yaml/constructor.py",
+      "first_line": 410,
+      "function": "SafeConstructor.construct_yaml_map"
+    },
+    {
+      "file": "yaml/constructor.py",
+      "first_line": 410,
+      "function": "SafeConstructor.construct_yaml_map"
+    },
+    {
+      "file": "yaml/constructor.py",
+      "first_line": 215,
+      "function": "SafeConstructor.construct_mapping"
+    },
+    {
+      "file": "yaml/constructor.py",
+      "first_line": 180,
+      "function": "SafeConstructor.flatten_mapping"
+    },
+    {
+      "file": "yaml/constructor.py",
+      "first_line": 132,
+      "function": "BaseConstructor.construct_mapping"
+    },
+    {
+      "file": "yaml/constructor.py",
+      "first_line": 67,
+      "function": "BaseConstructor.construct_object"
+    },
+    {
+      "file": "yaml/constructor.py",
+      "first_line": 402,
+      "function": "SafeConstructor.construct_yaml_str"
+    },
+    {
+      "file": "yaml/constructor.py",
+      "first_line": 173,
+      "function": "SafeConstructor.construct_scalar"
+    },
+    {
+      "file": "yaml/constructor.py",
+      "first_line": 117,
+      "function": "BaseConstructor.construct_scalar"
+    },
+    {
+      "file": "yaml/constructor.py",
+      "first_line": 67,
+      "function": "BaseConstructor.construct_object"
+    },
+    {
+      "file": "yaml/constructor.py",
+      "first_line": 237,
+      "function": "SafeConstructor.construct_yaml_int"
+    },
+    {
+      "file": "yaml/constructor.py",
+      "first_line": 173,
+      "function": "SafeConstructor.construct_scalar"
+    },
+    {
+      "file": "yaml/constructor.py",
+      "first_line": 117,
+      "function": "BaseConstructor.construct_scalar"
+    },
+    {
+      "file": "yaml/parser.py",
+      "first_line": 89,
+      "function": "Parser.dispose"
+    }
+  ],
+  "result_repr": "{'answer': 42}",
+  "result_type": "dict",
+  "status": "COMPLETE"
+}

@@ -1,0 +1,45 @@
+{
+  "available_at": "2026-10-28T17:04:12.712426Z",
+  "context_sha256": "b131227228746bb9491140005182551b809cb402f0a350431cab2fc264d1ac5f",
+  "evidence_manifest_sha256": "672d7e2ee90fc27ffa813bebaad90ea5e8ab4c9abf68c373738762593784dc2f",
+  "rights": "Same full top-level METADATA bytes; no peers, registry, labels or network",
+  "shared_preparation_seconds": 0.12168469300013385,
+  "snapshot_diagnostics": [
+    {
+      "path": "lib/python3.11/site-packages/requests-2.32.5.dist-info/METADATA",
+      "reason": "DYNAMIC_REQUIREMENTS",
+      "sha256": "65b5a08da81f4915513e760965ff14b7518f65b7bb3efe0dab364bbcc4d40cb0"
+    }
+  ],
+  "sources": [
+    {
+      "path": "lib/python3.11/site-packages/certifi-2025.11.12.dist-info/METADATA",
+      "sha256": "fc9a6b1aeff595649d1e5aee44129ca2b5e7adfbc10e1bd7ffa291afc1d06cb7"
+    },
+    {
+      "path": "lib/python3.11/site-packages/charset_normalizer-3.4.4.dist-info/METADATA",
+      "sha256": "8d5b94141b62f1d6afd7d60bbd68acb138a155d176a33518e0a28cc3b8dd9014"
+    },
+    {
+      "path": "lib/python3.11/site-packages/idna-3.11.dist-info/METADATA",
+      "sha256": "7c2c12c30f52ba237c4c81e59454804944025b9e6102cf1dcca9ebf5168411b0"
+    },
+    {
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2"
+    },
+    {
+      "path": "lib/python3.11/site-packages/requests-2.32.5.dist-info/METADATA",
+      "sha256": "65b5a08da81f4915513e760965ff14b7518f65b7bb3efe0dab364bbcc4d40cb0"
+    },
+    {
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5"
+    },
+    {
+      "path": "lib/python3.11/site-packages/urllib3-2.6.2.dist-info/METADATA",
+      "sha256": "532da8b2c7b39b017e837451b0d9c946061a2ec4a9e04d4161e487166a731a53"
+    }
+  ],
+  "target_id": "07aea7b2ff54bd849c28df69f9f3aa33c31d802141aacd585a23421bc31f8ffd"
+}

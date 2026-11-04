@@ -1,0 +1,18 @@
+{
+  "command_returncode": 0,
+  "container_state": {
+    "Dead": false,
+    "Error": "",
+    "ExitCode": 0,
+    "FinishedAt": "2026-11-04T15:39:35.474882166Z",
+    "OOMKilled": false,
+    "Paused": false,
+    "Pid": 0,
+    "Restarting": false,
+    "Running": false,
+    "StartedAt": "2026-11-04T15:39:35.190601997Z",
+    "Status": "exited"
+  },
+  "finished_at": "2026-11-04T15:39:35.516328+00:00",
+  "started_at": "2026-11-04T15:39:35.167852+00:00"
+}

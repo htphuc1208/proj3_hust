@@ -1,0 +1,38 @@
+{
+  "audit_events": [],
+  "elapsed_seconds": 0.0552583130011044,
+  "environment": {
+    "implementation": "CPython",
+    "machine": "x86_64",
+    "python": "3.11.16",
+    "system": "Linux"
+  },
+  "error": null,
+  "expected_code_signature": {
+    "bytecode": "970064005300",
+    "constants": "(42,)",
+    "filename": "<string>",
+    "flags": 0,
+    "name": "<module>",
+    "names": []
+  },
+  "input_kind": "arithmetic",
+  "input_sha256": "6e486954fc4a84c1afbc409790d6375ff12884783ea1e0d2bc0bc3052fdb17cf",
+  "is_arithmetic_scalar": false,
+  "is_arithmetic_tuple": false,
+  "library_origin": "/analysis/5.3.1/cooccurrence/yaml/__init__.py",
+  "library_version": "5.3.1",
+  "libyaml_active": false,
+  "mode": "runtime",
+  "ordinary_parse": false,
+  "python_calls": [
+    {
+      "file": "app.py",
+      "first_line": 3,
+      "function": "entry"
+    }
+  ],
+  "result_repr": "{'ignored': True}",
+  "result_type": "dict",
+  "status": "COMPLETE"
+}

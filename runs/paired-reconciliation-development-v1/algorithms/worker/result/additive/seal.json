@@ -1,0 +1,9 @@
+{
+  "context_sha256": "769bbb79c15ae1d65a1d86af32e0ec6d2332f67a4c7b6ebcf89944ceb76d1917",
+  "details_sha256": "64db2339f9b10073464ac71482f06b6ed3ad50f036ef5e44dd730bcf7e29f1b2",
+  "evidence_manifest_sha256": "8316e038a1252d03798b3f736a46476fa2c07b7761343982e451ae95f0987f3a",
+  "input_sha256": "4b1f1f8f105b5af32c1b7dcc6ae4dd4e9eff3f39773eceec01934755c5eaabbf",
+  "method": "additive",
+  "prediction_sha256": "4b1f1f8f105b5af32c1b7dcc6ae4dd4e9eff3f39773eceec01934755c5eaabbf",
+  "reference_labels_read": false
+}

@@ -1,0 +1,30 @@
+{
+  "causal_taxonomy": "Residual FP/FN causes remain UNRESOLVED unless independently supported; no scanner-internal cause inferred",
+  "changes": {
+    "additive": {
+      "added": [],
+      "removed": []
+    },
+    "reconciliation": {
+      "added": [],
+      "removed": [
+        {
+          "edge": [
+            "pkg:pypi/setuptools@79.0.1",
+            "pkg:pypi/pip@24.0"
+          ],
+          "label": "KNOWN_FALSE"
+        }
+      ]
+    }
+  },
+  "retraction_fact_labels": [
+    {
+      "edge": [
+        "pkg:pypi/setuptools@79.0.1",
+        "pkg:pypi/pip@24.0"
+      ],
+      "label": "KNOWN_FALSE"
+    }
+  ]
+}

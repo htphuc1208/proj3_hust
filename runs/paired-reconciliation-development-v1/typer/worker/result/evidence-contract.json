@@ -1,0 +1,51 @@
+{
+  "available_at": "2026-10-28T17:06:12.330873Z",
+  "context_sha256": "2392c066f99f25a94ee542df481612f62142062c1ec90b0ec4dc82c221a495ee",
+  "evidence_manifest_sha256": "9a7391d9197ac8d353e1276f8a9728025d035a15e8cf799e4da7692d56543b61",
+  "rights": "Same full top-level METADATA bytes; no peers, registry, labels or network",
+  "shared_preparation_seconds": 0.1688647699993453,
+  "snapshot_diagnostics": [],
+  "sources": [
+    {
+      "path": "lib/python3.11/site-packages/click-8.3.1.dist-info/METADATA",
+      "sha256": "5d9781acc004d2085313cf128dfad20ee4b2342a413e9971251d6d6f00fda198"
+    },
+    {
+      "path": "lib/python3.11/site-packages/markdown_it_py-4.0.0.dist-info/METADATA",
+      "sha256": "e9fcaa1e2daf3f96d840a09fbaaa394feaadf37a36d88a7b6b6b672487c65bfb"
+    },
+    {
+      "path": "lib/python3.11/site-packages/mdurl-0.1.2.dist-info/METADATA",
+      "sha256": "b53b29d48f499367053fda3c81e7ce27d2558380ebbf83e66023b02eb7ddd25d"
+    },
+    {
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2"
+    },
+    {
+      "path": "lib/python3.11/site-packages/pygments-2.19.2.dist-info/METADATA",
+      "sha256": "7ae100d67d67006c6479803dd835fcf47a9b59fac794441ea8e66aa7f5984d82"
+    },
+    {
+      "path": "lib/python3.11/site-packages/rich-14.2.0.dist-info/METADATA",
+      "sha256": "222fe35ac48d4a6c59c49a59ca471bb9f7111bcf88f33897190bac074fd5c35f"
+    },
+    {
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5"
+    },
+    {
+      "path": "lib/python3.11/site-packages/shellingham-1.5.4.dist-info/METADATA",
+      "sha256": "183d80220a37493262795739dd357cc5bb3f49bd390cc9198d5180e5451a07fa"
+    },
+    {
+      "path": "lib/python3.11/site-packages/typer-0.21.0.dist-info/METADATA",
+      "sha256": "ba7212c6537bacd1b569ff11e5d9046615fce864adb6cf9b8c59cc011a547411"
+    },
+    {
+      "path": "lib/python3.11/site-packages/typing_extensions-4.15.0.dist-info/METADATA",
+      "sha256": "c138378fe8f18934ac99de060535c53ec6c13aeed65e94c32641da7ee3192a72"
+    }
+  ],
+  "target_id": "5d69540686e209e26cfdabd60b3b27ed1f740a3c43b1098ad457b2914bc65403"
+}

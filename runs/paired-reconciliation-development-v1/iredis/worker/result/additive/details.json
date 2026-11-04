@@ -1,0 +1,701 @@
+{
+  "confidence": null,
+  "context_sha256": "e9516a846a47304738164d17fc5f7bc06007b94c8fcd533a744b125fed2bfe30",
+  "duration_seconds": 0.7814325179988373,
+  "evidence_manifest_sha256": "2f46e9a799706fa73591c67c09a855127a95706e383cb36da7f77901d225cc61",
+  "input_sha256": "cfb20e7aaf9fa999862dc072347d5b6f7cbbd83331ae5fde453c3dcb279a92c4",
+  "llm_api_calls": 0,
+  "model_cost": 0,
+  "native_changes_from_observation": {
+    "added_component_refs": [],
+    "added_native_edges": [],
+    "changed_identity_refs": [],
+    "removed_component_refs": [],
+    "removed_native_edges": []
+  },
+  "path_absence_status": "UNKNOWN",
+  "policy": "DETERMINISTIC_ACQUIRE_AND_VERIFY",
+  "proposals": [],
+  "status": "COMPLETE",
+  "tool_trace": [
+    {
+      "arguments": {},
+      "duration_seconds": 0.01635068100040371,
+      "output": {
+        "acquisition_allowed": false,
+        "components": [
+          {
+            "name": "Simple Launcher",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-Simple-Launcher-a44285c28ded40d9",
+            "version": "1.1.0.14"
+          },
+          {
+            "name": "Simple Launcher",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-Simple-Launcher-0adacc207c3f4a90",
+            "version": "1.1.0.14"
+          },
+          {
+            "name": "Simple Launcher",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-Simple-Launcher-155265e0cc280d26",
+            "version": "1.1.0.14"
+          },
+          {
+            "name": "Simple Launcher",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-Simple-Launcher-96ca15df6e892e0b",
+            "version": "1.1.0.14"
+          },
+          {
+            "name": "Simple Launcher",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-Simple-Launcher-234c4176e1f4ee2b",
+            "version": "1.1.0.14"
+          },
+          {
+            "name": "Simple Launcher",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-Simple-Launcher-f74225a542780316",
+            "version": "1.1.0.14"
+          },
+          {
+            "name": "autocommand",
+            "purl": "pkg:pypi/autocommand@2.2.2",
+            "ref": "SPDXRef-Package-python-autocommand-1d5bb88bbdd45a29",
+            "version": "2.2.2"
+          },
+          {
+            "name": "backports-tarfile",
+            "purl": "pkg:pypi/backports-tarfile@1.2.0",
+            "ref": "SPDXRef-Package-python-backports-tarfile-7bb5380f6d177676",
+            "version": "1.2.0"
+          },
+          {
+            "name": "cli",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-cli-83650cc0f73168af",
+            "version": "UNKNOWN"
+          },
+          {
+            "name": "cli-32",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-cli-32-3537c7a1e294b533",
+            "version": "UNKNOWN"
+          },
+          {
+            "name": "cli-64",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-cli-64-1d8b91b866d3f200",
+            "version": "UNKNOWN"
+          },
+          {
+            "name": "cli-arm64",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-cli-arm64-38c02814806a9f67",
+            "version": "UNKNOWN"
+          },
+          {
+            "name": "click",
+            "purl": "pkg:pypi/click@8.3.1",
+            "ref": "SPDXRef-Package-python-click-8c3e7e30488f8d69",
+            "version": "8.3.1"
+          },
+          {
+            "name": "configobj",
+            "purl": "pkg:pypi/configobj@5.0.9",
+            "ref": "SPDXRef-Package-python-configobj-d696e170f48ef9f6",
+            "version": "5.0.9"
+          },
+          {
+            "name": "gui",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-gui-9c5de4fa9a0374bc",
+            "version": "UNKNOWN"
+          },
+          {
+            "name": "gui-32",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-gui-32-0876080b2c58fd68",
+            "version": "UNKNOWN"
+          },
+          {
+            "name": "gui-64",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-gui-64-c8a87c656caafca9",
+            "version": "UNKNOWN"
+          },
+          {
+            "name": "gui-arm64",
+            "purl": null,
+            "ref": "SPDXRef-Package-binary-gui-arm64-255cf3e4ad598fb1",
+            "version": "UNKNOWN"
+          },
+          {
+            "name": "importlib-metadata",
+            "purl": "pkg:pypi/importlib-metadata@8.0.0",
+            "ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+            "version": "8.0.0"
+          },
+          {
+            "name": "inflect",
+            "purl": "pkg:pypi/inflect@7.3.1",
+            "ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+            "version": "7.3.1"
+          },
+          {
+            "name": "iredis",
+            "purl": "pkg:pypi/iredis@1.15.2",
+            "ref": "SPDXRef-Package-python-iredis-402533491bb5d39d",
+            "version": "1.15.2"
+          },
+          {
+            "name": "jaraco-collections",
+            "purl": "pkg:pypi/jaraco-collections@5.1.0",
+            "ref": "SPDXRef-Package-python-jaraco-collections-e074243c2b7dd70d",
+            "version": "5.1.0"
+          },
+          {
+            "name": "jaraco-context",
+            "purl": "pkg:pypi/jaraco-context@5.3.0",
+            "ref": "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea",
+            "version": "5.3.0"
+          },
+          {
+            "name": "jaraco-functools",
+            "purl": "pkg:pypi/jaraco-functools@4.0.1",
+            "ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204",
+            "version": "4.0.1"
+          },
+          {
+            "name": "jaraco-text",
+            "purl": "pkg:pypi/jaraco-text@3.12.1",
+            "ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+            "version": "3.12.1"
+          },
+          {
+            "name": "mistune",
+            "purl": "pkg:pypi/mistune@3.2.0",
+            "ref": "SPDXRef-Package-python-mistune-938ff4ddf2e96c85",
+            "version": "3.2.0"
+          },
+          {
+            "name": "more-itertools",
+            "purl": "pkg:pypi/more-itertools@10.3.0",
+            "ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c",
+            "version": "10.3.0"
+          },
+          {
+            "name": "my-test-package",
+            "purl": "pkg:pypi/my-test-package@1.0",
+            "ref": "SPDXRef-Package-python-my-test-package-d1218a652a8fa722",
+            "version": "1.0"
+          },
+          {
+            "name": "packaging",
+            "purl": "pkg:pypi/packaging@23.2",
+            "ref": "SPDXRef-Package-python-packaging-7fc98dc99b1bda4f",
+            "version": "23.2"
+          },
+          {
+            "name": "packaging",
+            "purl": "pkg:pypi/packaging@24.2",
+            "ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b",
+            "version": "24.2"
+          },
+          {
+            "name": "pip",
+            "purl": "pkg:pypi/pip@24.0",
+            "ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9",
+            "version": "24.0"
+          },
+          {
+            "name": "platformdirs",
+            "purl": "pkg:pypi/platformdirs@4.2.2",
+            "ref": "SPDXRef-Package-python-platformdirs-4b62779e59b20d35",
+            "version": "4.2.2"
+          },
+          {
+            "name": "prompt-toolkit",
+            "purl": "pkg:pypi/prompt-toolkit@3.0.52",
+            "ref": "SPDXRef-Package-python-prompt-toolkit-c478783d185b6552",
+            "version": "3.0.52"
+          },
+          {
+            "name": "pygments",
+            "purl": "pkg:pypi/pygments@2.19.2",
+            "ref": "SPDXRef-Package-python-pygments-dd5930d75cf96b88",
+            "version": "2.19.2"
+          },
+          {
+            "name": "pyjwt",
+            "purl": "pkg:pypi/pyjwt@2.10.1",
+            "ref": "SPDXRef-Package-python-pyjwt-cf465107cc80f4df",
+            "version": "2.10.1"
+          },
+          {
+            "name": "python-dateutil",
+            "purl": "pkg:pypi/python-dateutil@2.9.0.post0",
+            "ref": "SPDXRef-Package-python-python-dateutil-3517504194868c88",
+            "version": "2.9.0.post0"
+          },
+          {
+            "name": "redis",
+            "purl": "pkg:pypi/redis@5.3.1",
+            "ref": "SPDXRef-Package-python-redis-f59d700243711370",
+            "version": "5.3.1"
+          },
+          {
+            "name": "setuptools",
+            "purl": "pkg:pypi/setuptools@79.0.1",
+            "ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "version": "79.0.1"
+          },
+          {
+            "name": "six",
+            "purl": "pkg:pypi/six@1.17.0",
+            "ref": "SPDXRef-Package-python-six-5309db424b251291",
+            "version": "1.17.0"
+          },
+          {
+            "name": "tomli",
+            "purl": "pkg:pypi/tomli@2.0.1",
+            "ref": "SPDXRef-Package-python-tomli-f04d63d7233a932e",
+            "version": "2.0.1"
+          },
+          {
+            "name": "typeguard",
+            "purl": "pkg:pypi/typeguard@4.3.0",
+            "ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+            "version": "4.3.0"
+          },
+          {
+            "name": "typing-extensions",
+            "purl": "pkg:pypi/typing-extensions@4.12.2",
+            "ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8",
+            "version": "4.12.2"
+          },
+          {
+            "name": "wcwidth",
+            "purl": "pkg:pypi/wcwidth@0.1.9",
+            "ref": "SPDXRef-Package-python-wcwidth-30d0fcb7b6230ab3",
+            "version": "0.1.9"
+          },
+          {
+            "name": "wheel",
+            "purl": "pkg:pypi/wheel@0.45.1",
+            "ref": "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0",
+            "version": "0.45.1"
+          },
+          {
+            "name": "zipp",
+            "purl": "pkg:pypi/zipp@3.19.2",
+            "ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+            "version": "3.19.2"
+          },
+          {
+            "name": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures/iredis/runtime/target",
+            "purl": null,
+            "ref": "SPDXRef-DocumentRoot-Directory--home-phucht-project-sbom-security-poc-research-.work-m25-cohort-captures-iredis-runtime-target",
+            "version": null
+          }
+        ],
+        "context": {
+          "active_extras": [],
+          "evidence_cutoff": "2026-10-28T17:06:18.180054Z",
+          "extras_by_purl": {},
+          "os_name": "posix",
+          "platform_machine": "x86_64",
+          "platform_system": "Linux",
+          "python_full_version": "3.11.16",
+          "python_version": "3.11",
+          "root_purls": [
+            "pkg:pypi/iredis@1.15.2"
+          ],
+          "sys_platform": "linux",
+          "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+        },
+        "edges": [
+          [
+            "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+            "SPDXRef-Package-python-packaging-7fc98dc99b1bda4f"
+          ],
+          [
+            "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+            "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+          ],
+          [
+            "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+            "SPDXRef-Package-python-zipp-08219ba3ee20c318"
+          ],
+          [
+            "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+            "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+          ],
+          [
+            "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+            "SPDXRef-Package-python-pygments-dd5930d75cf96b88"
+          ],
+          [
+            "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+            "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108"
+          ],
+          [
+            "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+            "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+          ],
+          [
+            "SPDXRef-Package-python-iredis-402533491bb5d39d",
+            "SPDXRef-Package-python-click-8c3e7e30488f8d69"
+          ],
+          [
+            "SPDXRef-Package-python-iredis-402533491bb5d39d",
+            "SPDXRef-Package-python-configobj-d696e170f48ef9f6"
+          ],
+          [
+            "SPDXRef-Package-python-iredis-402533491bb5d39d",
+            "SPDXRef-Package-python-mistune-938ff4ddf2e96c85"
+          ],
+          [
+            "SPDXRef-Package-python-iredis-402533491bb5d39d",
+            "SPDXRef-Package-python-packaging-7fc98dc99b1bda4f"
+          ],
+          [
+            "SPDXRef-Package-python-iredis-402533491bb5d39d",
+            "SPDXRef-Package-python-prompt-toolkit-c478783d185b6552"
+          ],
+          [
+            "SPDXRef-Package-python-iredis-402533491bb5d39d",
+            "SPDXRef-Package-python-pygments-dd5930d75cf96b88"
+          ],
+          [
+            "SPDXRef-Package-python-iredis-402533491bb5d39d",
+            "SPDXRef-Package-python-python-dateutil-3517504194868c88"
+          ],
+          [
+            "SPDXRef-Package-python-iredis-402533491bb5d39d",
+            "SPDXRef-Package-python-redis-f59d700243711370"
+          ],
+          [
+            "SPDXRef-Package-python-iredis-402533491bb5d39d",
+            "SPDXRef-Package-python-wcwidth-30d0fcb7b6230ab3"
+          ],
+          [
+            "SPDXRef-Package-python-jaraco-collections-e074243c2b7dd70d",
+            "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd"
+          ],
+          [
+            "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea",
+            "SPDXRef-Package-python-backports-tarfile-7bb5380f6d177676"
+          ],
+          [
+            "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204",
+            "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+          ],
+          [
+            "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+            "SPDXRef-Package-python-autocommand-1d5bb88bbdd45a29"
+          ],
+          [
+            "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+            "SPDXRef-Package-python-inflect-051eccf3da38b7a8"
+          ],
+          [
+            "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+            "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea"
+          ],
+          [
+            "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+            "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+          ],
+          [
+            "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+            "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+          ],
+          [
+            "SPDXRef-Package-python-mistune-938ff4ddf2e96c85",
+            "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+          ],
+          [
+            "SPDXRef-Package-python-prompt-toolkit-c478783d185b6552",
+            "SPDXRef-Package-python-wcwidth-30d0fcb7b6230ab3"
+          ],
+          [
+            "SPDXRef-Package-python-python-dateutil-3517504194868c88",
+            "SPDXRef-Package-python-six-5309db424b251291"
+          ],
+          [
+            "SPDXRef-Package-python-redis-f59d700243711370",
+            "SPDXRef-Package-python-pyjwt-cf465107cc80f4df"
+          ],
+          [
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be"
+          ],
+          [
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+          ],
+          [
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd"
+          ],
+          [
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+          ],
+          [
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "SPDXRef-Package-python-packaging-7fc98dc99b1bda4f"
+          ],
+          [
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+          ],
+          [
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "SPDXRef-Package-python-platformdirs-4b62779e59b20d35"
+          ],
+          [
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "SPDXRef-Package-python-tomli-f04d63d7233a932e"
+          ],
+          [
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0"
+          ],
+          [
+            "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+            "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be"
+          ],
+          [
+            "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+            "SPDXRef-Package-python-packaging-7fc98dc99b1bda4f"
+          ],
+          [
+            "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+            "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+          ],
+          [
+            "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0",
+            "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd"
+          ],
+          [
+            "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+            "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+          ],
+          [
+            "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+            "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+          ]
+        ],
+        "evidence": {
+          "records": [
+            {
+              "acquired_at": "2026-11-04T07:08:09.060587Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:18.180054Z",
+              "evidence_id": "0a157eb40ec3ad2562fd787a20312c992cfd7baba4ea5a8625d9937f5a509269",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "80d4bd40a6a171dfd25c332baebee1fd8722342f133db5385e2d5719a5da2e29",
+              "source": "target:lib/python3.11/site-packages/prompt_toolkit-3.0.52.dist-info/METADATA",
+              "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+            },
+            {
+              "acquired_at": "2026-11-04T07:08:09.069719Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:18.180054Z",
+              "evidence_id": "1056f48fa5fcfc52f41774cfcbf804b8e0ec2f89d14220fb4206bab9a34068ff",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "7ae100d67d67006c6479803dd835fcf47a9b59fac794441ea8e66aa7f5984d82",
+              "source": "target:lib/python3.11/site-packages/pygments-2.19.2.dist-info/METADATA",
+              "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+            },
+            {
+              "acquired_at": "2026-11-04T07:08:09.049082Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:18.180054Z",
+              "evidence_id": "217551ceb3fb87624ac26b0257b1763706a461f86a0c2865584590aa818a68de",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+              "source": "target:lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+              "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+            },
+            {
+              "acquired_at": "2026-11-04T07:08:09.013217Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:18.180054Z",
+              "evidence_id": "2cb68f84d84efe1e641549272ab7dc7386a9b9a5b23f5970db9c5cb8d2367a08",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "10c1ebbe69c3b8805b61ab9ddc8aa4eb93ccf929f0db8d5959f0782c6e3bf9a5",
+              "source": "target:lib/python3.11/site-packages/configobj-5.0.9.dist-info/METADATA",
+              "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+            },
+            {
+              "acquired_at": "2026-11-04T07:08:09.112398Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:18.180054Z",
+              "evidence_id": "3e590f8dea987938fe1601b8ff1f183feaab65367d36a57ddd4d1440e355acd0",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "562042078c2752549f6d8a7c86dbc5dd708088a7be6d80672ec7b07100b72468",
+              "source": "target:lib/python3.11/site-packages/six-1.17.0.dist-info/METADATA",
+              "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+            },
+            {
+              "acquired_at": "2026-11-04T07:08:09.000198Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:18.180054Z",
+              "evidence_id": "459cfc1ceab55f3ed790e2adf6494916b7c07eea92118848932cd9ff0db2c7ad",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "5d9781acc004d2085313cf128dfad20ee4b2342a413e9971251d6d6f00fda198",
+              "source": "target:lib/python3.11/site-packages/click-8.3.1.dist-info/METADATA",
+              "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+            },
+            {
+              "acquired_at": "2026-11-04T07:08:09.024078Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:18.180054Z",
+              "evidence_id": "4750ba8dfaad83ea94ec65af8ca901cbfc9792d300da4101f71a3d76fa0a67ef",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "ee0dacad9d394aec7af946a35fd730433e746284d0adef652614824cd8240965",
+              "source": "target:lib/python3.11/site-packages/iredis-1.15.2.dist-info/METADATA",
+              "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+            },
+            {
+              "acquired_at": "2026-11-04T07:08:09.091177Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:18.180054Z",
+              "evidence_id": "72de69894d83485c8718d5fb3e004d78da8dc37212ca1c89379391e7cb5486a3",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "71cac2ab27f057e87818c8428343d40e595dc302f5d123b07165f41b52da271a",
+              "source": "target:lib/python3.11/site-packages/redis-5.3.1.dist-info/METADATA",
+              "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+            },
+            {
+              "acquired_at": "2026-11-04T07:08:09.080423Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:18.180054Z",
+              "evidence_id": "779c663f9a43672d4fcb81c887cff299ae6832e59b84eb861e2fa40bad04747d",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "a9d436da322be808332f98d88325998e87cb693a678a9969feb4cfad729a6e93",
+              "source": "target:lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/METADATA",
+              "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+            },
+            {
+              "acquired_at": "2026-11-04T07:08:08.989222Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:18.180054Z",
+              "evidence_id": "78f274b47ff6d72ed89a4a1e36f21c0c3ac93cae0baa85d4cb9b3273dbe17328",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "1247b017a0fa294f1219a690cd561fc54514d4ffe0b3f769d6961392862f031f",
+              "source": "target:lib/python3.11/site-packages/PyJWT-2.10.1.dist-info/METADATA",
+              "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+            },
+            {
+              "acquired_at": "2026-11-04T07:08:09.039927Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:18.180054Z",
+              "evidence_id": "7d0a6d7459b1eaa9ab7c2909f21e84171c6ab8381bfc2f07442b6179e416740c",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "b3574943ce848d906e97f50291034674771b2edb3a660e3f9b10aa93ad17eb1b",
+              "source": "target:lib/python3.11/site-packages/packaging-23.2.dist-info/METADATA",
+              "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+            },
+            {
+              "acquired_at": "2026-11-04T07:08:09.101642Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:18.180054Z",
+              "evidence_id": "8c86671d38c8c7348ad8ba08c73c3cc6f5905a653d924655fd68dd370d62b992",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+              "source": "target:lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+              "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+            },
+            {
+              "acquired_at": "2026-11-04T07:08:09.032085Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:18.180054Z",
+              "evidence_id": "d5d384b2574cd51a09c3b4ea0d59ecdc0ee57785698f07964b2b79def8b6cff1",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "da6f993ed3c28034f296c822a3d5806f69310c9b91c3f9e2c08f39f94e2de95e",
+              "source": "target:lib/python3.11/site-packages/mistune-3.2.0.dist-info/METADATA",
+              "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+            },
+            {
+              "acquired_at": "2026-11-04T07:08:09.124931Z",
+              "authority": "VERIFIED_TARGET",
+              "availability_kind": "OBSERVED_TIME",
+              "available_at": "2026-10-28T17:06:18.180054Z",
+              "evidence_id": "dae88f50ac228765d2b3ad1418f5c4f99cae517772038684dfd1feefb750ff0d",
+              "kind": "target_metadata",
+              "schema_version": "evidence-v1",
+              "sha256": "c3be4d238b4d8f408cb10849c8d454227744430afc142e9cd85287f29a62c795",
+              "source": "target:lib/python3.11/site-packages/wcwidth-0.1.9.dist-info/METADATA",
+              "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+            }
+          ],
+          "schema_version": "evidence-manifest-v1"
+        },
+        "format": "spdx",
+        "input_sha256": "cfb20e7aaf9fa999862dc072347d5b6f7cbbd83331ae5fde453c3dcb279a92c4",
+        "issues": [],
+        "path_absence_status": "UNKNOWN",
+        "sources": []
+      },
+      "output_sha256": "f5c165e676e7db2cb99ae7a5d59218f62bd11e432753fc08ae812d0f4154ff27",
+      "status": "OK",
+      "tool": "inspect"
+    }
+  ],
+  "validation": {
+    "errors": [],
+    "format": "spdx",
+    "valid": true
+  },
+  "verified": {
+    "accepted": [],
+    "calibration": "UNMEASURED",
+    "confidence": null,
+    "input_sha256": "cfb20e7aaf9fa999862dc072347d5b6f7cbbd83331ae5fde453c3dcb279a92c4",
+    "openvex_status": "under_investigation",
+    "output_sha256": "cfb20e7aaf9fa999862dc072347d5b6f7cbbd83331ae5fde453c3dcb279a92c4",
+    "path_absence_status": "UNKNOWN",
+    "rejected": [],
+    "schema_version": "verification-v1",
+    "supported": [],
+    "unresolved": [],
+    "validation": {
+      "errors": [],
+      "format": "spdx",
+      "valid": true
+    },
+    "verification_scope": "TARGET_METADATA_DECLARATIONS_ONLY; executable contents and runtime use unverified"
+  }
+}
