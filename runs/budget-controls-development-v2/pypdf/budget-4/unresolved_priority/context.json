@@ -1,0 +1,15 @@
+{
+  "active_extras": [],
+  "evidence_cutoff": "2026-10-28T17:07:23.289587Z",
+  "extras_by_purl": {},
+  "os_name": "posix",
+  "platform_machine": "x86_64",
+  "platform_system": "Linux",
+  "python_full_version": "3.11.16",
+  "python_version": "3.11",
+  "root_purls": [
+    "pkg:pypi/pypdf@6.5.0"
+  ],
+  "sys_platform": "linux",
+  "target_id": "e650841c87133b1d6c57c38bb78c6beb34f72731f611597fa12d66e7c8dd4236"
+}

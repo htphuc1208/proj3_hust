@@ -1,0 +1,15 @@
+{
+  "active_extras": [],
+  "evidence_cutoff": "2026-10-28T17:05:47.920303Z",
+  "extras_by_purl": {},
+  "os_name": "posix",
+  "platform_machine": "x86_64",
+  "platform_system": "Linux",
+  "python_full_version": "3.11.16",
+  "python_version": "3.11",
+  "root_purls": [
+    "pkg:pypi/vulture@2.14"
+  ],
+  "sys_platform": "linux",
+  "target_id": "a2167a355d11b28abec4395fd434eccece853d6fd7a8fc381c9414c3d49d9360"
+}

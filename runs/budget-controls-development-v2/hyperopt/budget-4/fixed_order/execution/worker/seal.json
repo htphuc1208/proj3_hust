@@ -1,0 +1,18 @@
+{
+  "acquired": {
+    "2608eb61fdf9fced769894a98add2939afbf2dd79e83a7ebcc6aaf205c52e308": "30d35a50a3116d9026558ab9026ffed4db58675562102a526bc56c4235db913e",
+    "81ab30eb9f9194777354ac665bb8a15aea81cb259cad7ff811c35234fb28bbb9": "3d0263bfe9ee4f23b244bdcaff73acbe7a1957ebf82743b6ae42693adc48d721",
+    "9e9d33ab3b81e6f89e30cff441bc730fd0c66a4bf6c0e6de7c7f52b1b655fb27": "aca5d94a97d1f70f301d033addb635f6e66be8973a00aba4127637eed2ef316a",
+    "d01cf80f3b1036546c3ced35730cb85077c33a8235d8a602b87dc810521ad9f0": "8823c834d017ec3966c7808824c6fe77a2f946bd5391ad53b679670a9b97276f"
+  },
+  "catalog_sha256": "7ad5aca61b615467939b4dc8d7d5afb6e08b84ebe2176b0a129204a152a06edd",
+  "context_sha256": "e037aa5f415f1249f0857b7080b4678b5b54fc869923b4889571fa431cd3f6d7",
+  "input_sha256": "7b02359acfcf2ddac23e75ae26abadb14d46e06190d3235fbf1f9c1f8f6ac689",
+  "path_absence_status": "UNKNOWN",
+  "prediction_sha256": "7b02359acfcf2ddac23e75ae26abadb14d46e06190d3235fbf1f9c1f8f6ac689",
+  "reference_labels_read": false,
+  "result_sha256": "b469cf359724a3d64f3c5d5b3ac1751d9f3f548ee5d492eaed573240e298f3a7",
+  "schema_version": "budget-prediction-seal-v1",
+  "state_sha256": "1e9ddd29f6bd93fc8e0fcc75d48540ad414bc9d9a08fd1956184f9d5c24afad9",
+  "trace_sha256": "062f2c24b9e419b8fcc859c780331b8b1f6b94dca13b2c1ef3c1e2aba56e7856"
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "arguments": {},
+    "attempts": 0,
+    "bytes_read": 0,
+    "output_sha256": "7c5ed62aceaba6a08bcd0c0bd776d667dcf763ede1f04a90c39750d7ff12f479",
+    "status": "OK",
+    "tool": "inspect"
+  },
+  {
+    "arguments": {},
+    "attempts": 0,
+    "bytes_read": 0,
+    "output_sha256": "737b109a5d36649b71cbec3664b00e5db1dec37d4587bbe06f9b74032eee2000",
+    "status": "OK",
+    "tool": "assess"
+  },
+  {
+    "arguments": {
+      "source_id": "bc3834fd6ceef9f88022d4c52bf14fb292114d9a7892cc58f9db6681b7342a04"
+    },
+    "attempts": 1,
+    "bytes_read": 3259,
+    "output_sha256": "af87aec7a7cfd0be5fac613c2196d6521ea25184dd7321b84a33931a708c4695",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {},
+    "attempts": 1,
+    "bytes_read": 3259,
+    "output_sha256": "0e4d41f4cfbc5bf35e6a28851cb57d61bd26d338e263c8091bbbb00b5c2012e0",
+    "status": "OK",
+    "tool": "assess"
+  },
+  {
+    "arguments": {
+      "source_id": "f22fb5d44685c654890693d3b570ec2495bd72700208250eee006db13befd53c"
+    },
+    "attempts": 2,
+    "bytes_read": 4897,
+    "output_sha256": "1f4672ffe2addc14fa9c6954b7adf79ace54ff41cb08c315fa267817dda04d85",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {},
+    "attempts": 2,
+    "bytes_read": 4897,
+    "output_sha256": "33f55d3cdeab90ea37774e1b1dbf870f277b788d5bce91b43ab995460a26861b",
+    "status": "OK",
+    "tool": "assess"
+  },
+  {
+    "arguments": {
+      "source_id": "773dea2e77c7e770cda43f6e4c84dfeda1b54d6871b594c19ea5831585dd2d40"
+    },
+    "attempts": 3,
+    "bytes_read": 7409,
+    "output_sha256": "bbdf19d56ade13e65429e5fda23732577c3cfb8b4c8ace9e75a95d19f69512ef",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {},
+    "attempts": 3,
+    "bytes_read": 7409,
+    "output_sha256": "5179408c485c1f4072f28dc05cc055955a81602dc2e43dfe7833fc4d18914c4e",
+    "status": "OK",
+    "tool": "assess"
+  },
+  {
+    "arguments": {
+      "source_id": "c6d06054f2dbe876cab0bfa015713bde255368886427f89c8f256a9abe277d52"
+    },
+    "attempts": 4,
+    "bytes_read": 10030,
+    "output_sha256": "64a124b5e657c02a7d6d4b0e8be7246efe1eb908f1cbb11499a1722b3f1f43dc",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {},
+    "attempts": 4,
+    "bytes_read": 10030,
+    "output_sha256": "ba1d73f1fe5dbe95f867a78af2f491eba8958dcd9fabe1b3b10d3410524268f5",
+    "status": "OK",
+    "tool": "finish"
+  }
+]

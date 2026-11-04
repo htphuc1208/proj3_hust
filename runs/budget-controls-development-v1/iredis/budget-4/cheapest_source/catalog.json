@@ -1,0 +1,134 @@
+{
+  "hint_scope": "Observed filename hints only; no parsed identities, requirements or reference membership",
+  "schema_version": "budget-source-catalog-v1",
+  "sha256": "fa06df440751aca7f5dfbc02c9f889d4a6368dd80c8667608d7188b52c1df97f",
+  "sources": [
+    {
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 3990,
+      "kind": "installed_metadata",
+      "name_hint": "pyjwt",
+      "path": "lib/python3.11/site-packages/PyJWT-2.10.1.dist-info/METADATA",
+      "sha256": "1247b017a0fa294f1219a690cd561fc54514d4ffe0b3f769d6961392862f031f",
+      "source_id": "29044678439ff39e14396bb010a586ab7093a05ad555470b49ecee0823997542"
+    },
+    {
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 2621,
+      "kind": "installed_metadata",
+      "name_hint": "click",
+      "path": "lib/python3.11/site-packages/click-8.3.1.dist-info/METADATA",
+      "sha256": "5d9781acc004d2085313cf128dfad20ee4b2342a413e9971251d6d6f00fda198",
+      "source_id": "c4039d137449615b195f165710fd663252d955a61743dbea01753eb446551cd7"
+    },
+    {
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 3245,
+      "kind": "installed_metadata",
+      "name_hint": "configobj",
+      "path": "lib/python3.11/site-packages/configobj-5.0.9.dist-info/METADATA",
+      "sha256": "10c1ebbe69c3b8805b61ab9ddc8aa4eb93ccf929f0db8d5959f0782c6e3bf9a5",
+      "source_id": "ade0e91669d9c66362e3523271ca9c6ed6e7ff3b12e4d9596a2d5cf80d6a5172"
+    },
+    {
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 14379,
+      "kind": "installed_metadata",
+      "name_hint": "iredis",
+      "path": "lib/python3.11/site-packages/iredis-1.15.2.dist-info/METADATA",
+      "sha256": "ee0dacad9d394aec7af946a35fd730433e746284d0adef652614824cd8240965",
+      "source_id": "7a9969974344a528925cf1adb303b24147f12f327aee96be7a746b0c11f90117"
+    },
+    {
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 1858,
+      "kind": "installed_metadata",
+      "name_hint": "mistune",
+      "path": "lib/python3.11/site-packages/mistune-3.2.0.dist-info/METADATA",
+      "sha256": "da6f993ed3c28034f296c822a3d5806f69310c9b91c3f9e2c08f39f94e2de95e",
+      "source_id": "93fb4bfd16b9932d0f6c06d77e9f646702655b40a5508943b505688aba18c31c"
+    },
+    {
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 3203,
+      "kind": "installed_metadata",
+      "name_hint": "packaging",
+      "path": "lib/python3.11/site-packages/packaging-23.2.dist-info/METADATA",
+      "sha256": "b3574943ce848d906e97f50291034674771b2edb3a660e3f9b10aa93ad17eb1b",
+      "source_id": "49226afd67d8064710cd4fbeb35f34bd8624af8483859c755089ccb9064d8cfe"
+    },
+    {
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "name_hint": "pip",
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "511e6b95cbe77eef747aa84fd73b39e2d73724d4d2e406fb0a607e48bcfbbb8b"
+    },
+    {
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 6414,
+      "kind": "installed_metadata",
+      "name_hint": "prompt-toolkit",
+      "path": "lib/python3.11/site-packages/prompt_toolkit-3.0.52.dist-info/METADATA",
+      "sha256": "80d4bd40a6a171dfd25c332baebee1fd8722342f133db5385e2d5719a5da2e29",
+      "source_id": "b295a44c72e91947e80543e7707e89327a5dc212a675f3fe000318562c954e81"
+    },
+    {
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 2512,
+      "kind": "installed_metadata",
+      "name_hint": "pygments",
+      "path": "lib/python3.11/site-packages/pygments-2.19.2.dist-info/METADATA",
+      "sha256": "7ae100d67d67006c6479803dd835fcf47a9b59fac794441ea8e66aa7f5984d82",
+      "source_id": "419c60a12566b4b6d3ba78a9f89fdd00832d44fc84d025f3fbafa2a10b9f14a2"
+    },
+    {
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 8354,
+      "kind": "installed_metadata",
+      "name_hint": "python-dateutil",
+      "path": "lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/METADATA",
+      "sha256": "a9d436da322be808332f98d88325998e87cb693a678a9969feb4cfad729a6e93",
+      "source_id": "13098fcc4ba62e058aabad6f6679e01eaea86779dbbfbb7e57cb6cb4533a7c3c"
+    },
+    {
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 9166,
+      "kind": "installed_metadata",
+      "name_hint": "redis",
+      "path": "lib/python3.11/site-packages/redis-5.3.1.dist-info/METADATA",
+      "sha256": "71cac2ab27f057e87818c8428343d40e595dc302f5d123b07165f41b52da271a",
+      "source_id": "79e4a7d08f39b6bd5dbb07dfda7859995894024bfe61ae22922dd8f11b0802fb"
+    },
+    {
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "name_hint": "setuptools",
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "d0e6390f87576de3a682b73175861ba1ed9ce386c18eaea38cf90bc9b76e6cf4"
+    },
+    {
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 1658,
+      "kind": "installed_metadata",
+      "name_hint": "six",
+      "path": "lib/python3.11/site-packages/six-1.17.0.dist-info/METADATA",
+      "sha256": "562042078c2752549f6d8a7c86dbc5dd708088a7be6d80672ec7b07100b72468",
+      "source_id": "d71f41ab8e306b0eeecc6afe0a6f5399a49334dc7f320be04b8d576d605968cf"
+    },
+    {
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 9152,
+      "kind": "installed_metadata",
+      "name_hint": "wcwidth",
+      "path": "lib/python3.11/site-packages/wcwidth-0.1.9.dist-info/METADATA",
+      "sha256": "c3be4d238b4d8f408cb10849c8d454227744430afc142e9cd85287f29a62c795",
+      "source_id": "4904d7ee26d11bd914490fc32de438920612949098bf2e49d9f13f7fb4a077a1"
+    }
+  ],
+  "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+}

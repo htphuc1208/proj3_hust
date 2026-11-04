@@ -1,0 +1,11 @@
+{
+  "acquisitions": 4,
+  "budget": 4,
+  "llm_api_calls": 8,
+  "max_turns": 12,
+  "native_valid": true,
+  "policy": "single_agent_reconciliation",
+  "risk_stage": "Frozen retrospective OSV snapshot after prediction seal",
+  "scope": "Engineering smoke on an old development project; not held-out or comparative evidence",
+  "status": "COMPLETE"
+}

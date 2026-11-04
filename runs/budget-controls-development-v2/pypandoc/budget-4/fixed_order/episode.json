@@ -1,0 +1,17 @@
+{
+  "budget": 4,
+  "catalog_sha256": "42ba6aae43b0c345f150cd051aebd9d6f5140e29fd80b5094050869b3429eedf",
+  "evidence_policy": "Only bytes returned by charged source RPCs enter the worker",
+  "gateway_attempts": [],
+  "gateway_usage": [],
+  "inference_parameters": {
+    "max_output_tokens_per_call": 2048,
+    "max_turns": 12,
+    "seed": 42,
+    "streaming": true
+  },
+  "llm_api_calls": 0,
+  "model_requested": null,
+  "policy": "fixed_order",
+  "status": "COMPLETE"
+}

@@ -1,0 +1,15 @@
+{
+  "active_extras": [],
+  "evidence_cutoff": "2026-10-28T17:05:52.356998Z",
+  "extras_by_purl": {},
+  "os_name": "posix",
+  "platform_machine": "x86_64",
+  "platform_system": "Linux",
+  "python_full_version": "3.11.16",
+  "python_version": "3.11",
+  "root_purls": [
+    "pkg:pypi/algorithms@0.1.4"
+  ],
+  "sys_platform": "linux",
+  "target_id": "2c2e7bb8c45b7de2ca25ed2a7a10e462a8116333085dec444682f99b8e619a7f"
+}

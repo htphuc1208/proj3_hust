@@ -1,0 +1,13 @@
+{
+  "request": {
+    "policy": "single_agent_reconciliation",
+    "project": "typer",
+    "scanner": "syft.spdx.json",
+    "streaming": true
+  },
+  "response": {
+    "job_id": "1129831bd752424c9f93664e239eae21",
+    "run_id": "ui-agent-20261104-092658-1129831b"
+  },
+  "scope": "Old-development engineering validation; no comparative or held-out claim"
+}

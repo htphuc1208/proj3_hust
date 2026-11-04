@@ -1,0 +1,15 @@
+{
+  "active_extras": [],
+  "evidence_cutoff": "2026-10-28T17:06:48.060869Z",
+  "extras_by_purl": {},
+  "os_name": "posix",
+  "platform_machine": "x86_64",
+  "platform_system": "Linux",
+  "python_full_version": "3.11.16",
+  "python_version": "3.11",
+  "root_purls": [
+    "pkg:pypi/pynamodb@6.1.0"
+  ],
+  "sys_platform": "linux",
+  "target_id": "f021daf3e34be311b30c1b34c6c76bfd35ef114ab519034b51d193b964263ef5"
+}

@@ -1,0 +1,7 @@
+  × No solution found when resolving dependencies:
+  ╰─▶ Because jsonpath>=0.82 has no usable wheels and akshare>=1.18.5 depends
+      on jsonpath>=0.82, we can conclude that akshare>=1.18.5 cannot be used.
+      And because you require akshare==1.18.5, we can conclude that your
+      requirements are unsatisfiable.
+
+hint: Wheels are required for `jsonpath` because building from source is disabled for all packages (i.e., with `--no-build`)

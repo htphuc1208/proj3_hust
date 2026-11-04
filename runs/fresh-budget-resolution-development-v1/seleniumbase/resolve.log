@@ -1,0 +1,9 @@
+  × No solution found when resolving dependencies:
+  ╰─▶ Because pyautogui{sys_platform == 'linux'}==0.9.54 has no usable wheels
+      and only pyautogui{sys_platform == 'linux'}<=0.9.54 is available, we can
+      conclude that pyautogui{sys_platform == 'linux'}>=0.9.54 cannot be used.
+      And because seleniumbase>=4.45.8 depends on pyautogui{sys_platform ==
+      'linux'}>=0.9.54 and you require seleniumbase==4.45.8, we can conclude
+      that your requirements are unsatisfiable.
+
+hint: Wheels are required for `pyautogui` because building from source is disabled for all packages (i.e., with `--no-build`)

@@ -1,0 +1,35 @@
+{
+  "hint_scope": "Observed filename hints only; no parsed identities, requirements or reference membership",
+  "schema_version": "budget-source-catalog-v1",
+  "sha256": "b264d34bfdb10a76b95d4fc53aae65efbb21695ad3487f77c46e3cbe717c06a1",
+  "sources": [
+    {
+      "available_at": "2026-10-28T17:05:52.356998Z",
+      "bytes": 21820,
+      "kind": "installed_metadata",
+      "name_hint": "algorithms",
+      "path": "lib/python3.11/site-packages/algorithms-0.1.4.dist-info/METADATA",
+      "sha256": "b9383e609ee02fc254fc6a17a7c90b125a56ada9a9529059467b7a7aef1980fe",
+      "source_id": "ef1d2483f21ad982bbad1ea4e201c83608a35a7cce6c36d9230d3e6220e31840"
+    },
+    {
+      "available_at": "2026-10-28T17:05:52.356998Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "name_hint": "pip",
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "a77d9be2e804bb1dd403deec07c960ff59e9dc39ef1f552cf396d3727188a11f"
+    },
+    {
+      "available_at": "2026-10-28T17:05:52.356998Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "name_hint": "setuptools",
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "f1b5f667b4ed7bda7dac16a19deb982ed681f0f5e533d62a836b4464c121032f"
+    }
+  ],
+  "target_id": "2c2e7bb8c45b7de2ca25ed2a7a10e462a8116333085dec444682f99b8e619a7f"
+}

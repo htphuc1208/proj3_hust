@@ -1,0 +1,10 @@
+{
+  "acquisitions": 4,
+  "candidate_proposals": 0,
+  "llm_api_calls": 8,
+  "native_valid": true,
+  "output": "/home/phucht/project/sbom_security_poc/runs/budget-agent-live-smoke-v1/episode",
+  "policy": "single_agent_reconciliation",
+  "retractions": 0,
+  "status": "COMPLETE"
+}

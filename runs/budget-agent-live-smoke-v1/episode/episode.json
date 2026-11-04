@@ -1,0 +1,726 @@
+{
+  "budget": 4,
+  "catalog_sha256": "62394788328ec79f40aa2db36d8d2994741e78297ceaa8456112a719eadac347",
+  "evidence_policy": "Only bytes returned by charged source RPCs enter the worker",
+  "gateway_attempts": [
+    {
+      "attempt": 1,
+      "duration_seconds": 6.413763454002037,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 58,
+        "prompt_tokens": 6664,
+        "total_tokens": 6722
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 13.588063326998963,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 541,
+        "prompt_tokens": 12831,
+        "total_tokens": 13372
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 2.200625702000252,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 169,
+        "prompt_tokens": 14912,
+        "total_tokens": 15081
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 7.990705045998766,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 124,
+        "prompt_tokens": 15872,
+        "total_tokens": 15996
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 6.4550780819990905,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 125,
+        "prompt_tokens": 20298,
+        "total_tokens": 20423
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 7.598179053002241,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 127,
+        "prompt_tokens": 23015,
+        "total_tokens": 23142
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 6.6339867360002245,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 46,
+        "prompt_tokens": 23167,
+        "total_tokens": 23213
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 7.120794021997426,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 128,
+        "prompt_tokens": 27004,
+        "total_tokens": 27132
+      }
+    }
+  ],
+  "gateway_usage": [
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 6.413763454002037,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 58,
+        "prompt_tokens": 6664,
+        "total_tokens": 6722
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 13.588063326998963,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 541,
+        "prompt_tokens": 12831,
+        "total_tokens": 13372
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 2.200625702000252,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 169,
+        "prompt_tokens": 14912,
+        "total_tokens": 15081
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 7.990705045998766,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 124,
+        "prompt_tokens": 15872,
+        "total_tokens": 15996
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 6.4550780819990905,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 125,
+        "prompt_tokens": 20298,
+        "total_tokens": 20423
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 7.598179053002241,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 127,
+        "prompt_tokens": 23015,
+        "total_tokens": 23142
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 6.6339867360002245,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 46,
+        "prompt_tokens": 23167,
+        "total_tokens": 23213
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 7.120794021997426,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 128,
+        "prompt_tokens": 27004,
+        "total_tokens": 27132
+      }
+    }
+  ],
+  "inference_parameters": {
+    "max_output_tokens_per_call": 2048,
+    "max_turns": 12,
+    "seed": 42,
+    "streaming": true
+  },
+  "llm_api_calls": 8,
+  "model_requested": "Qwen/Qwen3.6-35B-A3B-FP8",
+  "monetary_cost": "UNMEASURED_WITHOUT_VERIFIED_PRICING",
+  "policy": "single_agent_reconciliation",
+  "status": "COMPLETE",
+  "transcript": [
+    {
+      "message": {
+        "content": "I need to recover a candidate SBOM for the target `pkg:pypi/requests@2.32.5`. Let me start by inspecting the current state and then acquire relevant sources to build evidence.\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{}",
+              "name": "inspect"
+            },
+            "id": "call_beebf5d98ff848e7a57de6a6",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "d1d1f666b95fd78341baa76e03181f0460f7cfafc0cb53dc71a22797490a6183",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 6.413763454002037,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 58,
+          "prompt_tokens": 6664,
+          "total_tokens": 6722
+        }
+      },
+      "turn": 0
+    },
+    {
+      "message": {
+        "content": "I can see the target is `pkg:pypi/requests@2.32.5` and there are 4 budget attempts available. The catalog has 7 sources available, all of which are `installed_metadata` kind. The key sources for the requests package and its dependencies are:\n\n1. `requests` (source_id: `184bbd2383b8eba9318d626f567d413569b864f832bb06fbf9b5e52c08c71b45`) - the main target\n2. `certifi` (source_id: `f2afb8b0cfaa0bb9650362d3ce356cebe687816917e5f82b677e626e3bf6ef50`) - dependency of requests\n3. `charset-normalizer` (source_id: `b43066e4e1f03ddcf5c0c5e919b0fa6937a18ce581416dc09e7e9a53821d838a`) - dependency of requests\n4. `idna` (source_id: `f23c88cd0b3567c6e71606af592ee659758671012b130aa720ec277130e77b19`) - dependency of requests\n5. `urllib3` (source_id: `17a48b29f8510862e9d0aed9471f525363ac8850bf679582650456f5ab72d0b3`) - dependency of requests\n\nLet me start by acquiring the main requests package metadata first, then its key dependencies.\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{\"source_id\":\"184bbd2383b8eba9318d626f567d413569b864f832bb06fbf9b5e52c08c71b45\"}",
+              "name": "acquire"
+            },
+            "id": "call_54d2866726c94f9294e23e0a",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "375cb4c471d245a1a24c40297b8a70381de2f1552577cebcc2249b126c44c643",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 13.588063326998963,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 541,
+          "prompt_tokens": 12831,
+          "total_tokens": 13372
+        }
+      },
+      "turn": 1
+    },
+    {
+      "message": {
+        "content": "Good, I got the requests metadata. It confirms:\n- Version: 2.32.5\n- Dependencies: charset_normalizer, idna, urllib3, certifi\n- Extras: security (no additional deps listed), socks (requires PySocks), use-chardet-on-py3 (requires chardet)\n\nNow let me acquire the certifi metadata (one of the core dependencies):\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{\"source_id\":\"f2afb8b0cfaa0bb9650362d3ce356cebe687816917e5f82b677e626e3bf6ef50\"}",
+              "name": "acquire"
+            },
+            "id": "call_726cfe3ce7834d5e91cd692e",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "c300f40ab2a15f3e2ec98673f5cae3ea9ea1e65df07be5f2b7f69fe7f5ffa1f3",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 2.200625702000252,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 169,
+          "prompt_tokens": 14912,
+          "total_tokens": 15081
+        }
+      },
+      "turn": 2
+    },
+    {
+      "message": {
+        "content": "Good, certifi metadata acquired. It confirms version 2025.11.12 and has no dependencies listed. Now let me acquire the charset-normalizer metadata:\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{\"source_id\":\"b43066e4e1f03ddcf5c0c5e919b0fa6937a18ce581416dc09e7e9a53821d838a\"}",
+              "name": "acquire"
+            },
+            "id": "call_d88c6f2470f74fec9be587db",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "0aae49a9fc18d94b375c8a05d3b9f5296c4e940b2ed7a7dd168d0ebd1ac0685b",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 7.990705045998766,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 124,
+          "prompt_tokens": 15872,
+          "total_tokens": 15996
+        }
+      },
+      "turn": 3
+    },
+    {
+      "message": {
+        "content": "Good, charset-normalizer metadata acquired. It confirms version 3.4.4 and has no dependencies listed (it's a standalone package). Now let me acquire the idna metadata:\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{\"source_id\":\"f23c88cd0b3567c6e71606af592ee659758671012b130aa720ec277130e77b19\"}",
+              "name": "acquire"
+            },
+            "id": "call_f97a19eb7f6b40c9b630bf24",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "ed11422ae076045f0d55ba9f7e1e93327a78beb8159ead4ebbff313f5a5b2a63",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 6.4550780819990905,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 125,
+          "prompt_tokens": 20298,
+          "total_tokens": 20423
+        }
+      },
+      "turn": 4
+    },
+    {
+      "message": {
+        "content": "Good, idna metadata acquired. It confirms version 3.11 and has no runtime dependencies (only dev dependencies for the \"all\" extra). Now let me acquire the urllib3 metadata:\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{\"source_id\":\"17a48b29f8510862e9d0aed9471f525363ac8850bf679582650456f5ab72d0b3\"}",
+              "name": "acquire"
+            },
+            "id": "call_9988b6a8df8449058b8555f3",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "f0f87ffa3387046b3a34403ccaec10068b95a0d8edf342751ea284eef3f241dc",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 7.598179053002241,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 127,
+          "prompt_tokens": 23015,
+          "total_tokens": 23142
+        }
+      },
+      "turn": 5
+    },
+    {
+      "message": {
+        "content": "The urllib3 acquire failed. That's one attempt used. I have 0 remaining attempts now. Let me check the current state of acquired evidence:\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{}",
+              "name": "assess"
+            },
+            "id": "call_f76ba37709164550a86aaee6",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "6e75a8a892f784844f60797cb40f1aae3fb02845f22f4eb9d124b3f1b0b674d5",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 6.6339867360002245,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 46,
+          "prompt_tokens": 23167,
+          "total_tokens": 23213
+        }
+      },
+      "turn": 6
+    },
+    {
+      "message": {
+        "content": "I have 0 remaining attempts. The assess shows:\n- 3 edges are SUPPORTED (certifi, charset-normalizer, idna as dependencies of requests)\n- 1 candidate for urllib3 is UNKNOWN (ENDPOINT_EVIDENCE_UNAVAILABLE_OR_AMBIGUOUS)\n- Many other edges are UNKNOWN due to lack of evidence\n\nI've acquired 4 sources (requests, certifi, charset-normalizer, idna) and the urllib3 acquire failed. I have no more budget to spend. Let me finish with what I have.\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{}",
+              "name": "finish"
+            },
+            "id": "call_95bb963bb5c14a939d9a542d",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "63a8ab5f1a588d40f0d49da1119a17fbf9b2cca3636304d2131120d2a3d04105",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 7.120794021997426,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 128,
+          "prompt_tokens": 27004,
+          "total_tokens": 27132
+        }
+      },
+      "turn": 7
+    }
+  ]
+}

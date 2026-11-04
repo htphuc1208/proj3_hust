@@ -1,0 +1,135 @@
+{
+  "completed_at": "2026-11-04T09:38:23.506604Z",
+  "error": "INSTALL_CAPTURE_FAILED",
+  "image": "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+  "prediction_status": "NOT_RUN",
+  "project": {
+    "candidate": "notebook",
+    "eligible": {
+      "calibration": {
+        "released_at": "2026-06-18T16:18:52.551833Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "9cda5158a19ba4cc267b5c5fac6455e4aca5f62df99edca9584c3979d5b3a30d"
+          },
+          "digests": {
+            "blake2b_256": "93d1e617c40db57ff40e75f43a7d4d1c305e3a54c053ab5cb0534a6c314664f9",
+            "md5": "501d66592adb12bf330b0ccfbd28e8c4",
+            "sha256": "98aa2811b54ac191321d5dfce12ca700f8a511a33a26e4de2fa106a357c43d6a"
+          },
+          "downloads": -1,
+          "filename": "notebook-7.6.0-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "501d66592adb12bf330b0ccfbd28e8c4",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": ">=3.10",
+          "size": 5544575,
+          "upload_time": "2026-06-18T16:18:52",
+          "upload_time_iso_8601": "2026-06-18T16:18:52.551833Z",
+          "url": "https://files.pythonhosted.org/packages/93/d1/e617c40db57ff40e75f43a7d4d1c305e3a54c053ab5cb0534a6c314664f9/notebook-7.6.0-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "7.6.0"
+      },
+      "development": {
+        "released_at": "2025-12-16T07:38:55.644462Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "f84ee07307bc40aedbdbd7fe179a54c461d9ba3fcacfa5eb92d79a3f5b0f4726"
+          },
+          "digests": {
+            "blake2b_256": "d186ca516cb58ad2cb2064124d31cf0fd8b012fca64bebeb26da2d2ddf03fc79",
+            "md5": "9e6b1da5516127204d8de5273d45bc62",
+            "sha256": "f4e2451c19910c33b88709b84537e11f6368c1cdff1aa0c43db701aea535dd44"
+          },
+          "downloads": -1,
+          "filename": "notebook-7.5.1-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "9e6b1da5516127204d8de5273d45bc62",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": ">=3.9",
+          "size": 14468080,
+          "upload_time": "2025-12-16T07:38:55",
+          "upload_time_iso_8601": "2025-12-16T07:38:55.644462Z",
+          "url": "https://files.pythonhosted.org/packages/d1/86/ca516cb58ad2cb2064124d31cf0fd8b012fca64bebeb26da2d2ddf03fc79/notebook-7.5.1-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "7.5.1"
+      },
+      "test": {
+        "released_at": "2026-09-21T18:07:21.563689Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "fd252b1b2af8b91a660974de91fe5e6b6319b2575020ef892799dbf88d498b41"
+          },
+          "digests": {
+            "blake2b_256": "a1f7907b98438cf00bdc4e296570058f29a347214bb42338a48e3b7eae58ae2a",
+            "md5": "ce6e99a6be522f55868bed1b0c372777",
+            "sha256": "ad7e0eb765fba836cd4a2ab0c7a3a26cde1d91665fbf6f533b6ae7b2de6d88d2"
+          },
+          "downloads": -1,
+          "filename": "notebook-7.6.3-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "ce6e99a6be522f55868bed1b0c372777",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": ">=3.10",
+          "size": 5548452,
+          "upload_time": "2026-09-21T18:07:21",
+          "upload_time_iso_8601": "2026-09-21T18:07:21.563689Z",
+          "url": "https://files.pythonhosted.org/packages/a1/f7/907b98438cf00bdc4e296570058f29a347214bb42338a48e3b7eae58ae2a/notebook-7.6.3-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "7.6.3"
+      }
+    },
+    "family_verification": "PENDING",
+    "linked_repositories": [
+      "jupyter/notebook"
+    ],
+    "name": "notebook",
+    "partition": "development",
+    "queried_at": "2026-11-04T09:17:20.793108Z",
+    "registry_file": "registry/notebook.json",
+    "registry_sha256": "12735275e967ea4e636d7fe108700645f6b123b5c8dfaa7ff10a4281fd0758cc",
+    "released_at": "2025-12-16T07:38:55.644462Z",
+    "repository": "jupyter/notebook",
+    "repository_url": "https://github.com/jupyter/notebook",
+    "root_wheel": {
+      "comment_text": null,
+      "core-metadata": {
+        "sha256": "f84ee07307bc40aedbdbd7fe179a54c461d9ba3fcacfa5eb92d79a3f5b0f4726"
+      },
+      "digests": {
+        "blake2b_256": "d186ca516cb58ad2cb2064124d31cf0fd8b012fca64bebeb26da2d2ddf03fc79",
+        "md5": "9e6b1da5516127204d8de5273d45bc62",
+        "sha256": "f4e2451c19910c33b88709b84537e11f6368c1cdff1aa0c43db701aea535dd44"
+      },
+      "downloads": -1,
+      "filename": "notebook-7.5.1-py3-none-any.whl",
+      "has_sig": false,
+      "md5_digest": "9e6b1da5516127204d8de5273d45bc62",
+      "packagetype": "bdist_wheel",
+      "python_version": "py3",
+      "requires_python": ">=3.9",
+      "size": 14468080,
+      "upload_time": "2025-12-16T07:38:55",
+      "upload_time_iso_8601": "2025-12-16T07:38:55.644462Z",
+      "url": "https://files.pythonhosted.org/packages/d1/86/ca516cb58ad2cb2064124d31cf0fd8b012fca64bebeb26da2d2ddf03fc79/notebook-7.5.1-py3-none-any.whl",
+      "yanked": false,
+      "yanked_reason": null
+    },
+    "status": "RELEASE_ELIGIBLE",
+    "version": "7.5.1"
+  },
+  "started_at": "2026-11-04T09:33:52.931945Z",
+  "status": "FAILED"
+}

@@ -1,0 +1,107 @@
+{
+  "hint_scope": "Observed filename hints only; no parsed identities, requirements or reference membership",
+  "schema_version": "budget-source-catalog-v1",
+  "sha256": "7ad5aca61b615467939b4dc8d7d5afb6e08b84ebe2176b0a129204a152a06edd",
+  "sources": [
+    {
+      "available_at": "2026-10-28T17:07:12.322454Z",
+      "bytes": 7079,
+      "kind": "installed_metadata",
+      "name_hint": "cloudpickle",
+      "path": "lib/python3.11/site-packages/cloudpickle-3.1.2.dist-info/METADATA",
+      "sha256": "3d0263bfe9ee4f23b244bdcaff73acbe7a1957ebf82743b6ae42693adc48d721",
+      "source_id": "81ab30eb9f9194777354ac665bb8a15aea81cb259cad7ff811c35234fb28bbb9"
+    },
+    {
+      "available_at": "2026-10-28T17:07:12.322454Z",
+      "bytes": 3959,
+      "kind": "installed_metadata",
+      "name_hint": "future",
+      "path": "lib/python3.11/site-packages/future-1.0.0.dist-info/METADATA",
+      "sha256": "30d35a50a3116d9026558ab9026ffed4db58675562102a526bc56c4235db913e",
+      "source_id": "2608eb61fdf9fced769894a98add2939afbf2dd79e83a7ebcc6aaf205c52e308"
+    },
+    {
+      "available_at": "2026-10-28T17:07:12.322454Z",
+      "bytes": 1673,
+      "kind": "installed_metadata",
+      "name_hint": "hyperopt",
+      "path": "lib/python3.11/site-packages/hyperopt-0.2.7.dist-info/METADATA",
+      "sha256": "8823c834d017ec3966c7808824c6fe77a2f946bd5391ad53b679670a9b97276f",
+      "source_id": "d01cf80f3b1036546c3ced35730cb85077c33a8235d8a602b87dc810521ad9f0"
+    },
+    {
+      "available_at": "2026-10-28T17:07:12.322454Z",
+      "bytes": 6783,
+      "kind": "installed_metadata",
+      "name_hint": "networkx",
+      "path": "lib/python3.11/site-packages/networkx-3.6.1.dist-info/METADATA",
+      "sha256": "aca5d94a97d1f70f301d033addb635f6e66be8973a00aba4127637eed2ef316a",
+      "source_id": "9e9d33ab3b81e6f89e30cff441bc730fd0c66a4bf6c0e6de7c7f52b1b655fb27"
+    },
+    {
+      "available_at": "2026-10-28T17:07:12.322454Z",
+      "bytes": 62117,
+      "kind": "installed_metadata",
+      "name_hint": "numpy",
+      "path": "lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA",
+      "sha256": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3",
+      "source_id": "064ef262e6a69295c86860006a061c3db60c7d81c8c7379fa3a9892e3483bddc"
+    },
+    {
+      "available_at": "2026-10-28T17:07:12.322454Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "name_hint": "pip",
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "e50d6b3c8f73a2c18f2eae5f0b95bf685bb9a2ee0a68e6fda3da30bf8434b738"
+    },
+    {
+      "available_at": "2026-10-28T17:07:12.322454Z",
+      "bytes": 1304,
+      "kind": "installed_metadata",
+      "name_hint": "py4j",
+      "path": "lib/python3.11/site-packages/py4j-0.10.9.9.dist-info/METADATA",
+      "sha256": "4de63437be85fcbac12941e952e7c08d9af8ba2ef3c5940660a8934a487c8de2",
+      "source_id": "346700f721233843f07d7f15f47f645797419a1d60ac9c06497101d7d6dc380d"
+    },
+    {
+      "available_at": "2026-10-28T17:07:12.322454Z",
+      "bytes": 62003,
+      "kind": "installed_metadata",
+      "name_hint": "scipy",
+      "path": "lib/python3.11/site-packages/scipy-1.16.3.dist-info/METADATA",
+      "sha256": "a54602d0aa61fb25ac030b1d7b0faf0c8cfec508290d4d824198d6b43647ec1b",
+      "source_id": "3ebad9a6f66ac22ebf2d603867ef5cada3b925639783528c0a613a008df0a68b"
+    },
+    {
+      "available_at": "2026-10-28T17:07:12.322454Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "name_hint": "setuptools",
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "bc439a1930b30b8a9be82bad6fb43018eb7878774210a8a3c320487c56a27f35"
+    },
+    {
+      "available_at": "2026-10-28T17:07:12.322454Z",
+      "bytes": 1658,
+      "kind": "installed_metadata",
+      "name_hint": "six",
+      "path": "lib/python3.11/site-packages/six-1.17.0.dist-info/METADATA",
+      "sha256": "562042078c2752549f6d8a7c86dbc5dd708088a7be6d80672ec7b07100b72468",
+      "source_id": "04fbbce1e0eb7fd32c3fc9e2db5125280496b620d85462ba2291ef76e5aadb79"
+    },
+    {
+      "available_at": "2026-10-28T17:07:12.322454Z",
+      "bytes": 57675,
+      "kind": "installed_metadata",
+      "name_hint": "tqdm",
+      "path": "lib/python3.11/site-packages/tqdm-4.67.1.dist-info/METADATA",
+      "sha256": "688a1632df525a198fec52dcfefb1246d31eacee9c035aacac2d7eaf8d8ff669",
+      "source_id": "565d2d38f123da7821f834b607afff61b0d2735317253dda35744bdf10619b47"
+    }
+  ],
+  "target_id": "e02c74ffc5c7f41825141b00b2c536b00536ed4f3ace11aa201233c1f148f86d"
+}

@@ -1,0 +1,11 @@
+packaging==25.0
+jsonschema==4.25.1
+httpx==0.28.1
+pydantic==2.14.1
+spdx-tools==0.8.5
+packageurl-python==0.17.6
+numpy==2.5.4
+scipy==1.18.1
+matplotlib==3.11.2
+python-dotenv==1.2.4
+requests==2.34.2

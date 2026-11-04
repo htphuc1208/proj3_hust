@@ -1,0 +1,29 @@
+{
+  "environment_variable_names": [
+    "PYTHONPATH",
+    "PYTHONDONTWRITEBYTECODE",
+    "PATH",
+    "GPG_KEY",
+    "PYTHON_VERSION",
+    "PYTHON_SHA256"
+  ],
+  "image": "sha256:5d35ccd9b572ffdef2179956b480fd32923ad90f41a1887a4c248334cfa37174",
+  "mounts": {
+    "/code": {
+      "rw": false,
+      "source": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v1/source_bundle"
+    },
+    "/input": {
+      "rw": false,
+      "source": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v1/iredis/budget-16/unresolved_priority/execution/input"
+    },
+    "/out": {
+      "rw": true,
+      "source": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v1/iredis/budget-16/unresolved_priority/execution/worker"
+    }
+  },
+  "network": "none",
+  "oracle_mounted": false,
+  "read_only_root": true,
+  "target_mounted": false
+}

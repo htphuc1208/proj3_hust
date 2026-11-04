@@ -1,0 +1,314 @@
+{
+  "hint_scope": "Observed filename hints only; no parsed identities, requirements or reference membership",
+  "schema_version": "budget-source-catalog-v1",
+  "sha256": "22b009c8ae7c32d6ee1ecdde6bc5dfbec62842a43c092c6fecfcf5f02cd2b2e4",
+  "sources": [
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 15046,
+      "kind": "installed_metadata",
+      "name_hint": "annotated-types",
+      "path": "lib/python3.11/site-packages/annotated_types-0.7.0.dist-info/METADATA",
+      "sha256": "ee5b6ac64b09274c026051813484025939564067801f485115d9cadc207cf791",
+      "source_id": "63c5651d9b37d59dad8a31e6ae689dc7dfb8a3de391a4470ed2ad9530ac55859"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 4277,
+      "kind": "installed_metadata",
+      "name_hint": "anyio",
+      "path": "lib/python3.11/site-packages/anyio-4.12.0.dist-info/METADATA",
+      "sha256": "aed7b6fc2da160a3fdfe254c158a204b3071747073c18e394b54eb2e206cc5d9",
+      "source_id": "fc55899b9267fca7248503805f92a6307be0d2a4a5a29641643fb2e1a5f9712e"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 2475,
+      "kind": "installed_metadata",
+      "name_hint": "certifi",
+      "path": "lib/python3.11/site-packages/certifi-2025.11.12.dist-info/METADATA",
+      "sha256": "fc9a6b1aeff595649d1e5aee44129ca2b5e7adfbc10e1bd7ffa291afc1d06cb7",
+      "source_id": "cb84abc4c318753167a3bf739e4976c0f43ebd4c6a2e3a42e68b1062255c3689"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 37303,
+      "kind": "installed_metadata",
+      "name_hint": "charset-normalizer",
+      "path": "lib/python3.11/site-packages/charset_normalizer-3.4.4.dist-info/METADATA",
+      "sha256": "8d5b94141b62f1d6afd7d60bbd68acb138a155d176a33518e0a28cc3b8dd9014",
+      "source_id": "63502ea31180795f9cfb8ebfd0cbffbd69944758dea9ef2a07b9b7ec2f0b67e6"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 8348,
+      "kind": "installed_metadata",
+      "name_hint": "h11",
+      "path": "lib/python3.11/site-packages/h11-0.16.0.dist-info/METADATA",
+      "sha256": "28f326098ac09fcba79b8f180f96087c841fe2456215cb7b872a9c7d5cd19d64",
+      "source_id": "ddceb8e02a6ec47167a2d50a4105db1fca9f0a81ff08de4d5bede5f2c4c2979d"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 21529,
+      "kind": "installed_metadata",
+      "name_hint": "httpcore",
+      "path": "lib/python3.11/site-packages/httpcore-1.0.9.dist-info/METADATA",
+      "sha256": "fe2d4fda6199128978779e0cf27f3c045c531863fcdd987eacc74f3a18d41c21",
+      "source_id": "f50d705af2f8e401820a54413fdc62fd11ab218b11e1148dd48cf14e9c66d78f"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 7052,
+      "kind": "installed_metadata",
+      "name_hint": "httpx",
+      "path": "lib/python3.11/site-packages/httpx-0.28.1.dist-info/METADATA",
+      "sha256": "febb9b0f8f3e80d57c8199c304f35c4336e8581d1d18d7983c92766b82793b25",
+      "source_id": "53fbfd9c668f7192abb375f301c7411b202badcf83f3e03f768ca732b37d76a9"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 8378,
+      "kind": "installed_metadata",
+      "name_hint": "idna",
+      "path": "lib/python3.11/site-packages/idna-3.11.dist-info/METADATA",
+      "sha256": "7c2c12c30f52ba237c4c81e59454804944025b9e6102cf1dcca9ebf5168411b0",
+      "source_id": "7dbb8c6c1ff6f5c637fc4c1c8ddd795f7d717dab87b8e66b1969e743513e4f4e"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 2980,
+      "kind": "installed_metadata",
+      "name_hint": "jsonpatch",
+      "path": "lib/python3.11/site-packages/jsonpatch-1.33.dist-info/METADATA",
+      "sha256": "06f32bbb4669267d84a82bdaf5fc0dd4d861d0da006b2af5ef598259a66f7a29",
+      "source_id": "c6b3321e7b97e98d54718eb03cea1fc7c85552e786ac0c0d8d026ed995a235b6"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 2251,
+      "kind": "installed_metadata",
+      "name_hint": "jsonpointer",
+      "path": "lib/python3.11/site-packages/jsonpointer-3.0.0.dist-info/METADATA",
+      "sha256": "9bc135c616e4a8076fb1930123abf2d3ad702d5e30a9c99b4ba8abc8509680b2",
+      "source_id": "059096d50864174f9e67ad071b7a300cba1f97258229154e3def116c71dcbea9"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 4943,
+      "kind": "installed_metadata",
+      "name_hint": "langchain",
+      "path": "lib/python3.11/site-packages/langchain-1.2.0.dist-info/METADATA",
+      "sha256": "298bb89c64f53a5b7268bb1eaefcdbadf15d68806451cc423cee57308dc35e07",
+      "source_id": "20343fc053b77c5e0c763479db13e66b24de5f6672e3a0758eb5d391e1949acd"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 3668,
+      "kind": "installed_metadata",
+      "name_hint": "langchain-core",
+      "path": "lib/python3.11/site-packages/langchain_core-1.2.5.dist-info/METADATA",
+      "sha256": "118b037a441436349179ae93939f0bf2f582bbfeea688d88fb8a87edd26ac0a5",
+      "source_id": "d4eaf7b93bef18dd5d83744549da7910377991d497571972de9962fad8817e81"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 7368,
+      "kind": "installed_metadata",
+      "name_hint": "langgraph",
+      "path": "lib/python3.11/site-packages/langgraph-1.0.5.dist-info/METADATA",
+      "sha256": "c3987d421a1ddaec1d5a13bf8f70911bbeebbc8b1e895d992651d501f5a138a5",
+      "source_id": "8db6983c1396705342faf6de7383fa8b7940ebb65bb22871f4d90f7214b8ed42"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 4679,
+      "kind": "installed_metadata",
+      "name_hint": "langgraph-checkpoint",
+      "path": "lib/python3.11/site-packages/langgraph_checkpoint-3.0.1.dist-info/METADATA",
+      "sha256": "a697b6e2bbdb8d9d49095beec4d27f3ee96672d08931ce0386656bfe41e066c3",
+      "source_id": "0c7a9dfe106a4243f4548a5dc9dc8dfed7f79cdfb7ee3e30b27e8842d5eb6953"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 5193,
+      "kind": "installed_metadata",
+      "name_hint": "langgraph-prebuilt",
+      "path": "lib/python3.11/site-packages/langgraph_prebuilt-1.0.5.dist-info/METADATA",
+      "sha256": "f518f0aa3250dfaa0cc279417b30f5ecdd6062f5ca07a6c0d78d22e833611861",
+      "source_id": "bd58babf181ed2d3b20ec01a651b1039732d79c3d1a5ec38be19160dd275a71b"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 1648,
+      "kind": "installed_metadata",
+      "name_hint": "langgraph-sdk",
+      "path": "lib/python3.11/site-packages/langgraph_sdk-0.3.1.dist-info/METADATA",
+      "sha256": "19fbb96757dae2a7a5ebdcd39227921d491392be2e8ce34e46ceb1351c041533",
+      "source_id": "45f8e4cab7642c66bd35ee9f7f86b2c3ae57e60d3607c6ad0294fd25b34b092b"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 15357,
+      "kind": "installed_metadata",
+      "name_hint": "langsmith",
+      "path": "lib/python3.11/site-packages/langsmith-0.5.2.dist-info/METADATA",
+      "sha256": "ee221e02c5a496efdf3c1a35f08618dcd9e0f5341d28440192469c7cbcd637dd",
+      "source_id": "2f865da3e3868838ebf140a2ef0d5eb9d1718541d63faad62fd0eb63a82c3f86"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 41633,
+      "kind": "installed_metadata",
+      "name_hint": "orjson",
+      "path": "lib/python3.11/site-packages/orjson-3.11.5.dist-info/METADATA",
+      "sha256": "ece789bf575ed5bd036bfb519c23ed54a758a8376877be9ba6ccf0cbafee3ad9",
+      "source_id": "f396eb21fba08015a43b180d0937718fc09fa20b50c168e77fd41938227c0082"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 3217,
+      "kind": "installed_metadata",
+      "name_hint": "ormsgpack",
+      "path": "lib/python3.11/site-packages/ormsgpack-1.12.1.dist-info/METADATA",
+      "sha256": "bd56a7ad4f117532b27d1372ab7641b1c46ee8233a26eff577ee9d940adc238a",
+      "source_id": "47c82ab2177df76fca70e89d3d67e2d393c0cfb554d62514d41ace701b0f69cc"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 3281,
+      "kind": "installed_metadata",
+      "name_hint": "packaging",
+      "path": "lib/python3.11/site-packages/packaging-25.0.dist-info/METADATA",
+      "sha256": "5b611a609c38fefc3d616bf45d20aec98fb7d53f245daca9e2c30fc85c7ac282",
+      "source_id": "96c6548cce10a095ed606e6e9f036f52df3804fcd1698ec5b1f1b311dd30aed1"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "name_hint": "pip",
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "b5222df1c0d619ba9c5186cfff774b8a72ea0a7e6158efbbcef0c25299f2ae06"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 90587,
+      "kind": "installed_metadata",
+      "name_hint": "pydantic",
+      "path": "lib/python3.11/site-packages/pydantic-2.12.5.dist-info/METADATA",
+      "sha256": "a3ba23e895191fed69b8323cbcbcdc82984ca0b6a3cdc62c48a2341886a9c08d",
+      "source_id": "e5226c7c5dd45d11e0a1bbd393da745f101f432bd83b0b799ac83e53c73d3037"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 7277,
+      "kind": "installed_metadata",
+      "name_hint": "pydantic-core",
+      "path": "lib/python3.11/site-packages/pydantic_core-2.41.5.dist-info/METADATA",
+      "sha256": "09f83baa3202ec3da98a284a56afdf1ba69976e4af7172488887e5b2b20591a9",
+      "source_id": "25e10d869e79aea2aa6c66b586514fc578122171bb844d6f3620177e2eb96e94"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 2351,
+      "kind": "installed_metadata",
+      "name_hint": "pyyaml",
+      "path": "lib/python3.11/site-packages/pyyaml-6.0.3.dist-info/METADATA",
+      "sha256": "03c3b415ed38d09faedc49360e930769b40c58f68585e6de00e2e4916a858d34",
+      "source_id": "18742c1371d85d0f6aa1cbcbe6a609f86778fb20a1de996113163bf13d947f63"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 4945,
+      "kind": "installed_metadata",
+      "name_hint": "requests",
+      "path": "lib/python3.11/site-packages/requests-2.32.5.dist-info/METADATA",
+      "sha256": "65b5a08da81f4915513e760965ff14b7518f65b7bb3efe0dab364bbcc4d40cb0",
+      "source_id": "704a21b419635a8a792a279e0106dac4557820c7f34e6a9951ca2b2ac6ac28af"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 14638,
+      "kind": "installed_metadata",
+      "name_hint": "requests-toolbelt",
+      "path": "lib/python3.11/site-packages/requests_toolbelt-1.0.0.dist-info/METADATA",
+      "sha256": "fa52f26237cc8d148d25c5746fdca499a56d0e765e69095cc3564a07cce23967",
+      "source_id": "d4e2cd8a6f355b31257b7df4500d040534af32159cb385eb16a1c661911b28d0"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "name_hint": "setuptools",
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "090ee7099c59d81d89566ef7d6ffa4277fc9f7d40f69e460ce9ee5d706754076"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 1172,
+      "kind": "installed_metadata",
+      "name_hint": "tenacity",
+      "path": "lib/python3.11/site-packages/tenacity-9.1.2.dist-info/METADATA",
+      "sha256": "d6f3caf72fc1ee40caf9135adf7b5d44a45100115b4ea92b80f19ed183b157a5",
+      "source_id": "1e4f70cb60f457cb266995983529554cbd1eb811a554855754b0cefb25001995"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 3259,
+      "kind": "installed_metadata",
+      "name_hint": "typing-extensions",
+      "path": "lib/python3.11/site-packages/typing_extensions-4.15.0.dist-info/METADATA",
+      "sha256": "c138378fe8f18934ac99de060535c53ec6c13aeed65e94c32641da7ee3192a72",
+      "source_id": "be555a3b03f1e216c19d5f6a30e4e285eca6ea2e370ac4d07a9c4b6215df9691"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 2552,
+      "kind": "installed_metadata",
+      "name_hint": "typing-inspection",
+      "path": "lib/python3.11/site-packages/typing_inspection-0.4.2.dist-info/METADATA",
+      "sha256": "61096cd0bfe3c7040b6f98c22b02d190fe01936d0ff7616c5134fed02891953a",
+      "source_id": "e4daacd7f9e955943782c368d3ecba6f8a26396326c3d6a821e0fdb6d48aa071"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 6627,
+      "kind": "installed_metadata",
+      "name_hint": "urllib3",
+      "path": "lib/python3.11/site-packages/urllib3-2.6.2.dist-info/METADATA",
+      "sha256": "532da8b2c7b39b017e837451b0d9c946061a2ec4a9e04d4161e487166a731a53",
+      "source_id": "ecb8f7afdd0d42be4eef48d30408017d5e61833bab928b8eef0d099374b9607f"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 1059,
+      "kind": "installed_metadata",
+      "name_hint": "uuid-utils",
+      "path": "lib/python3.11/site-packages/uuid_utils-0.12.0.dist-info/METADATA",
+      "sha256": "7eedc4ebe254a43aa4dc4ccefb6d75bf6528a13f74db7e060b1a4c887e55fee4",
+      "source_id": "79e75f5d59c49ec74d69e887b057b0af70fb7a11757d25afba9c486289e71242"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 13171,
+      "kind": "installed_metadata",
+      "name_hint": "xxhash",
+      "path": "lib/python3.11/site-packages/xxhash-3.6.0.dist-info/METADATA",
+      "sha256": "9dcdbae3ea685db00dc0691d6f90ec6c1d74349658f97e5a4f55f9bdf183db21",
+      "source_id": "1d6e5a158d01c830cbf6118c399b59d0c77d16f487a512dc91e800a4899652fb"
+    },
+    {
+      "available_at": "2026-11-04T09:42:07.195662Z",
+      "bytes": 3275,
+      "kind": "installed_metadata",
+      "name_hint": "zstandard",
+      "path": "lib/python3.11/site-packages/zstandard-0.25.0.dist-info/METADATA",
+      "sha256": "03d37736b26b9ae48451dd17026d93dffbd252fb708c1a2a9ae1be0c0966de92",
+      "source_id": "943822a632dc75f511386cdb3b71b3a9c3ecdfca6f8cb12678903b696f994f2c"
+    }
+  ],
+  "target_id": "7a99934c04f0a84d55dff87ac4615677aca20ffc1e62d85c41918beae0168bb3"
+}

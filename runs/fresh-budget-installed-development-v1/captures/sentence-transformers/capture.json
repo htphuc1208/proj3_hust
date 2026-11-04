@@ -1,0 +1,135 @@
+{
+  "completed_at": "2026-11-04T09:33:52.926816Z",
+  "error": "INSTALL_CAPTURE_FAILED",
+  "image": "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+  "prediction_status": "NOT_RUN",
+  "project": {
+    "candidate": "sentence-transformers",
+    "eligible": {
+      "calibration": {
+        "released_at": "2026-06-16T14:01:55.103031Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "18cc2326a002da7e222a7d10df668b2ad6c99cf8adb51fad01a52ec97df232fa"
+          },
+          "digests": {
+            "blake2b_256": "76c1dc1582b79e9a2eb0cddf9559cd9bcdff084f541d6fe881fdd9d98630dba7",
+            "md5": "06993fd4f1395e1bf889512161f2e761",
+            "sha256": "d2075b5e687a1611005e20ab04a6846994d51adfcf39610aed066af3c0c0b81f"
+          },
+          "downloads": -1,
+          "filename": "sentence_transformers-5.6.0-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "06993fd4f1395e1bf889512161f2e761",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": ">=3.10",
+          "size": 596411,
+          "upload_time": "2026-06-16T14:01:55",
+          "upload_time_iso_8601": "2026-06-16T14:01:55.103031Z",
+          "url": "https://files.pythonhosted.org/packages/76/c1/dc1582b79e9a2eb0cddf9559cd9bcdff084f541d6fe881fdd9d98630dba7/sentence_transformers-5.6.0-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "5.6.0"
+      },
+      "development": {
+        "released_at": "2025-12-11T14:12:29.516389Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "276c8dfa0a5c5631cba4f33cbd8e68e2d647af80f32238c50f5f06b2c977bead"
+          },
+          "digests": {
+            "blake2b_256": "40d03b2897ef6a0c0c801e9fecca26bcc77081648e38e8c772885ebdd8d7d252",
+            "md5": "be567d50e28d7b65abd000234d759196",
+            "sha256": "aa57180f053687d29b08206766ae7db549be5074f61849def7b17bf0b8025ca2"
+          },
+          "downloads": -1,
+          "filename": "sentence_transformers-5.2.0-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "be567d50e28d7b65abd000234d759196",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": ">=3.10",
+          "size": 493748,
+          "upload_time": "2025-12-11T14:12:29",
+          "upload_time_iso_8601": "2025-12-11T14:12:29.516389Z",
+          "url": "https://files.pythonhosted.org/packages/40/d0/3b2897ef6a0c0c801e9fecca26bcc77081648e38e8c772885ebdd8d7d252/sentence_transformers-5.2.0-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "5.2.0"
+      },
+      "test": {
+        "released_at": "2026-10-21T12:26:49.022071Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "c6ffec9891717d9899dceaca50904e33a7fe4298687acee3f30619111f78ff15"
+          },
+          "digests": {
+            "blake2b_256": "66aeaac4fcaf7aa27daee96aa15d74770b38bb5ff50b1d31ccf12becd68c6e8b",
+            "md5": "5335668a4fec3dd6857ae93b20b073f4",
+            "sha256": "ffb51ccfef65427cfa61776d0eeeb257600b0099cf0c7533ae9a6856d31e4665"
+          },
+          "downloads": -1,
+          "filename": "sentence_transformers-6.2.0-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "5335668a4fec3dd6857ae93b20b073f4",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": ">=3.10",
+          "size": 760709,
+          "upload_time": "2026-10-21T12:26:49",
+          "upload_time_iso_8601": "2026-10-21T12:26:49.022071Z",
+          "url": "https://files.pythonhosted.org/packages/66/ae/aac4fcaf7aa27daee96aa15d74770b38bb5ff50b1d31ccf12becd68c6e8b/sentence_transformers-6.2.0-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "6.2.0"
+      }
+    },
+    "family_verification": "PENDING",
+    "linked_repositories": [
+      "huggingface/sentence-transformers"
+    ],
+    "name": "sentence-transformers",
+    "partition": "development",
+    "queried_at": "2026-11-04T09:17:12.124299Z",
+    "registry_file": "registry/sentence-transformers.json",
+    "registry_sha256": "75b94f01275f6774e4110d8aceb4ee779c6c20f36acbc0b56664698fdf9903fa",
+    "released_at": "2025-12-11T14:12:29.516389Z",
+    "repository": "huggingface/sentence-transformers",
+    "repository_url": "https://github.com/huggingface/sentence-transformers",
+    "root_wheel": {
+      "comment_text": null,
+      "core-metadata": {
+        "sha256": "276c8dfa0a5c5631cba4f33cbd8e68e2d647af80f32238c50f5f06b2c977bead"
+      },
+      "digests": {
+        "blake2b_256": "40d03b2897ef6a0c0c801e9fecca26bcc77081648e38e8c772885ebdd8d7d252",
+        "md5": "be567d50e28d7b65abd000234d759196",
+        "sha256": "aa57180f053687d29b08206766ae7db549be5074f61849def7b17bf0b8025ca2"
+      },
+      "downloads": -1,
+      "filename": "sentence_transformers-5.2.0-py3-none-any.whl",
+      "has_sig": false,
+      "md5_digest": "be567d50e28d7b65abd000234d759196",
+      "packagetype": "bdist_wheel",
+      "python_version": "py3",
+      "requires_python": ">=3.10",
+      "size": 493748,
+      "upload_time": "2025-12-11T14:12:29",
+      "upload_time_iso_8601": "2025-12-11T14:12:29.516389Z",
+      "url": "https://files.pythonhosted.org/packages/40/d0/3b2897ef6a0c0c801e9fecca26bcc77081648e38e8c772885ebdd8d7d252/sentence_transformers-5.2.0-py3-none-any.whl",
+      "yanked": false,
+      "yanked_reason": null
+    },
+    "status": "RELEASE_ELIGIBLE",
+    "version": "5.2.0"
+  },
+  "started_at": "2026-11-04T09:33:40.645237Z",
+  "status": "FAILED"
+}

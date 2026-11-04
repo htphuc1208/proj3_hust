@@ -1,0 +1,6 @@
+{
+  "acquisition_budget": 4,
+  "source_contents_available_only_after_rpc": true,
+  "source_requests": 4,
+  "target_mounted": false
+}

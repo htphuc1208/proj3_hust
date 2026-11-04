@@ -1,0 +1,11 @@
+{
+  "acquisition_budget": 16,
+  "oracle_labels_used": false,
+  "read_source_ids": [
+    "798304507d6dac426438fd7347aeb5bd85f790f56f8b4420b9b8f09701c4f8ca",
+    "4eba2a2f22203c5192c06b343347692a17e416eccc5639fea53c347adfa1ecca",
+    "0e5dc124a8993914d5915e8412445c4e2a848d78d0ebf9e3a39c71480987296e"
+  ],
+  "source_content_reads": 3,
+  "trusted_preparation": "All target metadata hashed before inference; no labels or parsed requirements enter the initial catalog"
+}

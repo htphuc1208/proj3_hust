@@ -1,0 +1,13 @@
+{
+  "request": {
+    "budget": null,
+    "policy": "fixed_order",
+    "project": "typer",
+    "scanner": "syft.spdx.json",
+    "streaming": true
+  },
+  "response": {
+    "job_id": "98d3425c736d4a1b9d2fea6f13486118",
+    "run_id": "ui-agent-20261104-093328-98d3425c"
+  }
+}

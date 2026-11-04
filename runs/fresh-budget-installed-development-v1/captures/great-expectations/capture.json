@@ -1,0 +1,135 @@
+{
+  "completed_at": "2026-11-04T09:37:43.319256Z",
+  "error": "INSTALL_CAPTURE_FAILED",
+  "image": "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+  "prediction_status": "NOT_RUN",
+  "project": {
+    "candidate": "great-expectations",
+    "eligible": {
+      "calibration": {
+        "released_at": "2026-06-26T12:53:51.212540Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "79438983ed644a66a2c620fcc1d5436cdc596ed796531788dca3f481f4d1fb2b"
+          },
+          "digests": {
+            "blake2b_256": "51eebd914f61e2e6aacfbae6ee87aa7dd6178bca9ebd49e82ab5eb434ceb28fa",
+            "md5": "6598b0dda1a5ab731d0a01b157f1f764",
+            "sha256": "eb61d132001c38ca7a934d5cd91722e871cee97db596699c118a170fd25e0e9b"
+          },
+          "downloads": -1,
+          "filename": "great_expectations-1.18.2-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "6598b0dda1a5ab731d0a01b157f1f764",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": "<3.14,>=3.10",
+          "size": 4947561,
+          "upload_time": "2026-06-26T12:53:51",
+          "upload_time_iso_8601": "2026-06-26T12:53:51.212540Z",
+          "url": "https://files.pythonhosted.org/packages/51/ee/bd914f61e2e6aacfbae6ee87aa7dd6178bca9ebd49e82ab5eb434ceb28fa/great_expectations-1.18.2-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "1.18.2"
+      },
+      "development": {
+        "released_at": "2025-12-18T22:46:51.424369Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "b1e594a8ea101365f894ba4bdb85d249256abf774e3c1ad68df9c7fb354b0820"
+          },
+          "digests": {
+            "blake2b_256": "5d7fcba74d2dc5b3bec35dd1bfc542041d27fb71ffb42631482179e516ae0ca2",
+            "md5": "be01956e89e0edbd999cdb3625a42f81",
+            "sha256": "e0c3a92a2a906dced70079295e88018e4a9ec51355e8333fed6598549abaa919"
+          },
+          "downloads": -1,
+          "filename": "great_expectations-1.10.0-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "be01956e89e0edbd999cdb3625a42f81",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": "<3.14,>=3.10",
+          "size": 4942810,
+          "upload_time": "2025-12-18T22:46:51",
+          "upload_time_iso_8601": "2025-12-18T22:46:51.424369Z",
+          "url": "https://files.pythonhosted.org/packages/5d/7f/cba74d2dc5b3bec35dd1bfc542041d27fb71ffb42631482179e516ae0ca2/great_expectations-1.10.0-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "1.10.0"
+      },
+      "test": {
+        "released_at": "2026-10-22T20:56:33.330868Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "f5b029d464d0427f7e567cc70d07304632beba62999fa0c4aab03a973f07c01c"
+          },
+          "digests": {
+            "blake2b_256": "bb6f57cb807b762e106d85a6d140fc69bbdf6270eb098bbbb72e041265489dad",
+            "md5": "4a9d256d15984f1417e797c7e1498a4d",
+            "sha256": "a6d57e0904e3aaf51839fcec7352b652881d20e5dbdf4aa731ffb8ee8f93ae13"
+          },
+          "downloads": -1,
+          "filename": "great_expectations-1.24.1-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "4a9d256d15984f1417e797c7e1498a4d",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": "<3.15,>=3.10",
+          "size": 5747271,
+          "upload_time": "2026-10-22T20:56:33",
+          "upload_time_iso_8601": "2026-10-22T20:56:33.330868Z",
+          "url": "https://files.pythonhosted.org/packages/bb/6f/57cb807b762e106d85a6d140fc69bbdf6270eb098bbbb72e041265489dad/great_expectations-1.24.1-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "1.24.1"
+      }
+    },
+    "family_verification": "PENDING",
+    "linked_repositories": [
+      "fivetran/great_expectations"
+    ],
+    "name": "great-expectations",
+    "partition": "development",
+    "queried_at": "2026-11-04T09:16:42.566250Z",
+    "registry_file": "registry/great-expectations.json",
+    "registry_sha256": "b6724b45fa5bf828644e1d024aef6da3e33497dfd2260e35232e8540f6e6dcfb",
+    "released_at": "2025-12-18T22:46:51.424369Z",
+    "repository": "fivetran/great_expectations",
+    "repository_url": "https://github.com/fivetran/great_expectations",
+    "root_wheel": {
+      "comment_text": null,
+      "core-metadata": {
+        "sha256": "b1e594a8ea101365f894ba4bdb85d249256abf774e3c1ad68df9c7fb354b0820"
+      },
+      "digests": {
+        "blake2b_256": "5d7fcba74d2dc5b3bec35dd1bfc542041d27fb71ffb42631482179e516ae0ca2",
+        "md5": "be01956e89e0edbd999cdb3625a42f81",
+        "sha256": "e0c3a92a2a906dced70079295e88018e4a9ec51355e8333fed6598549abaa919"
+      },
+      "downloads": -1,
+      "filename": "great_expectations-1.10.0-py3-none-any.whl",
+      "has_sig": false,
+      "md5_digest": "be01956e89e0edbd999cdb3625a42f81",
+      "packagetype": "bdist_wheel",
+      "python_version": "py3",
+      "requires_python": "<3.14,>=3.10",
+      "size": 4942810,
+      "upload_time": "2025-12-18T22:46:51",
+      "upload_time_iso_8601": "2025-12-18T22:46:51.424369Z",
+      "url": "https://files.pythonhosted.org/packages/5d/7f/cba74d2dc5b3bec35dd1bfc542041d27fb71ffb42631482179e516ae0ca2/great_expectations-1.10.0-py3-none-any.whl",
+      "yanked": false,
+      "yanked_reason": null
+    },
+    "status": "RELEASE_ELIGIBLE",
+    "version": "1.10.0"
+  },
+  "started_at": "2026-11-04T09:32:24.416979Z",
+  "status": "FAILED"
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "arguments": {},
+    "attempts": 0,
+    "bytes_read": 0,
+    "output_sha256": "7c5ed62aceaba6a08bcd0c0bd776d667dcf763ede1f04a90c39750d7ff12f479",
+    "status": "OK",
+    "tool": "inspect"
+  },
+  {
+    "arguments": {},
+    "attempts": 0,
+    "bytes_read": 0,
+    "output_sha256": "7c5ed62aceaba6a08bcd0c0bd776d667dcf763ede1f04a90c39750d7ff12f479",
+    "status": "OK",
+    "tool": "inspect"
+  },
+  {
+    "arguments": {},
+    "attempts": 0,
+    "bytes_read": 0,
+    "output_sha256": "638b8fd7af71b6c22cf83b6844a721b9e0a9847f7ec27b729c5f7da4060c3d9c",
+    "status": "OK",
+    "tool": "assess"
+  },
+  {
+    "arguments": {
+      "source_id": "e5af50de6212174ea87a0c1be4c717aad78de9ec1a842b8325054adc814b8f25"
+    },
+    "attempts": 1,
+    "bytes_read": 16092,
+    "output_sha256": "d04cb54ea7f84d11013115378298a8bbc9cdf1dc4fc71532b015f87b898bbb0e",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {
+      "source_id": "c6d06054f2dbe876cab0bfa015713bde255368886427f89c8f256a9abe277d52"
+    },
+    "attempts": 2,
+    "bytes_read": 18713,
+    "output_sha256": "00cdc683475a5b79020aabb109768ff58ed024542ef0863fe311cbdaa156b0a4",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {
+      "source_id": "7757fb681f2a3b1133485d33991637dc9440fa3ab603abdc608eae8a8fa22166"
+    },
+    "attempts": 3,
+    "bytes_read": 36970,
+    "output_sha256": "1ea0ad6fd6f48278216a91a3be4aed6e8c9e79596179ea0b6999b10941f5e50a",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {
+      "source_id": "6392f851f50283936e5025d189f0c1dea55329e55077ee2a4ce4e7e24b3137e0"
+    },
+    "attempts": 4,
+    "bytes_read": 40431,
+    "output_sha256": "1ac950fb0408d8a97ecaa8f58378e25a50c483fbbf2ae507b14dee9df6944c75",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {},
+    "attempts": 4,
+    "bytes_read": 40431,
+    "output_sha256": "3796975ee1e3ced587e8260d522294af350649b09fa37df68f2f6ebee646db6b",
+    "status": "OK",
+    "tool": "assess"
+  },
+  {
+    "arguments": {},
+    "attempts": 4,
+    "bytes_read": 40431,
+    "output_sha256": "818910659431960bfa164252078e74e9d5e34c3ed7ff4e7c809e95c996c56027",
+    "status": "OK",
+    "tool": "finish"
+  }
+]

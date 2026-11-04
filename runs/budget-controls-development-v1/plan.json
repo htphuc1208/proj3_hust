@@ -1,0 +1,181 @@
+{
+  "budgets": [
+    4,
+    16
+  ],
+  "cohort_sha256": "ffce07c8b94f21c57624227f7d8b3610c73685bacc012b03dd615366e5957c5d",
+  "comparison": "same source catalog, same acquired-evidence gate v2, source contents provided via charged RPC only",
+  "existing_development_does_not_establish_fresh_cohort_feasibility": true,
+  "methods": [
+    "fixed_order",
+    "cheapest_source",
+    "unresolved_priority"
+  ],
+  "minimum_sources_for_fresh_study": 32,
+  "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+  "projects": [
+    {
+      "available_at": "2026-10-28T17:04:12.712426Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/requests",
+      "catalog_sha256": "62394788328ec79f40aa2db36d8d2994741e78297ceaa8456112a719eadac347",
+      "eligible_source_count_for_new_study": false,
+      "name": "requests",
+      "sources": 7
+    },
+    {
+      "available_at": "2026-10-28T17:04:03.355000Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/pika",
+      "catalog_sha256": "5777b9158d51a1fa679b3a520363faae246a92eff1e1fb6f9a880a5efcee7be8",
+      "eligible_source_count_for_new_study": false,
+      "name": "pika",
+      "sources": 3
+    },
+    {
+      "available_at": "2026-10-28T17:04:03.337694Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/boltons",
+      "catalog_sha256": "f69a175001ca84446aa2937578dd4cb9aabbf79acfb690b869d6f6f34ff26dd0",
+      "eligible_source_count_for_new_study": false,
+      "name": "boltons",
+      "sources": 3
+    },
+    {
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/imbalanced-learn",
+      "catalog_sha256": "00f8a2d3f87dd766739c66848583592e1d70603acbd05fbf725364cf8da9e859",
+      "eligible_source_count_for_new_study": false,
+      "name": "imbalanced-learn",
+      "sources": 9
+    },
+    {
+      "available_at": "2026-10-28T17:05:47.920303Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/vulture",
+      "catalog_sha256": "a0540f98dfb8bf43f64a0db7db4ab9e4fbf9d37905da9ef04ad7c303aba05f6f",
+      "eligible_source_count_for_new_study": false,
+      "name": "vulture",
+      "sources": 3
+    },
+    {
+      "available_at": "2026-10-28T17:05:46.800554Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/pypandoc",
+      "catalog_sha256": "42ba6aae43b0c345f150cd051aebd9d6f5140e29fd80b5094050869b3429eedf",
+      "eligible_source_count_for_new_study": false,
+      "name": "pypandoc",
+      "sources": 3
+    },
+    {
+      "available_at": "2026-10-28T17:05:52.356998Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/algorithms",
+      "catalog_sha256": "b264d34bfdb10a76b95d4fc53aae65efbb21695ad3487f77c46e3cbe717c06a1",
+      "eligible_source_count_for_new_study": false,
+      "name": "algorithms",
+      "sources": 3
+    },
+    {
+      "available_at": "2026-10-28T17:06:05.150438Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/sqlparse",
+      "catalog_sha256": "e7c7a9d06b2b5ccda25ba6c46768d26119aa80a2abf5492ab88fcfdf9977854a",
+      "eligible_source_count_for_new_study": false,
+      "name": "sqlparse",
+      "sources": 3
+    },
+    {
+      "available_at": "2026-10-28T17:06:12.330873Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/typer",
+      "catalog_sha256": "eb4b4c0416946e43675dcd98fa4a89be604e55962493379296d60adfed98b580",
+      "eligible_source_count_for_new_study": false,
+      "name": "typer",
+      "sources": 10
+    },
+    {
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/iredis",
+      "catalog_sha256": "fa06df440751aca7f5dfbc02c9f889d4a6368dd80c8667608d7188b52c1df97f",
+      "eligible_source_count_for_new_study": false,
+      "name": "iredis",
+      "sources": 14
+    },
+    {
+      "available_at": "2026-10-28T17:06:23.864464Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/attrs",
+      "catalog_sha256": "1f7db781f94e081044e001b540d23b19d22318f3439e0dfaa6052a88bcf63915",
+      "eligible_source_count_for_new_study": false,
+      "name": "attrs",
+      "sources": 3
+    },
+    {
+      "available_at": "2026-10-28T17:06:30.599938Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/pyserial",
+      "catalog_sha256": "e4e06538c0c0872e03561adda819decd5f8d6273e10d43c8e1684ee30b4d19c6",
+      "eligible_source_count_for_new_study": false,
+      "name": "pyserial",
+      "sources": 3
+    },
+    {
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/nox",
+      "catalog_sha256": "59a03dd66bedca09ebf809fd91058e3702bb7a20dc4ac22b1929d562818bb496",
+      "eligible_source_count_for_new_study": false,
+      "name": "nox",
+      "sources": 13
+    },
+    {
+      "available_at": "2026-10-28T17:06:48.060869Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/pynamodb",
+      "catalog_sha256": "e8746b752dd1d226a52593194019ad525c0b0ac38b271a593ab5a6f500f8ea4b",
+      "eligible_source_count_for_new_study": false,
+      "name": "pynamodb",
+      "sources": 8
+    },
+    {
+      "available_at": "2026-10-28T17:07:12.322454Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/hyperopt",
+      "catalog_sha256": "7ad5aca61b615467939b4dc8d7d5afb6e08b84ebe2176b0a129204a152a06edd",
+      "eligible_source_count_for_new_study": false,
+      "name": "hyperopt",
+      "sources": 11
+    },
+    {
+      "available_at": "2026-10-28T17:29:18.440982Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/factory-boy",
+      "catalog_sha256": "600fbfbab04a4380d0c46628f8c1da6a4300e3a681b8d4ba1b5cba0413246ca2",
+      "eligible_source_count_for_new_study": false,
+      "name": "factory-boy",
+      "sources": 5
+    },
+    {
+      "available_at": "2026-10-28T17:07:58.267932Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/faster-whisper",
+      "catalog_sha256": "de79bdf3a0d1769bcf863de695d17fc4c15bb1b80fb6254abfd91d341406c062",
+      "eligible_source_count_for_new_study": false,
+      "name": "faster-whisper",
+      "sources": 31
+    },
+    {
+      "available_at": "2026-10-28T17:07:14.712404Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/django-debug-toolbar",
+      "catalog_sha256": "3a1917867ad76277826b5a7ce1c58a870e3d5f1594d6486f04163ad6e14b7450",
+      "eligible_source_count_for_new_study": false,
+      "name": "django-debug-toolbar",
+      "sources": 6
+    },
+    {
+      "available_at": "2026-10-28T17:07:23.289587Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/pypdf",
+      "catalog_sha256": "e12dda16e13ef09f0cb752146bb470b3eb7675c3bd97d6fd6d6e9c44c1697c5c",
+      "eligible_source_count_for_new_study": false,
+      "name": "pypdf",
+      "sources": 3
+    },
+    {
+      "available_at": "2026-10-28T17:08:20.697697Z",
+      "capture": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures-v2/markitdown",
+      "catalog_sha256": "5a3e243cc5bcd7b2369ed4ef208cfd418fc3d3145c753bc7863809f49a550d7d",
+      "eligible_source_count_for_new_study": false,
+      "name": "markitdown",
+      "sources": 26
+    }
+  ],
+  "runner_sha256": "9628756f608704c96c262d9dab608b22f7569e7680dd83334682140ab28e0ee5",
+  "source_manifest_sha256": "44c0fa7bd96508e1496fa25d8bcc5f1b7d5efeb8147596f5d3dcf1d5f2e169e9",
+  "status": "DEVELOPMENT_DIAGNOSTIC"
+}

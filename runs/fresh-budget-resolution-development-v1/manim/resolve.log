@@ -1,0 +1,12 @@
+  × No solution found when resolving dependencies:
+  ╰─▶ Because manimpango>=0.5.0,<=0.6.1 has no usable wheels and only the
+      following versions of manimpango are available:
+          manimpango<=0.6.1
+          manimpango>1.0.0
+      we can conclude that manimpango>=0.5.0,<1.0.0 cannot be used.
+      And because manim>=0.19.1 depends on manimpango>=0.5.0,<1.0.0 and
+      you require manim==0.19.1, we can conclude that your requirements are
+      unsatisfiable.
+
+hint: Wheels are required for `manimpango` because building from source is disabled for all packages (i.e., with `--no-build`)
+hint: `manimpango` was filtered by `exclude-newer` to only include packages uploaded before 2025-12-31T23:59:59Z. The latest version satisfying the requirement is v0.7.1, published at 2026-10-24T09:02:28.791Z. Consider using `exclude-newer-package` to override the cutoff for this package.

@@ -1,0 +1,135 @@
+{
+  "completed_at": "2026-11-04T09:32:24.408817Z",
+  "error": "INSTALL_CAPTURE_FAILED",
+  "image": "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+  "prediction_status": "NOT_RUN",
+  "project": {
+    "candidate": "trl",
+    "eligible": {
+      "calibration": {
+        "released_at": "2026-06-25T22:47:19.910831Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "9ec356a14986a14e208ef147d4f2864f0a3a6f71a5423b0c003a9e9404baa808"
+          },
+          "digests": {
+            "blake2b_256": "8a1f470d5f68d4056604e7acf56b8a42693a94d4890f423557ea1eea5c0d2589",
+            "md5": "440b6f16fce87b075160ae61b75d2223",
+            "sha256": "097358a35caec99477d9fcc5284bcf349319fca1e6e507e8f7efa3988e23727a"
+          },
+          "downloads": -1,
+          "filename": "trl-1.7.0-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "440b6f16fce87b075160ae61b75d2223",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": ">=3.10",
+          "size": 838829,
+          "upload_time": "2026-06-25T22:47:19",
+          "upload_time_iso_8601": "2026-06-25T22:47:19.910831Z",
+          "url": "https://files.pythonhosted.org/packages/8a/1f/470d5f68d4056604e7acf56b8a42693a94d4890f423557ea1eea5c0d2589/trl-1.7.0-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "1.7.0"
+      },
+      "development": {
+        "released_at": "2025-12-18T15:49:39.983639Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "bee1887e6c4c5596279f714059f61be5baf31fa0cb9ea29aece902c608afa95f"
+          },
+          "digests": {
+            "blake2b_256": "4c1fd5e73557b9d7d89343d9569b22b685385e82b6ce0e43de6a934fe6843d4b",
+            "md5": "d8b438a70bb24762b5a20bae5713346c",
+            "sha256": "532a6d221201b5fef4b961fbaae4c67ca5d9f35c33d35c73ac4ea2cbb35e8d0d"
+          },
+          "downloads": -1,
+          "filename": "trl-0.26.2-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "d8b438a70bb24762b5a20bae5713346c",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": ">=3.10",
+          "size": 518928,
+          "upload_time": "2025-12-18T15:49:39",
+          "upload_time_iso_8601": "2025-12-18T15:49:39.983639Z",
+          "url": "https://files.pythonhosted.org/packages/4c/1f/d5e73557b9d7d89343d9569b22b685385e82b6ce0e43de6a934fe6843d4b/trl-0.26.2-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "0.26.2"
+      },
+      "test": {
+        "released_at": "2026-10-15T17:56:35.640113Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "193422de1afb4c2b86ab68fefa318651641f6734742875c8a85a379fc96b4dcb"
+          },
+          "digests": {
+            "blake2b_256": "e14dc5eaed26c16bfafc2f724e6be320f94a4f26bf4bb4ba62917114dd9b60c8",
+            "md5": "23091842ec1723fd48bebff0e01d78de",
+            "sha256": "c4726e139dd40e1a41661511c639c8a68416782b2e3e8c0befebd77bb7ba0396"
+          },
+          "downloads": -1,
+          "filename": "trl-1.16.0-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "23091842ec1723fd48bebff0e01d78de",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": ">=3.11",
+          "size": 948205,
+          "upload_time": "2026-10-15T17:56:35",
+          "upload_time_iso_8601": "2026-10-15T17:56:35.640113Z",
+          "url": "https://files.pythonhosted.org/packages/e1/4d/c5eaed26c16bfafc2f724e6be320f94a4f26bf4bb4ba62917114dd9b60c8/trl-1.16.0-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "1.16.0"
+      }
+    },
+    "family_verification": "PENDING",
+    "linked_repositories": [
+      "huggingface/trl"
+    ],
+    "name": "trl",
+    "partition": "development",
+    "queried_at": "2026-11-04T09:16:22.559583Z",
+    "registry_file": "registry/trl.json",
+    "registry_sha256": "3a69b912eed739cfe398a7b28c6691c177a501faa69b83effdf0d4e4cf89551a",
+    "released_at": "2025-12-18T15:49:39.983639Z",
+    "repository": "huggingface/trl",
+    "repository_url": "https://github.com/huggingface/trl",
+    "root_wheel": {
+      "comment_text": null,
+      "core-metadata": {
+        "sha256": "bee1887e6c4c5596279f714059f61be5baf31fa0cb9ea29aece902c608afa95f"
+      },
+      "digests": {
+        "blake2b_256": "4c1fd5e73557b9d7d89343d9569b22b685385e82b6ce0e43de6a934fe6843d4b",
+        "md5": "d8b438a70bb24762b5a20bae5713346c",
+        "sha256": "532a6d221201b5fef4b961fbaae4c67ca5d9f35c33d35c73ac4ea2cbb35e8d0d"
+      },
+      "downloads": -1,
+      "filename": "trl-0.26.2-py3-none-any.whl",
+      "has_sig": false,
+      "md5_digest": "d8b438a70bb24762b5a20bae5713346c",
+      "packagetype": "bdist_wheel",
+      "python_version": "py3",
+      "requires_python": ">=3.10",
+      "size": 518928,
+      "upload_time": "2025-12-18T15:49:39",
+      "upload_time_iso_8601": "2025-12-18T15:49:39.983639Z",
+      "url": "https://files.pythonhosted.org/packages/4c/1f/d5e73557b9d7d89343d9569b22b685385e82b6ce0e43de6a934fe6843d4b/trl-0.26.2-py3-none-any.whl",
+      "yanked": false,
+      "yanked_reason": null
+    },
+    "status": "RELEASE_ELIGIBLE",
+    "version": "0.26.2"
+  },
+  "started_at": "2026-11-04T09:32:04.763583Z",
+  "status": "FAILED"
+}

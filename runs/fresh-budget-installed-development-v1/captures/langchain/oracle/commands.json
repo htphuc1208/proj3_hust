@@ -1,0 +1,79 @@
+[
+  {
+    "stage": "lock",
+    "command": [
+      "/tools/uv",
+      "pip",
+      "compile",
+      "/out/root.in",
+      "--python",
+      "/usr/local/bin/python",
+      "--exclude-newer",
+      "2025-12-31T23:59:59Z",
+      "--generate-hashes",
+      "--only-binary",
+      ":all:",
+      "--default-index",
+      "https://pypi.org/simple",
+      "--cache-dir",
+      "/cache/uv",
+      "-o",
+      "/out/requirements.lock"
+    ],
+    "exit_code": 0,
+    "seconds": 11.19379373799893
+  },
+  {
+    "stage": "venv",
+    "command": [
+      "/usr/local/bin/python",
+      "-m",
+      "venv",
+      "/out/target"
+    ],
+    "exit_code": 0,
+    "seconds": 5.699733396999363
+  },
+  {
+    "stage": "install",
+    "command": [
+      "/out/target/bin/python",
+      "-m",
+      "pip",
+      "install",
+      "--only-binary=:all:",
+      "--require-hashes",
+      "--index-url",
+      "https://pypi.org/simple",
+      "--report",
+      "/out/install_report.json",
+      "-r",
+      "/out/requirements.lock"
+    ],
+    "exit_code": 0,
+    "seconds": 208.77239824500066
+  },
+  {
+    "stage": "pip_check",
+    "command": [
+      "/out/target/bin/python",
+      "-m",
+      "pip",
+      "check"
+    ],
+    "exit_code": 0,
+    "seconds": 1.7914550690002216
+  },
+  {
+    "stage": "inspect",
+    "command": [
+      "/out/target/bin/python",
+      "-m",
+      "pip",
+      "inspect",
+      "--local"
+    ],
+    "exit_code": 0,
+    "seconds": 1.5377575589991466
+  }
+]

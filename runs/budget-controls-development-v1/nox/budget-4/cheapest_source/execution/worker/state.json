@@ -1,0 +1,665 @@
+{
+  "acquired_source_ids": [
+    "1983fbbb7d2fb31c2fdc1947e1d5613d39e9115f758db54cb8805fdaf1ad49f9",
+    "328822fef87de0819bf466734f7169273cdee5914bfa4d4e5948b083139b8018",
+    "8321a2bc431fa00121a6b8b5e67fee950d0087b48210f45ec091dc0defe5f01c",
+    "92f25a1c880299c70a340b63ca283fdefe53bfa67eb83fb676761e8c6a64ad31"
+  ],
+  "attempts": 4,
+  "budget": 4,
+  "byte_budget": 2097152,
+  "bytes_read": 11240,
+  "catalog": {
+    "hint_scope": "Observed filename hints only; no parsed identities, requirements or reference membership",
+    "schema_version": "budget-source-catalog-v1",
+    "sha256": "59a03dd66bedca09ebf809fd91058e3702bb7a20dc4ac22b1929d562818bb496",
+    "sources": [
+      {
+        "available_at": "2026-10-28T17:06:43.141493Z",
+        "bytes": 16891,
+        "kind": "installed_metadata",
+        "name_hint": "argcomplete",
+        "path": "lib/python3.11/site-packages/argcomplete-3.6.3.dist-info/METADATA",
+        "sha256": "a6078603bafea6fd0cb70196de08d0088ecfefde7d45ef7a5bda697c1c6408c7",
+        "source_id": "c67e92a01fdc61385c05a35163c6bfa138cad949b4972e6e12f48960457d91d5"
+      },
+      {
+        "available_at": "2026-10-28T17:06:43.141493Z",
+        "bytes": 10473,
+        "kind": "installed_metadata",
+        "name_hint": "attrs",
+        "path": "lib/python3.11/site-packages/attrs-25.4.0.dist-info/METADATA",
+        "sha256": "d917abc63eda81c311c62c1d92dea50b682ea870269062821f5de75962bb6684",
+        "source_id": "680cb7f533afdd863320213b68f988d75786265c7650c8fa41a0dd25d84e4d02"
+      },
+      {
+        "available_at": "2026-10-28T17:06:43.141493Z",
+        "bytes": 11202,
+        "kind": "installed_metadata",
+        "name_hint": "colorlog",
+        "path": "lib/python3.11/site-packages/colorlog-6.10.1.dist-info/METADATA",
+        "sha256": "8d2bc5088a07a5c554206fb453916d0c918c643aa4f67e452084d1417c93cbe0",
+        "source_id": "d7090295b41c630b965032ebe2e94c5e67d86c25218d27e7dc702bc27e363294"
+      },
+      {
+        "available_at": "2026-10-28T17:06:43.141493Z",
+        "bytes": 2268,
+        "kind": "installed_metadata",
+        "name_hint": "dependency-groups",
+        "path": "lib/python3.11/site-packages/dependency_groups-1.3.1.dist-info/METADATA",
+        "sha256": "0033546dd2b5e361e7b1aac074462d1aad1c543c5ceed7c0003375719e799828",
+        "source_id": "92f25a1c880299c70a340b63ca283fdefe53bfa67eb83fb676761e8c6a64ad31"
+      },
+      {
+        "available_at": "2026-10-28T17:06:43.141493Z",
+        "bytes": 5246,
+        "kind": "installed_metadata",
+        "name_hint": "distlib",
+        "path": "lib/python3.11/site-packages/distlib-0.4.0.dist-info/METADATA",
+        "sha256": "8c3ae3fc9faff13706d3357ec3750777f0c50054abc026c9c24ce5882ef1dde7",
+        "source_id": "41676c582f94ac7965f263fc9f610fff71e3c0c361c4b907c8ac891755e24fcd"
+      },
+      {
+        "available_at": "2026-10-28T17:06:43.141493Z",
+        "bytes": 2110,
+        "kind": "installed_metadata",
+        "name_hint": "filelock",
+        "path": "lib/python3.11/site-packages/filelock-3.20.1.dist-info/METADATA",
+        "sha256": "d80519f60191d419d597b42c0476690d4667e30272fb2c5e00667295dd3ee33b",
+        "source_id": "1983fbbb7d2fb31c2fdc1947e1d5613d39e9115f758db54cb8805fdaf1ad49f9"
+      },
+      {
+        "available_at": "2026-10-28T17:06:43.141493Z",
+        "bytes": 7850,
+        "kind": "installed_metadata",
+        "name_hint": "humanize",
+        "path": "lib/python3.11/site-packages/humanize-4.15.0.dist-info/METADATA",
+        "sha256": "a0b134eb3f4708b777994033630b14d878348d78bb77c184065db175b4110334",
+        "source_id": "a64ecdb6de3f4de8e6f71102fa19308563bb0f6decdee899af6ddb83183b8d93"
+      },
+      {
+        "available_at": "2026-10-28T17:06:43.141493Z",
+        "bytes": 5070,
+        "kind": "installed_metadata",
+        "name_hint": "nox",
+        "path": "lib/python3.11/site-packages/nox-2025.11.12.dist-info/METADATA",
+        "sha256": "813a18bd54393f776443a3e903f69ba2571a5e7e1b54201f7208e5bf99f6fd1b",
+        "source_id": "f761115081e103d62975f6ea45c93bcd976478d551a6ccd86f24654fe5dde761"
+      },
+      {
+        "available_at": "2026-10-28T17:06:43.141493Z",
+        "bytes": 3281,
+        "kind": "installed_metadata",
+        "name_hint": "packaging",
+        "path": "lib/python3.11/site-packages/packaging-25.0.dist-info/METADATA",
+        "sha256": "5b611a609c38fefc3d616bf45d20aec98fb7d53f245daca9e2c30fc85c7ac282",
+        "source_id": "328822fef87de0819bf466734f7169273cdee5914bfa4d4e5948b083139b8018"
+      },
+      {
+        "available_at": "2026-10-28T17:06:43.141493Z",
+        "bytes": 3581,
+        "kind": "installed_metadata",
+        "name_hint": "pip",
+        "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+        "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+        "source_id": "8321a2bc431fa00121a6b8b5e67fee950d0087b48210f45ec091dc0defe5f01c"
+      },
+      {
+        "available_at": "2026-10-28T17:06:43.141493Z",
+        "bytes": 12804,
+        "kind": "installed_metadata",
+        "name_hint": "platformdirs",
+        "path": "lib/python3.11/site-packages/platformdirs-4.5.1.dist-info/METADATA",
+        "sha256": "3a7ef90c694e34649fece11d27e88621cd6bc1344497e3e31e56d46bd423e928",
+        "source_id": "b1a380c0e4f7cec97edc52744e8bcc26203688e3a9c882b689418fe9507f8c42"
+      },
+      {
+        "available_at": "2026-10-28T17:06:43.141493Z",
+        "bytes": 6548,
+        "kind": "installed_metadata",
+        "name_hint": "setuptools",
+        "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+        "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+        "source_id": "77467605d526aad452bcc2820e806aa201ae99fe9948f2d4aa34587402b7cae4"
+      },
+      {
+        "available_at": "2026-10-28T17:06:43.141493Z",
+        "bytes": 4630,
+        "kind": "installed_metadata",
+        "name_hint": "virtualenv",
+        "path": "lib/python3.11/site-packages/virtualenv-20.35.4.dist-info/METADATA",
+        "sha256": "45226c222270a9ad1d1060adb5b9bfeb34d5c4722264245cc0892cb7a2454917",
+        "source_id": "8aa4c418b5cbebb8edf5437b99a0de273631d68c218f6e49d559fa3119181915"
+      }
+    ],
+    "target_id": "d1d388f0145e20cce44bccc124068dd439da33aa311f84c8b7a88187ffbb846e"
+  },
+  "context": {
+    "active_extras": [],
+    "evidence_cutoff": "2026-10-28T17:06:43.141493Z",
+    "extras_by_purl": {},
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_system": "Linux",
+    "python_full_version": "3.11.16",
+    "python_version": "3.11",
+    "root_purls": [
+      "pkg:pypi/nox@2025.11.12"
+    ],
+    "sys_platform": "linux",
+    "target_id": "d1d388f0145e20cce44bccc124068dd439da33aa311f84c8b7a88187ffbb846e"
+  },
+  "observation": {
+    "components": [
+      {
+        "name": "Simple Launcher",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-05724ff8fe0d3d53",
+        "version": "1.1.0.14"
+      },
+      {
+        "name": "Simple Launcher",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-0c8f95a4b79d7674",
+        "version": "1.1.0.14"
+      },
+      {
+        "name": "Simple Launcher",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-38b73c876ed1f707",
+        "version": "1.1.0.14"
+      },
+      {
+        "name": "Simple Launcher",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-6a56f678eb8191f5",
+        "version": "1.1.0.14"
+      },
+      {
+        "name": "Simple Launcher",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-157f48d3975bdac4",
+        "version": "1.1.0.14"
+      },
+      {
+        "name": "Simple Launcher",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-aa6b32804738d6fd",
+        "version": "1.1.0.14"
+      },
+      {
+        "name": "Simple Launcher",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-a44285c28ded40d9",
+        "version": "1.1.0.14"
+      },
+      {
+        "name": "Simple Launcher",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-0adacc207c3f4a90",
+        "version": "1.1.0.14"
+      },
+      {
+        "name": "Simple Launcher",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-155265e0cc280d26",
+        "version": "1.1.0.14"
+      },
+      {
+        "name": "Simple Launcher",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-96ca15df6e892e0b",
+        "version": "1.1.0.14"
+      },
+      {
+        "name": "Simple Launcher",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-234c4176e1f4ee2b",
+        "version": "1.1.0.14"
+      },
+      {
+        "name": "Simple Launcher",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-Simple-Launcher-f74225a542780316",
+        "version": "1.1.0.14"
+      },
+      {
+        "name": "argcomplete",
+        "purl": "pkg:pypi/argcomplete@3.6.3",
+        "ref": "SPDXRef-Package-python-argcomplete-b524f2a4c545fbd7",
+        "version": "3.6.3"
+      },
+      {
+        "name": "attrs",
+        "purl": "pkg:pypi/attrs@25.4.0",
+        "ref": "SPDXRef-Package-python-attrs-8d61243a996b9b6a",
+        "version": "25.4.0"
+      },
+      {
+        "name": "autocommand",
+        "purl": "pkg:pypi/autocommand@2.2.2",
+        "ref": "SPDXRef-Package-python-autocommand-1d5bb88bbdd45a29",
+        "version": "2.2.2"
+      },
+      {
+        "name": "backports-tarfile",
+        "purl": "pkg:pypi/backports-tarfile@1.2.0",
+        "ref": "SPDXRef-Package-python-backports-tarfile-7bb5380f6d177676",
+        "version": "1.2.0"
+      },
+      {
+        "name": "cli",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-cli-83650cc0f73168af",
+        "version": "UNKNOWN"
+      },
+      {
+        "name": "cli-32",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-cli-32-3537c7a1e294b533",
+        "version": "UNKNOWN"
+      },
+      {
+        "name": "cli-64",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-cli-64-1d8b91b866d3f200",
+        "version": "UNKNOWN"
+      },
+      {
+        "name": "cli-arm64",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-cli-arm64-38c02814806a9f67",
+        "version": "UNKNOWN"
+      },
+      {
+        "name": "colorlog",
+        "purl": "pkg:pypi/colorlog@6.10.1",
+        "ref": "SPDXRef-Package-python-colorlog-20e0cd9d5f1ae856",
+        "version": "6.10.1"
+      },
+      {
+        "name": "dependency-groups",
+        "purl": "pkg:pypi/dependency-groups@1.3.1",
+        "ref": "SPDXRef-Package-python-dependency-groups-d1284b50b6d72a83",
+        "version": "1.3.1"
+      },
+      {
+        "name": "distlib",
+        "purl": "pkg:pypi/distlib@0.4.0",
+        "ref": "SPDXRef-Package-python-distlib-75fdb0c1b2f4d49f",
+        "version": "0.4.0"
+      },
+      {
+        "name": "filelock",
+        "purl": "pkg:pypi/filelock@3.20.1",
+        "ref": "SPDXRef-Package-python-filelock-2eeef8d0e239d49a",
+        "version": "3.20.1"
+      },
+      {
+        "name": "gui",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-gui-9c5de4fa9a0374bc",
+        "version": "UNKNOWN"
+      },
+      {
+        "name": "gui-32",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-gui-32-0876080b2c58fd68",
+        "version": "UNKNOWN"
+      },
+      {
+        "name": "gui-64",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-gui-64-c8a87c656caafca9",
+        "version": "UNKNOWN"
+      },
+      {
+        "name": "gui-arm64",
+        "purl": null,
+        "ref": "SPDXRef-Package-binary-gui-arm64-255cf3e4ad598fb1",
+        "version": "UNKNOWN"
+      },
+      {
+        "name": "humanize",
+        "purl": "pkg:pypi/humanize@4.15.0",
+        "ref": "SPDXRef-Package-python-humanize-6a15adb28bd25a78",
+        "version": "4.15.0"
+      },
+      {
+        "name": "importlib-metadata",
+        "purl": "pkg:pypi/importlib-metadata@8.0.0",
+        "ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+        "version": "8.0.0"
+      },
+      {
+        "name": "inflect",
+        "purl": "pkg:pypi/inflect@7.3.1",
+        "ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+        "version": "7.3.1"
+      },
+      {
+        "name": "jaraco-collections",
+        "purl": "pkg:pypi/jaraco-collections@5.1.0",
+        "ref": "SPDXRef-Package-python-jaraco-collections-e074243c2b7dd70d",
+        "version": "5.1.0"
+      },
+      {
+        "name": "jaraco-context",
+        "purl": "pkg:pypi/jaraco-context@5.3.0",
+        "ref": "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea",
+        "version": "5.3.0"
+      },
+      {
+        "name": "jaraco-functools",
+        "purl": "pkg:pypi/jaraco-functools@4.0.1",
+        "ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204",
+        "version": "4.0.1"
+      },
+      {
+        "name": "jaraco-text",
+        "purl": "pkg:pypi/jaraco-text@3.12.1",
+        "ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+        "version": "3.12.1"
+      },
+      {
+        "name": "more-itertools",
+        "purl": "pkg:pypi/more-itertools@10.3.0",
+        "ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c",
+        "version": "10.3.0"
+      },
+      {
+        "name": "my-test-package",
+        "purl": "pkg:pypi/my-test-package@1.0",
+        "ref": "SPDXRef-Package-python-my-test-package-d1218a652a8fa722",
+        "version": "1.0"
+      },
+      {
+        "name": "nox",
+        "purl": "pkg:pypi/nox@2025.11.12",
+        "ref": "SPDXRef-Package-python-nox-1323887ec45443e2",
+        "version": "2025.11.12"
+      },
+      {
+        "name": "packaging",
+        "purl": "pkg:pypi/packaging@24.2",
+        "ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b",
+        "version": "24.2"
+      },
+      {
+        "name": "packaging",
+        "purl": "pkg:pypi/packaging@25.0",
+        "ref": "SPDXRef-Package-python-packaging-a3c7c100afc0d106",
+        "version": "25.0"
+      },
+      {
+        "name": "pip",
+        "purl": "pkg:pypi/pip@24.0",
+        "ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9",
+        "version": "24.0"
+      },
+      {
+        "name": "platformdirs",
+        "purl": "pkg:pypi/platformdirs@4.2.2",
+        "ref": "SPDXRef-Package-python-platformdirs-4b62779e59b20d35",
+        "version": "4.2.2"
+      },
+      {
+        "name": "platformdirs",
+        "purl": "pkg:pypi/platformdirs@4.5.1",
+        "ref": "SPDXRef-Package-python-platformdirs-c5d745fa435e55b6",
+        "version": "4.5.1"
+      },
+      {
+        "name": "setuptools",
+        "purl": "pkg:pypi/setuptools@79.0.1",
+        "ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "version": "79.0.1"
+      },
+      {
+        "name": "tomli",
+        "purl": "pkg:pypi/tomli@2.0.1",
+        "ref": "SPDXRef-Package-python-tomli-f04d63d7233a932e",
+        "version": "2.0.1"
+      },
+      {
+        "name": "typeguard",
+        "purl": "pkg:pypi/typeguard@4.3.0",
+        "ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+        "version": "4.3.0"
+      },
+      {
+        "name": "typing-extensions",
+        "purl": "pkg:pypi/typing-extensions@4.12.2",
+        "ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8",
+        "version": "4.12.2"
+      },
+      {
+        "name": "virtualenv",
+        "purl": "pkg:pypi/virtualenv@20.35.4",
+        "ref": "SPDXRef-Package-python-virtualenv-47df05818598d409",
+        "version": "20.35.4"
+      },
+      {
+        "name": "wheel",
+        "purl": "pkg:pypi/wheel@0.45.1",
+        "ref": "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0",
+        "version": "0.45.1"
+      },
+      {
+        "name": "zipp",
+        "purl": "pkg:pypi/zipp@3.19.2",
+        "ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+        "version": "3.19.2"
+      },
+      {
+        "name": "/home/phucht/project/sbom_security_poc/research/.work/m25-cohort-captures/nox/runtime/target",
+        "purl": null,
+        "ref": "SPDXRef-DocumentRoot-Directory--home-phucht-project-sbom-security-poc-research-.work-m25-cohort-captures-nox-runtime-target",
+        "version": null
+      }
+    ],
+    "edges": [
+      [
+        "SPDXRef-Package-python-argcomplete-b524f2a4c545fbd7",
+        "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0"
+      ],
+      [
+        "SPDXRef-Package-python-dependency-groups-d1284b50b6d72a83",
+        "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+      ],
+      [
+        "SPDXRef-Package-python-dependency-groups-d1284b50b6d72a83",
+        "SPDXRef-Package-python-tomli-f04d63d7233a932e"
+      ],
+      [
+        "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+        "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+      ],
+      [
+        "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+        "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+      ],
+      [
+        "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+        "SPDXRef-Package-python-zipp-08219ba3ee20c318"
+      ],
+      [
+        "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+        "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+      ],
+      [
+        "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+        "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108"
+      ],
+      [
+        "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+        "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+      ],
+      [
+        "SPDXRef-Package-python-jaraco-collections-e074243c2b7dd70d",
+        "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd"
+      ],
+      [
+        "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea",
+        "SPDXRef-Package-python-backports-tarfile-7bb5380f6d177676"
+      ],
+      [
+        "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204",
+        "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+      ],
+      [
+        "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+        "SPDXRef-Package-python-autocommand-1d5bb88bbdd45a29"
+      ],
+      [
+        "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+        "SPDXRef-Package-python-inflect-051eccf3da38b7a8"
+      ],
+      [
+        "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+        "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea"
+      ],
+      [
+        "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+        "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+      ],
+      [
+        "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+        "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+      ],
+      [
+        "SPDXRef-Package-python-nox-1323887ec45443e2",
+        "SPDXRef-Package-python-argcomplete-b524f2a4c545fbd7"
+      ],
+      [
+        "SPDXRef-Package-python-nox-1323887ec45443e2",
+        "SPDXRef-Package-python-attrs-8d61243a996b9b6a"
+      ],
+      [
+        "SPDXRef-Package-python-nox-1323887ec45443e2",
+        "SPDXRef-Package-python-colorlog-20e0cd9d5f1ae856"
+      ],
+      [
+        "SPDXRef-Package-python-nox-1323887ec45443e2",
+        "SPDXRef-Package-python-dependency-groups-d1284b50b6d72a83"
+      ],
+      [
+        "SPDXRef-Package-python-nox-1323887ec45443e2",
+        "SPDXRef-Package-python-humanize-6a15adb28bd25a78"
+      ],
+      [
+        "SPDXRef-Package-python-nox-1323887ec45443e2",
+        "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+      ],
+      [
+        "SPDXRef-Package-python-nox-1323887ec45443e2",
+        "SPDXRef-Package-python-tomli-f04d63d7233a932e"
+      ],
+      [
+        "SPDXRef-Package-python-nox-1323887ec45443e2",
+        "SPDXRef-Package-python-virtualenv-47df05818598d409"
+      ],
+      [
+        "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "SPDXRef-Package-python-filelock-2eeef8d0e239d49a"
+      ],
+      [
+        "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be"
+      ],
+      [
+        "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+      ],
+      [
+        "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd"
+      ],
+      [
+        "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+      ],
+      [
+        "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+      ],
+      [
+        "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+      ],
+      [
+        "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "SPDXRef-Package-python-platformdirs-c5d745fa435e55b6"
+      ],
+      [
+        "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "SPDXRef-Package-python-tomli-f04d63d7233a932e"
+      ],
+      [
+        "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "SPDXRef-Package-python-virtualenv-47df05818598d409"
+      ],
+      [
+        "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0"
+      ],
+      [
+        "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+        "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be"
+      ],
+      [
+        "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+        "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+      ],
+      [
+        "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+        "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+      ],
+      [
+        "SPDXRef-Package-python-virtualenv-47df05818598d409",
+        "SPDXRef-Package-python-distlib-75fdb0c1b2f4d49f"
+      ],
+      [
+        "SPDXRef-Package-python-virtualenv-47df05818598d409",
+        "SPDXRef-Package-python-filelock-2eeef8d0e239d49a"
+      ],
+      [
+        "SPDXRef-Package-python-virtualenv-47df05818598d409",
+        "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be"
+      ],
+      [
+        "SPDXRef-Package-python-virtualenv-47df05818598d409",
+        "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+      ],
+      [
+        "SPDXRef-Package-python-virtualenv-47df05818598d409",
+        "SPDXRef-Package-python-platformdirs-c5d745fa435e55b6"
+      ],
+      [
+        "SPDXRef-Package-python-virtualenv-47df05818598d409",
+        "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd"
+      ],
+      [
+        "SPDXRef-Package-python-virtualenv-47df05818598d409",
+        "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+      ],
+      [
+        "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0",
+        "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd"
+      ],
+      [
+        "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+        "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+      ],
+      [
+        "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+        "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+      ]
+    ],
+    "format": "spdx",
+    "input_sha256": "5ce85a6419e35fbe149e0c48207b1c6eb30cd83a6a63c278cd9c959049cc2514",
+    "issues": [],
+    "path_absence_status": "UNKNOWN"
+  },
+  "remaining": 0
+}

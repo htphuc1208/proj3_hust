@@ -1,0 +1,17 @@
+{
+  "acquired": {
+    "18d99cd444d34c4e1089b990759ca57fe7a80b8533e7861bf5c595d0b1d96f22": "42a8ab7e94ef0b7baa7e94cdac65d6b9254c608476f630120c990007bf472943",
+    "26fe71cd392c2fdaded00b8e2e817fccfc06ccd43ebc515f684168cd64b25e1e": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+    "70e8825215a8fee8ed73768496c1e062914ef070c90bb99d88523fa5d29c9da6": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2"
+  },
+  "catalog_sha256": "e4e06538c0c0872e03561adda819decd5f8d6273e10d43c8e1684ee30b4d19c6",
+  "context_sha256": "8b9f92f2ebf02f9ac1da47de2637228aa230d0505cb6b7cde3d08d55055ac1aa",
+  "input_sha256": "3cf3e283348087e487b5b3c4e65ebbddf53e93eec3b40d126f09d39e2d4764df",
+  "path_absence_status": "UNKNOWN",
+  "prediction_sha256": "3e7d9c519f3daf30a1a618301b950bfaf948a26187162e3d6d826d8f8d0a3765",
+  "reference_labels_read": false,
+  "result_sha256": "c8affeb0e9a253297ffd440dcd7af41d57ee618bd45b80225b0a0c3a67a29ba0",
+  "schema_version": "budget-prediction-seal-v1",
+  "state_sha256": "8f2736707f232ef4718a0fd5cbe77c41e8509a0496eb66337df57464ad490d04",
+  "trace_sha256": "807ac3bb8458d8ee7c48790e6b890d5720a163ed436fffff6f8d397dfe4b4f1b"
+}

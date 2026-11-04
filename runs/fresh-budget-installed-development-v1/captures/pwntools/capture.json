@@ -1,0 +1,81 @@
+{
+  "completed_at": "2026-11-04T09:46:31.867849Z",
+  "error": "INSTALL_CAPTURE_FAILED",
+  "image": "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+  "prediction_status": "NOT_RUN",
+  "project": {
+    "candidate": "pwntools",
+    "eligible": {
+      "calibration": null,
+      "development": {
+        "released_at": "2025-10-12T15:25:25.380885Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "7bca6721ccfdf2216a9adca923a9fa79be0019a2be0e7ce2a26a4174786eb70f"
+          },
+          "digests": {
+            "blake2b_256": "8703b5aab57706d61c65aaf6ed181727e7621c7cf32109b22245ac04f1c76094",
+            "md5": "f9f3548e36a5a5536b69e600a8510bf8",
+            "sha256": "f5508729b310ef1e959ad324306a0964cb6f2b04a34247484e446f0343eefc5c"
+          },
+          "downloads": -1,
+          "filename": "pwntools-4.15.0-py2.py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "f9f3548e36a5a5536b69e600a8510bf8",
+          "packagetype": "bdist_wheel",
+          "python_version": "py2.py3",
+          "requires_python": ">=2.7",
+          "size": 12873439,
+          "upload_time": "2025-10-12T15:25:25",
+          "upload_time_iso_8601": "2025-10-12T15:25:25.380885Z",
+          "url": "https://files.pythonhosted.org/packages/87/03/b5aab57706d61c65aaf6ed181727e7621c7cf32109b22245ac04f1c76094/pwntools-4.15.0-py2.py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "4.15.0"
+      },
+      "test": null
+    },
+    "family_verification": "PENDING",
+    "linked_repositories": [
+      "gallopsled/pwntools"
+    ],
+    "name": "pwntools",
+    "partition": "development",
+    "queried_at": "2026-11-04T09:17:40.592570Z",
+    "registry_file": "registry/pwntools.json",
+    "registry_sha256": "c795a4558031e0c2917a643ae26d94e6c6ac2278d8ece56921898599823a8144",
+    "released_at": "2025-10-12T15:25:25.380885Z",
+    "repository": "gallopsled/pwntools",
+    "repository_url": "https://github.com/gallopsled/pwntools",
+    "root_wheel": {
+      "comment_text": null,
+      "core-metadata": {
+        "sha256": "7bca6721ccfdf2216a9adca923a9fa79be0019a2be0e7ce2a26a4174786eb70f"
+      },
+      "digests": {
+        "blake2b_256": "8703b5aab57706d61c65aaf6ed181727e7621c7cf32109b22245ac04f1c76094",
+        "md5": "f9f3548e36a5a5536b69e600a8510bf8",
+        "sha256": "f5508729b310ef1e959ad324306a0964cb6f2b04a34247484e446f0343eefc5c"
+      },
+      "downloads": -1,
+      "filename": "pwntools-4.15.0-py2.py3-none-any.whl",
+      "has_sig": false,
+      "md5_digest": "f9f3548e36a5a5536b69e600a8510bf8",
+      "packagetype": "bdist_wheel",
+      "python_version": "py2.py3",
+      "requires_python": ">=2.7",
+      "size": 12873439,
+      "upload_time": "2025-10-12T15:25:25",
+      "upload_time_iso_8601": "2025-10-12T15:25:25.380885Z",
+      "url": "https://files.pythonhosted.org/packages/87/03/b5aab57706d61c65aaf6ed181727e7621c7cf32109b22245ac04f1c76094/pwntools-4.15.0-py2.py3-none-any.whl",
+      "yanked": false,
+      "yanked_reason": null
+    },
+    "status": "RELEASE_ELIGIBLE",
+    "version": "4.15.0"
+  },
+  "started_at": "2026-11-04T09:42:07.212491Z",
+  "status": "FAILED"
+}

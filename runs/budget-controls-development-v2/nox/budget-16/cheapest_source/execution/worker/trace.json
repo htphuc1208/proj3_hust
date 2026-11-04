@@ -1,0 +1,148 @@
+[
+  {
+    "arguments": {},
+    "attempts": 0,
+    "bytes_read": 0,
+    "output_sha256": "53251812c2708d384c166f801356ee8944f1aa71bda0c6ef578997c610b6dd1b",
+    "status": "OK",
+    "tool": "inspect"
+  },
+  {
+    "arguments": {
+      "source_id": "1983fbbb7d2fb31c2fdc1947e1d5613d39e9115f758db54cb8805fdaf1ad49f9"
+    },
+    "attempts": 1,
+    "bytes_read": 2110,
+    "output_sha256": "93f3a4df713dddc9ff0b06466ba2918d7353a1581069cf4e7ac9a52c9e7361a4",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {
+      "source_id": "92f25a1c880299c70a340b63ca283fdefe53bfa67eb83fb676761e8c6a64ad31"
+    },
+    "attempts": 2,
+    "bytes_read": 4378,
+    "output_sha256": "edd3298c030533c607fb64073abbe3ff0b6f680d7dace0d4db0b45593d8a0f33",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {
+      "source_id": "328822fef87de0819bf466734f7169273cdee5914bfa4d4e5948b083139b8018"
+    },
+    "attempts": 3,
+    "bytes_read": 7659,
+    "output_sha256": "98ece37af3bf25730ccd529391d85eebb1b88b36053d0d6b93b20ae3c676cd8a",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {
+      "source_id": "8321a2bc431fa00121a6b8b5e67fee950d0087b48210f45ec091dc0defe5f01c"
+    },
+    "attempts": 4,
+    "bytes_read": 11240,
+    "output_sha256": "8f21aa569c292892fb0bb72bbfd9fbffa3f44a605a1cc0c5de0db3cc0b1a5acb",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {
+      "source_id": "8aa4c418b5cbebb8edf5437b99a0de273631d68c218f6e49d559fa3119181915"
+    },
+    "attempts": 5,
+    "bytes_read": 15870,
+    "output_sha256": "8e8548c7119037875a3e63996e81fd89d40bd4d4e54763cf45fd2d5fb6e246ad",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {
+      "source_id": "f761115081e103d62975f6ea45c93bcd976478d551a6ccd86f24654fe5dde761"
+    },
+    "attempts": 6,
+    "bytes_read": 20940,
+    "output_sha256": "06050f76dddda36f2f323081a3fa56cdda1e5f81a3a5277cacb8e3da3c1558bd",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {
+      "source_id": "41676c582f94ac7965f263fc9f610fff71e3c0c361c4b907c8ac891755e24fcd"
+    },
+    "attempts": 7,
+    "bytes_read": 26186,
+    "output_sha256": "f09c506fbd6ecc5fbfd57c6238e97bf8d6aea4c05db1dcfa811ba534653227cf",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {
+      "source_id": "77467605d526aad452bcc2820e806aa201ae99fe9948f2d4aa34587402b7cae4"
+    },
+    "attempts": 8,
+    "bytes_read": 32734,
+    "output_sha256": "19ac5b120dc1a2d38cd6e3f6f3b1febe9396857a527b8357e6bcdd3d121be4c3",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {
+      "source_id": "a64ecdb6de3f4de8e6f71102fa19308563bb0f6decdee899af6ddb83183b8d93"
+    },
+    "attempts": 9,
+    "bytes_read": 40584,
+    "output_sha256": "0aaba4f1a8953af902eb23227fdcc0eee82324a92012ec88bfce630c5d3b1bd0",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {
+      "source_id": "680cb7f533afdd863320213b68f988d75786265c7650c8fa41a0dd25d84e4d02"
+    },
+    "attempts": 10,
+    "bytes_read": 51057,
+    "output_sha256": "0314cb7c698ea1acb65752391d7319535d70336b14ff6bd9dcd8e690ef949bf8",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {
+      "source_id": "d7090295b41c630b965032ebe2e94c5e67d86c25218d27e7dc702bc27e363294"
+    },
+    "attempts": 11,
+    "bytes_read": 62259,
+    "output_sha256": "a557c94ab98c486c1d109f037059065537ad2f8296ccbbd6ec3c7c54a37f4ca7",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {
+      "source_id": "b1a380c0e4f7cec97edc52744e8bcc26203688e3a9c882b689418fe9507f8c42"
+    },
+    "attempts": 12,
+    "bytes_read": 75063,
+    "output_sha256": "3c1a9bd849f9838947f28638a20a9fd7bb25982fab93886b24c0824c5de77d49",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {
+      "source_id": "c67e92a01fdc61385c05a35163c6bfa138cad949b4972e6e12f48960457d91d5"
+    },
+    "attempts": 13,
+    "bytes_read": 91954,
+    "output_sha256": "611e61b6b61dd96b9a9b488aa4325914f6cf4824eb0c162c9a5d361688186ede",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {},
+    "attempts": 13,
+    "bytes_read": 91954,
+    "output_sha256": "f2b6151ea5220c6cb45518f578b709b70a1b3285e0d8f701015eda3fd27aabaf",
+    "status": "OK",
+    "tool": "finish"
+  }
+]

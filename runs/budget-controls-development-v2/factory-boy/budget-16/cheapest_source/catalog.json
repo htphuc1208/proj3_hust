@@ -1,0 +1,53 @@
+{
+  "hint_scope": "Observed filename hints only; no parsed identities, requirements or reference membership",
+  "schema_version": "budget-source-catalog-v1",
+  "sha256": "600fbfbab04a4380d0c46628f8c1da6a4300e3a681b8d4ba1b5cba0413246ca2",
+  "sources": [
+    {
+      "available_at": "2026-10-28T17:29:18.440982Z",
+      "bytes": 15400,
+      "kind": "installed_metadata",
+      "name_hint": "factory-boy",
+      "path": "lib/python3.11/site-packages/factory_boy-3.3.3.dist-info/METADATA",
+      "sha256": "01e233294e8de67b85293c9f7f0cd650850ca2a48bc1b14a9687da7d86c1fb91",
+      "source_id": "0504c4cceacf9b8ca8faa375c3b5992c5d5e6a15ccc18ef009c9cc8088ae4e13"
+    },
+    {
+      "available_at": "2026-10-28T17:29:18.440982Z",
+      "bytes": 16132,
+      "kind": "installed_metadata",
+      "name_hint": "faker",
+      "path": "lib/python3.11/site-packages/faker-40.1.0.dist-info/METADATA",
+      "sha256": "2f121bf683f8a273f006e8b0573f1e8479c8dd6b722f72b96ff3360722edd8f7",
+      "source_id": "9099c6fd0c671850cd9f4750788767b5751ce2c83d54485e29f45d1f75750233"
+    },
+    {
+      "available_at": "2026-10-28T17:29:18.440982Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "name_hint": "pip",
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "c0faab8296c6a92d1e8b5609fd79766b993499e9054e388813adfd56a8e93911"
+    },
+    {
+      "available_at": "2026-10-28T17:29:18.440982Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "name_hint": "setuptools",
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "6e51c2d1384bf2d2e132303dda539af50d0b2ed1394e0ce30003b88a2803173b"
+    },
+    {
+      "available_at": "2026-10-28T17:29:18.440982Z",
+      "bytes": 1352,
+      "kind": "installed_metadata",
+      "name_hint": "tzdata",
+      "path": "lib/python3.11/site-packages/tzdata-2025.3.dist-info/METADATA",
+      "sha256": "4225d7bb5592b2007f665b38624e93dbadd36413fbfcf3c1fa7cd80ae7b087f8",
+      "source_id": "bfec5fba3af364c2ca6ebb0c0b08c935450d166d74a8baab11d639457cfed29e"
+    }
+  ],
+  "target_id": "9441f3722773ef231fb634e2f146daf1d413a6be1a40369dd9e4a94d0c72bca8"
+}

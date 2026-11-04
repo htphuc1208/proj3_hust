@@ -1,0 +1,8 @@
+  × No solution found when resolving dependencies:
+  ╰─▶ Because pylint-celery==0.3 has no usable wheels and prospector>=1.17.3
+      depends on pylint-celery==0.3, we can conclude that prospector>=1.17.3
+      cannot be used.
+      And because you require prospector==1.17.3, we can conclude that your
+      requirements are unsatisfiable.
+
+hint: Wheels are required for `pylint-celery` because building from source is disabled for all packages (i.e., with `--no-build`)

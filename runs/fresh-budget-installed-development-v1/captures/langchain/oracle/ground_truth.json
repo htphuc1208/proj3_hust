@@ -1,0 +1,614 @@
+{
+  "schema_version": "benchmark-v1",
+  "project": "langchain",
+  "semantics": "direct Requires-Dist dependency graph of installed distributions, projected onto requested roots and known extras",
+  "roots": [
+    "langchain"
+  ],
+  "context": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.11.16",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_release": "7.0.0-30-generic",
+    "platform_system": "Linux",
+    "platform_version": "#30~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:27:52 UTC 2",
+    "python_full_version": "3.11.16",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.11",
+    "sys_platform": "linux"
+  },
+  "nodes": [
+    {
+      "name": "annotated-types",
+      "version": "0.7.0",
+      "purl": "pkg:pypi/annotated-types@0.7.0",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "anyio",
+      "version": "4.12.0",
+      "purl": "pkg:pypi/anyio@4.12.0",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "certifi",
+      "version": "2025.11.12",
+      "purl": "pkg:pypi/certifi@2025.11.12",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.4.4",
+      "purl": "pkg:pypi/charset-normalizer@3.4.4",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "purl": "pkg:pypi/h11@0.16.0",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "purl": "pkg:pypi/httpcore@1.0.9",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1",
+      "purl": "pkg:pypi/httpx@0.28.1",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "idna",
+      "version": "3.11",
+      "purl": "pkg:pypi/idna@3.11",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "jsonpatch",
+      "version": "1.33",
+      "purl": "pkg:pypi/jsonpatch@1.33",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "jsonpointer",
+      "version": "3.0.0",
+      "purl": "pkg:pypi/jsonpointer@3.0.0",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "langchain",
+      "version": "1.2.0",
+      "purl": "pkg:pypi/langchain@1.2.0",
+      "requested_extras": [],
+      "requested_root": true
+    },
+    {
+      "name": "langchain-core",
+      "version": "1.2.5",
+      "purl": "pkg:pypi/langchain-core@1.2.5",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "langgraph",
+      "version": "1.0.5",
+      "purl": "pkg:pypi/langgraph@1.0.5",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "langgraph-checkpoint",
+      "version": "3.0.1",
+      "purl": "pkg:pypi/langgraph-checkpoint@3.0.1",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "langgraph-prebuilt",
+      "version": "1.0.5",
+      "purl": "pkg:pypi/langgraph-prebuilt@1.0.5",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "langgraph-sdk",
+      "version": "0.3.1",
+      "purl": "pkg:pypi/langgraph-sdk@0.3.1",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "langsmith",
+      "version": "0.5.2",
+      "purl": "pkg:pypi/langsmith@0.5.2",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "orjson",
+      "version": "3.11.5",
+      "purl": "pkg:pypi/orjson@3.11.5",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "ormsgpack",
+      "version": "1.12.1",
+      "purl": "pkg:pypi/ormsgpack@1.12.1",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "packaging",
+      "version": "25.0",
+      "purl": "pkg:pypi/packaging@25.0",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "pydantic",
+      "version": "2.12.5",
+      "purl": "pkg:pypi/pydantic@2.12.5",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "pydantic-core",
+      "version": "2.41.5",
+      "purl": "pkg:pypi/pydantic-core@2.41.5",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "pyyaml",
+      "version": "6.0.3",
+      "purl": "pkg:pypi/pyyaml@6.0.3",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "requests",
+      "version": "2.32.5",
+      "purl": "pkg:pypi/requests@2.32.5",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "requests-toolbelt",
+      "version": "1.0.0",
+      "purl": "pkg:pypi/requests-toolbelt@1.0.0",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "tenacity",
+      "version": "9.1.2",
+      "purl": "pkg:pypi/tenacity@9.1.2",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "purl": "pkg:pypi/typing-extensions@4.15.0",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.2",
+      "purl": "pkg:pypi/typing-inspection@0.4.2",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "urllib3",
+      "version": "2.6.2",
+      "purl": "pkg:pypi/urllib3@2.6.2",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "uuid-utils",
+      "version": "0.12.0",
+      "purl": "pkg:pypi/uuid-utils@0.12.0",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "xxhash",
+      "version": "3.6.0",
+      "purl": "pkg:pypi/xxhash@3.6.0",
+      "requested_extras": [],
+      "requested_root": false
+    },
+    {
+      "name": "zstandard",
+      "version": "0.25.0",
+      "purl": "pkg:pypi/zstandard@0.25.0",
+      "requested_extras": [],
+      "requested_root": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "anyio",
+      "to": "idna",
+      "evidence": [
+        "idna>=2.8 (unconditional)"
+      ]
+    },
+    {
+      "from": "anyio",
+      "to": "typing-extensions",
+      "evidence": [
+        "typing_extensions>=4.5; python_version < \"3.13\" (base)"
+      ]
+    },
+    {
+      "from": "httpcore",
+      "to": "certifi",
+      "evidence": [
+        "certifi (unconditional)"
+      ]
+    },
+    {
+      "from": "httpcore",
+      "to": "h11",
+      "evidence": [
+        "h11>=0.16 (unconditional)"
+      ]
+    },
+    {
+      "from": "httpx",
+      "to": "anyio",
+      "evidence": [
+        "anyio (unconditional)"
+      ]
+    },
+    {
+      "from": "httpx",
+      "to": "certifi",
+      "evidence": [
+        "certifi (unconditional)"
+      ]
+    },
+    {
+      "from": "httpx",
+      "to": "httpcore",
+      "evidence": [
+        "httpcore==1.* (unconditional)"
+      ]
+    },
+    {
+      "from": "httpx",
+      "to": "idna",
+      "evidence": [
+        "idna (unconditional)"
+      ]
+    },
+    {
+      "from": "jsonpatch",
+      "to": "jsonpointer",
+      "evidence": [
+        "jsonpointer (>=1.9) (unconditional)"
+      ]
+    },
+    {
+      "from": "langchain",
+      "to": "langchain-core",
+      "evidence": [
+        "langchain-core<2.0.0,>=1.2.1 (unconditional)"
+      ]
+    },
+    {
+      "from": "langchain",
+      "to": "langgraph",
+      "evidence": [
+        "langgraph<1.1.0,>=1.0.2 (unconditional)"
+      ]
+    },
+    {
+      "from": "langchain",
+      "to": "pydantic",
+      "evidence": [
+        "pydantic<3.0.0,>=2.7.4 (unconditional)"
+      ]
+    },
+    {
+      "from": "langchain-core",
+      "to": "jsonpatch",
+      "evidence": [
+        "jsonpatch<2.0.0,>=1.33.0 (unconditional)"
+      ]
+    },
+    {
+      "from": "langchain-core",
+      "to": "langsmith",
+      "evidence": [
+        "langsmith<1.0.0,>=0.3.45 (unconditional)"
+      ]
+    },
+    {
+      "from": "langchain-core",
+      "to": "packaging",
+      "evidence": [
+        "packaging<26.0.0,>=23.2.0 (unconditional)"
+      ]
+    },
+    {
+      "from": "langchain-core",
+      "to": "pydantic",
+      "evidence": [
+        "pydantic<3.0.0,>=2.7.4 (unconditional)"
+      ]
+    },
+    {
+      "from": "langchain-core",
+      "to": "pyyaml",
+      "evidence": [
+        "pyyaml<7.0.0,>=5.3.0 (unconditional)"
+      ]
+    },
+    {
+      "from": "langchain-core",
+      "to": "tenacity",
+      "evidence": [
+        "tenacity!=8.4.0,<10.0.0,>=8.1.0 (unconditional)"
+      ]
+    },
+    {
+      "from": "langchain-core",
+      "to": "typing-extensions",
+      "evidence": [
+        "typing-extensions<5.0.0,>=4.7.0 (unconditional)"
+      ]
+    },
+    {
+      "from": "langchain-core",
+      "to": "uuid-utils",
+      "evidence": [
+        "uuid-utils<1.0,>=0.12.0 (unconditional)"
+      ]
+    },
+    {
+      "from": "langgraph",
+      "to": "langchain-core",
+      "evidence": [
+        "langchain-core>=0.1 (unconditional)"
+      ]
+    },
+    {
+      "from": "langgraph",
+      "to": "langgraph-checkpoint",
+      "evidence": [
+        "langgraph-checkpoint<4.0.0,>=2.1.0 (unconditional)"
+      ]
+    },
+    {
+      "from": "langgraph",
+      "to": "langgraph-prebuilt",
+      "evidence": [
+        "langgraph-prebuilt<1.1.0,>=1.0.2 (unconditional)"
+      ]
+    },
+    {
+      "from": "langgraph",
+      "to": "langgraph-sdk",
+      "evidence": [
+        "langgraph-sdk<0.4.0,>=0.3.0 (unconditional)"
+      ]
+    },
+    {
+      "from": "langgraph",
+      "to": "pydantic",
+      "evidence": [
+        "pydantic>=2.7.4 (unconditional)"
+      ]
+    },
+    {
+      "from": "langgraph",
+      "to": "xxhash",
+      "evidence": [
+        "xxhash>=3.5.0 (unconditional)"
+      ]
+    },
+    {
+      "from": "langgraph-checkpoint",
+      "to": "langchain-core",
+      "evidence": [
+        "langchain-core>=0.2.38 (unconditional)"
+      ]
+    },
+    {
+      "from": "langgraph-checkpoint",
+      "to": "ormsgpack",
+      "evidence": [
+        "ormsgpack>=1.12.0 (unconditional)"
+      ]
+    },
+    {
+      "from": "langgraph-prebuilt",
+      "to": "langchain-core",
+      "evidence": [
+        "langchain-core>=1.0.0 (unconditional)"
+      ]
+    },
+    {
+      "from": "langgraph-prebuilt",
+      "to": "langgraph-checkpoint",
+      "evidence": [
+        "langgraph-checkpoint<4.0.0,>=2.1.0 (unconditional)"
+      ]
+    },
+    {
+      "from": "langgraph-sdk",
+      "to": "httpx",
+      "evidence": [
+        "httpx>=0.25.2 (unconditional)"
+      ]
+    },
+    {
+      "from": "langgraph-sdk",
+      "to": "orjson",
+      "evidence": [
+        "orjson>=3.10.1 (unconditional)"
+      ]
+    },
+    {
+      "from": "langsmith",
+      "to": "httpx",
+      "evidence": [
+        "httpx<1,>=0.23.0 (unconditional)"
+      ]
+    },
+    {
+      "from": "langsmith",
+      "to": "orjson",
+      "evidence": [
+        "orjson>=3.9.14; platform_python_implementation != 'PyPy' (base)"
+      ]
+    },
+    {
+      "from": "langsmith",
+      "to": "packaging",
+      "evidence": [
+        "packaging>=23.2 (unconditional)"
+      ]
+    },
+    {
+      "from": "langsmith",
+      "to": "pydantic",
+      "evidence": [
+        "pydantic<3,>=1 (unconditional)"
+      ]
+    },
+    {
+      "from": "langsmith",
+      "to": "requests",
+      "evidence": [
+        "requests>=2.0.0 (unconditional)"
+      ]
+    },
+    {
+      "from": "langsmith",
+      "to": "requests-toolbelt",
+      "evidence": [
+        "requests-toolbelt>=1.0.0 (unconditional)"
+      ]
+    },
+    {
+      "from": "langsmith",
+      "to": "uuid-utils",
+      "evidence": [
+        "uuid-utils<1.0,>=0.12.0 (unconditional)"
+      ]
+    },
+    {
+      "from": "langsmith",
+      "to": "zstandard",
+      "evidence": [
+        "zstandard>=0.23.0 (unconditional)"
+      ]
+    },
+    {
+      "from": "pydantic",
+      "to": "annotated-types",
+      "evidence": [
+        "annotated-types>=0.6.0 (unconditional)"
+      ]
+    },
+    {
+      "from": "pydantic",
+      "to": "pydantic-core",
+      "evidence": [
+        "pydantic-core==2.41.5 (unconditional)"
+      ]
+    },
+    {
+      "from": "pydantic",
+      "to": "typing-extensions",
+      "evidence": [
+        "typing-extensions>=4.14.1 (unconditional)"
+      ]
+    },
+    {
+      "from": "pydantic",
+      "to": "typing-inspection",
+      "evidence": [
+        "typing-inspection>=0.4.2 (unconditional)"
+      ]
+    },
+    {
+      "from": "pydantic-core",
+      "to": "typing-extensions",
+      "evidence": [
+        "typing-extensions>=4.14.1 (unconditional)"
+      ]
+    },
+    {
+      "from": "requests",
+      "to": "certifi",
+      "evidence": [
+        "certifi>=2017.4.17 (unconditional)"
+      ]
+    },
+    {
+      "from": "requests",
+      "to": "charset-normalizer",
+      "evidence": [
+        "charset_normalizer<4,>=2 (unconditional)"
+      ]
+    },
+    {
+      "from": "requests",
+      "to": "idna",
+      "evidence": [
+        "idna<4,>=2.5 (unconditional)"
+      ]
+    },
+    {
+      "from": "requests",
+      "to": "urllib3",
+      "evidence": [
+        "urllib3<3,>=1.21.1 (unconditional)"
+      ]
+    },
+    {
+      "from": "requests-toolbelt",
+      "to": "requests",
+      "evidence": [
+        "requests (<3.0.0,>=2.0.1) (unconditional)"
+      ]
+    },
+    {
+      "from": "typing-inspection",
+      "to": "typing-extensions",
+      "evidence": [
+        "typing-extensions>=4.12.0 (unconditional)"
+      ]
+    }
+  ],
+  "unresolved": [],
+  "warnings": [],
+  "counts": {
+    "packages": 32,
+    "direct_package_edges": 51,
+    "evaluated_requirement_records": 113,
+    "unresolved": 0
+  }
+}

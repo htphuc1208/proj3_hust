@@ -1,0 +1,15 @@
+{
+  "active_extras": [],
+  "evidence_cutoff": "2026-10-28T17:06:18.180054Z",
+  "extras_by_purl": {},
+  "os_name": "posix",
+  "platform_machine": "x86_64",
+  "platform_system": "Linux",
+  "python_full_version": "3.11.16",
+  "python_version": "3.11",
+  "root_purls": [
+    "pkg:pypi/iredis@1.15.2"
+  ],
+  "sys_platform": "linux",
+  "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+}

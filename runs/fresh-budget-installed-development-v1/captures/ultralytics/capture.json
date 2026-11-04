@@ -1,0 +1,135 @@
+{
+  "completed_at": "2026-11-04T09:33:14.127129Z",
+  "error": "INSTALL_CAPTURE_FAILED",
+  "image": "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+  "prediction_status": "NOT_RUN",
+  "project": {
+    "candidate": "ultralytics",
+    "eligible": {
+      "calibration": {
+        "released_at": "2026-06-29T22:41:32.167457Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "1554d941ebf4e6e2ea313bb9fdcde73807a7bc1c831e5e2577c7dc3891df8cfb"
+          },
+          "digests": {
+            "blake2b_256": "d1e854ef1c9e8f7b1ec25b496d459329c002bfa101e06bdc96ddd82b222f4faa",
+            "md5": "656c86a94a36099e3faac41a477da215",
+            "sha256": "892c10d89a6ce424feb92fa4bb30b4e6d54f426140fdab6de22498ad7f4fc678"
+          },
+          "downloads": -1,
+          "filename": "ultralytics-8.4.83-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "656c86a94a36099e3faac41a477da215",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": ">=3.8",
+          "size": 1340457,
+          "upload_time": "2026-06-29T22:41:32",
+          "upload_time_iso_8601": "2026-06-29T22:41:32.167457Z",
+          "url": "https://files.pythonhosted.org/packages/d1/e8/54ef1c9e8f7b1ec25b496d459329c002bfa101e06bdc96ddd82b222f4faa/ultralytics-8.4.83-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "8.4.83"
+      },
+      "development": {
+        "released_at": "2025-12-31T12:25:50.884470Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "36791c14c90274094e68fb555721b5093a59cf001a5054123c66c67187979842"
+          },
+          "digests": {
+            "blake2b_256": "f895b8a045bb277eda1b502b9c755b4872ccf3e99fff94a7d00fd253ac0044a6",
+            "md5": "9a5592df5be4cede984e120a929b28a2",
+            "sha256": "46cf4eff258dc7a26e605455116882a6883db22041c96ef6e595dc213f403afb"
+          },
+          "downloads": -1,
+          "filename": "ultralytics-8.3.244-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "9a5592df5be4cede984e120a929b28a2",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": ">=3.8",
+          "size": 1150637,
+          "upload_time": "2025-12-31T12:25:50",
+          "upload_time_iso_8601": "2025-12-31T12:25:50.884470Z",
+          "url": "https://files.pythonhosted.org/packages/f8/95/b8a045bb277eda1b502b9c755b4872ccf3e99fff94a7d00fd253ac0044a6/ultralytics-8.3.244-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "8.3.244"
+      },
+      "test": {
+        "released_at": "2026-10-27T17:53:47.813406Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "6b3e201c6dbcf34a640cdc1ff3acc90d255fc93731e80bc1723823f11aa727e9"
+          },
+          "digests": {
+            "blake2b_256": "40d3efd56d1d2d6f41a9b4c7c0a496da1839f42542b1e0b9ebfeb91e440209fd",
+            "md5": "7d7d38df5ff1ddbc52e2291dd9e4e4e2",
+            "sha256": "261888048192da1f86ac59a2a2768eb64f30ca16f6c04c825079dfd35495890a"
+          },
+          "downloads": -1,
+          "filename": "ultralytics-8.4.191-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "7d7d38df5ff1ddbc52e2291dd9e4e4e2",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": ">=3.8",
+          "size": 1434031,
+          "upload_time": "2026-10-27T17:53:47",
+          "upload_time_iso_8601": "2026-10-27T17:53:47.813406Z",
+          "url": "https://files.pythonhosted.org/packages/40/d3/efd56d1d2d6f41a9b4c7c0a496da1839f42542b1e0b9ebfeb91e440209fd/ultralytics-8.4.191-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "8.4.191"
+      }
+    },
+    "family_verification": "PENDING",
+    "linked_repositories": [
+      "ultralytics/ultralytics"
+    ],
+    "name": "ultralytics",
+    "partition": "development",
+    "queried_at": "2026-11-04T09:17:06.591220Z",
+    "registry_file": "registry/ultralytics.json",
+    "registry_sha256": "78a8c4c7c244f654805a2999331947a65fa1255002a30903782dd87d8a088693",
+    "released_at": "2025-12-31T12:25:50.884470Z",
+    "repository": "ultralytics/ultralytics",
+    "repository_url": "https://github.com/ultralytics/ultralytics",
+    "root_wheel": {
+      "comment_text": null,
+      "core-metadata": {
+        "sha256": "36791c14c90274094e68fb555721b5093a59cf001a5054123c66c67187979842"
+      },
+      "digests": {
+        "blake2b_256": "f895b8a045bb277eda1b502b9c755b4872ccf3e99fff94a7d00fd253ac0044a6",
+        "md5": "9a5592df5be4cede984e120a929b28a2",
+        "sha256": "46cf4eff258dc7a26e605455116882a6883db22041c96ef6e595dc213f403afb"
+      },
+      "downloads": -1,
+      "filename": "ultralytics-8.3.244-py3-none-any.whl",
+      "has_sig": false,
+      "md5_digest": "9a5592df5be4cede984e120a929b28a2",
+      "packagetype": "bdist_wheel",
+      "python_version": "py3",
+      "requires_python": ">=3.8",
+      "size": 1150637,
+      "upload_time": "2025-12-31T12:25:50",
+      "upload_time_iso_8601": "2025-12-31T12:25:50.884470Z",
+      "url": "https://files.pythonhosted.org/packages/f8/95/b8a045bb277eda1b502b9c755b4872ccf3e99fff94a7d00fd253ac0044a6/ultralytics-8.3.244-py3-none-any.whl",
+      "yanked": false,
+      "yanked_reason": null
+    },
+    "status": "RELEASE_ELIGIBLE",
+    "version": "8.3.244"
+  },
+  "started_at": "2026-11-04T09:32:41.706192Z",
+  "status": "FAILED"
+}

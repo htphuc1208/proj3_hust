@@ -1,0 +1,8 @@
+  × No solution found when resolving dependencies:
+  ╰─▶ Because pyinstrument-cext>=0.2.2 has no usable wheels and
+      pyinstrument==3.4.2 depends on pyinstrument-cext>=0.2.2, we can conclude
+      that pyinstrument==3.4.2 cannot be used.
+      And because you require pyinstrument==3.4.2, we can conclude that your
+      requirements are unsatisfiable.
+
+hint: Wheels are required for `pyinstrument-cext` because building from source is disabled for all packages (i.e., with `--no-build`)

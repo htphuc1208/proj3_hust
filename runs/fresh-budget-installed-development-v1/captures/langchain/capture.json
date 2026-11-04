@@ -1,0 +1,221 @@
+{
+  "completed_at": "2026-11-04T09:42:07.195662Z",
+  "container_command": [
+    "docker",
+    "run",
+    "--name",
+    "sbom-research-537c2771dbf44810adf435e43eb1b61c",
+    "--rm",
+    "--cap-drop=ALL",
+    "--security-opt=no-new-privileges",
+    "--memory=2g",
+    "--cpus=1",
+    "--pids-limit=128",
+    "--user",
+    "1000:1000",
+    "-e",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "-e",
+    "UV_CACHE_DIR=/cache/uv",
+    "-e",
+    "XDG_CACHE_HOME=/cache",
+    "-v",
+    "/home/phucht/project/sbom_security_poc/runs/fresh-budget-installed-development-v1/captures/capture_code:/code:ro",
+    "-v",
+    "/home/phucht/.local/bin/uv:/tools/uv:ro",
+    "-v",
+    "/home/phucht/project/sbom_security_poc/research/.work/m25-capture-cache:/cache:rw",
+    "-v",
+    "/home/phucht/project/sbom_security_poc/runs/fresh-budget-installed-development-v1/captures/langchain/runtime:/out:rw",
+    "--entrypoint",
+    "python",
+    "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+    "/code/capture_worker.py",
+    "--spec",
+    "langchain==1.2.0",
+    "--horizon",
+    "2025-12-31T23:59:59Z"
+  ],
+  "historical_resolution_horizon": "2025-12-31T23:59:59Z",
+  "image": "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+  "installation_kind": "RETROSPECTIVE_PINNED_PYPI_WHEEL_BUILD",
+  "oracle_sha256": {
+    "commands.json": "643e67e1ada5f7fdbf66d87bd550475460212b52728809e471b2f71c2153c7f5",
+    "field_labels.json": "b52384664e63e25c65177246c44c2fa9f5019eb4f9b7ffc0084f60b444e4343e",
+    "ground_truth.cdx.json": "3c1941bdd3f57957bfaa057afa966248b7c1cd57ba730adc203eb8c831c9bf00",
+    "ground_truth.json": "55a9a48d075b467018d59963d2053944f24aefb9a3b62d7cae99b7ea81d16e60",
+    "install_report.json": "0b37f5fc22cfa5b378a5249714a6115b9f56e3bc0d906de08d127ac7ac477b95",
+    "pip_inspect.json": "9b359d577e7c82d8732e75f297279c8d47e90ed964882162864c38b4ad457376"
+  },
+  "pip_check": "PASSED",
+  "prediction_status": "NOT_RUN",
+  "project": {
+    "candidate": "langchain",
+    "eligible": {
+      "calibration": {
+        "released_at": "2026-06-22T23:00:31.619946Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "bcf1dcd4695f52f90234a52533885180ddc6a91bbeed770b3e3b1a2f30160428"
+          },
+          "digests": {
+            "blake2b_256": "dfa43a181967294f8876362cc4ba36840d50b8286fa23bb3f5e602b69eb3cb1e",
+            "md5": "719d4b100e64cf6829991e795a1f8035",
+            "sha256": "7ae011f95a09b22feea1e8ae4e43f0b6164aebf4c61b8ad845b45f72ff3a90a2"
+          },
+          "downloads": -1,
+          "filename": "langchain-1.3.11-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "719d4b100e64cf6829991e795a1f8035",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": "<4.0.0,>=3.10.0",
+          "size": 133639,
+          "upload_time": "2026-06-22T23:00:31",
+          "upload_time_iso_8601": "2026-06-22T23:00:31.619946Z",
+          "url": "https://files.pythonhosted.org/packages/df/a4/3a181967294f8876362cc4ba36840d50b8286fa23bb3f5e602b69eb3cb1e/langchain-1.3.11-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "1.3.11"
+      },
+      "development": {
+        "released_at": "2025-12-15T14:51:40.802816Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "298bb89c64f53a5b7268bb1eaefcdbadf15d68806451cc423cee57308dc35e07"
+          },
+          "digests": {
+            "blake2b_256": "23004e3fa0d90f5a5c376ccb8ca983d0f0f7287783dfac48702e18f01d24673b",
+            "md5": "78fb5d10e351a453bbd7e8ffdf7000f5",
+            "sha256": "82f0d17aa4fbb11560b30e1e7d4aeb75e3ad71ce09b85c90ab208b181a24ffac"
+          },
+          "downloads": -1,
+          "filename": "langchain-1.2.0-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "78fb5d10e351a453bbd7e8ffdf7000f5",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": "<4.0.0,>=3.10.0",
+          "size": 102828,
+          "upload_time": "2025-12-15T14:51:40",
+          "upload_time_iso_8601": "2025-12-15T14:51:40.802816Z",
+          "url": "https://files.pythonhosted.org/packages/23/00/4e3fa0d90f5a5c376ccb8ca983d0f0f7287783dfac48702e18f01d24673b/langchain-1.2.0-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "1.2.0"
+      },
+      "test": {
+        "released_at": "2026-10-21T21:38:59.466591Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "7fda183f7eccd9aee92ea19b5e1bb3ea634f279e4357d7f303a8ef8cb4683d86"
+          },
+          "digests": {
+            "blake2b_256": "932e86a102e61fc88ede073aebdb795fef0eb058a887bed4aa862e8ca2697565",
+            "md5": "e53f9932c10e0edc1cf113e8c99ec8af",
+            "sha256": "bc40d4a9a46f0c3d75e316c0e576931fe19bceef83912a71dc1e0df781eb8f82"
+          },
+          "downloads": -1,
+          "filename": "langchain-1.4.7-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "e53f9932c10e0edc1cf113e8c99ec8af",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": "<4.0.0,>=3.10.0",
+          "size": 170549,
+          "upload_time": "2026-10-21T21:38:59",
+          "upload_time_iso_8601": "2026-10-21T21:38:59.466591Z",
+          "url": "https://files.pythonhosted.org/packages/93/2e/86a102e61fc88ede073aebdb795fef0eb058a887bed4aa862e8ca2697565/langchain-1.4.7-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "1.4.7"
+      }
+    },
+    "family_verification": "PENDING",
+    "linked_repositories": [
+      "langchain-ai/langchain"
+    ],
+    "name": "langchain",
+    "partition": "development",
+    "queried_at": "2026-11-04T09:17:32.582636Z",
+    "registry_file": "registry/langchain.json",
+    "registry_sha256": "4228046acd0cee7311f597b87e6043f23a5e74f958148b4b7487ab594c72139f",
+    "released_at": "2025-12-15T14:51:40.802816Z",
+    "repository": "langchain-ai/langchain",
+    "repository_url": "https://github.com/langchain-ai/langchain",
+    "root_wheel": {
+      "comment_text": null,
+      "core-metadata": {
+        "sha256": "298bb89c64f53a5b7268bb1eaefcdbadf15d68806451cc423cee57308dc35e07"
+      },
+      "digests": {
+        "blake2b_256": "23004e3fa0d90f5a5c376ccb8ca983d0f0f7287783dfac48702e18f01d24673b",
+        "md5": "78fb5d10e351a453bbd7e8ffdf7000f5",
+        "sha256": "82f0d17aa4fbb11560b30e1e7d4aeb75e3ad71ce09b85c90ab208b181a24ffac"
+      },
+      "downloads": -1,
+      "filename": "langchain-1.2.0-py3-none-any.whl",
+      "has_sig": false,
+      "md5_digest": "78fb5d10e351a453bbd7e8ffdf7000f5",
+      "packagetype": "bdist_wheel",
+      "python_version": "py3",
+      "requires_python": "<4.0.0,>=3.10.0",
+      "size": 102828,
+      "upload_time": "2025-12-15T14:51:40",
+      "upload_time_iso_8601": "2025-12-15T14:51:40.802816Z",
+      "url": "https://files.pythonhosted.org/packages/23/00/4e3fa0d90f5a5c376ccb8ca983d0f0f7287783dfac48702e18f01d24673b/langchain-1.2.0-py3-none-any.whl",
+      "yanked": false,
+      "yanked_reason": null
+    },
+    "status": "RELEASE_ELIGIBLE",
+    "version": "1.2.0"
+  },
+  "scanners": {
+    "syft": {
+      "binary_sha256": "dbf75864e7a7ff9e1fbf00552c31483f693188632a9f68f343cd7653dac513d6",
+      "command": [
+        "/home/phucht/project/sbom_security_poc/research/.work/syft",
+        "scan",
+        "dir:/home/phucht/project/sbom_security_poc/runs/fresh-budget-installed-development-v1/captures/langchain/runtime/target",
+        "-o",
+        "spdx-json=/home/phucht/project/sbom_security_poc/runs/fresh-budget-installed-development-v1/captures/langchain/runtime/syft.spdx.json",
+        "-o",
+        "cyclonedx-json=/home/phucht/project/sbom_security_poc/runs/fresh-budget-installed-development-v1/captures/langchain/runtime/syft.cdx.json"
+      ],
+      "exit_code": 0,
+      "scope": "installed filesystem",
+      "seconds": 2.828749095002422
+    },
+    "trivy": {
+      "binary_sha256": "d1dfca6ae10a1ad4540bb94e64f0510077c47008920a9b554986b39dca573d83",
+      "command": [
+        "/home/phucht/project/sbom_security_poc/research/.work/trivy",
+        "rootfs",
+        "--offline-scan",
+        "--skip-db-update",
+        "--skip-java-db-update",
+        "--format",
+        "spdx-json",
+        "--output",
+        "/home/phucht/project/sbom_security_poc/runs/fresh-budget-installed-development-v1/captures/langchain/runtime/trivy.spdx.json",
+        "/home/phucht/project/sbom_security_poc/runs/fresh-budget-installed-development-v1/captures/langchain/runtime/target"
+      ],
+      "exit_code": 0,
+      "scope": "installed filesystem",
+      "seconds": 0.16384669399849372
+    }
+  },
+  "schema_version": "capture-v1",
+  "source": {
+    "status": "NOT_REQUESTED"
+  },
+  "started_at": "2026-11-04T09:38:05.139962Z",
+  "status": "COMPLETE",
+  "target_id": "7a99934c04f0a84d55dff87ac4615677aca20ffc1e62d85c41918beae0168bb3"
+}

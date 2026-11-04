@@ -1,0 +1,72 @@
+[
+  {
+    "arguments": {},
+    "attempts": 0,
+    "bytes_read": 0,
+    "output_sha256": "d43b91f34071a3d787abab34fc15de785e6fb3f7b49234014d4bdc4fc85945ff",
+    "status": "OK",
+    "tool": "inspect"
+  },
+  {
+    "arguments": {},
+    "attempts": 0,
+    "bytes_read": 0,
+    "output_sha256": "d41b5624aa1b4c64d7ba4f94655ac5a2786ec0ea9ec90c01bdd47666b20d76a0",
+    "status": "OK",
+    "tool": "assess"
+  },
+  {
+    "arguments": {
+      "source_id": "13124be1f569c416ed88fedc1f2b2dd9a0b91f485a4648b6a85c36c2e02fadc4"
+    },
+    "attempts": 1,
+    "bytes_read": 3581,
+    "output_sha256": "a2665cfb57039ea8fd09e43bbaca981e41b769f50d4cfe734297857448fbca22",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {},
+    "attempts": 1,
+    "bytes_read": 3581,
+    "output_sha256": "748a228dae78a0bf4a54cfb09b9a5cc1989afa3f4148455a3a1a4b43ae143921",
+    "status": "OK",
+    "tool": "assess"
+  },
+  {
+    "arguments": {
+      "source_id": "ca4322786301255c1503706b3e64b15d4c5e1dbedccfabb9b3d61d3d718f78f6"
+    },
+    "attempts": 2,
+    "bytes_read": 10129,
+    "output_sha256": "55ccd607e063dde048629da1c763e502e1d5413a6a1f45b28059716bfad22cd4",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {},
+    "attempts": 2,
+    "bytes_read": 10129,
+    "output_sha256": "7851c90d5faf3a35e4a4f0cfe383ef37fb84c162f3b26b5e2767d5566f7b0c75",
+    "status": "OK",
+    "tool": "assess"
+  },
+  {
+    "arguments": {
+      "source_id": "41dd0437dbabb76c238f2d5117a6fd52b04e6e5336b9b4be50d86465ad0d1af9"
+    },
+    "attempts": 3,
+    "bytes_read": 23181,
+    "output_sha256": "b1738ac17a3b1ab2f5d9ba9276f0d5a14b0e8d2d8180ae7f1bdc73a41dc7f613",
+    "status": "OK",
+    "tool": "acquire"
+  },
+  {
+    "arguments": {},
+    "attempts": 3,
+    "bytes_read": 23181,
+    "output_sha256": "2c0933efd87ab3919c312f053d52a7fd773fcbec015072520ac7f9442837c0fc",
+    "status": "OK",
+    "tool": "finish"
+  }
+]

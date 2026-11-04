@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/code/capture_worker.py", line 87, in <module>
+    main()
+  File "/code/capture_worker.py", line 62, in main
+    raise RuntimeError("DECLARED_CAPTURE_SIZE_LIMIT_EXCEEDED")
+RuntimeError: DECLARED_CAPTURE_SIZE_LIMIT_EXCEEDED

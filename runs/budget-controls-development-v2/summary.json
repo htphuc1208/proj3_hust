@@ -1,0 +1,4358 @@
+{
+  "agent_superiority": "UNESTABLISHED",
+  "budgets": [
+    4,
+    16
+  ],
+  "llm_api_calls": 0,
+  "methods": [
+    "fixed_order",
+    "cheapest_source",
+    "unresolved_priority"
+  ],
+  "new_heldout_roots": 0,
+  "projects": 20,
+  "records": [
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "UNKNOWN": 33
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/requests/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "requests",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8888888888888888,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.8,
+        "recall": 1.0,
+        "tp": 4
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "SUPPORTED": 1,
+        "UNKNOWN": 32
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/requests/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "requests",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8888888888888888,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.8,
+        "recall": 1.0,
+        "tp": 4
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "SUPPORTED": 2,
+        "UNKNOWN": 31
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/requests/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "requests",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8888888888888888,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.8,
+        "recall": 1.0,
+        "tp": 4
+      }
+    },
+    {
+      "acquired_sources": 7,
+      "acquisition_attempts": 7,
+      "acquisitions": 7,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 4,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/requests/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "requests",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 4
+      }
+    },
+    {
+      "acquired_sources": 7,
+      "acquisition_attempts": 7,
+      "acquisitions": 7,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 4,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/requests/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "requests",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 4
+      }
+    },
+    {
+      "acquired_sources": 7,
+      "acquisition_attempts": 7,
+      "acquisitions": 7,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 4,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/requests/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "requests",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 4
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pika/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "pika",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pika/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "pika",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pika/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "pika",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pika/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "pika",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pika/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "pika",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pika/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "pika",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/boltons/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "boltons",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/boltons/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "boltons",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/boltons/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "boltons",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/boltons/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "boltons",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/boltons/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "boltons",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/boltons/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "boltons",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "SUPPORTED": 2,
+        "UNKNOWN": 42
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/imbalanced-learn/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "imbalanced-learn",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.9230769230769231,
+        "fn": 0,
+        "fp": 2,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "SUPPORTED": 1,
+        "UNKNOWN": 43
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/imbalanced-learn/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "imbalanced-learn",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.9230769230769231,
+        "fn": 0,
+        "fp": 2,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "SUPPORTED": 1,
+        "UNKNOWN": 43
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/imbalanced-learn/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "imbalanced-learn",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.9230769230769231,
+        "fn": 0,
+        "fp": 2,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    {
+      "acquired_sources": 9,
+      "acquisition_attempts": 9,
+      "acquisitions": 9,
+      "assessment_counts": {
+        "CONTRADICTED": 2,
+        "SUPPORTED": 12,
+        "UNKNOWN": 30
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/imbalanced-learn/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "imbalanced-learn",
+      "retractions": 2,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    {
+      "acquired_sources": 9,
+      "acquisition_attempts": 9,
+      "acquisitions": 9,
+      "assessment_counts": {
+        "CONTRADICTED": 2,
+        "SUPPORTED": 12,
+        "UNKNOWN": 30
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/imbalanced-learn/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "imbalanced-learn",
+      "retractions": 2,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    {
+      "acquired_sources": 9,
+      "acquisition_attempts": 9,
+      "acquisitions": 9,
+      "assessment_counts": {
+        "CONTRADICTED": 2,
+        "SUPPORTED": 12,
+        "UNKNOWN": 30
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/imbalanced-learn/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "imbalanced-learn",
+      "retractions": 2,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 29
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/vulture/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "vulture",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 29
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/vulture/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "vulture",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 29
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/vulture/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "vulture",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 29
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/vulture/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "vulture",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 29
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/vulture/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "vulture",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 29
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/vulture/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "vulture",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pypandoc/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "pypandoc",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pypandoc/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "pypandoc",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pypandoc/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "pypandoc",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pypandoc/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "pypandoc",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pypandoc/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "pypandoc",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pypandoc/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "pypandoc",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/algorithms/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "algorithms",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/algorithms/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "algorithms",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/algorithms/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "algorithms",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/algorithms/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "algorithms",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/algorithms/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "algorithms",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/algorithms/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "algorithms",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/sqlparse/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "sqlparse",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/sqlparse/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "sqlparse",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/sqlparse/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "sqlparse",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/sqlparse/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "sqlparse",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/sqlparse/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "sqlparse",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/sqlparse/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "sqlparse",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "SUPPORTED": 1,
+        "UNKNOWN": 36
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/typer/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "typer",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8571428571428571,
+        "fn": 1,
+        "fp": 1,
+        "precision": 0.8571428571428571,
+        "recall": 0.8571428571428571,
+        "tp": 6
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "UNKNOWN": 37
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/typer/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "typer",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8571428571428571,
+        "fn": 1,
+        "fp": 1,
+        "precision": 0.8571428571428571,
+        "recall": 0.8571428571428571,
+        "tp": 6
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "UNKNOWN": 37
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/typer/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "typer",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8571428571428571,
+        "fn": 1,
+        "fp": 1,
+        "precision": 0.8571428571428571,
+        "recall": 0.8571428571428571,
+        "tp": 6
+      }
+    },
+    {
+      "acquired_sources": 10,
+      "acquisition_attempts": 10,
+      "acquisitions": 10,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 6,
+        "UNKNOWN": 30
+      },
+      "budget": 16,
+      "candidate_proposals": 1,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 1
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/typer/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "typer",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 7
+      }
+    },
+    {
+      "acquired_sources": 10,
+      "acquisition_attempts": 10,
+      "acquisitions": 10,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 6,
+        "UNKNOWN": 30
+      },
+      "budget": 16,
+      "candidate_proposals": 1,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 1
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/typer/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "typer",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 7
+      }
+    },
+    {
+      "acquired_sources": 10,
+      "acquisition_attempts": 10,
+      "acquisitions": 10,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 6,
+        "UNKNOWN": 30
+      },
+      "budget": 16,
+      "candidate_proposals": 1,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 1
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/typer/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "typer",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 7
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "SUPPORTED": 2,
+        "UNKNOWN": 41
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/iredis/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "iredis",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.9230769230769231,
+        "fn": 0,
+        "fp": 2,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "UNKNOWN": 43
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/iredis/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "iredis",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.9230769230769231,
+        "fn": 0,
+        "fp": 2,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "UNKNOWN": 43
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/iredis/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "iredis",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.9230769230769231,
+        "fn": 0,
+        "fp": 2,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    {
+      "acquired_sources": 14,
+      "acquisition_attempts": 14,
+      "acquisitions": 14,
+      "assessment_counts": {
+        "CONTRADICTED": 2,
+        "SUPPORTED": 12,
+        "UNKNOWN": 29
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/iredis/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "iredis",
+      "retractions": 2,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    {
+      "acquired_sources": 14,
+      "acquisition_attempts": 14,
+      "acquisitions": 14,
+      "assessment_counts": {
+        "CONTRADICTED": 2,
+        "SUPPORTED": 12,
+        "UNKNOWN": 29
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/iredis/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "iredis",
+      "retractions": 2,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    {
+      "acquired_sources": 14,
+      "acquisition_attempts": 14,
+      "acquisitions": 14,
+      "assessment_counts": {
+        "CONTRADICTED": 2,
+        "SUPPORTED": 12,
+        "UNKNOWN": 29
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/iredis/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "iredis",
+      "retractions": 2,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/attrs/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "attrs",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/attrs/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "attrs",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/attrs/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "attrs",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/attrs/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "attrs",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/attrs/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "attrs",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/attrs/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "attrs",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pyserial/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "pyserial",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pyserial/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "pyserial",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pyserial/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "pyserial",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pyserial/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "pyserial",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pyserial/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "pyserial",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 28
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pyserial/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "pyserial",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "UNKNOWN": 49
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/nox/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "nox",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.7586206896551724,
+        "fn": 0,
+        "fp": 7,
+        "precision": 0.6111111111111112,
+        "recall": 1.0,
+        "tp": 11
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "SUPPORTED": 1,
+        "UNKNOWN": 48
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/nox/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "nox",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.7586206896551724,
+        "fn": 0,
+        "fp": 7,
+        "precision": 0.6111111111111112,
+        "recall": 1.0,
+        "tp": 11
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "SUPPORTED": 1,
+        "UNKNOWN": 48
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/nox/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "nox",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.7586206896551724,
+        "fn": 0,
+        "fp": 7,
+        "precision": 0.6111111111111112,
+        "recall": 1.0,
+        "tp": 11
+      }
+    },
+    {
+      "acquired_sources": 13,
+      "acquisition_attempts": 13,
+      "acquisitions": 13,
+      "assessment_counts": {
+        "CONTRADICTED": 7,
+        "SUPPORTED": 11,
+        "UNKNOWN": 31
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/nox/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "nox",
+      "retractions": 7,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 11
+      }
+    },
+    {
+      "acquired_sources": 13,
+      "acquisition_attempts": 13,
+      "acquisitions": 13,
+      "assessment_counts": {
+        "CONTRADICTED": 7,
+        "SUPPORTED": 11,
+        "UNKNOWN": 31
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/nox/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "nox",
+      "retractions": 7,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 11
+      }
+    },
+    {
+      "acquired_sources": 13,
+      "acquisition_attempts": 13,
+      "acquisitions": 13,
+      "assessment_counts": {
+        "CONTRADICTED": 7,
+        "SUPPORTED": 11,
+        "UNKNOWN": 31
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/nox/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "nox",
+      "retractions": 7,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 11
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "SUPPORTED": 2,
+        "UNKNOWN": 33
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pynamodb/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "pynamodb",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.9090909090909091,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "tp": 5
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "UNKNOWN": 35
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pynamodb/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "pynamodb",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.9090909090909091,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "tp": 5
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "SUPPORTED": 1,
+        "UNKNOWN": 34
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pynamodb/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "pynamodb",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.9090909090909091,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "tp": 5
+      }
+    },
+    {
+      "acquired_sources": 8,
+      "acquisition_attempts": 8,
+      "acquisitions": 8,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 5,
+        "UNKNOWN": 29
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pynamodb/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "pynamodb",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 5
+      }
+    },
+    {
+      "acquired_sources": 8,
+      "acquisition_attempts": 8,
+      "acquisitions": 8,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 5,
+        "UNKNOWN": 29
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pynamodb/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "pynamodb",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 5
+      }
+    },
+    {
+      "acquired_sources": 8,
+      "acquisition_attempts": 8,
+      "acquisitions": 8,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 5,
+        "UNKNOWN": 29
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pynamodb/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "pynamodb",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 5
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "SUPPORTED": 3,
+        "UNKNOWN": 39
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/hyperopt/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "hyperopt",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8571428571428571,
+        "fn": 0,
+        "fp": 3,
+        "precision": 0.75,
+        "recall": 1.0,
+        "tp": 9
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "SUPPORTED": 2,
+        "UNKNOWN": 40
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/hyperopt/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "hyperopt",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8571428571428571,
+        "fn": 0,
+        "fp": 3,
+        "precision": 0.75,
+        "recall": 1.0,
+        "tp": 9
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "SUPPORTED": 3,
+        "UNKNOWN": 39
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/hyperopt/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "hyperopt",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8571428571428571,
+        "fn": 0,
+        "fp": 3,
+        "precision": 0.75,
+        "recall": 1.0,
+        "tp": 9
+      }
+    },
+    {
+      "acquired_sources": 11,
+      "acquisition_attempts": 11,
+      "acquisitions": 11,
+      "assessment_counts": {
+        "CONTRADICTED": 3,
+        "SUPPORTED": 9,
+        "UNKNOWN": 30
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/hyperopt/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "hyperopt",
+      "retractions": 3,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 9
+      }
+    },
+    {
+      "acquired_sources": 11,
+      "acquisition_attempts": 11,
+      "acquisitions": 11,
+      "assessment_counts": {
+        "CONTRADICTED": 3,
+        "SUPPORTED": 9,
+        "UNKNOWN": 30
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/hyperopt/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "hyperopt",
+      "retractions": 3,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 9
+      }
+    },
+    {
+      "acquired_sources": 11,
+      "acquisition_attempts": 11,
+      "acquisitions": 11,
+      "assessment_counts": {
+        "CONTRADICTED": 3,
+        "SUPPORTED": 9,
+        "UNKNOWN": 30
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/hyperopt/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "hyperopt",
+      "retractions": 3,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 9
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "SUPPORTED": 1,
+        "UNKNOWN": 31
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/factory-boy/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "factory-boy",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "tp": 2
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "UNKNOWN": 32
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/factory-boy/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "factory-boy",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "tp": 2
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "UNKNOWN": 32
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/factory-boy/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "factory-boy",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "tp": 2
+      }
+    },
+    {
+      "acquired_sources": 5,
+      "acquisition_attempts": 5,
+      "acquisitions": 5,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 2,
+        "UNKNOWN": 29
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/factory-boy/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "factory-boy",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 2
+      }
+    },
+    {
+      "acquired_sources": 5,
+      "acquisition_attempts": 5,
+      "acquisitions": 5,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 2,
+        "UNKNOWN": 29
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/factory-boy/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "factory-boy",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 2
+      }
+    },
+    {
+      "acquired_sources": 5,
+      "acquisition_attempts": 5,
+      "acquisitions": 5,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 2,
+        "UNKNOWN": 29
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/factory-boy/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "factory-boy",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 2
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "UNKNOWN": 77
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": 0.0,
+        "fn": 2,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/faster-whisper/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "faster-whisper",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8571428571428571,
+        "fn": 2,
+        "fp": 10,
+        "precision": 0.782608695652174,
+        "recall": 0.9473684210526315,
+        "tp": 36
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "UNKNOWN": 77
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": 0.0,
+        "fn": 2,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/faster-whisper/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "faster-whisper",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8571428571428571,
+        "fn": 2,
+        "fp": 10,
+        "precision": 0.782608695652174,
+        "recall": 0.9473684210526315,
+        "tp": 36
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "UNKNOWN": 77
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": 0.0,
+        "fn": 2,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/faster-whisper/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "faster-whisper",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8571428571428571,
+        "fn": 2,
+        "fp": 10,
+        "precision": 0.782608695652174,
+        "recall": 0.9473684210526315,
+        "tp": 36
+      }
+    },
+    {
+      "acquired_sources": 16,
+      "acquisition_attempts": 16,
+      "acquisitions": 16,
+      "assessment_counts": {
+        "SUPPORTED": 13,
+        "UNKNOWN": 64
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": 0.0,
+        "fn": 2,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/faster-whisper/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "faster-whisper",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8571428571428571,
+        "fn": 2,
+        "fp": 10,
+        "precision": 0.782608695652174,
+        "recall": 0.9473684210526315,
+        "tp": 36
+      }
+    },
+    {
+      "acquired_sources": 16,
+      "acquisition_attempts": 16,
+      "acquisitions": 16,
+      "assessment_counts": {
+        "SUPPORTED": 3,
+        "UNKNOWN": 74
+      },
+      "budget": 16,
+      "candidate_proposals": 1,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": 0.6666666666666666,
+        "fn": 1,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 0.5,
+        "tp": 1
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/faster-whisper/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "faster-whisper",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8705882352941177,
+        "fn": 1,
+        "fp": 10,
+        "precision": 0.7872340425531915,
+        "recall": 0.9736842105263158,
+        "tp": 37
+      }
+    },
+    {
+      "acquired_sources": 16,
+      "acquisition_attempts": 16,
+      "acquisitions": 16,
+      "assessment_counts": {
+        "SUPPORTED": 5,
+        "UNKNOWN": 72
+      },
+      "budget": 16,
+      "candidate_proposals": 1,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": 0.6666666666666666,
+        "fn": 1,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 0.5,
+        "tp": 1
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/faster-whisper/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "faster-whisper",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8705882352941177,
+        "fn": 1,
+        "fp": 10,
+        "precision": 0.7872340425531915,
+        "recall": 0.9736842105263158,
+        "tp": 37
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "SUPPORTED": 2,
+        "UNKNOWN": 32
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/django-debug-toolbar/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "django-debug-toolbar",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8888888888888888,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.8,
+        "recall": 1.0,
+        "tp": 4
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "SUPPORTED": 3,
+        "UNKNOWN": 31
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/django-debug-toolbar/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "django-debug-toolbar",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8888888888888888,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.8,
+        "recall": 1.0,
+        "tp": 4
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "SUPPORTED": 3,
+        "UNKNOWN": 31
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/django-debug-toolbar/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "django-debug-toolbar",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.8888888888888888,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.8,
+        "recall": 1.0,
+        "tp": 4
+      }
+    },
+    {
+      "acquired_sources": 6,
+      "acquisition_attempts": 6,
+      "acquisitions": 6,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 4,
+        "UNKNOWN": 29
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/django-debug-toolbar/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "django-debug-toolbar",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 4
+      }
+    },
+    {
+      "acquired_sources": 6,
+      "acquisition_attempts": 6,
+      "acquisitions": 6,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 4,
+        "UNKNOWN": 29
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/django-debug-toolbar/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "django-debug-toolbar",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 4
+      }
+    },
+    {
+      "acquired_sources": 6,
+      "acquisition_attempts": 6,
+      "acquisitions": 6,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 4,
+        "UNKNOWN": 29
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/django-debug-toolbar/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "django-debug-toolbar",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 4
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 30
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pypdf/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "pypdf",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 30
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pypdf/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "pypdf",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 30
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pypdf/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "pypdf",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 30
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pypdf/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "pypdf",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 30
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pypdf/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "pypdf",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 3,
+      "acquisition_attempts": 3,
+      "acquisitions": 3,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "UNKNOWN": 30
+      },
+      "budget": 16,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/pypdf/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "pypdf",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": null,
+        "fn": 0,
+        "fp": 0,
+        "precision": null,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "UNKNOWN": 59
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/markitdown/budget-4/fixed_order",
+      "policy": "fixed_order",
+      "project": "markitdown",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.9090909090909091,
+        "fn": 1,
+        "fp": 4,
+        "precision": 0.8620689655172413,
+        "recall": 0.9615384615384616,
+        "tp": 25
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "UNKNOWN": 59
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/markitdown/budget-4/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "markitdown",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.9090909090909091,
+        "fn": 1,
+        "fp": 4,
+        "precision": 0.8620689655172413,
+        "recall": 0.9615384615384616,
+        "tp": 25
+      }
+    },
+    {
+      "acquired_sources": 4,
+      "acquisition_attempts": 4,
+      "acquisitions": 4,
+      "assessment_counts": {
+        "UNKNOWN": 59
+      },
+      "budget": 4,
+      "candidate_proposals": 0,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/markitdown/budget-4/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "markitdown",
+      "retractions": 0,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.9090909090909091,
+        "fn": 1,
+        "fp": 4,
+        "precision": 0.8620689655172413,
+        "recall": 0.9615384615384616,
+        "tp": 25
+      }
+    },
+    {
+      "acquired_sources": 16,
+      "acquisition_attempts": 16,
+      "acquisitions": 16,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 13,
+        "UNKNOWN": 45
+      },
+      "budget": 16,
+      "candidate_proposals": 1,
+      "llm_api_calls": 0,
+      "method": "fixed_order",
+      "native_valid": true,
+      "new_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 1
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/markitdown/budget-16/fixed_order",
+      "policy": "fixed_order",
+      "project": "markitdown",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.9454545454545454,
+        "fn": 0,
+        "fp": 3,
+        "precision": 0.896551724137931,
+        "recall": 1.0,
+        "tp": 26
+      }
+    },
+    {
+      "acquired_sources": 16,
+      "acquisition_attempts": 16,
+      "acquisitions": 16,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 9,
+        "UNKNOWN": 49
+      },
+      "budget": 16,
+      "candidate_proposals": 1,
+      "llm_api_calls": 0,
+      "method": "cheapest_source",
+      "native_valid": true,
+      "new_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 1
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/markitdown/budget-16/cheapest_source",
+      "policy": "cheapest_source",
+      "project": "markitdown",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.9454545454545454,
+        "fn": 0,
+        "fp": 3,
+        "precision": 0.896551724137931,
+        "recall": 1.0,
+        "tp": 26
+      }
+    },
+    {
+      "acquired_sources": 16,
+      "acquisition_attempts": 16,
+      "acquisitions": 16,
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 12,
+        "UNKNOWN": 46
+      },
+      "budget": 16,
+      "candidate_proposals": 1,
+      "llm_api_calls": 0,
+      "method": "unresolved_priority",
+      "native_valid": true,
+      "new_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 1
+      },
+      "output": "/home/phucht/project/sbom_security_poc/runs/budget-controls-development-v2/markitdown/budget-16/unresolved_priority",
+      "policy": "unresolved_priority",
+      "project": "markitdown",
+      "retractions": 1,
+      "status": "COMPLETE",
+      "unknown_labels": 0,
+      "whole_edges": {
+        "f1": 0.9454545454545454,
+        "fn": 0,
+        "fp": 3,
+        "precision": 0.896551724137931,
+        "recall": 1.0,
+        "tp": 26
+      }
+    }
+  ],
+  "security_utility": "UNMEASURED",
+  "source_count_eligible_projects": 0,
+  "status": "COMPLETE_DEVELOPMENT_MATRIX",
+  "status_counts": {
+    "COMPLETE": 120
+  }
+}

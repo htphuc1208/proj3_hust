@@ -1,0 +1,35 @@
+{
+  "hint_scope": "Observed filename hints only; no parsed identities, requirements or reference membership",
+  "schema_version": "budget-source-catalog-v1",
+  "sha256": "e4e06538c0c0872e03561adda819decd5f8d6273e10d43c8e1684ee30b4d19c6",
+  "sources": [
+    {
+      "available_at": "2026-10-28T17:06:30.599938Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "name_hint": "pip",
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "70e8825215a8fee8ed73768496c1e062914ef070c90bb99d88523fa5d29c9da6"
+    },
+    {
+      "available_at": "2026-10-28T17:06:30.599938Z",
+      "bytes": 1650,
+      "kind": "installed_metadata",
+      "name_hint": "pyserial",
+      "path": "lib/python3.11/site-packages/pyserial-3.5.dist-info/METADATA",
+      "sha256": "42a8ab7e94ef0b7baa7e94cdac65d6b9254c608476f630120c990007bf472943",
+      "source_id": "18d99cd444d34c4e1089b990759ca57fe7a80b8533e7861bf5c595d0b1d96f22"
+    },
+    {
+      "available_at": "2026-10-28T17:06:30.599938Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "name_hint": "setuptools",
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "26fe71cd392c2fdaded00b8e2e817fccfc06ccd43ebc515f684168cd64b25e1e"
+    }
+  ],
+  "target_id": "6b8282a526ef4ca198f76306e2b71ae418607e9a687e3e4c5dce1d5f2a928454"
+}

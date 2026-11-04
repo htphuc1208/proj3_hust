@@ -1,0 +1,727 @@
+{
+  "budget": 4,
+  "catalog_sha256": "eb4b4c0416946e43675dcd98fa4a89be604e55962493379296d60adfed98b580",
+  "evidence_policy": "Only bytes returned by charged source RPCs enter the worker",
+  "gateway_attempts": [
+    {
+      "attempt": 1,
+      "duration_seconds": 0.6658156299999973,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 7736,
+        "total_tokens": 7750
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 1.813099062001129,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 14896,
+        "total_tokens": 14911
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 3.0214872359974834,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 180,
+        "prompt_tokens": 18554,
+        "total_tokens": 18734
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 2.0140074400005687,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 138,
+        "prompt_tokens": 19916,
+        "total_tokens": 20054
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 2.1373411270033102,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 153,
+        "prompt_tokens": 20962,
+        "total_tokens": 21115
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 3.531577729001583,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 201,
+        "prompt_tokens": 22224,
+        "total_tokens": 22425
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 3.8418250199974864,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 137,
+        "prompt_tokens": 23353,
+        "total_tokens": 23490
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 5.2268509329987864,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 164,
+        "prompt_tokens": 27712,
+        "total_tokens": 27876
+      }
+    }
+  ],
+  "gateway_usage": [
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 0.6658156299999973,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 7736,
+        "total_tokens": 7750
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 1.813099062001129,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 14896,
+        "total_tokens": 14911
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 3.0214872359974834,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 180,
+        "prompt_tokens": 18554,
+        "total_tokens": 18734
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 2.0140074400005687,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 138,
+        "prompt_tokens": 19916,
+        "total_tokens": 20054
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 2.1373411270033102,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 153,
+        "prompt_tokens": 20962,
+        "total_tokens": 21115
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 3.531577729001583,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 201,
+        "prompt_tokens": 22224,
+        "total_tokens": 22425
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 3.8418250199974864,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 137,
+        "prompt_tokens": 23353,
+        "total_tokens": 23490
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 5.2268509329987864,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 164,
+        "prompt_tokens": 27712,
+        "total_tokens": 27876
+      }
+    }
+  ],
+  "inference_parameters": {
+    "max_output_tokens_per_call": 2048,
+    "max_turns": 12,
+    "seed": 42,
+    "streaming": true
+  },
+  "llm_api_calls": 8,
+  "model_requested": "Qwen/Qwen3.6-35B-A3B-FP8",
+  "monetary_cost": "UNMEASURED_WITHOUT_VERIFIED_PRICING",
+  "planner_version": "adaptive-source-planner-v2",
+  "policy": "single_agent_reconciliation",
+  "status": "COMPLETE",
+  "transcript": [
+    {
+      "message": {
+        "content": "",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{}",
+              "name": "inspect"
+            },
+            "id": "call_fca73600db674379b7491272",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "dd87bc2023361f936c22f5ceacad16c42bfdaef7d5d12e70b24791d3f5c62db9",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 0.6658156299999973,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 14,
+          "prompt_tokens": 7736,
+          "total_tokens": 7750
+        }
+      },
+      "turn": 0
+    },
+    {
+      "message": {
+        "content": "",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{}",
+              "name": "assess"
+            },
+            "id": "call_0b8fb724a6f049ff81c9f204",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "9d7b56102e2dc800e003c315df2fdb6450bb4b9275fdb9797197d0303973cd7d",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 1.813099062001129,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 15,
+          "prompt_tokens": 14896,
+          "total_tokens": 14911
+        }
+      },
+      "turn": 1
+    },
+    {
+      "message": {
+        "content": "The assess output shows all 37 edges are UNKNOWN because we haven't acquired any source metadata yet. The root target is `typer@0.21.0`, and its direct dependencies in the graph are:\n- click\n- rich\n- shellingham\n- typing-extensions\n\nAll four of these have available sources in the catalog. Let me start by acquiring the **typer** source itself to confirm its declared dependencies, then move to its direct dependencies.\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{\"source_id\":\"e5af50de6212174ea87a0c1be4c717aad78de9ec1a842b8325054adc814b8f25\"}",
+              "name": "acquire"
+            },
+            "id": "call_40445a314f2d45dca65d8924",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "48a7a44b7aed311d5d6437572d3afc64ef1dc5743fc653a1d35095c01ef193c1",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 3.0214872359974834,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 180,
+          "prompt_tokens": 18554,
+          "total_tokens": 18734
+        }
+      },
+      "turn": 2
+    },
+    {
+      "message": {
+        "content": "Good, typer's metadata confirms its 4 direct dependencies: click, typing-extensions, shellingham, and rich. Now I need to acquire sources for these to resolve the edges. Let me acquire **click** next since it's a direct dependency of typer.\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{\"source_id\":\"c6d06054f2dbe876cab0bfa015713bde255368886427f89c8f256a9abe277d52\"}",
+              "name": "acquire"
+            },
+            "id": "call_6b33652a420f4cabb6dd8856",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "74785d4ff128d5532d814e3a5e13caf19790c1e9a99c8b20ad85ee114f0869bb",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 2.0140074400005687,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 138,
+          "prompt_tokens": 19916,
+          "total_tokens": 20054
+        }
+      },
+      "turn": 3
+    },
+    {
+      "message": {
+        "content": "Click's metadata confirms it has no Python dependencies (only a conditional `colorama` for Windows). The edge `typer -> click` is now SUPPORTED. I have 2 remaining attempts. Let me acquire **rich** next since it's a direct dependency of typer and has transitive dependencies (markdown-it-py, pygments).\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{\"source_id\":\"7757fb681f2a3b1133485d33991637dc9440fa3ab603abdc608eae8a8fa22166\"}",
+              "name": "acquire"
+            },
+            "id": "call_60c77243f4c44634b77309ea",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "17fefefb60be95e2aa0d6d35882410fb0af0192c42c44cf8b23057e682dd05f2",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 2.1373411270033102,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 153,
+          "prompt_tokens": 20962,
+          "total_tokens": 21115
+        }
+      },
+      "turn": 4
+    },
+    {
+      "message": {
+        "content": "Rich confirms its dependencies: markdown-it-py and pygments. The edge `typer -> rich` is now SUPPORTED. I have 1 remaining attempt. The pending requirements now include:\n- typer -> typing-extensions (UNKNOWN)\n- typer -> shellingham (UNKNOWN)\n- rich -> markdown-it-py (UNKNOWN)\n- rich -> pygments (UNKNOWN)\n\nI should use my last attempt to acquire one of the remaining direct dependencies of typer. Let me acquire **shellingham** to resolve another direct edge from typer.\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{\"source_id\":\"6392f851f50283936e5025d189f0c1dea55329e55077ee2a4ce4e7e24b3137e0\"}",
+              "name": "acquire"
+            },
+            "id": "call_29e1f82244c749e28fa7e484",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "964ac7276d9a8baaf18914f5e0faa7c3b414d3360f3bc7dc92cadc2829f9d620",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 3.531577729001583,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 201,
+          "prompt_tokens": 22224,
+          "total_tokens": 22425
+        }
+      },
+      "turn": 5
+    },
+    {
+      "message": {
+        "content": "Shellingham has no Python dependencies. The edge `typer -> shellingham` is now SUPPORTED. I have 0 remaining attempts.\n\nLet me check the current state:\n- **SUPPORTED edges (3)**: typer->click, typer->rich, typer->shellingham\n- **Still UNKNOWN**: typer->typing-extensions, and all transitive edges (rich->markdown-it-py, rich->pygments, etc.)\n\nI've exhausted my budget. Let me assess the current state to see what the deterministic gate can do with the evidence I've gathered.\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{}",
+              "name": "assess"
+            },
+            "id": "call_a772e0ead6084f239c3698d2",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "044489422ece298ad72dd062cd240efa783deb4e52af7dd9bbcd4c52c73b411f",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 3.8418250199974864,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 137,
+          "prompt_tokens": 23353,
+          "total_tokens": 23490
+        }
+      },
+      "turn": 6
+    },
+    {
+      "message": {
+        "content": "I've exhausted my budget (0 remaining). The current state shows:\n- **3 SUPPORTED edges**: typer->click, typer->rich, typer->shellingham\n- **34 UNKNOWN edges**: including typer->typing-extensions and all transitive dependencies\n\nI've acquired 4 sources (typer, click, rich, shellingham) which resolved 3 of typer's 4 direct dependencies. The remaining unknown edges are either:\n1. typer->typing-extensions (no source acquired for typing-extensions)\n2. All transitive edges from packages whose metadata I haven't acquired\n\nSince I have no remaining budget, I should finish and let the deterministic gate process what it can with the evidence gathered.\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{}",
+              "name": "finish"
+            },
+            "id": "call_f829351f2ee048ea888e71ca",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "88035c2299bfb1604e379f5b72143dc5860985708086d788762e1a674a8d1a55",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 5.2268509329987864,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 164,
+          "prompt_tokens": 27712,
+          "total_tokens": 27876
+        }
+      },
+      "turn": 7
+    }
+  ]
+}

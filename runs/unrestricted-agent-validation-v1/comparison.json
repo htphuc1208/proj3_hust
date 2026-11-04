@@ -1,0 +1,12 @@
+{
+  "agent_api_calls": 5,
+  "agent_run": "ui-agent-20261104-092658-1129831b",
+  "agent_sources": 10,
+  "agent_superiority": "UNESTABLISHED",
+  "control_api_calls": 0,
+  "control_run": "ui-agent-20261104-093328-98d3425c",
+  "control_sources": 10,
+  "request_output_caps_omitted": true,
+  "same_prediction_sha256": true,
+  "scope": "Old-development integration check, not held-out utility evaluation"
+}

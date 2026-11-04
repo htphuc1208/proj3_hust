@@ -1,0 +1,32 @@
+{
+  "audit_source_sha256": "0f2b371a8e684f1aa86aed905c05b1cc67236098c5555385baf4d430dedf1e07",
+  "episodes": 2,
+  "model_calls": 0,
+  "records": [
+    {
+      "acquired_sources": 10,
+      "attempts": 10,
+      "budget": null,
+      "episode": "runs/ui-agent-20261104-092658-1129831b",
+      "native_valid": true,
+      "prediction_equivalent": true,
+      "replayed_with_current_gate": true,
+      "runtime_isolation_verified": true,
+      "seal_sha256": "b87e96bcb8ff667edad8770d819a16ecbd35d723a7b30ac7992335f65533b517"
+    },
+    {
+      "acquired_sources": 10,
+      "attempts": 10,
+      "budget": null,
+      "episode": "runs/ui-agent-20261104-093328-98d3425c",
+      "native_valid": true,
+      "prediction_equivalent": true,
+      "replayed_with_current_gate": true,
+      "runtime_isolation_verified": true,
+      "seal_sha256": "a2a12af276508ffabf6992e9b8ffd62abaa5cb0fabf9c5bc8d1e1f28e1ca6fc8"
+    }
+  ],
+  "reference_files_read": false,
+  "status": "VERIFIED",
+  "target_files_read": false
+}

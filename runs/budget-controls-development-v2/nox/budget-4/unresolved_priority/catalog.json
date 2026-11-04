@@ -1,0 +1,125 @@
+{
+  "hint_scope": "Observed filename hints only; no parsed identities, requirements or reference membership",
+  "schema_version": "budget-source-catalog-v1",
+  "sha256": "59a03dd66bedca09ebf809fd91058e3702bb7a20dc4ac22b1929d562818bb496",
+  "sources": [
+    {
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 16891,
+      "kind": "installed_metadata",
+      "name_hint": "argcomplete",
+      "path": "lib/python3.11/site-packages/argcomplete-3.6.3.dist-info/METADATA",
+      "sha256": "a6078603bafea6fd0cb70196de08d0088ecfefde7d45ef7a5bda697c1c6408c7",
+      "source_id": "c67e92a01fdc61385c05a35163c6bfa138cad949b4972e6e12f48960457d91d5"
+    },
+    {
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 10473,
+      "kind": "installed_metadata",
+      "name_hint": "attrs",
+      "path": "lib/python3.11/site-packages/attrs-25.4.0.dist-info/METADATA",
+      "sha256": "d917abc63eda81c311c62c1d92dea50b682ea870269062821f5de75962bb6684",
+      "source_id": "680cb7f533afdd863320213b68f988d75786265c7650c8fa41a0dd25d84e4d02"
+    },
+    {
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 11202,
+      "kind": "installed_metadata",
+      "name_hint": "colorlog",
+      "path": "lib/python3.11/site-packages/colorlog-6.10.1.dist-info/METADATA",
+      "sha256": "8d2bc5088a07a5c554206fb453916d0c918c643aa4f67e452084d1417c93cbe0",
+      "source_id": "d7090295b41c630b965032ebe2e94c5e67d86c25218d27e7dc702bc27e363294"
+    },
+    {
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 2268,
+      "kind": "installed_metadata",
+      "name_hint": "dependency-groups",
+      "path": "lib/python3.11/site-packages/dependency_groups-1.3.1.dist-info/METADATA",
+      "sha256": "0033546dd2b5e361e7b1aac074462d1aad1c543c5ceed7c0003375719e799828",
+      "source_id": "92f25a1c880299c70a340b63ca283fdefe53bfa67eb83fb676761e8c6a64ad31"
+    },
+    {
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 5246,
+      "kind": "installed_metadata",
+      "name_hint": "distlib",
+      "path": "lib/python3.11/site-packages/distlib-0.4.0.dist-info/METADATA",
+      "sha256": "8c3ae3fc9faff13706d3357ec3750777f0c50054abc026c9c24ce5882ef1dde7",
+      "source_id": "41676c582f94ac7965f263fc9f610fff71e3c0c361c4b907c8ac891755e24fcd"
+    },
+    {
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 2110,
+      "kind": "installed_metadata",
+      "name_hint": "filelock",
+      "path": "lib/python3.11/site-packages/filelock-3.20.1.dist-info/METADATA",
+      "sha256": "d80519f60191d419d597b42c0476690d4667e30272fb2c5e00667295dd3ee33b",
+      "source_id": "1983fbbb7d2fb31c2fdc1947e1d5613d39e9115f758db54cb8805fdaf1ad49f9"
+    },
+    {
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 7850,
+      "kind": "installed_metadata",
+      "name_hint": "humanize",
+      "path": "lib/python3.11/site-packages/humanize-4.15.0.dist-info/METADATA",
+      "sha256": "a0b134eb3f4708b777994033630b14d878348d78bb77c184065db175b4110334",
+      "source_id": "a64ecdb6de3f4de8e6f71102fa19308563bb0f6decdee899af6ddb83183b8d93"
+    },
+    {
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 5070,
+      "kind": "installed_metadata",
+      "name_hint": "nox",
+      "path": "lib/python3.11/site-packages/nox-2025.11.12.dist-info/METADATA",
+      "sha256": "813a18bd54393f776443a3e903f69ba2571a5e7e1b54201f7208e5bf99f6fd1b",
+      "source_id": "f761115081e103d62975f6ea45c93bcd976478d551a6ccd86f24654fe5dde761"
+    },
+    {
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 3281,
+      "kind": "installed_metadata",
+      "name_hint": "packaging",
+      "path": "lib/python3.11/site-packages/packaging-25.0.dist-info/METADATA",
+      "sha256": "5b611a609c38fefc3d616bf45d20aec98fb7d53f245daca9e2c30fc85c7ac282",
+      "source_id": "328822fef87de0819bf466734f7169273cdee5914bfa4d4e5948b083139b8018"
+    },
+    {
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "name_hint": "pip",
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "8321a2bc431fa00121a6b8b5e67fee950d0087b48210f45ec091dc0defe5f01c"
+    },
+    {
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 12804,
+      "kind": "installed_metadata",
+      "name_hint": "platformdirs",
+      "path": "lib/python3.11/site-packages/platformdirs-4.5.1.dist-info/METADATA",
+      "sha256": "3a7ef90c694e34649fece11d27e88621cd6bc1344497e3e31e56d46bd423e928",
+      "source_id": "b1a380c0e4f7cec97edc52744e8bcc26203688e3a9c882b689418fe9507f8c42"
+    },
+    {
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "name_hint": "setuptools",
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "77467605d526aad452bcc2820e806aa201ae99fe9948f2d4aa34587402b7cae4"
+    },
+    {
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 4630,
+      "kind": "installed_metadata",
+      "name_hint": "virtualenv",
+      "path": "lib/python3.11/site-packages/virtualenv-20.35.4.dist-info/METADATA",
+      "sha256": "45226c222270a9ad1d1060adb5b9bfeb34d5c4722264245cc0892cb7a2454917",
+      "source_id": "8aa4c418b5cbebb8edf5437b99a0de273631d68c218f6e49d559fa3119181915"
+    }
+  ],
+  "target_id": "d1d388f0145e20cce44bccc124068dd439da33aa311f84c8b7a88187ffbb846e"
+}

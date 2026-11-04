@@ -1,0 +1,442 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "langchain",
+      "version": "0",
+      "bom-ref": "urn:sbom-benchmark:project:langchain"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "annotated-types",
+      "version": "0.7.0",
+      "purl": "pkg:pypi/annotated-types@0.7.0",
+      "bom-ref": "pkg:pypi/annotated-types@0.7.0"
+    },
+    {
+      "type": "library",
+      "name": "anyio",
+      "version": "4.12.0",
+      "purl": "pkg:pypi/anyio@4.12.0",
+      "bom-ref": "pkg:pypi/anyio@4.12.0"
+    },
+    {
+      "type": "library",
+      "name": "certifi",
+      "version": "2025.11.12",
+      "purl": "pkg:pypi/certifi@2025.11.12",
+      "bom-ref": "pkg:pypi/certifi@2025.11.12"
+    },
+    {
+      "type": "library",
+      "name": "charset-normalizer",
+      "version": "3.4.4",
+      "purl": "pkg:pypi/charset-normalizer@3.4.4",
+      "bom-ref": "pkg:pypi/charset-normalizer@3.4.4"
+    },
+    {
+      "type": "library",
+      "name": "h11",
+      "version": "0.16.0",
+      "purl": "pkg:pypi/h11@0.16.0",
+      "bom-ref": "pkg:pypi/h11@0.16.0"
+    },
+    {
+      "type": "library",
+      "name": "httpcore",
+      "version": "1.0.9",
+      "purl": "pkg:pypi/httpcore@1.0.9",
+      "bom-ref": "pkg:pypi/httpcore@1.0.9"
+    },
+    {
+      "type": "library",
+      "name": "httpx",
+      "version": "0.28.1",
+      "purl": "pkg:pypi/httpx@0.28.1",
+      "bom-ref": "pkg:pypi/httpx@0.28.1"
+    },
+    {
+      "type": "library",
+      "name": "idna",
+      "version": "3.11",
+      "purl": "pkg:pypi/idna@3.11",
+      "bom-ref": "pkg:pypi/idna@3.11"
+    },
+    {
+      "type": "library",
+      "name": "jsonpatch",
+      "version": "1.33",
+      "purl": "pkg:pypi/jsonpatch@1.33",
+      "bom-ref": "pkg:pypi/jsonpatch@1.33"
+    },
+    {
+      "type": "library",
+      "name": "jsonpointer",
+      "version": "3.0.0",
+      "purl": "pkg:pypi/jsonpointer@3.0.0",
+      "bom-ref": "pkg:pypi/jsonpointer@3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "langchain",
+      "version": "1.2.0",
+      "purl": "pkg:pypi/langchain@1.2.0",
+      "bom-ref": "pkg:pypi/langchain@1.2.0"
+    },
+    {
+      "type": "library",
+      "name": "langchain-core",
+      "version": "1.2.5",
+      "purl": "pkg:pypi/langchain-core@1.2.5",
+      "bom-ref": "pkg:pypi/langchain-core@1.2.5"
+    },
+    {
+      "type": "library",
+      "name": "langgraph",
+      "version": "1.0.5",
+      "purl": "pkg:pypi/langgraph@1.0.5",
+      "bom-ref": "pkg:pypi/langgraph@1.0.5"
+    },
+    {
+      "type": "library",
+      "name": "langgraph-checkpoint",
+      "version": "3.0.1",
+      "purl": "pkg:pypi/langgraph-checkpoint@3.0.1",
+      "bom-ref": "pkg:pypi/langgraph-checkpoint@3.0.1"
+    },
+    {
+      "type": "library",
+      "name": "langgraph-prebuilt",
+      "version": "1.0.5",
+      "purl": "pkg:pypi/langgraph-prebuilt@1.0.5",
+      "bom-ref": "pkg:pypi/langgraph-prebuilt@1.0.5"
+    },
+    {
+      "type": "library",
+      "name": "langgraph-sdk",
+      "version": "0.3.1",
+      "purl": "pkg:pypi/langgraph-sdk@0.3.1",
+      "bom-ref": "pkg:pypi/langgraph-sdk@0.3.1"
+    },
+    {
+      "type": "library",
+      "name": "langsmith",
+      "version": "0.5.2",
+      "purl": "pkg:pypi/langsmith@0.5.2",
+      "bom-ref": "pkg:pypi/langsmith@0.5.2"
+    },
+    {
+      "type": "library",
+      "name": "orjson",
+      "version": "3.11.5",
+      "purl": "pkg:pypi/orjson@3.11.5",
+      "bom-ref": "pkg:pypi/orjson@3.11.5"
+    },
+    {
+      "type": "library",
+      "name": "ormsgpack",
+      "version": "1.12.1",
+      "purl": "pkg:pypi/ormsgpack@1.12.1",
+      "bom-ref": "pkg:pypi/ormsgpack@1.12.1"
+    },
+    {
+      "type": "library",
+      "name": "packaging",
+      "version": "25.0",
+      "purl": "pkg:pypi/packaging@25.0",
+      "bom-ref": "pkg:pypi/packaging@25.0"
+    },
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": "2.12.5",
+      "purl": "pkg:pypi/pydantic@2.12.5",
+      "bom-ref": "pkg:pypi/pydantic@2.12.5"
+    },
+    {
+      "type": "library",
+      "name": "pydantic-core",
+      "version": "2.41.5",
+      "purl": "pkg:pypi/pydantic-core@2.41.5",
+      "bom-ref": "pkg:pypi/pydantic-core@2.41.5"
+    },
+    {
+      "type": "library",
+      "name": "pyyaml",
+      "version": "6.0.3",
+      "purl": "pkg:pypi/pyyaml@6.0.3",
+      "bom-ref": "pkg:pypi/pyyaml@6.0.3"
+    },
+    {
+      "type": "library",
+      "name": "requests",
+      "version": "2.32.5",
+      "purl": "pkg:pypi/requests@2.32.5",
+      "bom-ref": "pkg:pypi/requests@2.32.5"
+    },
+    {
+      "type": "library",
+      "name": "requests-toolbelt",
+      "version": "1.0.0",
+      "purl": "pkg:pypi/requests-toolbelt@1.0.0",
+      "bom-ref": "pkg:pypi/requests-toolbelt@1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "tenacity",
+      "version": "9.1.2",
+      "purl": "pkg:pypi/tenacity@9.1.2",
+      "bom-ref": "pkg:pypi/tenacity@9.1.2"
+    },
+    {
+      "type": "library",
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "purl": "pkg:pypi/typing-extensions@4.15.0",
+      "bom-ref": "pkg:pypi/typing-extensions@4.15.0"
+    },
+    {
+      "type": "library",
+      "name": "typing-inspection",
+      "version": "0.4.2",
+      "purl": "pkg:pypi/typing-inspection@0.4.2",
+      "bom-ref": "pkg:pypi/typing-inspection@0.4.2"
+    },
+    {
+      "type": "library",
+      "name": "urllib3",
+      "version": "2.6.2",
+      "purl": "pkg:pypi/urllib3@2.6.2",
+      "bom-ref": "pkg:pypi/urllib3@2.6.2"
+    },
+    {
+      "type": "library",
+      "name": "uuid-utils",
+      "version": "0.12.0",
+      "purl": "pkg:pypi/uuid-utils@0.12.0",
+      "bom-ref": "pkg:pypi/uuid-utils@0.12.0"
+    },
+    {
+      "type": "library",
+      "name": "xxhash",
+      "version": "3.6.0",
+      "purl": "pkg:pypi/xxhash@3.6.0",
+      "bom-ref": "pkg:pypi/xxhash@3.6.0"
+    },
+    {
+      "type": "library",
+      "name": "zstandard",
+      "version": "0.25.0",
+      "purl": "pkg:pypi/zstandard@0.25.0",
+      "bom-ref": "pkg:pypi/zstandard@0.25.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "urn:sbom-benchmark:project:langchain",
+      "dependsOn": [
+        "pkg:pypi/langchain@1.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/annotated-types@0.7.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/anyio@4.12.0",
+      "dependsOn": [
+        "pkg:pypi/idna@3.11",
+        "pkg:pypi/typing-extensions@4.15.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/certifi@2025.11.12",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/charset-normalizer@3.4.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/h11@0.16.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/httpcore@1.0.9",
+      "dependsOn": [
+        "pkg:pypi/certifi@2025.11.12",
+        "pkg:pypi/h11@0.16.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/httpx@0.28.1",
+      "dependsOn": [
+        "pkg:pypi/anyio@4.12.0",
+        "pkg:pypi/certifi@2025.11.12",
+        "pkg:pypi/httpcore@1.0.9",
+        "pkg:pypi/idna@3.11"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/idna@3.11",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/jsonpatch@1.33",
+      "dependsOn": [
+        "pkg:pypi/jsonpointer@3.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/jsonpointer@3.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/langchain@1.2.0",
+      "dependsOn": [
+        "pkg:pypi/langchain-core@1.2.5",
+        "pkg:pypi/langgraph@1.0.5",
+        "pkg:pypi/pydantic@2.12.5"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/langchain-core@1.2.5",
+      "dependsOn": [
+        "pkg:pypi/jsonpatch@1.33",
+        "pkg:pypi/langsmith@0.5.2",
+        "pkg:pypi/packaging@25.0",
+        "pkg:pypi/pydantic@2.12.5",
+        "pkg:pypi/pyyaml@6.0.3",
+        "pkg:pypi/tenacity@9.1.2",
+        "pkg:pypi/typing-extensions@4.15.0",
+        "pkg:pypi/uuid-utils@0.12.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/langgraph@1.0.5",
+      "dependsOn": [
+        "pkg:pypi/langchain-core@1.2.5",
+        "pkg:pypi/langgraph-checkpoint@3.0.1",
+        "pkg:pypi/langgraph-prebuilt@1.0.5",
+        "pkg:pypi/langgraph-sdk@0.3.1",
+        "pkg:pypi/pydantic@2.12.5",
+        "pkg:pypi/xxhash@3.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/langgraph-checkpoint@3.0.1",
+      "dependsOn": [
+        "pkg:pypi/langchain-core@1.2.5",
+        "pkg:pypi/ormsgpack@1.12.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/langgraph-prebuilt@1.0.5",
+      "dependsOn": [
+        "pkg:pypi/langchain-core@1.2.5",
+        "pkg:pypi/langgraph-checkpoint@3.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/langgraph-sdk@0.3.1",
+      "dependsOn": [
+        "pkg:pypi/httpx@0.28.1",
+        "pkg:pypi/orjson@3.11.5"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/langsmith@0.5.2",
+      "dependsOn": [
+        "pkg:pypi/httpx@0.28.1",
+        "pkg:pypi/orjson@3.11.5",
+        "pkg:pypi/packaging@25.0",
+        "pkg:pypi/pydantic@2.12.5",
+        "pkg:pypi/requests-toolbelt@1.0.0",
+        "pkg:pypi/requests@2.32.5",
+        "pkg:pypi/uuid-utils@0.12.0",
+        "pkg:pypi/zstandard@0.25.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/orjson@3.11.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/ormsgpack@1.12.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/packaging@25.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pydantic@2.12.5",
+      "dependsOn": [
+        "pkg:pypi/annotated-types@0.7.0",
+        "pkg:pypi/pydantic-core@2.41.5",
+        "pkg:pypi/typing-extensions@4.15.0",
+        "pkg:pypi/typing-inspection@0.4.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pydantic-core@2.41.5",
+      "dependsOn": [
+        "pkg:pypi/typing-extensions@4.15.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pyyaml@6.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/requests@2.32.5",
+      "dependsOn": [
+        "pkg:pypi/certifi@2025.11.12",
+        "pkg:pypi/charset-normalizer@3.4.4",
+        "pkg:pypi/idna@3.11",
+        "pkg:pypi/urllib3@2.6.2"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/requests-toolbelt@1.0.0",
+      "dependsOn": [
+        "pkg:pypi/requests@2.32.5"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/tenacity@9.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/typing-extensions@4.15.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/typing-inspection@0.4.2",
+      "dependsOn": [
+        "pkg:pypi/typing-extensions@4.15.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/urllib3@2.6.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/uuid-utils@0.12.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/xxhash@3.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/zstandard@0.25.0",
+      "dependsOn": []
+    }
+  ]
+}

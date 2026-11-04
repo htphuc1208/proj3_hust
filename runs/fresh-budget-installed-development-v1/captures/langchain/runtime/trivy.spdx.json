@@ -1,0 +1,2654 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "/home/phucht/project/sbom_security_poc/runs/fresh-budget-installed-development-v1/captures/langchain/runtime/target",
+  "documentNamespace": "http://trivy.dev/filesystem//home/phucht/project/sbom_security_poc/runs/fresh-budget-installed-development-v1/captures/langchain/runtime/target-3619ff31-498f-4fc0-8b82-7caad16088d5",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.76.1"
+    ],
+    "created": "2026-11-04T09:42:06Z"
+  },
+  "packages": [
+    {
+      "name": "PyYAML",
+      "SPDXID": "SPDXRef-Package-d4eaf7933122bef3",
+      "versionInfo": "6.0.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "2a4304b02c69d147cefbd120c37dafbbf5f753c9"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pyyaml@6.0.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "annotated-types",
+      "SPDXID": "SPDXRef-Package-577495c8d8cf626e",
+      "versionInfo": "0.7.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "32cd49ffbb4675253c525b0fc243c89dc1f1ab34"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/annotated-types@0.7.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "anyio",
+      "SPDXID": "SPDXRef-Package-caadf1fef2f2c34f",
+      "versionInfo": "4.12.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "71c89f9de27c5db53001a64e671e9b81a56c838c"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/anyio@4.12.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "autocommand",
+      "SPDXID": "SPDXRef-Package-fd1526d91ffb9212",
+      "versionInfo": "2.2.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "84aa154c92574af0f7e81512a00cf2f45791984e"
+      },
+      "licenseConcluded": "LGPL-3.0-only",
+      "licenseDeclared": "LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/autocommand@2.2.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "backports.tarfile",
+      "SPDXID": "SPDXRef-Package-3bb118db983add2",
+      "versionInfo": "1.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "0a7daacb4eb53748625f28142bd1592e2ce97de3"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/backports.tarfile@1.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "certifi",
+      "SPDXID": "SPDXRef-Package-cf9861e81d629dad",
+      "versionInfo": "2025.11.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "a3a0501008531876d27496fd9658725f48ef58ef"
+      },
+      "licenseConcluded": "MPL-2.0",
+      "licenseDeclared": "MPL-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/certifi@2025.11.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "charset-normalizer",
+      "SPDXID": "SPDXRef-Package-4ca4ef5f6a1677c3",
+      "versionInfo": "3.4.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "efc35f4dc0a5913779f159ad5049166e5c2d166f"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/charset-normalizer@3.4.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "h11",
+      "SPDXID": "SPDXRef-Package-f6e648d81baaabce",
+      "versionInfo": "0.16.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "1cc37082000ebc82707fbec38ad1bdaf08002e30"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/h11@0.16.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "httpcore",
+      "SPDXID": "SPDXRef-Package-383d9fabaf380282",
+      "versionInfo": "1.0.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "b8b508d8f5203229201837390d96db7b7f8ff369"
+      },
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/httpcore@1.0.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "httpx",
+      "SPDXID": "SPDXRef-Package-a633eb42c883a7d8",
+      "versionInfo": "0.28.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "b7422482c72684a0e352141e8be1c930ba856ca0"
+      },
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/httpx@0.28.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "idna",
+      "SPDXID": "SPDXRef-Package-1cbdaed3530cb225",
+      "versionInfo": "3.11",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "d9ea4fd681847c2ac0d9dbadb38b490a29e79adb"
+      },
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/idna@3.11"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "importlib_metadata",
+      "SPDXID": "SPDXRef-Package-f64dc81817c9a7bd",
+      "versionInfo": "8.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "bede7d757fb26aa1cd466f6fa6fddfa358dcdc95"
+      },
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/importlib-metadata@8.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "inflect",
+      "SPDXID": "SPDXRef-Package-33fab7aa59e7f076",
+      "versionInfo": "7.3.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "29c0d12477d08c3c17fb1cc90c9582b799bcdc4c"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/inflect@7.3.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "jaraco.collections",
+      "SPDXID": "SPDXRef-Package-553d5c9ec5d2a1ce",
+      "versionInfo": "5.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "f597f9563eb1ee484981a8a7af6234ede9f3a34d"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/jaraco.collections@5.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "jaraco.context",
+      "SPDXID": "SPDXRef-Package-5c40e525687e5419",
+      "versionInfo": "5.3.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "e5bdb23e760ac64aed5f9241827d4f8c23c217ec"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/jaraco.context@5.3.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "jaraco.functools",
+      "SPDXID": "SPDXRef-Package-6fa006732bf6bbce",
+      "versionInfo": "4.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "45fda62e0bfa450f0e57229cd2112a1670e57b13"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/jaraco.functools@4.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "jaraco.text",
+      "SPDXID": "SPDXRef-Package-26c1fb56e679f9db",
+      "versionInfo": "3.12.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "d95c9e682497e0dc8e37b34400d9bd67659529e5"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/jaraco.text@3.12.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "jsonpatch",
+      "SPDXID": "SPDXRef-Package-386cda00ca0b3c1e",
+      "versionInfo": "1.33",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "1f7d5d8d3e83e5572127d261a0a6949206594d32"
+      },
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/jsonpatch@1.33"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "jsonpointer",
+      "SPDXID": "SPDXRef-Package-165690f1f0d63db9",
+      "versionInfo": "3.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "563de37450c84792f95172be7d9045822875f0b2"
+      },
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/jsonpointer@3.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "langchain",
+      "SPDXID": "SPDXRef-Package-143dea7815d2d825",
+      "versionInfo": "1.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "e067ce68e1d0a0d7c298e41ef47ee9a688a017cf"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/langchain@1.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "langchain-core",
+      "SPDXID": "SPDXRef-Package-d0653f9f3cbd81a9",
+      "versionInfo": "1.2.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "d2f7873262fdeb717baadd664f549c7926357d57"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/langchain-core@1.2.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "langgraph",
+      "SPDXID": "SPDXRef-Package-a5b18cde49fd7da0",
+      "versionInfo": "1.0.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "50434f3a37bd00bd19df5c6b4dca1c5d2118cfcc"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/langgraph@1.0.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "langgraph-checkpoint",
+      "SPDXID": "SPDXRef-Package-ad231b6183ff85f0",
+      "versionInfo": "3.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "ffa9597f07b789e0d24144f3b054c8f3e4367a37"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/langgraph-checkpoint@3.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "langgraph-prebuilt",
+      "SPDXID": "SPDXRef-Package-7e1503fabd20ae43",
+      "versionInfo": "1.0.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "2a8901a4d81f9968efe7c773908d0616a79e1066"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/langgraph-prebuilt@1.0.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "langgraph-sdk",
+      "SPDXID": "SPDXRef-Package-f625fd9be96e0835",
+      "versionInfo": "0.3.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "39c90d628ce264cfb6d851a0945bb5756373dc8d"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/langgraph-sdk@0.3.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "langsmith",
+      "SPDXID": "SPDXRef-Package-6d9b7c52e81a96f2",
+      "versionInfo": "0.5.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "dd08195c00876844261fc0d060c32ceda47d4ef8"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/langsmith@0.5.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "more-itertools",
+      "SPDXID": "SPDXRef-Package-ee5a2a875d6af900",
+      "versionInfo": "10.3.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "b23a8e3c9929f17c8ac7f6a20b12710f384d0076"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/more-itertools@10.3.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "my-test-package",
+      "SPDXID": "SPDXRef-Package-c040c7fb15f2d8b0",
+      "versionInfo": "1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "18032efae12d3ad43bf0383129765bf34f11c617"
+      },
+      "licenseConcluded": "LicenseRef-46a595249fa2fe46",
+      "licenseDeclared": "LicenseRef-46a595249fa2fe46",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/my-test-package@1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "my-test-package",
+      "SPDXID": "SPDXRef-Package-ecdf02fa51813d4a",
+      "versionInfo": "1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "18032efae12d3ad43bf0383129765bf34f11c617"
+      },
+      "licenseConcluded": "LicenseRef-46a595249fa2fe46",
+      "licenseDeclared": "LicenseRef-46a595249fa2fe46",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/my-test-package@1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "orjson",
+      "SPDXID": "SPDXRef-Package-8d94cf3df7d31af9",
+      "versionInfo": "3.11.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "8287149a32e4d956aa73ad5ed2c57c36a2a3e7e8"
+      },
+      "licenseConcluded": "Apache-2.0 OR MIT",
+      "licenseDeclared": "Apache-2.0 OR MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/orjson@3.11.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "ormsgpack",
+      "SPDXID": "SPDXRef-Package-28f6401766a54de1",
+      "versionInfo": "1.12.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "778504d962109435783e555cc78b6cc43884942a"
+      },
+      "licenseConcluded": "Apache-2.0 OR MIT",
+      "licenseDeclared": "Apache-2.0 OR MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/ormsgpack@1.12.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "packaging",
+      "SPDXID": "SPDXRef-Package-328d1bf49c238782",
+      "versionInfo": "24.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "8c63ad831bd334d29757898e13176bcba128ad22"
+      },
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause",
+      "licenseDeclared": "Apache-2.0 AND BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/packaging@24.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "packaging",
+      "SPDXID": "SPDXRef-Package-fbc545413fccb8cf",
+      "versionInfo": "25.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "614b2357eda5e1199f499d42bd862d6798858abc"
+      },
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause",
+      "licenseDeclared": "Apache-2.0 AND BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/packaging@25.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "pip",
+      "SPDXID": "SPDXRef-Package-22d59491cf2caaa",
+      "versionInfo": "24.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "e874918818c07496f2c1a84645a590ad7c392687"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pip@24.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "platformdirs",
+      "SPDXID": "SPDXRef-Package-cd415fbeefb0db61",
+      "versionInfo": "4.2.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "abcdf264279ac0fb4fd11b8627aaf2f8adf14b4d"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/platformdirs@4.2.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "pydantic",
+      "SPDXID": "SPDXRef-Package-7a030dafd8cc7435",
+      "versionInfo": "2.12.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "95e38e69aa90def55af3a065586c99e6035c34da"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pydantic@2.12.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "pydantic_core",
+      "SPDXID": "SPDXRef-Package-1a27f0d8c9920bfd",
+      "versionInfo": "2.41.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "329ab4add62a560f441951efa86574d7f57299b7"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pydantic-core@2.41.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "requests",
+      "SPDXID": "SPDXRef-Package-34f215b8c5d150ca",
+      "versionInfo": "2.32.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "269b0a32b48643842e442cc0d21a36089ac9f2c5"
+      },
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/requests@2.32.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "requests-toolbelt",
+      "SPDXID": "SPDXRef-Package-6390c5f57938b705",
+      "versionInfo": "1.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "115ed70cb10476b04c8caa98395a4c38eec6f044"
+      },
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/requests-toolbelt@1.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "setuptools",
+      "SPDXID": "SPDXRef-Package-de46300035974795",
+      "versionInfo": "79.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "a251f24393e1ea8b91ffc74377e541d28ff1fc8c"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/setuptools@79.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "tenacity",
+      "SPDXID": "SPDXRef-Package-bfddecc221eb805",
+      "versionInfo": "9.1.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "be6d6c9df31d8daaa2de4c940e41be0d32752861"
+      },
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/tenacity@9.1.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "tomli",
+      "SPDXID": "SPDXRef-Package-eccd5627af4d8b30",
+      "versionInfo": "2.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "e8553309650aa0d81b84038af7b0bf511d9d5fa2"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/tomli@2.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "typeguard",
+      "SPDXID": "SPDXRef-Package-620be72fd1bbb9e8",
+      "versionInfo": "4.3.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "fa5da4cbc08c25d4f52083f30a3a2aa709758f5f"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/typeguard@4.3.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "typing-inspection",
+      "SPDXID": "SPDXRef-Package-8cdeb2071014fc80",
+      "versionInfo": "0.4.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "b96993b5f25bd0fc2f995b0fdd679e23eae08790"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/typing-inspection@0.4.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "typing_extensions",
+      "SPDXID": "SPDXRef-Package-1ba9447df94ec246",
+      "versionInfo": "4.12.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "70adbbc6fe02a1ad8d36c4eb2a077497e1a796b4"
+      },
+      "licenseConcluded": "LicenseRef-920c4f77f417c952",
+      "licenseDeclared": "LicenseRef-920c4f77f417c952",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/typing-extensions@4.12.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "typing_extensions",
+      "SPDXID": "SPDXRef-Package-e2a7927c3033d596",
+      "versionInfo": "4.15.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "cd0846ffc03c7265e13b6712a006e9f9f9928795"
+      },
+      "licenseConcluded": "PSF-2.0",
+      "licenseDeclared": "PSF-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/typing-extensions@4.15.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "urllib3",
+      "SPDXID": "SPDXRef-Package-ffce113f4708597e",
+      "versionInfo": "2.6.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "083c77f8329ae245dba40244173eafa8242161a1"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/urllib3@2.6.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "uuid_utils",
+      "SPDXID": "SPDXRef-Package-ab6372b747707ed9",
+      "versionInfo": "0.12.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "ccc2b39c4c6724d65f032f35bcfaf5f720a40930"
+      },
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/uuid-utils@0.12.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "wheel",
+      "SPDXID": "SPDXRef-Package-2a28a93ed53c7517",
+      "versionInfo": "0.45.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "809f079188bb8e58eb4a018c4b2ff3baecb64f96"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/wheel@0.45.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "xxhash",
+      "SPDXID": "SPDXRef-Package-bcb3cd12ba1877f3",
+      "versionInfo": "3.6.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "e3d771ba4db6deadcd046c0c7efa7d98080f37cb"
+      },
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/xxhash@3.6.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "zipp",
+      "SPDXID": "SPDXRef-Package-2b0ff357bb4b03e3",
+      "versionInfo": "3.19.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "3edf3cfcfdfc9855ec8c9258260871a630a40e01"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/zipp@3.19.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "zstandard",
+      "SPDXID": "SPDXRef-Package-be2646ff90c5a6",
+      "versionInfo": "0.25.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "351afb9616029415bda48abbd60614998e0c72d8"
+      },
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/zstandard@0.25.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "/home/phucht/project/sbom_security_poc/runs/fresh-budget-installed-development-v1/captures/langchain/runtime/target",
+      "SPDXID": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.76.1",
+          "annotationDate": "2026-11-04T09:42:06Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "lib/python3.11/site-packages/annotated_types-0.7.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-7184c033d7f1462e",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b11011181822ac765c9f66c8aa42c26952de6a96"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/anyio-4.12.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-41f2b87ae6063400",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "348a01e92af3d4fd3bdbd7716b8905437710c7e3"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/certifi-2025.11.12.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-b2ef890a29139b9f",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "baf4c39c1362c14bcc8f1e7cae6c52239b3039b0"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/charset_normalizer-3.4.4.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-467c878789c9364",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b4512da50486c7909da3992f8d8b67052b9fc03e"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/h11-0.16.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-4abfebc1e6873470",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5d41eddffefef5f6e8ff383a2537e81a38a37807"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/httpcore-1.0.9.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-67b24259a98dc864",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2981d359ae33f31d339189a9680db85785339a56"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/httpx-0.28.1.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-ca19dd593d30814",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "537da7e4f29438278e124e10e02d1a500fe33bcc"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/idna-3.11.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-954f29fd0dc854a8",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5e73674d19cce0601253436a2e5544abe09b9bc3"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/jsonpatch-1.33.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-5b8b8938df398044",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "131ae6bbcffa5e8851b1005b1bfb7ef3d4b75453"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/jsonpointer-3.0.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-b62deb5fda7768d3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3ccff0a83db2b5fd282093566871ea8944637e33"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/langchain-1.2.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-c9e73c1f488f8171",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3d45691d019aea2447446a1036250080e5dd1727"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/langchain_core-1.2.5.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-62833c752f7a4ea4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "94825a5d78da47568a9bae1180d0f417b7192cba"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/langgraph-1.0.5.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-1a707a8585aee935",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ada1a89bd61f8ac1fefb339d12ac2ea36c63b003"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/langgraph_checkpoint-3.0.1.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-931f66ef4ee1106a",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2a9216fcf7c2b86f77313965e7d85b2d8df81ddc"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/langgraph_prebuilt-1.0.5.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-8a919f05e69aca8d",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "464b297e6e7ff3cd2e36dac5c653365b4c0711ed"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/langgraph_sdk-0.3.1.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-b5c9062f176432d8",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "45deb9dc0db6c407abe6da9929a0983d9bd1871b"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/langsmith-0.5.2.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-cdcf5b450284ea9b",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "de9c365c6cb027c0e441efb5dcff2b1e7a060293"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/orjson-3.11.5.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-85e3f01e1866028c",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7424cb2d537290dd9196a2dc760d8533ccc90617"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/ormsgpack-1.12.1.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-a7f45c0cdd736625",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b67ff497ce2c3ae72e35b6409db94c0f11735f32"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/packaging-25.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-568fac08b37c546b",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "32af9c5aa394de56998fdd07d63bc6eda82d983b"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-df3972ecbe5783ce",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5b3d7ef78029003d983670a820dcf068fde4c0c0"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/pkg_resources/tests/data/my-test-package_unpacked-egg/my_test_package-1.0-py3.7.egg/EGG-INFO/PKG-INFO",
+      "SPDXID": "SPDXRef-File-983d8599c93af122",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6d7a67c18613be4b255812111b4619de979abc28"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/pkg_resources/tests/data/my-test-package_zipped-egg/my_test_package-1.0-py3.7.egg",
+      "SPDXID": "SPDXRef-File-4a3b6489ed06bd06",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6d7a67c18613be4b255812111b4619de979abc28"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/pydantic-2.12.5.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-3dadc7a54e060193",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "83683052da3c86191d3ce41d60fa7f9780cf0478"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/pydantic_core-2.41.5.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-98a429ab1a782d83",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "07d49fc75e0fd822fcc2719c0bbece0049fba67a"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/pyyaml-6.0.3.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-68ede7a4cb4a27b0",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3be76483e6df5a4f8f8be5eaedfb8d7f40678c48"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/requests-2.32.5.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-3798b319788a0ddd",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ca17920e69f3c7103322151275139cf487e4da08"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/requests_toolbelt-1.0.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-adbe959ea6409dc6",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "171fbbc84e8b7216e237b702f3fda539ffb1e487"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-ee1dfb9fe52ac500",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4fb88a3c602a0a0f2665a362837a93973e48ab41"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-4b5b7a82488458f6",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4310db58f98c12b23286e5fa37f0e27abefb6a4a"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-10e7313ad519b6f7",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3dd8d93cf7695d1c9d7574751ab5b0dee5dd7f9a"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-34e699c73a5af6a4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e8c830d8b0942300c7c87b3b8fd15ea1396e07bd"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-ec9c7dc6a1be2938",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c37042adc0d1270485f4b8b5b9e085a274dc035b"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-434ba53a9dc8af79",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ac0db25aefd2679b4c3265e713d00f6155a94465"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-3aa78ad33c0ef991",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ac9c92013b2f0fc65d741b32a9fe4b956dd6eb7d"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-c061f6456198847e",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b7a18f079de22d10c4c318e54bd8c48177f91333"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-adbaea5054e797b8",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a7763789fa56cebbaa849368faac7d386f170399"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/setuptools/_vendor/more_itertools-10.3.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-e665c4493bdd194f",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ffccec7fd799cc4ab07530954fef3be2472e2c23"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/setuptools/_vendor/packaging-24.2.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-690b66a9f033898d",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "292b8d19cdc308e072817b6407cac3cb5175a060"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/setuptools/_vendor/platformdirs-4.2.2.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-7074875bd6f33c1b",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1ac8a3679afcfeec0ba00851f5f8095dd1b060cd"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-1c1097007cc3596e",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d3ea3bda227794ae35fe7ffc5bd6e5fa2a5ef250"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-9355a95e37bca5dc",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9a94672ccfea06156a5f8a321cd0626cfd233ae8"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-b3b989b8bf6a6a25",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b6ada54b9516d20b69a5dd5cded868da22c5e252"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-6202f604d3658a5f",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6240a67a4c1cb1501e12755e659b71f8d78e2260"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-76570fc8211ac6ee",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c53b0e6a2e3d94093e2fe4978926a7439b47d43c"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/tenacity-9.1.2.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-3a7197d9b2894a74",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1d62004a0815e37960fea3a740b46f90fa26f925"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/typing_extensions-4.15.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-90c94d7a02f20ef9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c5c2ce18351f8f2ae0f4a6f7c84c523f342010ee"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/typing_inspection-0.4.2.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-1ba474215e7067b5",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "455fdb9c8e246ba02c2a28655287401b62028b60"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/urllib3-2.6.2.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-72c0ea1b87e86ef2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "175539307e9e70101ddcbf34ee2b42d891276d6b"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/uuid_utils-0.12.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-94f7561306f2fe63",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ed84f569dd7b83ca76ce8a0423a2113c07352e8f"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/xxhash-3.6.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-cb9096e493b4c764",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "67f48de25bca2a1af28a0cb88d797884a31d1fc7"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "lib/python3.11/site-packages/zstandard-0.25.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-2951838eefb26e71",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "484dc99729e86de90d5f1d973e5a55d2feee32be"
+        }
+      ],
+      "copyrightText": ""
+    }
+  ],
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-46a595249fa2fe46",
+      "extractedText": "This component is licensed under \"UNKNOWN\"",
+      "name": "UNKNOWN"
+    },
+    {
+      "licenseId": "LicenseRef-920c4f77f417c952",
+      "extractedText": "This component is licensed under \"Python-Software-Foundation-License\"",
+      "name": "Python-Software-Foundation-License"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-143dea7815d2d825",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-165690f1f0d63db9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-1a27f0d8c9920bfd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-1ba9447df94ec246",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-1cbdaed3530cb225",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-22d59491cf2caaa",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-26c1fb56e679f9db",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-28f6401766a54de1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-2a28a93ed53c7517",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-2b0ff357bb4b03e3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-328d1bf49c238782",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-33fab7aa59e7f076",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-34f215b8c5d150ca",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-383d9fabaf380282",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-386cda00ca0b3c1e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-3bb118db983add2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-4ca4ef5f6a1677c3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-553d5c9ec5d2a1ce",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-577495c8d8cf626e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-5c40e525687e5419",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-620be72fd1bbb9e8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-6390c5f57938b705",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-6d9b7c52e81a96f2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-6fa006732bf6bbce",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-7a030dafd8cc7435",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-7e1503fabd20ae43",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-8cdeb2071014fc80",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-8d94cf3df7d31af9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-a5b18cde49fd7da0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-a633eb42c883a7d8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-ab6372b747707ed9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-ad231b6183ff85f0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-bcb3cd12ba1877f3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-be2646ff90c5a6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-bfddecc221eb805",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-c040c7fb15f2d8b0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-caadf1fef2f2c34f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-cd415fbeefb0db61",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-cf9861e81d629dad",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-d0653f9f3cbd81a9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-d4eaf7933122bef3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-de46300035974795",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-e2a7927c3033d596",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-eccd5627af4d8b30",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-ecdf02fa51813d4a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-ee5a2a875d6af900",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-f625fd9be96e0835",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-f64dc81817c9a7bd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-f6e648d81baaabce",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-fbc545413fccb8cf",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-fd1526d91ffb9212",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-27c9c83b3cba71e0",
+      "relatedSpdxElement": "SPDXRef-Package-ffce113f4708597e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-143dea7815d2d825",
+      "relatedSpdxElement": "SPDXRef-File-c9e73c1f488f8171",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-165690f1f0d63db9",
+      "relatedSpdxElement": "SPDXRef-File-b62deb5fda7768d3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1a27f0d8c9920bfd",
+      "relatedSpdxElement": "SPDXRef-File-98a429ab1a782d83",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1ba9447df94ec246",
+      "relatedSpdxElement": "SPDXRef-File-b3b989b8bf6a6a25",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1cbdaed3530cb225",
+      "relatedSpdxElement": "SPDXRef-File-954f29fd0dc854a8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-22d59491cf2caaa",
+      "relatedSpdxElement": "SPDXRef-File-df3972ecbe5783ce",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-26c1fb56e679f9db",
+      "relatedSpdxElement": "SPDXRef-File-adbaea5054e797b8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-28f6401766a54de1",
+      "relatedSpdxElement": "SPDXRef-File-a7f45c0cdd736625",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2a28a93ed53c7517",
+      "relatedSpdxElement": "SPDXRef-File-6202f604d3658a5f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2b0ff357bb4b03e3",
+      "relatedSpdxElement": "SPDXRef-File-76570fc8211ac6ee",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-328d1bf49c238782",
+      "relatedSpdxElement": "SPDXRef-File-690b66a9f033898d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-33fab7aa59e7f076",
+      "relatedSpdxElement": "SPDXRef-File-ec9c7dc6a1be2938",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-34f215b8c5d150ca",
+      "relatedSpdxElement": "SPDXRef-File-3798b319788a0ddd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-383d9fabaf380282",
+      "relatedSpdxElement": "SPDXRef-File-67b24259a98dc864",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-386cda00ca0b3c1e",
+      "relatedSpdxElement": "SPDXRef-File-5b8b8938df398044",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3bb118db983add2",
+      "relatedSpdxElement": "SPDXRef-File-10e7313ad519b6f7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4ca4ef5f6a1677c3",
+      "relatedSpdxElement": "SPDXRef-File-467c878789c9364",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-553d5c9ec5d2a1ce",
+      "relatedSpdxElement": "SPDXRef-File-434ba53a9dc8af79",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-577495c8d8cf626e",
+      "relatedSpdxElement": "SPDXRef-File-7184c033d7f1462e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5c40e525687e5419",
+      "relatedSpdxElement": "SPDXRef-File-3aa78ad33c0ef991",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-620be72fd1bbb9e8",
+      "relatedSpdxElement": "SPDXRef-File-9355a95e37bca5dc",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6390c5f57938b705",
+      "relatedSpdxElement": "SPDXRef-File-adbe959ea6409dc6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6d9b7c52e81a96f2",
+      "relatedSpdxElement": "SPDXRef-File-cdcf5b450284ea9b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6fa006732bf6bbce",
+      "relatedSpdxElement": "SPDXRef-File-c061f6456198847e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7a030dafd8cc7435",
+      "relatedSpdxElement": "SPDXRef-File-3dadc7a54e060193",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7e1503fabd20ae43",
+      "relatedSpdxElement": "SPDXRef-File-8a919f05e69aca8d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8cdeb2071014fc80",
+      "relatedSpdxElement": "SPDXRef-File-1ba474215e7067b5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8d94cf3df7d31af9",
+      "relatedSpdxElement": "SPDXRef-File-85e3f01e1866028c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a5b18cde49fd7da0",
+      "relatedSpdxElement": "SPDXRef-File-1a707a8585aee935",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a633eb42c883a7d8",
+      "relatedSpdxElement": "SPDXRef-File-ca19dd593d30814",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ab6372b747707ed9",
+      "relatedSpdxElement": "SPDXRef-File-94f7561306f2fe63",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ad231b6183ff85f0",
+      "relatedSpdxElement": "SPDXRef-File-931f66ef4ee1106a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bcb3cd12ba1877f3",
+      "relatedSpdxElement": "SPDXRef-File-cb9096e493b4c764",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-be2646ff90c5a6",
+      "relatedSpdxElement": "SPDXRef-File-2951838eefb26e71",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bfddecc221eb805",
+      "relatedSpdxElement": "SPDXRef-File-3a7197d9b2894a74",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c040c7fb15f2d8b0",
+      "relatedSpdxElement": "SPDXRef-File-4a3b6489ed06bd06",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-caadf1fef2f2c34f",
+      "relatedSpdxElement": "SPDXRef-File-41f2b87ae6063400",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cd415fbeefb0db61",
+      "relatedSpdxElement": "SPDXRef-File-7074875bd6f33c1b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cf9861e81d629dad",
+      "relatedSpdxElement": "SPDXRef-File-b2ef890a29139b9f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d0653f9f3cbd81a9",
+      "relatedSpdxElement": "SPDXRef-File-62833c752f7a4ea4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d4eaf7933122bef3",
+      "relatedSpdxElement": "SPDXRef-File-68ede7a4cb4a27b0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-de46300035974795",
+      "relatedSpdxElement": "SPDXRef-File-ee1dfb9fe52ac500",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e2a7927c3033d596",
+      "relatedSpdxElement": "SPDXRef-File-90c94d7a02f20ef9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-eccd5627af4d8b30",
+      "relatedSpdxElement": "SPDXRef-File-1c1097007cc3596e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ecdf02fa51813d4a",
+      "relatedSpdxElement": "SPDXRef-File-983d8599c93af122",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ee5a2a875d6af900",
+      "relatedSpdxElement": "SPDXRef-File-e665c4493bdd194f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f625fd9be96e0835",
+      "relatedSpdxElement": "SPDXRef-File-b5c9062f176432d8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f64dc81817c9a7bd",
+      "relatedSpdxElement": "SPDXRef-File-34e699c73a5af6a4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f6e648d81baaabce",
+      "relatedSpdxElement": "SPDXRef-File-4abfebc1e6873470",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-fbc545413fccb8cf",
+      "relatedSpdxElement": "SPDXRef-File-568fac08b37c546b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-fd1526d91ffb9212",
+      "relatedSpdxElement": "SPDXRef-File-4b5b7a82488458f6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ffce113f4708597e",
+      "relatedSpdxElement": "SPDXRef-File-72c0ea1b87e86ef2",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

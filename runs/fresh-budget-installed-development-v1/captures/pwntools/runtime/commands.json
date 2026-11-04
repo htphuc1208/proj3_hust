@@ -1,0 +1,37 @@
+[
+  {
+    "stage": "lock",
+    "command": [
+      "/tools/uv",
+      "pip",
+      "compile",
+      "/out/root.in",
+      "--python",
+      "/usr/local/bin/python",
+      "--exclude-newer",
+      "2025-12-31T23:59:59Z",
+      "--generate-hashes",
+      "--only-binary",
+      ":all:",
+      "--default-index",
+      "https://pypi.org/simple",
+      "--cache-dir",
+      "/cache/uv",
+      "-o",
+      "/out/requirements.lock"
+    ],
+    "exit_code": 0,
+    "seconds": 3.9641912250008318
+  },
+  {
+    "stage": "venv",
+    "command": [
+      "/usr/local/bin/python",
+      "-m",
+      "venv",
+      "/out/target"
+    ],
+    "exit_code": 0,
+    "seconds": 9.594965297001181
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "finished": 80,
+  "status_counts": {
+    "EXECUTION_FAILED": 2,
+    "RESOLUTION_FAILED": 9,
+    "RESOLVED": 69
+  },
+  "total": 80
+}

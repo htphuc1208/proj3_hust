@@ -1,0 +1,610 @@
+{
+  "advisory_file_sha256": "24925a2f6d0127768810e477e2bc9ac5c657f3b2fdf1c7ac956c1b4989d91bc7",
+  "candidate_native_valid": true,
+  "false_assurance_reduction": null,
+  "path_absence_status": "UNKNOWN",
+  "prediction_seal_sha256": "ec9e2c481e699ed8783485702e7d2f57de513bcbc20db7b7d6ccb83b9c01668f",
+  "records": [
+    {
+      "advisory_id": null,
+      "advisory_lookup": "UNKNOWN_NOT_QUERIED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/autocommand@2.2.2"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "NO_MATCH_IN_SNAPSHOT",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/backports-tarfile@1.2.0"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "NO_MATCH_IN_SNAPSHOT",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": [
+        "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+        "SPDXRef-Package-python-click-8c3e7e30488f8d69"
+      ],
+      "changed_path_requires_review": false,
+      "evidence_level": 1,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": [
+        "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+        "SPDXRef-Package-python-click-8c3e7e30488f8d69"
+      ],
+      "openvex_status": "under_investigation",
+      "path_status": "OBSERVED_DECLARED_PATH",
+      "purl": "pkg:pypi/click@8.3.1"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "UNKNOWN_NOT_QUERIED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/importlib-metadata@8.0.0"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "UNKNOWN_NOT_QUERIED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/inflect@7.3.1"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "UNKNOWN_NOT_QUERIED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/jaraco-collections@5.1.0"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "UNKNOWN_NOT_QUERIED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/jaraco-context@5.3.0"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "UNKNOWN_NOT_QUERIED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/jaraco-functools@4.0.1"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "UNKNOWN_NOT_QUERIED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/jaraco-text@3.12.1"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "NO_MATCH_IN_SNAPSHOT",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": [
+        "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+        "SPDXRef-Package-python-rich-ef099acec8b51839",
+        "SPDXRef-Package-python-markdown-it-py-d5e9abae35a079fb"
+      ],
+      "changed_path_requires_review": false,
+      "evidence_level": 1,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": [
+        "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+        "SPDXRef-Package-python-rich-ef099acec8b51839",
+        "SPDXRef-Package-python-markdown-it-py-d5e9abae35a079fb"
+      ],
+      "openvex_status": "under_investigation",
+      "path_status": "OBSERVED_DECLARED_PATH",
+      "purl": "pkg:pypi/markdown-it-py@4.0.0"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "NO_MATCH_IN_SNAPSHOT",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": [
+        "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+        "SPDXRef-Package-python-rich-ef099acec8b51839",
+        "SPDXRef-Package-python-markdown-it-py-d5e9abae35a079fb",
+        "SPDXRef-Package-python-mdurl-26d050530dc468cf"
+      ],
+      "changed_path_requires_review": false,
+      "evidence_level": 1,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": [
+        "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+        "SPDXRef-Package-python-rich-ef099acec8b51839",
+        "SPDXRef-Package-python-markdown-it-py-d5e9abae35a079fb",
+        "SPDXRef-Package-python-mdurl-26d050530dc468cf"
+      ],
+      "openvex_status": "under_investigation",
+      "path_status": "OBSERVED_DECLARED_PATH",
+      "purl": "pkg:pypi/mdurl@0.1.2"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "UNKNOWN_NOT_QUERIED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/more-itertools@10.3.0"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "UNKNOWN_NOT_QUERIED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/my-test-package@1.0"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "UNKNOWN_NOT_QUERIED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/packaging@24.2"
+    },
+    {
+      "advisory_id": "GHSA-4xh5-x5gv-qwph",
+      "advisory_lookup": "MATCHED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/pip@24.0"
+    },
+    {
+      "advisory_id": "GHSA-58qw-9mgm-455v",
+      "advisory_lookup": "MATCHED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/pip@24.0"
+    },
+    {
+      "advisory_id": "GHSA-6vgw-5pg2-w6jp",
+      "advisory_lookup": "MATCHED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/pip@24.0"
+    },
+    {
+      "advisory_id": "GHSA-jp4c-xjxw-mgf9",
+      "advisory_lookup": "MATCHED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/pip@24.0"
+    },
+    {
+      "advisory_id": "GHSA-qwm4-qh6w-59xr",
+      "advisory_lookup": "MATCHED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/pip@24.0"
+    },
+    {
+      "advisory_id": "GHSA-wf93-45jw-7689",
+      "advisory_lookup": "MATCHED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/pip@24.0"
+    },
+    {
+      "advisory_id": "PYSEC-2026-1795",
+      "advisory_lookup": "MATCHED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/pip@24.0"
+    },
+    {
+      "advisory_id": "PYSEC-2026-1796",
+      "advisory_lookup": "MATCHED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/pip@24.0"
+    },
+    {
+      "advisory_id": "PYSEC-2026-196",
+      "advisory_lookup": "MATCHED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/pip@24.0"
+    },
+    {
+      "advisory_id": "PYSEC-2026-2875",
+      "advisory_lookup": "MATCHED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/pip@24.0"
+    },
+    {
+      "advisory_id": "PYSEC-2026-2876",
+      "advisory_lookup": "MATCHED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/pip@24.0"
+    },
+    {
+      "advisory_id": "PYSEC-2026-3721",
+      "advisory_lookup": "MATCHED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/pip@24.0"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "UNKNOWN_NOT_QUERIED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/platformdirs@4.2.2"
+    },
+    {
+      "advisory_id": "GHSA-5239-wwwm-4pmq",
+      "advisory_lookup": "MATCHED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": [
+        "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+        "SPDXRef-Package-python-rich-ef099acec8b51839",
+        "SPDXRef-Package-python-pygments-dd5930d75cf96b88"
+      ],
+      "changed_path_requires_review": false,
+      "evidence_level": 1,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": [
+        "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+        "SPDXRef-Package-python-rich-ef099acec8b51839",
+        "SPDXRef-Package-python-pygments-dd5930d75cf96b88"
+      ],
+      "openvex_status": "under_investigation",
+      "path_status": "OBSERVED_DECLARED_PATH",
+      "purl": "pkg:pypi/pygments@2.19.2"
+    },
+    {
+      "advisory_id": "PYSEC-2026-2987",
+      "advisory_lookup": "MATCHED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": [
+        "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+        "SPDXRef-Package-python-rich-ef099acec8b51839",
+        "SPDXRef-Package-python-pygments-dd5930d75cf96b88"
+      ],
+      "changed_path_requires_review": false,
+      "evidence_level": 1,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": [
+        "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+        "SPDXRef-Package-python-rich-ef099acec8b51839",
+        "SPDXRef-Package-python-pygments-dd5930d75cf96b88"
+      ],
+      "openvex_status": "under_investigation",
+      "path_status": "OBSERVED_DECLARED_PATH",
+      "purl": "pkg:pypi/pygments@2.19.2"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "NO_MATCH_IN_SNAPSHOT",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": [
+        "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+        "SPDXRef-Package-python-rich-ef099acec8b51839"
+      ],
+      "changed_path_requires_review": false,
+      "evidence_level": 1,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": [
+        "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+        "SPDXRef-Package-python-rich-ef099acec8b51839"
+      ],
+      "openvex_status": "under_investigation",
+      "path_status": "OBSERVED_DECLARED_PATH",
+      "purl": "pkg:pypi/rich@14.2.0"
+    },
+    {
+      "advisory_id": "GHSA-h35f-9h28-mq5c",
+      "advisory_lookup": "MATCHED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/setuptools@79.0.1"
+    },
+    {
+      "advisory_id": "GHSA-xmj3-9gf7-h52w",
+      "advisory_lookup": "MATCHED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/setuptools@79.0.1"
+    },
+    {
+      "advisory_id": "PYSEC-2026-3447",
+      "advisory_lookup": "MATCHED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/setuptools@79.0.1"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "NO_MATCH_IN_SNAPSHOT",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": [
+        "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+        "SPDXRef-Package-python-shellingham-8e45d048d30793e5"
+      ],
+      "changed_path_requires_review": false,
+      "evidence_level": 1,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": [
+        "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+        "SPDXRef-Package-python-shellingham-8e45d048d30793e5"
+      ],
+      "openvex_status": "under_investigation",
+      "path_status": "OBSERVED_DECLARED_PATH",
+      "purl": "pkg:pypi/shellingham@1.5.4"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "UNKNOWN_NOT_QUERIED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/tomli@2.0.1"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "UNKNOWN_NOT_QUERIED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/typeguard@4.3.0"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "NO_MATCH_IN_SNAPSHOT",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": [
+        "SPDXRef-Package-python-typer-8fb13510b8d9ceb3"
+      ],
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": [
+        "SPDXRef-Package-python-typer-8fb13510b8d9ceb3"
+      ],
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/typer@0.21.0"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "UNKNOWN_NOT_QUERIED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": [
+        "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+        "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+      ],
+      "changed_path_requires_review": false,
+      "evidence_level": 1,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": [
+        "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+        "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+      ],
+      "openvex_status": "under_investigation",
+      "path_status": "OBSERVED_DECLARED_PATH",
+      "purl": "pkg:pypi/typing-extensions@4.12.2"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "NO_MATCH_IN_SNAPSHOT",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/typing-extensions@4.15.0"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "UNKNOWN_NOT_QUERIED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/wheel@0.45.1"
+    },
+    {
+      "advisory_id": null,
+      "advisory_lookup": "UNKNOWN_NOT_QUERIED",
+      "artifact_inclusion": "UNVERIFIED",
+      "candidate_path_refs": null,
+      "changed_path_requires_review": false,
+      "evidence_level": 0,
+      "exploitability": "UNKNOWN",
+      "observed_path_refs": null,
+      "openvex_status": "under_investigation",
+      "path_status": "UNKNOWN",
+      "purl": "pkg:pypi/zipp@3.19.2"
+    }
+  ],
+  "schema_version": "candidate-risk-v1",
+  "scope": "Package/advisory visibility and declared candidate paths; no product impact or exploitability assertion",
+  "snapshot_assessment": "RETROSPECTIVE_CURRENT_KNOWLEDGE",
+  "snapshot_sha256": "9aeacb7c5bd2312dbaddfececc7dfd91722e9e683cf46f9edb3affcc9228974b",
+  "triage_delta": null,
+  "vrr": null
+}

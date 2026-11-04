@@ -1,0 +1,15 @@
+{
+  "active_extras": [],
+  "evidence_cutoff": "2026-10-28T17:04:12.712426Z",
+  "extras_by_purl": {},
+  "os_name": "posix",
+  "platform_machine": "x86_64",
+  "platform_system": "Linux",
+  "python_full_version": "3.11.16",
+  "python_version": "3.11",
+  "root_purls": [
+    "pkg:pypi/requests@2.32.5"
+  ],
+  "sys_platform": "linux",
+  "target_id": "07aea7b2ff54bd849c28df69f9f3aa33c31d802141aacd585a23421bc31f8ffd"
+}

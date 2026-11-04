@@ -1,0 +1,35 @@
+{
+  "hint_scope": "Observed filename hints only; no parsed identities, requirements or reference membership",
+  "schema_version": "budget-source-catalog-v1",
+  "sha256": "42ba6aae43b0c345f150cd051aebd9d6f5140e29fd80b5094050869b3429eedf",
+  "sources": [
+    {
+      "available_at": "2026-10-28T17:05:46.800554Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "name_hint": "pip",
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "9e402bb4a85e2092ca49c18ae3bfd7191b70f26d08220ad227a81bf7965a6b5d"
+    },
+    {
+      "available_at": "2026-10-28T17:05:46.800554Z",
+      "bytes": 16984,
+      "kind": "installed_metadata",
+      "name_hint": "pypandoc",
+      "path": "lib/python3.11/site-packages/pypandoc-1.16.2.dist-info/METADATA",
+      "sha256": "540087ed6d5b208e9ee835964dad9e5e7298e7f149a7754b94e886af14b31066",
+      "source_id": "3d11cb7538e834ebd404a043215d23a7d702bc30f40dd6b514031772efa910dd"
+    },
+    {
+      "available_at": "2026-10-28T17:05:46.800554Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "name_hint": "setuptools",
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "fcca6219ac4e464edce1fb47755fca5da3f471016938d733eb40968dc055ce63"
+    }
+  ],
+  "target_id": "f74b2cbbb3b47c00b7f99f97a86b903e376a9c5d3ae27a4abeb9d195ba1c79ee"
+}

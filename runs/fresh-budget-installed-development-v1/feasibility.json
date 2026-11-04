@@ -1,0 +1,125 @@
+{
+  "attempted_builds": 14,
+  "family_verification": "PENDING",
+  "final_cohort": false,
+  "limitation": "Prescreen measures only the declared resolution prefix; lock-pin counts are not actual source counts",
+  "model_calls": 0,
+  "predictions_run": false,
+  "records": [
+    {
+      "build_status": "FAILED",
+      "capture_manifest_sha256": "a9f79469b2ca0c1e121fee04a3f84a38d58d96704a01adfc674a0fc25852019b",
+      "name": "trl",
+      "partition": "development",
+      "permitted_sources": null,
+      "source_count_eligible": false
+    },
+    {
+      "build_status": "FAILED",
+      "capture_manifest_sha256": "f214d37647f501b203c885b1f97e6bc5b19335aa5c030a5800d6c64fe1582e1d",
+      "name": "reflex",
+      "partition": "development",
+      "permitted_sources": null,
+      "source_count_eligible": false
+    },
+    {
+      "build_status": "FAILED",
+      "capture_manifest_sha256": "9cbfd220dde3ccaecca049d0844f5bee2d7324aa0a5d587713053eee749fc966",
+      "name": "easyocr",
+      "partition": "development",
+      "permitted_sources": null,
+      "source_count_eligible": false
+    },
+    {
+      "build_status": "FAILED",
+      "capture_manifest_sha256": "1d16d5ee833da614424f03ecf2a982339325a0463b9a5dc0c2997a1f9e3dbdfd",
+      "name": "great-expectations",
+      "partition": "development",
+      "permitted_sources": null,
+      "source_count_eligible": false
+    },
+    {
+      "build_status": "FAILED",
+      "capture_manifest_sha256": "f6d6d240c0278fdba7719b18298b9eac84543b0d208d971e418bd7e6d6913455",
+      "name": "ultralytics",
+      "partition": "development",
+      "permitted_sources": null,
+      "source_count_eligible": false
+    },
+    {
+      "build_status": "FAILED",
+      "capture_manifest_sha256": "e6319572ce55f7d526f359f93746ae9bdef1a127f962a0f243db1e76ff2f352a",
+      "name": "pytorch-lightning",
+      "partition": "development",
+      "permitted_sources": null,
+      "source_count_eligible": false
+    },
+    {
+      "build_status": "FAILED",
+      "capture_manifest_sha256": "1dd287fcaa33a5d790c496b5f32a963e4388148f38ebaee84569c0bdba18417c",
+      "name": "sentence-transformers",
+      "partition": "development",
+      "permitted_sources": null,
+      "source_count_eligible": false
+    },
+    {
+      "build_status": "FAILED",
+      "capture_manifest_sha256": "4e1bb37dddd1d5f5bb23c04362ea372567bdbbca92bc863340c9e0f0e32e77b4",
+      "name": "notebook",
+      "partition": "development",
+      "permitted_sources": null,
+      "source_count_eligible": false
+    },
+    {
+      "build_status": "FAILED",
+      "capture_manifest_sha256": "e67c4c8d3841261b3b4892db777cca1dac24e7a5286d671468e15a20c8e44908",
+      "name": "pgmpy",
+      "partition": "development",
+      "permitted_sources": null,
+      "source_count_eligible": false
+    },
+    {
+      "build_status": "COMPLETE",
+      "capture_manifest_sha256": "288018b6283d8bf7fd62858e91a6df7fce21a6062847a1a6e1c9208de83bb5bb",
+      "name": "langchain",
+      "partition": "development",
+      "permitted_sources": 34,
+      "source_count_eligible": true
+    },
+    {
+      "build_status": "FAILED",
+      "capture_manifest_sha256": "41b99c9f7043fceccf714503da987856f90a798be0c19ec84c55ac1d7a799cc0",
+      "name": "stagehand",
+      "partition": "development",
+      "permitted_sources": null,
+      "source_count_eligible": false
+    },
+    {
+      "build_status": "FAILED",
+      "capture_manifest_sha256": "94a256c4a76057f857bee1e017892adbbcd11c7fdc2ce1f7b7e46da054ccdbcc",
+      "name": "paddleocr",
+      "partition": "development",
+      "permitted_sources": null,
+      "source_count_eligible": false
+    },
+    {
+      "build_status": "FAILED",
+      "capture_manifest_sha256": "72e3fa5a6fefb3b9f726dd5f1b8550787a925f06768021caffb87aac0a0c900e",
+      "name": "pwntools",
+      "partition": "development",
+      "permitted_sources": null,
+      "source_count_eligible": false
+    },
+    {
+      "build_status": "FAILED",
+      "capture_manifest_sha256": "820c2f69e72327ba99c6a6dd0e2f972f8f5bea57bd43ec77a50064edaab8e0df",
+      "name": "stable-baselines3",
+      "partition": "development",
+      "permitted_sources": null,
+      "source_count_eligible": false
+    }
+  ],
+  "source_count_eligible": 1,
+  "status": "FEASIBILITY_COMPLETE",
+  "successful_builds": 1
+}

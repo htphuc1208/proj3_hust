@@ -1,0 +1,135 @@
+{
+  "completed_at": "2026-11-04T09:38:05.119778Z",
+  "error": "INSTALL_CAPTURE_FAILED",
+  "image": "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+  "prediction_status": "NOT_RUN",
+  "project": {
+    "candidate": "reflex",
+    "eligible": {
+      "calibration": {
+        "released_at": "2026-06-26T20:18:34.686212Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "740613e5b85b7de0c44ef079975efda2d75b60d8d8e13e0bfe683402a5dfd2fa"
+          },
+          "digests": {
+            "blake2b_256": "8ad75551a19c3414bbd0817f468764194a32aa177c1c791de23ff1495f77bfe6",
+            "md5": "db2664e21ada65fef5a0e819ac0e30cb",
+            "sha256": "9c19298c27b94fbf9eaa18a0482a893460bbfc3f17e4661e780cab75df498fab"
+          },
+          "downloads": -1,
+          "filename": "reflex-0.9.6.post1-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "db2664e21ada65fef5a0e819ac0e30cb",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": "<4.0,>=3.10",
+          "size": 649657,
+          "upload_time": "2026-06-26T20:18:34",
+          "upload_time_iso_8601": "2026-06-26T20:18:34.686212Z",
+          "url": "https://files.pythonhosted.org/packages/8a/d7/5551a19c3414bbd0817f468764194a32aa177c1c791de23ff1495f77bfe6/reflex-0.9.6.post1-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "0.9.6.post1"
+      },
+      "development": {
+        "released_at": "2025-12-22T20:22:26.113776Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "1dd1e5c67c087ad9df65379adba2edcd85f429c7c448720fc8f8ae0e9cd61e86"
+          },
+          "digests": {
+            "blake2b_256": "73ba2ef17f78a5fcea091fb509a550ae03a93515cd774f969ae89a8b51025e1f",
+            "md5": "06c8e8f659b6ed22cf0b2ed066ed79fe",
+            "sha256": "c1023a754d0eee1161351688dbf9e05d11f570c082859e34c03e354d324deb58"
+          },
+          "downloads": -1,
+          "filename": "reflex-0.8.24.post1-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "06c8e8f659b6ed22cf0b2ed066ed79fe",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": "<4.0,>=3.10",
+          "size": 813241,
+          "upload_time": "2025-12-22T20:22:26",
+          "upload_time_iso_8601": "2025-12-22T20:22:26.113776Z",
+          "url": "https://files.pythonhosted.org/packages/73/ba/2ef17f78a5fcea091fb509a550ae03a93515cd774f969ae89a8b51025e1f/reflex-0.8.24.post1-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "0.8.24.post1"
+      },
+      "test": {
+        "released_at": "2026-10-27T01:29:11.967824Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "3b0f50b8bb31d11a99eca564f399db00d9c6fd8dbb87d6d341dfc008e531f6c1"
+          },
+          "digests": {
+            "blake2b_256": "25a7582bb9dbc7004d10c0c86ebb74d074986fc50b6450bbb950bf5ad9955f81",
+            "md5": "c0bad656a262d75e0fd7afcd766adde5",
+            "sha256": "85f2a80072ad98d9d9f94b4c25bf1680cadb51198914f1a994bdaded0c01be17"
+          },
+          "downloads": -1,
+          "filename": "reflex-0.10.1-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "c0bad656a262d75e0fd7afcd766adde5",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": "<4.0,>=3.11",
+          "size": 317159,
+          "upload_time": "2026-10-27T01:29:11",
+          "upload_time_iso_8601": "2026-10-27T01:29:11.967824Z",
+          "url": "https://files.pythonhosted.org/packages/25/a7/582bb9dbc7004d10c0c86ebb74d074986fc50b6450bbb950bf5ad9955f81/reflex-0.10.1-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "0.10.1"
+      }
+    },
+    "family_verification": "PENDING",
+    "linked_repositories": [
+      "reflex-dev/reflex"
+    ],
+    "name": "reflex",
+    "partition": "development",
+    "queried_at": "2026-11-04T09:16:28.355631Z",
+    "registry_file": "registry/reflex.json",
+    "registry_sha256": "2dff91f4f47546fe1e1b1acd3883005ff3b834e481c020e9f626663fea10764d",
+    "released_at": "2025-12-22T20:22:26.113776Z",
+    "repository": "reflex-dev/reflex",
+    "repository_url": "https://github.com/reflex-dev/reflex",
+    "root_wheel": {
+      "comment_text": null,
+      "core-metadata": {
+        "sha256": "1dd1e5c67c087ad9df65379adba2edcd85f429c7c448720fc8f8ae0e9cd61e86"
+      },
+      "digests": {
+        "blake2b_256": "73ba2ef17f78a5fcea091fb509a550ae03a93515cd774f969ae89a8b51025e1f",
+        "md5": "06c8e8f659b6ed22cf0b2ed066ed79fe",
+        "sha256": "c1023a754d0eee1161351688dbf9e05d11f570c082859e34c03e354d324deb58"
+      },
+      "downloads": -1,
+      "filename": "reflex-0.8.24.post1-py3-none-any.whl",
+      "has_sig": false,
+      "md5_digest": "06c8e8f659b6ed22cf0b2ed066ed79fe",
+      "packagetype": "bdist_wheel",
+      "python_version": "py3",
+      "requires_python": "<4.0,>=3.10",
+      "size": 813241,
+      "upload_time": "2025-12-22T20:22:26",
+      "upload_time_iso_8601": "2025-12-22T20:22:26.113776Z",
+      "url": "https://files.pythonhosted.org/packages/73/ba/2ef17f78a5fcea091fb509a550ae03a93515cd774f969ae89a8b51025e1f/reflex-0.8.24.post1-py3-none-any.whl",
+      "yanked": false,
+      "yanked_reason": null
+    },
+    "status": "RELEASE_ELIGIBLE",
+    "version": "0.8.24.post1"
+  },
+  "started_at": "2026-11-04T09:32:04.763500Z",
+  "status": "FAILED"
+}

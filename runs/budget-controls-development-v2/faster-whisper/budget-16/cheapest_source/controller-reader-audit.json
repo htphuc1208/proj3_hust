@@ -1,0 +1,24 @@
+{
+  "acquisition_budget": 16,
+  "oracle_labels_used": false,
+  "read_source_ids": [
+    "f36518e819f82d3434e12f4a47b6f35ff5415d5061b10eaf2168c783b2e82c0e",
+    "8621b1d44e4e74fa8773eafa7d4fc00937122c58e3d2de4d67b1a1c4b31ae4b7",
+    "fe349c926be60ea68658c8288a74ec531eca061cf6991ce610e687700efddcf6",
+    "4823c679f8a28868378c10a41b1ae476ad2e4b8b8cbb0868f56805290e34387f",
+    "86cb2db30d3e04deea20adb5e8b366ed9c6d2d870db8c42cb1374f96f0cbb850",
+    "af1862b07eeffa1c194b3375a321b5aa88008277e2179e40ce42ea4024de976b",
+    "d20319f3c978727bc02b0f901ce7a2c30d1da26ef50b170aa4b2ee50b65e1a1f",
+    "8eb040c60bca05cfd2e51a6cf675756253d082fa513111cc9efaecc362498e94",
+    "1ec266fd734d2201448ed0b2d1a6c3193e055d28bb4938af8040208b60a81f43",
+    "aa15995c34760e9b576fc722114c14024cafbbdb6e3cb8823bc3896580d8d896",
+    "4863cdf6131003ce4895e811057090d4951c6ae2c8cb8a898d12d6df425d1dda",
+    "d4224bbf5c94f72f774df22d4f0d25095d8d05a7f1849d4d8b75c52e8af50eea",
+    "d6039e2c3a5063e6bcd1b3f58e2f777313545259807cc3d10e99a3a7d18b8942",
+    "d9ae88208bcaf06d3b856fcf7fb914aaba414d3f8141f496264d0bae6c8a17d8",
+    "01ec2d3b9badbc82183731e8d393bb3a72e8d3a565c50e9a9aab2516c9d7fb56",
+    "d7fccdba6edd13e3eeaf54207a397334ec6e824005dd39284fec882b290d1564"
+  ],
+  "source_content_reads": 16,
+  "trusted_preparation": "All target metadata hashed before inference; no labels or parsed requirements enter the initial catalog"
+}

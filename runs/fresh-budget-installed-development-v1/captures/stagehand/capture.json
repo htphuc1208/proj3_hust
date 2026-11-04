@@ -1,0 +1,135 @@
+{
+  "completed_at": "2026-11-04T09:42:48.505116Z",
+  "error": "INSTALL_CAPTURE_FAILED",
+  "image": "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+  "prediction_status": "NOT_RUN",
+  "project": {
+    "candidate": "stagehand",
+    "eligible": {
+      "calibration": {
+        "released_at": "2026-01-13T17:26:55.852134Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "700514fd4f103bab69063800dff20d797b5dc282444a4308174ec517a0abeac5"
+          },
+          "digests": {
+            "blake2b_256": "51289a454bf40f755f51816157b18663022c1a2a57698b96f6fe95008b20aca5",
+            "md5": "c361d873f2509802bad827315ca03a12",
+            "sha256": "7b011ea00f287c92061f0f5146e24991cf1eca2468e76d081c5e43249af960c5"
+          },
+          "downloads": -1,
+          "filename": "stagehand-3.4.0-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "c361d873f2509802bad827315ca03a12",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": ">=3.9",
+          "size": 102268,
+          "upload_time": "2026-01-13T17:26:55",
+          "upload_time_iso_8601": "2026-01-13T17:26:55.852134Z",
+          "url": "https://files.pythonhosted.org/packages/51/28/9a454bf40f755f51816157b18663022c1a2a57698b96f6fe95008b20aca5/stagehand-3.4.0-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "3.4.0"
+      },
+      "development": {
+        "released_at": "2025-12-23T02:12:57.416295Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "6aace8bd5ddde5eee3f5d833d74775d8b971a0b1c2daa29e6881dcd2eb7ab904"
+          },
+          "digests": {
+            "blake2b_256": "c0c9c3360d551bf6d460bf7278640479000e3bf1f3f39b837c4b67f0eb08dc06",
+            "md5": "426ebd4248a5de7f23b69c5bb24f9d27",
+            "sha256": "cc8d2a114799ea1c3d6f199e86abd6479a8b338a101fffa6824d85b542ed9071"
+          },
+          "downloads": -1,
+          "filename": "stagehand-0.5.9-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "426ebd4248a5de7f23b69c5bb24f9d27",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": ">=3.9",
+          "size": 113956,
+          "upload_time": "2025-12-23T02:12:57",
+          "upload_time_iso_8601": "2025-12-23T02:12:57.416295Z",
+          "url": "https://files.pythonhosted.org/packages/c0/c9/c3360d551bf6d460bf7278640479000e3bf1f3f39b837c4b67f0eb08dc06/stagehand-0.5.9-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "0.5.9"
+      },
+      "test": {
+        "released_at": "2026-10-20T00:38:23.091200Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "eeb7222acaec33628f773dfe14b26c6b1e6191e925303e81b16930957fe4662b"
+          },
+          "digests": {
+            "blake2b_256": "4f7199c873e72011f5477ad77ce25e362ceb2f6e875e538704a0d3004e7d945e",
+            "md5": "34fb8bfabf4d1b5db9d758b4831017f7",
+            "sha256": "664f64e6167cb79ccd679adf2ab6f91a47e0253c5188e9eb550158fdf9590aa4"
+          },
+          "downloads": -1,
+          "filename": "stagehand-4.3.0-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "34fb8bfabf4d1b5db9d758b4831017f7",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": ">=3.11",
+          "size": 527183,
+          "upload_time": "2026-10-20T00:38:23",
+          "upload_time_iso_8601": "2026-10-20T00:38:23.091200Z",
+          "url": "https://files.pythonhosted.org/packages/4f/71/99c873e72011f5477ad77ce25e362ceb2f6e875e538704a0d3004e7d945e/stagehand-4.3.0-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "4.3.0"
+      }
+    },
+    "family_verification": "PENDING",
+    "linked_repositories": [
+      "browserbase/stagehand"
+    ],
+    "name": "stagehand",
+    "partition": "development",
+    "queried_at": "2026-11-04T09:17:35.467259Z",
+    "registry_file": "registry/stagehand.json",
+    "registry_sha256": "8ce08573f991497f22f82ae04e40493ea8c9ca2492b1f1faf604ecffb84a4f87",
+    "released_at": "2025-12-23T02:12:57.416295Z",
+    "repository": "browserbase/stagehand",
+    "repository_url": "https://github.com/browserbase/stagehand",
+    "root_wheel": {
+      "comment_text": null,
+      "core-metadata": {
+        "sha256": "6aace8bd5ddde5eee3f5d833d74775d8b971a0b1c2daa29e6881dcd2eb7ab904"
+      },
+      "digests": {
+        "blake2b_256": "c0c9c3360d551bf6d460bf7278640479000e3bf1f3f39b837c4b67f0eb08dc06",
+        "md5": "426ebd4248a5de7f23b69c5bb24f9d27",
+        "sha256": "cc8d2a114799ea1c3d6f199e86abd6479a8b338a101fffa6824d85b542ed9071"
+      },
+      "downloads": -1,
+      "filename": "stagehand-0.5.9-py3-none-any.whl",
+      "has_sig": false,
+      "md5_digest": "426ebd4248a5de7f23b69c5bb24f9d27",
+      "packagetype": "bdist_wheel",
+      "python_version": "py3",
+      "requires_python": ">=3.9",
+      "size": 113956,
+      "upload_time": "2025-12-23T02:12:57",
+      "upload_time_iso_8601": "2025-12-23T02:12:57.416295Z",
+      "url": "https://files.pythonhosted.org/packages/c0/c9/c3360d551bf6d460bf7278640479000e3bf1f3f39b837c4b67f0eb08dc06/stagehand-0.5.9-py3-none-any.whl",
+      "yanked": false,
+      "yanked_reason": null
+    },
+    "status": "RELEASE_ELIGIBLE",
+    "version": "0.5.9"
+  },
+  "started_at": "2026-11-04T09:38:09.617377Z",
+  "status": "FAILED"
+}

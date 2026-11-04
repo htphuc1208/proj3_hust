@@ -1,0 +1,33 @@
+{
+  "protocol": "m25-agent-recovery-v1",
+  "analysis_cutoff": "2026-10-28T16:59:59Z",
+  "population": "100 distinct public Python repositories with an eligible PyPI release",
+  "partitions": {
+    "development": {"count": 20, "start": null, "end": "2025-12-31T23:59:59Z"},
+    "calibration": {"count": 20, "start": "2026-01-01T00:00:00Z", "end": "2026-06-30T23:59:59Z"},
+    "test": {"count": 60, "start": "2026-07-01T00:00:00Z", "end": "2026-10-28T16:59:59Z"}
+  },
+  "selection_seed": 42,
+  "target": {"os_name": "posix", "sys_platform": "linux", "platform_machine": "x86_64", "python_version": "3.11", "python_full_version": "3.11.16", "platform_system": "Linux", "active_extras": []},
+  "mask_rates": [0.1, 0.3, 0.5, 0.7],
+  "mask_seeds": [11, 23, 42],
+  "tool_budgets": [16, 64, 256],
+  "primary_tool_budget": 64,
+  "llm_repetitions": 3,
+  "max_model_turns": 64,
+  "episode_timeout_seconds": 1800,
+  "total_token_cap": null,
+  "primary_metrics": ["new_metadata_f1", "new_direct_edge_f1"],
+  "bootstrap_repetitions": 10000,
+  "bootstrap_unit": "project",
+  "confidence_level": 0.95,
+  "multiple_testing": "Holm",
+  "unresolved_labels": "UNKNOWN; exclude from known-negative decisions and report counts",
+  "vex_transition_policy": "UNMEASURED without independent product/vulnerability labels",
+  "calibration_status": "UNMEASURED until held-out calibration is fitted and evaluated",
+  "max_root_wheel_bytes": 20971520,
+  "max_capture_bytes": 536870912,
+  "collector_workers": 4,
+  "unifier_commit": "521f3b8ee6e301e847f7cb113517ba46831e2b28",
+  "replication_commit": "5b90367e247fced49fbf73d831f4e53b2aa45819"
+}

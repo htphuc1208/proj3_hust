@@ -1,0 +1,35 @@
+{
+  "hint_scope": "Observed filename hints only; no parsed identities, requirements or reference membership",
+  "schema_version": "budget-source-catalog-v1",
+  "sha256": "e7c7a9d06b2b5ccda25ba6c46768d26119aa80a2abf5492ab88fcfdf9977854a",
+  "sources": [
+    {
+      "available_at": "2026-10-28T17:06:05.150438Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "name_hint": "pip",
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "a84fc29a4572f0f4f5a45a8b6be7cda51b44639543aa864f84fe50e5bc85e796"
+    },
+    {
+      "available_at": "2026-10-28T17:06:05.150438Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "name_hint": "setuptools",
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "31cbf43266a20f88beecc8c3f6b6e5e3814b209f20088b1a22cb195817dcb5c5"
+    },
+    {
+      "available_at": "2026-10-28T17:06:05.150438Z",
+      "bytes": 4734,
+      "kind": "installed_metadata",
+      "name_hint": "sqlparse",
+      "path": "lib/python3.11/site-packages/sqlparse-0.5.5.dist-info/METADATA",
+      "sha256": "64608ce1633133346851d8ecfa683931d0a1b70c1620720d8a21958917353621",
+      "source_id": "b5a31584cdc29b2fd54752e5705b4c19803662f6ebc70cc14fdabd7b4515d734"
+    }
+  ],
+  "target_id": "cea3a828ac21f154842a0665cc517686664e92e89ba6bc48e6469fd1bd351135"
+}

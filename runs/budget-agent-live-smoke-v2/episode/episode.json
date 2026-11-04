@@ -1,0 +1,726 @@
+{
+  "budget": 4,
+  "catalog_sha256": "eb4b4c0416946e43675dcd98fa4a89be604e55962493379296d60adfed98b580",
+  "evidence_policy": "Only bytes returned by charged source RPCs enter the worker",
+  "gateway_attempts": [
+    {
+      "attempt": 1,
+      "duration_seconds": 8.060800125000242,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 7688,
+        "total_tokens": 7702
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 5.349433671999577,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 14835,
+        "total_tokens": 14850
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 3.1036727059981786,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 111,
+        "prompt_tokens": 18493,
+        "total_tokens": 18604
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 3.154864815001929,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 106,
+        "prompt_tokens": 28272,
+        "total_tokens": 28378
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 2.3715111820019956,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 100,
+        "prompt_tokens": 29245,
+        "total_tokens": 29345
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 2.3491705799970077,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 106,
+        "prompt_tokens": 34198,
+        "total_tokens": 34304
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 1.7977219960012008,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 38,
+        "prompt_tokens": 35343,
+        "total_tokens": 35381
+      }
+    },
+    {
+      "attempt": 1,
+      "duration_seconds": 11.913436945000285,
+      "http_status": 200,
+      "method": "POST",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "status": 200,
+      "usage": {
+        "completion_tokens": 115,
+        "prompt_tokens": 39603,
+        "total_tokens": 39718
+      }
+    }
+  ],
+  "gateway_usage": [
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 8.060800125000242,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 7688,
+        "total_tokens": 7702
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 5.349433671999577,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 14835,
+        "total_tokens": 14850
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 3.1036727059981786,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 111,
+        "prompt_tokens": 18493,
+        "total_tokens": 18604
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 3.154864815001929,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 106,
+        "prompt_tokens": 28272,
+        "total_tokens": 28378
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 2.3715111820019956,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 100,
+        "prompt_tokens": 29245,
+        "total_tokens": 29345
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 2.3491705799970077,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 106,
+        "prompt_tokens": 34198,
+        "total_tokens": 34304
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 1.7977219960012008,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 38,
+        "prompt_tokens": 35343,
+        "total_tokens": 35381
+      }
+    },
+    {
+      "attempts": 1,
+      "cost": null,
+      "duration_seconds": 11.913436945000285,
+      "inference_parameters": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "max_tokens": 2048,
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "seed": 42,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "temperature": 0,
+        "tool_choice": "auto"
+      },
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "path": "/chat/completions",
+      "response_transport": "SSE",
+      "system_fingerprint": null,
+      "usage": {
+        "completion_tokens": 115,
+        "prompt_tokens": 39603,
+        "total_tokens": 39718
+      }
+    }
+  ],
+  "inference_parameters": {
+    "max_output_tokens_per_call": 2048,
+    "max_turns": 12,
+    "seed": 42,
+    "streaming": true
+  },
+  "llm_api_calls": 8,
+  "model_requested": "Qwen/Qwen3.6-35B-A3B-FP8",
+  "monetary_cost": "UNMEASURED_WITHOUT_VERIFIED_PRICING",
+  "policy": "single_agent_reconciliation",
+  "status": "COMPLETE",
+  "transcript": [
+    {
+      "message": {
+        "content": "",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{}",
+              "name": "inspect"
+            },
+            "id": "call_f3e7d8832e724c78a9193081",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "48955696441c6a106bc5e950276d8f901b65ae0672b11dd3191b9e2b14193603",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 8.060800125000242,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 14,
+          "prompt_tokens": 7688,
+          "total_tokens": 7702
+        }
+      },
+      "turn": 0
+    },
+    {
+      "message": {
+        "content": "",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{}",
+              "name": "assess"
+            },
+            "id": "call_d6afbd1e86884bab8fb993d4",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "c182e314b1906e8f9cf7e84e26149109f6571899cf911f00a9f2943e2dd5f2a7",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 5.349433671999577,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 15,
+          "prompt_tokens": 14835,
+          "total_tokens": 14850
+        }
+      },
+      "turn": 1
+    },
+    {
+      "message": {
+        "content": "I need to acquire the typer metadata first since it's the root package, then work through its dependencies. Let me start with the typer source.\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{\"source_id\":\"e5af50de6212174ea87a0c1be4c717aad78de9ec1a842b8325054adc814b8f25\"}",
+              "name": "acquire"
+            },
+            "id": "call_a6a8f3552de84e58aa5d7c9e",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "21fffb3a0c6e00523b792aa70f68aa061c7aae32eb733b00aaaa180c98121590",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 3.1036727059981786,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 111,
+          "prompt_tokens": 18493,
+          "total_tokens": 18604
+        }
+      },
+      "turn": 2
+    },
+    {
+      "message": {
+        "content": "Good, I acquired the typer metadata. Now let me acquire the click metadata (a direct dependency of typer).\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{\"source_id\":\"c6d06054f2dbe876cab0bfa015713bde255368886427f89c8f256a9abe277d52\"}",
+              "name": "acquire"
+            },
+            "id": "call_f924c1bcdb81422eaa010556",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "9e30e91cf88030c0b03e45d815a58bba989c1f42d72d07203bffc195d2877e62",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 3.154864815001929,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 106,
+          "prompt_tokens": 28272,
+          "total_tokens": 28378
+        }
+      },
+      "turn": 3
+    },
+    {
+      "message": {
+        "content": "Good. Now let me acquire the rich metadata (another direct dependency of typer).\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{\"source_id\":\"7757fb681f2a3b1133485d33991637dc9440fa3ab603abdc608eae8a8fa22166\"}",
+              "name": "acquire"
+            },
+            "id": "call_5819164b55ce4ff89ce17bc2",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "f492fcbec7466b5b604ff110b66bc3bc122b9e09d33a64eed43d2c17a656e04c",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 2.3715111820019956,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 100,
+          "prompt_tokens": 29245,
+          "total_tokens": 29345
+        }
+      },
+      "turn": 4
+    },
+    {
+      "message": {
+        "content": "Good. Now let me acquire the shellingham metadata (another direct dependency of typer).\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{\"source_id\":\"6392f851f50283936e5025d189f0c1dea55329e55077ee2a4ce4e7e24b3137e0\"}",
+              "name": "acquire"
+            },
+            "id": "call_9ab8b85de3fb45eaab64ff5c",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "9b49f6fa06f2db1e350ae3629578e707e786840a15bc81f688dc40e0db68becb",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 2.3491705799970077,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 106,
+          "prompt_tokens": 34198,
+          "total_tokens": 34304
+        }
+      },
+      "turn": 5
+    },
+    {
+      "message": {
+        "content": "I've used all 4 acquisition attempts. Let me now assess what evidence I have and what gaps remain.\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{}",
+              "name": "assess"
+            },
+            "id": "call_f61282dade014ba28bf19946",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "e2f3d2c51f87f5b9094b6e0dffcd9760ec58b67b61854a40c47eebbec03cb478",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 1.7977219960012008,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 38,
+          "prompt_tokens": 35343,
+          "total_tokens": 35381
+        }
+      },
+      "turn": 6
+    },
+    {
+      "message": {
+        "content": "I've used all 4 acquisition attempts. The assessment shows:\n- 3 edges are now SUPPORTED (typer→click, typer→rich, typer→shellingham)\n- 34 edges remain UNKNOWN due to missing evidence\n- 3 candidates remain with UNKNOWN status (rich→markdown-it-py, rich→pygments, typer→typing-extensions)\n\nI've exhausted my budget. Let me finish to export the changes that were admitted by the deterministic gate.\n\n",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{}",
+              "name": "finish"
+            },
+            "id": "call_accada3bc0f94ff7851a8c91",
+            "type": "function"
+          }
+        ]
+      },
+      "prompt_sha256": "94a9f8e530961822848f446d5a56228083b706275dab73668672eb43f643f11b",
+      "stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 11.913436945000285,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 2048,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "seed": 42,
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 115,
+          "prompt_tokens": 39603,
+          "total_tokens": 39718
+        }
+      },
+      "turn": 7
+    }
+  ]
+}

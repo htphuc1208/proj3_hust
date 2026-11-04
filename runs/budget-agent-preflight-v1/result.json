@@ -1,0 +1,89 @@
+{
+  "auth_scheme": "Bearer",
+  "base_url": "https://stream-netmind.viettel.vn/gateway/v1",
+  "chat_transport": "SSE_OPT_IN",
+  "model_cost": null,
+  "models": [
+    "claude-sonnet-5",
+    "BAAI/bge-m3",
+    "google/translategemma-27b-it",
+    "xiaomi-research/MiLMMT-46-12B-v0.1",
+    "claude-opus-4-8",
+    "claude-opus-5",
+    "aisingapore/Qwen-SEA-LION-v4.5-27B-IT",
+    "Qwen/Qwen3.6-35B-A3B-FP8",
+    "Qwen/Qwen3.5-35B-A3B-FP8",
+    "claude-haiku-4-5",
+    "Qwen/Qwen3.5-122B-A10B-FP8",
+    "BAAI/bge-reranker-v2-m3",
+    "afrinllb"
+  ],
+  "probes": [
+    {
+      "agent_protocol": "VALIDATED_JSON_ACTIONS",
+      "chat_stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 0.43364121899867314,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 512,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 6,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 22,
+          "total_tokens": 28
+        }
+      },
+      "json_response": "{\"ok\":true}",
+      "json_valid": true,
+      "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "native_tools": true,
+      "status": "CHAT_AVAILABLE",
+      "tool_stats": {
+        "attempts": 1,
+        "cost": null,
+        "duration_seconds": 7.686728003001917,
+        "inference_parameters": {
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "max_tokens": 512,
+          "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+          "stream": true,
+          "stream_options": {
+            "include_usage": true
+          },
+          "temperature": 0,
+          "tool_choice": "auto"
+        },
+        "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "path": "/chat/completions",
+        "response_transport": "SSE",
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 14,
+          "prompt_tokens": 262,
+          "total_tokens": 276
+        }
+      }
+    }
+  ],
+  "provider_revision": "UNKNOWN_UNLESS_FINGERPRINT_RETURNED",
+  "schema_version": "gateway-preflight-v1"
+}

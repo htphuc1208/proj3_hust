@@ -1,0 +1,167 @@
+{
+  "fields": {
+    "annotated-types": {
+      "name": "annotated-types",
+      "version": "0.7.0",
+      "purl": "pkg:pypi/annotated-types@0.7.0"
+    },
+    "anyio": {
+      "name": "anyio",
+      "version": "4.12.0",
+      "purl": "pkg:pypi/anyio@4.12.0"
+    },
+    "certifi": {
+      "name": "certifi",
+      "version": "2025.11.12",
+      "purl": "pkg:pypi/certifi@2025.11.12"
+    },
+    "charset-normalizer": {
+      "name": "charset-normalizer",
+      "version": "3.4.4",
+      "purl": "pkg:pypi/charset-normalizer@3.4.4"
+    },
+    "h11": {
+      "name": "h11",
+      "version": "0.16.0",
+      "purl": "pkg:pypi/h11@0.16.0"
+    },
+    "httpcore": {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "purl": "pkg:pypi/httpcore@1.0.9"
+    },
+    "httpx": {
+      "name": "httpx",
+      "version": "0.28.1",
+      "purl": "pkg:pypi/httpx@0.28.1"
+    },
+    "idna": {
+      "name": "idna",
+      "version": "3.11",
+      "purl": "pkg:pypi/idna@3.11"
+    },
+    "jsonpatch": {
+      "name": "jsonpatch",
+      "version": "1.33",
+      "purl": "pkg:pypi/jsonpatch@1.33"
+    },
+    "jsonpointer": {
+      "name": "jsonpointer",
+      "version": "3.0.0",
+      "purl": "pkg:pypi/jsonpointer@3.0.0"
+    },
+    "langchain": {
+      "name": "langchain",
+      "version": "1.2.0",
+      "purl": "pkg:pypi/langchain@1.2.0"
+    },
+    "langchain-core": {
+      "name": "langchain-core",
+      "version": "1.2.5",
+      "purl": "pkg:pypi/langchain-core@1.2.5"
+    },
+    "langgraph": {
+      "name": "langgraph",
+      "version": "1.0.5",
+      "purl": "pkg:pypi/langgraph@1.0.5"
+    },
+    "langgraph-checkpoint": {
+      "name": "langgraph-checkpoint",
+      "version": "3.0.1",
+      "purl": "pkg:pypi/langgraph-checkpoint@3.0.1"
+    },
+    "langgraph-prebuilt": {
+      "name": "langgraph-prebuilt",
+      "version": "1.0.5",
+      "purl": "pkg:pypi/langgraph-prebuilt@1.0.5"
+    },
+    "langgraph-sdk": {
+      "name": "langgraph-sdk",
+      "version": "0.3.1",
+      "purl": "pkg:pypi/langgraph-sdk@0.3.1"
+    },
+    "langsmith": {
+      "name": "langsmith",
+      "version": "0.5.2",
+      "purl": "pkg:pypi/langsmith@0.5.2"
+    },
+    "orjson": {
+      "name": "orjson",
+      "version": "3.11.5",
+      "purl": "pkg:pypi/orjson@3.11.5"
+    },
+    "ormsgpack": {
+      "name": "ormsgpack",
+      "version": "1.12.1",
+      "purl": "pkg:pypi/ormsgpack@1.12.1"
+    },
+    "packaging": {
+      "name": "packaging",
+      "version": "25.0",
+      "purl": "pkg:pypi/packaging@25.0"
+    },
+    "pydantic": {
+      "name": "pydantic",
+      "version": "2.12.5",
+      "purl": "pkg:pypi/pydantic@2.12.5"
+    },
+    "pydantic-core": {
+      "name": "pydantic-core",
+      "version": "2.41.5",
+      "purl": "pkg:pypi/pydantic-core@2.41.5"
+    },
+    "pyyaml": {
+      "name": "pyyaml",
+      "version": "6.0.3",
+      "purl": "pkg:pypi/pyyaml@6.0.3"
+    },
+    "requests": {
+      "name": "requests",
+      "version": "2.32.5",
+      "purl": "pkg:pypi/requests@2.32.5"
+    },
+    "requests-toolbelt": {
+      "name": "requests-toolbelt",
+      "version": "1.0.0",
+      "purl": "pkg:pypi/requests-toolbelt@1.0.0"
+    },
+    "tenacity": {
+      "name": "tenacity",
+      "version": "9.1.2",
+      "purl": "pkg:pypi/tenacity@9.1.2"
+    },
+    "typing-extensions": {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "purl": "pkg:pypi/typing-extensions@4.15.0"
+    },
+    "typing-inspection": {
+      "name": "typing-inspection",
+      "version": "0.4.2",
+      "purl": "pkg:pypi/typing-inspection@0.4.2"
+    },
+    "urllib3": {
+      "name": "urllib3",
+      "version": "2.6.2",
+      "purl": "pkg:pypi/urllib3@2.6.2"
+    },
+    "uuid-utils": {
+      "name": "uuid-utils",
+      "version": "0.12.0",
+      "purl": "pkg:pypi/uuid-utils@0.12.0"
+    },
+    "xxhash": {
+      "name": "xxhash",
+      "version": "3.6.0",
+      "purl": "pkg:pypi/xxhash@3.6.0"
+    },
+    "zstandard": {
+      "name": "zstandard",
+      "version": "0.25.0",
+      "purl": "pkg:pypi/zstandard@0.25.0"
+    }
+  },
+  "provenance": "independent pip inspect",
+  "unlabeled_fields": "UNKNOWN, not false",
+  "license_scope": "distribution-declared license expression only"
+}

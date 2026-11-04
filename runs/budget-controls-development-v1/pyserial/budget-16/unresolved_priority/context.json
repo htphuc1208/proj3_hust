@@ -1,0 +1,15 @@
+{
+  "active_extras": [],
+  "evidence_cutoff": "2026-10-28T17:06:30.599938Z",
+  "extras_by_purl": {},
+  "os_name": "posix",
+  "platform_machine": "x86_64",
+  "platform_system": "Linux",
+  "python_full_version": "3.11.16",
+  "python_version": "3.11",
+  "root_purls": [
+    "pkg:pypi/pyserial@3.5"
+  ],
+  "sys_platform": "linux",
+  "target_id": "6b8282a526ef4ca198f76306e2b71ae418607e9a687e3e4c5dce1d5f2a928454"
+}

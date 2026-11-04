@@ -1,0 +1,7 @@
+  × No solution found when resolving dependencies:
+  ╰─▶ Because pyrss2gen==1.1 has no usable wheels and only pyrss2gen<=1.1 is
+      available, we can conclude that pyrss2gen>=1.1 cannot be used.
+      And because nikola>=8.3.3 depends on pyrss2gen>=1.1 and you require
+      nikola==8.3.3, we can conclude that your requirements are unsatisfiable.
+
+hint: Wheels are required for `pyrss2gen` because building from source is disabled for all packages (i.e., with `--no-build`)

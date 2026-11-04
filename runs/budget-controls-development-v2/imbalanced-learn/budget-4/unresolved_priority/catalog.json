@@ -1,0 +1,89 @@
+{
+  "hint_scope": "Observed filename hints only; no parsed identities, requirements or reference membership",
+  "schema_version": "budget-source-catalog-v1",
+  "sha256": "00f8a2d3f87dd766739c66848583592e1d70603acbd05fbf725364cf8da9e859",
+  "sources": [
+    {
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "bytes": 8898,
+      "kind": "installed_metadata",
+      "name_hint": "imbalanced-learn",
+      "path": "lib/python3.11/site-packages/imbalanced_learn-0.14.1.dist-info/METADATA",
+      "sha256": "73bceae78d13bb145c59da1cfb7db98239bf4322fae736b2d315e7b7173e9332",
+      "source_id": "d6afa05a60a197688c0cae8c9bbd68b697687ac6a8c9c30aa0c581d1bc2c3f92"
+    },
+    {
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "bytes": 5542,
+      "kind": "installed_metadata",
+      "name_hint": "joblib",
+      "path": "lib/python3.11/site-packages/joblib-1.5.3.dist-info/METADATA",
+      "sha256": "cee9c60896ae4e7a965a840fbde50d111d2f8018f61201d1ed2e9fc3dd4883e6",
+      "source_id": "d257c6ecea4c4a13e7de10c46104340f25f9bb3179c6bf0664afd9020f516db9"
+    },
+    {
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "bytes": 62117,
+      "kind": "installed_metadata",
+      "name_hint": "numpy",
+      "path": "lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA",
+      "sha256": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3",
+      "source_id": "63af1cd7e3569251b39891f434b94664e02b5cd7559b8f7c178a60b791b1dcc0"
+    },
+    {
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "name_hint": "pip",
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "5c29ef16ac02e8a4ba958d3a9b98c8dbd9922e3e30f3572791604383b116084c"
+    },
+    {
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "bytes": 11684,
+      "kind": "installed_metadata",
+      "name_hint": "scikit-learn",
+      "path": "lib/python3.11/site-packages/scikit_learn-1.8.0.dist-info/METADATA",
+      "sha256": "95a8f42f4170fc940a71fedfed4fd9353723eb44126130a971a072fe5305d967",
+      "source_id": "501f4e24921060900bf40d6dd11d334e8b4afe1bcdc240eb4b5644456c28219b"
+    },
+    {
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "bytes": 62003,
+      "kind": "installed_metadata",
+      "name_hint": "scipy",
+      "path": "lib/python3.11/site-packages/scipy-1.16.3.dist-info/METADATA",
+      "sha256": "a54602d0aa61fb25ac030b1d7b0faf0c8cfec508290d4d824198d6b43647ec1b",
+      "source_id": "9bf51e6e65cd71782ffbaec388582760a0cf0673379d0ef15a86410ecadc4acf"
+    },
+    {
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "name_hint": "setuptools",
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "0964b2c763978beb280716885979aa42d77ee6633a041900825e661f2f9d3efa"
+    },
+    {
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "bytes": 20579,
+      "kind": "installed_metadata",
+      "name_hint": "sklearn-compat",
+      "path": "lib/python3.11/site-packages/sklearn_compat-0.1.5.dist-info/METADATA",
+      "sha256": "6c825792a96c07c5bf05e37685c852e5ca3f18001f0ce03790c29297cc68db84",
+      "source_id": "fe2f5fbd7e87e0fcdf05b4d75a42cd3ca50d8b814725902d73749c19616442e3"
+    },
+    {
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "bytes": 13843,
+      "kind": "installed_metadata",
+      "name_hint": "threadpoolctl",
+      "path": "lib/python3.11/site-packages/threadpoolctl-3.6.0.dist-info/METADATA",
+      "sha256": "a45df8d07ea1883d772183a501d7d526076aa70dfcfddb276a2cbdc04def5341",
+      "source_id": "7e243f50d0f3c61b9855f9e0bb23914e95f4e0e049b50dd725e642cba95d7e7a"
+    }
+  ],
+  "target_id": "2aa555bf5f90a8117e89c3b8b094353c372a6cd893a189bcccb35ca9100eae04"
+}

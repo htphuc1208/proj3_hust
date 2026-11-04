@@ -1,0 +1,35 @@
+{
+  "hint_scope": "Observed filename hints only; no parsed identities, requirements or reference membership",
+  "schema_version": "budget-source-catalog-v1",
+  "sha256": "a0540f98dfb8bf43f64a0db7db4ab9e4fbf9d37905da9ef04ad7c303aba05f6f",
+  "sources": [
+    {
+      "available_at": "2026-10-28T17:05:47.920303Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "name_hint": "pip",
+      "path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "92776f238bf05514be9ae3e017c1e97b3e57b3ee0cddbe84f0afbc6b05e43d78"
+    },
+    {
+      "available_at": "2026-10-28T17:05:47.920303Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "name_hint": "setuptools",
+      "path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "96bf363a3aba6278b97a281146142de506a51f05b70938c87d996a6f12d789ba"
+    },
+    {
+      "available_at": "2026-10-28T17:05:47.920303Z",
+      "bytes": 24917,
+      "kind": "installed_metadata",
+      "name_hint": "vulture",
+      "path": "lib/python3.11/site-packages/vulture-2.14.dist-info/METADATA",
+      "sha256": "94122353746bc779b3cfc21b4eaf11b3a17b35d9fdeb45bc2fea9183dbb61990",
+      "source_id": "635315e173b47f192c0a513985b3b7661719535fad7c183956c9f949b2e8d85c"
+    }
+  ],
+  "target_id": "a2167a355d11b28abec4395fd434eccece853d6fd7a8fc381c9414c3d49d9360"
+}

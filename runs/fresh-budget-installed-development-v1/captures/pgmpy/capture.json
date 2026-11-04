@@ -1,0 +1,108 @@
+{
+  "completed_at": "2026-11-04T09:38:09.610102Z",
+  "error": "INSTALL_CAPTURE_FAILED",
+  "image": "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+  "prediction_status": "NOT_RUN",
+  "project": {
+    "candidate": "pgmpy",
+    "eligible": {
+      "calibration": {
+        "released_at": "2026-04-30T11:34:47.189802Z",
+        "root_wheel": {
+          "comment_text": null,
+          "core-metadata": {
+            "sha256": "628e18f661a0bd663c557b1ca1d7004ae21d2b60e87958ce11cd0e0e3acf0b07"
+          },
+          "digests": {
+            "blake2b_256": "c65dd03634ed296986abad834a69b0df21510cc9b6c40fb8afaed5df1c4b6074",
+            "md5": "07a7f4577d1e81b7dab1d0cc3ca4d05f",
+            "sha256": "e55c78763a4a45dd644a13b250cea86af0c7e08590cf35de489624f34a4d9a0b"
+          },
+          "downloads": -1,
+          "filename": "pgmpy-1.1.2-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "07a7f4577d1e81b7dab1d0cc3ca4d05f",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": "<3.15,>=3.10",
+          "size": 2446383,
+          "upload_time": "2026-04-30T11:34:47",
+          "upload_time_iso_8601": "2026-04-30T11:34:47.189802Z",
+          "url": "https://files.pythonhosted.org/packages/c6/5d/d03634ed296986abad834a69b0df21510cc9b6c40fb8afaed5df1c4b6074/pgmpy-1.1.2-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "1.1.2"
+      },
+      "development": {
+        "released_at": "2025-03-31T17:39:00.061072Z",
+        "root_wheel": {
+          "comment_text": "",
+          "core-metadata": {
+            "sha256": "ee8c5ff5f12da2794784a639d32f67e8f3192efbfd068f64ed77a002d9c63c3f"
+          },
+          "digests": {
+            "blake2b_256": "0f9921be371103f6c690eb8653c1624bf1c015ab3a02f4f56da973c7b3c521b8",
+            "md5": "e7a67e5d6f96f2d16fd4a3982ce47b13",
+            "sha256": "7bec23b5507a466a612c19e93ce4b43f156c1293120ef53cf83797ba100c3d29"
+          },
+          "downloads": -1,
+          "filename": "pgmpy-1.0.0-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "e7a67e5d6f96f2d16fd4a3982ce47b13",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": null,
+          "size": 2003804,
+          "upload_time": "2025-03-31T17:39:00",
+          "upload_time_iso_8601": "2025-03-31T17:39:00.061072Z",
+          "url": "https://files.pythonhosted.org/packages/0f/99/21be371103f6c690eb8653c1624bf1c015ab3a02f4f56da973c7b3c521b8/pgmpy-1.0.0-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        },
+        "version": "1.0.0"
+      },
+      "test": null
+    },
+    "family_verification": "PENDING",
+    "linked_repositories": [
+      "pgmpy/pgmpy"
+    ],
+    "name": "pgmpy",
+    "partition": "development",
+    "queried_at": "2026-11-04T09:17:22.536541Z",
+    "registry_file": "registry/pgmpy.json",
+    "registry_sha256": "73c7c63fbb8b59bb9c8b4509b9742d8102941851331881e464b0c192ac54eab2",
+    "released_at": "2025-03-31T17:39:00.061072Z",
+    "repository": "pgmpy/pgmpy",
+    "repository_url": "https://github.com/pgmpy/pgmpy",
+    "root_wheel": {
+      "comment_text": "",
+      "core-metadata": {
+        "sha256": "ee8c5ff5f12da2794784a639d32f67e8f3192efbfd068f64ed77a002d9c63c3f"
+      },
+      "digests": {
+        "blake2b_256": "0f9921be371103f6c690eb8653c1624bf1c015ab3a02f4f56da973c7b3c521b8",
+        "md5": "e7a67e5d6f96f2d16fd4a3982ce47b13",
+        "sha256": "7bec23b5507a466a612c19e93ce4b43f156c1293120ef53cf83797ba100c3d29"
+      },
+      "downloads": -1,
+      "filename": "pgmpy-1.0.0-py3-none-any.whl",
+      "has_sig": false,
+      "md5_digest": "e7a67e5d6f96f2d16fd4a3982ce47b13",
+      "packagetype": "bdist_wheel",
+      "python_version": "py3",
+      "requires_python": null,
+      "size": 2003804,
+      "upload_time": "2025-03-31T17:39:00",
+      "upload_time_iso_8601": "2025-03-31T17:39:00.061072Z",
+      "url": "https://files.pythonhosted.org/packages/0f/99/21be371103f6c690eb8653c1624bf1c015ab3a02f4f56da973c7b3c521b8/pgmpy-1.0.0-py3-none-any.whl",
+      "yanked": false,
+      "yanked_reason": null
+    },
+    "status": "RELEASE_ELIGIBLE",
+    "version": "1.0.0"
+  },
+  "started_at": "2026-11-04T09:37:43.330935Z",
+  "status": "FAILED"
+}

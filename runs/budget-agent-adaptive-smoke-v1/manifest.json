@@ -1,0 +1,20 @@
+{
+  "budget": 4,
+  "frozen_predecessors_preserved": true,
+  "gate": "acquired-installed-metadata-gate-v3",
+  "planner": "adaptive-source-planner-v2",
+  "result": {
+    "acquired_sources": 4,
+    "acquisition_attempts": 4,
+    "acquisitions": 4,
+    "candidate_proposals": 0,
+    "llm_api_calls": 8,
+    "native_valid": true,
+    "output": "/home/phucht/project/sbom_security_poc/runs/budget-agent-adaptive-smoke-v1/episode",
+    "policy": "single_agent_reconciliation",
+    "retractions": 0,
+    "status": "COMPLETE"
+  },
+  "scope": "Old-development engineering diagnostic after feedback/protocol changes; not comparative or held-out evidence",
+  "status": "COMPLETE"
+}
