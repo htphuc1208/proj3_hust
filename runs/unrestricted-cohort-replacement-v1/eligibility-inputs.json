@@ -1,0 +1,402 @@
+{
+  "alive-progress": {
+    "evidence_sha256": "29c6b27ba75a504473c02be26881409c5468ec324f2d207fa08c60aedd8c8f85",
+    "status": "COMPLETE"
+  },
+  "bandit": {
+    "evidence_sha256": "72bec90445de42cca92461b11a89fce42c9d2eaeaa5d3cdf5f5d96bf46e3e666",
+    "status": "COMPLETE"
+  },
+  "beets": {
+    "evidence_sha256": "c8e860b022589b2be2b4613cb59bcf816bb1b6edd0e5852b828f8e8c79b9758e",
+    "status": "COMPLETE"
+  },
+  "bleak": {
+    "evidence_sha256": "125738ec289b2a39f79c5bb3948939ecba1a7fac9a1eb48858cd8a9a79221e5b",
+    "status": "COMPLETE"
+  },
+  "boto3": {
+    "evidence_sha256": "d322ba7dc39b16b4159a77a5631542958f0cb4b4dffb171582b410b32b369360",
+    "status": "COMPLETE"
+  },
+  "bottle": {
+    "evidence_sha256": "9e2344819387efb95c2f5d9e96da59234273672e0ebedc2d0585e80c01218cd0",
+    "status": "COMPLETE"
+  },
+  "browser-use": {
+    "evidence_sha256": "8afdac49217d855f8c77ba17d9162aa762c25100deabe749d0bc648063118cc0",
+    "status": "COMPLETE"
+  },
+  "celery": {
+    "evidence_sha256": "b058429ad9a185660aa58b239c00c4d760dc2523e17bb39b2a70278e57c93bb6",
+    "status": "COMPLETE"
+  },
+  "cirq": {
+    "evidence_sha256": "6575ad40c4072a02baf1a7885b646b2c109e87e2e8bd7be292b2e4691d702871",
+    "status": "COMPLETE"
+  },
+  "click": {
+    "evidence_sha256": "d5d91ab0e0af15590c512457ef63b8ac11429f2b340582a3cb6d4479ab8a0040",
+    "status": "COMPLETE"
+  },
+  "colorama": {
+    "evidence_sha256": "f9ed60663f1752c3a28950f489e6133784a199fb69169a3a807c6f6e44826c1d",
+    "status": "COMPLETE"
+  },
+  "connexion": {
+    "evidence_sha256": "f07b1d07b007806d5393ed4a0e36256bcf22ff08b8987a28d74614206bf98920",
+    "status": "COMPLETE"
+  },
+  "cx-freeze": {
+    "evidence_sha256": "f6ec5acac34a95f39ee58ae64c7087c7673aed895ed48d8cd1374eb8fe9c11d8",
+    "status": "COMPLETE"
+  },
+  "diagrams": {
+    "evidence_sha256": "e092d6d461d7160eed3816f9f5b33b395a63819fb71343d7d192a7d73f46b1a0",
+    "status": "COMPLETE"
+  },
+  "dill": {
+    "evidence_sha256": "768938b05898ec983c6824c6ea96ec6f3141172bc0b2007895f2b45a87417a4b",
+    "status": "COMPLETE"
+  },
+  "django": {
+    "evidence_sha256": "c4a923834eb43ea14905101226f5048e1d8e7acbe2f1d9b8ccccacc54c8e7f6e",
+    "status": "COMPLETE"
+  },
+  "django-cacheops": {
+    "evidence_sha256": "20d15e3946e0b1c4aff09718ba87c9fc96a1893397c808a09aa03a6b29fd5584",
+    "status": "COMPLETE"
+  },
+  "django-cms": {
+    "evidence_sha256": "970ea368717f57d7069d5d2e869074a29aecda39d71478e7c0d51b71ee939ed0",
+    "status": "COMPLETE"
+  },
+  "django-grappelli": {
+    "evidence_sha256": "e0bb129f025ab2f545cbf1c5829c318047d8de1f12cc7eadc8b104b8edd3b8bb",
+    "status": "COMPLETE"
+  },
+  "django-ninja": {
+    "evidence_sha256": "efd3ad3118a4fc1c38d6dc7d6200293da07980c115b7407a3e5428d9f8e8bd82",
+    "status": "COMPLETE"
+  },
+  "django-oauth-toolkit": {
+    "evidence_sha256": "3d88b97e6a82516c124f2dd4055ba35683ad7f3fdd2bc14a26eac641e53011ad",
+    "status": "COMPLETE"
+  },
+  "django-redis": {
+    "evidence_sha256": "e11e807deae0ad1e85dbcba962b94f21f5ce8af913dcf9ed8d6b954e6f4002e7",
+    "status": "COMPLETE"
+  },
+  "dlt": {
+    "evidence_sha256": "f92f85f58eec2c3725fbf60f0aed28f495099c8c69e7e2b3780c51013feb2c97",
+    "status": "COMPLETE"
+  },
+  "docling": {
+    "evidence_sha256": "58e4218419470921243dda932e66cb3d95e8c7a4e60f791a6ddc772d0abb10dd",
+    "status": "FAILED"
+  },
+  "doit": {
+    "evidence_sha256": "ec3e66501384c8a4700751d294d5463f585560e7c8fd1456f16e1dd9f2dfb70f",
+    "status": "COMPLETE"
+  },
+  "dspy": {
+    "evidence_sha256": "28fac043537d205c90e74634d03bd55834bfac2d3fb30b06248917a7eb9846ee",
+    "status": "COMPLETE"
+  },
+  "faststream": {
+    "evidence_sha256": "4972aa519ed917a3c4ceab13fb814d8a2d15668d8e7f1624ee150d29f67c0797",
+    "status": "COMPLETE"
+  },
+  "feature-engine": {
+    "evidence_sha256": "59af03f53416d291b8073517c861804a103c1b4221f2db90446dc124d73b3643",
+    "status": "COMPLETE"
+  },
+  "feedparser": {
+    "evidence_sha256": "662f5e994c52703b5187fb7ea7cb0c6cc47c8ce253c49d989228b10f85bae807",
+    "status": "COMPLETE"
+  },
+  "flake8": {
+    "evidence_sha256": "fa17dfd75ddc62f438daafdbb8f2877b493c1fad949d9f4b46eff597d2039036",
+    "status": "COMPLETE"
+  },
+  "flask-admin": {
+    "evidence_sha256": "8f57daf5394b67d2154afada6b0b57d2c9dc82eb55e4c480b5c3010b904733ab",
+    "status": "COMPLETE"
+  },
+  "flower": {
+    "evidence_sha256": "be2c44a13280adb644a30f1932c8d5f6eac41f38a22ce9eecb3419890bdfa759",
+    "status": "COMPLETE"
+  },
+  "geojson": {
+    "evidence_sha256": "f6066c857a04e9fc87342e25b84c6fa0c605be5465377ce9ca4b91f852e10c26",
+    "status": "COMPLETE"
+  },
+  "geopy": {
+    "evidence_sha256": "1fe448d62a4f0769c3d52b0ec596ac883ab5bf3e0d90c07104ad1f805b72aaec",
+    "status": "COMPLETE"
+  },
+  "great-expectations": {
+    "evidence_sha256": "389e35e746cc7037359903a6babb2a663940222b7e4926e15838ee4d5c80056c",
+    "status": "COMPLETE"
+  },
+  "gtts": {
+    "evidence_sha256": "82bafbba48190e1e941add54cd22cc9b6f3ad6b19c8b53fa5048c719196db5db",
+    "status": "COMPLETE"
+  },
+  "gunicorn": {
+    "evidence_sha256": "22c0033160e28d592f1f003ecdf1a11dc0ee138860a392a94afbc248b3b45b0d",
+    "status": "COMPLETE"
+  },
+  "httpx": {
+    "evidence_sha256": "37265b171c780cf21b4406b48df8210709518f85de9fd8a1b5fc43045e6cb602",
+    "status": "COMPLETE"
+  },
+  "httpx2": {
+    "evidence_sha256": "8da04835e09ad76b5b6d73abbb1bd09b5968b5b40ea10b57d971ec3e6fa470af",
+    "status": "COMPLETE"
+  },
+  "icecream": {
+    "evidence_sha256": "13d31ffd47128d3ecb380235bcf2db274249edc88d2f6552847c98a936251b8c",
+    "status": "COMPLETE"
+  },
+  "instructor": {
+    "evidence_sha256": "07d3d7645fbfe2dd161a035a73a21c9e1805197bc72e798db9130255b0029093",
+    "status": "COMPLETE"
+  },
+  "invoke": {
+    "evidence_sha256": "4d15ae6f3ade97ec4cea281657da07fe864a200665a16b73fd46c525f3d56367",
+    "status": "COMPLETE"
+  },
+  "ipython": {
+    "evidence_sha256": "242e40638a2297194369b1f53ecbedc8e8d97c85d67a48966c03c2e0d45aa470",
+    "status": "COMPLETE"
+  },
+  "jax": {
+    "evidence_sha256": "1906829d0defde52778ae3312c180d2eb72b136719f76bd6fd062352fa9513b2",
+    "status": "COMPLETE"
+  },
+  "joblib": {
+    "evidence_sha256": "498cb18c313fea6f03f4dbf01bf8f0004b876023da7dec2f22fbdc1de1c61663",
+    "status": "COMPLETE"
+  },
+  "jsonschema": {
+    "evidence_sha256": "b5cbd73dcf400bf2cb256b1502ff8d022b9fe192f9b3e06ec1f6b38c34113b06",
+    "status": "COMPLETE"
+  },
+  "justhtml": {
+    "evidence_sha256": "b53c2a09b2af4f75f76130adffe58c44068bf964658660238d36077fddc6e491",
+    "status": "COMPLETE"
+  },
+  "llama-index": {
+    "evidence_sha256": "9a3bd4e9379e7f1127a4bae1298e2b08e0740fde6998900fc31cb60b04969ebe",
+    "status": "COMPLETE"
+  },
+  "locust": {
+    "evidence_sha256": "d278c78a0a02798d50eddfb756ab2ef420bc51c303bd983ac16a513b34e1a090",
+    "status": "COMPLETE"
+  },
+  "loguru": {
+    "evidence_sha256": "0c5228f8f6f3712e346354dffb3c71aa2902f2b81df788dc5c058b41d569671c",
+    "status": "COMPLETE"
+  },
+  "markdown": {
+    "evidence_sha256": "10c2691003c03f72fcc4db8ba41022489688b9b794e4b38cf540e8d88d97c121",
+    "status": "COMPLETE"
+  },
+  "markdown-it-py": {
+    "evidence_sha256": "91428e6a1e0f5079601fd807301351a3106098deed9e3ef48d58b385390029d5",
+    "status": "COMPLETE"
+  },
+  "mlx-lm": {
+    "evidence_sha256": "cc5bb54bc2b5b70f7cd36a5b0d26ba639866288210bc2678c55fd46d73ab3ab5",
+    "status": "COMPLETE"
+  },
+  "more-itertools": {
+    "evidence_sha256": "ef8aebda1a1f4b86a5a28826839ff0a00e571a84e55b3635ac7914034ae6240c",
+    "status": "COMPLETE"
+  },
+  "mypy": {
+    "evidence_sha256": "1a903ec1a390657e74043dce0557f1bf68106acadb9a8fb3d3350f30bd9fcec5",
+    "status": "COMPLETE"
+  },
+  "nicegui": {
+    "evidence_sha256": "a3b8991ffcaaeeb924af12bd47c5a6af838d8e3f880a729820ff2d2e10bf6c0e",
+    "status": "COMPLETE"
+  },
+  "paramiko": {
+    "evidence_sha256": "dcf9a997a4629ec18eef804473a3c5b0e04a11c75e4c37a5ba918f2e01f2b242",
+    "status": "COMPLETE"
+  },
+  "parsy": {
+    "evidence_sha256": "b7fa803b3c9ee1877b1d74220d4743fb1579504ce1a0d679d2e2a1719e622c7a",
+    "status": "COMPLETE"
+  },
+  "peewee": {
+    "evidence_sha256": "83a92c3df2ed48a9ed3bb6a25802038e9384aa5a5195492815f8c15d2f379b5c",
+    "status": "COMPLETE"
+  },
+  "pelican": {
+    "evidence_sha256": "0f6834bc058d429685974c3a9fd4e281c5854fd17797a3e095cef888d2e6fa2e",
+    "status": "COMPLETE"
+  },
+  "pgcli": {
+    "evidence_sha256": "4c6595c70eeae7cd662df9687807c949bbc8735853342e7fd6080abc29a86ad6",
+    "status": "COMPLETE"
+  },
+  "pipx": {
+    "evidence_sha256": "193f258176b94c0fe43d4038a859a87c51d182b9fe30f5de7bfc1fea9bc01807",
+    "status": "COMPLETE"
+  },
+  "poetry": {
+    "evidence_sha256": "16af677955778d3dca54e773151fc467efe1f78de6f5e5ae63d699cde8eb2c7b",
+    "status": "COMPLETE"
+  },
+  "polars": {
+    "evidence_sha256": "5eeb6a04fb1a4cf66d82e177f5aafcf7a52f5cda38e2e3848ae25be6dbf5cde1",
+    "status": "COMPLETE"
+  },
+  "psycopg": {
+    "evidence_sha256": "fb859df1dbd99bd56bbb3187148eb953e5530b503a59f99772841eab578acff8",
+    "status": "COMPLETE"
+  },
+  "pydantic": {
+    "evidence_sha256": "987ee25533beb7c23686d50ab599b67a909234624ce94a7c8edc8a1747f49261",
+    "status": "COMPLETE"
+  },
+  "pydantic-ai": {
+    "evidence_sha256": "fe60d4fcc8ce9a6b878dfed5dcb8563170455d76cea61562012148f6628d06ff",
+    "status": "COMPLETE"
+  },
+  "pygments": {
+    "evidence_sha256": "6ef0299acfd89548d2710e16a159a238b100c64e3fb228735d203fde720eaead",
+    "status": "COMPLETE"
+  },
+  "pymysql": {
+    "evidence_sha256": "aaa53643b6a22d555068cfe0ffd3a05a10644cd89d18858901d38d84fe010a95",
+    "status": "COMPLETE"
+  },
+  "pypiserver": {
+    "evidence_sha256": "c7627c8836a8bbe7799a8a1ebab2124ee8a16048c752090aac037496bc7799d9",
+    "status": "COMPLETE"
+  },
+  "pyramid": {
+    "evidence_sha256": "65f9bdd71983e03b503aefe9cbb14894a4dac6164ac4da4c5f60ff08b7be902c",
+    "status": "COMPLETE"
+  },
+  "python-magic": {
+    "evidence_sha256": "de7f43683a602c6dea94cec1e4cd2fb3e93b2f8536d189e08fa2050b660bb15a",
+    "status": "COMPLETE"
+  },
+  "python-pptx": {
+    "evidence_sha256": "3220184412c8d32bdebc4468f98fd5216a2b2b55ede4e1e15f57a18d74092c79",
+    "status": "COMPLETE"
+  },
+  "python-slugify": {
+    "evidence_sha256": "d88913d4eaaedfa8595e1683bb1c63b3f3da38b2a30c1eac4e003bc0fe70898a",
+    "status": "COMPLETE"
+  },
+  "python-statemachine": {
+    "evidence_sha256": "4664eeba6b1636a086c6b391cb258885e8bc4e9d105fe6793a9c0cc53d37ee53",
+    "status": "COMPLETE"
+  },
+  "pythonnet": {
+    "evidence_sha256": "8c3f65be47deff2c69768c194d4cec4084c3b701de160e99da338963de717bd0",
+    "status": "COMPLETE"
+  },
+  "pytorch-lightning": {
+    "evidence_sha256": "bcec6e6602e3d674f787641d4145e5122ed41fc24901848c24b394e3c4f5af7d",
+    "status": "FAILED"
+  },
+  "reflex": {
+    "evidence_sha256": "3912cea08bb254ad84ec5adf571349f5093c5b95827d2e4d83d676e5b4916ad7",
+    "status": "COMPLETE"
+  },
+  "rembg": {
+    "evidence_sha256": "a2048df3b1f39ae029ea9d260942197c084794618855337c53e27115459c54f3",
+    "status": "COMPLETE"
+  },
+  "rich": {
+    "evidence_sha256": "8a7971d6e5963e57818e2dc2d1fd59545332a09b55df95541ded00a57ae015c0",
+    "status": "COMPLETE"
+  },
+  "robotframework": {
+    "evidence_sha256": "307b9aea7f937bd41090269d572e4f2fb7c105ca35dd48178cbfe3a5963ffe09",
+    "status": "COMPLETE"
+  },
+  "schedule": {
+    "evidence_sha256": "e4c40c17c75c232c725ee12b83ac3b78fc00297c416099be3e1df723c38803ec",
+    "status": "COMPLETE"
+  },
+  "scons": {
+    "evidence_sha256": "3759919a658c2266ddfcc4e3b4e5ec0ba7e502f5586b70508d23256f5c647e12",
+    "status": "COMPLETE"
+  },
+  "setuptools": {
+    "evidence_sha256": "ad97ca628bdaf8064393151decad7c8da56d06b8952dbf46fa170a7bab5d8a6c",
+    "status": "COMPLETE"
+  },
+  "sh": {
+    "evidence_sha256": "ff2290f0427173ccee78ae390fcf9f7b68d0678f4eb64fe4a61ab9ec0a0fe5c2",
+    "status": "COMPLETE"
+  },
+  "sktime": {
+    "evidence_sha256": "bf0615cf820e4bd45c847ebcb87de17ee03981407929c4d78b241a03e2b43a65",
+    "status": "COMPLETE"
+  },
+  "sqlalchemy": {
+    "evidence_sha256": "805ea0466055d8206023d5b0232ea5637abe13196e76c0001c9c46afa114f454",
+    "status": "COMPLETE"
+  },
+  "sqlite-utils": {
+    "evidence_sha256": "c08719a50d326cf99a800220accb6b0b79272aba4e73e1d84fa127e64fec40c7",
+    "status": "COMPLETE"
+  },
+  "sqlmodel": {
+    "evidence_sha256": "53958a989f585831371f7a650ce0ef84f156e258058e5af1bee050ac1e3e5b72",
+    "status": "COMPLETE"
+  },
+  "stanza": {
+    "evidence_sha256": "17a7d2760c8b90871519c2a15dc4d6ff2acee8c40b3aadb0be810486bb46c4cc",
+    "status": "FAILED"
+  },
+  "statsforecast": {
+    "evidence_sha256": "01b7624df2f14a1b3ec262a4a1d93c69dcb201b0e3a15ff89a49dd2fdbc41d2f",
+    "status": "COMPLETE"
+  },
+  "streamlit": {
+    "evidence_sha256": "b018823820ed535a7036758fba55482644cc9557fd63d5541ca673d562d0a637",
+    "status": "COMPLETE"
+  },
+  "structlog": {
+    "evidence_sha256": "254c9115606b0f0495811d128e9ee607669283d61d17e8ee8a87369eabfe72a1",
+    "status": "COMPLETE"
+  },
+  "tablib": {
+    "evidence_sha256": "a0c12e877f962673154e8d583ef7ae1c60a7ad8721380902c73dacd37dff7cca",
+    "status": "COMPLETE"
+  },
+  "textual": {
+    "evidence_sha256": "af87340352b99f1c3c4eb2be0511efc037eb5df87f91fceda4133097fa2b459b",
+    "status": "COMPLETE"
+  },
+  "ultralytics": {
+    "evidence_sha256": "07226ae5ad221185d91e7806b63656b9e10a2b664b67cb863116f75fd90f82dc",
+    "status": "FAILED"
+  },
+  "vcrpy": {
+    "evidence_sha256": "f040b093a6a120507bbf2836eadef6b7ebefb2fbb85097869765b25f7036d1e9",
+    "status": "COMPLETE"
+  },
+  "virtualenv": {
+    "evidence_sha256": "3cd145766d6d3327ec39c288a2790e8e87412a389835e2d24f5725d73ead5b7e",
+    "status": "COMPLETE"
+  },
+  "wagtail": {
+    "evidence_sha256": "126e4ed95f14f58f6427cd593ce91d28352cbcb548d8b8628f02db3ffa07f841",
+    "status": "COMPLETE"
+  },
+  "xlsxwriter": {
+    "evidence_sha256": "b2e3d3642a605307823932c3fa910e5144e11f5235c6053a3b62b86fe75df719",
+    "status": "COMPLETE"
+  }
+}

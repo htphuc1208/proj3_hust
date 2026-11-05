@@ -1,0 +1,56 @@
+{
+  "interpretation": "Coordinate groups retain every physical candidate, including singleton groups; no instance-level edge claim",
+  "records": [
+    {
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "evidence_id": "a005d090f445c70053734856c9120621c7b2bed2aef3d93e99503e6e8f067274",
+          "identity": {
+            "name": "jquery",
+            "purl": "pkg:npm/jquery@3.7.1",
+            "version": "3.7.1"
+          },
+          "metadata_path": "node_modules/jquery/package.json",
+          "sha256": "e0a7941d62e473baba3d7e470bbf232d56736a189369674d6353e001a562f33c"
+        }
+      ],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-Package-npm-jquery-0dec8d23701eee23",
+      "selected_instance": null,
+      "status": "LOCK_CORROBORATED_COORDINATE_GROUP"
+    },
+    {
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "evidence_id": "376b1fb5c902cdd59b7ab05430faab2e34ad2deb699aa3926d5364f4ded12b59",
+          "identity": {
+            "name": "jquery-validation",
+            "purl": "pkg:npm/jquery-validation@1.21.1-pre",
+            "version": "1.21.1-pre"
+          },
+          "metadata_path": "package.json",
+          "sha256": "1ca2ad940d7913cdfa5c4c95d60b2bff2c71986356140ff1bab43053d62cc9c2"
+        }
+      ],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-Package-npm-jquery-validation-ac8ed7c849ac7697",
+      "selected_instance": null,
+      "status": "LOCK_CORROBORATED_COORDINATE_GROUP"
+    },
+    {
+      "candidate_count": 0,
+      "candidates": [],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-DocumentRoot-Directory--target",
+      "selected_instance": null,
+      "status": "UNKNOWN_NO_FILE_BINDING"
+    }
+  ],
+  "schema_version": "instance-evidence-v1",
+  "target_id": "ead25a3f954009db18160993a6ec4864f8b773f6189ed4e1ba37302f98d60c19"
+}

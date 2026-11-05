@@ -1,0 +1,88 @@
+{
+  "interpretation": "Coordinate groups retain every physical candidate, including singleton groups; no instance-level edge claim",
+  "records": [
+    {
+      "candidate_count": 0,
+      "candidates": [],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-Package-f2a10a8efe2c47f9",
+      "selected_instance": null,
+      "status": "UNKNOWN_STRONG_DIGEST_UNAVAILABLE"
+    },
+    {
+      "candidate_count": 0,
+      "candidates": [],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-Package-ac76221558145c7d",
+      "selected_instance": null,
+      "status": "UNKNOWN_STRONG_DIGEST_UNAVAILABLE"
+    },
+    {
+      "candidate_count": 0,
+      "candidates": [],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-Package-ba596b7527880d3c",
+      "selected_instance": null,
+      "status": "UNKNOWN_STRONG_DIGEST_UNAVAILABLE"
+    },
+    {
+      "candidate_count": 0,
+      "candidates": [],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-Package-66e867254ce61cf5",
+      "selected_instance": null,
+      "status": "UNKNOWN_STRONG_DIGEST_UNAVAILABLE"
+    },
+    {
+      "candidate_count": 0,
+      "candidates": [],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-Package-b9fbce77b987de40",
+      "selected_instance": null,
+      "status": "UNKNOWN_STRONG_DIGEST_UNAVAILABLE"
+    },
+    {
+      "candidate_count": 0,
+      "candidates": [],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-Package-7d810c08b768da9d",
+      "selected_instance": null,
+      "status": "UNKNOWN_STRONG_DIGEST_UNAVAILABLE"
+    },
+    {
+      "candidate_count": 0,
+      "candidates": [],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-Package-176e28d2a0f2b07a",
+      "selected_instance": null,
+      "status": "UNKNOWN_STRONG_DIGEST_UNAVAILABLE"
+    },
+    {
+      "candidate_count": 0,
+      "candidates": [],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-Package-c1d379890b013542",
+      "selected_instance": null,
+      "status": "UNKNOWN_STRONG_DIGEST_UNAVAILABLE"
+    },
+    {
+      "candidate_count": 0,
+      "candidates": [],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-Filesystem-7939798d3d7ba4a1",
+      "selected_instance": null,
+      "status": "UNKNOWN_NO_FILE_BINDING"
+    }
+  ],
+  "schema_version": "instance-evidence-v1",
+  "target_id": "9d54d204fc788b3bae7714300e74dabc0d07ed5d31ef39b05c511c867a5a9566"
+}

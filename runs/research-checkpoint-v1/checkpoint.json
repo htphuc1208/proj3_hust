@@ -1,0 +1,76 @@
+{
+  "artifact_hashes_sha256": "940e576602c01dd831f94381b83cb76d7143346a18b07a7f89718545f6957f51",
+  "claim_review_completed": {
+    "A": 0,
+    "B": 0
+  },
+  "controlled": {
+    "completed_cases": 227,
+    "independent_projects": 60,
+    "total_cases": 12960,
+    "updated_at": "2026-11-02T01:58:09.455831Z"
+  },
+  "controller": {
+    "interpretation": "Saved RUNNING is not a liveness check; namespace PID visibility does not attest a live controller",
+    "pid": 671981,
+    "pid_visible_in_current_namespace": false,
+    "recorded_status": "RUNNING",
+    "resumed": false
+  },
+  "discovery_review_completed": {
+    "A": 0,
+    "B": 0
+  },
+  "generated_at": "2026-11-04T06:54:12.441653+00:00",
+  "git_base_head": "fe2fece16a81248a15cb655638aa4341683f7b77",
+  "human_agreement": null,
+  "new_heldout_predictions": 0,
+  "new_llm_api_calls": 0,
+  "new_repositories": 0,
+  "pilot30_gate": {
+    "independent_discovery_review": "PENDING",
+    "independent_human_qa": "PENDING",
+    "materialized_scope_manifest": "runs/materialized-scope-v3/manifest.json",
+    "materialized_scope_verification": "runs/materialized-scope-v3-sandbox-audit/validation/verification.json",
+    "nine_case_machine_provenance": "PASSED; see the versioned run verification",
+    "ready_for_new_collection": false,
+    "scanner_scope_matching_correctness": "PARTIAL: 22 native-crosschecked Python file bindings; npm coordinate groups and Java/weak-digest uncertainty remain; whole-inventory matching correctness unmeasured"
+  },
+  "raw": {
+    "completed_cases": 360,
+    "independent_projects": 60,
+    "total_cases": 360,
+    "updated_at": "2026-10-31T05:03:37.312254Z"
+  },
+  "raw_audit_status": "EXPORTED",
+  "reconciliation": {
+    "after": {
+      "f1": 0.935208226117317,
+      "precision": 0.9040616055608559,
+      "recall": 0.9787317945212682
+    },
+    "before": {
+      "f1": 0.8701966093815623,
+      "precision": 0.7888379403371907,
+      "recall": 0.9787317945212682
+    },
+    "projects": 11
+  },
+  "replication_scope": "Local retained snapshots and image IDs required; hashes do not make this a complete portable replication bundle",
+  "sensitivity": "NOT_STARTED",
+  "source_hashes_sha256": "95612921c244e5441c99358ad3993c489dec0a783b6aa11cb5ec7c3c11f41260",
+  "tests": {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "docker_integration": "Explicit integration flag unset; separately executed 20 blind Docker prediction workers",
+    "returncode": 0
+  }
+}

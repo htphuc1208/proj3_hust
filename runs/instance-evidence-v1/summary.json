@@ -1,0 +1,55 @@
+{
+  "new_acquisitions": 0,
+  "new_labels": 0,
+  "records": [
+    {
+      "ambiguous_groups": 0,
+      "case_id": "fresh-npm-ejs",
+      "groups": 8,
+      "instance_edges_inferred": 0,
+      "largest_group": 1,
+      "scanner": "syft"
+    },
+    {
+      "ambiguous_groups": 0,
+      "case_id": "fresh-npm-ejs",
+      "groups": 0,
+      "instance_edges_inferred": 0,
+      "largest_group": 0,
+      "scanner": "trivy"
+    },
+    {
+      "ambiguous_groups": 0,
+      "case_id": "fresh-npm-jquery-validation",
+      "groups": 2,
+      "instance_edges_inferred": 0,
+      "largest_group": 1,
+      "scanner": "syft"
+    },
+    {
+      "ambiguous_groups": 0,
+      "case_id": "fresh-npm-jquery-validation",
+      "groups": 0,
+      "instance_edges_inferred": 0,
+      "largest_group": 0,
+      "scanner": "trivy"
+    },
+    {
+      "ambiguous_groups": 27,
+      "case_id": "fresh-npm-microbundle",
+      "groups": 464,
+      "instance_edges_inferred": 0,
+      "largest_group": 37,
+      "scanner": "syft"
+    },
+    {
+      "ambiguous_groups": 0,
+      "case_id": "fresh-npm-microbundle",
+      "groups": 0,
+      "instance_edges_inferred": 0,
+      "largest_group": 0,
+      "scanner": "trivy"
+    }
+  ],
+  "status": "INTERFACE_DIAGNOSTIC_ONLY"
+}

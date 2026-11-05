@@ -1,0 +1,176 @@
+{
+  "interpretation": "Coordinate groups retain every physical candidate, including singleton groups; no instance-level edge claim",
+  "records": [
+    {
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "evidence_id": "c6994a1b574b831d161549cd30145908d7ec9ee9b333d6a81dffcc3b1ef4882a",
+          "identity": {
+            "name": "async",
+            "purl": "pkg:npm/async@3.2.6",
+            "version": "3.2.6"
+          },
+          "metadata_path": "node_modules/async/package.json",
+          "sha256": "e010fe63aa861e8a60fb8b9d3e7fb5205e3b8d6001ebe3ff95985996abe581a9"
+        }
+      ],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-Package-npm-async-b99b8418a00b855e",
+      "selected_instance": null,
+      "status": "LOCK_CORROBORATED_COORDINATE_GROUP"
+    },
+    {
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "evidence_id": "250a31dfb75f1bb0a2f2f2af58a4f20989485ec5d40efda4760432cd272e130f",
+          "identity": {
+            "name": "balanced-match",
+            "purl": "pkg:npm/balanced-match@1.0.2",
+            "version": "1.0.2"
+          },
+          "metadata_path": "node_modules/balanced-match/package.json",
+          "sha256": "b30c328501dead1870b894ad604405b2284b571c1f12664cdc61d92a2e3397c2"
+        }
+      ],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-Package-npm-balanced-match-0d7c80c1e227b7e2",
+      "selected_instance": null,
+      "status": "LOCK_CORROBORATED_COORDINATE_GROUP"
+    },
+    {
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "evidence_id": "f47b4110a32b0df805c384f83e9edf6dd6f507c0dcbcba4f72453db62a59a838",
+          "identity": {
+            "name": "brace-expansion",
+            "purl": "pkg:npm/brace-expansion@2.1.7",
+            "version": "2.1.7"
+          },
+          "metadata_path": "node_modules/filelist/node_modules/brace-expansion/package.json",
+          "sha256": "d217a00ed39214d81f5d9999c0c639f147bab438f94589f9a5b96debf57d6e61"
+        }
+      ],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-Package-npm-brace-expansion-c2be8a50345af7fc",
+      "selected_instance": null,
+      "status": "LOCK_CORROBORATED_COORDINATE_GROUP"
+    },
+    {
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "evidence_id": "d15bf14eb7625b640125128e1fc84c8b7f8492c79d5cb56c2b6803c8a9ab4e99",
+          "identity": {
+            "name": "ejs",
+            "purl": "pkg:npm/ejs@3.1.10",
+            "version": "3.1.10"
+          },
+          "metadata_path": "package.json",
+          "sha256": "43af3c2852e29fea7f90724a96b47c9de1a21acf8b40c05ce5dacec75ac9422b"
+        }
+      ],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-Package-npm-ejs-52b62e85a4549e6d",
+      "selected_instance": null,
+      "status": "LOCK_CORROBORATED_COORDINATE_GROUP"
+    },
+    {
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "evidence_id": "1f97bbe2624a6da8d417294eb139e78381386ff6bdfdbb8fc305f3066c2b9fdd",
+          "identity": {
+            "name": "filelist",
+            "purl": "pkg:npm/filelist@1.0.6",
+            "version": "1.0.6"
+          },
+          "metadata_path": "node_modules/filelist/package.json",
+          "sha256": "eac5bb1401d225696f74ade3e216b771f458690b0bb82de68eac8880f4272a75"
+        }
+      ],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-Package-npm-filelist-3af1bb415105a02b",
+      "selected_instance": null,
+      "status": "LOCK_CORROBORATED_COORDINATE_GROUP"
+    },
+    {
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "evidence_id": "36439ae4bf26dc37ecbf9839b3435b1b8044d56aae1c8c4d3dd9862d5cea9e09",
+          "identity": {
+            "name": "jake",
+            "purl": "pkg:npm/jake@10.9.4",
+            "version": "10.9.4"
+          },
+          "metadata_path": "node_modules/jake/package.json",
+          "sha256": "96fd372f49f294e7ca4bbe3cb578046dd45b3542801b1337ece092363d5d89e3"
+        }
+      ],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-Package-npm-jake-f31574d10c84813a",
+      "selected_instance": null,
+      "status": "LOCK_CORROBORATED_COORDINATE_GROUP"
+    },
+    {
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "evidence_id": "a66b93038982b28a6d0178324f8f8c8a56032ded058d72987e70ab2586e998fe",
+          "identity": {
+            "name": "minimatch",
+            "purl": "pkg:npm/minimatch@5.1.9",
+            "version": "5.1.9"
+          },
+          "metadata_path": "node_modules/filelist/node_modules/minimatch/package.json",
+          "sha256": "dc1b9424c2ec4c845ba05e7402f7d22807f4ac85d31725892fd3dcafaa08f800"
+        }
+      ],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-Package-npm-minimatch-6f2feaadcd9ee1df",
+      "selected_instance": null,
+      "status": "LOCK_CORROBORATED_COORDINATE_GROUP"
+    },
+    {
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "evidence_id": "3ea2930b755f0792b2ff91eaadb47b5bdc82934f99d368c67252f0ab3649915d",
+          "identity": {
+            "name": "picocolors",
+            "purl": "pkg:npm/picocolors@1.1.1",
+            "version": "1.1.1"
+          },
+          "metadata_path": "node_modules/picocolors/package.json",
+          "sha256": "ef2ac226c4811d312e12c64214c453878653e834482125ae475f27cea60de737"
+        }
+      ],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-Package-npm-picocolors-9b208867cdc8b323",
+      "selected_instance": null,
+      "status": "LOCK_CORROBORATED_COORDINATE_GROUP"
+    },
+    {
+      "candidate_count": 0,
+      "candidates": [],
+      "dependency_edges": "NOT_INFERRED",
+      "identity_accuracy": "UNMEASURED",
+      "scanner_ref": "SPDXRef-DocumentRoot-Directory--target",
+      "selected_instance": null,
+      "status": "UNKNOWN_NO_FILE_BINDING"
+    }
+  ],
+  "schema_version": "instance-evidence-v1",
+  "target_id": "9d54d204fc788b3bae7714300e74dabc0d07ed5d31ef39b05c511c867a5a9566"
+}

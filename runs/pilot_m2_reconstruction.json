@@ -1,0 +1,72 @@
+{
+  "project": "pilot-container-requests",
+  "experiment": "M2.2 Blind Real-World Pilot Reconstruction",
+  "ground_truth_counts": {
+    "direct_package_edges": 4,
+    "evaluated_requirement_records": 17,
+    "packages": 5,
+    "unresolved": 0
+  },
+  "regime_k": {
+    "ground_truth_total": 4,
+    "observed_total": 0,
+    "actually_missing_total": 4,
+    "newly_proposed_total": 4,
+    "tp": 4,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "recovered_edges": [
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/certifi@2026.10.19"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/charset-normalizer@3.5.2"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/idna@3.20"
+      ],
+      [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/urllib3@2.8.0"
+      ]
+    ],
+    "false_positive_edges": [],
+    "missed_edges": []
+  },
+  "regime_u": {
+    "regime": "Regime_U_Partial_or_Missing_Context",
+    "predicted_must_count": 4,
+    "predicted_may_count": 4,
+    "unknown_count": 0,
+    "must_precision": 1.0,
+    "may_recall": 1.0,
+    "false_certainty_rate": 0.0,
+    "abstention_rate": 0.0,
+    "target_coverage": 1.0,
+    "details": {
+      "falsely_certain_edges": []
+    }
+  },
+  "security_vrr": {
+    "ground_truth_vulnerabilities": 1,
+    "vrr_observed": 0.0,
+    "vrr_predicted": 1.0,
+    "delta_vrr": 1.0,
+    "recovered_vulnerabilities": [
+      "pkg:pypi/urllib3@2.8.0"
+    ],
+    "missed_vulnerabilities": [],
+    "false_positive_vulnerabilities": [
+      "pkg:pypi/certifi@2026.10.19",
+      "pkg:pypi/charset-normalizer@3.5.2",
+      "pkg:pypi/idna@3.20"
+    ]
+  },
+  "contradictions_detected": 4
+}

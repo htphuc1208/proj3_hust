@@ -1,0 +1,21 @@
+{
+  "adjudication_queue": [],
+  "agreement_denominator": "Tasks with completed decisions from both distinct self-attested human reviewers",
+  "completed_by_slot": {
+    "A": 0,
+    "B": 0
+  },
+  "disagreements": [],
+  "labels_modified": false,
+  "next_gate": "Independent adjudication, discovery review and scanner-scope matching",
+  "observed_agreement": null,
+  "packet_sha256": "e0ad7fd6097529f84e4ce5004054750211b6a4e99a6159857a4aa16fe8979c02",
+  "paired": 0,
+  "ready_for_scale": false,
+  "response_hashes": {
+    "A": "4708c35a941a121c93e21f4c049daa1b23adcab458c8a2f62af8cc6eaaad87d1",
+    "B": "4f6c14a541ad7bd6c921b0c9fc58c0a7a4d379a25f807e386300d9ecd8efdfaf"
+  },
+  "status": "PENDING",
+  "tasks": 678
+}

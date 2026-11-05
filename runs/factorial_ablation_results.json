@@ -1,0 +1,149 @@
+{
+  "requests": {
+    "ground_truth_edges_count": 4,
+    "configurations": {
+      "A00": {
+        "name": "Markers OFF, Extras OFF",
+        "markers_enabled": false,
+        "extras_enabled": false,
+        "tp": 4,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "A10": {
+        "name": "Markers ON, Extras OFF (B3 Default)",
+        "markers_enabled": true,
+        "extras_enabled": false,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "A01": {
+        "name": "Markers OFF, Extras ON",
+        "markers_enabled": false,
+        "extras_enabled": true,
+        "tp": 4,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "A11": {
+        "name": "Markers ON, Extras ON",
+        "markers_enabled": true,
+        "extras_enabled": true,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "requests-cache": {
+    "ground_truth_edges_count": 13,
+    "configurations": {
+      "A00": {
+        "name": "Markers OFF, Extras OFF",
+        "markers_enabled": false,
+        "extras_enabled": false,
+        "tp": 9,
+        "fp": 36,
+        "fn": 4,
+        "precision": 0.2,
+        "recall": 0.6923076923076923,
+        "f1": 0.3103448275862069
+      },
+      "A10": {
+        "name": "Markers ON, Extras OFF (B3 Default)",
+        "markers_enabled": true,
+        "extras_enabled": false,
+        "tp": 9,
+        "fp": 0,
+        "fn": 4,
+        "precision": 1.0,
+        "recall": 0.6923076923076923,
+        "f1": 0.8181818181818182
+      },
+      "A01": {
+        "name": "Markers OFF, Extras ON",
+        "markers_enabled": false,
+        "extras_enabled": true,
+        "tp": 9,
+        "fp": 36,
+        "fn": 4,
+        "precision": 0.2,
+        "recall": 0.6923076923076923,
+        "f1": 0.3103448275862069
+      },
+      "A11": {
+        "name": "Markers ON, Extras ON",
+        "markers_enabled": true,
+        "extras_enabled": true,
+        "tp": 9,
+        "fp": 0,
+        "fn": 4,
+        "precision": 1.0,
+        "recall": 0.6923076923076923,
+        "f1": 0.8181818181818182
+      }
+    }
+  },
+  "httpbin": {
+    "ground_truth_edges_count": 31,
+    "configurations": {
+      "A00": {
+        "name": "Markers OFF, Extras OFF",
+        "markers_enabled": false,
+        "extras_enabled": false,
+        "tp": 25,
+        "fp": 25,
+        "fn": 6,
+        "precision": 0.5,
+        "recall": 0.8064516129032258,
+        "f1": 0.6172839506172839
+      },
+      "A10": {
+        "name": "Markers ON, Extras OFF (B3 Default)",
+        "markers_enabled": true,
+        "extras_enabled": false,
+        "tp": 25,
+        "fp": 0,
+        "fn": 6,
+        "precision": 1.0,
+        "recall": 0.8064516129032258,
+        "f1": 0.8928571428571429
+      },
+      "A01": {
+        "name": "Markers OFF, Extras ON",
+        "markers_enabled": false,
+        "extras_enabled": true,
+        "tp": 25,
+        "fp": 25,
+        "fn": 6,
+        "precision": 0.5,
+        "recall": 0.8064516129032258,
+        "f1": 0.6172839506172839
+      },
+      "A11": {
+        "name": "Markers ON, Extras ON",
+        "markers_enabled": true,
+        "extras_enabled": true,
+        "tp": 25,
+        "fp": 0,
+        "fn": 6,
+        "precision": 1.0,
+        "recall": 0.8064516129032258,
+        "f1": 0.8928571428571429
+      }
+    }
+  }
+}
