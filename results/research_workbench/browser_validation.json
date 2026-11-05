@@ -1,0 +1,21 @@
+{
+  "artifact_links_checked": 80,
+  "browser": "141.0.7390.37",
+  "checks": [
+    "All seven screens render",
+    "Original/reconstructed edge counts match source JSON",
+    "Keyboard edge selection updates inspector",
+    "Project/evidence selection updates metrics",
+    "Undefined metrics stay undefined",
+    "Untrusted project text is inert",
+    "Artifact links resolve"
+  ],
+  "index_sha256": "fd9826517192f880124e487436611f7510cda6f5e356fdfeab2f8bf39e2e7226",
+  "javascript_errors": [],
+  "screenshots": [
+    "screenshot.png",
+    "graph_screenshot.png"
+  ],
+  "status": "PASS",
+  "tested_at": "2026-10-22T21:35:30.641596+00:00"
+}

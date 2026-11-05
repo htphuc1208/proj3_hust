@@ -1,0 +1,163 @@
+{
+  "run_mode": "live_best_effort",
+  "not_an_ai_model": true,
+  "scope": "Python/PyPI; candidate dependency edges, not validated against installed artifacts",
+  "before": {
+    "components": 1,
+    "edges": 0
+  },
+  "after": {
+    "components": 5,
+    "edges": 4
+  },
+  "recovered_components": [
+    "pkg:pypi/certifi@2026.10.18",
+    "pkg:pypi/charset-normalizer@3.5.2",
+    "pkg:pypi/idna@3.20.0",
+    "pkg:pypi/urllib3@2.8.0"
+  ],
+  "candidate_edges": [
+    {
+      "from": "pkg:pypi/requests@2.31.0",
+      "to": "pkg:pypi/certifi@2026.10.18",
+      "source": "deps.dev_reference_resolution",
+      "claim": "candidate_not_verified_in_target_build"
+    },
+    {
+      "from": "pkg:pypi/requests@2.31.0",
+      "to": "pkg:pypi/charset-normalizer@3.5.2",
+      "source": "deps.dev_reference_resolution",
+      "claim": "candidate_not_verified_in_target_build"
+    },
+    {
+      "from": "pkg:pypi/requests@2.31.0",
+      "to": "pkg:pypi/idna@3.20.0",
+      "source": "deps.dev_reference_resolution",
+      "claim": "candidate_not_verified_in_target_build"
+    },
+    {
+      "from": "pkg:pypi/requests@2.31.0",
+      "to": "pkg:pypi/urllib3@2.8.0",
+      "source": "deps.dev_reference_resolution",
+      "claim": "candidate_not_verified_in_target_build"
+    }
+  ],
+  "security_findings": [
+    {
+      "advisory": "GHSA-6q48-6c7w-9gw2",
+      "title": "certifi bundles emSign root CAs with compromised intermediate CA keys",
+      "advisory_kind": "real_advisory",
+      "component": "pkg:pypi/certifi@2026.10.18",
+      "dependency_path": [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/certifi@2026.10.18"
+      ],
+      "dependency_path_status": "candidate_path",
+      "vulnerable_function": null,
+      "function_reachability": "unknown_not_proven_unreachable",
+      "static_call_path": null
+    },
+    {
+      "advisory": "PYSEC-2026-4320",
+      "title": "certifi bundles emSign root CAs with compromised intermediate CA keys",
+      "advisory_kind": "real_advisory",
+      "component": "pkg:pypi/certifi@2026.10.18",
+      "dependency_path": [
+        "pkg:pypi/requests@2.31.0",
+        "pkg:pypi/certifi@2026.10.18"
+      ],
+      "dependency_path_status": "candidate_path",
+      "vulnerable_function": null,
+      "function_reachability": "unknown_not_proven_unreachable",
+      "static_call_path": null
+    },
+    {
+      "advisory": "GHSA-9hjg-9r4m-mvj7",
+      "title": "Requests vulnerable to .netrc credentials leak via malicious URLs",
+      "advisory_kind": "real_advisory",
+      "component": "pkg:pypi/requests@2.31.0",
+      "dependency_path": [
+        "pkg:pypi/requests@2.31.0"
+      ],
+      "dependency_path_status": "candidate_path",
+      "vulnerable_function": null,
+      "function_reachability": "unknown_not_proven_unreachable",
+      "static_call_path": null
+    },
+    {
+      "advisory": "GHSA-9wx4-h78v-vm56",
+      "title": "Requests `Session` object does not verify requests after making first request with verify=False",
+      "advisory_kind": "real_advisory",
+      "component": "pkg:pypi/requests@2.31.0",
+      "dependency_path": [
+        "pkg:pypi/requests@2.31.0"
+      ],
+      "dependency_path_status": "candidate_path",
+      "vulnerable_function": null,
+      "function_reachability": "unknown_not_proven_unreachable",
+      "static_call_path": null
+    },
+    {
+      "advisory": "GHSA-gc5v-m9x4-r6x2",
+      "title": "Requests has Insecure Temp File Reuse in its extract_zipped_paths() utility function",
+      "advisory_kind": "real_advisory",
+      "component": "pkg:pypi/requests@2.31.0",
+      "dependency_path": [
+        "pkg:pypi/requests@2.31.0"
+      ],
+      "dependency_path_status": "candidate_path",
+      "vulnerable_function": null,
+      "function_reachability": "unknown_not_proven_unreachable",
+      "static_call_path": null
+    },
+    {
+      "advisory": "PYSEC-2026-1872",
+      "title": "Requests vulnerable to .netrc credentials leak via malicious URLs",
+      "advisory_kind": "real_advisory",
+      "component": "pkg:pypi/requests@2.31.0",
+      "dependency_path": [
+        "pkg:pypi/requests@2.31.0"
+      ],
+      "dependency_path_status": "candidate_path",
+      "vulnerable_function": null,
+      "function_reachability": "unknown_not_proven_unreachable",
+      "static_call_path": null
+    },
+    {
+      "advisory": "PYSEC-2026-1873",
+      "title": "Requests `Session` object does not verify requests after making first request with verify=False",
+      "advisory_kind": "real_advisory",
+      "component": "pkg:pypi/requests@2.31.0",
+      "dependency_path": [
+        "pkg:pypi/requests@2.31.0"
+      ],
+      "dependency_path_status": "candidate_path",
+      "vulnerable_function": null,
+      "function_reachability": "unknown_not_proven_unreachable",
+      "static_call_path": null
+    },
+    {
+      "advisory": "PYSEC-2026-2275",
+      "title": "",
+      "advisory_kind": "real_advisory",
+      "component": "pkg:pypi/requests@2.31.0",
+      "dependency_path": [
+        "pkg:pypi/requests@2.31.0"
+      ],
+      "dependency_path_status": "candidate_path",
+      "vulnerable_function": null,
+      "function_reachability": "unknown_not_proven_unreachable",
+      "static_call_path": null
+    }
+  ],
+  "blocked": [],
+  "warnings": [],
+  "limitations": [
+    "Fixture packages and fixture advisory are entirely invented (not real vulnerabilities).",
+    "Live deps.dev resolution is for a generic environment; not evidence of actual installation.",
+    "OSV package/version match does not establish vulnerable-code execution.",
+    "Limited Python static call graph supports a small subset of call patterns.",
+    "A missing call path means UNKNOWN, never PROVEN_UNREACHABLE.",
+    "Explicit dependency declarations are preserved and not contradicted."
+  ]
+}

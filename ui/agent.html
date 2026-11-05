@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="vi">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SBOM Risk Studio</title><link rel="stylesheet" href="/agent.css"></head>
+<body>
+<header><a class="brand" href="/">◈ <span>SBOM <strong>Risk Studio</strong></span></a><div id="gateway" class="pill">Đang kiểm tra gateway</div></header>
+<main>
+<div class="intro"><div><p class="eyebrow">EVIDENCE-GUIDED RECOVERY</p><h1>Khôi phục cấu trúc.<br>Làm rõ bằng chứng rủi ro.</h1><p>Đối chiếu SBOM với metadata của target, xem từng thay đổi và những điều còn chưa xác minh.</p></div><div class="scope"><span>PHẠM VI PHÂN TÍCH</span><strong>Package & dependency</strong><p>Đường phụ thuộc hỗ trợ điều tra. Khả năng khai thác vẫn cần bằng chứng riêng.</p></div></div>
+<div class="workspace">
+<aside class="card setup"><div class="section-title"><span class="number">01</span><h2>Thiết lập phiên</h2></div>
+<label for="project">Target được đối chiếu</label><select id="project"><option>Đang tải…</option></select><p class="hint">Metadata thuộc đúng bản cài đặt đã ghi nhận của target được chọn.</p>
+<label for="scanner">SBOM đầu vào</label><select id="scanner"></select>
+<label class="upload" for="upload">＋ Dùng file CycloneDX / SPDX JSON<input id="upload" type="file" accept=".json,application/json"></label><div id="upload-name" class="hint"></div>
+<label for="policy">Phương pháp</label><select id="policy"><option value="single_agent_reconciliation">AI Agent · lựa chọn evidence</option><option value="fixed_order">Đối chứng · thứ tự cố định</option><option value="cheapest_source">Đối chứng · nguồn ít byte nhất</option><option value="unresolved_priority">Đối chứng · ưu tiên phần chưa rõ</option></select>
+<label for="budget">Chế độ thu thập</label><select id="budget"><option value="unlimited">Không giới hạn · xử lý hết nguồn evidence</option><option value="4">Đối chứng · 4 lượt</option><option value="16">Đối chứng · 16 lượt</option></select><p class="hint">Mặc định không áp trần lượt LLM, tool call, lượng evidence hoặc thời gian toàn phiên. Lỗi gateway tạm thời được tự thử lại.</p>
+<button id="run" class="primary">Bắt đầu khôi phục <span>↗</span></button><p id="job-status" role="status" aria-live="polite">Chọn target để bắt đầu.</p>
+<div class="history"><div class="section-title"><h2>Lịch sử phiên</h2><button id="refresh" class="small" aria-label="Làm mới lịch sử">↻</button></div><div id="history"></div></div></aside>
+<section class="results">
+<div id="empty" class="card empty"><div class="empty-icon">◈</div><h2>Mọi thay đổi đều có nguồn.</h2><p>Chạy một phiên hoặc chọn lịch sử để xem SBOM trước/sau, evidence và các advisory liên quan.</p><div class="steps"><span>Quan sát</span><b>→</b><span>Thu thập</span><b>→</b><span>Kiểm chứng</span><b>→</b><span>Điều tra</span></div></div>
+<div id="result" hidden>
+<div class="result-heading"><div><p class="eyebrow" id="run-id"></p><h2 id="result-title">Kết quả khôi phục</h2><p class="hint" id="result-target"></p></div><button id="download" class="secondary">↓ Tải SBOM dẫn xuất</button></div>
+<div class="metrics"><div class="card metric"><span>Cạnh bổ sung</span><strong id="added">0</strong></div><div class="card metric"><span>Cạnh loại khỏi bản dẫn xuất</span><strong id="removed">0</strong></div><div class="card metric"><span>Đánh giá UNKNOWN</span><strong id="unknown">0</strong></div><div class="card metric"><span>Evidence đã đọc / lượt thử</span><strong id="reads">0 / 0</strong></div></div>
+<div id="validation" class="notice"></div>
+<nav class="tabs" aria-label="Kết quả"><button class="active" data-tab="graph">Đồ thị</button><button data-tab="changes">Thay đổi & evidence</button><button data-tab="risk">Advisory & đường phụ thuộc</button><button data-tab="trace">Nhật ký công cụ</button></nav>
+<div id="graph" class="tab-content"><label for="graph-scope">Phạm vi hiển thị</label><select id="graph-scope"><option value="candidates">Ứng viên phân phối PyPI</option><option value="all">Tất cả package trong SBOM</option></select><p class="hint">Phạm vi ứng viên dựa trên evidence của scanner; không xác nhận artifact đã cài đặt. Chỉ số UNKNOWN tính trên toàn bộ SBOM.</p><div class="graph-grid"><article class="card"><h3>SBOM quan sát</h3><p id="before-count" class="hint"></p><svg id="before-graph" role="img" aria-label="Đồ thị SBOM quan sát"></svg></article><article class="card"><h3>Bản dẫn xuất có evidence</h3><p id="after-count" class="hint"></p><svg id="after-graph" role="img" aria-label="Đồ thị SBOM dẫn xuất"></svg></article></div><p class="hint">Xanh lá: cạnh bổ sung. Đỏ đứt nét: cạnh bị loại khỏi bản dẫn xuất. Chọn component để xem định danh.</p><div id="node-detail" class="card detail">Chọn một component trên đồ thị.</div></div>
+<div id="changes" class="tab-content" hidden><article class="card"><h3>Bằng chứng và quyết định</h3><div id="change-list"></div></article><article class="card evidence-panel"><h3>Nội dung evidence đã thu thập</h3><div id="source-list"></div><pre id="source-content">Chọn một nguồn để kiểm tra nội dung và SHA-256.</pre></article></div>
+<div id="risk" class="tab-content" hidden><div class="notice">Advisory được đối chiếu sau khi niêm phong dự đoán. Thiếu đường đi hoặc thiếu dữ liệu advisory đều giữ UNKNOWN; trạng thái sản phẩm vẫn cần điều tra.</div><article class="card"><h3>Package có advisory khớp trong snapshot</h3><div id="risk-list"></div><p id="risk-note" class="hint"></p></article></div>
+<div id="trace" class="tab-content" hidden><article class="card"><h3>Hoạt động trong ngân sách</h3><div id="trace-list"></div></article></div>
+</div></section></div>
+<details class="card reachability-pilot" id="reachability-pilot">
+<summary><span class="eyebrow">CONTROLLED REACHABILITY PILOT</span><strong>Level 2 / Level 3 · Đối chiếu bằng chứng</strong></summary>
+<p id="pilot-scope" class="hint">Đang kiểm tra kết quả pilot…</p>
+<div id="pilot-result" hidden>
+<div class="pilot-controls"><div><label for="pilot-version">Phiên bản upstream PyYAML</label><select id="pilot-version"></select></div><div><label for="pilot-profile">Ứng dụng kiểm soát</label><select id="pilot-profile"></select></div><div><label for="pilot-input">Đầu vào</label><select id="pilot-input"></select></div></div>
+<div class="graph-grid"><article class="card"><h3>Level 2 · Đường gọi tĩnh PyCG</h3><p id="pilot-static-status" class="hint"></p><ol id="pilot-static-path" class="call-path"></ol><p id="pilot-api-path" class="hint"></p></article><article class="card"><h3>Level 3 · Bằng chứng runtime</h3><p id="pilot-witness" class="notice"></p><p id="pilot-runtime-result"></p><p id="pilot-fixed-control" class="hint"></p><pre id="pilot-audit"></pre></article></div>
+<p id="pilot-provenance" class="hint"></p><button id="pilot-download" class="secondary">↓ Tải bằng chứng pilot JSON</button>
+</div></details>
+</main><footer>Đồ thị ứng viên có provenance · Độ tin cậy chưa hiệu chuẩn · Không suy ra SAFE từ việc thiếu đường đi</footer>
+<script src="/agent.js"></script></body></html>

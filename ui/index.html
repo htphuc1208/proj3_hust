@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SBOM Security Recovery Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="app-header">
+    <div class="brand-section">
+      <h1 class="brand-title">SBOM Security Recovery Studio</h1>
+      <div class="brand-sub">Platform for Software Bill of Materials Graph Reconstruction and Verification</div>
+    </div>
+    <div class="header-actions">
+      <button type="button" class="btn-icon" id="btnRefreshRuns" title="Làm mới lịch sử chạy">
+        Làm mới
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="app-container">
+    <!-- Left Configuration Panel -->
+    <aside class="panel-card" id="configPanel">
+      <div class="panel-header">
+        <h2 class="panel-title">Cấu hình thực thi</h2>
+        <p class="panel-desc">Chọn chế độ và dữ liệu dự án mục tiêu</p>
+      </div>
+
+      <!-- Mode Selector -->
+      <div class="mode-toggle-group" id="modeSelectorGroup" role="tablist">
+        <button type="button" class="mode-btn active-deterministic" id="btnModeDeterministic" role="tab" aria-selected="true">
+          <span class="mode-title">Cách 1: Tất định</span>
+          <span class="mode-subtitle">Offline</span>
+        </button>
+        <button type="button" class="mode-btn" id="btnModeAI" role="tab" aria-selected="false">
+          <span class="mode-title">Cách 2: AI Agent</span>
+          <span class="mode-subtitle">Online Gateway</span>
+        </button>
+      </div>
+
+      <!-- Target Project Selector -->
+      <div class="form-group">
+        <label class="form-label" for="selectProject">Dự án mẫu:</label>
+        <select class="form-select" id="selectProject">
+          <option value="">Đang tải danh sách dự án...</option>
+        </select>
+        <div class="form-helper">Chọn từ 100 dự án PyPI đã thu thập sẵn</div>
+      </div>
+
+      <!-- Scanner Input Selector -->
+      <div class="form-group">
+        <label class="form-label" for="selectScanner">File SBOM đầu vào:</label>
+        <select class="form-select" id="selectScanner">
+          <option value="">-- Chọn file SBOM đầu vào --</option>
+        </select>
+        <div class="form-helper">Chọn SBOM do công cụ quét ban đầu tạo ra</div>
+      </div>
+
+      <!-- AI-specific Settings -->
+      <div id="aiSettingsSection" style="display: none;">
+        <div class="form-group">
+          <label class="form-label" for="inputApiKey">Gateway API Key:</label>
+          <input type="password" class="form-input" id="inputApiKey" placeholder="Nhập API key hoặc để trống nếu đã có trong env">
+          <div class="form-helper">Khóa chỉ nằm trong bộ nhớ máy chủ cục bộ</div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="selectModel">Mô hình LLM:</label>
+            <select class="form-select" id="selectModel">
+              <option value="Qwen/Qwen3.6-35B-A3B-FP8" selected>Qwen 3.6-35B-A3B</option>
+              <option value="Qwen/Qwen3.5-122B-A10B-FP8">Qwen 3.5-122B-A10B</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="checkStreaming">Giao thức:</label>
+            <div style="margin-top: 8px;">
+              <label style="font-size: 0.85rem; cursor: pointer; user-select: none;">
+                <input type="checkbox" id="checkStreaming" checked> SSE Streaming
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Run Button -->
+      <button type="button" class="btn-run" id="btnExecuteRecovery">
+        <span id="btnRunText">Run</span>
+      </button>
+    </aside>
+
+    <!-- Right Live Execution & Results Content Area -->
+    <section class="content-area" id="contentArea">
+      <!-- Status & Stats Banner -->
+      <div class="status-banner" id="statusBanner">
+        <div class="status-left">
+          <span class="status-badge status-idle" id="jobStatusBadge">SẴN SÀNG</span>
+          <div>
+            <div style="font-weight: 700; font-size: 0.95rem;" id="jobStatusTitle">Chưa có tác vụ nào đang chạy</div>
+            <div class="status-meta" id="jobStatusMeta">Chọn dự án bên trái và bấm Run để bắt đầu</div>
+          </div>
+        </div>
+        <div style="text-align: right;">
+          <div style="font-size: 0.75rem; color: var(--text-muted);">Thời gian thực thi</div>
+          <div style="font-size: 1.25rem; font-weight: 800; font-family: var(--font-mono);" id="jobDurationText">--</div>
+        </div>
+      </div>
+
+      <!-- Quick Metrics Grid -->
+      <div class="stat-grid" id="statMetricsGrid">
+        <div class="stat-card">
+          <span class="stat-label">Accepted Changes</span>
+          <span class="stat-value accepted" id="statAccepted">0</span>
+          <span style="font-size: 0.72rem; color: var(--text-muted);">Đã xác thực mục tiêu</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Supported Candidates</span>
+          <span class="stat-value candidates" id="statSupported">0</span>
+          <span style="font-size: 0.72rem; color: var(--text-muted);">Ứng viên Registry</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Rejected Changes</span>
+          <span class="stat-value rejected" id="statRejected">0</span>
+          <span style="font-size: 0.72rem; color: var(--text-muted);">Bị từ chối kiểm định</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">CycloneDX Valid</span>
+          <span class="stat-value valid" id="statValid">--</span>
+          <span style="font-size: 0.72rem; color: var(--text-muted);">Hợp chuẩn Schema 1.6</span>
+        </div>
+      </div>
+
+      <!-- Prominent Recovered Delta Highlight Section -->
+      <div class="delta-highlight-card" id="deltaHighlightCard">
+        <div class="delta-header">
+          <div>
+            <h3 class="delta-title">Những Gì Đã Được Khôi Phục</h3>
+            <div style="font-size: 0.78rem; color: var(--text-muted); margin-top: 2px;">
+              Tổng hợp những cạnh phụ thuộc và trường metadata mà quá trình phục hồi đã bổ sung
+            </div>
+          </div>
+          <div class="delta-badge-group" id="deltaBadgesContainer">
+            <span class="delta-badge" id="badgeAddedEdges">+0 Cạnh phụ thuộc mới</span>
+            <span class="delta-badge" id="badgeRepairedFields">+0 Trường metadata đã sửa</span>
+            <span class="delta-badge" id="badgeAddedNodes">+0 Gói mới thêm</span>
+          </div>
+        </div>
+
+        <div id="deltaChangesListContainer">
+          <div style="font-size: 0.82rem; color: var(--text-muted); padding: 8px 0;">
+            Chưa có thông tin thay đổi. Hãy chạy một lượt phục hồi hoặc chọn bản ghi lịch sử.
+          </div>
+        </div>
+      </div>
+
+      <!-- Results Tabbed Inspector -->
+      <div class="results-card" id="resultsInspectorCard">
+        <!-- Navigation Tabs -->
+        <nav class="tab-nav" role="tablist">
+          <button type="button" class="tab-btn active" data-tab="tabGraphs" id="btnTabGraphs" role="tab">
+            Đồ Thị Phụ Thuộc (Trước &amp; Sau)
+          </button>
+          <button type="button" class="tab-btn" data-tab="tabOverview" id="btnTabOverview" role="tab">
+            Tổng Quan
+          </button>
+          <button type="button" class="tab-btn" data-tab="tabRecovered" id="btnTabRecovered" role="tab">
+            SBOM Đã Phục Hồi
+          </button>
+          <button type="button" class="tab-btn" data-tab="tabCandidates" id="btnTabCandidates" role="tab">
+            Ứng Viên (candidates.json)
+          </button>
+          <button type="button" class="tab-btn" data-tab="tabTraces" id="btnTabTraces" role="tab">
+            Vết Suy Luận (result.json)
+          </button>
+          <button type="button" class="tab-btn" data-tab="tabAudit" id="btnTabAudit" role="tab">
+            Conversion Audit
+          </button>
+          <button type="button" class="tab-btn" data-tab="tabConsole" id="btnTabConsole" role="tab">
+            Terminal Log
+          </button>
+        </nav>
+
+        <!-- Tab 0: Graphs (Initial vs Recovered) -->
+        <div class="tab-pane active" id="tabGraphs">
+          <div class="graph-section-grid">
+            <!-- Initial Graph -->
+            <div class="graph-card">
+              <div class="graph-card-header">
+                <div>
+                  <h4 class="graph-card-title">Đồ Thị SBOM Ban Đầu</h4>
+                  <div class="graph-card-sub" id="initialGraphSub">0 gói • 0 quan hệ phụ thuộc</div>
+                </div>
+                <span class="badge-tag" style="background: #f1f5f9; color: var(--text-muted);">Input Scanner</span>
+              </div>
+              <div class="graph-viewport" id="viewportInitial">
+                <svg class="graph-svg" id="svgInitialGraph"></svg>
+              </div>
+            </div>
+
+            <!-- Recovered Graph -->
+            <div class="graph-card">
+              <div class="graph-card-header">
+                <div>
+                  <h4 class="graph-card-title">Đồ Thị SBOM Sau Phục Hồi</h4>
+                  <div class="graph-card-sub" id="recoveredGraphSub">0 gói • 0 quan hệ phụ thuộc</div>
+                </div>
+                <span class="badge-tag" style="background: var(--accent-green-bg); color: var(--accent-green); border-color: var(--accent-green-border);">Recovered</span>
+              </div>
+              <div class="graph-viewport" id="viewportRecovered">
+                <svg class="graph-svg" id="svgRecoveredGraph"></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 1: Overview -->
+        <div class="tab-pane" id="tabOverview">
+          <div id="overviewDetailsContainer">
+            <p style="color: var(--text-muted); font-size: 0.88rem;">Chưa có dữ liệu lượt chạy.</p>
+          </div>
+        </div>
+
+        <!-- Tab 2: Recovered SBOM -->
+        <div class="tab-pane" id="tabRecovered">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+            <div style="display: flex; gap: 8px;">
+              <button type="button" class="btn-icon" id="btnFormatCdx" style="background: var(--accent-blue-bg); color: var(--accent-blue);">CycloneDX 1.6</button>
+              <button type="button" class="btn-icon" id="btnFormatSpdx">SPDX 2.3</button>
+            </div>
+            <button type="button" class="btn-icon" id="btnCopyRecovered">Sao chép JSON</button>
+          </div>
+          <pre class="code-box" id="recoveredSbomCode">Chưa có dữ liệu SBOM phục hồi.</pre>
+        </div>
+
+        <!-- Tab 3: Candidates Sidecar -->
+        <div class="tab-pane" id="tabCandidates">
+          <h3 style="font-size: 0.95rem; margin-bottom: 8px;">Danh sách ứng viên suy luận (candidates.json)</h3>
+          <p style="font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 14px;">
+            Các đề xuất này chỉ được hỗ trợ từ Registry trực tuyến, chưa có xác thực từ metadata máy mục tiêu và bị tách riêng để tránh làm sai lệch SBOM thực tế.
+          </p>
+          <div style="overflow-x: auto;">
+            <table class="data-table" id="candidatesTable">
+              <thead>
+                <tr>
+                  <th>Thao tác</th>
+                  <th>Đối tượng</th>
+                  <th>Trường</th>
+                  <th>Giá trị</th>
+                  <th>Trạng thái</th>
+                  <th>Lý do từ chối</th>
+                </tr>
+              </thead>
+              <tbody id="candidatesTableBody">
+                <tr><td colspan="6" style="text-align: center; color: var(--text-muted);">Chưa có ứng viên nào.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Tab 4: Agent Reasoning Traces -->
+        <div class="tab-pane" id="tabTraces">
+          <h3 style="font-size: 0.95rem; margin-bottom: 12px;">Lịch sử lượt gọi công cụ (result.json)</h3>
+          <div id="toolTracesContainer">
+            <p style="color: var(--text-muted); font-size: 0.85rem;">Không có thông tin lượt gọi công cụ.</p>
+          </div>
+        </div>
+
+        <!-- Tab 5: Conversion Audit -->
+        <div class="tab-pane" id="tabAudit">
+          <h3 style="font-size: 0.95rem; margin-bottom: 12px;">Hồ sơ chuyển đổi (conversion_audit.json)</h3>
+          <pre class="code-box" id="conversionAuditCode">Chưa có dữ liệu conversion audit.</pre>
+        </div>
+
+        <!-- Tab 6: Live Console Output -->
+        <div class="tab-pane" id="tabConsole">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <span style="font-size: 0.8rem; color: var(--text-muted);">Subprocess Output:</span>
+            <button type="button" class="btn-icon" id="btnClearLogs">Xóa log</button>
+          </div>
+          <div class="console-box" id="terminalLogBox">Chờ lệnh thực thi...</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Bottom Technical & Debug Details (Hidden by default) -->
+  <footer class="app-footer">
+    <div class="footer-container">
+      <details class="debug-details" id="debugDetails">
+        <summary class="debug-summary">
+          <span>Thông tin kỹ thuật &amp; Lịch sử bản ghi (Debug)</span>
+          <span class="debug-toggle-indicator">Nhấn để mở</span>
+        </summary>
+        <div class="debug-content-grid">
+          <div class="debug-card">
+            <h4 class="debug-card-title">Đường dẫn chi tiết</h4>
+            <div class="debug-fields">
+              <div class="form-group">
+                <label class="form-label" style="font-size: 0.75rem;" for="inputCustomSbom">Input SBOM Path:</label>
+                <input type="text" class="form-input" style="font-size: 0.78rem;" id="inputCustomSbom">
+              </div>
+              <div class="form-group">
+                <label class="form-label" style="font-size: 0.75rem;" for="inputCustomContext">Target Context Path:</label>
+                <input type="text" class="form-input" style="font-size: 0.78rem;" id="inputCustomContext">
+              </div>
+              <div class="form-group">
+                <label class="form-label" style="font-size: 0.75rem;" for="inputCustomTarget">Target Venv Path:</label>
+                <input type="text" class="form-input" style="font-size: 0.78rem;" id="inputCustomTarget">
+              </div>
+              <div class="form-group">
+                <label class="form-label" style="font-size: 0.75rem;">Run Output Directory:</label>
+                <code id="debugOutputDir" style="font-size: 0.78rem; display: block; padding: 6px 10px; background: var(--bg-muted); border-radius: 4px; word-break: break-all;">--</code>
+              </div>
+            </div>
+          </div>
+
+          <div class="debug-card">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+              <h4 class="debug-card-title">Lịch sử các lần chạy</h4>
+              <span style="font-size: 0.75rem; color: var(--text-muted);" id="runCountBadge">0 lần</span>
+            </div>
+            <div class="runs-list" id="runsListContainer">
+              <div style="font-size: 0.8rem; color: var(--text-muted); text-align: center; padding: 12px;">
+                Đang tải lịch sử...
+              </div>
+            </div>
+          </div>
+        </div>
+      </details>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

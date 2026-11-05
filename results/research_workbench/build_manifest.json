@@ -1,0 +1,16 @@
+{
+  "input_runs": [
+    "runs/m23-validation-v2",
+    "runs/m23-controlled-repair-v2",
+    "runs/m23-information-ablation-v3",
+    "runs/m23-dsn-b4-v2"
+  ],
+  "input_manifest_sha256": {
+    "runs/m23-validation-v2": "8239419c94ec9f052332dacbd46f9c5932e8147794d81432bc0852919b605254",
+    "runs/m23-controlled-repair-v2": "dd3b70f9452809b9f07783243b81380a1223b3abe3157a056b7f8a08b8374394",
+    "runs/m23-information-ablation-v3": "970008e78418d42f980a843b62bdd8806b80be39a4c517f077876c9f486885e6",
+    "runs/m23-dsn-b4-v2": "5a0612055f6e6db1ebcb4aee23e40984f6adb93a210000d9612c2b52da122c99"
+  },
+  "output_sha256": "fd9826517192f880124e487436611f7510cda6f5e356fdfeab2f8bf39e2e7226",
+  "interpretation": "Read-only presentation of stored measurements; no live experiment execution"
+}
