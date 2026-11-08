@@ -65,12 +65,16 @@ class TestScopeAndScoring(unittest.TestCase):
         self.assertEqual(score["edge_audit"][0]["decision"], "UNKNOWN_LABEL")
 
     def test_identity_and_input_do_not_depend_on_oracle_membership(self):
-        norm1, audit1 = normalize_sbom(document(), "app")
-        oracle_a, oracle_b = {"app": "1"}, {"arbitrary": "999"}
-        self.assertNotEqual(oracle_a, oracle_b)
-        norm2, audit2 = normalize_sbom(document(), "app")
-        self.assertEqual((norm1, audit1), (norm2, audit2))
+        from unittest.mock import patch
+        # Reject any hidden filesystem read, including disguised oracle files.
+        with patch('pathlib.Path.read_text', side_effect=AssertionError('Unexpected filesystem access')):
+            norm1, _ = normalize_sbom(document(), "app")
         self.assertEqual(seeds_from_observed([norm1]), [("app", "1"), ("dep", "2"), ("pip", "24")])
+
+    def test_undocumented_cyclonedx_extensions_are_rejected(self):
+        norm, _ = normalize_sbom(document(), "app")
+        norm['inventory_layer_preservation'] = []
+        self.assertFalse(validate_cdx(norm)['valid'])
 
 
 class TestEvidenceSemantics(unittest.TestCase):

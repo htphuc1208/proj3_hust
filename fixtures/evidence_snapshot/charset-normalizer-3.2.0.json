@@ -1,15 +1,24 @@
 {
+  "artifact_level_metadata": {
+    "wheel_bytes_verified": true,
+    "wheel_local_sha256": "8e098148dd37b4ce3baca71fb394c81dc5d9c7728c95df695d2dca218edf40e6",
+    "wheel_metadata_file": "charset_normalizer-3.2.0.dist-info/METADATA",
+    "wheel_metadata_sha256": "2b6407857f5f43b8c5c4eef2e08424ed3a986521fb893cb1813250c40eb9107d"
+  },
   "distribution_type": "wheel",
   "name": "charset-normalizer",
   "provenance": {
     "collector": "scripts/collect_public_evidence.py",
-    "fetch_timestamp_utc": "2026-10-22T04:14:54.104434+00:00",
+    "fetch_timestamp_utc": "2026-10-22T07:05:44.492586+00:00",
+    "provenance_chain": "PyPI index -> Distribution artifact -> Verified SHA-256 -> Extracted METADATA -> Frozen evidence record",
     "source_pypi_json_url": "https://pypi.org/pypi/charset-normalizer/3.2.0/json",
+    "verification_status": "VERIFIED_ARTIFACT_DIGEST_AND_METADATA",
     "wheel_download_url": "https://files.pythonhosted.org/packages/bf/a0/188f223c7d8b924fb9b554b9d27e0e7506fd5bf9cfb6dbacb2dfd5832b53/charset_normalizer-3.2.0-py3-none-any.whl",
     "wheel_filename": "charset_normalizer-3.2.0-py3-none-any.whl",
     "wheel_sha256": "8e098148dd37b4ce3baca71fb394c81dc5d9c7728c95df695d2dca218edf40e6",
     "wheel_upload_time_utc": "2023-07-07T20:19:07.490733Z"
   },
+  "release_requires_dist": [],
   "requires_dist": [],
   "requires_python": ">=3.7.0",
   "version": "3.2.0"

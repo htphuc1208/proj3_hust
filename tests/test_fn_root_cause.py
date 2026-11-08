@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regression tests verifying the 10 False Negative root-cause classifications (M2.3)."""
+"""Preserve the historical FN ledger; its asserted causes require measured interventions."""
 import csv
 from pathlib import Path
 import unittest
@@ -25,15 +25,12 @@ class TestFNRootCauseReport(unittest.TestCase):
         self.assertEqual(len(reqcache_fns), 4)
         self.assertEqual(len(httpbin_fns), 6)
 
-        # Invariant 1: requests-cache FNs stem from requests==2.34.2 missing in frozen snapshot
+        # Identities are historical observations; causal hypotheses are not test oracles.
         for r in reqcache_fns:
             self.assertEqual(r["parent_purl"], "pkg:pypi/requests@2.34.2")
-            self.assertEqual(r["root_cause_classification"], "EVIDENCE_UNAVAILABLE")
 
-        # Invariant 2: httpbin FNs stem from flasgger==0.9.7.1 having sdist-only build without registry wheel metadata
         for r in httpbin_fns:
             self.assertEqual(r["parent_purl"], "pkg:pypi/flasgger@0.9.7.1")
-            self.assertEqual(r["root_cause_classification"], "ARTIFACT_METADATA_MISMATCH")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,118 @@
+"""Standalone/offline demo dashboard using only the Python standard library."""
+import html
+import json
+from pathlib import Path
+
+
+def write_dashboard(path, input_sbom, output_sbom, report):
+    root = output_sbom.get("metadata", {}).get("component", {})
+    components = [root] + output_sbom.get("components", [])
+    original = [input_sbom.get("metadata", {}).get("component", {})] + input_sbom.get("components", [])
+    original_refs = {c.get("bom-ref") for c in original}
+    all_refs = {c.get("bom-ref"): c for c in components if c.get("bom-ref")}
+    old_edges = {(d["ref"], c) for d in input_sbom.get("dependencies", []) for c in d.get("dependsOn", [])}
+    new_edges = {(d["ref"], c) for d in output_sbom.get("dependencies", []) for c in d.get("dependsOn", [])}
+    findings = report.get("security_findings", [])
+    affected_purls = {f.get("component") for f in findings if f.get("advisory")}
+    from collections import defaultdict, deque
+    adjacency = defaultdict(set)
+    for a,b in new_edges:
+        adjacency[a].add(b)
+    depth = {root.get("bom-ref"): 0}
+    bfs = deque([root.get("bom-ref")])
+    while bfs:
+        cur = bfs.popleft()
+        for target in sorted(adjacency[cur]):
+            if target not in depth:
+                depth[target] = depth[cur] + 1
+                bfs.append(target)
+    ranks = defaultdict(list)
+    for ref in all_refs:
+        ranks[depth.get(ref, max(depth.values(), default=0)+1)].append(ref)
+    for r in ranks:
+        ranks[r].sort()
+    nodes = []
+    for r in sorted(ranks):
+        for i, ref in enumerate(ranks[r]):
+            obj = all_refs[ref]
+            nodes.append({"ref":ref, "label":obj.get("name", ref), "version":obj.get("version", ""),
+                          "purl":obj.get("purl", ""), "x":95+240*r, "y":90+135*i,
+                          "new":ref not in original_refs, "affected":obj.get("purl") in affected_purls})
+    width = max(950, max((n["x"] for n in nodes), default=0)+165)
+    height = max(320, max((n["y"] for n in nodes), default=0)+110)
+    edges = [{"from":a,"to":b,"new":(a,b) not in old_edges} for a,b in sorted(new_edges)]
+    dataset = json.dumps({"nodes": nodes, "edges":edges,"oldCount":len(original_refs),
+                          "oldEdges":len(old_edges),"newCount":len(all_refs),"newEdges":len(new_edges),
+                          "findings":findings,"width":width,"height":height,
+                          "mode":report["run_mode"]}, ensure_ascii=False)
+    # Prevent a maliciously constructed PURL embedding a closing script tag.
+    dataset = dataset.replace("<", "\\u003c").replace(">", "\\u003e")
+    template = r'''<!doctype html><html lang="vi"><meta charset="utf-8">
+<title>SBOM Reconstruction &amp; Security Impact | PoC</title>
+<style>
+:root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#1f2937;background:#f3f5f8}
+body{max-width:1120px;padding:28px;margin:auto} h1{font-size:28px;margin:0 0 8px}h2{font-size:18px;margin-top:0}
+.sub{color:#64748b} .panel{background:white;border:1px solid #e2e8f0;border-radius:14px;padding:20px;margin-top:16px;box-shadow:0 3px 12px #1e293b08}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.metric{background:#f8fafc;border-radius:10px;padding:12px;font-size:14px}
+.value{font-size:25px;font-weight:800}button{border:1px solid #cbd5e1;background:white;border-radius:8px;padding:9px 15px;cursor:pointer;font-weight:600}
+button.active{background:#1d4ed8;color:white;border-color:#1d4ed8}button:hover{opacity:.85}
+.graph{overflow:auto;border:1px solid #e2e8f0;border-radius:12px;margin-top:12px;background:#fff}svg{display:block}
+.notes{font-size:13px;color:#475569}.security{padding:10px 15px;border-left:4px solid #dc2626;background:#fef2f2;border-radius:6px;margin-bottom:10px}
+pre{font-size:12px;white-space:pre-wrap;overflow-wrap:anywhere;background:#f8fafc;padding:10px;border-radius:8px}
+.legend{display:flex;gap:20px;font-size:12px;flex-wrap:wrap;color:#475569}
+@media(max-width:640px){.grid{grid-template-columns:1fr}body{padding:12px}}
+</style>
+<h1>SBOM Graph Reconstruction <span style="color:#1d4ed8">→ Security Impact</span></h1>
+<div class="sub">Runnable proof of concept · <span id="mode"></span> · Evidence-based baseline (not trained AI)</div>
+<div class="panel"><div class="grid">
+<div class="metric"><div>Before</div><div class="value" id="before"></div></div>
+<div class="metric"><div>After</div><div class="value" id="after"></div></div>
+<div class="metric"><div>New edge candidates</div><div class="value" id="addedge"></div></div>
+</div></div>
+<div class="panel"><h2>Dependency graph</h2>
+<button id="beforeBtn" onclick="render(false)">Original SBOM</button>
+<button id="afterBtn" onclick="render(true)">Reconstructed (candidates)</button>
+<div class="graph"><svg id="graph" xmlns="http://www.w3.org/2000/svg"></svg></div>
+<div class="legend"><span>● Gray: existing node</span><span>● Orange: inferred node/edge</span><span>● Red: advisory match</span></div>
+<p class="notes">Arrows mean declared/inferred direct package dependencies, not function calls or proven exploits. No path ≠ safe.</p></div>
+<div class="panel"><h2>Security impact</h2><div id="findings"></div></div>
+<div class="panel"><h2>What this PoC proves (and does not prove)</h2>
+<p>✓ Parses SBOM → augments nodes/edges using external-like evidence → matches advisory → reports dependency path. With source files, resolves a limited Python static call path.</p>
+<p>✗ Synthetic results are not empirical accuracy, not an AI model, not proof of exploitability. Live mode uses generic dependency resolution, not the exact original build.</p></div>
+<script>const D = __DATA__;
+const byId = Object.fromEntries(D.nodes.map(n=>[n.ref,n]));
+const S = document.getElementById('graph');
+const NS='http://www.w3.org/2000/svg';
+const add=(tag, attrs, txt)=>{const el=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs||{}))el.setAttribute(k,v);if(txt!=null)el.textContent=txt;S.appendChild(el);return el};
+function render(after){
+ document.getElementById('beforeBtn').classList.toggle('active',!after);
+ document.getElementById('afterBtn').classList.toggle('active',after);
+ S.innerHTML='';S.setAttribute('viewBox',`0 0 ${D.width} ${D.height}`);S.style.width=D.width+'px';S.style.height=D.height+'px';
+ const visible=new Set(D.nodes.filter(n=>after||!n.new).map(n=>n.ref));
+ const defs=document.createElementNS(NS,'defs');defs.innerHTML='<marker id="arrow-gray" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7z" fill="#64748b"/></marker><marker id="arrow-orange" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7z" fill="#ea580c"/></marker>';S.appendChild(defs);
+ for(const e of D.edges){if((!after&&e.new)||!visible.has(e.from)||!visible.has(e.to))continue;
+  const a=byId[e.from], b=byId[e.to];if(!a||!b)continue;
+  add('line',{x1:a.x+145,y1:a.y+20,x2:b.x-6,y2:b.y+20,stroke:e.new?'#ea580c':'#64748b','stroke-width':2.2,'stroke-dasharray':e.new?'6 5':'none','marker-end':e.new?'url(#arrow-orange)':'url(#arrow-gray)'});
+ }
+ for(const n of D.nodes){if(!visible.has(n.ref))continue;
+  const color=n.new?'#f97316':(n.affected?'#dc2626':'#334155');
+  add('rect',{x:n.x,y:n.y,width:145,height:57,rx:9,fill:n.new?'#fff7ed':n.affected?'#fef2f2':'#f1f5f9',stroke:color,'stroke-width':n.affected?2.7:1.5});
+  add('text',{x:n.x+72,y:n.y+25,'text-anchor':'middle','font-size':13,'font-weight':'700',fill:'#0f172a'},n.label.length>18?n.label.slice(0,17)+'…':n.label);
+  add('text',{x:n.x+72,y:n.y+44,'text-anchor':'middle','font-size':12,fill:'#475569'},n.version);
+ }
+}
+document.getElementById('mode').textContent=D.mode;
+document.getElementById('before').textContent=`${D.oldCount} nodes / ${D.oldEdges} edges`;
+document.getElementById('after').textContent=`${D.newCount} nodes / ${D.newEdges} edges`;
+document.getElementById('addedge').textContent=D.edges.filter(e=>e.new).length;
+const box=document.getElementById('findings');
+const findings=D.findings.filter(f=>f.advisory);
+if(!findings.length){box.textContent='No advisory match returned. Unknown lookups do not prove safe.'}
+for(const f of findings){const el=document.createElement('div');el.className='security';
+ const strong=document.createElement('strong');strong.textContent=f.advisory+' — '+f.component;el.appendChild(strong);
+ const dep=document.createElement('pre');dep.textContent='DEPENDENCY PATH: '+(f.dependency_path||['Not observed']).join(' → ');el.appendChild(dep);
+ const fn=document.createElement('pre');fn.textContent='FUNCTION-LEVEL: '+f.function_reachability+'\n'+(f.static_call_path||[]).join(' → ');el.appendChild(fn);box.appendChild(el)}
+render(true);
+</script></html>'''
+    output = template.replace("__DATA__", dataset)
+    Path(path).write_text(output, encoding="utf-8")

@@ -1,15 +1,36 @@
 {
+  "artifact_level_metadata": {
+    "wheel_bytes_verified": true,
+    "wheel_local_sha256": "94a757d178c9be92ef5539b8840d48dc9cf1b2709c9d6b588232a055c524458b",
+    "wheel_metadata_file": "urllib3-1.26.17.dist-info/METADATA",
+    "wheel_metadata_sha256": "b3012240a99bda6e559787f2826cb868b4b3663c438c3f2adbefd7cee84ef690"
+  },
   "distribution_type": "wheel",
   "name": "urllib3",
   "provenance": {
     "collector": "scripts/collect_public_evidence.py",
-    "fetch_timestamp_utc": "2026-10-22T04:14:54.104434+00:00",
+    "fetch_timestamp_utc": "2026-10-22T07:05:44.492586+00:00",
+    "provenance_chain": "PyPI index -> Distribution artifact -> Verified SHA-256 -> Extracted METADATA -> Frozen evidence record",
     "source_pypi_json_url": "https://pypi.org/pypi/urllib3/1.26.17/json",
+    "verification_status": "VERIFIED_ARTIFACT_DIGEST_AND_METADATA",
     "wheel_download_url": "https://files.pythonhosted.org/packages/48/fe/a5c6cc46e9fe9171d7ecf0f33ee7aae14642f8d74baa7af4d7840f9358be/urllib3-1.26.17-py2.py3-none-any.whl",
     "wheel_filename": "urllib3-1.26.17-py2.py3-none-any.whl",
     "wheel_sha256": "94a757d178c9be92ef5539b8840d48dc9cf1b2709c9d6b588232a055c524458b",
     "wheel_upload_time_utc": "2023-10-02T17:22:28.101314Z"
   },
+  "release_requires_dist": [
+    "brotlicffi >=0.8.0 ; ((os_name != \"nt\" or python_version >= \"3\") and platform_python_implementation != \"CPython\") and extra == 'brotli'",
+    "brotli ==1.0.9 ; (os_name != \"nt\" and python_version < \"3\" and platform_python_implementation == \"CPython\") and extra == 'brotli'",
+    "brotlipy >=0.6.0 ; (os_name == \"nt\" and python_version < \"3\") and extra == 'brotli'",
+    "brotli >=1.0.9 ; (python_version >= \"3\" and platform_python_implementation == \"CPython\") and extra == 'brotli'",
+    "pyOpenSSL >=0.14 ; extra == 'secure'",
+    "cryptography >=1.3.4 ; extra == 'secure'",
+    "idna >=2.0.0 ; extra == 'secure'",
+    "certifi ; extra == 'secure'",
+    "urllib3-secure-extra ; extra == 'secure'",
+    "ipaddress ; (python_version == \"2.7\") and extra == 'secure'",
+    "PySocks !=1.5.7,<2.0,>=1.5.6 ; extra == 'socks'"
+  ],
   "requires_dist": [
     "brotlicffi >=0.8.0 ; ((os_name != \"nt\" or python_version >= \"3\") and platform_python_implementation != \"CPython\") and extra == 'brotli'",
     "brotli ==1.0.9 ; (os_name != \"nt\" and python_version < \"3\" and platform_python_implementation == \"CPython\") and extra == 'brotli'",

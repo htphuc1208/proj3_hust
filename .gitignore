@@ -4,6 +4,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache/
+.ruff_cache/
 
 # Virtual environments everywhere
 .venv/
@@ -31,3 +32,52 @@ fixtures/evidence_snapshot/wheel_cache/
 research/.work/
 runs/*/evidence_snapshot/public_cache/
 runs/*/public_cache/
+
+# Temporary job & lock files
+runs/**/*.job.json
+runs/**/*.lock
+uv.lock
+
+# Untracked ad-hoc runs and experiment caches
+runs/e1-*
+runs/e2-*
+runs/fresh-*-v[2-9]*
+runs/fresh-repository-*
+runs/gold-pilot-*
+runs/level23-pilot-v[1-6]*
+runs/m24-*
+runs/m25-*
+runs/m26-*
+runs/materialized-scope-*
+runs/pilot-audit-*
+runs/pilot-container-*
+runs/pip-sbom-*
+runs/poc-*
+runs/reconciliation-development-v1*
+runs/unrestricted-*
+!runs/unrestricted-agent-validation-v1/
+!runs/unrestricted-cohort-replacement-v1/
+!runs/unrestricted-cohort-selection-v1/
+!runs/unrestricted-cohort-selection-v2/
+
+# IDE & editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# AI Agent tooling & local assistant configurations
+.agents/
+skills-lock.json
+.claude/
+AGENTS.md
+
+# Local ChatGPT bridge artifacts
+chatgpt_bridge.user.js
+bridge/
+agent_bridge.py
+bridge_server.py
+sbom_recovery/bridge/agent_bridge.py
+sbom_recovery/bridge/bridge_server.py
+sbom_recovery/agent_bridge.py
+sbom_recovery/bridge_server.py
