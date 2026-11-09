@@ -1,0 +1,59 @@
+{
+  "schema_version": "reconciliation-evidence-v2",
+  "target_id": "9441f3722773ef231fb634e2f146daf1d413a6be1a40369dd9e4a94d0c72bca8",
+  "observation_sha256": "f5f003d1aab9ab0b55019160a883620ae18c604b63a2e388a3a5c1eaac7f4593",
+  "inventory_complete": true,
+  "sources": [
+    {
+      "source_id": "4f22d71af1db4b0e289a68ed25788de4ae1c7387d59f7369953818d10c97d7b4",
+      "path": "sources/4f22d71af1db4b0e289a68ed25788de4ae1c7387d59f7369953818d10c97d7b4.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/factory_boy-3.3.3.dist-info/METADATA",
+      "sha256": "01e233294e8de67b85293c9f7f0cd650850ca2a48bc1b14a9687da7d86c1fb91",
+      "bytes": 15400,
+      "available_at": "2026-10-28T17:29:18.440982Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    },
+    {
+      "source_id": "669f707c94780b5d2099179aee974a3e4de7c9e710de59c6abf3e8b637936e6f",
+      "path": "sources/669f707c94780b5d2099179aee974a3e4de7c9e710de59c6abf3e8b637936e6f.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/faker-40.1.0.dist-info/METADATA",
+      "sha256": "2f121bf683f8a273f006e8b0573f1e8479c8dd6b722f72b96ff3360722edd8f7",
+      "bytes": 16132,
+      "available_at": "2026-10-28T17:29:18.440982Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    },
+    {
+      "source_id": "d61c937c7075622c348c82a93a9848e8ae20afe8fecb3395cea8b21735cb39e9",
+      "path": "sources/d61c937c7075622c348c82a93a9848e8ae20afe8fecb3395cea8b21735cb39e9.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "bytes": 3581,
+      "available_at": "2026-10-28T17:29:18.440982Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    },
+    {
+      "source_id": "25743ca9532d13b328659c679fe2cc6cb9d9302c49382be6457325d041769006",
+      "path": "sources/25743ca9532d13b328659c679fe2cc6cb9d9302c49382be6457325d041769006.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "bytes": 6548,
+      "available_at": "2026-10-28T17:29:18.440982Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    },
+    {
+      "source_id": "e7cdd955edca6e8e206e8f767d6ad18baf9554f54749391cbd593d85d3d1dc40",
+      "path": "sources/e7cdd955edca6e8e206e8f767d6ad18baf9554f54749391cbd593d85d3d1dc40.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/tzdata-2025.3.dist-info/METADATA",
+      "sha256": "4225d7bb5592b2007f665b38624e93dbadd36413fbfcf3c1fa7cd80ae7b087f8",
+      "bytes": 1352,
+      "available_at": "2026-10-28T17:29:18.440982Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    }
+  ],
+  "bindings": {}
+}

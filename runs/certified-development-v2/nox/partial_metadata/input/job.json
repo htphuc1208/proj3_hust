@@ -1,0 +1,27 @@
+{
+  "available_at": "2026-10-28T17:06:43.141493Z",
+  "condition": "partial_metadata",
+  "context_profile": "ALL_INSTALLED_BASE_DECLARATIONS; explicit extra seeds from captured logical context",
+  "context_sha256": "2b67c970ac70fdc5a82902e89b5dfc6bf4f82a2e3d563192d9708313ac760809",
+  "evidence_sha256": "2b823ec3bb7a8b0c33e830e6501dfe79e595dc0ef1e313ce72813df28f65823a",
+  "input_sha256": "5ce85a6419e35fbe149e0c48207b1c6eb30cd83a6a63c278cd9c959049cc2514",
+  "intervention": "CONTROLLED_EVIDENCE_WITHHOLDING",
+  "methods": [
+    "observed",
+    "legacy_additive",
+    "legacy_reconciliation",
+    "metadata_control",
+    "certified_v2"
+  ],
+  "partition": "development",
+  "project": "nox",
+  "reference_labels_read": false,
+  "withheld_sources": [
+    "af96a863505b656f020cea1564f62d57613aa762bfabcb76d43512f0a810d221",
+    "50625c688ae1fece6e67243da14d348aec90026c6e67e186fa43a8af74ddb07b",
+    "fbc08ddb9e409e2dc99f38c374be90901066f683e097a110400f17e2439a690e",
+    "312aed62cbd367fd3e5514a60dc1b8b625022b8ca6c1518dc309ae54489bb6de",
+    "9636fe46179d4f5eeb19e56ac8875c540dace7dd38b0057831d7596a0e115749",
+    "7a22fd5c119065363306be189d440383e58c67f11c92a652b5135ba53147fe16"
+  ]
+}

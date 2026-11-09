@@ -1,0 +1,150 @@
+{
+  "arms": {
+    "certified_v2": {
+      "assessment_counts": {
+        "UNKNOWN": 29
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.0,
+      "native_valid": true,
+      "operations": {
+        "abstain": 29
+      },
+      "seconds": 0.33359490699513117,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    "legacy_additive": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.013314920004631858,
+      "status": "UNSUPPORTED_PARTIAL_CONTEXT",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    "legacy_reconciliation": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.015051069000037387,
+      "status": "UNSUPPORTED_PARTIAL_CONTEXT",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    "metadata_control": {
+      "assessment_counts": {
+        "UNKNOWN": 29
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.0,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.10303001200372819,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    "observed": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.0074796939952648245,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": null,
+        "tp": 0
+      }
+    }
+  },
+  "condition": "unknown_context",
+  "project": "pypandoc",
+  "reference_edges": 0,
+  "reference_sha256": "b9aa3ae9cf91002b159caa0ddd4ac55ab1b55e73605d859dd8c6b8bd64155f3c",
+  "same_graph_as_metadata_control": true
+}

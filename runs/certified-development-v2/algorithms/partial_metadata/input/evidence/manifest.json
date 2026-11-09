@@ -1,0 +1,39 @@
+{
+  "bindings": {},
+  "inventory_complete": true,
+  "observation_sha256": "4b1f1f8f105b5af32c1b7dcc6ae4dd4e9eff3f39773eceec01934755c5eaabbf",
+  "schema_version": "reconciliation-evidence-v2",
+  "sources": [
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:05:52.356998Z",
+      "bytes": 21820,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/algorithms-0.1.4.dist-info/METADATA",
+      "path": "sources/ed9a3cbacd455d1748406e1b068a8c773cb0c22027fe19d6862ce458c4e2da3f.metadata",
+      "sha256": "b9383e609ee02fc254fc6a17a7c90b125a56ada9a9529059467b7a7aef1980fe",
+      "source_id": "ed9a3cbacd455d1748406e1b068a8c773cb0c22027fe19d6862ce458c4e2da3f"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:05:52.356998Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "path": "sources/f3240aec19d558e6238a893ec8d4280b766519495c0394ad6f8ebb07dd09f7ac.metadata",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "f3240aec19d558e6238a893ec8d4280b766519495c0394ad6f8ebb07dd09f7ac"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:05:52.356998Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "path": "sources/23af0abb0d3832df66a56b81de6621c67e910d9a61938fc6670d076e2ec3f472.metadata",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "23af0abb0d3832df66a56b81de6621c67e910d9a61938fc6670d076e2ec3f472"
+    }
+  ],
+  "target_id": "2c2e7bb8c45b7de2ca25ed2a7a10e462a8116333085dec444682f99b8e619a7f"
+}

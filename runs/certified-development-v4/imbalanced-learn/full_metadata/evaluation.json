@@ -1,0 +1,205 @@
+{
+  "arms": {
+    "certified_v2": {
+      "assessment_counts": {
+        "REFUTED": 2,
+        "SUPPORTED": 12,
+        "UNKNOWN": 30
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 2,
+        "optimistic_risk": 0.0,
+        "pessimistic_risk": 0.0,
+        "records": [
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-scipy-5a8c605853822992",
+            "target_ref": "SPDXRef-Package-python-threadpoolctl-5cf8773978e57991"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+          }
+        ],
+        "selective_risk": 0.0,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.3181818181818182,
+      "native_valid": true,
+      "operations": {
+        "abstain": 30,
+        "keep": 12,
+        "retract": 2
+      },
+      "seconds": 1.163972703005129,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    "legacy_additive": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.9120530109939864,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.9230769230769231,
+        "fn": 0,
+        "fp": 2,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    "legacy_reconciliation": {
+      "assessment_counts": {
+        "CONTRADICTED": 2,
+        "SUPPORTED": 12,
+        "UNKNOWN": 30
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 2,
+        "optimistic_risk": 0.0,
+        "pessimistic_risk": 0.0,
+        "records": [
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-scipy-5a8c605853822992",
+            "target_ref": "SPDXRef-Package-python-threadpoolctl-5cf8773978e57991"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+          }
+        ],
+        "selective_risk": 0.0,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.3181818181818182,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.2018248830063385,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    "metadata_control": {
+      "assessment_counts": {
+        "REFUTED": 2,
+        "SUPPORTED": 12,
+        "UNKNOWN": 30
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 2,
+        "optimistic_risk": 0.0,
+        "pessimistic_risk": 0.0,
+        "records": [
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-scipy-5a8c605853822992",
+            "target_ref": "SPDXRef-Package-python-threadpoolctl-5cf8773978e57991"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+          }
+        ],
+        "selective_risk": 0.0,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.3181818181818182,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.30562842699873727,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    "observed": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.024031654000282288,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.9230769230769231,
+        "fn": 0,
+        "fp": 2,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "tp": 12
+      }
+    }
+  },
+  "condition": "full_metadata",
+  "project": "imbalanced-learn",
+  "reference_edges": 12,
+  "reference_sha256": "52956e08c8665d1c0b55b35ff9e46ce5c7d47f7f373fa36b65f2979756067d4d",
+  "same_graph_as_metadata_control": true
+}

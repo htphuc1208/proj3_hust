@@ -19,7 +19,7 @@ ROOT = _find_repo_root()
 def source_files():
     return sorted(sorted(list((ROOT / "sbom_recovery").glob("**/*.py"))) +
                   [ROOT / n for n in ("research_core.py", "resolver.py", "registry_provider.py", "graph_triage.py", "benchmark.py",
-                                     "container_runner.py", "controlled_reference.py", "requirements-agent.txt",
+                                     "container_runner.py", "controlled_reference.py", "requirements-agent.txt", "pyproject.toml",
                                      "scripts/run_agent_study.py", "research/AGENT_PROTOCOL.md", "configs/agent-recovery-v1.json")] +
                   list((ROOT / "research/schemas").glob("*.schema.json")))
 

@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sbom-recovery"
+version = "0.2.0"
+description = "Evidence-guided reconstruction of incomplete SBOM dependency graphs for vulnerability reachability analysis"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "SBOM Security Research Team" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Topic :: Software Development :: Quality Assurance"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sbom_recovery*", "ui*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+exclude = [
+    "runs",
+    "fixtures",
+    "demo_source",
+    ".venv"
+]
+

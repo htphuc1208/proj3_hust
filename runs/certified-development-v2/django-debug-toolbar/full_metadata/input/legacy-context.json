@@ -1,0 +1,15 @@
+{
+  "active_extras": [],
+  "evidence_cutoff": "2026-10-28T17:07:14.712404Z",
+  "extras_by_purl": {},
+  "os_name": "posix",
+  "platform_machine": "x86_64",
+  "platform_system": "Linux",
+  "python_full_version": "3.11.16",
+  "python_version": "3.11",
+  "root_purls": [
+    "pkg:pypi/django-debug-toolbar@6.1.0"
+  ],
+  "sys_platform": "linux",
+  "target_id": "c1fd87bb3d13cc60d73fa8bb1bf1e2faba239451d69d8c352a3ce6e36185c77a"
+}

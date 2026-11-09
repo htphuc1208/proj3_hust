@@ -1,0 +1,43 @@
+{
+  "bindings": {
+    "SPDXRef-Package-python-pip-e327c8cc747f6ab9": "b5f10b294eb21b26e711996ba9dee992683a0419abbad21d1e07f81c4a9a9b8d",
+    "SPDXRef-Package-python-pyserial-2821a6b57380a237": "44d9156c63e68f34488096b19c380c9d7e33aed237dabfebfa3dff563ace0c8f",
+    "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd": "602ed3529090a7307d01c819994addb1d9b646184b3782188f2401b825da565d"
+  },
+  "inventory_complete": true,
+  "observation_sha256": "3cf3e283348087e487b5b3c4e65ebbddf53e93eec3b40d126f09d39e2d4764df",
+  "schema_version": "reconciliation-evidence-v2",
+  "sources": [
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:30.599938Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "path": "sources/df5041da42ad13908eb12df25ffa6aeb21821b0e68d1722672bb05f831203011.metadata",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "df5041da42ad13908eb12df25ffa6aeb21821b0e68d1722672bb05f831203011"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:30.599938Z",
+      "bytes": 1650,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pyserial-3.5.dist-info/METADATA",
+      "path": "sources/7923affee6f7a47dc39da7cc22f7890331485efe74b0c0ceea0b2f6742af8f21.metadata",
+      "sha256": "42a8ab7e94ef0b7baa7e94cdac65d6b9254c608476f630120c990007bf472943",
+      "source_id": "7923affee6f7a47dc39da7cc22f7890331485efe74b0c0ceea0b2f6742af8f21"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:30.599938Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "path": "sources/3f17a6593ad815d6d8842e99e05c4b2710ebfa35d2f77f662fa6497505fca402.metadata",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "3f17a6593ad815d6d8842e99e05c4b2710ebfa35d2f77f662fa6497505fca402"
+    }
+  ],
+  "target_id": "6b8282a526ef4ca198f76306e2b71ae418607e9a687e3e4c5dce1d5f2a928454"
+}

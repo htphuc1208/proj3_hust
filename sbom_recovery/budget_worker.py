@@ -2,3 +2,7 @@
 import sys
 from sbom_recovery.agents import budget_worker
 sys.modules[__name__] = budget_worker
+
+if __name__ == "__main__":
+    budget_worker.main()
+

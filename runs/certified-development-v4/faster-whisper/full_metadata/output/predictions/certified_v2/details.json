@@ -1,0 +1,1838 @@
+{
+  "bindings": {
+    "bound": 31,
+    "complete_identity_inventory": true,
+    "declared": 31,
+    "installed_occurrences": 31
+  },
+  "confidence": null,
+  "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+  "counts": {
+    "REFUTED": 10,
+    "SUPPORTED": 38,
+    "UNKNOWN": 32
+  },
+  "decisions": [
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "b62e0eb319a2ecb2f82ae818c272e7345ee7e50d6db93485cbc44fa1199a98d7",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "dc3f0f1ad72b6fdcf1fe7093a95a24a89a7e53db5fcecc9caaedf2140452e1d5",
+        "requirement_indices": [
+          1
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-anyio-263101f2c1f6e3c6",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-idna-74a748adbda627c4"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "1e46334fc14244c5c847465d4eab3269469dd3497daf6ef9d3232ee6beba5fb8",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "dc3f0f1ad72b6fdcf1fe7093a95a24a89a7e53db5fcecc9caaedf2140452e1d5",
+        "requirement_indices": [
+          2
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-anyio-263101f2c1f6e3c6",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-938e04f225233ed9"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "5161e4aa0975e93d31cfd50e29031bd1978f3505edfa91f2318a6a61b1aee9b1",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "76fa8c8c7640ac67d9d9449b62a184c7eb74a324704bd35fea5bdf3c015ebaaa",
+        "requirement_indices": [
+          0
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-coloredlogs-f61859a8af6e4523",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-humanfriendly-b09b7885b3ea7892"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "320c61195c6fb463bf5e4d8b1ab48a7abca2d95bc1d40e1f1eaef9a0b296e1f0",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "7f7ddfdb3e3734825ead4f996cdf6ae83d4f2fe4110f10f5e9d460bd0b94f283",
+        "requirement_indices": [
+          1
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-ctranslate2-a5569521bb68f70a",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "94e35a842a4acddc4b22836e488c26d4c96c8498a5c4432336e3275e70c02acd",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "7f7ddfdb3e3734825ead4f996cdf6ae83d4f2fe4110f10f5e9d460bd0b94f283",
+        "requirement_indices": [
+          2
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-ctranslate2-a5569521bb68f70a",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-pyyaml-13a209a9c0a27f20"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "2a3e74aca5b6d116f2cbfc9fc122a9b7d353e5f8f62024bda0265986a9d397a6",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "7f7ddfdb3e3734825ead4f996cdf6ae83d4f2fe4110f10f5e9d460bd0b94f283",
+        "requirement_indices": [
+          0
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-ctranslate2-a5569521bb68f70a",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "24c91ad37c7137b3e71e824382729d930a570c720e8f34594216800ab4eff8e3",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "9aa2dbd6066418ee2e20be3f9344f24be1f1d4cce85dcb8277ef53886d65b949",
+        "requirement_indices": [
+          4
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-faster-whisper-51486032944a720f",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-av-89f2d531402101ec"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "7f7ddfdb3e3734825ead4f996cdf6ae83d4f2fe4110f10f5e9d460bd0b94f283",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "9aa2dbd6066418ee2e20be3f9344f24be1f1d4cce85dcb8277ef53886d65b949",
+        "requirement_indices": [
+          0
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-faster-whisper-51486032944a720f",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-ctranslate2-a5569521bb68f70a"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "9aa2dbd6066418ee2e20be3f9344f24be1f1d4cce85dcb8277ef53886d65b949",
+        "requirement_indices": [
+          1
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-faster-whisper-51486032944a720f",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "02b44dd281142f767ebe37e4ea4809876584ec9824e38f6e0e9d3a1a19608dec",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "9aa2dbd6066418ee2e20be3f9344f24be1f1d4cce85dcb8277ef53886d65b949",
+        "requirement_indices": [
+          3
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-faster-whisper-51486032944a720f",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "28cfbf2a8b67e47751b822b9c79d61f133cb8a8f939eb911c83f6825e667b013",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "9aa2dbd6066418ee2e20be3f9344f24be1f1d4cce85dcb8277ef53886d65b949",
+        "requirement_indices": [
+          2
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-faster-whisper-51486032944a720f",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-tokenizers-ccd6312beaad8054"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "8626a84da6edee9abf9399ac0a051decbee7831e06323a435386b107d3e4fa73",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "9aa2dbd6066418ee2e20be3f9344f24be1f1d4cce85dcb8277ef53886d65b949",
+        "requirement_indices": [
+          5
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-faster-whisper-51486032944a720f",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-tqdm-933eed35aa8e5d8c"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": {
+          "02b44dd281142f767ebe37e4ea4809876584ec9824e38f6e0e9d3a1a19608dec": [],
+          "1e46334fc14244c5c847465d4eab3269469dd3497daf6ef9d3232ee6beba5fb8": [],
+          "24c91ad37c7137b3e71e824382729d930a570c720e8f34594216800ab4eff8e3": [],
+          "262ab2fe8f8e7a6cc10297b78cebe64750397f3552026dc60a421ca1f34b92e3": [],
+          "28cfbf2a8b67e47751b822b9c79d61f133cb8a8f939eb911c83f6825e667b013": [],
+          "2a3e74aca5b6d116f2cbfc9fc122a9b7d353e5f8f62024bda0265986a9d397a6": [],
+          "2d3d4ca3e9a45b86bd252c21b216d5b297498d756b20ada7674a849a88592537": [],
+          "320c61195c6fb463bf5e4d8b1ab48a7abca2d95bc1d40e1f1eaef9a0b296e1f0": [],
+          "4433b158067dbfae6dc6140ad72207f3a40900df13d3a6657843177a70f29cee": [],
+          "5161e4aa0975e93d31cfd50e29031bd1978f3505edfa91f2318a6a61b1aee9b1": [],
+          "57b3f56512b9c1b6f5a45046ddde265df3359746d0c18bf295e65d57a81ecd95": [],
+          "69aea3a03ff7659abc5b597971f1d50c0b6bb7355a5706f35df5d609bc798357": [],
+          "7133ac8e7622e75669bead35786e68225e0f8dc5342ba37608e03f12941926ff": [],
+          "76fa8c8c7640ac67d9d9449b62a184c7eb74a324704bd35fea5bdf3c015ebaaa": [],
+          "7f7ddfdb3e3734825ead4f996cdf6ae83d4f2fe4110f10f5e9d460bd0b94f283": [],
+          "8626a84da6edee9abf9399ac0a051decbee7831e06323a435386b107d3e4fa73": [],
+          "9013c4674a849ea2e0d73175341edea0f4959f345793d0f8d9f3acc0472d1b53": [],
+          "94e35a842a4acddc4b22836e488c26d4c96c8498a5c4432336e3275e70c02acd": [],
+          "98873505864623b195e00982cf13d3fd019e510e7e7cbd6f0a8939c76eafe164": [],
+          "9aa2dbd6066418ee2e20be3f9344f24be1f1d4cce85dcb8277ef53886d65b949": [],
+          "a95e862898414028459b79abed02b210a65390b2a360c631a3198a3073c9a382": [],
+          "ac7de8c605986e853f6a7cbe0b9dc0a9d4a57e633faece89261b6c88f1b6b40e": [],
+          "ad1e8843238b9e51114beebc6549f42998d59f2c729e26aa416c50419019e097": [],
+          "b62e0eb319a2ecb2f82ae818c272e7345ee7e50d6db93485cbc44fa1199a98d7": [],
+          "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3": [],
+          "dc3f0f1ad72b6fdcf1fe7093a95a24a89a7e53db5fcecc9caaedf2140452e1d5": [],
+          "dd7657e10d8cfdd13ca6a85cb5dcdb0f198a39533518514c6aea04268f2d3ec5": [],
+          "e408f71639c8ccc1520484f9e421d2ee9ce52adda4722515d188a5cde6eed07c": [],
+          "eb3f7a0f41e9c21460bc37006d3d3429cad30a2e5c63ca943aa649e8571abdb6": [],
+          "ef45fdf0935ae47dbcf9bda7181b8540487279ab272aaa6905068273c0a912b8": [],
+          "f20c35d5756404b10e8187af824622432cd16fb0f3f2ad6f70d00f3f09011705": []
+        },
+        "child_occurrence": "320c61195c6fb463bf5e4d8b1ab48a7abca2d95bc1d40e1f1eaef9a0b296e1f0",
+        "completeness": [
+          {
+            "occurrence_id": "ad1e8843238b9e51114beebc6549f42998d59f2c729e26aa416c50419019e097",
+            "predicate": "requires_dist",
+            "rule": "COMPLETE_INSTALLED_METADATA",
+            "source_id": "09467c6e396d1885cac343283631ab87faf02eca1e1e38c5208e977220aaf933"
+          }
+        ],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "ad1e8843238b9e51114beebc6549f42998d59f2c729e26aa416c50419019e097",
+        "requirement_indices": [
+          48,
+          77
+        ],
+        "rule": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "retract",
+      "reason": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-fsspec-5d651c3b2af7d874",
+      "status": "REFUTED",
+      "target_ref": "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": {
+          "02b44dd281142f767ebe37e4ea4809876584ec9824e38f6e0e9d3a1a19608dec": [],
+          "1e46334fc14244c5c847465d4eab3269469dd3497daf6ef9d3232ee6beba5fb8": [],
+          "24c91ad37c7137b3e71e824382729d930a570c720e8f34594216800ab4eff8e3": [],
+          "262ab2fe8f8e7a6cc10297b78cebe64750397f3552026dc60a421ca1f34b92e3": [],
+          "28cfbf2a8b67e47751b822b9c79d61f133cb8a8f939eb911c83f6825e667b013": [],
+          "2a3e74aca5b6d116f2cbfc9fc122a9b7d353e5f8f62024bda0265986a9d397a6": [],
+          "2d3d4ca3e9a45b86bd252c21b216d5b297498d756b20ada7674a849a88592537": [],
+          "320c61195c6fb463bf5e4d8b1ab48a7abca2d95bc1d40e1f1eaef9a0b296e1f0": [],
+          "4433b158067dbfae6dc6140ad72207f3a40900df13d3a6657843177a70f29cee": [],
+          "5161e4aa0975e93d31cfd50e29031bd1978f3505edfa91f2318a6a61b1aee9b1": [],
+          "57b3f56512b9c1b6f5a45046ddde265df3359746d0c18bf295e65d57a81ecd95": [],
+          "69aea3a03ff7659abc5b597971f1d50c0b6bb7355a5706f35df5d609bc798357": [],
+          "7133ac8e7622e75669bead35786e68225e0f8dc5342ba37608e03f12941926ff": [],
+          "76fa8c8c7640ac67d9d9449b62a184c7eb74a324704bd35fea5bdf3c015ebaaa": [],
+          "7f7ddfdb3e3734825ead4f996cdf6ae83d4f2fe4110f10f5e9d460bd0b94f283": [],
+          "8626a84da6edee9abf9399ac0a051decbee7831e06323a435386b107d3e4fa73": [],
+          "9013c4674a849ea2e0d73175341edea0f4959f345793d0f8d9f3acc0472d1b53": [],
+          "94e35a842a4acddc4b22836e488c26d4c96c8498a5c4432336e3275e70c02acd": [],
+          "98873505864623b195e00982cf13d3fd019e510e7e7cbd6f0a8939c76eafe164": [],
+          "9aa2dbd6066418ee2e20be3f9344f24be1f1d4cce85dcb8277ef53886d65b949": [],
+          "a95e862898414028459b79abed02b210a65390b2a360c631a3198a3073c9a382": [],
+          "ac7de8c605986e853f6a7cbe0b9dc0a9d4a57e633faece89261b6c88f1b6b40e": [],
+          "ad1e8843238b9e51114beebc6549f42998d59f2c729e26aa416c50419019e097": [],
+          "b62e0eb319a2ecb2f82ae818c272e7345ee7e50d6db93485cbc44fa1199a98d7": [],
+          "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3": [],
+          "dc3f0f1ad72b6fdcf1fe7093a95a24a89a7e53db5fcecc9caaedf2140452e1d5": [],
+          "dd7657e10d8cfdd13ca6a85cb5dcdb0f198a39533518514c6aea04268f2d3ec5": [],
+          "e408f71639c8ccc1520484f9e421d2ee9ce52adda4722515d188a5cde6eed07c": [],
+          "eb3f7a0f41e9c21460bc37006d3d3429cad30a2e5c63ca943aa649e8571abdb6": [],
+          "ef45fdf0935ae47dbcf9bda7181b8540487279ab272aaa6905068273c0a912b8": [],
+          "f20c35d5756404b10e8187af824622432cd16fb0f3f2ad6f70d00f3f09011705": []
+        },
+        "child_occurrence": "8626a84da6edee9abf9399ac0a051decbee7831e06323a435386b107d3e4fa73",
+        "completeness": [
+          {
+            "occurrence_id": "ad1e8843238b9e51114beebc6549f42998d59f2c729e26aa416c50419019e097",
+            "predicate": "requires_dist",
+            "rule": "COMPLETE_INSTALLED_METADATA",
+            "source_id": "09467c6e396d1885cac343283631ab87faf02eca1e1e38c5208e977220aaf933"
+          }
+        ],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "ad1e8843238b9e51114beebc6549f42998d59f2c729e26aa416c50419019e097",
+        "requirement_indices": [
+          32,
+          96,
+          100
+        ],
+        "rule": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "retract",
+      "reason": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-fsspec-5d651c3b2af7d874",
+      "status": "REFUTED",
+      "target_ref": "SPDXRef-Package-python-tqdm-933eed35aa8e5d8c"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": {
+          "02b44dd281142f767ebe37e4ea4809876584ec9824e38f6e0e9d3a1a19608dec": [],
+          "1e46334fc14244c5c847465d4eab3269469dd3497daf6ef9d3232ee6beba5fb8": [],
+          "24c91ad37c7137b3e71e824382729d930a570c720e8f34594216800ab4eff8e3": [],
+          "262ab2fe8f8e7a6cc10297b78cebe64750397f3552026dc60a421ca1f34b92e3": [],
+          "28cfbf2a8b67e47751b822b9c79d61f133cb8a8f939eb911c83f6825e667b013": [],
+          "2a3e74aca5b6d116f2cbfc9fc122a9b7d353e5f8f62024bda0265986a9d397a6": [],
+          "2d3d4ca3e9a45b86bd252c21b216d5b297498d756b20ada7674a849a88592537": [],
+          "320c61195c6fb463bf5e4d8b1ab48a7abca2d95bc1d40e1f1eaef9a0b296e1f0": [],
+          "4433b158067dbfae6dc6140ad72207f3a40900df13d3a6657843177a70f29cee": [],
+          "5161e4aa0975e93d31cfd50e29031bd1978f3505edfa91f2318a6a61b1aee9b1": [],
+          "57b3f56512b9c1b6f5a45046ddde265df3359746d0c18bf295e65d57a81ecd95": [],
+          "69aea3a03ff7659abc5b597971f1d50c0b6bb7355a5706f35df5d609bc798357": [],
+          "7133ac8e7622e75669bead35786e68225e0f8dc5342ba37608e03f12941926ff": [],
+          "76fa8c8c7640ac67d9d9449b62a184c7eb74a324704bd35fea5bdf3c015ebaaa": [],
+          "7f7ddfdb3e3734825ead4f996cdf6ae83d4f2fe4110f10f5e9d460bd0b94f283": [],
+          "8626a84da6edee9abf9399ac0a051decbee7831e06323a435386b107d3e4fa73": [],
+          "9013c4674a849ea2e0d73175341edea0f4959f345793d0f8d9f3acc0472d1b53": [],
+          "94e35a842a4acddc4b22836e488c26d4c96c8498a5c4432336e3275e70c02acd": [],
+          "98873505864623b195e00982cf13d3fd019e510e7e7cbd6f0a8939c76eafe164": [],
+          "9aa2dbd6066418ee2e20be3f9344f24be1f1d4cce85dcb8277ef53886d65b949": [],
+          "a95e862898414028459b79abed02b210a65390b2a360c631a3198a3073c9a382": [],
+          "ac7de8c605986e853f6a7cbe0b9dc0a9d4a57e633faece89261b6c88f1b6b40e": [],
+          "ad1e8843238b9e51114beebc6549f42998d59f2c729e26aa416c50419019e097": [],
+          "b62e0eb319a2ecb2f82ae818c272e7345ee7e50d6db93485cbc44fa1199a98d7": [],
+          "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3": [],
+          "dc3f0f1ad72b6fdcf1fe7093a95a24a89a7e53db5fcecc9caaedf2140452e1d5": [],
+          "dd7657e10d8cfdd13ca6a85cb5dcdb0f198a39533518514c6aea04268f2d3ec5": [],
+          "e408f71639c8ccc1520484f9e421d2ee9ce52adda4722515d188a5cde6eed07c": [],
+          "eb3f7a0f41e9c21460bc37006d3d3429cad30a2e5c63ca943aa649e8571abdb6": [],
+          "ef45fdf0935ae47dbcf9bda7181b8540487279ab272aaa6905068273c0a912b8": [],
+          "f20c35d5756404b10e8187af824622432cd16fb0f3f2ad6f70d00f3f09011705": []
+        },
+        "child_occurrence": "dc3f0f1ad72b6fdcf1fe7093a95a24a89a7e53db5fcecc9caaedf2140452e1d5",
+        "completeness": [
+          {
+            "occurrence_id": "eb3f7a0f41e9c21460bc37006d3d3429cad30a2e5c63ca943aa649e8571abdb6",
+            "predicate": "requires_dist",
+            "rule": "COMPLETE_INSTALLED_METADATA",
+            "source_id": "6df3cae56e31c8c0d578e5995bb52a2d1988ff83724aa166a270e271b5bbfd12"
+          }
+        ],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "eb3f7a0f41e9c21460bc37006d3d3429cad30a2e5c63ca943aa649e8571abdb6",
+        "requirement_indices": [
+          2
+        ],
+        "rule": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "retract",
+      "reason": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-httpcore-1e1a335902941bd3",
+      "status": "REFUTED",
+      "target_ref": "SPDXRef-Package-python-anyio-263101f2c1f6e3c6"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "e408f71639c8ccc1520484f9e421d2ee9ce52adda4722515d188a5cde6eed07c",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "eb3f7a0f41e9c21460bc37006d3d3429cad30a2e5c63ca943aa649e8571abdb6",
+        "requirement_indices": [
+          0
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-httpcore-1e1a335902941bd3",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-certifi-dc77913862cec55d"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "a95e862898414028459b79abed02b210a65390b2a360c631a3198a3073c9a382",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "eb3f7a0f41e9c21460bc37006d3d3429cad30a2e5c63ca943aa649e8571abdb6",
+        "requirement_indices": [
+          1
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-httpcore-1e1a335902941bd3",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-h11-c7b7fb650396d666"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "dc3f0f1ad72b6fdcf1fe7093a95a24a89a7e53db5fcecc9caaedf2140452e1d5",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "f20c35d5756404b10e8187af824622432cd16fb0f3f2ad6f70d00f3f09011705",
+        "requirement_indices": [
+          0
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-httpx-4dc96a8146e073ad",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-anyio-263101f2c1f6e3c6"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "e408f71639c8ccc1520484f9e421d2ee9ce52adda4722515d188a5cde6eed07c",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "f20c35d5756404b10e8187af824622432cd16fb0f3f2ad6f70d00f3f09011705",
+        "requirement_indices": [
+          1
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-httpx-4dc96a8146e073ad",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-certifi-dc77913862cec55d"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": {
+          "02b44dd281142f767ebe37e4ea4809876584ec9824e38f6e0e9d3a1a19608dec": [],
+          "1e46334fc14244c5c847465d4eab3269469dd3497daf6ef9d3232ee6beba5fb8": [],
+          "24c91ad37c7137b3e71e824382729d930a570c720e8f34594216800ab4eff8e3": [],
+          "262ab2fe8f8e7a6cc10297b78cebe64750397f3552026dc60a421ca1f34b92e3": [],
+          "28cfbf2a8b67e47751b822b9c79d61f133cb8a8f939eb911c83f6825e667b013": [],
+          "2a3e74aca5b6d116f2cbfc9fc122a9b7d353e5f8f62024bda0265986a9d397a6": [],
+          "2d3d4ca3e9a45b86bd252c21b216d5b297498d756b20ada7674a849a88592537": [],
+          "320c61195c6fb463bf5e4d8b1ab48a7abca2d95bc1d40e1f1eaef9a0b296e1f0": [],
+          "4433b158067dbfae6dc6140ad72207f3a40900df13d3a6657843177a70f29cee": [],
+          "5161e4aa0975e93d31cfd50e29031bd1978f3505edfa91f2318a6a61b1aee9b1": [],
+          "57b3f56512b9c1b6f5a45046ddde265df3359746d0c18bf295e65d57a81ecd95": [],
+          "69aea3a03ff7659abc5b597971f1d50c0b6bb7355a5706f35df5d609bc798357": [],
+          "7133ac8e7622e75669bead35786e68225e0f8dc5342ba37608e03f12941926ff": [],
+          "76fa8c8c7640ac67d9d9449b62a184c7eb74a324704bd35fea5bdf3c015ebaaa": [],
+          "7f7ddfdb3e3734825ead4f996cdf6ae83d4f2fe4110f10f5e9d460bd0b94f283": [],
+          "8626a84da6edee9abf9399ac0a051decbee7831e06323a435386b107d3e4fa73": [],
+          "9013c4674a849ea2e0d73175341edea0f4959f345793d0f8d9f3acc0472d1b53": [],
+          "94e35a842a4acddc4b22836e488c26d4c96c8498a5c4432336e3275e70c02acd": [],
+          "98873505864623b195e00982cf13d3fd019e510e7e7cbd6f0a8939c76eafe164": [],
+          "9aa2dbd6066418ee2e20be3f9344f24be1f1d4cce85dcb8277ef53886d65b949": [],
+          "a95e862898414028459b79abed02b210a65390b2a360c631a3198a3073c9a382": [],
+          "ac7de8c605986e853f6a7cbe0b9dc0a9d4a57e633faece89261b6c88f1b6b40e": [],
+          "ad1e8843238b9e51114beebc6549f42998d59f2c729e26aa416c50419019e097": [],
+          "b62e0eb319a2ecb2f82ae818c272e7345ee7e50d6db93485cbc44fa1199a98d7": [],
+          "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3": [],
+          "dc3f0f1ad72b6fdcf1fe7093a95a24a89a7e53db5fcecc9caaedf2140452e1d5": [],
+          "dd7657e10d8cfdd13ca6a85cb5dcdb0f198a39533518514c6aea04268f2d3ec5": [],
+          "e408f71639c8ccc1520484f9e421d2ee9ce52adda4722515d188a5cde6eed07c": [],
+          "eb3f7a0f41e9c21460bc37006d3d3429cad30a2e5c63ca943aa649e8571abdb6": [],
+          "ef45fdf0935ae47dbcf9bda7181b8540487279ab272aaa6905068273c0a912b8": [],
+          "f20c35d5756404b10e8187af824622432cd16fb0f3f2ad6f70d00f3f09011705": []
+        },
+        "child_occurrence": "dd7657e10d8cfdd13ca6a85cb5dcdb0f198a39533518514c6aea04268f2d3ec5",
+        "completeness": [
+          {
+            "occurrence_id": "f20c35d5756404b10e8187af824622432cd16fb0f3f2ad6f70d00f3f09011705",
+            "predicate": "requires_dist",
+            "rule": "COMPLETE_INSTALLED_METADATA",
+            "source_id": "c6ed5140b6f44558a838f55b212991d54ea55e5a07b8793fd7000112db57471d"
+          }
+        ],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "f20c35d5756404b10e8187af824622432cd16fb0f3f2ad6f70d00f3f09011705",
+        "requirement_indices": [
+          6
+        ],
+        "rule": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "retract",
+      "reason": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-httpx-4dc96a8146e073ad",
+      "status": "REFUTED",
+      "target_ref": "SPDXRef-Package-python-click-8c3e7e30488f8d69"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "eb3f7a0f41e9c21460bc37006d3d3429cad30a2e5c63ca943aa649e8571abdb6",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "f20c35d5756404b10e8187af824622432cd16fb0f3f2ad6f70d00f3f09011705",
+        "requirement_indices": [
+          2
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-httpx-4dc96a8146e073ad",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-httpcore-1e1a335902941bd3"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "b62e0eb319a2ecb2f82ae818c272e7345ee7e50d6db93485cbc44fa1199a98d7",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "f20c35d5756404b10e8187af824622432cd16fb0f3f2ad6f70d00f3f09011705",
+        "requirement_indices": [
+          3
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-httpx-4dc96a8146e073ad",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-idna-74a748adbda627c4"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "ac7de8c605986e853f6a7cbe0b9dc0a9d4a57e633faece89261b6c88f1b6b40e",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3",
+        "requirement_indices": [
+          0
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-filelock-2eeef8d0e239d49a"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "ad1e8843238b9e51114beebc6549f42998d59f2c729e26aa416c50419019e097",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3",
+        "requirement_indices": [
+          1
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-fsspec-5d651c3b2af7d874"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "262ab2fe8f8e7a6cc10297b78cebe64750397f3552026dc60a421ca1f34b92e3",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3",
+        "requirement_indices": [
+          2
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-hf-xet-e855e578094d1045"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "f20c35d5756404b10e8187af824622432cd16fb0f3f2ad6f70d00f3f09011705",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3",
+        "requirement_indices": [
+          3
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-httpx-4dc96a8146e073ad"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": {
+          "02b44dd281142f767ebe37e4ea4809876584ec9824e38f6e0e9d3a1a19608dec": [],
+          "1e46334fc14244c5c847465d4eab3269469dd3497daf6ef9d3232ee6beba5fb8": [],
+          "24c91ad37c7137b3e71e824382729d930a570c720e8f34594216800ab4eff8e3": [],
+          "262ab2fe8f8e7a6cc10297b78cebe64750397f3552026dc60a421ca1f34b92e3": [],
+          "28cfbf2a8b67e47751b822b9c79d61f133cb8a8f939eb911c83f6825e667b013": [],
+          "2a3e74aca5b6d116f2cbfc9fc122a9b7d353e5f8f62024bda0265986a9d397a6": [],
+          "2d3d4ca3e9a45b86bd252c21b216d5b297498d756b20ada7674a849a88592537": [],
+          "320c61195c6fb463bf5e4d8b1ab48a7abca2d95bc1d40e1f1eaef9a0b296e1f0": [],
+          "4433b158067dbfae6dc6140ad72207f3a40900df13d3a6657843177a70f29cee": [],
+          "5161e4aa0975e93d31cfd50e29031bd1978f3505edfa91f2318a6a61b1aee9b1": [],
+          "57b3f56512b9c1b6f5a45046ddde265df3359746d0c18bf295e65d57a81ecd95": [],
+          "69aea3a03ff7659abc5b597971f1d50c0b6bb7355a5706f35df5d609bc798357": [],
+          "7133ac8e7622e75669bead35786e68225e0f8dc5342ba37608e03f12941926ff": [],
+          "76fa8c8c7640ac67d9d9449b62a184c7eb74a324704bd35fea5bdf3c015ebaaa": [],
+          "7f7ddfdb3e3734825ead4f996cdf6ae83d4f2fe4110f10f5e9d460bd0b94f283": [],
+          "8626a84da6edee9abf9399ac0a051decbee7831e06323a435386b107d3e4fa73": [],
+          "9013c4674a849ea2e0d73175341edea0f4959f345793d0f8d9f3acc0472d1b53": [],
+          "94e35a842a4acddc4b22836e488c26d4c96c8498a5c4432336e3275e70c02acd": [],
+          "98873505864623b195e00982cf13d3fd019e510e7e7cbd6f0a8939c76eafe164": [],
+          "9aa2dbd6066418ee2e20be3f9344f24be1f1d4cce85dcb8277ef53886d65b949": [],
+          "a95e862898414028459b79abed02b210a65390b2a360c631a3198a3073c9a382": [],
+          "ac7de8c605986e853f6a7cbe0b9dc0a9d4a57e633faece89261b6c88f1b6b40e": [],
+          "ad1e8843238b9e51114beebc6549f42998d59f2c729e26aa416c50419019e097": [],
+          "b62e0eb319a2ecb2f82ae818c272e7345ee7e50d6db93485cbc44fa1199a98d7": [],
+          "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3": [],
+          "dc3f0f1ad72b6fdcf1fe7093a95a24a89a7e53db5fcecc9caaedf2140452e1d5": [],
+          "dd7657e10d8cfdd13ca6a85cb5dcdb0f198a39533518514c6aea04268f2d3ec5": [],
+          "e408f71639c8ccc1520484f9e421d2ee9ce52adda4722515d188a5cde6eed07c": [],
+          "eb3f7a0f41e9c21460bc37006d3d3429cad30a2e5c63ca943aa649e8571abdb6": [],
+          "ef45fdf0935ae47dbcf9bda7181b8540487279ab272aaa6905068273c0a912b8": [],
+          "f20c35d5756404b10e8187af824622432cd16fb0f3f2ad6f70d00f3f09011705": []
+        },
+        "child_occurrence": "320c61195c6fb463bf5e4d8b1ab48a7abca2d95bc1d40e1f1eaef9a0b296e1f0",
+        "completeness": [
+          {
+            "occurrence_id": "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3",
+            "predicate": "requires_dist",
+            "rule": "COMPLETE_INSTALLED_METADATA",
+            "source_id": "21d807db7124d7a00e2d473324105f6592186eeaa956680db103466a29081ad0"
+          }
+        ],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3",
+        "requirement_indices": [
+          38,
+          67,
+          96
+        ],
+        "rule": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "retract",
+      "reason": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "REFUTED",
+      "target_ref": "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "ef45fdf0935ae47dbcf9bda7181b8540487279ab272aaa6905068273c0a912b8",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3",
+        "requirement_indices": [
+          4
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "add",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "94e35a842a4acddc4b22836e488c26d4c96c8498a5c4432336e3275e70c02acd",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3",
+        "requirement_indices": [
+          5
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-pyyaml-13a209a9c0a27f20"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "2d3d4ca3e9a45b86bd252c21b216d5b297498d756b20ada7674a849a88592537",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3",
+        "requirement_indices": [
+          6
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-shellingham-8e45d048d30793e5"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "8626a84da6edee9abf9399ac0a051decbee7831e06323a435386b107d3e4fa73",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3",
+        "requirement_indices": [
+          7
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-tqdm-933eed35aa8e5d8c"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "9013c4674a849ea2e0d73175341edea0f4959f345793d0f8d9f3acc0472d1b53",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3",
+        "requirement_indices": [
+          8
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-typer-slim-750358fd1d9c94e8"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "1e46334fc14244c5c847465d4eab3269469dd3497daf6ef9d3232ee6beba5fb8",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3",
+        "requirement_indices": [
+          9
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-938e04f225233ed9"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-938e04f225233ed9"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-938e04f225233ed9"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-jaraco-collections-e074243c2b7dd70d",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-backports-tarfile-7bb5380f6d177676"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-autocommand-1d5bb88bbdd45a29"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-mpmath-ff1bd20574cfa684",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "76fa8c8c7640ac67d9d9449b62a184c7eb74a324704bd35fea5bdf3c015ebaaa",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "02b44dd281142f767ebe37e4ea4809876584ec9824e38f6e0e9d3a1a19608dec",
+        "requirement_indices": [
+          0
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-coloredlogs-f61859a8af6e4523"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "7133ac8e7622e75669bead35786e68225e0f8dc5342ba37608e03f12941926ff",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "02b44dd281142f767ebe37e4ea4809876584ec9824e38f6e0e9d3a1a19608dec",
+        "requirement_indices": [
+          1
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-flatbuffers-8aebbd4c12cd05f5"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "320c61195c6fb463bf5e4d8b1ab48a7abca2d95bc1d40e1f1eaef9a0b296e1f0",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "02b44dd281142f767ebe37e4ea4809876584ec9824e38f6e0e9d3a1a19608dec",
+        "requirement_indices": [
+          2
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "ef45fdf0935ae47dbcf9bda7181b8540487279ab272aaa6905068273c0a912b8",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "02b44dd281142f767ebe37e4ea4809876584ec9824e38f6e0e9d3a1a19608dec",
+        "requirement_indices": [
+          3
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "add",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "98873505864623b195e00982cf13d3fd019e510e7e7cbd6f0a8939c76eafe164",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "02b44dd281142f767ebe37e4ea4809876584ec9824e38f6e0e9d3a1a19608dec",
+        "requirement_indices": [
+          4
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-protobuf-518fa62d78a36315"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "4433b158067dbfae6dc6140ad72207f3a40900df13d3a6657843177a70f29cee",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "02b44dd281142f767ebe37e4ea4809876584ec9824e38f6e0e9d3a1a19608dec",
+        "requirement_indices": [
+          5
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-sympy-e6da66b9d4816c73"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": {
+          "02b44dd281142f767ebe37e4ea4809876584ec9824e38f6e0e9d3a1a19608dec": [],
+          "1e46334fc14244c5c847465d4eab3269469dd3497daf6ef9d3232ee6beba5fb8": [],
+          "24c91ad37c7137b3e71e824382729d930a570c720e8f34594216800ab4eff8e3": [],
+          "262ab2fe8f8e7a6cc10297b78cebe64750397f3552026dc60a421ca1f34b92e3": [],
+          "28cfbf2a8b67e47751b822b9c79d61f133cb8a8f939eb911c83f6825e667b013": [],
+          "2a3e74aca5b6d116f2cbfc9fc122a9b7d353e5f8f62024bda0265986a9d397a6": [],
+          "2d3d4ca3e9a45b86bd252c21b216d5b297498d756b20ada7674a849a88592537": [],
+          "320c61195c6fb463bf5e4d8b1ab48a7abca2d95bc1d40e1f1eaef9a0b296e1f0": [],
+          "4433b158067dbfae6dc6140ad72207f3a40900df13d3a6657843177a70f29cee": [],
+          "5161e4aa0975e93d31cfd50e29031bd1978f3505edfa91f2318a6a61b1aee9b1": [],
+          "57b3f56512b9c1b6f5a45046ddde265df3359746d0c18bf295e65d57a81ecd95": [],
+          "69aea3a03ff7659abc5b597971f1d50c0b6bb7355a5706f35df5d609bc798357": [],
+          "7133ac8e7622e75669bead35786e68225e0f8dc5342ba37608e03f12941926ff": [],
+          "76fa8c8c7640ac67d9d9449b62a184c7eb74a324704bd35fea5bdf3c015ebaaa": [],
+          "7f7ddfdb3e3734825ead4f996cdf6ae83d4f2fe4110f10f5e9d460bd0b94f283": [],
+          "8626a84da6edee9abf9399ac0a051decbee7831e06323a435386b107d3e4fa73": [],
+          "9013c4674a849ea2e0d73175341edea0f4959f345793d0f8d9f3acc0472d1b53": [],
+          "94e35a842a4acddc4b22836e488c26d4c96c8498a5c4432336e3275e70c02acd": [],
+          "98873505864623b195e00982cf13d3fd019e510e7e7cbd6f0a8939c76eafe164": [],
+          "9aa2dbd6066418ee2e20be3f9344f24be1f1d4cce85dcb8277ef53886d65b949": [],
+          "a95e862898414028459b79abed02b210a65390b2a360c631a3198a3073c9a382": [],
+          "ac7de8c605986e853f6a7cbe0b9dc0a9d4a57e633faece89261b6c88f1b6b40e": [],
+          "ad1e8843238b9e51114beebc6549f42998d59f2c729e26aa416c50419019e097": [],
+          "b62e0eb319a2ecb2f82ae818c272e7345ee7e50d6db93485cbc44fa1199a98d7": [],
+          "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3": [],
+          "dc3f0f1ad72b6fdcf1fe7093a95a24a89a7e53db5fcecc9caaedf2140452e1d5": [],
+          "dd7657e10d8cfdd13ca6a85cb5dcdb0f198a39533518514c6aea04268f2d3ec5": [],
+          "e408f71639c8ccc1520484f9e421d2ee9ce52adda4722515d188a5cde6eed07c": [],
+          "eb3f7a0f41e9c21460bc37006d3d3429cad30a2e5c63ca943aa649e8571abdb6": [],
+          "ef45fdf0935ae47dbcf9bda7181b8540487279ab272aaa6905068273c0a912b8": [],
+          "f20c35d5756404b10e8187af824622432cd16fb0f3f2ad6f70d00f3f09011705": []
+        },
+        "child_occurrence": "ac7de8c605986e853f6a7cbe0b9dc0a9d4a57e633faece89261b6c88f1b6b40e",
+        "completeness": [
+          {
+            "occurrence_id": "2a3e74aca5b6d116f2cbfc9fc122a9b7d353e5f8f62024bda0265986a9d397a6",
+            "predicate": "requires_dist",
+            "rule": "COMPLETE_INSTALLED_METADATA",
+            "source_id": "088eaafeeb8fd1cdf4a1e3fdfcf40c0211a12cf1cfacb37479a5b716f0fe5879"
+          }
+        ],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "2a3e74aca5b6d116f2cbfc9fc122a9b7d353e5f8f62024bda0265986a9d397a6",
+        "requirement_indices": [
+          9
+        ],
+        "rule": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "retract",
+      "reason": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "REFUTED",
+      "target_ref": "SPDXRef-Package-python-filelock-2eeef8d0e239d49a"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "INCOMPLETE_DECLARATIONS_CONTEXT_OR_ENDPOINT_RESOLUTION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": {
+          "02b44dd281142f767ebe37e4ea4809876584ec9824e38f6e0e9d3a1a19608dec": [],
+          "1e46334fc14244c5c847465d4eab3269469dd3497daf6ef9d3232ee6beba5fb8": [],
+          "24c91ad37c7137b3e71e824382729d930a570c720e8f34594216800ab4eff8e3": [],
+          "262ab2fe8f8e7a6cc10297b78cebe64750397f3552026dc60a421ca1f34b92e3": [],
+          "28cfbf2a8b67e47751b822b9c79d61f133cb8a8f939eb911c83f6825e667b013": [],
+          "2a3e74aca5b6d116f2cbfc9fc122a9b7d353e5f8f62024bda0265986a9d397a6": [],
+          "2d3d4ca3e9a45b86bd252c21b216d5b297498d756b20ada7674a849a88592537": [],
+          "320c61195c6fb463bf5e4d8b1ab48a7abca2d95bc1d40e1f1eaef9a0b296e1f0": [],
+          "4433b158067dbfae6dc6140ad72207f3a40900df13d3a6657843177a70f29cee": [],
+          "5161e4aa0975e93d31cfd50e29031bd1978f3505edfa91f2318a6a61b1aee9b1": [],
+          "57b3f56512b9c1b6f5a45046ddde265df3359746d0c18bf295e65d57a81ecd95": [],
+          "69aea3a03ff7659abc5b597971f1d50c0b6bb7355a5706f35df5d609bc798357": [],
+          "7133ac8e7622e75669bead35786e68225e0f8dc5342ba37608e03f12941926ff": [],
+          "76fa8c8c7640ac67d9d9449b62a184c7eb74a324704bd35fea5bdf3c015ebaaa": [],
+          "7f7ddfdb3e3734825ead4f996cdf6ae83d4f2fe4110f10f5e9d460bd0b94f283": [],
+          "8626a84da6edee9abf9399ac0a051decbee7831e06323a435386b107d3e4fa73": [],
+          "9013c4674a849ea2e0d73175341edea0f4959f345793d0f8d9f3acc0472d1b53": [],
+          "94e35a842a4acddc4b22836e488c26d4c96c8498a5c4432336e3275e70c02acd": [],
+          "98873505864623b195e00982cf13d3fd019e510e7e7cbd6f0a8939c76eafe164": [],
+          "9aa2dbd6066418ee2e20be3f9344f24be1f1d4cce85dcb8277ef53886d65b949": [],
+          "a95e862898414028459b79abed02b210a65390b2a360c631a3198a3073c9a382": [],
+          "ac7de8c605986e853f6a7cbe0b9dc0a9d4a57e633faece89261b6c88f1b6b40e": [],
+          "ad1e8843238b9e51114beebc6549f42998d59f2c729e26aa416c50419019e097": [],
+          "b62e0eb319a2ecb2f82ae818c272e7345ee7e50d6db93485cbc44fa1199a98d7": [],
+          "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3": [],
+          "dc3f0f1ad72b6fdcf1fe7093a95a24a89a7e53db5fcecc9caaedf2140452e1d5": [],
+          "dd7657e10d8cfdd13ca6a85cb5dcdb0f198a39533518514c6aea04268f2d3ec5": [],
+          "e408f71639c8ccc1520484f9e421d2ee9ce52adda4722515d188a5cde6eed07c": [],
+          "eb3f7a0f41e9c21460bc37006d3d3429cad30a2e5c63ca943aa649e8571abdb6": [],
+          "ef45fdf0935ae47dbcf9bda7181b8540487279ab272aaa6905068273c0a912b8": [],
+          "f20c35d5756404b10e8187af824622432cd16fb0f3f2ad6f70d00f3f09011705": []
+        },
+        "child_occurrence": "57b3f56512b9c1b6f5a45046ddde265df3359746d0c18bf295e65d57a81ecd95",
+        "completeness": [
+          {
+            "occurrence_id": "2a3e74aca5b6d116f2cbfc9fc122a9b7d353e5f8f62024bda0265986a9d397a6",
+            "predicate": "requires_dist",
+            "rule": "COMPLETE_INSTALLED_METADATA",
+            "source_id": "088eaafeeb8fd1cdf4a1e3fdfcf40c0211a12cf1cfacb37479a5b716f0fe5879"
+          }
+        ],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "2a3e74aca5b6d116f2cbfc9fc122a9b7d353e5f8f62024bda0265986a9d397a6",
+        "requirement_indices": [
+          3
+        ],
+        "rule": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "retract",
+      "reason": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "REFUTED",
+      "target_ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-platformdirs-4b62779e59b20d35"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-tomli-f04d63d7233a932e"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "69aea3a03ff7659abc5b597971f1d50c0b6bb7355a5706f35df5d609bc798357",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "4433b158067dbfae6dc6140ad72207f3a40900df13d3a6657843177a70f29cee",
+        "requirement_indices": [
+          0
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-sympy-e6da66b9d4816c73",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-mpmath-ff1bd20574cfa684"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "28cfbf2a8b67e47751b822b9c79d61f133cb8a8f939eb911c83f6825e667b013",
+        "requirement_indices": [
+          0
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-tokenizers-ccd6312beaad8054",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": {
+          "02b44dd281142f767ebe37e4ea4809876584ec9824e38f6e0e9d3a1a19608dec": [],
+          "1e46334fc14244c5c847465d4eab3269469dd3497daf6ef9d3232ee6beba5fb8": [],
+          "24c91ad37c7137b3e71e824382729d930a570c720e8f34594216800ab4eff8e3": [],
+          "262ab2fe8f8e7a6cc10297b78cebe64750397f3552026dc60a421ca1f34b92e3": [],
+          "28cfbf2a8b67e47751b822b9c79d61f133cb8a8f939eb911c83f6825e667b013": [],
+          "2a3e74aca5b6d116f2cbfc9fc122a9b7d353e5f8f62024bda0265986a9d397a6": [],
+          "2d3d4ca3e9a45b86bd252c21b216d5b297498d756b20ada7674a849a88592537": [],
+          "320c61195c6fb463bf5e4d8b1ab48a7abca2d95bc1d40e1f1eaef9a0b296e1f0": [],
+          "4433b158067dbfae6dc6140ad72207f3a40900df13d3a6657843177a70f29cee": [],
+          "5161e4aa0975e93d31cfd50e29031bd1978f3505edfa91f2318a6a61b1aee9b1": [],
+          "57b3f56512b9c1b6f5a45046ddde265df3359746d0c18bf295e65d57a81ecd95": [],
+          "69aea3a03ff7659abc5b597971f1d50c0b6bb7355a5706f35df5d609bc798357": [],
+          "7133ac8e7622e75669bead35786e68225e0f8dc5342ba37608e03f12941926ff": [],
+          "76fa8c8c7640ac67d9d9449b62a184c7eb74a324704bd35fea5bdf3c015ebaaa": [],
+          "7f7ddfdb3e3734825ead4f996cdf6ae83d4f2fe4110f10f5e9d460bd0b94f283": [],
+          "8626a84da6edee9abf9399ac0a051decbee7831e06323a435386b107d3e4fa73": [],
+          "9013c4674a849ea2e0d73175341edea0f4959f345793d0f8d9f3acc0472d1b53": [],
+          "94e35a842a4acddc4b22836e488c26d4c96c8498a5c4432336e3275e70c02acd": [],
+          "98873505864623b195e00982cf13d3fd019e510e7e7cbd6f0a8939c76eafe164": [],
+          "9aa2dbd6066418ee2e20be3f9344f24be1f1d4cce85dcb8277ef53886d65b949": [],
+          "a95e862898414028459b79abed02b210a65390b2a360c631a3198a3073c9a382": [],
+          "ac7de8c605986e853f6a7cbe0b9dc0a9d4a57e633faece89261b6c88f1b6b40e": [],
+          "ad1e8843238b9e51114beebc6549f42998d59f2c729e26aa416c50419019e097": [],
+          "b62e0eb319a2ecb2f82ae818c272e7345ee7e50d6db93485cbc44fa1199a98d7": [],
+          "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3": [],
+          "dc3f0f1ad72b6fdcf1fe7093a95a24a89a7e53db5fcecc9caaedf2140452e1d5": [],
+          "dd7657e10d8cfdd13ca6a85cb5dcdb0f198a39533518514c6aea04268f2d3ec5": [],
+          "e408f71639c8ccc1520484f9e421d2ee9ce52adda4722515d188a5cde6eed07c": [],
+          "eb3f7a0f41e9c21460bc37006d3d3429cad30a2e5c63ca943aa649e8571abdb6": [],
+          "ef45fdf0935ae47dbcf9bda7181b8540487279ab272aaa6905068273c0a912b8": [],
+          "f20c35d5756404b10e8187af824622432cd16fb0f3f2ad6f70d00f3f09011705": []
+        },
+        "child_occurrence": "320c61195c6fb463bf5e4d8b1ab48a7abca2d95bc1d40e1f1eaef9a0b296e1f0",
+        "completeness": [
+          {
+            "occurrence_id": "28cfbf2a8b67e47751b822b9c79d61f133cb8a8f939eb911c83f6825e667b013",
+            "predicate": "requires_dist",
+            "rule": "COMPLETE_INSTALLED_METADATA",
+            "source_id": "74b856e274aeec28fde8183a2fe4939da53fe764d834a8065692f34e4125668b"
+          }
+        ],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "28cfbf2a8b67e47751b822b9c79d61f133cb8a8f939eb911c83f6825e667b013",
+        "requirement_indices": [
+          4
+        ],
+        "rule": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "retract",
+      "reason": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-tokenizers-ccd6312beaad8054",
+      "status": "REFUTED",
+      "target_ref": "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": {
+          "02b44dd281142f767ebe37e4ea4809876584ec9824e38f6e0e9d3a1a19608dec": [],
+          "1e46334fc14244c5c847465d4eab3269469dd3497daf6ef9d3232ee6beba5fb8": [],
+          "24c91ad37c7137b3e71e824382729d930a570c720e8f34594216800ab4eff8e3": [],
+          "262ab2fe8f8e7a6cc10297b78cebe64750397f3552026dc60a421ca1f34b92e3": [],
+          "28cfbf2a8b67e47751b822b9c79d61f133cb8a8f939eb911c83f6825e667b013": [],
+          "2a3e74aca5b6d116f2cbfc9fc122a9b7d353e5f8f62024bda0265986a9d397a6": [],
+          "2d3d4ca3e9a45b86bd252c21b216d5b297498d756b20ada7674a849a88592537": [],
+          "320c61195c6fb463bf5e4d8b1ab48a7abca2d95bc1d40e1f1eaef9a0b296e1f0": [],
+          "4433b158067dbfae6dc6140ad72207f3a40900df13d3a6657843177a70f29cee": [],
+          "5161e4aa0975e93d31cfd50e29031bd1978f3505edfa91f2318a6a61b1aee9b1": [],
+          "57b3f56512b9c1b6f5a45046ddde265df3359746d0c18bf295e65d57a81ecd95": [],
+          "69aea3a03ff7659abc5b597971f1d50c0b6bb7355a5706f35df5d609bc798357": [],
+          "7133ac8e7622e75669bead35786e68225e0f8dc5342ba37608e03f12941926ff": [],
+          "76fa8c8c7640ac67d9d9449b62a184c7eb74a324704bd35fea5bdf3c015ebaaa": [],
+          "7f7ddfdb3e3734825ead4f996cdf6ae83d4f2fe4110f10f5e9d460bd0b94f283": [],
+          "8626a84da6edee9abf9399ac0a051decbee7831e06323a435386b107d3e4fa73": [],
+          "9013c4674a849ea2e0d73175341edea0f4959f345793d0f8d9f3acc0472d1b53": [],
+          "94e35a842a4acddc4b22836e488c26d4c96c8498a5c4432336e3275e70c02acd": [],
+          "98873505864623b195e00982cf13d3fd019e510e7e7cbd6f0a8939c76eafe164": [],
+          "9aa2dbd6066418ee2e20be3f9344f24be1f1d4cce85dcb8277ef53886d65b949": [],
+          "a95e862898414028459b79abed02b210a65390b2a360c631a3198a3073c9a382": [],
+          "ac7de8c605986e853f6a7cbe0b9dc0a9d4a57e633faece89261b6c88f1b6b40e": [],
+          "ad1e8843238b9e51114beebc6549f42998d59f2c729e26aa416c50419019e097": [],
+          "b62e0eb319a2ecb2f82ae818c272e7345ee7e50d6db93485cbc44fa1199a98d7": [],
+          "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3": [],
+          "dc3f0f1ad72b6fdcf1fe7093a95a24a89a7e53db5fcecc9caaedf2140452e1d5": [],
+          "dd7657e10d8cfdd13ca6a85cb5dcdb0f198a39533518514c6aea04268f2d3ec5": [],
+          "e408f71639c8ccc1520484f9e421d2ee9ce52adda4722515d188a5cde6eed07c": [],
+          "eb3f7a0f41e9c21460bc37006d3d3429cad30a2e5c63ca943aa649e8571abdb6": [],
+          "ef45fdf0935ae47dbcf9bda7181b8540487279ab272aaa6905068273c0a912b8": [],
+          "f20c35d5756404b10e8187af824622432cd16fb0f3f2ad6f70d00f3f09011705": []
+        },
+        "child_occurrence": "28cfbf2a8b67e47751b822b9c79d61f133cb8a8f939eb911c83f6825e667b013",
+        "completeness": [
+          {
+            "occurrence_id": "28cfbf2a8b67e47751b822b9c79d61f133cb8a8f939eb911c83f6825e667b013",
+            "predicate": "requires_dist",
+            "rule": "COMPLETE_INSTALLED_METADATA",
+            "source_id": "74b856e274aeec28fde8183a2fe4939da53fe764d834a8065692f34e4125668b"
+          }
+        ],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "28cfbf2a8b67e47751b822b9c79d61f133cb8a8f939eb911c83f6825e667b013",
+        "requirement_indices": [
+          11
+        ],
+        "rule": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "retract",
+      "reason": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-tokenizers-ccd6312beaad8054",
+      "status": "REFUTED",
+      "target_ref": "SPDXRef-Package-python-tokenizers-ccd6312beaad8054"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-938e04f225233ed9"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "dd7657e10d8cfdd13ca6a85cb5dcdb0f198a39533518514c6aea04268f2d3ec5",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "9013c4674a849ea2e0d73175341edea0f4959f345793d0f8d9f3acc0472d1b53",
+        "requirement_indices": [
+          0
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-typer-slim-750358fd1d9c94e8",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-click-8c3e7e30488f8d69"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": {
+          "02b44dd281142f767ebe37e4ea4809876584ec9824e38f6e0e9d3a1a19608dec": [],
+          "1e46334fc14244c5c847465d4eab3269469dd3497daf6ef9d3232ee6beba5fb8": [],
+          "24c91ad37c7137b3e71e824382729d930a570c720e8f34594216800ab4eff8e3": [],
+          "262ab2fe8f8e7a6cc10297b78cebe64750397f3552026dc60a421ca1f34b92e3": [],
+          "28cfbf2a8b67e47751b822b9c79d61f133cb8a8f939eb911c83f6825e667b013": [],
+          "2a3e74aca5b6d116f2cbfc9fc122a9b7d353e5f8f62024bda0265986a9d397a6": [],
+          "2d3d4ca3e9a45b86bd252c21b216d5b297498d756b20ada7674a849a88592537": [],
+          "320c61195c6fb463bf5e4d8b1ab48a7abca2d95bc1d40e1f1eaef9a0b296e1f0": [],
+          "4433b158067dbfae6dc6140ad72207f3a40900df13d3a6657843177a70f29cee": [],
+          "5161e4aa0975e93d31cfd50e29031bd1978f3505edfa91f2318a6a61b1aee9b1": [],
+          "57b3f56512b9c1b6f5a45046ddde265df3359746d0c18bf295e65d57a81ecd95": [],
+          "69aea3a03ff7659abc5b597971f1d50c0b6bb7355a5706f35df5d609bc798357": [],
+          "7133ac8e7622e75669bead35786e68225e0f8dc5342ba37608e03f12941926ff": [],
+          "76fa8c8c7640ac67d9d9449b62a184c7eb74a324704bd35fea5bdf3c015ebaaa": [],
+          "7f7ddfdb3e3734825ead4f996cdf6ae83d4f2fe4110f10f5e9d460bd0b94f283": [],
+          "8626a84da6edee9abf9399ac0a051decbee7831e06323a435386b107d3e4fa73": [],
+          "9013c4674a849ea2e0d73175341edea0f4959f345793d0f8d9f3acc0472d1b53": [],
+          "94e35a842a4acddc4b22836e488c26d4c96c8498a5c4432336e3275e70c02acd": [],
+          "98873505864623b195e00982cf13d3fd019e510e7e7cbd6f0a8939c76eafe164": [],
+          "9aa2dbd6066418ee2e20be3f9344f24be1f1d4cce85dcb8277ef53886d65b949": [],
+          "a95e862898414028459b79abed02b210a65390b2a360c631a3198a3073c9a382": [],
+          "ac7de8c605986e853f6a7cbe0b9dc0a9d4a57e633faece89261b6c88f1b6b40e": [],
+          "ad1e8843238b9e51114beebc6549f42998d59f2c729e26aa416c50419019e097": [],
+          "b62e0eb319a2ecb2f82ae818c272e7345ee7e50d6db93485cbc44fa1199a98d7": [],
+          "c2107a4776d3731dbcee7fadcc54cd8dda3747394ff1e542155c0b769acbc2a3": [],
+          "dc3f0f1ad72b6fdcf1fe7093a95a24a89a7e53db5fcecc9caaedf2140452e1d5": [],
+          "dd7657e10d8cfdd13ca6a85cb5dcdb0f198a39533518514c6aea04268f2d3ec5": [],
+          "e408f71639c8ccc1520484f9e421d2ee9ce52adda4722515d188a5cde6eed07c": [],
+          "eb3f7a0f41e9c21460bc37006d3d3429cad30a2e5c63ca943aa649e8571abdb6": [],
+          "ef45fdf0935ae47dbcf9bda7181b8540487279ab272aaa6905068273c0a912b8": [],
+          "f20c35d5756404b10e8187af824622432cd16fb0f3f2ad6f70d00f3f09011705": []
+        },
+        "child_occurrence": "2d3d4ca3e9a45b86bd252c21b216d5b297498d756b20ada7674a849a88592537",
+        "completeness": [
+          {
+            "occurrence_id": "9013c4674a849ea2e0d73175341edea0f4959f345793d0f8d9f3acc0472d1b53",
+            "predicate": "requires_dist",
+            "rule": "COMPLETE_INSTALLED_METADATA",
+            "source_id": "75096f80e71a66370d1288f26fd4142b1d00002131592704579259ba67a78230"
+          }
+        ],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "9013c4674a849ea2e0d73175341edea0f4959f345793d0f8d9f3acc0472d1b53",
+        "requirement_indices": [
+          2
+        ],
+        "rule": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "retract",
+      "reason": "ALL_MATCHING_DECLARATIONS_INACTIVE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-typer-slim-750358fd1d9c94e8",
+      "status": "REFUTED",
+      "target_ref": "SPDXRef-Package-python-shellingham-8e45d048d30793e5"
+    },
+    {
+      "certificate": {
+        "activation_steps": [],
+        "activation_upper": null,
+        "child_occurrence": "1e46334fc14244c5c847465d4eab3269469dd3497daf6ef9d3232ee6beba5fb8",
+        "completeness": [],
+        "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+        "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+        "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+        "parent_occurrence": "9013c4674a849ea2e0d73175341edea0f4959f345793d0f8d9f3acc0472d1b53",
+        "requirement_indices": [
+          1
+        ],
+        "rule": "ACTIVE_DECLARATION",
+        "schema_version": "reconciliation-certificate-v2"
+      },
+      "operation": "keep",
+      "reason": "ACTIVE_DECLARATION",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-typer-slim-750358fd1d9c94e8",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-938e04f225233ed9"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+    },
+    {
+      "certificate": null,
+      "operation": "abstain",
+      "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+      "schema_version": "reconciliation-decision-v2",
+      "source_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    }
+  ],
+  "diagnostics": [],
+  "evidence_sha256": "8895e2a3ee92f4cae18e451a08baefe61e366c5123d3c153dc6bb908548a1a47",
+  "exploitability": "UNMEASURED",
+  "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+  "llm_api_calls": 0,
+  "operations": {
+    "abstain": 32,
+    "add": 2,
+    "keep": 36,
+    "retract": 10
+  },
+  "output_sha256": "7f27890460cc2ea156737f47ff4b5fb38de198d0560e47e34b997ffc15598fab",
+  "path_absence_status": "UNKNOWN",
+  "policy": "certified-reconciliation-v2",
+  "reference_labels_read": false,
+  "schema_version": "certified-reconciliation-result-v2",
+  "scope": "installed_distribution_declared_direct_requirements",
+  "seconds": 4.16870669000491,
+  "status": "COMPLETE",
+  "validation": {
+    "errors": [],
+    "format": "spdx",
+    "valid": true
+  },
+  "verification": {
+    "authorized_changes": 12,
+    "decisions": 80,
+    "trusted_base": [
+      "native parser",
+      "packaging marker semantics",
+      "collector/context assertions"
+    ],
+    "valid": true
+  }
+}

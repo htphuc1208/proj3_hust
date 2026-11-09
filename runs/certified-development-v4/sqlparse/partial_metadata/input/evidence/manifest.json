@@ -1,0 +1,43 @@
+{
+  "bindings": {
+    "SPDXRef-Package-python-pip-e327c8cc747f6ab9": "805cae90492b29fd2c7e361ce4a001c24798a49c9ded935582a2ef5af3ed3fb4",
+    "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd": "adc7c3c61470b4155ef84bef3102c2e9fe70daf584479dc95fec8c79285c9d04",
+    "SPDXRef-Package-python-sqlparse-8eef71962119b7bc": "fd15a7587e680068420c8f552537489b277e3cec724bf6d0774641b23a850abe"
+  },
+  "inventory_complete": true,
+  "observation_sha256": "0408bb34bc6cb8d614029fede8a7390fbbacb46d783d782789772031464ec244",
+  "schema_version": "reconciliation-evidence-v2",
+  "sources": [
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:05.150438Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "path": "sources/480912c910ddbd6be1f391df63ffdd9fe66882581ffa0535286a7ab160552fec.metadata",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "480912c910ddbd6be1f391df63ffdd9fe66882581ffa0535286a7ab160552fec"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:05.150438Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "path": "sources/8e9380e93bdb26549c0fa81e3ef15c95b4b870c4b8515a520193fa10174bb161.metadata",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "8e9380e93bdb26549c0fa81e3ef15c95b4b870c4b8515a520193fa10174bb161"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:05.150438Z",
+      "bytes": 4734,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/sqlparse-0.5.5.dist-info/METADATA",
+      "path": "sources/e2007df7130ac0fa8a6ae806afd97511e5206eeeb6be3a9f7796f041a3e45462.metadata",
+      "sha256": "64608ce1633133346851d8ecfa683931d0a1b70c1620720d8a21958917353621",
+      "source_id": "e2007df7130ac0fa8a6ae806afd97511e5206eeeb6be3a9f7796f041a3e45462"
+    }
+  ],
+  "target_id": "cea3a828ac21f154842a0665cc517686664e92e89ba6bc48e6469fd1bd351135"
+}

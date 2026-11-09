@@ -1,0 +1,14 @@
+{
+  "context_sha256": "0ed31bb8d8f558939dd0ac20d964d7effcbfb86dd39e855bcc98ff46366fca47",
+  "evidence_sha256": "d09713455a8dcda2f926e8e99e0ab37abd3ee1698c56b822198c486ca1cd03ca",
+  "input_sha256": "d5fb54bda122bde5075c45bc40be16826400c8f19307d41e3a6883be6d6e7a37",
+  "llm_api_calls": 0,
+  "reference_labels_read": false,
+  "seconds": 0.03128693899634527,
+  "status": "COMPLETE",
+  "validation": {
+    "errors": [],
+    "format": "spdx",
+    "valid": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "available_at": "2026-10-28T17:06:23.864464Z",
+  "condition": "full_metadata",
+  "context_profile": "ALL_INSTALLED_BASE_DECLARATIONS; explicit extra seeds from captured logical context",
+  "context_sha256": "57c04d5ce7f78fac2e7da6afc269eb28ee9cb56b27a610e08c23fdfc657254a1",
+  "evidence_sha256": "b8faa26a81b388c17354748067e081a4bbb71b0f9ad8b026f794632fb7d962ee",
+  "input_sha256": "45a36105dba1f9c58ca675514a1791ac92279d977bc5b30da6ff879be6f0f383",
+  "intervention": "NONE",
+  "methods": [
+    "observed",
+    "legacy_additive",
+    "legacy_reconciliation",
+    "metadata_control",
+    "certified_v2"
+  ],
+  "partition": "development",
+  "project": "attrs",
+  "reference_labels_read": false,
+  "withheld_sources": []
+}

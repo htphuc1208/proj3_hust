@@ -1,0 +1,39 @@
+{
+  "bindings": {},
+  "inventory_complete": true,
+  "observation_sha256": "4bb9f1f7bba9d9af3c161250f734fd4a930c7c21acd63622d830d8bc4f20acb1",
+  "schema_version": "reconciliation-evidence-v2",
+  "sources": [
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:07:23.289587Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "path": "sources/9a77a2e94f3cb35cae8dd7ef6b19ac92c116e82216682f367110f45fdc89bfad.metadata",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "9a77a2e94f3cb35cae8dd7ef6b19ac92c116e82216682f367110f45fdc89bfad"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:07:23.289587Z",
+      "bytes": 7149,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pypdf-6.5.0.dist-info/METADATA",
+      "path": "sources/26f4a571cafa11b60c72b29183e10550d75d9d60f8eb5d89f52f7a144a14f2f6.metadata",
+      "sha256": "b26fff10322d103cd764b3881ec2d73ef1a07c4ac8a58c74ed0933d7da60e707",
+      "source_id": "26f4a571cafa11b60c72b29183e10550d75d9d60f8eb5d89f52f7a144a14f2f6"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:07:23.289587Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "path": "sources/dc85b807ee7d98d49d8ee5c31955b79f0feed0d268ec682070d817dd148d2216.metadata",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "dc85b807ee7d98d49d8ee5c31955b79f0feed0d268ec682070d817dd148d2216"
+    }
+  ],
+  "target_id": "e650841c87133b1d6c57c38bb78c6beb34f72731f611597fa12d66e7c8dd4236"
+}

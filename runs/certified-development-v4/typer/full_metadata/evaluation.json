@@ -1,0 +1,214 @@
+{
+  "arms": {
+    "certified_v2": {
+      "assessment_counts": {
+        "REFUTED": 1,
+        "SUPPORTED": 7,
+        "UNKNOWN": 30
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 2,
+        "optimistic_risk": 0.0,
+        "pessimistic_risk": 0.0,
+        "records": [
+          {
+            "correct": true,
+            "operation": "add",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+            "target_ref": "SPDXRef-Package-python-typing-extensions-938e04f225233ed9"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+          }
+        ],
+        "selective_risk": 0.0,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.1891891891891892,
+      "native_valid": true,
+      "operations": {
+        "abstain": 30,
+        "add": 1,
+        "keep": 6,
+        "retract": 1
+      },
+      "seconds": 0.9782316269993316,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 7
+      }
+    },
+    "legacy_additive": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 1,
+        "optimistic_risk": 0.0,
+        "pessimistic_risk": 0.0,
+        "records": [
+          {
+            "correct": true,
+            "operation": "add",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+            "target_ref": "SPDXRef-Package-python-typing-extensions-938e04f225233ed9"
+          }
+        ],
+        "selective_risk": 0.0,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.9748430060062674,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.9333333333333333,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.875,
+        "recall": 1.0,
+        "tp": 7
+      }
+    },
+    "legacy_reconciliation": {
+      "assessment_counts": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 7,
+        "UNKNOWN": 30
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 2,
+        "optimistic_risk": 0.0,
+        "pessimistic_risk": 0.0,
+        "records": [
+          {
+            "correct": true,
+            "operation": "add",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+            "target_ref": "SPDXRef-Package-python-typing-extensions-938e04f225233ed9"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+          }
+        ],
+        "selective_risk": 0.0,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.1891891891891892,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.21296729099412914,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 7
+      }
+    },
+    "metadata_control": {
+      "assessment_counts": {
+        "REFUTED": 1,
+        "SUPPORTED": 7,
+        "UNKNOWN": 30
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 2,
+        "optimistic_risk": 0.0,
+        "pessimistic_risk": 0.0,
+        "records": [
+          {
+            "correct": true,
+            "operation": "add",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-typer-8fb13510b8d9ceb3",
+            "target_ref": "SPDXRef-Package-python-typing-extensions-938e04f225233ed9"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+          }
+        ],
+        "selective_risk": 0.0,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.1891891891891892,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.24168699199799448,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 7
+      }
+    },
+    "observed": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.009132850995229091,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8571428571428571,
+        "fn": 1,
+        "fp": 1,
+        "precision": 0.8571428571428571,
+        "recall": 0.8571428571428571,
+        "tp": 6
+      }
+    }
+  },
+  "condition": "full_metadata",
+  "project": "typer",
+  "reference_edges": 7,
+  "reference_sha256": "2bc83562cd056b3861ac141129cd22b02e7071feb515ffbfd3c583618d65c4e3",
+  "same_graph_as_metadata_control": true
+}

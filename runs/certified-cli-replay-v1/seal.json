@@ -1,0 +1,11 @@
+{
+  "assessment_sha256": "c5f7b2221a599acb2507401699be7662d1c3dd4a6a006874e52191dfa0d27b44",
+  "context_sha256": "17db013fe8a5c62bc09c95296ef937394e4a08b600ed94d10a8422bc0e29777b",
+  "evidence_sha256": "cbb7ee2615ad83b0746f2577c22f3d798752c96aa88a8e90daeb8f29116b9fc8",
+  "generated_at": "2026-11-09T02:49:37.027807+00:00",
+  "input_bytes_sha256": "902bbe63624b8b363043803601b6c6162347e2ad1af191585a801601d7b50df8",
+  "llm_api_calls": 0,
+  "policy": "certified-reconciliation-v2",
+  "prediction_sha256": "ccbdc9ac5cfe8279c1acf14ad8b1ab28587bef40b702137fecf7613b6f6dfc01",
+  "reference_labels_read": false
+}

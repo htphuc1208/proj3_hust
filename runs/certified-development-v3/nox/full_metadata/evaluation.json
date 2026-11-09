@@ -1,0 +1,310 @@
+{
+  "arms": {
+    "certified_v2": {
+      "assessment_counts": {
+        "REFUTED": 7,
+        "SUPPORTED": 11,
+        "UNKNOWN": 31
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 7,
+        "optimistic_risk": 0.0,
+        "pessimistic_risk": 0.0,
+        "records": [
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-filelock-2eeef8d0e239d49a"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-platformdirs-c5d745fa435e55b6"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-virtualenv-47df05818598d409"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-virtualenv-47df05818598d409",
+            "target_ref": "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-virtualenv-47df05818598d409",
+            "target_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd"
+          }
+        ],
+        "selective_risk": 0.0,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.3673469387755102,
+      "native_valid": true,
+      "operations": {
+        "abstain": 31,
+        "keep": 11,
+        "retract": 7
+      },
+      "seconds": 1.2154427109999233,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 11
+      }
+    },
+    "legacy_additive": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.7072896219979157,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.7586206896551724,
+        "fn": 0,
+        "fp": 7,
+        "precision": 0.6111111111111112,
+        "recall": 1.0,
+        "tp": 11
+      }
+    },
+    "legacy_reconciliation": {
+      "assessment_counts": {
+        "CONTRADICTED": 7,
+        "SUPPORTED": 11,
+        "UNKNOWN": 31
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 7,
+        "optimistic_risk": 0.0,
+        "pessimistic_risk": 0.0,
+        "records": [
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-filelock-2eeef8d0e239d49a"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-platformdirs-c5d745fa435e55b6"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-virtualenv-47df05818598d409"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-virtualenv-47df05818598d409",
+            "target_ref": "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-virtualenv-47df05818598d409",
+            "target_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd"
+          }
+        ],
+        "selective_risk": 0.0,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.3673469387755102,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.1867750960009289,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 11
+      }
+    },
+    "metadata_control": {
+      "assessment_counts": {
+        "REFUTED": 7,
+        "SUPPORTED": 11,
+        "UNKNOWN": 31
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 7,
+        "optimistic_risk": 0.0,
+        "pessimistic_risk": 0.0,
+        "records": [
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-filelock-2eeef8d0e239d49a"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-platformdirs-c5d745fa435e55b6"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-virtualenv-47df05818598d409"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-virtualenv-47df05818598d409",
+            "target_ref": "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-virtualenv-47df05818598d409",
+            "target_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd"
+          }
+        ],
+        "selective_risk": 0.0,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.3673469387755102,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.28955276899796445,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 11
+      }
+    },
+    "observed": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.018556818999059033,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.7586206896551724,
+        "fn": 0,
+        "fp": 7,
+        "precision": 0.6111111111111112,
+        "recall": 1.0,
+        "tp": 11
+      }
+    }
+  },
+  "condition": "full_metadata",
+  "project": "nox",
+  "reference_edges": 12,
+  "reference_sha256": "72fb97b7c59cdd57d30359b4e0ec4cf2f565aaee3c76e1a7bd4b444c2a0a267d",
+  "same_graph_as_metadata_control": true
+}

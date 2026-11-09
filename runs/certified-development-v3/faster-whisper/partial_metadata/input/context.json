@@ -1,0 +1,22 @@
+{
+  "evidence_cutoff": "2026-10-28T17:07:58.267932Z",
+  "installation_scope": "lib/python3.11/site-packages",
+  "marker_values": {
+    "implementation_name": null,
+    "implementation_version": null,
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_python_implementation": null,
+    "platform_release": null,
+    "platform_system": "Linux",
+    "platform_version": null,
+    "python_full_version": "3.11.16",
+    "python_version": "3.11",
+    "sys_platform": "linux"
+  },
+  "root_requests": {},
+  "root_requests_complete": true,
+  "schema_version": "reconciliation-context-v2",
+  "scope": "installed_distribution_declared_direct_requirements",
+  "target_id": "0b23645bd782534ecf4b4f57670e895a245bae33c2c2b14b043cb071abafe0a4"
+}

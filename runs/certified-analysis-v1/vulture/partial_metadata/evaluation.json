@@ -1,0 +1,152 @@
+{
+  "arms": {
+    "certified_v2": {
+      "assessment_counts": {
+        "UNKNOWN": 30
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.0,
+      "native_valid": true,
+      "operations": {
+        "abstain": 30
+      },
+      "seconds": 0.15391280200128676,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    "legacy_additive": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.26734325199504383,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    "legacy_reconciliation": {
+      "assessment_counts": {
+        "UNKNOWN": 30
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.0,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.042828472003748175,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    "metadata_control": {
+      "assessment_counts": {
+        "UNKNOWN": 30
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.0,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.057320440995681565,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": null,
+        "tp": 0
+      }
+    },
+    "observed": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.005149643999175169,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.0,
+        "recall": null,
+        "tp": 0
+      }
+    }
+  },
+  "condition": "partial_metadata",
+  "project": "vulture",
+  "reference_edges": 0,
+  "reference_sha256": "8162997ec263cb228ee537a367d61118c1f53688680f6b1ed839a532d4f84e03",
+  "same_graph_as_metadata_control": true
+}

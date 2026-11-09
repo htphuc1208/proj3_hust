@@ -1,0 +1,184 @@
+{
+  "arms": {
+    "certified_v2": {
+      "assessment_counts": {
+        "SUPPORTED": 36,
+        "UNKNOWN": 44
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 2,
+        "optimistic_risk": 0.0,
+        "pessimistic_risk": 0.0,
+        "records": [
+          {
+            "correct": true,
+            "operation": "add",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+            "target_ref": "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+          },
+          {
+            "correct": true,
+            "operation": "add",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+            "target_ref": "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+          }
+        ],
+        "selective_risk": 0.0,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.44155844155844154,
+      "native_valid": true,
+      "operations": {
+        "abstain": 44,
+        "add": 2,
+        "keep": 34
+      },
+      "seconds": 3.209369682997931,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8837209302325582,
+        "fn": 0,
+        "fp": 10,
+        "precision": 0.7916666666666666,
+        "recall": 1.0,
+        "tp": 38
+      }
+    },
+    "legacy_additive": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.019258391999755986,
+      "status": "UNSUPPORTED_PARTIAL_CONTEXT",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8571428571428571,
+        "fn": 2,
+        "fp": 10,
+        "precision": 0.782608695652174,
+        "recall": 0.9473684210526315,
+        "tp": 36
+      }
+    },
+    "legacy_reconciliation": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.02967228499619523,
+      "status": "UNSUPPORTED_PARTIAL_CONTEXT",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8571428571428571,
+        "fn": 2,
+        "fp": 10,
+        "precision": 0.782608695652174,
+        "recall": 0.9473684210526315,
+        "tp": 36
+      }
+    },
+    "metadata_control": {
+      "assessment_counts": {
+        "SUPPORTED": 36,
+        "UNKNOWN": 43
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 2,
+        "optimistic_risk": 0.0,
+        "pessimistic_risk": 0.0,
+        "records": [
+          {
+            "correct": true,
+            "operation": "add",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+            "target_ref": "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+          },
+          {
+            "correct": true,
+            "operation": "add",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+            "target_ref": "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+          }
+        ],
+        "selective_risk": 0.0,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.44155844155844154,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.5243099580038688,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8837209302325582,
+        "fn": 0,
+        "fp": 10,
+        "precision": 0.7916666666666666,
+        "recall": 1.0,
+        "tp": 38
+      }
+    },
+    "observed": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.020173015000182204,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8571428571428571,
+        "fn": 2,
+        "fp": 10,
+        "precision": 0.782608695652174,
+        "recall": 0.9473684210526315,
+        "tp": 36
+      }
+    }
+  },
+  "condition": "unknown_context",
+  "project": "faster-whisper",
+  "reference_edges": 39,
+  "reference_sha256": "aa784bac02d7072425360a72bdd069d8bc66d48f5084b017f109f92869e81a8a",
+  "same_graph_as_metadata_control": true
+}

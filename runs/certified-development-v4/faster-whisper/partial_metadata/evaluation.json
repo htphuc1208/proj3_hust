@@ -1,0 +1,152 @@
+{
+  "arms": {
+    "certified_v2": {
+      "assessment_counts": {
+        "UNKNOWN": 77
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.0,
+      "native_valid": true,
+      "operations": {
+        "abstain": 77
+      },
+      "seconds": 1.220251835999079,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8571428571428571,
+        "fn": 2,
+        "fp": 10,
+        "precision": 0.782608695652174,
+        "recall": 0.9473684210526315,
+        "tp": 36
+      }
+    },
+    "legacy_additive": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 1.2048774309951114,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8571428571428571,
+        "fn": 2,
+        "fp": 10,
+        "precision": 0.782608695652174,
+        "recall": 0.9473684210526315,
+        "tp": 36
+      }
+    },
+    "legacy_reconciliation": {
+      "assessment_counts": {
+        "UNKNOWN": 77
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.0,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.24061386700486764,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8571428571428571,
+        "fn": 2,
+        "fp": 10,
+        "precision": 0.782608695652174,
+        "recall": 0.9473684210526315,
+        "tp": 36
+      }
+    },
+    "metadata_control": {
+      "assessment_counts": {
+        "UNKNOWN": 77
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.0,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.361739668995142,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8571428571428571,
+        "fn": 2,
+        "fp": 10,
+        "precision": 0.782608695652174,
+        "recall": 0.9473684210526315,
+        "tp": 36
+      }
+    },
+    "observed": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.03128693899634527,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8571428571428571,
+        "fn": 2,
+        "fp": 10,
+        "precision": 0.782608695652174,
+        "recall": 0.9473684210526315,
+        "tp": 36
+      }
+    }
+  },
+  "condition": "partial_metadata",
+  "project": "faster-whisper",
+  "reference_edges": 38,
+  "reference_sha256": "aa784bac02d7072425360a72bdd069d8bc66d48f5084b017f109f92869e81a8a",
+  "same_graph_as_metadata_control": true
+}

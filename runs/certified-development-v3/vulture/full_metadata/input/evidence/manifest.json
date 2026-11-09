@@ -1,0 +1,43 @@
+{
+  "schema_version": "reconciliation-evidence-v2",
+  "target_id": "a2167a355d11b28abec4395fd434eccece853d6fd7a8fc381c9414c3d49d9360",
+  "observation_sha256": "c39a63ca2c565d0ee46f92366519456715074a809ea81b9e7949cc812201d5a4",
+  "inventory_complete": true,
+  "sources": [
+    {
+      "source_id": "5f009277f068be35b9dd4ea68e99c021940d3969e533b36b5407e6abb24427ba",
+      "path": "sources/5f009277f068be35b9dd4ea68e99c021940d3969e533b36b5407e6abb24427ba.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "bytes": 3581,
+      "available_at": "2026-10-28T17:05:47.920303Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    },
+    {
+      "source_id": "8ad756fc2a44ab35edc2112751856c2f0cdc3d5bc57fb1a7a5cd4ffc5b12b0e9",
+      "path": "sources/8ad756fc2a44ab35edc2112751856c2f0cdc3d5bc57fb1a7a5cd4ffc5b12b0e9.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "bytes": 6548,
+      "available_at": "2026-10-28T17:05:47.920303Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    },
+    {
+      "source_id": "1e3b6b0237f272c4b03607d6bd2a4e82cd0d509ccae578eb04be92bea55a8da1",
+      "path": "sources/1e3b6b0237f272c4b03607d6bd2a4e82cd0d509ccae578eb04be92bea55a8da1.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/vulture-2.14.dist-info/METADATA",
+      "sha256": "94122353746bc779b3cfc21b4eaf11b3a17b35d9fdeb45bc2fea9183dbb61990",
+      "bytes": 24917,
+      "available_at": "2026-10-28T17:05:47.920303Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    }
+  ],
+  "bindings": {
+    "SPDXRef-Package-python-pip-e327c8cc747f6ab9": "8191bb3156ea3779a48f8899b695d0ef070f29d009ae5fc9706a158008544c83",
+    "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd": "22402cde1618b59165dad1ab165b44bc53a43a21bc3f745f6de2dcd85be93fca",
+    "SPDXRef-Package-python-vulture-b5ce7fe435451b01": "d018aa945cf0646f365c17ffef562f344ba889923abaadca220f19f1437a2c4d"
+  }
+}

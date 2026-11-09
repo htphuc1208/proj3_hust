@@ -24,6 +24,12 @@ from .storage import save
 def main():
     parser = argparse.ArgumentParser(prog="python -m sbom_recovery")
     commands = parser.add_subparsers(dest="command", required=True)
+    r = commands.add_parser("reconcile", help="Check certificates before reconciling target-bound declared edges")
+    for name in ("input", "context", "evidence", "out"):
+        r.add_argument("--" + name, required=True)
+    r = commands.add_parser("reconcile-collect", help="Collect location-bound installed METADATA without reading labels")
+    for name in ("input", "context", "target", "available-at", "out"):
+        r.add_argument("--" + name, required=True)
     for command in ("gold-build", "gold-validate", "pilot-e1"):
         r = commands.add_parser(command, help="Content-bound multi-ecosystem pilot v2")
         r.add_argument("--case", required=True)
@@ -136,7 +142,17 @@ def main():
     r.add_argument("--captures", required=True)
     r.add_argument("--snapshot", required=True)
     args = parser.parse_args()
-    if args.command == "gold-scope-audit":
+    if args.command == "reconcile":
+        from .reconciliation.certified_reconciliation import run
+        result = run(args.input, args.context, args.evidence, args.out)
+    elif args.command == "reconcile-collect":
+        from .reconciliation.contracts_v2 import ContextKnowledgeV2
+        from .reconciliation.certified_evidence import collect_evidence
+        context = ContextKnowledgeV2.model_validate_json(Path(args.context).read_text())
+        manifest = collect_evidence(load(args.input), context, args.target, args.available_at, args.out)
+        result = {"sources": len(manifest.sources), "bindings": len(manifest.bindings),
+                  "manifest": str(Path(args.out) / "manifest.json"), "reference_labels_read": False}
+    elif args.command == "gold-scope-audit":
         from .scope_audit import audit_scopes
         result = audit_scopes(args.case, args.out)
     elif args.command == "gold-review-export":

@@ -1,0 +1,39 @@
+{
+  "schema_version": "reconciliation-evidence-v2",
+  "target_id": "e6e120cfcf209d32f3a3604ac80432a31f4e9ddcf51fb5f88d97622d453d8aa5",
+  "observation_sha256": "1b6d5b0fbd3a580ab9ad401c825c59d48d41c56f82e7dea368c3248987f736bc",
+  "inventory_complete": true,
+  "sources": [
+    {
+      "source_id": "bfc88cbb30ecca6613b5deb8ec2c22cc0be363bb80ca6ac5a856e5e25db40889",
+      "path": "sources/bfc88cbb30ecca6613b5deb8ec2c22cc0be363bb80ca6ac5a856e5e25db40889.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/boltons-25.0.0.dist-info/METADATA",
+      "sha256": "1204e7bd877cea9b78a7323ff22d483eb3bf27a835b1eeb74df99b0c2046e90c",
+      "bytes": 6511,
+      "available_at": "2026-10-28T17:04:03.337694Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    },
+    {
+      "source_id": "8016451ee0099037ef2369b43aad01299a75c39ca0e3e739944690c49585de4b",
+      "path": "sources/8016451ee0099037ef2369b43aad01299a75c39ca0e3e739944690c49585de4b.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "bytes": 3581,
+      "available_at": "2026-10-28T17:04:03.337694Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    },
+    {
+      "source_id": "3cf069d79a429ecfddc1ff5418c8c80bb2cb76d8632f74d912dbe555fe487512",
+      "path": "sources/3cf069d79a429ecfddc1ff5418c8c80bb2cb76d8632f74d912dbe555fe487512.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "bytes": 6548,
+      "available_at": "2026-10-28T17:04:03.337694Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    }
+  ],
+  "bindings": {}
+}

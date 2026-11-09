@@ -1,0 +1,153 @@
+{
+  "arms": {
+    "certified_v2": {
+      "assessment_counts": {
+        "SUPPORTED": 2,
+        "UNKNOWN": 30
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.0625,
+      "native_valid": true,
+      "operations": {
+        "abstain": 30,
+        "keep": 2
+      },
+      "seconds": 0.533564789002412,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "tp": 2
+      }
+    },
+    "legacy_additive": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.012888181001471821,
+      "status": "UNSUPPORTED_PARTIAL_CONTEXT",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "tp": 2
+      }
+    },
+    "legacy_reconciliation": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.016244133999862242,
+      "status": "UNSUPPORTED_PARTIAL_CONTEXT",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "tp": 2
+      }
+    },
+    "metadata_control": {
+      "assessment_counts": {
+        "SUPPORTED": 2,
+        "UNKNOWN": 30
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.0625,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.1423477529970114,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "tp": 2
+      }
+    },
+    "observed": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.012014932995953131,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "tp": 2
+      }
+    }
+  },
+  "condition": "unknown_context",
+  "project": "factory-boy",
+  "reference_edges": 2,
+  "reference_sha256": "2a62626b765ff2ab994920d237610a596f72ef1190f8a430c8910f23cff1cbde",
+  "same_graph_as_metadata_control": true
+}

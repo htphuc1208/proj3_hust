@@ -1,0 +1,15 @@
+{
+  "active_extras": [],
+  "evidence_cutoff": "2026-10-28T17:29:18.440982Z",
+  "extras_by_purl": {},
+  "os_name": "posix",
+  "platform_machine": "x86_64",
+  "platform_system": "Linux",
+  "python_full_version": "3.11.16",
+  "python_version": "3.11",
+  "root_purls": [
+    "pkg:pypi/factory-boy@3.3.3"
+  ],
+  "sys_platform": "linux",
+  "target_id": "9441f3722773ef231fb634e2f146daf1d413a6be1a40369dd9e4a94d0c72bca8"
+}

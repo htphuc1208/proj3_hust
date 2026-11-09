@@ -2,3 +2,7 @@
 import sys
 from sbom_recovery.campaign import budget_recover
 sys.modules[__name__] = budget_recover
+
+if __name__ == "__main__":
+    budget_recover.main()
+

@@ -1,0 +1,151 @@
+{
+  "arms": {
+    "certified_v2": {
+      "assessment_counts": {
+        "UNKNOWN": 44
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.0,
+      "native_valid": true,
+      "operations": {
+        "abstain": 44
+      },
+      "seconds": 0.340050541999517,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.9230769230769231,
+        "fn": 0,
+        "fp": 2,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    "legacy_additive": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.467113076003443,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.9230769230769231,
+        "fn": 0,
+        "fp": 2,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    "legacy_reconciliation": {
+      "assessment_counts": {
+        "UNKNOWN": 44
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.0,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.09368868800083874,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.9230769230769231,
+        "fn": 0,
+        "fp": 2,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    "metadata_control": {
+      "assessment_counts": {
+        "UNKNOWN": 44
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.0,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.1046163909995812,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.9230769230769231,
+        "fn": 0,
+        "fp": 2,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    "observed": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.01763700199808227,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.9230769230769231,
+        "fn": 0,
+        "fp": 2,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "tp": 12
+      }
+    }
+  },
+  "condition": "partial_metadata",
+  "project": "imbalanced-learn",
+  "reference_sha256": "52956e08c8665d1c0b55b35ff9e46ce5c7d47f7f373fa36b65f2979756067d4d",
+  "same_graph_as_metadata_control": true
+}

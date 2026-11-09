@@ -1,0 +1,99 @@
+{
+  "bindings": {},
+  "inventory_complete": true,
+  "observation_sha256": "d3b2a6a59564b95e57b5fca235fdc06d76a3718b9950132b0ced3d705004b26f",
+  "schema_version": "reconciliation-evidence-v2",
+  "sources": [
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "bytes": 8898,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/imbalanced_learn-0.14.1.dist-info/METADATA",
+      "path": "sources/6ddff206716f43f7acd73705e97f41dc13c10fcd11c7c79e9405319c53a3cbf2.metadata",
+      "sha256": "73bceae78d13bb145c59da1cfb7db98239bf4322fae736b2d315e7b7173e9332",
+      "source_id": "6ddff206716f43f7acd73705e97f41dc13c10fcd11c7c79e9405319c53a3cbf2"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "bytes": 5542,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/joblib-1.5.3.dist-info/METADATA",
+      "path": "sources/de62c061dd0f7b53219e847c40a7b4a12bb5a9af2b4fbe6d0b368cd65544cb91.metadata",
+      "sha256": "cee9c60896ae4e7a965a840fbde50d111d2f8018f61201d1ed2e9fc3dd4883e6",
+      "source_id": "de62c061dd0f7b53219e847c40a7b4a12bb5a9af2b4fbe6d0b368cd65544cb91"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "bytes": 62117,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA",
+      "path": "sources/455a6b1944b8f306d93393e33315ee6fa50be1f30e1ac7fdc0c85f90671c2e0f.metadata",
+      "sha256": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3",
+      "source_id": "455a6b1944b8f306d93393e33315ee6fa50be1f30e1ac7fdc0c85f90671c2e0f"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "path": "sources/767c86aa6d46eea0751654df898a1b91a8770b2c9292a83a1868b2d0920f3034.metadata",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "767c86aa6d46eea0751654df898a1b91a8770b2c9292a83a1868b2d0920f3034"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "bytes": 11684,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/scikit_learn-1.8.0.dist-info/METADATA",
+      "path": "sources/a7ac287d1f9106e049404c1af4cc97a5cc0f75c0552fe9d7f0f25114bdfd34b3.metadata",
+      "sha256": "95a8f42f4170fc940a71fedfed4fd9353723eb44126130a971a072fe5305d967",
+      "source_id": "a7ac287d1f9106e049404c1af4cc97a5cc0f75c0552fe9d7f0f25114bdfd34b3"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "bytes": 62003,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/scipy-1.16.3.dist-info/METADATA",
+      "path": "sources/fa6ccc55087938db74273db725e3a40fbbe911cd1b7c9be0b8930fc7fd2796b0.metadata",
+      "sha256": "a54602d0aa61fb25ac030b1d7b0faf0c8cfec508290d4d824198d6b43647ec1b",
+      "source_id": "fa6ccc55087938db74273db725e3a40fbbe911cd1b7c9be0b8930fc7fd2796b0"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "path": "sources/194a5273466c8ae4846c45e1d3a184f11bebdb2130eb9e699195532945d7ff49.metadata",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "194a5273466c8ae4846c45e1d3a184f11bebdb2130eb9e699195532945d7ff49"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "bytes": 20579,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/sklearn_compat-0.1.5.dist-info/METADATA",
+      "path": "sources/250d0d30e600935242d4e7e2e34107a24e4146cd6e8edebf778fbab803570ee0.metadata",
+      "sha256": "6c825792a96c07c5bf05e37685c852e5ca3f18001f0ce03790c29297cc68db84",
+      "source_id": "250d0d30e600935242d4e7e2e34107a24e4146cd6e8edebf778fbab803570ee0"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:25.262609Z",
+      "bytes": 13843,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/threadpoolctl-3.6.0.dist-info/METADATA",
+      "path": "sources/527553a238a78bc2f0f4b876c7be91ed4d199898e56f44910a40027f9f7890f0.metadata",
+      "sha256": "a45df8d07ea1883d772183a501d7d526076aa70dfcfddb276a2cbdc04def5341",
+      "source_id": "527553a238a78bc2f0f4b876c7be91ed4d199898e56f44910a40027f9f7890f0"
+    }
+  ],
+  "target_id": "2aa555bf5f90a8117e89c3b8b094353c372a6cd893a189bcccb35ca9100eae04"
+}

@@ -1,0 +1,22 @@
+{
+  "available_at": "2026-10-28T17:05:46.800554Z",
+  "condition": "partial_metadata",
+  "context_profile": "ALL_INSTALLED_BASE_DECLARATIONS; explicit extra seeds from captured logical context",
+  "context_sha256": "b54f2f46f8f706358d089413d7bc5b76597b92a7f7616d4dc8c7161788be2b87",
+  "evidence_sha256": "ac8f8e77c7b72897771e5401fd216e679a165a622999b722d8c54af48ab5540e",
+  "input_sha256": "c148543a4c98dd0f6be7330e4b1d88960706f9e5f97b490212f258536529e097",
+  "intervention": "CONTROLLED_EVIDENCE_WITHHOLDING",
+  "methods": [
+    "observed",
+    "legacy_additive",
+    "legacy_reconciliation",
+    "metadata_control",
+    "certified_v2"
+  ],
+  "partition": "development",
+  "project": "pypandoc",
+  "reference_labels_read": false,
+  "withheld_sources": [
+    "9744c0031f3c45198a3f9b688ade8af91893f7ff4b11e7303de1c459cfc6f235"
+  ]
+}

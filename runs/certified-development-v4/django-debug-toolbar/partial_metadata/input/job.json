@@ -1,0 +1,24 @@
+{
+  "available_at": "2026-10-28T17:07:14.712404Z",
+  "condition": "partial_metadata",
+  "context_profile": "ALL_INSTALLED_BASE_DECLARATIONS; explicit extra seeds from captured logical context",
+  "context_sha256": "f3b000dac4f29bf52dfbdf26dd2b4a709eb87af169d53bcb7d4f42ee0f7e7189",
+  "evidence_sha256": "1af508b2fa0c963fe21f1a698406af4926c0ee0b5490cf0e806e97f677bdabde",
+  "input_sha256": "dabe925636dd529301d3fa2a51b13de3d3d90ccab861b90cc1ac5ece92205750",
+  "intervention": "CONTROLLED_EVIDENCE_WITHHOLDING",
+  "methods": [
+    "observed",
+    "legacy_additive",
+    "legacy_reconciliation",
+    "metadata_control",
+    "certified_v2"
+  ],
+  "partition": "development",
+  "project": "django-debug-toolbar",
+  "reference_labels_read": false,
+  "withheld_sources": [
+    "b9593c072f9a9bdfd2a69d0c28b31b889843003efe4893cc1f18f788456b599b",
+    "c7241f5776efabb8b20c98bf501e4f23c18ddf1dba62c8c4ddfc637f15de4dfa",
+    "4f49ea108f36ad1f6f4ced66997996ea61b52b916136d7bff85236a5f0e6a139"
+  ]
+}

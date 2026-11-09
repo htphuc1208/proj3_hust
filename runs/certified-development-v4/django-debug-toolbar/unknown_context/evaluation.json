@@ -1,0 +1,153 @@
+{
+  "arms": {
+    "certified_v2": {
+      "assessment_counts": {
+        "SUPPORTED": 4,
+        "UNKNOWN": 30
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.11764705882352941,
+      "native_valid": true,
+      "operations": {
+        "abstain": 30,
+        "keep": 4
+      },
+      "seconds": 0.3336628649994964,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8888888888888888,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.8,
+        "recall": 1.0,
+        "tp": 4
+      }
+    },
+    "legacy_additive": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.011655618000077084,
+      "status": "UNSUPPORTED_PARTIAL_CONTEXT",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8888888888888888,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.8,
+        "recall": 1.0,
+        "tp": 4
+      }
+    },
+    "legacy_reconciliation": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.019366647997230757,
+      "status": "UNSUPPORTED_PARTIAL_CONTEXT",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8888888888888888,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.8,
+        "recall": 1.0,
+        "tp": 4
+      }
+    },
+    "metadata_control": {
+      "assessment_counts": {
+        "SUPPORTED": 4,
+        "UNKNOWN": 30
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.11764705882352941,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.10706970399769489,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8888888888888888,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.8,
+        "recall": 1.0,
+        "tp": 4
+      }
+    },
+    "observed": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.017354987001453992,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.8888888888888888,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.8,
+        "recall": 1.0,
+        "tp": 4
+      }
+    }
+  },
+  "condition": "unknown_context",
+  "project": "django-debug-toolbar",
+  "reference_edges": 4,
+  "reference_sha256": "9cc095bb9e7e0db0376f477acf2d61c6bc0ba8c7aa5833002cbd39feee2eefff",
+  "same_graph_as_metadata_control": true
+}

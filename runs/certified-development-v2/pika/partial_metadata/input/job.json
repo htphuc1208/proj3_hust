@@ -1,0 +1,22 @@
+{
+  "available_at": "2026-10-28T17:04:03.355000Z",
+  "condition": "partial_metadata",
+  "context_profile": "ALL_INSTALLED_BASE_DECLARATIONS; explicit extra seeds from captured logical context",
+  "context_sha256": "410ef44b19cdc4a522caf15a826232348a7150b82528bd7fdcfa17f873e5a97d",
+  "evidence_sha256": "9c6c284526dc25ad4a7f822b184ac70ee0c63f44ecb2273a2b24abbfaf0951a0",
+  "input_sha256": "667d8361c11bc8351f88091018d55f807887fa7fe22434f210f1a9facb313d2f",
+  "intervention": "CONTROLLED_EVIDENCE_WITHHOLDING",
+  "methods": [
+    "observed",
+    "legacy_additive",
+    "legacy_reconciliation",
+    "metadata_control",
+    "certified_v2"
+  ],
+  "partition": "development",
+  "project": "pika",
+  "reference_labels_read": false,
+  "withheld_sources": [
+    "d2a139e9e12503d7f638f1758b0b31ee31ee7db1939a9f6a0d1cc2aee20ee9c9"
+  ]
+}

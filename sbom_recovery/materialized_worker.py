@@ -2,3 +2,7 @@
 import sys
 from sbom_recovery.campaign import materialized_worker
 sys.modules[__name__] = materialized_worker
+
+if __name__ == "__main__":
+    materialized_worker.main()
+

@@ -1,0 +1,89 @@
+{
+  "schema_version": "reconciliation-evidence-v2",
+  "target_id": "f021daf3e34be311b30c1b34c6c76bfd35ef114ab519034b51d193b964263ef5",
+  "observation_sha256": "ca7a439a6c2d3cbdf0d8835ba6f5363961a3ab66d0dd15a6f478d1abd5f64bff",
+  "inventory_complete": true,
+  "sources": [
+    {
+      "source_id": "eaba7cc3f21bc9f074021f6441f9492ca4f6c75b152d25fae0900f69ee0aed0e",
+      "path": "sources/eaba7cc3f21bc9f074021f6441f9492ca4f6c75b152d25fae0900f69ee0aed0e.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/botocore-1.42.19.dist-info/METADATA",
+      "sha256": "8521a7a40535d7907dc4fc453c7998193b8dd9eba035d1ff44e97aa10f200145",
+      "bytes": 5869,
+      "available_at": "2026-10-28T17:06:48.060869Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    },
+    {
+      "source_id": "2d0b572f28ac8d8bc3272467adf02c526ebfabac8b6151a75ff84187e5744431",
+      "path": "sources/2d0b572f28ac8d8bc3272467adf02c526ebfabac8b6151a75ff84187e5744431.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/jmespath-1.0.1.dist-info/METADATA",
+      "sha256": "80988328de27cd8a43af8a980a5f3c16a26568a7a798de70d3165cb67e0be110",
+      "bytes": 7555,
+      "available_at": "2026-10-28T17:06:48.060869Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    },
+    {
+      "source_id": "123cabc840ddde7072fa10a5ef0765167b0cbd3fd3366c039db8c8fdba23f222",
+      "path": "sources/123cabc840ddde7072fa10a5ef0765167b0cbd3fd3366c039db8c8fdba23f222.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "bytes": 3581,
+      "available_at": "2026-10-28T17:06:48.060869Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    },
+    {
+      "source_id": "e623a563b7136c819c7fec185fd23f26ba48d71161adec7853285c7401aaf276",
+      "path": "sources/e623a563b7136c819c7fec185fd23f26ba48d71161adec7853285c7401aaf276.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pynamodb-6.1.0.dist-info/METADATA",
+      "sha256": "2cbf076ae0300da28793fd1c72724e5c9ba44a59607a13114ba33d4ff7362198",
+      "bytes": 7115,
+      "available_at": "2026-10-28T17:06:48.060869Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    },
+    {
+      "source_id": "e7e8b9dcb06c5fccf4d3acb84ab4824195efd6b9c724c30dc610fec66998688a",
+      "path": "sources/e7e8b9dcb06c5fccf4d3acb84ab4824195efd6b9c724c30dc610fec66998688a.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/METADATA",
+      "sha256": "a9d436da322be808332f98d88325998e87cb693a678a9969feb4cfad729a6e93",
+      "bytes": 8354,
+      "available_at": "2026-10-28T17:06:48.060869Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    },
+    {
+      "source_id": "a77bdec60d6f2e45b24f4cbcc1d759c47b3e9ceecfa832f38c1fe39483042e95",
+      "path": "sources/a77bdec60d6f2e45b24f4cbcc1d759c47b3e9ceecfa832f38c1fe39483042e95.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "bytes": 6548,
+      "available_at": "2026-10-28T17:06:48.060869Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    },
+    {
+      "source_id": "754d4af65e6dca9fd976234bc9a9c0f6891616964d97928b886ed33a1192e3a6",
+      "path": "sources/754d4af65e6dca9fd976234bc9a9c0f6891616964d97928b886ed33a1192e3a6.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/six-1.17.0.dist-info/METADATA",
+      "sha256": "562042078c2752549f6d8a7c86dbc5dd708088a7be6d80672ec7b07100b72468",
+      "bytes": 1658,
+      "available_at": "2026-10-28T17:06:48.060869Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    },
+    {
+      "source_id": "755f462a15a45feb48887f4c874ef9a994965c281bc76fcf3739d98bc107f7a7",
+      "path": "sources/755f462a15a45feb48887f4c874ef9a994965c281bc76fcf3739d98bc107f7a7.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/urllib3-2.6.2.dist-info/METADATA",
+      "sha256": "532da8b2c7b39b017e837451b0d9c946061a2ec4a9e04d4161e487166a731a53",
+      "bytes": 6627,
+      "available_at": "2026-10-28T17:06:48.060869Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    }
+  ],
+  "bindings": {}
+}

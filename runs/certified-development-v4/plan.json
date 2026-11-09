@@ -1,0 +1,46 @@
+{
+  "cohort_sha256": "ffce07c8b94f21c57624227f7d8b3610c73685bacc012b03dd615366e5957c5d",
+  "conditions": [
+    "full_metadata",
+    "unknown_context",
+    "partial_metadata"
+  ],
+  "created_at": "2026-11-09T03:01:42.728916+00:00",
+  "heldout_projects_used": 0,
+  "image": "sha256:5d35ccd9b572ffdef2179956b480fd32923ad90f41a1887a4c248334cfa37174",
+  "llm_api_calls": 0,
+  "methods": [
+    "observed",
+    "legacy_additive",
+    "legacy_reconciliation",
+    "metadata_control",
+    "certified_v2"
+  ],
+  "partition": "development",
+  "projects": [
+    "requests",
+    "pika",
+    "boltons",
+    "imbalanced-learn",
+    "vulture",
+    "pypandoc",
+    "algorithms",
+    "sqlparse",
+    "typer",
+    "iredis",
+    "attrs",
+    "pyserial",
+    "nox",
+    "pynamodb",
+    "hyperopt",
+    "factory-boy",
+    "faster-whisper",
+    "django-debug-toolbar",
+    "pypdf",
+    "markitdown"
+  ],
+  "reference_access": "AFTER_ALL_PREDICTIONS_SEALED",
+  "reference_manifest_sha256": "d55538dfc37e7a441430fd1cd43ceabbf8d4ccdd01288551539e9310213aba04",
+  "schema_version": "certified-development-v2",
+  "source_sha256": "0425f21727fa05f5111bbd66c711b17da5316db560f8e3a10c35379a12af555b"
+}

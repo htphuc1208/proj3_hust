@@ -1,0 +1,153 @@
+{
+  "bindings": {
+    "SPDXRef-Package-python-argcomplete-b524f2a4c545fbd7": "c4f6d9236af525691405d904972fb25aab2c16db1dcf45a6b1c77cc4b9bdb31c",
+    "SPDXRef-Package-python-attrs-8d61243a996b9b6a": "1517fbbd47a42c357416c2b7649aacf2046ca79d0cb92dd3ea863d009ae0b827",
+    "SPDXRef-Package-python-colorlog-20e0cd9d5f1ae856": "9f141d62c7de8492f769e0575eb89fdead10d24aa1c77b8b1732377049cc0dfc",
+    "SPDXRef-Package-python-dependency-groups-d1284b50b6d72a83": "7c246a08e808066a8d4fa9f4fe69fca7e6cab22369e74a33f8c44f476546349b",
+    "SPDXRef-Package-python-distlib-75fdb0c1b2f4d49f": "2262a5092df41ff0b2c2b992de1edd7e1fc153df17a05f5ebd86fc3078d6a1cd",
+    "SPDXRef-Package-python-filelock-2eeef8d0e239d49a": "fb1a9c7d219285b5044bb1d1596c7e9a4336b66b46b6a5a70380a598796ed4eb",
+    "SPDXRef-Package-python-humanize-6a15adb28bd25a78": "cb15e253043aef3e0a24135933b6a1e0093308d3e99ff7ad410eac9cf0dc73fc",
+    "SPDXRef-Package-python-nox-1323887ec45443e2": "3cfa6dd900573e7553ac2f7d73517890b805e9dc470ac85f338a486a53495c93",
+    "SPDXRef-Package-python-packaging-a3c7c100afc0d106": "c71a5c52ad0d0a7cc71f5ae5b7b1bd89cb0461eeee6ac643096ee80540aa7589",
+    "SPDXRef-Package-python-pip-e327c8cc747f6ab9": "7022a7dd30ebadffa3e32609d51239513a516f06abeb9b6c1d66db203639b411",
+    "SPDXRef-Package-python-platformdirs-c5d745fa435e55b6": "a64377fbc48d54080f9b9f699faa7eceab08b721b011515488c179d9aa73d6c0",
+    "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd": "d79ac8db9c7d215995d4efe69c9db1b57e149ad8ff3c7f1818667386e0efb013",
+    "SPDXRef-Package-python-virtualenv-47df05818598d409": "3fe3ea9f10a0e1e36ff73288b22b7b2b0b557be3af0b89a8c0bb53b3c7a93c30"
+  },
+  "inventory_complete": true,
+  "observation_sha256": "5ce85a6419e35fbe149e0c48207b1c6eb30cd83a6a63c278cd9c959049cc2514",
+  "schema_version": "reconciliation-evidence-v2",
+  "sources": [
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 16891,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/argcomplete-3.6.3.dist-info/METADATA",
+      "path": "sources/af96a863505b656f020cea1564f62d57613aa762bfabcb76d43512f0a810d221.metadata",
+      "sha256": "a6078603bafea6fd0cb70196de08d0088ecfefde7d45ef7a5bda697c1c6408c7",
+      "source_id": "af96a863505b656f020cea1564f62d57613aa762bfabcb76d43512f0a810d221"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 10473,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/attrs-25.4.0.dist-info/METADATA",
+      "path": "sources/64ead3febfa6083782f35f607262a1cf0fa3146833372cc13cc2ea1c0ef1ce6d.metadata",
+      "sha256": "d917abc63eda81c311c62c1d92dea50b682ea870269062821f5de75962bb6684",
+      "source_id": "64ead3febfa6083782f35f607262a1cf0fa3146833372cc13cc2ea1c0ef1ce6d"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 11202,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/colorlog-6.10.1.dist-info/METADATA",
+      "path": "sources/b0c5d5834acfe0922570f5c176ac0c6575fa1bbf7484d976510f7ed239d57c52.metadata",
+      "sha256": "8d2bc5088a07a5c554206fb453916d0c918c643aa4f67e452084d1417c93cbe0",
+      "source_id": "b0c5d5834acfe0922570f5c176ac0c6575fa1bbf7484d976510f7ed239d57c52"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 2268,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/dependency_groups-1.3.1.dist-info/METADATA",
+      "path": "sources/8480418a0b91af0834bfc8d930e4424cd65b9142f4f215ce181780de53689a95.metadata",
+      "sha256": "0033546dd2b5e361e7b1aac074462d1aad1c543c5ceed7c0003375719e799828",
+      "source_id": "8480418a0b91af0834bfc8d930e4424cd65b9142f4f215ce181780de53689a95"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 5246,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/distlib-0.4.0.dist-info/METADATA",
+      "path": "sources/ce874b3e8e8036eed341eeb909946cb79d94d69b1d144237707ddeb88f5a5b5f.metadata",
+      "sha256": "8c3ae3fc9faff13706d3357ec3750777f0c50054abc026c9c24ce5882ef1dde7",
+      "source_id": "ce874b3e8e8036eed341eeb909946cb79d94d69b1d144237707ddeb88f5a5b5f"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 2110,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/filelock-3.20.1.dist-info/METADATA",
+      "path": "sources/64c04c85fbf2988b59d369edd97dc300874859f935c5405d1b4f9cf898ad5105.metadata",
+      "sha256": "d80519f60191d419d597b42c0476690d4667e30272fb2c5e00667295dd3ee33b",
+      "source_id": "64c04c85fbf2988b59d369edd97dc300874859f935c5405d1b4f9cf898ad5105"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 7850,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/humanize-4.15.0.dist-info/METADATA",
+      "path": "sources/7a22fd5c119065363306be189d440383e58c67f11c92a652b5135ba53147fe16.metadata",
+      "sha256": "a0b134eb3f4708b777994033630b14d878348d78bb77c184065db175b4110334",
+      "source_id": "7a22fd5c119065363306be189d440383e58c67f11c92a652b5135ba53147fe16"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 5070,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/nox-2025.11.12.dist-info/METADATA",
+      "path": "sources/fbc08ddb9e409e2dc99f38c374be90901066f683e097a110400f17e2439a690e.metadata",
+      "sha256": "813a18bd54393f776443a3e903f69ba2571a5e7e1b54201f7208e5bf99f6fd1b",
+      "source_id": "fbc08ddb9e409e2dc99f38c374be90901066f683e097a110400f17e2439a690e"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 3281,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/packaging-25.0.dist-info/METADATA",
+      "path": "sources/879514fc1316286dbfbbb1f531fa406a29152ae845e5beb4b6854e6e0a12060c.metadata",
+      "sha256": "5b611a609c38fefc3d616bf45d20aec98fb7d53f245daca9e2c30fc85c7ac282",
+      "source_id": "879514fc1316286dbfbbb1f531fa406a29152ae845e5beb4b6854e6e0a12060c"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "path": "sources/9636fe46179d4f5eeb19e56ac8875c540dace7dd38b0057831d7596a0e115749.metadata",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "9636fe46179d4f5eeb19e56ac8875c540dace7dd38b0057831d7596a0e115749"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 12804,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/platformdirs-4.5.1.dist-info/METADATA",
+      "path": "sources/312aed62cbd367fd3e5514a60dc1b8b625022b8ca6c1518dc309ae54489bb6de.metadata",
+      "sha256": "3a7ef90c694e34649fece11d27e88621cd6bc1344497e3e31e56d46bd423e928",
+      "source_id": "312aed62cbd367fd3e5514a60dc1b8b625022b8ca6c1518dc309ae54489bb6de"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "path": "sources/4ddf56c0263ef0b67b1660b569d2a329cb23b70fe63772caec67a1bb19a34cbf.metadata",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "4ddf56c0263ef0b67b1660b569d2a329cb23b70fe63772caec67a1bb19a34cbf"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:43.141493Z",
+      "bytes": 4630,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/virtualenv-20.35.4.dist-info/METADATA",
+      "path": "sources/50625c688ae1fece6e67243da14d348aec90026c6e67e186fa43a8af74ddb07b.metadata",
+      "sha256": "45226c222270a9ad1d1060adb5b9bfeb34d5c4722264245cc0892cb7a2454917",
+      "source_id": "50625c688ae1fece6e67243da14d348aec90026c6e67e186fa43a8af74ddb07b"
+    }
+  ],
+  "target_id": "d1d388f0145e20cce44bccc124068dd439da33aa311f84c8b7a88187ffbb846e"
+}

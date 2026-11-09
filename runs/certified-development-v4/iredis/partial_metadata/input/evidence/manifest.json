@@ -1,0 +1,164 @@
+{
+  "bindings": {
+    "SPDXRef-Package-python-click-8c3e7e30488f8d69": "421c3ab474a28a2f10824f41a61351970108fa527554d4e20a77e1ef4c121d8d",
+    "SPDXRef-Package-python-configobj-d696e170f48ef9f6": "38e11f22160b832393bc7f01bcd44e2fa46300ea79e60f698520a747c6343f37",
+    "SPDXRef-Package-python-iredis-402533491bb5d39d": "f21a7128b428d7dfae598ae3fb47ccaf473dc4e85204c38b29fc7153c7a41319",
+    "SPDXRef-Package-python-mistune-938ff4ddf2e96c85": "86d7fc1949085932acb144a98d5f1350502147242b0efc7a745ef8b4626b122f",
+    "SPDXRef-Package-python-packaging-7fc98dc99b1bda4f": "33d7f865419ce3da703d79f02327ed51813026cff0a7a6b7fed8018fbe9ddb58",
+    "SPDXRef-Package-python-pip-e327c8cc747f6ab9": "c81a530363201f50b934f0c2118c290ee1ac15b3f7e43fc9a4644f8e58f39943",
+    "SPDXRef-Package-python-prompt-toolkit-c478783d185b6552": "50ef26fd7cfe17a80e46786fe7a73e257591ecd575fd1f643f8c20f37a196c38",
+    "SPDXRef-Package-python-pygments-dd5930d75cf96b88": "5abbe5ac27f335ad2f735d7c2f853a0127fa8b07fc36c56f5480d8147db7615e",
+    "SPDXRef-Package-python-pyjwt-cf465107cc80f4df": "5bf7d794852c2ea0d97889bee7602da3e44bae367d5a805b48e88d58a320c5ed",
+    "SPDXRef-Package-python-python-dateutil-3517504194868c88": "a92f017e7aec7b7815fd7ae437a550345ae8a5959c8d983ed1ac0290151be8da",
+    "SPDXRef-Package-python-redis-f59d700243711370": "011f0b992e2b837f776e2b9529388cf5be81721b861066b0136f5440441d9442",
+    "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd": "65de2b6ebc17aa5a61d0fdb7e7aa5892bd57b29d6cf41a2b3bdfa42167aeb0ab",
+    "SPDXRef-Package-python-six-5309db424b251291": "6ca2cde022c3d5c47294f3c5794e1dae18a589fb12f4b02a94373e8f30bca72b",
+    "SPDXRef-Package-python-wcwidth-30d0fcb7b6230ab3": "76e4a2586cdf50b1e43a07beb32e47fbcb5d5306bb4d4a4f3343c96f31d9d424"
+  },
+  "inventory_complete": true,
+  "observation_sha256": "cfb20e7aaf9fa999862dc072347d5b6f7cbbd83331ae5fde453c3dcb279a92c4",
+  "schema_version": "reconciliation-evidence-v2",
+  "sources": [
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 3990,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/PyJWT-2.10.1.dist-info/METADATA",
+      "path": "sources/63faa7c88f082605c6ed1bcc937d716640928a2879f7b877bfcce47b52b29c80.metadata",
+      "sha256": "1247b017a0fa294f1219a690cd561fc54514d4ffe0b3f769d6961392862f031f",
+      "source_id": "63faa7c88f082605c6ed1bcc937d716640928a2879f7b877bfcce47b52b29c80"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 2621,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/click-8.3.1.dist-info/METADATA",
+      "path": "sources/6b9cb92c18f972d89e92f78555d788613b89c45e1b1baf798b7757e1362b8d36.metadata",
+      "sha256": "5d9781acc004d2085313cf128dfad20ee4b2342a413e9971251d6d6f00fda198",
+      "source_id": "6b9cb92c18f972d89e92f78555d788613b89c45e1b1baf798b7757e1362b8d36"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 3245,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/configobj-5.0.9.dist-info/METADATA",
+      "path": "sources/d85bbceac4ec0e0e8bc75a1241d313f21443e8209eaf756ea923846fe9b7d7b5.metadata",
+      "sha256": "10c1ebbe69c3b8805b61ab9ddc8aa4eb93ccf929f0db8d5959f0782c6e3bf9a5",
+      "source_id": "d85bbceac4ec0e0e8bc75a1241d313f21443e8209eaf756ea923846fe9b7d7b5"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 14379,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/iredis-1.15.2.dist-info/METADATA",
+      "path": "sources/b82244872728e6d713737a0a9062640f658184554793587315bf235860735e27.metadata",
+      "sha256": "ee0dacad9d394aec7af946a35fd730433e746284d0adef652614824cd8240965",
+      "source_id": "b82244872728e6d713737a0a9062640f658184554793587315bf235860735e27"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 1858,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/mistune-3.2.0.dist-info/METADATA",
+      "path": "sources/fbb72a4f6517fcd570fc11c60881a20d7d1802804a8410decfb71f87d282e13f.metadata",
+      "sha256": "da6f993ed3c28034f296c822a3d5806f69310c9b91c3f9e2c08f39f94e2de95e",
+      "source_id": "fbb72a4f6517fcd570fc11c60881a20d7d1802804a8410decfb71f87d282e13f"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 3203,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/packaging-23.2.dist-info/METADATA",
+      "path": "sources/05c5e80907f869f6a001489bbbcba2391d96872dc5c991abe7d5c09ece6e31ec.metadata",
+      "sha256": "b3574943ce848d906e97f50291034674771b2edb3a660e3f9b10aa93ad17eb1b",
+      "source_id": "05c5e80907f869f6a001489bbbcba2391d96872dc5c991abe7d5c09ece6e31ec"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "path": "sources/edd71310e8106052c22f21b220d30e496c04c3060ecad09b1bc9fd1b534a2fe5.metadata",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "edd71310e8106052c22f21b220d30e496c04c3060ecad09b1bc9fd1b534a2fe5"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 6414,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/prompt_toolkit-3.0.52.dist-info/METADATA",
+      "path": "sources/a2542e83ab65ae59984b595a7e4d7fcf4994f7f0d2de945636313fdc0caf2147.metadata",
+      "sha256": "80d4bd40a6a171dfd25c332baebee1fd8722342f133db5385e2d5719a5da2e29",
+      "source_id": "a2542e83ab65ae59984b595a7e4d7fcf4994f7f0d2de945636313fdc0caf2147"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 2512,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pygments-2.19.2.dist-info/METADATA",
+      "path": "sources/b971de324705824ef676cbdf7abfc92873b4f159301a0e1968a87a1b1da8d6e3.metadata",
+      "sha256": "7ae100d67d67006c6479803dd835fcf47a9b59fac794441ea8e66aa7f5984d82",
+      "source_id": "b971de324705824ef676cbdf7abfc92873b4f159301a0e1968a87a1b1da8d6e3"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 8354,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/METADATA",
+      "path": "sources/763d7c54cb93770d4a9baa31f17bc7b6f69027a23fd53ad76ce25eaf378f0497.metadata",
+      "sha256": "a9d436da322be808332f98d88325998e87cb693a678a9969feb4cfad729a6e93",
+      "source_id": "763d7c54cb93770d4a9baa31f17bc7b6f69027a23fd53ad76ce25eaf378f0497"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 9166,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/redis-5.3.1.dist-info/METADATA",
+      "path": "sources/538ff31fcc9eeae28d4acbc01bf3331d789cb1098e9dcec7081e82e14e7077b3.metadata",
+      "sha256": "71cac2ab27f057e87818c8428343d40e595dc302f5d123b07165f41b52da271a",
+      "source_id": "538ff31fcc9eeae28d4acbc01bf3331d789cb1098e9dcec7081e82e14e7077b3"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "path": "sources/d32c54c6ec591a3f0510028bc34206786138c1c29fb37b03e8344ffc58db28db.metadata",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "d32c54c6ec591a3f0510028bc34206786138c1c29fb37b03e8344ffc58db28db"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 1658,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/six-1.17.0.dist-info/METADATA",
+      "path": "sources/760d0648c5c1894705d1a2ce694e9fd771d8d67b062f95e39d650901abab533c.metadata",
+      "sha256": "562042078c2752549f6d8a7c86dbc5dd708088a7be6d80672ec7b07100b72468",
+      "source_id": "760d0648c5c1894705d1a2ce694e9fd771d8d67b062f95e39d650901abab533c"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:18.180054Z",
+      "bytes": 9152,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/wcwidth-0.1.9.dist-info/METADATA",
+      "path": "sources/3cca1fe89e1f4b76b5c734ae566bb71e62eb3a2fa6a45c9a2f384e9890d4de14.metadata",
+      "sha256": "c3be4d238b4d8f408cb10849c8d454227744430afc142e9cd85287f29a62c795",
+      "source_id": "3cca1fe89e1f4b76b5c734ae566bb71e62eb3a2fa6a45c9a2f384e9890d4de14"
+    }
+  ],
+  "target_id": "ba6d54ef36623aa6dc2ed6a65e84ebd3bc29859b7cbaf03744737642a02d8001"
+}

@@ -1,0 +1,247 @@
+{
+  "arms": {
+    "certified_v2": {
+      "assessment_counts": {
+        "REFUTED": 4,
+        "SUPPORTED": 26,
+        "UNKNOWN": 31
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 5,
+        "optimistic_risk": 0.0,
+        "pessimistic_risk": 0.0,
+        "records": [
+          {
+            "correct": true,
+            "operation": "add",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+            "target_ref": "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-beautifulsoup4-5509cf92d4eec317",
+            "target_ref": "SPDXRef-Package-python-charset-normalizer-8970e673978e9ea8"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-markitdown-0d0a60eead6cbca7",
+            "target_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-python-dotenv-986a13667ed29c8a",
+            "target_ref": "SPDXRef-Package-python-click-8c3e7e30488f8d69"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+          }
+        ],
+        "selective_risk": 0.0,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.4915254237288136,
+      "native_valid": true,
+      "operations": {
+        "abstain": 31,
+        "add": 1,
+        "keep": 25,
+        "retract": 4
+      },
+      "seconds": 1.4969419229964842,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 26
+      }
+    },
+    "legacy_additive": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 1,
+        "optimistic_risk": 0.0,
+        "pessimistic_risk": 0.0,
+        "records": [
+          {
+            "correct": true,
+            "operation": "add",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+            "target_ref": "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+          }
+        ],
+        "selective_risk": 0.0,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.96162669199839,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.9285714285714286,
+        "fn": 0,
+        "fp": 4,
+        "precision": 0.8666666666666667,
+        "recall": 1.0,
+        "tp": 26
+      }
+    },
+    "legacy_reconciliation": {
+      "assessment_counts": {
+        "UNKNOWN": 60
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 1,
+        "optimistic_risk": 0.0,
+        "pessimistic_risk": 0.0,
+        "records": [
+          {
+            "correct": true,
+            "operation": "add",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+            "target_ref": "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+          }
+        ],
+        "selective_risk": 0.0,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.0,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.1797677219947218,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.9285714285714286,
+        "fn": 0,
+        "fp": 4,
+        "precision": 0.8666666666666667,
+        "recall": 1.0,
+        "tp": 26
+      }
+    },
+    "metadata_control": {
+      "assessment_counts": {
+        "REFUTED": 4,
+        "SUPPORTED": 26,
+        "UNKNOWN": 30
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 5,
+        "optimistic_risk": 0.0,
+        "pessimistic_risk": 0.0,
+        "records": [
+          {
+            "correct": true,
+            "operation": "add",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+            "target_ref": "SPDXRef-Package-python-packaging-a3c7c100afc0d106"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-beautifulsoup4-5509cf92d4eec317",
+            "target_ref": "SPDXRef-Package-python-charset-normalizer-8970e673978e9ea8"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-markitdown-0d0a60eead6cbca7",
+            "target_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-python-dotenv-986a13667ed29c8a",
+            "target_ref": "SPDXRef-Package-python-click-8c3e7e30488f8d69"
+          },
+          {
+            "correct": true,
+            "operation": "retract",
+            "reference_scope": "COORDINATE_LEVEL_UNAMBIGUOUS_ENDPOINTS",
+            "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+            "target_ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+          }
+        ],
+        "selective_risk": 0.0,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.4915254237288136,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.2555274680053117,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 26
+      }
+    },
+    "observed": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.016405607995693572,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.9090909090909091,
+        "fn": 1,
+        "fp": 4,
+        "precision": 0.8620689655172413,
+        "recall": 0.9615384615384616,
+        "tp": 25
+      }
+    }
+  },
+  "condition": "full_metadata",
+  "project": "markitdown",
+  "reference_edges": 26,
+  "reference_sha256": "5e5e553151cba1f4a1140f6f5045ecdefd1ded21b5b6c8ee93edf15e1af17aa9",
+  "same_graph_as_metadata_control": true
+}

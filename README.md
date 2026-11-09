@@ -65,6 +65,20 @@ Or directly via unittest:
 
 ---
 
+## Certified reconciliation V2
+
+The `reconcile-collect` and `reconcile` commands bind installed metadata to
+physical occurrences, represent unknown context explicitly, and check executable
+certificates before adding or retracting declared dependency edges. Legacy
+recovery policies remain available.
+
+See the [protocol and CLI guide](research/CERTIFIED_RECONCILIATION.md),
+[development findings](research/CERTIFIED_RECONCILIATION_FINDINGS_VI.md), and
+[final frozen development report](runs/certified-development-v4/REPORT.md).
+The final comparison covers 20 old development projects and 60 paired cases.
+V2 ties the strong semantic control in all 60 cases; accuracy superiority and
+A* novelty are not established. The new held-out cohort has not been consumed.
+
 ## Core Architecture & Module Map
 
 | Component | Source File | Description | Relevant Tests |

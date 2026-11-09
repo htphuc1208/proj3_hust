@@ -1,0 +1,12 @@
+{
+  "arms": {
+    "certified_v2": "a9380a603423898933b153e8ab55b896303cf3d91be01a00296e29c66ab8d238",
+    "legacy_additive": "10a4f0a8b2c958bebf9242246b8351c6fe96251ad51394aafdf75cc0c88df716",
+    "legacy_reconciliation": "6ff955a70cd94583a7e53c9e279aa561c11c4fb6e4e83474a479acf16a7bc5ed",
+    "metadata_control": "9346283bc5d875cecd556849285cc3c81ec6f0c669e10e3a6081538d8c4952de",
+    "observed": "47fda53f756d4bac6aca3dcec754afdfdd9873ce9850e48229b123aa4b79215d"
+  },
+  "job_sha256": "cb62345aa4b611951cfcece40941f4c2f7676de8c01a77985648d03cf57f60b0",
+  "llm_api_calls": 0,
+  "reference_labels_read": false
+}

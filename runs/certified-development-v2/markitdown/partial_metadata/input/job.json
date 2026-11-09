@@ -1,0 +1,34 @@
+{
+  "available_at": "2026-10-28T17:08:20.697697Z",
+  "condition": "partial_metadata",
+  "context_profile": "ALL_INSTALLED_BASE_DECLARATIONS; explicit extra seeds from captured logical context",
+  "context_sha256": "7bfdaec6d4d7d98ee785780abe1fb7d0960caf631bb0c18397e1858b5c6287ce",
+  "evidence_sha256": "941fa47bec75780271791537980439fb320bdbe0a7163bbd308324d1ee79070a",
+  "input_sha256": "8c467f921fb297cbab59637b444913c838601416479332bc52ccdaa3498e6e9b",
+  "intervention": "CONTROLLED_EVIDENCE_WITHHOLDING",
+  "methods": [
+    "observed",
+    "legacy_additive",
+    "legacy_reconciliation",
+    "metadata_control",
+    "certified_v2"
+  ],
+  "partition": "development",
+  "project": "markitdown",
+  "reference_labels_read": false,
+  "withheld_sources": [
+    "415c923d0db94ff175bfca37df8568649c3285c0db7c70287488f5ebaf5b684f",
+    "a41b07b2106d7f84375a648923f1d80ddaf4f9889fb89976ef736ce96966a135",
+    "396dfc7137c8d68a17668f8f9ea72dbc8bb0a12e57346b6138fb7cd2b97e5950",
+    "c905a16f4cbc3a3f8f216e85ba0ba80ac1fbd5f06d732fd2af419d9d1bc19de8",
+    "f9abaae2621c8670f7708e854c0e15870b9e529a4f3a02a65ce2191ff81719bd",
+    "680d542bfb38f809b0236516a30f9feb9916710175a6f36094f1611a1073fb84",
+    "831bc395ab18ad8dfe75f8a1c14bd7b457907a45efc394e6aec4fbd8421ebb89",
+    "5c59826943245949cf1e5c5673dc3723e82608df07a55d94ad963619d48ad61e",
+    "8d13664b691a327353cdb21715ceb3fb38ae4f453a7dffd05a7e6d96da06bd9a",
+    "0d086c98abf26b16bf5126eba2004093a957ecd44f59e2599100fe494b6b2e46",
+    "7153836879c4823187dc641ac748c2b543edeaef45df88c1a96ad94ba3999435",
+    "647d0459acecbd94c4f118512a420c1c065a6e7f44f2663ed4256c4628f4cac2",
+    "ee717358372c4eae959b3a39f96cd156908022ee5fa7b297209d6e552ac55ae2"
+  ]
+}

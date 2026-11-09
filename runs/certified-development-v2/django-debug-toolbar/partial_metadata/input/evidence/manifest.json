@@ -1,0 +1,69 @@
+{
+  "bindings": {},
+  "inventory_complete": true,
+  "observation_sha256": "dabe925636dd529301d3fa2a51b13de3d3d90ccab861b90cc1ac5ece92205750",
+  "schema_version": "reconciliation-evidence-v2",
+  "sources": [
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:07:14.712404Z",
+      "bytes": 9287,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/asgiref-3.11.0.dist-info/METADATA",
+      "path": "sources/b9593c072f9a9bdfd2a69d0c28b31b889843003efe4893cc1f18f788456b599b.metadata",
+      "sha256": "815e08af2b4f7f30978270e1bffacce4606851477f4f3f90bea65214a126546b",
+      "source_id": "b9593c072f9a9bdfd2a69d0c28b31b889843003efe4893cc1f18f788456b599b"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:07:14.712404Z",
+      "bytes": 4115,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/django-5.2.9.dist-info/METADATA",
+      "path": "sources/4f49ea108f36ad1f6f4ced66997996ea61b52b916136d7bff85236a5f0e6a139.metadata",
+      "sha256": "a0c9747aa35bb989e85d52dc9aded3b02fc992f6dcc2600664d447bed16a1be2",
+      "source_id": "4f49ea108f36ad1f6f4ced66997996ea61b52b916136d7bff85236a5f0e6a139"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:07:14.712404Z",
+      "bytes": 4545,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/django_debug_toolbar-6.1.0.dist-info/METADATA",
+      "path": "sources/6c01d1f357805941210457d175a9492f237e10d2f4b1f955c24f0d95f4a85149.metadata",
+      "sha256": "e3f0e680bf957e256f2792eb9b4346dba026b1d1ee1e8b3bf582130dff30673a",
+      "source_id": "6c01d1f357805941210457d175a9492f237e10d2f4b1f955c24f0d95f4a85149"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:07:14.712404Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "path": "sources/14ec0fb1ace3dcdb1da056c3903d0c41e8bd20071dbb881c70f2065240fda274.metadata",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "14ec0fb1ace3dcdb1da056c3903d0c41e8bd20071dbb881c70f2065240fda274"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:07:14.712404Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "path": "sources/1a5b658412377731d8520a182780061705b4f98fc3c7e2ca34c496cd20ac3edf.metadata",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "1a5b658412377731d8520a182780061705b4f98fc3c7e2ca34c496cd20ac3edf"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:07:14.712404Z",
+      "bytes": 4734,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/sqlparse-0.5.5.dist-info/METADATA",
+      "path": "sources/c7241f5776efabb8b20c98bf501e4f23c18ddf1dba62c8c4ddfc637f15de4dfa.metadata",
+      "sha256": "64608ce1633133346851d8ecfa683931d0a1b70c1620720d8a21958917353621",
+      "source_id": "c7241f5776efabb8b20c98bf501e4f23c18ddf1dba62c8c4ddfc637f15de4dfa"
+    }
+  ],
+  "target_id": "c1fd87bb3d13cc60d73fa8bb1bf1e2faba239451d69d8c352a3ce6e36185c77a"
+}

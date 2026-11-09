@@ -1,0 +1,236 @@
+{
+  "context_sha256": "65c24889acb45d4cbf13fcdff5a6bdd3786d97567afe3914ba1f349ab2e1fef6",
+  "counts": {
+    "CONTRADICTED": 2,
+    "SUPPORTED": 12,
+    "UNKNOWN": 29
+  },
+  "decisions": [
+    {
+      "source_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-packaging-7fc98dc99b1bda4f"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-pygments-dd5930d75cf96b88"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-iredis-402533491bb5d39d",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-click-8c3e7e30488f8d69"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-iredis-402533491bb5d39d",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-configobj-d696e170f48ef9f6"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-iredis-402533491bb5d39d",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-mistune-938ff4ddf2e96c85"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-iredis-402533491bb5d39d",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-packaging-7fc98dc99b1bda4f"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-iredis-402533491bb5d39d",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-prompt-toolkit-c478783d185b6552"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-iredis-402533491bb5d39d",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-pygments-dd5930d75cf96b88"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-iredis-402533491bb5d39d",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-python-dateutil-3517504194868c88"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-iredis-402533491bb5d39d",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-redis-f59d700243711370"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-iredis-402533491bb5d39d",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-wcwidth-30d0fcb7b6230ab3"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-jaraco-collections-e074243c2b7dd70d",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-backports-tarfile-7bb5380f6d177676"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-autocommand-1d5bb88bbdd45a29"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-mistune-938ff4ddf2e96c85",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-prompt-toolkit-c478783d185b6552",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-wcwidth-30d0fcb7b6230ab3"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-python-dateutil-3517504194868c88",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-six-5309db424b251291"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-redis-f59d700243711370",
+      "status": "SUPPORTED",
+      "target_ref": "SPDXRef-Package-python-pyjwt-cf465107cc80f4df"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+      "status": "REFUTED",
+      "target_ref": "SPDXRef-Package-python-packaging-7fc98dc99b1bda4f"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+      "status": "REFUTED",
+      "target_ref": "SPDXRef-Package-python-pip-e327c8cc747f6ab9"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-platformdirs-4b62779e59b20d35"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-tomli-f04d63d7233a932e"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-packaging-7fc98dc99b1bda4f"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-wheel-ce76d6e61bd8dde0",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+    },
+    {
+      "source_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+      "status": "UNKNOWN",
+      "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+    }
+  ],
+  "evidence_sha256": "df44d4b707037eba80ab51ff19ca25d76e79a0d855ecf8a499fc9e0e7191a693",
+  "input_sha256": "cfb20e7aaf9fa999862dc072347d5b6f7cbbd83331ae5fde453c3dcb279a92c4",
+  "llm_api_calls": 0,
+  "reference_labels_read": false,
+  "seconds": 0.09076742099568946,
+  "status": "COMPLETE",
+  "validation": {
+    "errors": [],
+    "format": "spdx",
+    "valid": true
+  }
+}

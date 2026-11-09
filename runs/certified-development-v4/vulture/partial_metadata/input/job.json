@@ -1,0 +1,22 @@
+{
+  "available_at": "2026-10-28T17:05:47.920303Z",
+  "condition": "partial_metadata",
+  "context_profile": "ALL_INSTALLED_BASE_DECLARATIONS; explicit extra seeds from captured logical context",
+  "context_sha256": "d126ba9fe76f21cc25c313aee18e591788596a628f93a0a5f0f3db3d3fb93abd",
+  "evidence_sha256": "ea3bb7476b5410131a288d223be70373a416d465976a9bf898eb80aa3c9a68dd",
+  "input_sha256": "c39a63ca2c565d0ee46f92366519456715074a809ea81b9e7949cc812201d5a4",
+  "intervention": "CONTROLLED_EVIDENCE_WITHHOLDING",
+  "methods": [
+    "observed",
+    "legacy_additive",
+    "legacy_reconciliation",
+    "metadata_control",
+    "certified_v2"
+  ],
+  "partition": "development",
+  "project": "vulture",
+  "reference_labels_read": false,
+  "withheld_sources": [
+    "1e3b6b0237f272c4b03607d6bd2a4e82cd0d509ccae578eb04be92bea55a8da1"
+  ]
+}

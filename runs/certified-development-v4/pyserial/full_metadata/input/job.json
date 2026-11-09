@@ -1,0 +1,20 @@
+{
+  "available_at": "2026-10-28T17:06:30.599938Z",
+  "condition": "full_metadata",
+  "context_profile": "ALL_INSTALLED_BASE_DECLARATIONS; explicit extra seeds from captured logical context",
+  "context_sha256": "05c72747012b14b5a906d6ba68fa95024333be111a74e97eebb2ea2dd025faca",
+  "evidence_sha256": "324c0fa49e44c45e41332718a368c325ee2abc271c4c04283145ee29b24fd28d",
+  "input_sha256": "3cf3e283348087e487b5b3c4e65ebbddf53e93eec3b40d126f09d39e2d4764df",
+  "intervention": "NONE",
+  "methods": [
+    "observed",
+    "legacy_additive",
+    "legacy_reconciliation",
+    "metadata_control",
+    "certified_v2"
+  ],
+  "partition": "development",
+  "project": "pyserial",
+  "reference_labels_read": false,
+  "withheld_sources": []
+}

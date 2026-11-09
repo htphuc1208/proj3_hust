@@ -1,0 +1,39 @@
+{
+  "bindings": {},
+  "inventory_complete": true,
+  "observation_sha256": "c39a63ca2c565d0ee46f92366519456715074a809ea81b9e7949cc812201d5a4",
+  "schema_version": "reconciliation-evidence-v2",
+  "sources": [
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:05:47.920303Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "path": "sources/5f009277f068be35b9dd4ea68e99c021940d3969e533b36b5407e6abb24427ba.metadata",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "5f009277f068be35b9dd4ea68e99c021940d3969e533b36b5407e6abb24427ba"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:05:47.920303Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "path": "sources/8ad756fc2a44ab35edc2112751856c2f0cdc3d5bc57fb1a7a5cd4ffc5b12b0e9.metadata",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "8ad756fc2a44ab35edc2112751856c2f0cdc3d5bc57fb1a7a5cd4ffc5b12b0e9"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:05:47.920303Z",
+      "bytes": 24917,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/vulture-2.14.dist-info/METADATA",
+      "path": "sources/1e3b6b0237f272c4b03607d6bd2a4e82cd0d509ccae578eb04be92bea55a8da1.metadata",
+      "sha256": "94122353746bc779b3cfc21b4eaf11b3a17b35d9fdeb45bc2fea9183dbb61990",
+      "source_id": "1e3b6b0237f272c4b03607d6bd2a4e82cd0d509ccae578eb04be92bea55a8da1"
+    }
+  ],
+  "target_id": "a2167a355d11b28abec4395fd434eccece853d6fd7a8fc381c9414c3d49d9360"
+}

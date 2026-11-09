@@ -1,0 +1,25 @@
+{
+  "available_at": "2026-10-28T17:06:48.060869Z",
+  "condition": "partial_metadata",
+  "context_profile": "ALL_INSTALLED_BASE_DECLARATIONS; explicit extra seeds from captured logical context",
+  "context_sha256": "552f1d0feabab98b2e845250d4766206485585006e954810862423ee12b29940",
+  "evidence_sha256": "afe45c3626182a45fa86f13e138f3125b4a214c36f4e7b439899738922f01337",
+  "input_sha256": "ca7a439a6c2d3cbdf0d8835ba6f5363961a3ab66d0dd15a6f478d1abd5f64bff",
+  "intervention": "CONTROLLED_EVIDENCE_WITHHOLDING",
+  "methods": [
+    "observed",
+    "legacy_additive",
+    "legacy_reconciliation",
+    "metadata_control",
+    "certified_v2"
+  ],
+  "partition": "development",
+  "project": "pynamodb",
+  "reference_labels_read": false,
+  "withheld_sources": [
+    "2d0b572f28ac8d8bc3272467adf02c526ebfabac8b6151a75ff84187e5744431",
+    "e623a563b7136c819c7fec185fd23f26ba48d71161adec7853285c7401aaf276",
+    "eaba7cc3f21bc9f074021f6441f9492ca4f6c75b152d25fae0900f69ee0aed0e",
+    "755f462a15a45feb48887f4c874ef9a994965c281bc76fcf3739d98bc107f7a7"
+  ]
+}

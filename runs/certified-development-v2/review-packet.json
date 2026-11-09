@@ -1,0 +1,730 @@
+{
+  "available_selected_tasks": 40,
+  "completed_human_reviews": 0,
+  "independent_review": false,
+  "sampling": "up to 40 per add/retract/abstain; hash seed 42",
+  "status": "PENDING_SINGLE_AUTHOR_HUMAN_AUDIT",
+  "target": 120,
+  "tasks": [
+    {
+      "case_path": "sqlparse/unknown_context",
+      "condition": "unknown_context",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-autocommand-1d5bb88bbdd45a29"
+      },
+      "notes": "",
+      "project": "sqlparse",
+      "reviewer": "",
+      "task_id": "f9098dcf72a2ff102df632fbbb63a02c81a91a3c53c91a17c987de645e7ff8c3",
+      "verdict": ""
+    },
+    {
+      "case_path": "pika/unknown_context",
+      "condition": "unknown_context",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+      },
+      "notes": "",
+      "project": "pika",
+      "reviewer": "",
+      "task_id": "21f87f14f79d4c1a659ec6d2fb394406015252fcc42a3e9c4ceba0ec9cde97b9",
+      "verdict": ""
+    },
+    {
+      "case_path": "hyperopt/unknown_context",
+      "condition": "unknown_context",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+      },
+      "notes": "",
+      "project": "hyperopt",
+      "reviewer": "",
+      "task_id": "99e8c130a57ce1be9aa013d47880e368038e95bbbbe3d4636478ea3901b31072",
+      "verdict": ""
+    },
+    {
+      "case_path": "django-debug-toolbar/partial_metadata",
+      "condition": "partial_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+      },
+      "notes": "",
+      "project": "django-debug-toolbar",
+      "reviewer": "",
+      "task_id": "b01c6a6f467e4d350ea1ea3791e9e60b35c8b38f13960a0c1f0909daa0180029",
+      "verdict": ""
+    },
+    {
+      "case_path": "faster-whisper/unknown_context",
+      "condition": "unknown_context",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-ctranslate2-a5569521bb68f70a",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf"
+      },
+      "notes": "",
+      "project": "faster-whisper",
+      "reviewer": "",
+      "task_id": "dd34f36460ead0d849ce5db5aec0fea52b28ed9c2b9bfac89d2d6cb7ace37c5f",
+      "verdict": ""
+    },
+    {
+      "case_path": "algorithms/full_metadata",
+      "condition": "full_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+      },
+      "notes": "",
+      "project": "algorithms",
+      "reviewer": "",
+      "task_id": "d32a196575102513bbd01dc57c54f88bc3b42995a4e22a1c1670da7058ef9531",
+      "verdict": ""
+    },
+    {
+      "case_path": "iredis/unknown_context",
+      "condition": "unknown_context",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-iredis-402533491bb5d39d",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-python-dateutil-3517504194868c88"
+      },
+      "notes": "",
+      "project": "iredis",
+      "reviewer": "",
+      "task_id": "34b563e80be3afed9145c2a4c28d53b0d6dcad3ec3760ca7c019a9b1d489aef0",
+      "verdict": ""
+    },
+    {
+      "case_path": "markitdown/unknown_context",
+      "condition": "unknown_context",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-onnxruntime-9f91a1f0d66822ff",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-flatbuffers-8aebbd4c12cd05f5"
+      },
+      "notes": "",
+      "project": "markitdown",
+      "reviewer": "",
+      "task_id": "d1f1b818be841e345532f62ff62930269f658747f81cbb277d78c502895a4f89",
+      "verdict": ""
+    },
+    {
+      "case_path": "django-debug-toolbar/partial_metadata",
+      "condition": "partial_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+      },
+      "notes": "",
+      "project": "django-debug-toolbar",
+      "reviewer": "",
+      "task_id": "dd2ba57b470fd4d73b27fe80f8ede5ee63d84affc2362f99289bf7b6471bab01",
+      "verdict": ""
+    },
+    {
+      "case_path": "sqlparse/unknown_context",
+      "condition": "unknown_context",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+      },
+      "notes": "",
+      "project": "sqlparse",
+      "reviewer": "",
+      "task_id": "fef23dbead58259c271320880629011738ff6c6ee6590d0f479556e4482bc082",
+      "verdict": ""
+    },
+    {
+      "case_path": "pika/full_metadata",
+      "condition": "full_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-packaging-686009a7c6e3a48b"
+      },
+      "notes": "",
+      "project": "pika",
+      "reviewer": "",
+      "task_id": "1d644515b3d03029b760731248fc7778ee532f1cafc6cbbf7e210f650589c48f",
+      "verdict": ""
+    },
+    {
+      "case_path": "faster-whisper/partial_metadata",
+      "condition": "partial_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-setuptools-6a5cf0b9c36d51bf",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd"
+      },
+      "notes": "",
+      "project": "faster-whisper",
+      "reviewer": "",
+      "task_id": "6a473aa6d1fab62576ab410414e9510e5b75bc9dd8ebe8dc05b50a380000e024",
+      "verdict": ""
+    },
+    {
+      "case_path": "boltons/full_metadata",
+      "condition": "full_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+      },
+      "notes": "",
+      "project": "boltons",
+      "reviewer": "",
+      "task_id": "e43c4eda196de7b57a0552dc67a4ca0a27fea124e1168607cb3b8455830f367e",
+      "verdict": ""
+    },
+    {
+      "case_path": "sqlparse/unknown_context",
+      "condition": "unknown_context",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd"
+      },
+      "notes": "",
+      "project": "sqlparse",
+      "reviewer": "",
+      "task_id": "35bf8d609492475017f526a750671d26d10612ecaa06cc9515aecd90dade3bb5",
+      "verdict": ""
+    },
+    {
+      "case_path": "typer/unknown_context",
+      "condition": "unknown_context",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-rich-ef099acec8b51839",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-markdown-it-py-d5e9abae35a079fb"
+      },
+      "notes": "",
+      "project": "typer",
+      "reviewer": "",
+      "task_id": "18a3dbb0e9fcac9a3fe172d3c0cb40a67acc97fdfc017a2c55e9a030fe7418d5",
+      "verdict": ""
+    },
+    {
+      "case_path": "typer/unknown_context",
+      "condition": "unknown_context",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108"
+      },
+      "notes": "",
+      "project": "typer",
+      "reviewer": "",
+      "task_id": "794eed95f61c9f038702246f0e148ebe3a73680387dbe0abfa223a35d93f1572",
+      "verdict": ""
+    },
+    {
+      "case_path": "nox/partial_metadata",
+      "condition": "partial_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+      },
+      "notes": "",
+      "project": "nox",
+      "reviewer": "",
+      "task_id": "bfd63aa6f2b8ec2d06102c10c26bdc4a717f79787b181e393f2626c0a5a5b317",
+      "verdict": ""
+    },
+    {
+      "case_path": "pika/partial_metadata",
+      "condition": "partial_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+      },
+      "notes": "",
+      "project": "pika",
+      "reviewer": "",
+      "task_id": "0f105bfeac94e945ba4ed1d7f2db7869cdc145bf2a954be410a258bf70319469",
+      "verdict": ""
+    },
+    {
+      "case_path": "boltons/unknown_context",
+      "condition": "unknown_context",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-backports-tarfile-7bb5380f6d177676"
+      },
+      "notes": "",
+      "project": "boltons",
+      "reviewer": "",
+      "task_id": "0b0328b272ac9210650b8bf564157c61ae3f5f2e0f327688e1e3f290a32b1739",
+      "verdict": ""
+    },
+    {
+      "case_path": "faster-whisper/full_metadata",
+      "condition": "full_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-anyio-263101f2c1f6e3c6",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-idna-74a748adbda627c4"
+      },
+      "notes": "",
+      "project": "faster-whisper",
+      "reviewer": "",
+      "task_id": "3aaa15dcd09ad04009ecba6a637b10d7abfcd93140e682554f85bbcbfdfdcb3c",
+      "verdict": ""
+    },
+    {
+      "case_path": "faster-whisper/partial_metadata",
+      "condition": "partial_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-typer-slim-750358fd1d9c94e8"
+      },
+      "notes": "",
+      "project": "faster-whisper",
+      "reviewer": "",
+      "task_id": "c438e63cece0e87ffb178ea24f0641631bb5e1ff5a892bd2e2557dbcc679064f",
+      "verdict": ""
+    },
+    {
+      "case_path": "attrs/unknown_context",
+      "condition": "unknown_context",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-jaraco-context-ee2001f8be723bea",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-backports-tarfile-7bb5380f6d177676"
+      },
+      "notes": "",
+      "project": "attrs",
+      "reviewer": "",
+      "task_id": "d22e8bacfb9706920e54bd1f2588351dde033dd4c0a7f2e1d6997ebd215d2822",
+      "verdict": ""
+    },
+    {
+      "case_path": "faster-whisper/full_metadata",
+      "condition": "full_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-httpx-4dc96a8146e073ad",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-certifi-dc77913862cec55d"
+      },
+      "notes": "",
+      "project": "faster-whisper",
+      "reviewer": "",
+      "task_id": "5cf8f8c166584d32ac080c47892ca0f68043105db3f6026936b2ec20ffd6ac3c",
+      "verdict": ""
+    },
+    {
+      "case_path": "faster-whisper/full_metadata",
+      "condition": "full_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108"
+      },
+      "notes": "",
+      "project": "faster-whisper",
+      "reviewer": "",
+      "task_id": "b5865cef84f1a5b4eff2579e4e47f79f7df5b0cc3f8852c6374db60a11b1d246",
+      "verdict": ""
+    },
+    {
+      "case_path": "faster-whisper/partial_metadata",
+      "condition": "partial_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-huggingface-hub-a6272e2edfbd025d",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-httpx-4dc96a8146e073ad"
+      },
+      "notes": "",
+      "project": "faster-whisper",
+      "reviewer": "",
+      "task_id": "f88defef142a79c7f23688594a33d026f00169acf58a8119797cf41e96619a13",
+      "verdict": ""
+    },
+    {
+      "case_path": "faster-whisper/unknown_context",
+      "condition": "unknown_context",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-tokenizers-ccd6312beaad8054",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-numpy-fd64f537ba5ad208"
+      },
+      "notes": "",
+      "project": "faster-whisper",
+      "reviewer": "",
+      "task_id": "7eeff4554b51edbdc1c757823b22b7312be187f7dc391c803b3159083d4c61ce",
+      "verdict": ""
+    },
+    {
+      "case_path": "boltons/partial_metadata",
+      "condition": "partial_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+      },
+      "notes": "",
+      "project": "boltons",
+      "reviewer": "",
+      "task_id": "8b6f7a6e8720985699756f4a993bf65dbc298ca44b49a8e6578299b953e9fcdc",
+      "verdict": ""
+    },
+    {
+      "case_path": "sqlparse/unknown_context",
+      "condition": "unknown_context",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-jaraco-collections-e074243c2b7dd70d",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd"
+      },
+      "notes": "",
+      "project": "sqlparse",
+      "reviewer": "",
+      "task_id": "23b6b5f8cf7891be866efc3732fffb25f4d40c0b6885f4cdc9977774a508bc06",
+      "verdict": ""
+    },
+    {
+      "case_path": "django-debug-toolbar/full_metadata",
+      "condition": "full_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-inflect-051eccf3da38b7a8",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-typing-extensions-35e335623e007cd8"
+      },
+      "notes": "",
+      "project": "django-debug-toolbar",
+      "reviewer": "",
+      "task_id": "6d3a726c3ab07d322bc0820b4fc88783df0f2fe8dd67aa656252ec6434b8c22a",
+      "verdict": ""
+    },
+    {
+      "case_path": "algorithms/partial_metadata",
+      "condition": "partial_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+      },
+      "notes": "",
+      "project": "algorithms",
+      "reviewer": "",
+      "task_id": "58a2789dedba1c972ac3443e08ee80463a33605fb090007eb20ca29a6f00b827",
+      "verdict": ""
+    },
+    {
+      "case_path": "django-debug-toolbar/partial_metadata",
+      "condition": "partial_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+      },
+      "notes": "",
+      "project": "django-debug-toolbar",
+      "reviewer": "",
+      "task_id": "62279c8b57721cacfd47045a82630b0e3cc597da9de91ec5aa97ceb9c4a8e61d",
+      "verdict": ""
+    },
+    {
+      "case_path": "markitdown/full_metadata",
+      "condition": "full_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-markitdown-0d0a60eead6cbca7",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-charset-normalizer-8970e673978e9ea8"
+      },
+      "notes": "",
+      "project": "markitdown",
+      "reviewer": "",
+      "task_id": "faa88a6d9b167029ad588b34b2ab3e2276ec44aa33365bffc84bf921b9d2a1d3",
+      "verdict": ""
+    },
+    {
+      "case_path": "sqlparse/partial_metadata",
+      "condition": "partial_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-typeguard-090eeb1c4c8a4108",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be"
+      },
+      "notes": "",
+      "project": "sqlparse",
+      "reviewer": "",
+      "task_id": "560d0211680fe284f754f9695b352709e4f410c4c9ce8944d647300924487348",
+      "verdict": ""
+    },
+    {
+      "case_path": "pypdf/full_metadata",
+      "condition": "full_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-platformdirs-4b62779e59b20d35"
+      },
+      "notes": "",
+      "project": "pypdf",
+      "reviewer": "",
+      "task_id": "f2be1af67eea673c22fd64c42fb172dcd1448ca9ca060d462032baa8fcee5d20",
+      "verdict": ""
+    },
+    {
+      "case_path": "pypandoc/full_metadata",
+      "condition": "full_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be"
+      },
+      "notes": "",
+      "project": "pypandoc",
+      "reviewer": "",
+      "task_id": "b8e4005633df7612c3b4508005d67218dcdd7c82b5e32448b29598009d4babd8",
+      "verdict": ""
+    },
+    {
+      "case_path": "django-debug-toolbar/unknown_context",
+      "condition": "unknown_context",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-jaraco-text-7c63fb5152a423fd",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-more-itertools-e36b3d93f19c667c"
+      },
+      "notes": "",
+      "project": "django-debug-toolbar",
+      "reviewer": "",
+      "task_id": "43c2e76b22f8adec0e0c6c1ada93b752db3f704fd52440f0b574288730bfe933",
+      "verdict": ""
+    },
+    {
+      "case_path": "markitdown/full_metadata",
+      "condition": "full_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-requests-baa470e38e9ea469",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-certifi-dc77913862cec55d"
+      },
+      "notes": "",
+      "project": "markitdown",
+      "reviewer": "",
+      "task_id": "03796f0060fb00f9c8c982fe65e5103a915b4362629f7216ba790c0347abc35a",
+      "verdict": ""
+    },
+    {
+      "case_path": "vulture/full_metadata",
+      "condition": "full_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318"
+      },
+      "notes": "",
+      "project": "vulture",
+      "reviewer": "",
+      "task_id": "14f4cc3ef5915527c843029f24ef929899a954dd169a483edc8a50c28d42f78e",
+      "verdict": ""
+    },
+    {
+      "case_path": "iredis/full_metadata",
+      "condition": "full_metadata",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-jaraco-functools-f44a0053651c9204"
+      },
+      "notes": "",
+      "project": "iredis",
+      "reviewer": "",
+      "task_id": "d235159536bd3e5cabf5a6251cecddf8524d2ceb9dbed0d2f7bbb8a1d0da4996",
+      "verdict": ""
+    },
+    {
+      "case_path": "iredis/unknown_context",
+      "condition": "unknown_context",
+      "decision": {
+        "certificate": null,
+        "operation": "abstain",
+        "reason": "UNBOUND_OR_AMBIGUOUS_OCCURRENCE",
+        "schema_version": "reconciliation-decision-v2",
+        "source_ref": "SPDXRef-Package-python-importlib-metadata-587e5d030197d8be",
+        "status": "UNKNOWN",
+        "target_ref": "SPDXRef-Package-python-zipp-08219ba3ee20c318"
+      },
+      "notes": "",
+      "project": "iredis",
+      "reviewer": "",
+      "task_id": "70399df433565ea7bb8d454bf12ef7a8f3fe99396f6bab0cfc6a221a211e451c",
+      "verdict": ""
+    }
+  ]
+}

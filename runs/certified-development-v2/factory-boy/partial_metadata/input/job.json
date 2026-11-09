@@ -1,0 +1,23 @@
+{
+  "available_at": "2026-10-28T17:29:18.440982Z",
+  "condition": "partial_metadata",
+  "context_profile": "ALL_INSTALLED_BASE_DECLARATIONS; explicit extra seeds from captured logical context",
+  "context_sha256": "1f4dbd3de09a868af62e422b9ef21181ce42322ed0be28a62b322cc54bc28283",
+  "evidence_sha256": "6636d0280a8819c29ce28b59a89258de081981706a8ea59929c1af39c2d6518b",
+  "input_sha256": "f5f003d1aab9ab0b55019160a883620ae18c604b63a2e388a3a5c1eaac7f4593",
+  "intervention": "CONTROLLED_EVIDENCE_WITHHOLDING",
+  "methods": [
+    "observed",
+    "legacy_additive",
+    "legacy_reconciliation",
+    "metadata_control",
+    "certified_v2"
+  ],
+  "partition": "development",
+  "project": "factory-boy",
+  "reference_labels_read": false,
+  "withheld_sources": [
+    "e7cdd955edca6e8e206e8f767d6ad18baf9554f54749391cbd593d85d3d1dc40",
+    "669f707c94780b5d2099179aee974a3e4de7c9e710de59c6abf3e8b637936e6f"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "reconciliation-evidence-v2",
+  "target_id": "f74b2cbbb3b47c00b7f99f97a86b903e376a9c5d3ae27a4abeb9d195ba1c79ee",
+  "observation_sha256": "c148543a4c98dd0f6be7330e4b1d88960706f9e5f97b490212f258536529e097",
+  "inventory_complete": true,
+  "sources": [
+    {
+      "source_id": "9744c0031f3c45198a3f9b688ade8af91893f7ff4b11e7303de1c459cfc6f235",
+      "path": "sources/9744c0031f3c45198a3f9b688ade8af91893f7ff4b11e7303de1c459cfc6f235.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "bytes": 3581,
+      "available_at": "2026-10-28T17:05:46.800554Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    },
+    {
+      "source_id": "1390a546ccda05ca2ac2b3ccd276351c09cbdac274748f8e34d81b7ff0f9a3b2",
+      "path": "sources/1390a546ccda05ca2ac2b3ccd276351c09cbdac274748f8e34d81b7ff0f9a3b2.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pypandoc-1.16.2.dist-info/METADATA",
+      "sha256": "540087ed6d5b208e9ee835964dad9e5e7298e7f149a7754b94e886af14b31066",
+      "bytes": 16984,
+      "available_at": "2026-10-28T17:05:46.800554Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    },
+    {
+      "source_id": "f07c961573144a12bf103349852731ddf2019ef39313cdb5f14b70b1027aefac",
+      "path": "sources/f07c961573144a12bf103349852731ddf2019ef39313cdb5f14b70b1027aefac.metadata",
+      "occurrence_path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "bytes": 6548,
+      "available_at": "2026-10-28T17:05:46.800554Z",
+      "kind": "installed_metadata",
+      "acquired": true
+    }
+  ],
+  "bindings": {
+    "SPDXRef-Package-python-pip-e327c8cc747f6ab9": "67d9027e1c8dcc71448efd098cfdc4459da5bfc6f8757b53f17550effab9756b",
+    "SPDXRef-Package-python-pypandoc-d6723c93138a43ad": "21610d96e43bcedbb83a8da3ed1c37b9908f871d44b0801f903891364fce52f8",
+    "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd": "f2640006069ee33b5c48a32e1ce0976f5d0a9e853179fa859cee68597f494036"
+  }
+}

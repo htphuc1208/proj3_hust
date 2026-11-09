@@ -1,0 +1,10 @@
+{
+  "evidence_cutoff": "2026-10-28T17:06:48.060869Z",
+  "installation_scope": "lib/python3.11/site-packages",
+  "marker_values": {},
+  "root_requests": {},
+  "root_requests_complete": false,
+  "schema_version": "reconciliation-context-v2",
+  "scope": "installed_distribution_declared_direct_requirements",
+  "target_id": "f021daf3e34be311b30c1b34c6c76bfd35ef114ab519034b51d193b964263ef5"
+}

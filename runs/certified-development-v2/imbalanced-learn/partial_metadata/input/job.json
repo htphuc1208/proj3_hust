@@ -1,0 +1,25 @@
+{
+  "available_at": "2026-10-28T17:06:25.262609Z",
+  "condition": "partial_metadata",
+  "context_profile": "ALL_INSTALLED_BASE_DECLARATIONS; explicit extra seeds from captured logical context",
+  "context_sha256": "ed1cfcb3f0e5a0e931cadddfbaf506cc9e89b62825eb6ed6ab076fb3c28fe708",
+  "evidence_sha256": "88a1bf2119d4f64135f587d7bcaf0768b3de327faf06fff53b9883f2ee3569fe",
+  "input_sha256": "d3b2a6a59564b95e57b5fca235fdc06d76a3718b9950132b0ced3d705004b26f",
+  "intervention": "CONTROLLED_EVIDENCE_WITHHOLDING",
+  "methods": [
+    "observed",
+    "legacy_additive",
+    "legacy_reconciliation",
+    "metadata_control",
+    "certified_v2"
+  ],
+  "partition": "development",
+  "project": "imbalanced-learn",
+  "reference_labels_read": false,
+  "withheld_sources": [
+    "de62c061dd0f7b53219e847c40a7b4a12bb5a9af2b4fbe6d0b368cd65544cb91",
+    "6ddff206716f43f7acd73705e97f41dc13c10fcd11c7c79e9405319c53a3cbf2",
+    "a7ac287d1f9106e049404c1af4cc97a5cc0f75c0552fe9d7f0f25114bdfd34b3",
+    "194a5273466c8ae4846c45e1d3a184f11bebdb2130eb9e699195532945d7ff49"
+  ]
+}

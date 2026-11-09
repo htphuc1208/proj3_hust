@@ -1,0 +1,15 @@
+{
+  "active_extras": [],
+  "evidence_cutoff": "2026-10-28T17:07:58.267932Z",
+  "extras_by_purl": {},
+  "os_name": "posix",
+  "platform_machine": "x86_64",
+  "platform_system": "Linux",
+  "python_full_version": "3.11.16",
+  "python_version": "3.11",
+  "root_purls": [
+    "pkg:pypi/faster-whisper@1.2.1"
+  ],
+  "sys_platform": "linux",
+  "target_id": "0b23645bd782534ecf4b4f57670e895a245bae33c2c2b14b043cb071abafe0a4"
+}

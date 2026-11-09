@@ -1,0 +1,120 @@
+{
+  "bindings": {
+    "SPDXRef-Package-python-click-8c3e7e30488f8d69": "d59ae87af2b191f3306f6d7554102d675caa60a3581a1b3e6f6f6491c437a0c2",
+    "SPDXRef-Package-python-markdown-it-py-d5e9abae35a079fb": "5ba77fd789c6d6a8a10bfaaf7d6a88d57ccb76912bfc6261b8387d9c12a979d6",
+    "SPDXRef-Package-python-mdurl-26d050530dc468cf": "a00502a9869905ae59b0019c8ba2067d2d49b6451b3ddd782b153a51ffba38f3",
+    "SPDXRef-Package-python-pip-e327c8cc747f6ab9": "a95a94ab29e1c39d51c355406c581e15f13e428578586258293be8bc221da37b",
+    "SPDXRef-Package-python-pygments-dd5930d75cf96b88": "0eef6038d7f736f4781ad8e1c1a1dfee6f5e73648d44be57678484991fc7b965",
+    "SPDXRef-Package-python-rich-ef099acec8b51839": "ffec57cfb0091202a440ebcf5f57a3f2b6bf67cf4c560edbc3536f44f0bfa16c",
+    "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd": "87914f8506674a364cd3df9ff19e0ed5ceb73d49aa697a0949d31687be2ea5dc",
+    "SPDXRef-Package-python-shellingham-8e45d048d30793e5": "d827f9d978945576dbc743b7e8396601466b3cf8c5628fee1223afa85379947f",
+    "SPDXRef-Package-python-typer-8fb13510b8d9ceb3": "f0ca0829e7f720f927023d87444679ca56da12744d955d101642666e137b2126",
+    "SPDXRef-Package-python-typing-extensions-938e04f225233ed9": "4b4968907fb2195b6879f798564429d174af1b8353bddffbe67d2b54b839b325"
+  },
+  "inventory_complete": true,
+  "observation_sha256": "9faca4cbefce43a1f4dcace52f9a52a455604f6df55258c4bd612c8cdae84602",
+  "schema_version": "reconciliation-evidence-v2",
+  "sources": [
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:12.330873Z",
+      "bytes": 2621,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/click-8.3.1.dist-info/METADATA",
+      "path": "sources/71635ea00a4310ea1421da2eb9facd2d6b373f36a84608bcf34e225b7c0df923.metadata",
+      "sha256": "5d9781acc004d2085313cf128dfad20ee4b2342a413e9971251d6d6f00fda198",
+      "source_id": "71635ea00a4310ea1421da2eb9facd2d6b373f36a84608bcf34e225b7c0df923"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:12.330873Z",
+      "bytes": 7288,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/markdown_it_py-4.0.0.dist-info/METADATA",
+      "path": "sources/6720acaf8c0e266b58c569784c38ac540596224ec482c26096c9ec639850a5ab.metadata",
+      "sha256": "e9fcaa1e2daf3f96d840a09fbaaa394feaadf37a36d88a7b6b6b672487c65bfb",
+      "source_id": "6720acaf8c0e266b58c569784c38ac540596224ec482c26096c9ec639850a5ab"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:12.330873Z",
+      "bytes": 1638,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/mdurl-0.1.2.dist-info/METADATA",
+      "path": "sources/004930a0a85c8b4b113a89bb11bdd33e75a5fa0f60236b620316bf097a9b12e3.metadata",
+      "sha256": "b53b29d48f499367053fda3c81e7ce27d2558380ebbf83e66023b02eb7ddd25d",
+      "source_id": "004930a0a85c8b4b113a89bb11bdd33e75a5fa0f60236b620316bf097a9b12e3"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:12.330873Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "path": "sources/a95c2ece5715c7694cb871d51d27a868f14fe4c34571f4dfe42915065a496eb9.metadata",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "a95c2ece5715c7694cb871d51d27a868f14fe4c34571f4dfe42915065a496eb9"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:12.330873Z",
+      "bytes": 2512,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pygments-2.19.2.dist-info/METADATA",
+      "path": "sources/2f92a6b788a083e36361f278e7fd400d718add3b3b25bc017d24360ef7b52d56.metadata",
+      "sha256": "7ae100d67d67006c6479803dd835fcf47a9b59fac794441ea8e66aa7f5984d82",
+      "source_id": "2f92a6b788a083e36361f278e7fd400d718add3b3b25bc017d24360ef7b52d56"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:12.330873Z",
+      "bytes": 18257,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/rich-14.2.0.dist-info/METADATA",
+      "path": "sources/25c4a3528d060ecf7159523f1d8e733eb58fedc1786e5f70dae4ab432553a391.metadata",
+      "sha256": "222fe35ac48d4a6c59c49a59ca471bb9f7111bcf88f33897190bac074fd5c35f",
+      "source_id": "25c4a3528d060ecf7159523f1d8e733eb58fedc1786e5f70dae4ab432553a391"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:12.330873Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "path": "sources/7a82d390b17efaa6beed5242bca12f556e7aca288e1c4128453225216cee127d.metadata",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "7a82d390b17efaa6beed5242bca12f556e7aca288e1c4128453225216cee127d"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:12.330873Z",
+      "bytes": 3461,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/shellingham-1.5.4.dist-info/METADATA",
+      "path": "sources/6075080deb78adf62e01bf00933acadae4bad2fef26d91769d3d4be03d0e411c.metadata",
+      "sha256": "183d80220a37493262795739dd357cc5bb3f49bd390cc9198d5180e5451a07fa",
+      "source_id": "6075080deb78adf62e01bf00933acadae4bad2fef26d91769d3d4be03d0e411c"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:06:12.330873Z",
+      "bytes": 16092,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/typer-0.21.0.dist-info/METADATA",
+      "path": "sources/74857b08bb90d532eafaeae9eddb68b2f4ccbea984a74b3058fefb3fa427003f.metadata",
+      "sha256": "ba7212c6537bacd1b569ff11e5d9046615fce864adb6cf9b8c59cc011a547411",
+      "source_id": "74857b08bb90d532eafaeae9eddb68b2f4ccbea984a74b3058fefb3fa427003f"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:06:12.330873Z",
+      "bytes": 3259,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/typing_extensions-4.15.0.dist-info/METADATA",
+      "path": "sources/c8a6389075c2a0657df7ee77a964a9600774b0b70aab3ffbe62d5e2687a64941.metadata",
+      "sha256": "c138378fe8f18934ac99de060535c53ec6c13aeed65e94c32641da7ee3192a72",
+      "source_id": "c8a6389075c2a0657df7ee77a964a9600774b0b70aab3ffbe62d5e2687a64941"
+    }
+  ],
+  "target_id": "5d69540686e209e26cfdabd60b3b27ed1f740a3c43b1098ad457b2914bc65403"
+}

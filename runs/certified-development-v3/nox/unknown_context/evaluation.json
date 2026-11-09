@@ -1,0 +1,153 @@
+{
+  "arms": {
+    "certified_v2": {
+      "assessment_counts": {
+        "SUPPORTED": 9,
+        "UNKNOWN": 40
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.1836734693877551,
+      "native_valid": true,
+      "operations": {
+        "abstain": 40,
+        "keep": 9
+      },
+      "seconds": 1.0764906680051354,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.7586206896551724,
+        "fn": 0,
+        "fp": 7,
+        "precision": 0.6111111111111112,
+        "recall": 1.0,
+        "tp": 11
+      }
+    },
+    "legacy_additive": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.013504649003152736,
+      "status": "UNSUPPORTED_PARTIAL_CONTEXT",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.7586206896551724,
+        "fn": 0,
+        "fp": 7,
+        "precision": 0.6111111111111112,
+        "recall": 1.0,
+        "tp": 11
+      }
+    },
+    "legacy_reconciliation": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.010726223998062778,
+      "status": "UNSUPPORTED_PARTIAL_CONTEXT",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.7586206896551724,
+        "fn": 0,
+        "fp": 7,
+        "precision": 0.6111111111111112,
+        "recall": 1.0,
+        "tp": 11
+      }
+    },
+    "metadata_control": {
+      "assessment_counts": {
+        "SUPPORTED": 9,
+        "UNKNOWN": 40
+      },
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": 0.1836734693877551,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.17839334699965548,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.7586206896551724,
+        "fn": 0,
+        "fp": 7,
+        "precision": 0.6111111111111112,
+        "recall": 1.0,
+        "tp": 11
+      }
+    },
+    "observed": {
+      "assessment_counts": {},
+      "changes": {
+        "incorrect_changes": 0,
+        "known_changes": 0,
+        "optimistic_risk": null,
+        "pessimistic_risk": null,
+        "records": [],
+        "selective_risk": null,
+        "unknown_changes": 0
+      },
+      "coverage_denominator": "all observed native dependency edges; scope-unknown edges remain undecided",
+      "decision_coverage": null,
+      "native_valid": true,
+      "operations": {},
+      "seconds": 0.019669464003527537,
+      "status": "COMPLETE",
+      "unknown_label_edges": 0,
+      "whole_edges": {
+        "f1": 0.7586206896551724,
+        "fn": 0,
+        "fp": 7,
+        "precision": 0.6111111111111112,
+        "recall": 1.0,
+        "tp": 11
+      }
+    }
+  },
+  "condition": "unknown_context",
+  "project": "nox",
+  "reference_edges": 12,
+  "reference_sha256": "72fb97b7c59cdd57d30359b4e0ec4cf2f565aaee3c76e1a7bd4b444c2a0a267d",
+  "same_graph_as_metadata_control": true
+}

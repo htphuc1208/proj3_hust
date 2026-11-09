@@ -1,0 +1,43 @@
+{
+  "bindings": {
+    "SPDXRef-Package-python-pika-9f1f450167d3bae3": "1847f4db9c1f34221f4a2a5f34f128d284ef1b3c3aef85d0e05ac0264dad87b6",
+    "SPDXRef-Package-python-pip-e327c8cc747f6ab9": "90689c2e33ac355706d42ab1da49400e3eb7399ba401361145a34011584522e3",
+    "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd": "d2280b469cb492de2cd6de5bb643b71962791c182044aa009b64fbc3e5b8cb27"
+  },
+  "inventory_complete": true,
+  "observation_sha256": "667d8361c11bc8351f88091018d55f807887fa7fe22434f210f1a9facb313d2f",
+  "schema_version": "reconciliation-evidence-v2",
+  "sources": [
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:04:03.355000Z",
+      "bytes": 13052,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pika-1.3.2.dist-info/METADATA",
+      "path": "sources/1fe7484f34577e775e5bb1f1f7151bb043aa129524bb38d48609f0836cde8380.metadata",
+      "sha256": "5479b3de93c0916478e462073f3191dddb307a68741bef971dd781ff1b2a5d9e",
+      "source_id": "1fe7484f34577e775e5bb1f1f7151bb043aa129524bb38d48609f0836cde8380"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:04:03.355000Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "path": "sources/b7d68073f6336bcf9d897572d96a9743331bb198cd45c5a4a7040c4a3eb8e6ea.metadata",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "b7d68073f6336bcf9d897572d96a9743331bb198cd45c5a4a7040c4a3eb8e6ea"
+    },
+    {
+      "acquired": false,
+      "available_at": "2026-10-28T17:04:03.355000Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "path": "sources/d2a139e9e12503d7f638f1758b0b31ee31ee7db1939a9f6a0d1cc2aee20ee9c9.metadata",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "d2a139e9e12503d7f638f1758b0b31ee31ee7db1939a9f6a0d1cc2aee20ee9c9"
+    }
+  ],
+  "target_id": "6347f06586cb492426fc0c396e43e490abf9f43465c1bbec0a9bbb0dd0d6067c"
+}

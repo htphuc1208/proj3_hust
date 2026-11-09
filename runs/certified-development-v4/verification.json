@@ -1,0 +1,19 @@
+{
+  "verified_at": "2026-11-09T03:11:38.489050+00:00",
+  "prediction_matrices_verified": 60,
+  "decisions_checked": 2259,
+  "authorized_changes_checked": 49,
+  "component_records_unchanged": true,
+  "current_python_source_matches_frozen_source": true,
+  "cli_replay_same_prediction_sha256": true,
+  "tests": {
+    "command": ".venv/bin/python -B -m unittest discover -s tests -q",
+    "ran": 368,
+    "passed": 366,
+    "skipped": 2,
+    "result": "OK",
+    "execution": "outside sandbox for localhost HTTP tests"
+  },
+  "heldout_projects_used": 0,
+  "llm_api_calls": 0
+}

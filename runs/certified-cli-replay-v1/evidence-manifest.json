@@ -1,0 +1,87 @@
+{
+  "bindings": {
+    "SPDXRef-Package-python-certifi-dc77913862cec55d": "aef981814647f8aaa912074d35a010c477e69a4e99408576863d449b81e87c35",
+    "SPDXRef-Package-python-charset-normalizer-8970e673978e9ea8": "ae07a50ebf7ebe51e6d778b8a4e94c3d487d39b8b40f3dfd2589d926f846db25",
+    "SPDXRef-Package-python-idna-74a748adbda627c4": "5e3ed78422ee2f8705994405a0df127b1161c25c45bdd63614e485c3d14e7772",
+    "SPDXRef-Package-python-pip-e327c8cc747f6ab9": "c3704b61cdf334d68812fa9919cc6bf173e68681d1933a7fd1c0045c68f6f493",
+    "SPDXRef-Package-python-requests-baa470e38e9ea469": "3c31c591f08659c8cf6dfbb1f5c9ba131726327e1c0d21b3acab496c6668b7f8",
+    "SPDXRef-Package-python-setuptools-8f8f89fbb5224ccd": "66b54b9b013c9555fa35b4df9e761ede7843fa30c4124827e12b42cc5bb605e3",
+    "SPDXRef-Package-python-urllib3-05d1f813da9b2934": "3567c3c7b582f6c341191fd945cbb5a79e565473fa9504d8a3b7499c8839e69f"
+  },
+  "inventory_complete": true,
+  "observation_sha256": "1a50edbbd33089237de6022731de7d7a8963b395e4a4514943ca2efd5b41f610",
+  "schema_version": "reconciliation-evidence-v2",
+  "sources": [
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:04:12.712426Z",
+      "bytes": 2475,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/certifi-2025.11.12.dist-info/METADATA",
+      "path": "sources/2dab420824af446ea38c0c06321e3dd501ebd5e0aca7a39692a0fef79b0ba14c.metadata",
+      "sha256": "fc9a6b1aeff595649d1e5aee44129ca2b5e7adfbc10e1bd7ffa291afc1d06cb7",
+      "source_id": "2dab420824af446ea38c0c06321e3dd501ebd5e0aca7a39692a0fef79b0ba14c"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:04:12.712426Z",
+      "bytes": 37303,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/charset_normalizer-3.4.4.dist-info/METADATA",
+      "path": "sources/acdefd403b729f00f791f5bf1a1f30cd1ab3899d3f02392903ef377b5984184c.metadata",
+      "sha256": "8d5b94141b62f1d6afd7d60bbd68acb138a155d176a33518e0a28cc3b8dd9014",
+      "source_id": "acdefd403b729f00f791f5bf1a1f30cd1ab3899d3f02392903ef377b5984184c"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:04:12.712426Z",
+      "bytes": 8378,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/idna-3.11.dist-info/METADATA",
+      "path": "sources/438671f67bc16d1f17ec5119c80d97aa80f2557d808a222e9d0167e5faa9cc38.metadata",
+      "sha256": "7c2c12c30f52ba237c4c81e59454804944025b9e6102cf1dcca9ebf5168411b0",
+      "source_id": "438671f67bc16d1f17ec5119c80d97aa80f2557d808a222e9d0167e5faa9cc38"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:04:12.712426Z",
+      "bytes": 3581,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+      "path": "sources/267aa52c5367df5272664e57076f01ada5e1b09c318705cba5cadd88955c7334.metadata",
+      "sha256": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+      "source_id": "267aa52c5367df5272664e57076f01ada5e1b09c318705cba5cadd88955c7334"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:04:12.712426Z",
+      "bytes": 4945,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/requests-2.32.5.dist-info/METADATA",
+      "path": "sources/75628bfef03a2b8b7647ecde0cff3691a728e7bb83a5689a2d082ec5138517f9.metadata",
+      "sha256": "65b5a08da81f4915513e760965ff14b7518f65b7bb3efe0dab364bbcc4d40cb0",
+      "source_id": "75628bfef03a2b8b7647ecde0cff3691a728e7bb83a5689a2d082ec5138517f9"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:04:12.712426Z",
+      "bytes": 6548,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+      "path": "sources/b38ea04154f9bb7ce309e3ff049ad11017a0477763c7ed5ac4004263cb3ec047.metadata",
+      "sha256": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+      "source_id": "b38ea04154f9bb7ce309e3ff049ad11017a0477763c7ed5ac4004263cb3ec047"
+    },
+    {
+      "acquired": true,
+      "available_at": "2026-10-28T17:04:12.712426Z",
+      "bytes": 6627,
+      "kind": "installed_metadata",
+      "occurrence_path": "lib/python3.11/site-packages/urllib3-2.6.2.dist-info/METADATA",
+      "path": "sources/57e35cf90e4eb07a9aa364438644f2d381141ffc063e52293fa9f8ee0702bcb2.metadata",
+      "sha256": "532da8b2c7b39b017e837451b0d9c946061a2ec4a9e04d4161e487166a731a53",
+      "source_id": "57e35cf90e4eb07a9aa364438644f2d381141ffc063e52293fa9f8ee0702bcb2"
+    }
+  ],
+  "target_id": "07aea7b2ff54bd849c28df69f9f3aa33c31d802141aacd585a23421bc31f8ffd"
+}
