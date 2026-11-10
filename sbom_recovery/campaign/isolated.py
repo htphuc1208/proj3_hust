@@ -42,7 +42,7 @@ def build_worker_image():
 
 
 class IsolatedBroker:
-    def __init__(self, document, store, context, budget=64, sources=None, active=False, image=None, calibration=None):
+    def __init__(self, document, store, context, budget=64, sources=None, active=False, image=None):
         self.document, self.context, self.budget = deepcopy(document), context, budget
         self.host_store = store
         self.trace, self.active = [], active
@@ -64,7 +64,7 @@ class IsolatedBroker:
                 shutil.copyfile(source["path"], target)
                 source["path"] = "/artifacts/" + key
         save(inputs / "config.json", {"document": document, "context": context.model_dump() if context else None,
-             "budget": budget, "active": active, "sources": bound_sources, "calibration": calibration})
+             "budget": budget, "active": active, "sources": bound_sources})
         self.name = "sbom-agent-" + uuid.uuid4().hex
         if image is None:
             image = load(ROOT / "research/.work/agent-worker-image/image.json")["image"]

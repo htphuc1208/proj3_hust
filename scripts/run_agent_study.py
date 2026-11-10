@@ -53,7 +53,6 @@ def status(out):
 
 def execute(args, key):
     from sbom_recovery.__main__ import benchmark
-    from sbom_recovery.calibration import extract_decisions, fit_project_conformal
     from sbom_recovery.campaign import summarize
     from sbom_recovery.freeze import freeze
     from sbom_recovery.reporting import report
@@ -66,7 +65,7 @@ def execute(args, key):
     # inherited by a detached controller and held until all workers finish.
     lock = (out / "controller.lock").open("a+")
     fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
-    plan = {"schema_version": "agent-study-v2", "runner_sha256": digest(__file__),
+    plan = {"schema_version": "agent-study-v3-no-conformal", "conformal": "REMOVED", "runner_sha256": digest(__file__),
             "cohort": args.cohort, "cohort_sha256": digest(args.cohort), "captures": args.captures,
             "development_runs": args.development_runs, "snapshot": args.snapshot,
             "snapshot_sha256": digest(args.snapshot), "workers": args.workers,
@@ -81,7 +80,6 @@ def execute(args, key):
              "completed_stages": [], "plan_sha256": digest(out / "plan.json")}
     save(out / "state.json", state)
     selection_file = out / "model-selection.json"
-    calibration_file = out / "calibration/conformal.json"
     try:
         while True:
             pending = []
@@ -121,20 +119,12 @@ def execute(args, key):
             options.update(command="benchmark", cohort=args.cohort, captures=args.captures,
                 out=str(root), workers=args.workers, projects=None, model=None,
                 selection=str(selection_file), single_scanner=None,
-                calibration=str(calibration_file) if spec["phase"] == "test" else None, ask_key=False)
+                ask_key=False)
             result = benchmark(argparse.Namespace(**options), secret=key)
             progress = load(root / "progress.json")
             if progress["completed_cases"] != spec["expected_cases"]:
                 raise ValueError("Completed case count differs from the frozen study matrix")
-            if spec["phase"] == "calibration":
-                decisions = root / "decisions.json"
-                extract_decisions(root, args.captures, decisions)
-                extract_decisions(root, args.captures, root / "all-proposals-decisions.json", eligible_only=False)
-                fitted = fit_project_conformal(load(decisions))
-                if calibration_file.exists() and load(calibration_file) != fitted:
-                    raise ValueError("Calibration changed across resume")
-                save(calibration_file, fitted)
-            else:
+            if spec["phase"] == "test":
                 score_campaign_security(root, args.captures, args.snapshot)
                 summarize(out / "test")
                 report(out / "test", out / "report")

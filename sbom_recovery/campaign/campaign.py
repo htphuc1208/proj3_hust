@@ -125,7 +125,7 @@ def flat_scores(evaluation):
 
 def run_case(capture_dir, destination, *, condition="fixed", family="raw", rate=0., mask_seed=11,
              methods=("observed", "single_scanner", "sbom_unifier", "unifier_rules", "deterministic", "single_agent", "multi_agent"),
-             budget=64, model=None, gateway=None, repetition=0, isolated=True, max_turns=64, calibration=None,
+             budget=64, model=None, gateway=None, repetition=0, isolated=True, max_turns=64,
              single_scanner="syft", mask_origin="scanner"):
     root, out = Path(capture_dir), Path(destination)
     out.mkdir(parents=True, exist_ok=True)
@@ -181,7 +181,6 @@ def run_case(capture_dir, destination, *, condition="fixed", family="raw", rate=
                 "input_sha256": sha(observed), "context_sha256": sha(context.model_dump())}
         spec["input_origin"] = preparation["input_origin"]
         spec["input_preparation_sha256"] = sha(preparation)
-        spec["calibration_sha256"] = sha(calibration) if calibration else None
         spec["single_scanner"] = single_scanner
         spec["evidence_input_sha256"] = sha(evidence_binding)
         spec["implementation_sha256"] = sha({p.name: digest(p) for p in Path(__file__).parent.glob("*.py")})
@@ -225,8 +224,8 @@ def run_case(capture_dir, destination, *, condition="fixed", family="raw", rate=
                 if {k: {f: v for f, v in source.items() if f != "path"} for k, source in sources.items()} != evidence_binding["sources"]:
                     raise ValueError("Evidence sources changed during a paired case")
                 save(arm / "initial_evidence_manifest.json", store.manifest())
-                broker = IsolatedBroker(broker_input, store, context, budget, sources, condition == "active", calibration=calibration) if isolated else ToolBroker(
-                    broker_input, store, context, budget, sources, condition == "active", calibration)
+                broker = IsolatedBroker(broker_input, store, context, budget, sources, condition == "active") if isolated else ToolBroker(
+                    broker_input, store, context, budget, sources, condition == "active")
                 try:
                     if method in ("deterministic", "unifier_rules"):
                         details = broker.deterministic() if isolated else deterministic_policy(broker)

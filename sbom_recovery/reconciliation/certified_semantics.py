@@ -56,7 +56,7 @@ def initial_extras(context, inventory):
 
 
 def activation_bounds(view, context):
-    """Construct lower derivations and an upper inductive invariant.
+    """Compute known and possible active extras conservatively.
 
     In the all-installed declaration scope every distribution contributes its
     base requirements. An unread installed parent may request a child's extra;
@@ -64,12 +64,11 @@ def activation_bounds(view, context):
     Other local proofs (closed declarations/platform-false guards) still work.
     """
     known = initial_extras(context, view.inventory)
-    steps = []
     changed = True
     while changed:
         changed = False
         for key, item in sorted(view.distributions.items()):
-            for index, _, req in item.requirements:
+            for _, _, req in item.requirements:
                 child = view.unique_child(req)
                 if (child is None
                         or not req.extras or marker_bounds(req, context, known[key]) is not True):
@@ -77,13 +76,11 @@ def activation_bounds(view, context):
                 additions = {canonicalize_name(e) for e in req.extras} - known[child]
                 if additions:
                     known[child].update(additions)
-                    steps.append({"source_id": item.source_id, "requirement_index": index,
-                                  "child_occurrence": child})
                     changed = True
     upper = initial_extras(context, view.inventory)
     if (not context.root_requests_complete or set(context.root_requests) - view.inventory
             or not view.complete_inventory()):
-        return known, None, steps
+        return known, None
     changed = True
     while changed:
         changed = False
@@ -93,10 +90,10 @@ def activation_bounds(view, context):
                     continue
                 matches = view.matching_children(req)
                 if req.url or not matches:
-                    return known, None, steps
+                    return known, None
                 for child in matches:
                     additions = {canonicalize_name(e) for e in req.extras} - upper[child]
                     if additions:
                         upper[child].update(additions)
                         changed = True
-    return known, upper, steps
+    return known, upper

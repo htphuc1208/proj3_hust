@@ -29,7 +29,7 @@ def proposals_from_claims(document, claims):
     return result
 
 
-def verify(document, store, context, proposals, validate_schema=True, calibration=None):
+def verify(document, store, context, proposals, validate_schema=True):
     original = sha(document)
     native = NativeDocument(document)
     claims = store.claims(document, context)  # Re-derive from digest-checked bytes, never model descriptions.
@@ -75,11 +75,6 @@ def verify(document, store, context, proposals, validate_schema=True, calibratio
         if not any(c["authority"] == "VERIFIED_TARGET" for c in matches):
             supported.append({"proposal": data, "status": "SUPPORTED", "reason": "CONTEXT_UNCERTAIN" if context is None else "NOT_TARGET_VERIFIED"})
             continue
-        if calibration is not None:
-            from .calibration import prediction_set
-            if prediction_set(calibration, 1.)["decision"] != "SUPPORTED":
-                supported.append({"proposal": data, "status": "UNKNOWN", "reason": "CONFORMAL_ABSTENTION"})
-                continue
         touch = (p.operation, p.subject, p.field)
         if p.operation == "set_field" and touch in touched and touched[touch] != p.value:
             rejected.append({"proposal": data, "reason": "CONFLICTING_PROPOSALS"})
@@ -106,7 +101,7 @@ def verify(document, store, context, proposals, validate_schema=True, calibratio
     return {"schema_version": "verification-v1", "accepted": accepted, "supported": supported,
             "rejected": rejected, "document": native.data, "validation": validation,
             "input_sha256": original, "output_sha256": sha(native.data),
-            "confidence": None, "calibration": calibration or "UNMEASURED", "path_absence_status": "UNKNOWN",
+            "confidence": None, "path_absence_status": "UNKNOWN",
             "unresolved": getattr(store, "last_diagnostics", []),
             "verification_scope": "TARGET_METADATA_DECLARATIONS_ONLY; executable contents and runtime use unverified",
             "openvex_status": "under_investigation"}

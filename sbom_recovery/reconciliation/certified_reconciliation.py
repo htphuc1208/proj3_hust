@@ -1,4 +1,4 @@
-"""Evidence-scoped, proof-carrying reconciliation of installed declarations."""
+"""Evidence-scoped reconciliation with per-edge explanations."""
 from __future__ import annotations
 
 from collections import Counter
@@ -10,17 +10,16 @@ import hashlib
 from packaging.utils import canonicalize_name
 
 from sbom_recovery.core.formats import NativeDocument, sha, validate_native
-from .contracts_v2 import ContextKnowledgeV2, DecisionCertificateV2, ReconciliationDecisionV2, SCOPE
+from .contracts_v2 import ContextKnowledgeV2, ReconciliationDecisionV2, SCOPE
 from .certified_evidence import EvidenceView, read_bundle
 from .certified_semantics import activation_bounds, marker_bounds
-from .certificate_checker import check_decisions
 
-POLICY = "certified-reconciliation-v2"
+POLICY = "evidence-reconciliation-v2"
 
 
 def propose(document, context, manifest, acquired):
     view = EvidenceView(document, context, manifest, acquired)
-    known, upper, steps = activation_bounds(view, context)
+    known, upper = activation_bounds(view, context)
     observed = NativeDocument(document).edges()
     candidates = set(observed)
     for ref, key in view.bound.items():
@@ -40,9 +39,9 @@ def propose(document, context, manifest, acquired):
             matching = [r for r in parent.requirements if canonicalize_name(r[2].name) == child.name]
             active = [r for r in matching if view.unique_child(r[2]) == child_key
                       and marker_bounds(r[2], context, known[parent_key]) is True]
-            rule, indices, completeness, invariant = None, [], [], None
+            rule, citations = None, []
             if active:
-                rule, indices = "ACTIVE_DECLARATION", [active[0][0]]
+                rule, citations = "ACTIVE_DECLARATION", [active[0]]
                 row.update(status="SUPPORTED", operation="keep" if (source, target) in observed else "add",
                            reason=rule)
             elif (source, target) in observed and parent.complete:
@@ -52,26 +51,29 @@ def propose(document, context, manifest, acquired):
                                        upper[parent_key] if upper is not None else None) is False
                          for _, _, req in matching):
                     rule = "ALL_MATCHING_DECLARATIONS_INACTIVE"
-                    if not all(marker_bounds(req, context, known[parent_key]) is False for _, _, req in matching):
-                        invariant = {k: sorted(v) for k, v in upper.items()}
                 if rule:
                     row.update(status="REFUTED", operation="retract", reason=rule)
-                    indices = [r[0] for r in matching]
-                    completeness = [{"occurrence_id": parent_key, "source_id": parent.source_id}]
-            if rule:
-                row["certificate"] = DecisionCertificateV2(
-                    rule=rule, input_sha256=sha(document), context_sha256=sha(context.model_dump()),
-                    evidence_sha256=sha(view.manifest.model_dump()), parent_occurrence=parent_key,
-                    child_occurrence=child_key, requirement_indices=indices, completeness=completeness,
-                    activation_steps=steps, activation_upper=invariant)
-            else:
+                    citations = matching
+            row["explanation"] = {
+                "source_id": parent.source_id,
+                "parent_metadata_path": parent.path,
+                "child_metadata_path": child.path,
+                "parent_declarations_complete": parent.complete,
+                "known_parent_extras": sorted(known[parent_key]),
+                "possible_parent_extras": sorted(upper[parent_key]) if upper is not None else None,
+                "requirements": [{"index": index, "declaration": literal,
+                    "marker_result": marker_bounds(req, context, known[parent_key],
+                        upper[parent_key] if upper is not None else None)}
+                    for index, literal, req in (citations if rule else matching)],
+            }
+            if not rule:
                 row["reason"] = "INCOMPLETE_DECLARATIONS_CONTEXT_OR_ENDPOINT_RESOLUTION"
         decisions.append(ReconciliationDecisionV2(**row))
     return decisions, view.diagnostics
 
 
-def apply_checked(document, decisions):
-    """Internal application; callers must first check the complete decision set."""
+def apply_decisions(document, decisions):
+    """Apply decisions produced by the reconciliation rules."""
     native = NativeDocument(document)
     retract = {(d.source_ref, d.target_ref) for d in decisions if d.operation == "retract"}
     for decision in decisions:
@@ -93,21 +95,20 @@ def apply_checked(document, decisions):
     return native.data
 
 
-def reconcile_certified(document, context, manifest, acquired):
+def reconcile_evidence(document, context, manifest, acquired):
     context = ContextKnowledgeV2.model_validate(context.model_dump() if isinstance(context, ContextKnowledgeV2) else context)
     before = sha(document)
     decisions, diagnostics = propose(document, context, manifest, acquired)
-    verification = check_decisions(document, context, manifest, acquired, decisions)
-    derived = apply_checked(document, decisions)
+    derived = apply_decisions(document, decisions)
     validation = validate_native(derived)
     evidence_view = EvidenceView(document, context, manifest, acquired)
     if sha(document) != before:
         raise AssertionError("Reconciliation mutated the observation")
-    return {"schema_version": "certified-reconciliation-result-v2", "policy": POLICY,
+    return {"schema_version": "evidence-reconciliation-result-v2", "policy": POLICY,
             "document": derived, "decisions": [d.model_dump() for d in decisions],
             "counts": dict(Counter(d.status for d in decisions)),
             "operations": dict(Counter(d.operation for d in decisions)), "diagnostics": diagnostics,
-            "verification": verification, "validation": validation,
+            "validation": validation,
             "input_sha256": before, "output_sha256": sha(derived), "context_sha256": sha(context.model_dump()),
             "evidence_sha256": sha(evidence_view.manifest.model_dump()),
             "bindings": {"declared": len(evidence_view.manifest.bindings), "bound": len(evidence_view.bound),
@@ -115,6 +116,10 @@ def reconcile_certified(document, context, manifest, acquired):
                          "complete_identity_inventory": evidence_view.complete_identities()},
             "scope": SCOPE, "path_absence_status": "UNKNOWN", "confidence": None,
             "exploitability": "UNMEASURED", "llm_api_calls": 0}
+
+
+# Keep existing Python integrations working while the CLI uses the new policy.
+reconcile_certified = reconcile_evidence
 
 
 def run(input_path, context_path, evidence_path, out):
@@ -125,7 +130,7 @@ def run(input_path, context_path, evidence_path, out):
     document = json.loads(input_bytes)
     context = ContextKnowledgeV2.model_validate_json(Path(context_path).read_text())
     manifest, acquired = read_bundle(evidence_path)
-    result = reconcile_certified(document, context, manifest, acquired)
+    result = reconcile_evidence(document, context, manifest, acquired)
     derived = result.pop("document")
     out.mkdir(parents=True, exist_ok=False)
     (out / "observation.json").write_bytes(input_bytes)

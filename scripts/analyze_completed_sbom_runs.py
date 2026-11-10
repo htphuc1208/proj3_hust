@@ -359,7 +359,7 @@ Installed metadata is an information-sufficient control for many cases and share
 
 ## Actionable Next Steps
 
-The existing controller will finish all 80 calibration cases, fit the preregistered abstention policy, then run the held-out raw, controlled-reference and budget-sensitivity matrices. No threshold/model is retuned using this report. Held-out AI superiority is **not established** by source completeness, baseline-only results, or development diagnostics. The decision requires completed paired held-out agent/control results, confidence intervals and error/coverage review.
+Historical frozen controllers retain their recorded calibration policy. Current working-tree runners perform no conformal fitting; the partition named calibration supplies diagnostic measurements only, followed by the raw, controlled-reference and budget-sensitivity matrices. No threshold/model is retuned using this report. Held-out AI superiority is **not established** by source completeness, baseline-only results, or development diagnostics. The decision requires completed paired held-out agent/control results, confidence intervals and error/coverage review.
 
 Inspect `runs/m25-agent-study-v2/state.json` and run `python -B scripts/run_agent_study.py --out runs/m25-agent-study-v2 --status` for live progress.
 

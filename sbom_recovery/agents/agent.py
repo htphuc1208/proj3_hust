@@ -54,11 +54,10 @@ def native_tools():
 
 
 class ToolBroker:
-    def __init__(self, document, store, context, budget=64, sources=None, active=False, calibration=None):
+    def __init__(self, document, store, context, budget=64, sources=None, active=False):
         self.document, self.store, self.context = deepcopy(document), store, context
         self.budget, self.sources, self.active = budget, sources or {}, active
         self.trace, self.acquired = [], set()
-        self.calibration = calibration
 
     def call(self, name, arguments, proposals=None):
         if len(self.trace) >= self.budget:
@@ -145,12 +144,12 @@ class ToolBroker:
         if name == "verify":
             if args:
                 raise ValueError("verify arguments must be empty")
-            result = verify(self.document, self.store, self.context, proposals or [], calibration=self.calibration)
+            result = verify(self.document, self.store, self.context, proposals or [])
             return {k: v for k, v in result.items() if k != "document"}
         raise ValueError("TOOL_NOT_ALLOWED")
 
     def finalize(self, proposals):
-        return verify(self.document, self.store, self.context, proposals, calibration=self.calibration)
+        return verify(self.document, self.store, self.context, proposals)
 
 
 def deterministic_policy(broker):

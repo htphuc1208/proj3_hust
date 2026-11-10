@@ -58,6 +58,7 @@ class RecoveryTests(unittest.TestCase):
         self.assertTrue(result["validation"]["valid"], result["validation"])
         self.assertIn(("a", "b"), NativeDocument(result["document"]).edges())
         self.assertEqual(doc, before)
+        self.assertNotIn("calibration", result)
         self.assertEqual(result["document"]["properties"], before["properties"])
 
     def test_missing_component_recovery_is_target_bound(self):
@@ -268,12 +269,8 @@ class RecoveryTests(unittest.TestCase):
         self.assertEqual(len(peers),2)  # Exact duplicate scanner documents are redundant.
         self.assertIn(("a","b"),NativeDocument(peers[1][1]).edges())
 
-    def test_conformal_rejects_test_labels_and_zero_advisory_denominator(self):
-        from sbom_recovery.calibration import fit_project_conformal, prediction_set
+    def test_vulnerability_recovery_and_zero_advisory_denominator(self):
         from sbom_recovery.security import vulnerability_recovery
-        with self.assertRaises(ValueError):
-            fit_project_conformal([{"partition": "test", "project": "x", "score": 1., "correct": True}])
-        self.assertEqual(prediction_set(fit_project_conformal([]), 1.)["decision"], "UNKNOWN")
         vrr = vulnerability_recovery({("a","b")}, set(), {("a","b")}, {"a"}, {"b": ["ADVISORY-TEST"]})
         self.assertEqual(vrr["vrr_after"], 1.)
         self.assertEqual(vulnerability_recovery(set(),set(),set(),{"a"},{})["vrr_after"], None)

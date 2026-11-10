@@ -1,99 +1,52 @@
-# Certified SBOM reconciliation V2
+# Evidence-based SBOM reconciliation V2
 
-## Research question and status
+## Current behavior
 
-When is the available, target-bound evidence sufficient to add or retract a
-declared distribution dependency? V2 implements a conservative decision
-procedure and executable certificates. Implementation/tests do not establish
-novelty, empirical superiority, or acceptance at ICSE/FSE.
+The `reconcile` command directly evaluates installed declarations and writes a
+derived SBOM plus a reason and metadata explanation for each assessed edge.
+Certificate generation, certificate contracts and the separate certificate
+checker have been removed. This changes the implementation; historical frozen
+runs and their certificate-based results remain historical artifacts.
 
-The development protocol is frozen in
-[`configs/certified-reconciliation-v2.json`](../configs/certified-reconciliation-v2.json).
-It uses old development roots only. The new 20/20/60 cohort is not consumed by
-this experiment. Human audit and external tool comparisons remain explicit
-uncompleted research tasks, not synthetic or LLM-generated achievements.
+The graph covers declared direct requirements of installed Python distributions
+in one explicit installation directory. Base requirements of every installed
+distribution participate; requested extras propagate through requirements.
+This does not establish runtime imports, executed code or exploitability.
 
-## Semantic contract
+`ContextKnowledgeV2` contains nullable marker values, `root_requests` and
+`root_requests_complete`. Missing extra seeds mean no requested extras only
+when the latter flag is true. Otherwise knowledge is incomplete. Context authors
+and the metadata collector remain trusted sources of input assertions.
 
-The graph covers the **declared direct requirements of installed Python
-distributions in one explicit installation directory**. It does not describe
-imports, executable contents or exploitability. Base requirements of every
-installed distribution participate. Requested extra seeds are explicit; extras
-propagate through requirements to a least fixed point. No-path remains UNKNOWN.
+Evidence is bound to a target digest and physical metadata locations. PURL
+equality alone does not bind a physical occurrence. Registry metadata does not
+become evidence of a target installation. Missing or ambiguous metadata does not
+justify negative conclusions. Unknown context is never filled from the host.
 
-`ContextKnowledgeV2` uses nullable marker values and a separate
-`root_requests_complete` flag. An omitted extra seed means no requested extra
-only when this flag is true. Otherwise it is incomplete knowledge. This flag is
-a trusted context assertion, not an inference from package presence or pip's
-historical install flags. The development adapter preserves the existing
-all-installed/base-declaration reference profile and states this in each job.
+## Decision rules and explanations
 
-Evidence is bound to a target digest and physical `occurrence_path`, with native
-SPDX CONTAINS/file locations, Syft's anchored installed-manifest `sourceInfo`
-template, or explicit CycloneDX metadata-path properties.
-PURL equality alone cannot bind an occurrence. Multiple compatible installed
-occurrences prevent unique endpoint resolution. Unread metadata cannot certify
-that a visible compatible endpoint is unique. Registry evidence never acquires
-target authority. Source/vendored records are retained outside this scope.
+- `ACTIVE_DECLARATION`: an installed Requires-Dist declaration, a unique compatible
+  child and a definitely true condition support adding or keeping the edge.
+- `NO_MATCHING_DECLARATION`: complete supported parent metadata with no matching
+  declaration supports retracting an observed edge.
+- `ALL_MATCHING_DECLARATIONS_INACTIVE`: every matching declaration must have a
+  definitely false condition to retract an observed edge. Possible extra
+  activation remains conservative when context or metadata is incomplete.
+- `UNKNOWN` and `CONFLICT`: abstain; observed edges remain in the derived graph.
 
-The observed document is defeasible, immutable evidence. It is not a set of hard
-constraints: an explicit empty declaration may be contradicted and repaired in
-a derived view. `SUPPORTED`, `REFUTED`, `UNKNOWN` and `CONFLICT` are separate.
-Conflicting target evidence cannot authorize modifications.
+Each decision records `operation`, `status`, `reason` and `explanation`. For bound
+endpoints, the explanation contains the parent evidence source ID, parent/child
+metadata paths, parent completeness, known/possible parent extras and relevant
+literal declarations with marker evaluation results (`true`, `false`, or `null`
+for unknown). These are explanations, not independently checked proofs.
+Input/context/evidence hashes remain recorded at result level for provenance.
 
-## Rules and proof obligations
-
-* `ACTIVE_DECLARATION`: a literal Requires-Dist citation, unique compatible
-  physical child and a definitely true guard authorize add/keep.
-* `NO_MATCHING_DECLARATION`: a fully parsed, supported-version installed parent
-  METADATA and zero matching declarations authorize retraction in this scope.
-* `ALL_MATCHING_DECLARATIONS_INACTIVE`: cite **all** matching declarations and
-  prove every guard false. Extras-dependent negatives additionally require a
-  checked upper activation invariant when the guard cannot otherwise be refuted.
-
-Missing metadata, malformed requirements, old unsupported dependency fields,
-unknown metadata completeness, unresolved URL/version binding and unknown
-context do not become negative evidence. Installed `Dynamic` is informational;
-sdist metadata is not accepted as installed evidence. The collector and context
-author are part of the trust assumptions; SHA-256 proves byte binding, not truth.
-
-The separate checker does not call the proposal generator or its fixed-point
-construction. It verifies a finite lower derivation and checks that the supplied
-upper invariant contains seeds and is closed under every possibly activating
-requirement. Parsing, native indexing and conservative marker evaluation are
-shared trusted code. Certificates are computational derivations, not
-cryptographic attestations or proofs that the SBOM describes executed code.
-
-### Soundness argument within the supported fragment
-
-Assume the collector's target/inventory/location assertions and supplied context
-are correct, the installed declarations are the intended relation, and parsing
-and marker evaluation obey the stated semantics. Known extra seeds are in every
-compatible completion. Induction on lower derivation steps preserves this
-property. Each upper invariant contains the seeds and every possible propagation
-step; induction on concrete fixed-point iterations bounds all actual extras.
-Strong three-valued guard evaluation returns true/false only when every
-compatible completion agrees. Unique target binding plus a true declaration
-therefore supports an edge. Complete parent declarations plus zero matching or
-all-false declarations refute it. An unread/ambiguous parent can prevent an upper
-proof but cannot produce a false negative. These are relative soundness claims,
-not completeness or whole-program soundness claims.
-
-Local completeness is useful for no-matching declarations and platform-false
-guards even when unrelated evidence is unread. In the all-installed graph an
-unread parent may request another distribution's extra, so V2 conservatively
-requires complete activation evidence for extras-dependent upper invariants.
-It does **not** implement an unjustified optimization that calls such a parent
-irrelevant based only on absent observed paths.
-
-### Non-identifiability witness
-
-Let A declare `B; extra == "opt"`. Install B independently, then compare requests
-for A and A[opt]. The resulting inventory and METADATA can be identical while
-the activated declared edge differs. If extra-request information is hidden,
-neither an LLM nor a deterministic algorithm can identify the active graph from
-that observation alone. V2 must abstain. The executable control tests this
-knowledge distinction; it is not a real-world prevalence measurement.
+The original observation remains immutable. Input/evidence integrity checks and
+native SBOM format validation still run. Output uses policy
+`evidence-reconciliation-v2` and schema `evidence-reconciliation-result-v2`;
+there is no decision `certificate` or result `verification` field. Existing
+Python callers can still use the compatibility name `reconcile_certified`, which
+now calls `reconcile_evidence` without a certificate checker.
 
 ## CLI and evidence interface
 
@@ -117,7 +70,7 @@ against `metadata_inventory(target)`; no old context is silently promoted to V2.
 The bundle has relative paths, exact byte sizes/hashes/times, acquisition flags,
 inventory completeness and native-ref-to-occurrence bindings. All acquired files
 are re-read through contained, non-symlink paths. Output contains the original
-observation bytes, derived SBOM, decisions/certificates, validation and a seal.
+observation bytes, derived SBOM, decisions/explanations, validation and a seal.
 Invalid native candidates are named `candidate-invalid.json`. Old capture
 timestamps remain capture metadata; new execution time is in the seal.
 Legacy proposal contracts and recovery policies are unchanged.
@@ -132,75 +85,23 @@ Replay a real, already staged development case without Docker or reference acces
   --out runs/certified-example-new
 ```
 
-## Development experiment and stopping rule
+## Historical development artifacts
+
+The [development findings](CERTIFIED_RECONCILIATION_FINDINGS_VI.md), frozen
+`runs/certified-development-*` bundles, study configuration and recorded results
+refer to the earlier certificate-based version. They have not been remeasured
+for the current implementation. Historical runner method ID `certified_v2` is
+retained for compatibility; current executions record the new policy in details.
+
+The historical V2 tied its strong metadata control in 60/60 paired development
+cases. No accuracy superiority, novelty, runtime exploitability or triage benefit
+is established. Held-out evaluation and human audit remain uncompleted.
+
+The development runner is available as an engineering regression comparison:
 
 ```bash
-.venv/bin/python -B scripts/run_certified_development.py \
-  --out runs/certified-development-new
+.venv/bin/python -B scripts/run_certified_development.py --out runs/reconciliation-development-new
 ```
 
-The completed final development run is `runs/certified-development-v4`; earlier
-engineering runs are preserved with validity notes. To re-score verified sealed
-predictions in a fresh directory without inference, Docker or API calls:
-
-```bash
-.venv/bin/python -B scripts/run_certified_development.py \
-  --rescore-from runs/certified-development-v4 --out runs/certified-analysis-new
-```
-
-The runner requires the pinned Docker image and existing captures. It freezes
-the dirty working-tree source, runner, configuration and protocol. Each of 20
-old development roots has full evidence, controlled context withholding and
-controlled 50% metadata withholding (source-ID ranking, seed 42). Unacquired
-files and hidden legacy context are physically absent from worker mounts.
-Workers have no network, target or oracle mount. The scorer verifies **all**
-prediction seals before reading frozen references, then checks their input hashes
-and pre-existing reference-manifest binding.
-
-Observed, legacy additive/reconciliation, strong conservative metadata
-interpretation and certified V2 are compared. The legacy context-unknown case is
-explicitly unsupported and keeps its observation. The strong control shares
-semantic primitives but uses direct interpretation, without certificates or the
-proposal generator. A tie is an informative outcome, not an ablation failure to
-be tuned away. Raw/native graph scores and changes remain separate; ambiguous
-occurrences have unknown change labels under coordinate-level old references.
-
-Co-primary outcomes are incorrect known changes / known changes and determinate
-observed edges / observed native dependency edges. Whole-edge precision/recall/F1
-are secondary. Unknown-change counts and optimistic/pessimistic risks are
-reported. Null denominators remain null. Project-level bootstrap/randomization
-uses 10,000 draws, 95% intervals and Holm correction for frozen contrasts. Shared
-dependencies and selected single-environment roots limit independence. Review
-packets select up to 40 add/retract/abstain tasks each; empty forms count as zero
-human reviews. When fewer tasks exist, the shortfall is explicit.
-
-If V2 ties the strong semantic control throughout complete development,
-**do not run the new held-out cohort to claim accuracy superiority for V2**.
-Preserve the result and reassess the scientific contribution of independently
-checkable certificates. Completing code is not completing an A* publication.
-
-## Literature and intended differences
-
-| Source | Inheritance and limit |
-| --- | --- |
-| [Yu et al., DSN 2024](https://www.cs.ucr.edu/~heng/pubs/sbom-dsn24.pdf) | Differential scanner errors/parser patterns motivate controls; omissions alone are established. |
-| [Cofano et al., TrustCom 2024](https://arxiv.org/abs/2409.01214) | Python versions, metadata and optional-dependency semantics motivate controlled cases. |
-| [SIT, ICSE 2025 Demonstrations](https://doi.org/10.1109/ICSE-Companion66252.2025.00013) | Incremental construction/cross-validation are prior art; no first-repair claim. |
-| [sbom-unifier, ICSME 2026 Tool Demonstrations](https://arxiv.org/abs/2608.30708) | Field complementation is distinct from edge correctness. |
-| [SAP, TOSEM 2026](https://doi.org/10.1145/3788692) | Compliance, consistency and correctness require separate measurement and frozen tools. |
-| [No Edges, No Verdict, preprint v4](https://arxiv.org/html/2607.22140v4) | Missing graph paths do not prove unreachable; existing edges also require checking. |
-| [Reality Check, CODASPY 2026 v2](https://arxiv.org/html/2511.20313v2) | Package accuracy and downstream vulnerability applicability remain distinct. |
-| [Libkin, Artificial Intelligence 2016](https://doi.org/10.1016/j.artint.2015.11.004) | Certain answers/possible worlds are foundations, not a new SBOM theorem. |
-| [Razniewski & Nutt, PVLDB 2011](https://www.vldb.org/pvldb/vol4/p749-razniewski.pdf) | Query-local completeness inspires per-decision proof obligations. |
-
-## Remaining research gates
-
-Natural-case mechanism diversity and novelty need assessment against strong
-controls; human audit is pending. CycloneDX Python environment, SIT and a new
-scope-matched unifier comparison have not been run by this development runner.
-Family verification, preregistration and frozen-method validation must precede
-any new held-out study. Scientific claims about security impact, calibrated
-coverage, multi-ecosystem generality and AI advantage are not made.
-
-The [measured findings and research decision](CERTIFIED_RECONCILIATION_FINDINGS_VI.md)
-record the current stopping-gate outcome and remaining human work.
+It requires existing captures and the pinned Docker image. Current runs use the
+current source snapshot; replay historical results from their frozen bundles.

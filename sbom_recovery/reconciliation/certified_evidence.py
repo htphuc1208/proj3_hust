@@ -1,7 +1,6 @@
 """Target-bound, location-checked evidence, shared as an explicit trusted base.
 
-Parsing and identity checks are shared with the certificate checker. Neither
-oracle labels nor a public registry can confer target authority here.
+Neither oracle labels nor a public registry can confer target authority here.
 """
 from __future__ import annotations
 

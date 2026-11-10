@@ -90,6 +90,20 @@ class InterimSnapshotTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "different permitted"):
             paired_case(changed)
 
+    def test_current_panel_needs_no_calibration_artifact(self):
+        rows = [{k: v for k, v in row.items() if k != "calibration_sha256"}
+                for row in self.rows]
+        paired_case(rows)
+
+    def test_historical_panel_still_checks_calibration_binding(self):
+        changed = deepcopy(self.rows)
+        changed[-1]["calibration_sha256"] = "other"
+        with self.assertRaisesRegex(ValueError, "different permitted"):
+            paired_case(changed)
+        changed[-1].pop("calibration_sha256")
+        with self.assertRaisesRegex(ValueError, "different permitted"):
+            paired_case(changed)
+
     def test_three_repetitions_are_required_for_complete_project_panel(self):
         self.assertEqual(completed_project_rows(self.rows, 3), [])
         all_repetitions = [{**row, "repetition": rep} for rep in range(3) for row in self.rows]

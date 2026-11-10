@@ -16,7 +16,7 @@ from sbom_recovery.agents.agent import ToolBroker, deterministic_policy
 from sbom_recovery.evidence.evidence import EvidenceStore
 from .contracts_v2 import ContextKnowledgeV2
 from .certified_evidence import EvidenceView, in_scope, read_bundle
-from .certified_reconciliation import reconcile_certified
+from .certified_reconciliation import reconcile_evidence
 from .certified_baselines import metadata_control
 from .reconciliation import reconcile
 
@@ -99,7 +99,7 @@ def predict(job, out):
                 prediction, assessments = metadata_control(document, context, manifest, acquired, assessments=True)
                 details = {"decisions": assessments, "counts": dict(Counter(d["status"] for d in assessments))}
             else:
-                details = reconcile_certified(document, context, manifest, acquired)
+                details = reconcile_evidence(document, context, manifest, acquired)
                 prediction = details.pop("document")
         except Exception as exc:
             status, prediction = "POLICY_ERROR", deepcopy(document)

@@ -24,7 +24,7 @@
   "multiple_testing": "Holm",
   "unresolved_labels": "UNKNOWN; exclude from known-negative decisions and report counts",
   "vex_transition_policy": "UNMEASURED without independent product/vulnerability labels",
-  "calibration_status": "UNMEASURED until held-out calibration is fitted and evaluated",
+  "calibration_status": "REMOVED; calibration partition retained for cohort identity, no conformal fitting",
   "max_root_wheel_bytes": 20971520,
   "max_capture_bytes": 536870912,
   "collector_workers": 4,

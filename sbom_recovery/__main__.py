@@ -24,7 +24,7 @@ from .storage import save
 def main():
     parser = argparse.ArgumentParser(prog="python -m sbom_recovery")
     commands = parser.add_subparsers(dest="command", required=True)
-    r = commands.add_parser("reconcile", help="Check certificates before reconciling target-bound declared edges")
+    r = commands.add_parser("reconcile", help="Reconcile target-bound declared edges with per-edge explanations")
     for name in ("input", "context", "evidence", "out"):
         r.add_argument("--" + name, required=True)
     r = commands.add_parser("reconcile-collect", help="Collect location-bound installed METADATA without reading labels")
@@ -107,7 +107,6 @@ def main():
     r.add_argument("--model")
     r.add_argument("--selection", help="Frozen development model-selection JSON; mandatory for test LLM runs")
     r.add_argument("--single-scanner", choices=["syft","trivy"], default=None)
-    r.add_argument("--calibration", help="Optional frozen calibration JSON; can only increase abstention")
     r.add_argument("--ask-key", action="store_true")
     r.add_argument("--stream", action="store_true", help="Use SSE transport for LLM calls")
     r = commands.add_parser("source-coverage", help="Run original source-SBOM integration and native field coverage")
@@ -125,14 +124,6 @@ def main():
     r.add_argument("--cohort", required=True)
     r.add_argument("--out", required=True)
     r.add_argument("--captures")
-    r = commands.add_parser("calibrate", help="Fit project-group conformal sets on the calibration partition only")
-    r.add_argument("--decisions", required=True)
-    r.add_argument("--out", required=True)
-    r = commands.add_parser("calibration-decisions", help="Evaluation-only labels from calibration runs")
-    r.add_argument("--run", required=True)
-    r.add_argument("--captures", required=True)
-    r.add_argument("--out", required=True)
-    r.add_argument("--all-proposals", action="store_true")
     r = commands.add_parser("osv-snapshot", help="Evaluation-only retrospective OSV snapshot")
     r.add_argument("--cohort", required=True)
     r.add_argument("--captures", required=True)
@@ -229,13 +220,6 @@ def main():
     elif args.command == "select-model":
         from .selection import select_model
         result = select_model(args.runs, args.cohort, args.out, args.captures)
-    elif args.command == "calibrate":
-        from .calibration import fit_project_conformal
-        result = fit_project_conformal(load(args.decisions))
-        save(args.out, result)
-    elif args.command == "calibration-decisions":
-        from .calibration import extract_decisions
-        result = extract_decisions(args.run, args.captures, args.out, not args.all_proposals)
     elif args.command == "osv-snapshot":
         from .security import osv_snapshot
         from .metrics import graph_facts
@@ -257,11 +241,6 @@ def benchmark(args, *, secret=None):
     cohort = load(args.cohort)
     config = cohort["config"]
     args.mask_origin = getattr(args, "mask_origin", None) or ("scanner" if args.phase in {"pilot", "development"} else "reference")
-    calibration = load(args.calibration) if args.calibration else None
-    if calibration is not None:
-        allowed = {p["name"] for p in cohort["projects"] if p["partition"] == "calibration"}
-        if set(calibration["calibration_projects"]) - allowed:
-            raise ValueError("Calibration includes projects outside the calibration partition")
     if args.repetitions < 1 or not 1 <= args.max_turns <= config["max_model_turns"]:
         raise ValueError("Invalid repetition/turn count")
     if any(b not in config["tool_budgets"] for b in args.budgets):
@@ -324,14 +303,13 @@ def benchmark(args, *, secret=None):
                                         jobs.append({"capture_dir": str(capture), "destination": str(case), "condition": condition,
                                             "family": family, "rate": rate, "mask_seed": seed, "methods": args.methods,
                                             "budget": budget, "model": args.model, "repetition": repetition, "max_turns": args.max_turns})
-                                        jobs[-1]["calibration"] = calibration
                                         jobs[-1]["single_scanner"] = args.single_scanner
                                         jobs[-1]["mask_origin"] = args.mask_origin
                                         jobs[-1]["streaming"] = getattr(args, "stream", False)
                                         continue
                                     result = run_case(capture, case, condition=condition, family=family, rate=rate, mask_seed=seed,
                                         methods=args.methods, budget=budget, model=args.model, gateway=client,
-                                        repetition=repetition, max_turns=args.max_turns, calibration=calibration,
+                                        repetition=repetition, max_turns=args.max_turns,
                                         single_scanner=args.single_scanner, mask_origin=args.mask_origin)
                                     save(case / "records.json", result)
                                     records.extend(result.get("records", []))

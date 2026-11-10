@@ -33,7 +33,7 @@ METHODS = ("observed", "single_scanner", "sbom_unifier", "unifier_rules",
            "deterministic", "single_agent", "multi_agent")
 BINDINGS = ("input_sha256", "context_sha256", "evidence_input_sha256",
             "implementation_sha256", "input_preparation_sha256", "input_origin",
-            "calibration_sha256", "single_scanner", "budget", "condition", "family",
+            "single_scanner", "budget", "condition", "family",
             "rate", "mask_seed", "repetition")
 CHILDREN = []
 
@@ -61,8 +61,10 @@ def paired_case(rows):
     if len(rows) != len(METHODS) or Counter(r["method"] for r in rows) != Counter(METHODS):
         raise ValueError("All seven distinct method outcomes are required")
     first = rows[0]
+    bindings = BINDINGS + (("calibration_sha256",) if any(
+        "calibration_sha256" in r for r in rows) else ())
     for row in rows:
-        if any(k not in row or row[k] != first.get(k) for k in BINDINGS):
+        if any(k not in row or row[k] != first.get(k) for k in bindings):
             raise ValueError("Methods have different permitted input/context/evidence bindings")
         if row.get("partition") != "test" or row["family"] != "raw":
             raise ValueError("This checkpoint exports the held-out raw track only")

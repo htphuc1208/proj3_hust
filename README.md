@@ -65,19 +65,27 @@ Or directly via unittest:
 
 ---
 
-## Certified reconciliation V2
+## Evidence-based reconciliation V2
 
 The `reconcile-collect` and `reconcile` commands bind installed metadata to
-physical occurrences, represent unknown context explicitly, and check executable
-certificates before adding or retracting declared dependency edges. Legacy
-recovery policies remain available.
+physical occurrences, represent unknown context explicitly, and directly apply
+semantic rules to add or retract declared dependency edges. Each decision has a
+reason and metadata explanation in `assessment.json`. Certificate generation and
+the separate certificate checker have been removed from the current flow.
+Native SBOM validation and input/evidence integrity checks still run.
 
-See the [protocol and CLI guide](research/CERTIFIED_RECONCILIATION.md),
-[development findings](research/CERTIFIED_RECONCILIATION_FINDINGS_VI.md), and
-[final frozen development report](runs/certified-development-v4/REPORT.md).
-The final comparison covers 20 old development projects and 60 paired cases.
-V2 ties the strong semantic control in all 60 cases; accuracy superiority and
-A* novelty are not established. The new held-out cohort has not been consumed.
+See the [CLI guide](research/CERTIFIED_RECONCILIATION.md).
+The [development findings](research/CERTIFIED_RECONCILIATION_FINDINGS_VI.md) and
+[development report](runs/certified-development-v4/REPORT.md) describe the earlier
+certificate-based implementation, not new measurements of the current flow.
+That historical version tied the strong semantic control in all 60 paired cases;
+accuracy superiority and A* novelty are not established.
+
+The agent branch checks proposals against evidence and output-validation rules.
+Conformal fitting and abstention, the `calibrate` / `calibration-decisions`
+commands and benchmark `--calibration` option have been removed. Decisions may
+still remain unknown when evidence is insufficient. Historical frozen runs keep
+their original artifacts; new study plans use `agent-study-v3-no-conformal`.
 
 ## Core Architecture & Module Map
 

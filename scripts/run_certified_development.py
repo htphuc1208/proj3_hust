@@ -158,12 +158,12 @@ def write_report(out, summary):
         for method, values in panel["methods"].items():
             score = f"{values['f1']:.4f}" if values["f1"] is not None else "undefined"
             rows.append(f"| {condition} | {method} | {score} | {panel['common_nonempty_reference_projects']} | {values['fp_all_projects']} | {values['fn_all_projects']} |")
-    text = """# Certified reconciliation V2 — development only
+    text = """# SBOM reconciliation V2 — development only
 
 ## Question and design
 
-Do scoped completeness checks and executable certificates improve decisions
-over strong metadata interpretation? These are old development roots, never a
+How do scoped evidence-based decisions compare with strong metadata
+interpretation? These are old development roots, never a
 held-out generalization experiment. Three conditions are separate: full metadata,
 controlled context withholding, and controlled 50% metadata withholding (seed 42).
 All arms share the same permitted bytes/context. The strong metadata control
@@ -188,14 +188,17 @@ summary.json. Zero denominators stay null. Bootstrap/randomization use projects,
 Paired contrasts use per-metric available paired projects, including empty-reference
 projects when their F1 is defined; their eligibility counts are reported separately.
 
-Certified V2 and the strong semantic control have identical native edge sets in
+The reconciliation arm (legacy ID `certified_v2`) and the strong semantic control
+have identical native edge sets in
 **{summary['same_graph_as_strong_control_cases']}/{summary['cases']}** cases.
 Empirical advantage gate: **{summary['empirical_advantage_gate']}**.
 
 ## Interpretation and limitations
 
-Certificates establish derivations under trusted collector/context assertions;
-they do not attest executable contents. Existing reference labels score unique
+Decisions rely on trusted collector/context assertions. Frozen source and
+per-arm details identify the implementation: historical runs carry certificates;
+current runs provide explanations without a separate certificate checker. Neither
+version attests executable contents. Existing reference labels score unique
 coordinates, not ambiguous physical occurrences. Shared package declarations and
 standards libraries remain a common-error threat. Single-environment selected
 roots and shared dependencies limit generalization. Controlled withholding is
@@ -208,9 +211,8 @@ Human audit forms are pending; an LLM review is not counted as a human review.
 ## Decision
 
 If the strong control ties all cases, do not launch a tuned held-out accuracy
-study for this version. Preserve the negative result and investigate whether
-independently checkable certificates have a distinct, substantive research
-question. This run alone does not establish that contribution.
+study for this version. Preserve the comparison result. This run does not measure benefits from
+certificates; historical certificate-based results belong to frozen source runs.
 
 Replay from frozen source with the recorded image and staged inputs; host paths
 in execution.json document this execution, not a portable command. The worker

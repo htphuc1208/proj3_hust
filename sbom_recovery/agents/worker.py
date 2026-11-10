@@ -13,7 +13,7 @@ def main():
     config = json.loads(Path("/input/config.json").read_text())
     context = TargetContext.model_validate(config["context"]) if config["context"] else None
     store = EvidenceStore("/evidence")
-    broker = ToolBroker(config["document"], store, context, config["budget"], config["sources"], config["active"], config.get("calibration"))
+    broker = ToolBroker(config["document"], store, context, config["budget"], config["sources"], config["active"])
     for line in sys.stdin:
         try:
             request = json.loads(line)

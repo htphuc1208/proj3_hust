@@ -1,4 +1,4 @@
-"""Explicit knowledge boundaries for certified reconciliation.
+"""Explicit knowledge boundaries for evidence-scoped reconciliation.
 
 Collectors/context authors are trusted inputs, not cryptographic attestations.
 Legacy recovery/gold contracts deliberately remain unchanged.
@@ -98,34 +98,6 @@ class EvidenceManifestV2(StrictModel):
         return self
 
 
-class CompletenessClaim(StrictModel):
-    occurrence_id: str
-    source_id: str
-    predicate: Literal["requires_dist"] = "requires_dist"
-    rule: Literal["COMPLETE_INSTALLED_METADATA"] = "COMPLETE_INSTALLED_METADATA"
-
-
-class ActivationStep(StrictModel):
-    source_id: str
-    requirement_index: int = Field(ge=0)
-    child_occurrence: str
-
-
-class DecisionCertificateV2(StrictModel):
-    schema_version: Literal["reconciliation-certificate-v2"] = "reconciliation-certificate-v2"
-    rule: Literal["ACTIVE_DECLARATION", "NO_MATCHING_DECLARATION", "ALL_MATCHING_DECLARATIONS_INACTIVE"]
-    input_sha256: str
-    context_sha256: str
-    evidence_sha256: str
-    parent_occurrence: str
-    child_occurrence: str
-    requirement_indices: list[int]
-    completeness: list[CompletenessClaim] = Field(default_factory=list)
-    activation_steps: list[ActivationStep] = Field(default_factory=list)
-    # An inductive upper invariant. None never proves an extra inactive.
-    activation_upper: dict[str, list[str]] | None = None
-
-
 class ReconciliationDecisionV2(StrictModel):
     schema_version: Literal["reconciliation-decision-v2"] = "reconciliation-decision-v2"
     source_ref: str
@@ -133,15 +105,13 @@ class ReconciliationDecisionV2(StrictModel):
     operation: Literal["add", "retract", "keep", "abstain"]
     status: Literal["SUPPORTED", "REFUTED", "UNKNOWN", "CONFLICT"]
     reason: str
-    certificate: DecisionCertificateV2 | None = None
+    explanation: dict = Field(default_factory=dict)
 
     @model_validator(mode="after")
     def decision_shape(self):
         if self.status in {"UNKNOWN", "CONFLICT"}:
-            if self.operation != "abstain" or self.certificate is not None:
+            if self.operation != "abstain":
                 raise ValueError("Uncertain/conflicting evidence cannot authorize a change")
-        elif self.certificate is None:
-            raise ValueError("A determinate assessment requires a certificate")
         if self.status == "SUPPORTED" and self.operation not in {"add", "keep"}:
             raise ValueError("Supported edge can only be added or kept")
         if self.status == "REFUTED" and self.operation != "retract":

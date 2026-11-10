@@ -53,7 +53,7 @@ Mọi nhận định, định nghĩa bài toán, thuật toán và phân loại 
      - $E^*$: Tập các cạnh phụ thuộc trực tiếp giữa các artifact.
      - $\mathcal{E}$: Ngữ cảnh môi trường thực thi gồm $(\text{os}, \text{arch}, \text{runtime\_version}, \text{wheel\_tags}, \text{active\_extras})$.
    * Đồ thị quan sát được (Observed SBOM): $G_{\text{obs}} = (V_{\text{obs}}, E_{\text{obs}}) \subseteq G^*$.
-   * Hàm mục tiêu: Học ánh xạ $f: (G_{\text{obs}}, \mathcal{E}, \text{Evidence}) \to (\hat{G}, \mathcal{C})$, trong đó $\hat{G}$ là đồ thị tái cấu trúc và $\mathcal{C}$ là độ tin cậy được hiệu chuẩn (calibrated confidence score).
+   * Hàm mục tiêu: Học ánh xạ $f: (G_{\text{obs}}, \mathcal{E}, \text{Evidence}) \to (\hat{G}, \mathcal{C})$, trong đó $\hat{G}$ là đồ thị tái cấu trúc và $\mathcal{C}$ là các trạng thái đánh giá và giải thích dựa trên bằng chứng; không công bố xác suất tin cậy được hiệu chuẩn.
 
 2. **Cấm Suy luận Phụ thuộc Phi Ngữ cảnh (Context-Free Resolution is Prohibited):**
    * Không được coi quan hệ phụ thuộc là đồ thị tĩnh cố định. Trong hệ sinh thái PyPI, quan hệ phụ thuộc là một hàm phụ thuộc môi trường theo **Environment Markers (PEP 508)** và **Extras** (ví dụ: `requests[security]`).
@@ -91,9 +91,9 @@ Nghiêm cấm đánh đồng hoặc suy diễn bắc cầu giữa 4 cấp độ 
 
 ## 5. Định Lượng Bất Định & Từ Chối Dự Đoán (Uncertainty & Selective Classification)
 
-1. **Chiến lược Từ chối Dự đoán (Calibrated Abstention / Selective Classification):**
+1. **Từ chối kết luận khi thiếu bằng chứng:**
    * Trong an ninh phần mềm, một **False Negative** (bỏ sót thư viện có lỗ hổng RCE) gây ra thảm họa bảo mật; nhưng quá nhiều **False Positive** gây tê liệt quy trình vận hành và kiệt quệ đội ngũ bảo mật (alert fatigue).
-   * Mô hình phải hỗ trợ cơ chế từ chối đưa ra kết luận (Abstain / UNKNOWN) khi độ bất định vượt ngưỡng $\tau$ (sử dụng Conformal Prediction hoặc Bayesian Credible Intervals).
+   * Hệ thống phải trả về Abstain / UNKNOWN khi bằng chứng thiếu, ngữ cảnh chưa rõ hoặc có xung đột chưa giải quyết. Cơ chế conformal và ngưỡng hiệu chuẩn đã được gỡ khỏi phiên bản hiện tại.
    * Báo cáo đánh giá phải luôn đi kèm đường cong đánh đổi: **Coverage vs. Selective Risk**.
 
 2. **Kháng Công Kích Chuỗi Cung Ứng (Adversarial Robustness & Provenance):**

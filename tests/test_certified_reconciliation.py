@@ -1,4 +1,4 @@
-"""Semantic counterexamples and certificate falsification, not accuracy evidence."""
+"""Semantic reconciliation and explanation regressions, not accuracy evidence."""
 from copy import deepcopy
 import hashlib
 import itertools
@@ -15,8 +15,7 @@ from sbom_recovery.core.formats import NativeDocument, sha
 from sbom_recovery.campaign.targets import metadata_inventory
 from sbom_recovery.reconciliation.contracts_v2 import ContextKnowledgeV2, occurrence_id
 from sbom_recovery.reconciliation.certified_evidence import collect_evidence, read_bundle, EvidenceView
-from sbom_recovery.reconciliation.certified_reconciliation import reconcile_certified, propose, run
-from sbom_recovery.reconciliation.certificate_checker import check_decision, check_decisions
+from sbom_recovery.reconciliation.certified_reconciliation import reconcile_evidence, propose, run
 from sbom_recovery.reconciliation.certified_semantics import marker_bounds
 from sbom_recovery.reconciliation.certified_baselines import metadata_control
 from sbom_recovery.reconciliation.contracts_v2 import EvidenceManifestV2, EvidenceSourceV2
@@ -65,7 +64,7 @@ class CertifiedReconciliationTests(unittest.TestCase):
 
     def execute(self, **kwargs):
         manifest, raw = self.bundle(**kwargs)
-        return reconcile_certified(self.document, self.context, manifest, raw)
+        return reconcile_evidence(self.document, self.context, manifest, raw)
 
     def observed(self, source="alpha", target="beta"):
         self.document["dependencies"].append({"ref": source, "dependsOn": [target]})
@@ -77,7 +76,16 @@ class CertifiedReconciliationTests(unittest.TestCase):
         self.assertIn(("alpha", "beta"), NativeDocument(result["document"]).edges())
         self.assertEqual(self.document, before)
         self.assertTrue(result["validation"]["valid"])
-        self.assertEqual(result["verification"]["authorized_changes"], 1)
+        self.assertEqual(result["operations"], {"add": 1})
+        self.assertNotIn("verification", result)
+        decision = result["decisions"][0]
+        self.assertNotIn("certificate", decision)
+        self.assertEqual(decision["reason"], "ACTIVE_DECLARATION")
+        explanation = decision["explanation"]
+        self.assertTrue(explanation["source_id"])
+        self.assertTrue(explanation["parent_metadata_path"].endswith("alpha-1.dist-info/METADATA"))
+        self.assertEqual(explanation["requirements"], [
+            {"index": 0, "declaration": "beta>=2", "marker_result": True}])
 
     def test_partial_evidence_closes_only_parent_declarations(self):
         self.put("alpha", "1", "")
@@ -104,7 +112,9 @@ class CertifiedReconciliationTests(unittest.TestCase):
         closed = self.execute(complete=True)
         self.assertIn(("alpha", "beta"), NativeDocument(uncertain["document"]).edges())
         self.assertFalse(NativeDocument(closed["document"]).edges())
-        self.assertIsNotNone(closed["decisions"][0]["certificate"]["activation_upper"])
+        self.assertEqual(closed["decisions"][0]["explanation"]["possible_parent_extras"], [])
+        self.assertIsNone(uncertain["decisions"][0]["explanation"]["requirements"][0]["marker_result"])
+        self.assertFalse(closed["decisions"][0]["explanation"]["requirements"][0]["marker_result"])
 
     def test_transitive_activation_and_unseeded_cycle(self):
         self.put("alpha", "1", 'Requires-Dist: beta[optional]>=2\n')
@@ -112,7 +122,7 @@ class CertifiedReconciliationTests(unittest.TestCase):
         result = self.execute()
         self.assertEqual(NativeDocument(result["document"]).edges(), {("alpha", "beta"), ("beta", "unrelated")})
         decisions = {d["source_ref"]: d for d in result["decisions"]}
-        self.assertTrue(decisions["beta"]["certificate"]["activation_steps"])
+        self.assertEqual(decisions["beta"]["explanation"]["known_parent_extras"], ["optional"])
         self.put("alpha", "1", 'Requires-Dist: beta[optional]; extra == "optional"\n')
         self.put("beta", "2", 'Requires-Dist: alpha[optional]; extra == "optional"\n')
         self.document["dependencies"] = [{"ref": "alpha", "dependsOn": ["beta"]}]
@@ -164,7 +174,7 @@ class CertifiedReconciliationTests(unittest.TestCase):
             "source_id": sha(["registry_metadata", manifest.target_id, original.occurrence_path, original.sha256])})
         manifest.sources = [replacement if s == original else s for s in manifest.sources]
         raw[replacement.source_id] = raw.pop(original.source_id)
-        result = reconcile_certified(self.document, self.context, manifest, raw)
+        result = reconcile_evidence(self.document, self.context, manifest, raw)
         self.assertEqual(result["counts"], {"UNKNOWN": 1})
 
     def test_conflicting_unread_claim_does_not_close_inventory(self):
@@ -177,7 +187,7 @@ class CertifiedReconciliationTests(unittest.TestCase):
             "source_id": sha([source.kind, manifest.target_id, source.occurrence_path, changed_hash]),
             "path": "sources/not-acquired.metadata"})
         manifest.sources.append(alternative)
-        self.assertEqual(reconcile_certified(self.document, self.context, manifest, raw)["counts"], {"CONFLICT": 1})
+        self.assertEqual(reconcile_evidence(self.document, self.context, manifest, raw)["counts"], {"CONFLICT": 1})
 
     def test_collector_and_bundle_reject_symlink_and_traversal(self):
         manifest, _ = self.bundle()
@@ -192,16 +202,6 @@ class CertifiedReconciliationTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             collect_evidence(self.document, self.context, self.target, "2026-11-08T00:00:00Z", self.root / "bad-evidence")
 
-    def test_checker_is_on_application_path(self):
-        from unittest.mock import patch
-        manifest, raw = self.bundle()
-        decisions, diagnostics = propose(self.document, self.context, manifest, raw)
-        decisions[0].certificate.requirement_indices = [999]
-        before = deepcopy(self.document)
-        with patch("sbom_recovery.reconciliation.certified_reconciliation.propose", return_value=(decisions, diagnostics)):
-            with self.assertRaises(ValueError):
-                reconcile_certified(self.document, self.context, manifest, raw)
-        self.assertEqual(self.document, before)
 
     def test_active_and_inactive_matching_declarations_keep_edge(self):
         self.put("alpha", "1", 'Requires-Dist: beta; extra == "optional"\nRequires-Dist: beta>=2\n')
@@ -226,7 +226,7 @@ class CertifiedReconciliationTests(unittest.TestCase):
         second = source.model_copy(update={"source_id": sid, "sha256": digest, "bytes": len(replacement), "path": "sources/other.metadata"})
         manifest.sources.append(second)
         raw[sid] = replacement
-        result = reconcile_certified(self.document, self.context, manifest, raw)
+        result = reconcile_evidence(self.document, self.context, manifest, raw)
         self.assertEqual(result["counts"], {"CONFLICT": 1})
         self.assertEqual(NativeDocument(result["document"]).edges(), {("alpha", "beta")})
 
@@ -236,65 +236,27 @@ class CertifiedReconciliationTests(unittest.TestCase):
         for bad in (manifest.model_copy(update={"target_id": "other"}),
                     manifest.model_copy(update={"observation_sha256": "0" * 64})):
             with self.assertRaises(ValueError):
-                reconcile_certified(self.document, self.context, bad, raw)
+                reconcile_evidence(self.document, self.context, bad, raw)
         source.available_at = "2027-01-01T00:00:00Z"
         with self.assertRaises(ValueError):
-            reconcile_certified(self.document, self.context, manifest, raw)
+            reconcile_evidence(self.document, self.context, manifest, raw)
         manifest, raw = self.bundle()
         raw[next(iter(raw))] += b"changed"
         with self.assertRaises(ValueError):
-            reconcile_certified(self.document, self.context, manifest, raw)
+            reconcile_evidence(self.document, self.context, manifest, raw)
 
-    def test_rejects_forged_citation_completeness_and_input(self):
-        self.put("alpha", "1", "")
-        self.observed()
-        manifest, raw = self.bundle()
-        decisions, _ = propose(self.document, self.context, manifest, raw)
-        original = decisions[0].model_dump()
-        for field, value in (("requirement_indices", [99]), ("completeness", []), ("input_sha256", "0" * 64)):
-            bad = deepcopy(original)
-            bad["certificate"][field] = value
-            with self.assertRaises(ValueError, msg=field):
-                check_decision(self.document, self.context, manifest, raw, bad)
-
-    def test_checker_rejects_activation_proof_with_omitted_parent_step(self):
-        self.put("alpha", "1", "Requires-Dist: beta[optional]\n")
-        self.put("beta", "2", 'Requires-Dist: unrelated; extra == "optional"\n')
-        manifest, raw = self.bundle()
-        decisions, _ = propose(self.document, self.context, manifest, raw)
-        bad = next(d.model_dump() for d in decisions if d.source_ref == "beta")
-        bad["certificate"]["activation_steps"] = []
-        with self.assertRaises(ValueError):
-            check_decision(self.document, self.context, manifest, raw, bad)
-
-    def test_checker_rejects_upper_bound_omitting_activation(self):
-        self.put("alpha", "1", "Requires-Dist: beta[optional]\n")
-        self.put("beta", "2", 'Requires-Dist: unrelated; extra == "optional"\n')
-        self.observed("beta", "unrelated")
-        manifest, raw = self.bundle()
-        key = next(k for k, d in EvidenceView(self.document, self.context, manifest, raw).distributions.items() if d.name == "beta")
-        # Fabricate a negative certificate by repurposing a valid positive one.
-        decisions, _ = propose(self.document, self.context, manifest, raw)
-        bad = next(d.model_dump() for d in decisions if d.source_ref == "beta")
-        bad.update(operation="retract", status="REFUTED")
-        cert = bad["certificate"]
-        cert.update(rule="ALL_MATCHING_DECLARATIONS_INACTIVE", activation_steps=[],
-                    activation_upper={k: [] for k in EvidenceView(self.document, self.context, manifest, raw).inventory},
-                    completeness=[{"occurrence_id": key, "source_id": next(s.source_id for s in manifest.sources if "/beta-" in s.occurrence_path)}])
-        with self.assertRaises(ValueError):
-            check_decision(self.document, self.context, manifest, raw, bad)
 
     def test_unknown_context_is_observationally_nonidentifiable(self):
         self.put("alpha", "1", 'Requires-Dist: beta; extra == "optional"\n')
         self.observed()
         manifest, raw = self.bundle(complete=False)
-        uncertain = reconcile_certified(self.document, self.context, manifest, raw)
+        uncertain = reconcile_evidence(self.document, self.context, manifest, raw)
         alpha = next(v for k, v in manifest.bindings.items() if k == "alpha")
         on = self.context.model_copy(update={"root_requests_complete": True, "root_requests": {alpha: ["optional"]}})
         off = self.context.model_copy(update={"root_requests_complete": True, "root_requests": {}})
         self.assertEqual(uncertain["counts"], {"UNKNOWN": 1})
-        self.assertEqual(reconcile_certified(self.document, on, manifest, raw)["counts"], {"SUPPORTED": 1})
-        self.assertEqual(reconcile_certified(self.document, off, manifest, raw)["counts"], {"REFUTED": 1})
+        self.assertEqual(reconcile_evidence(self.document, on, manifest, raw)["counts"], {"SUPPORTED": 1})
+        self.assertEqual(reconcile_evidence(self.document, off, manifest, raw)["counts"], {"REFUTED": 1})
 
     def test_spdx_inverse_retraction_preserves_containment(self):
         self.put("alpha", "1", "")
@@ -326,7 +288,7 @@ class CertifiedReconciliationTests(unittest.TestCase):
         self.document["packages"][0]["sourceInfo"] = "not a locator: " + self.document["packages"][0]["sourceInfo"]
         self.assertEqual(self.execute()["counts"], {"UNKNOWN": 1})
 
-    def test_replaying_checked_result_is_semantically_idempotent(self):
+    def test_replaying_result_is_semantically_idempotent(self):
         result = self.execute()
         self.document = result["document"]
         repeated = self.execute()
@@ -352,6 +314,13 @@ class CertifiedReconciliationTests(unittest.TestCase):
         self.assertEqual((output / "observation.json").read_bytes(), inp.read_bytes())
         self.assertTrue(json.loads((output / "seal.json").read_text())["reference_labels_read"] is False)
         self.assertTrue(json.loads(result.stdout)["valid"])
+        assessment = json.loads((output / "assessment.json").read_text())
+        self.assertEqual(assessment["policy"], "evidence-reconciliation-v2")
+        self.assertEqual(assessment["schema_version"], "evidence-reconciliation-result-v2")
+        self.assertNotIn("verification", assessment)
+        self.assertNotIn("certificate", assessment["decisions"][0])
+        self.assertEqual(assessment["decisions"][0]["reason"], "NO_MATCHING_DECLARATION")
+        self.assertEqual(assessment["decisions"][0]["explanation"]["requirements"], [])
         with self.assertRaises(FileExistsError):
             run(inp, ctx, evidence / "manifest.json", output)
 
@@ -393,7 +362,7 @@ class MarkerAbstractionTests(unittest.TestCase):
         """432 abstract cases, checked against all compatible finite worlds.
 
         Concrete activation is implemented by Boolean rules on a 3-cycle, without
-        using packaging, marker_bounds, activation_bounds or the checker.
+        using packaging, marker_bounds, activation_bounds.
         """
         names = ["a", "b", "c"]
         target_id = "finite-world-enumeration"
@@ -441,7 +410,6 @@ class MarkerAbstractionTests(unittest.TestCase):
                     active = propagated
                 worlds.append({(names[i], names[(i + 1) % 3]) for i in range(3) if enabled(i)})
             decisions, _ = propose(document, context, manifest, raw)
-            check_decisions(document, context, manifest, raw, decisions)
             self.assertTrue(worlds)
             for d in decisions:
                 edge = d.source_ref, d.target_ref

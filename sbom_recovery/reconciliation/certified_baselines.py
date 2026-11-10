@@ -14,7 +14,7 @@ from .certified_semantics import activation_bounds, marker_bounds
 
 def metadata_control(document, context, manifest, acquired, *, additive_only=False, assessments=False):
     view = EvidenceView(document, context, manifest, acquired)
-    lower, upper, _ = activation_bounds(view, context)
+    lower, upper = activation_bounds(view, context)
     original = NativeDocument(document)
     result = NativeDocument(document)
     removals, supported = set(), set()

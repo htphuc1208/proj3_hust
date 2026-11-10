@@ -372,12 +372,16 @@ def export(study, out, require_complete=False):
         raise ValueError("A completed raw audit requires the full sealed matrix")
     save(out / "snapshot-manifest.json", snapshot)
     inputs = {}
-    for name, src in {
+    input_paths = {
         "plan.json": study / "plan.json", "model-selection.json": study / "model-selection.json",
         "state-at-audit.json": study / "state.json", "raw-campaign-at-audit.json": study / "test/raw/campaign.json",
-        "conformal.json": study / "calibration/conformal.json", "cohort.json": resolve_input(plan["cohort"]),
+        "cohort.json": resolve_input(plan["cohort"]),
         "osv-snapshot.json": resolve_input(plan["snapshot"]),
-    }.items():
+    }
+    uses_conformal = plan.get("schema_version") != "agent-study-v3-no-conformal"
+    if uses_conformal:
+        input_paths["conformal.json"] = study / "calibration/conformal.json"
+    for name, src in input_paths.items():
         inputs[str(src)] = {"copy": str(out / "inputs" / name),
                             "sha256": copy_snapshot_file(src, out / "inputs" / name)}
     if digest(out / "inputs/osv-snapshot.json") != plan["snapshot_sha256"]:
@@ -392,7 +396,7 @@ def export(study, out, require_complete=False):
     # source bundle. Calibration uses canonical JSON content, not file bytes.
     implementation_sha = sha({Path(name).name: checksum for name, checksum in frozen_files.items()
                               if Path(name).parent == Path("sbom_recovery") and name.endswith(".py")})
-    calibration_sha = sha(load(out / "inputs/conformal.json"))
+    calibration_sha = sha(load(out / "inputs/conformal.json")) if uses_conformal else None
     captures = resolve_input(settings["captures"])
     references = {}
     extra_hashes = {}
@@ -437,7 +441,7 @@ def export(study, out, require_complete=False):
         for row in records:
             if row["implementation_sha256"] != implementation_sha:
                 raise ValueError("Case implementation differs from frozen study source")
-            if row["calibration_sha256"] != calibration_sha:
+            if row.get("calibration_sha256") != calibration_sha:
                 raise ValueError("Case calibration differs from frozen calibration artifact")
             arm = case / row["method"]
             live_arm = original_case / row["method"]
@@ -629,7 +633,7 @@ Single-agent arms contain {model_errors}/{single_n} MODEL_ERROR outcomes. `execu
 
 Retrospective OSV Level 1 assessment uses the original frozen snapshot after sealing. VRR-eligible projects: {len(eligible)}/{result['projects']} ({', '.join(eligible) or 'none'}). `security-summary.json` records newly recovered project/package/advisory triples; advisory aliases are not unique CVEs. Zero denominators remain undefined. VEX triage delta, false-assurance reduction, static call reachability and exploitability are UNMEASURED. Missing paths remain UNKNOWN.
 
-`risk-coverage.json` reports edge-proposal coverage versus selective risk for evidence-gate ranks, with unknown labels disclosed. These ranks are not calibrated model probabilities. The 20-project conformal artifact retains its unverified temporal exchangeability limitation; this audit makes no nominal coverage guarantee.
+`risk-coverage.json` reports edge-proposal coverage versus selective risk for evidence-gate ranks, with unknown labels disclosed. These ranks are not calibrated model probabilities. Historical studies may include a conformal artifact with unverified temporal exchangeability; current studies omit it. This audit makes no nominal coverage guarantee.
 
 ## Failure Taxonomy & Threats to Validity
 
