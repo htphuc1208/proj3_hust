@@ -1,0 +1,16 @@
+{
+  "entrypoint": null,
+  "hashes": {
+    ".gitignore": "3254e0f8c1a7d89ea4f3fd7e12e3a42e68062055f53306afbe373f216baa3621",
+    "pdm.lock": "272cb536d45bd5ac6f86c97c6bbe201eee1fa3bff38c111e43a21e65aa44fd15",
+    "pyproject.toml": "716e292b5ba91815af05e17cf116bf37fd15cd1eb061eed2627602025824cd4b",
+    "src/pdm_pdm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/pdm_pdm/main.py": "fef8ca0a78ec8d692c54cf22d1f3cf63320eae5f0f8f2c565059dea9e09b6638",
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "id": "cofano/pdm-pdm",
+  "kind": "cofano",
+  "native": null,
+  "origin_commit": "e2070973821f188cd64c5b17a24b06872f2cdc3a",
+  "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/pdm-pdm"
+}

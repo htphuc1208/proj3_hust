@@ -1,0 +1,23 @@
+{
+  "case": "npm-installed-syft",
+  "sbom": "scans/npm-installed/syft-installed.cdx.json",
+  "sbom_sha256": "174834a12d4868dfd310947298b778d3bd72fb1d18bf517252e621dc26876186",
+  "exit_code": 1,
+  "packages": {
+    "npm:lodash@4.17.20": [
+      "GHSA-29mw-wpgm-hmr9",
+      "GHSA-35jh-r3h4-6jhm",
+      "GHSA-r5fr-rjxr-66jc",
+      "GHSA-xxjr-mmjv-4gpg"
+    ],
+    "npm:lodash@4.17.21": [
+      "GHSA-r5fr-rjxr-66jc",
+      "GHSA-xxjr-mmjv-4gpg"
+    ],
+    "npm:minimist@1.2.5": [
+      "GHSA-xvch-5gv4-984h"
+    ],
+    "npm:sbom-alias-build-probe@1.0.0": []
+  },
+  "has_parseable_json": true
+}

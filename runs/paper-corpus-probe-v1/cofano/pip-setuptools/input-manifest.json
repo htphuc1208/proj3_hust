@@ -1,0 +1,16 @@
+{
+  "entrypoint": "requirements.txt",
+  "hashes": {
+    "dev-requirements.txt": "2b01214d32c382dbc73bf6b493bedb7926324af27bad3ee888f66774b9b114c8",
+    "opt-requirements.txt": "d37fc4eb46daa3e1debe3030af548dafcdfc624ec640c2bd4af1f64645babc07",
+    "pyproject.toml": "363fa1846d9589476373196896857c39736ce9fa59dc258205c5e86ccce4292f",
+    "requirements.txt": "67fa1a06ea2bb5eddf81c80b9162fa141a5484b97961482c300a7178217ccdd9",
+    "src/pip-setuptools/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/pip-setuptools/main.py": "fef8ca0a78ec8d692c54cf22d1f3cf63320eae5f0f8f2c565059dea9e09b6638"
+  },
+  "id": "cofano/pip-setuptools",
+  "kind": "cofano",
+  "native": "requirements",
+  "origin_commit": "e2070973821f188cd64c5b17a24b06872f2cdc3a",
+  "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/pip-setuptools"
+}

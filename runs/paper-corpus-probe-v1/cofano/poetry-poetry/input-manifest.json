@@ -1,0 +1,15 @@
+{
+  "entrypoint": null,
+  "hashes": {
+    "poetry.lock": "3d6ad0cb21baf31c91b9a96a9272c4582cac2acd8b14ce0300e61e285e8fe9bd",
+    "poetry_poetry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "poetry_poetry/main.py": "fef8ca0a78ec8d692c54cf22d1f3cf63320eae5f0f8f2c565059dea9e09b6638",
+    "pyproject.toml": "1ae53f622402ea186dca1320b15f40b183b2aaf68c0779abe7b99bffa862b9c8",
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "id": "cofano/poetry-poetry",
+  "kind": "cofano",
+  "native": "poetry",
+  "origin_commit": "e2070973821f188cd64c5b17a24b06872f2cdc3a",
+  "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/poetry-poetry"
+}

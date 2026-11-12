@@ -1,0 +1,10 @@
+{
+  "absent_classes": {
+    "org/apache/commons/text/StringSubstitutor.class": true,
+    "org/apache/commons/text/lookup/StringLookupFactory.class": true
+  },
+  "matched_class_count": 21,
+  "matched_artifact_sha256": "56eff5c7894ea20a78aab4d1c41d4581fd5eb246e8d09fbe5a82e5260e0b288d",
+  "advisory_url": "https://commons.apache.org/proper/commons-text/security.html",
+  "conclusion": "Classes absent from this JAR. External classpath, runtime loading and whole-application exploitability were not assessed."
+}

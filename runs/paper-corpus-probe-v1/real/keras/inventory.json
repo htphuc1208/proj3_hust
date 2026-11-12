@@ -1,0 +1,208 @@
+{
+  "distributions": [
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/rich-15.0.0.dist-info/METADATA",
+      "name": "rich",
+      "requirements": [
+        "ipywidgets (>=7.5.1,<9) ; extra == \"jupyter\"",
+        "markdown-it-py (>=2.2.0)",
+        "pygments (>=2.13.0,<3.0.0)"
+      ],
+      "version": "15.0.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/typing_extensions-4.16.0.dist-info/METADATA",
+      "name": "typing_extensions",
+      "requirements": [],
+      "version": "4.16.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/optree-0.20.0.dist-info/METADATA",
+      "name": "optree",
+      "requirements": [
+        "typing-extensions>=4.10.0",
+        "typing-extensions>=4.12.0; python_version >= \"3.13\"",
+        "typing-extensions>=4.14.0; python_version >= \"3.15\"",
+        "attrs; extra == \"attrs\"",
+        "jax; extra == \"jax\"",
+        "numpy; extra == \"numpy\"",
+        "torch; extra == \"torch\"",
+        "cpplint; extra == \"lint\"",
+        "doc8; extra == \"lint\"",
+        "mypy; extra == \"lint\"",
+        "pre-commit; extra == \"lint\"",
+        "pyenchant; extra == \"lint\"",
+        "pylint[spelling]; extra == \"lint\"",
+        "ruff; extra == \"lint\"",
+        "xdoctest; extra == \"lint\"",
+        "pytest; extra == \"test\"",
+        "pytest-cov; extra == \"test\"",
+        "covdefaults; extra == \"test\"",
+        "rich; extra == \"test\"",
+        "typing-extensions==4.10.0; (python_version < \"3.13\" and platform_system == \"Linux\") and extra == \"test\"",
+        "typing-extensions==4.10.0; (python_version < \"3.13\" and platform_system == \"Darwin\") and extra == \"test\"",
+        "typing-extensions==4.10.0; (python_version < \"3.13\" and platform_system == \"Windows\") and extra == \"test\"",
+        "typing-extensions==4.12.0; (python_version >= \"3.13\" and python_version < \"3.15\" and platform_system == \"Linux\") and extra == \"test\"",
+        "typing-extensions==4.12.0; (python_version >= \"3.13\" and python_version < \"3.15\" and platform_system == \"Darwin\") and extra == \"test\"",
+        "typing-extensions==4.12.0; (python_version >= \"3.13\" and python_version < \"3.15\" and platform_system == \"Windows\") and extra == \"test\"",
+        "typing-extensions==4.14.0; (python_version >= \"3.15\" and platform_system == \"Linux\") and extra == \"test\"",
+        "typing-extensions==4.14.0; (python_version >= \"3.15\" and platform_system == \"Darwin\") and extra == \"test\"",
+        "typing-extensions==4.14.0; (python_version >= \"3.15\" and platform_system == \"Windows\") and extra == \"test\"",
+        "sphinx~=8.0; extra == \"docs\"",
+        "sphinx-autoapi; extra == \"docs\"",
+        "sphinx-autobuild; extra == \"docs\"",
+        "sphinx-autodoc-typehints; extra == \"docs\"",
+        "sphinx-copybutton; extra == \"docs\"",
+        "sphinx-rtd-theme; extra == \"docs\"",
+        "sphinxcontrib-bibtex; extra == \"docs\"",
+        "docutils; extra == \"docs\"",
+        "attrs; extra == \"docs\"",
+        "jax[cpu]; extra == \"docs\"",
+        "numpy; extra == \"docs\"",
+        "torch; extra == \"docs\""
+      ],
+      "version": "0.20.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/pygments-2.21.0.dist-info/METADATA",
+      "name": "Pygments",
+      "requirements": [
+        "colorama>=0.4.6; extra == 'windows-terminal'"
+      ],
+      "version": "2.21.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/h5py-3.16.0.dist-info/METADATA",
+      "name": "h5py",
+      "requirements": [
+        "numpy>=1.21.2"
+      ],
+      "version": "3.16.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/mdurl-0.1.2.dist-info/METADATA",
+      "name": "mdurl",
+      "requirements": [],
+      "version": "0.1.2"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/packaging-26.3.dist-info/METADATA",
+      "name": "packaging",
+      "requirements": [],
+      "version": "26.3"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/markdown_it_py-4.3.0.dist-info/METADATA",
+      "name": "markdown-it-py",
+      "requirements": [
+        "mdurl~=0.1",
+        "psutil ; extra == \"benchmarking\"",
+        "pytest ; extra == \"benchmarking\"",
+        "pytest-benchmark ; extra == \"benchmarking\"",
+        "markdown~=3.4 ; extra == \"compare\"",
+        "mistletoe~=1.0 ; extra == \"compare\"",
+        "mistune~=3.0 ; extra == \"compare\"",
+        "panflute~=2.3 ; extra == \"compare\"",
+        "markdown-it-pyrs ; extra == \"compare\"",
+        "coverage ; extra == \"coverage\"",
+        "pytest-cov ; extra == \"coverage\"",
+        "linkify-it-py>=1,<3 ; extra == \"linkify\"",
+        "mdit-py-plugins>=0.5.0 ; extra == \"plugins\"",
+        "gprof2dot ; extra == \"profiling\"",
+        "mdit-py-plugins>=0.5.0 ; extra == \"rtd\"",
+        "myst-parser ; extra == \"rtd\"",
+        "pyyaml ; extra == \"rtd\"",
+        "sphinx ; extra == \"rtd\"",
+        "sphinx-copybutton ; extra == \"rtd\"",
+        "sphinx-design ; extra == \"rtd\"",
+        "sphinx-book-theme~=1.0 ; extra == \"rtd\"",
+        "jupyter_sphinx ; extra == \"rtd\"",
+        "ipykernel ; extra == \"rtd\"",
+        "flit_core>=3.4,<5 ; extra == \"testing\"",
+        "pytest ; extra == \"testing\"",
+        "pytest-regressions ; extra == \"testing\"",
+        "pytest-timeout ; extra == \"testing\"",
+        "requests ; extra == \"testing\""
+      ],
+      "version": "4.3.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/absl_py-2.5.1.dist-info/METADATA",
+      "name": "absl-py",
+      "requirements": [],
+      "version": "2.5.1"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/namex-0.1.0.dist-info/METADATA",
+      "name": "namex",
+      "requirements": [],
+      "version": "0.1.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/ml_dtypes-0.6.0.dist-info/METADATA",
+      "name": "ml_dtypes",
+      "requirements": [
+        "numpy>=2.0.0",
+        "numpy>=2.1.0; python_version >= \"3.13\"",
+        "numpy>=2.3.0; python_version >= \"3.14\"",
+        "absl-py; extra == \"dev\"",
+        "pytest; extra == \"dev\"",
+        "pytest-xdist; extra == \"dev\"",
+        "pylint>=2.6.0; extra == \"dev\"",
+        "pyink; extra == \"dev\""
+      ],
+      "version": "0.6.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/numpy-2.4.6.dist-info/METADATA",
+      "name": "numpy",
+      "requirements": [],
+      "version": "2.4.6"
+    },
+    {
+      "direct_url": {
+        "archive_info": {},
+        "url": "file:///out/wheels/keras-3.16.0-py3-none-any.whl"
+      },
+      "metadata_path": "/target/lib/python3.11/site-packages/keras-3.16.0.dist-info/METADATA",
+      "name": "keras",
+      "requirements": [
+        "absl-py",
+        "numpy",
+        "rich",
+        "namex",
+        "h5py",
+        "optree",
+        "ml-dtypes",
+        "packaging",
+        "etils[epath-gcs]; extra == \"gcs\""
+      ],
+      "version": "3.16.0"
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.11.16",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_python_implementation": "CPython",
+    "platform_release": "7.0.0-30-generic",
+    "platform_system": "Linux",
+    "platform_version": "#30~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:27:52 UTC 2",
+    "python_full_version": "3.11.16",
+    "python_version": "3.11",
+    "sys_platform": "linux"
+  }
+}

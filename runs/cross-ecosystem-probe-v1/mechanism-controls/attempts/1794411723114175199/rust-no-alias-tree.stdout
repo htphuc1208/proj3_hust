@@ -1,0 +1,6 @@
+sbom-build-probe v1.0.0 (/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/rust-no-alias)
+regex v1.5.4
+aho-corasick v0.7.20
+memchr v2.8.3
+memchr v2.8.3
+regex-syntax v0.6.29

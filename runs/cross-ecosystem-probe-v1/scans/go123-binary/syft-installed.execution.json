@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/syft",
+    "scan",
+    "dir:/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/go123-binary",
+    "--select-catalogers",
+    "installed",
+    "-o",
+    "cyclonedx-json=/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/scans/go123-binary/syft-installed.cdx.json"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:41:33.332353+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 1.6840063669988012
+}

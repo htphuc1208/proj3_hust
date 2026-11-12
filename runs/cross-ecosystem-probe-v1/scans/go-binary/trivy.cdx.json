@@ -1,0 +1,42 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:3bde9a19-d2db-458e-9e70-5371806d724d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T15:33:59+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "163b8136-35f1-4c84-bbce-f8ef6d2f332a",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/go-binary",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "163b8136-35f1-4c84-bbce-f8ef6d2f332a",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

@@ -1,0 +1,8 @@
+{
+  "environment.cdx.json": "fe1ab15f35c308ea6087c05a024a7a2fae91402707ba68565e16cca5f7745097",
+  "installed-syft.cdx.json": "ae3353a30970fb0f49c9a969f344953846a435f295fa428a375350dcf8db0af1",
+  "installed-trivy.cdx.json": "55756120bdabb22c59bcdf9725aaeabc2e21d546e4ce043a26db74162b9c85fd",
+  "inventory.json": "25f1f94050134a1b3f04fd7979cb67c4076c0d80ee0629c764fe6cfdb1454f2d",
+  "source-syft.cdx.json": "3d358ce2c8d1564f4d4b6d39107cb88b5f16d4d6082135264af8bb6af9e973ef",
+  "source-trivy.cdx.json": "df7eb49e5a3322cf7e7f72e3b398745cb989f9e7bba13bedf33569e848a88c15"
+}

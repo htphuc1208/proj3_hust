@@ -1,0 +1,466 @@
+[
+  {
+    "path": "go-build/cyclonedx-app.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "go-build/cyclonedx-bin.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "go-build/cyclonedx-mod.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "go123/cyclonedx-bin.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "go123/stdlib-adapted.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "java-jbomaudit/author.cdx.json",
+    "status": "SCHEMA_NOT_CACHED"
+  },
+  {
+    "path": "java-minimized/cyclonedx-maven.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "java-shade/cyclonedx-maven.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "mechanism-controls/go-syft-packages-lib.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "mechanism-controls/npm-native-no-edges.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "mechanism-controls/rust-trivy-include-dev.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "npm-alias/cyclonedx-npm-all.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "npm-alias/cyclonedx-npm-production.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "npm-alias/npm-all.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "npm-alias/npm-production.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "rust-build/cyclonedx-all-targets.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "rust-build/cyclonedx-target.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/go-binary/syft-installed.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/go-binary/syft.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/go-binary/trivy-rootfs.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/go-binary/trivy.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/go-no-inactive-replace/cdxgen.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/go-no-inactive-replace/syft-installed.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/go-no-inactive-replace/syft.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/go-no-inactive-replace/trivy-rootfs.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/go-no-inactive-replace/trivy.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/go-source/cdxgen.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/go-source/syft.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/go-source/trivy.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/go123-binary/syft-installed.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/go123-binary/syft.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/go123-binary/trivy-rootfs.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/go123-binary/trivy.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-jbomaudit/cdxgen-deep.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-jbomaudit/cdxgen.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-jbomaudit/syft-installed.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-jbomaudit/syft.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-jbomaudit/trivy-rootfs.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-jbomaudit/trivy.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-minimized/cdxgen.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-minimized/syft-installed.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-minimized/syft.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-minimized/trivy-rootfs.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-minimized/trivy.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-no-metadata/cdxgen.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-no-metadata/syft-installed.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-no-metadata/syft.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-no-metadata/trivy-rootfs.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-no-metadata/trivy.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-shaded/cdxgen-deep.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-shaded/cdxgen.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-shaded/syft-installed.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-shaded/syft.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-shaded/trivy-rootfs.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/java-shaded/trivy.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/npm-bundle/cdxgen.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/npm-bundle/syft-installed.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/npm-bundle/syft.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/npm-bundle/trivy-rootfs.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/npm-bundle/trivy.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/npm-installed/cdxgen.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/npm-installed/syft-installed.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/npm-installed/syft.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/npm-installed/trivy-rootfs.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/npm-installed/trivy.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/npm-source/cdxgen.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/npm-source/syft.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/npm-source/trivy.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/rust-auditable/cdxgen.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/rust-auditable/syft-installed.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/rust-auditable/syft.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/rust-auditable/trivy-rootfs.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/rust-auditable/trivy.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/rust-binary/cdxgen.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/rust-binary/syft-installed.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/rust-binary/syft.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/rust-binary/trivy-rootfs.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/rust-binary/trivy.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/rust-no-alias/cdxgen.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/rust-no-alias/syft-installed.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/rust-no-alias/syft.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/rust-no-alias/trivy-rootfs.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/rust-no-alias/trivy.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/rust-source/cdxgen.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/rust-source/syft.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/rust-source/trivy.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/spectrum-source/syft.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/spectrum-source/trivy.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/webpki-roots-source/cdxgen.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/webpki-roots-source/syft-installed.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/webpki-roots-source/syft.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/webpki-roots-source/trivy-rootfs.cdx.json",
+    "status": "VALID",
+    "errors": []
+  },
+  {
+    "path": "scans/webpki-roots-source/trivy.cdx.json",
+    "status": "VALID",
+    "errors": []
+  }
+]

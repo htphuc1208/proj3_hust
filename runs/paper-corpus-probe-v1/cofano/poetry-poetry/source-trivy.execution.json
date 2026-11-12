@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/trivy",
+    "fs",
+    "--offline-scan",
+    "--skip-db-update",
+    "--skip-java-db-update",
+    "--disable-telemetry",
+    "--skip-version-check",
+    "--parallel",
+    "1",
+    "--format",
+    "cyclonedx",
+    "--output",
+    "/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/cofano/poetry-poetry/source-trivy.cdx.json",
+    "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/poetry-poetry"
+  ],
+  "exit_code": 0,
+  "seconds": 0.20737655999982962
+}

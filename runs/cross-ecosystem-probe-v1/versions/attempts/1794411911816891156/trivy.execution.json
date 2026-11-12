@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/trivy",
+    "--version"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:26:56.001008+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 11.813092743002926
+}

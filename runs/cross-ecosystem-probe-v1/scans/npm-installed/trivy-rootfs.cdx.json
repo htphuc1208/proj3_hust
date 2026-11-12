@@ -1,0 +1,193 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:022994e7-97f8-4755-9d98-cfcdfa5b317d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T15:42:52+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "6addfced-1352-45a1-a51a-c11e433b484a",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/npm-alias",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:npm/lodash@4.17.20",
+      "type": "library",
+      "name": "lodash",
+      "version": "4.17.20",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f95a2cf4038f0d4b9ecd2db53f6e5779a29552e8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/lodash@4.17.20",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "node_modules/lodash-vulnerable/package.json"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "lodash@4.17.20"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "node-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/lodash@4.17.21",
+      "type": "library",
+      "name": "lodash",
+      "version": "4.17.21",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "2c1ec9f730323c72f6f76e73f48b24902cc853c2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/lodash@4.17.21",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "node_modules/lodash-fixed/package.json"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "lodash@4.17.21"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "node-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/minimist@1.2.5",
+      "type": "library",
+      "name": "minimist",
+      "version": "1.2.5",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "35f4127bf5657e9ac4ec85015245858ba66416a2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/minimist@1.2.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "node_modules/minimist/package.json"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "minimist@1.2.5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "node-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/sbom-alias-build-probe@1.0.0",
+      "type": "library",
+      "name": "sbom-alias-build-probe",
+      "version": "1.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ab430d3c046383dd977f9ef571239a97c389727c"
+        }
+      ],
+      "purl": "pkg:npm/sbom-alias-build-probe@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "package.json"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "sbom-alias-build-probe@1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "node-pkg"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "6addfced-1352-45a1-a51a-c11e433b484a",
+      "dependsOn": [
+        "pkg:npm/lodash@4.17.20",
+        "pkg:npm/lodash@4.17.21",
+        "pkg:npm/minimist@1.2.5",
+        "pkg:npm/sbom-alias-build-probe@1.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/lodash@4.17.20",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/lodash@4.17.21",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/minimist@1.2.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/sbom-alias-build-probe@1.0.0",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

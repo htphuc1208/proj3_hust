@@ -1,0 +1,26 @@
+{
+  "checks": {
+    "go_control_same_native_resolution": true,
+    "go_default_source_disagrees_with_binary_version": true,
+    "go_control_and_native_mode_agree": true,
+    "rust_control_same_lock_and_production_closure": true,
+    "rust_alias_changes_trivy_inventory": true,
+    "rust_native_and_auditable_recognize_regex": true,
+    "rust_advisory_CVE_2022_24713_returns_in_control": true,
+    "graph_removal_does_not_change_this_consumer": true,
+    "go123_native_std_has_no_OSV_match": true,
+    "go123_adapter_recovers_same_advisory_records_as_syft": true,
+    "java_metadata_removal_preserves_every_class_byte": true,
+    "java_minimized_has_only_application_class": true,
+    "java_minimized_still_matches_package_advisories": true,
+    "paper_java_has_21_exact_upstream_class_matches": true,
+    "paper_java_lacks_two_advisory_related_classes": true,
+    "captured_inputs_unchanged": true,
+    "all_consumers_bound_to_unchanged_SBOM_inputs": true,
+    "bundle_input_hashes_unchanged": true,
+    "bundle_only_uses_vulnerable_alias_not_fixed_alias": true,
+    "npm_installed_mode_recognizes_both_real_lodash_versions": true
+  },
+  "all_passed": true,
+  "note": "Integration assertions over local evidence. Not proof of input truth or runtime safety; not a per-change certificate/checker."
+}

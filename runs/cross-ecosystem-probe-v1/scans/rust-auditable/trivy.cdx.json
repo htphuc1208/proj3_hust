@@ -1,0 +1,42 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:72c8a69d-fedd-451b-898d-a9012ad61ad1",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T15:34:08+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "168b1e47-00f7-492b-8810-09d5292d089b",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/rust-auditable",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "168b1e47-00f7-492b-8810-09d5292d089b",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

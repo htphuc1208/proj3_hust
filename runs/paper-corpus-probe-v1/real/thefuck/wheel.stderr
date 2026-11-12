@@ -1,0 +1,740 @@
+Building wheel...
+<string>:3: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+/tmp/paper-source/fastentrypoints.py:77: SetuptoolsDeprecationWarning: easy_install module is deprecated
+!!
+
+        ********************************************************************************
+        Avoid accessing attributes of setuptools.command.easy_install.
+
+        This deprecation is overdue, please update your project and remove deprecated
+        calls to avoid build errors in the future.
+
+        See https://github.com/pypa/setuptools/issues/4976 for details.
+        ********************************************************************************
+
+!!
+  easy_install.ScriptWriter.get_args = get_args
+fastentrypoints
+running egg_info
+creating thefuck.egg-info
+writing thefuck.egg-info/PKG-INFO
+writing dependency_links to thefuck.egg-info/dependency_links.txt
+writing entry points to thefuck.egg-info/entry_points.txt
+writing requirements to thefuck.egg-info/requires.txt
+writing top-level names to thefuck.egg-info/top_level.txt
+writing manifest file 'thefuck.egg-info/SOURCES.txt'
+reading manifest file 'thefuck.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.md'
+writing manifest file 'thefuck.egg-info/SOURCES.txt'
+<string>:3: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+/tmp/paper-source/fastentrypoints.py:77: SetuptoolsDeprecationWarning: easy_install module is deprecated
+!!
+
+        ********************************************************************************
+        Avoid accessing attributes of setuptools.command.easy_install.
+
+        This deprecation is overdue, please update your project and remove deprecated
+        calls to avoid build errors in the future.
+
+        See https://github.com/pypa/setuptools/issues/4976 for details.
+        ********************************************************************************
+
+!!
+  easy_install.ScriptWriter.get_args = get_args
+fastentrypoints
+running bdist_wheel
+/cache/builds-v0/.tmp8MasNu/lib/python3.11/site-packages/setuptools/_distutils/cmd.py:135: SetuptoolsDeprecationWarning: bdist_wheel.universal is deprecated
+!!
+
+        ********************************************************************************
+        With Python 2.7 end-of-life, support for building universal wheels
+        (i.e., wheels that support both Python 2 and Python 3)
+        is being obviated.
+        Please discontinue using this option, or if you still need it,
+        file an issue with pypa/setuptools describing your use case.
+
+        This deprecation is overdue, please update your project and remove deprecated
+        calls to avoid build errors in the future.
+        ********************************************************************************
+
+!!
+  self.finalize_options()
+running build
+running build_py
+creating build/lib/thefuck
+copying thefuck/__init__.py -> build/lib/thefuck
+copying thefuck/exceptions.py -> build/lib/thefuck
+copying thefuck/const.py -> build/lib/thefuck
+copying thefuck/utils.py -> build/lib/thefuck
+copying thefuck/ui.py -> build/lib/thefuck
+copying thefuck/conf.py -> build/lib/thefuck
+copying thefuck/types.py -> build/lib/thefuck
+copying thefuck/logs.py -> build/lib/thefuck
+copying thefuck/corrector.py -> build/lib/thefuck
+copying thefuck/argument_parser.py -> build/lib/thefuck
+creating build/lib/thefuck/rules
+copying thefuck/rules/__init__.py -> build/lib/thefuck/rules
+copying thefuck/rules/whois.py -> build/lib/thefuck/rules
+copying thefuck/rules/cargo_no_command.py -> build/lib/thefuck/rules
+copying thefuck/rules/gradle_no_task.py -> build/lib/thefuck/rules
+copying thefuck/rules/gulp_not_task.py -> build/lib/thefuck/rules
+copying thefuck/rules/conda_mistype.py -> build/lib/thefuck/rules
+copying thefuck/rules/omnienv_no_such_command.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_stash.py -> build/lib/thefuck/rules
+copying thefuck/rules/apt_get.py -> build/lib/thefuck/rules
+copying thefuck/rules/rm_root.py -> build/lib/thefuck/rules
+copying thefuck/rules/gem_unknown_command.py -> build/lib/thefuck/rules
+copying thefuck/rules/yarn_help.py -> build/lib/thefuck/rules
+copying thefuck/rules/npm_missing_script.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_tag_force.py -> build/lib/thefuck/rules
+copying thefuck/rules/pacman.py -> build/lib/thefuck/rules
+copying thefuck/rules/systemctl.py -> build/lib/thefuck/rules
+copying thefuck/rules/choco_install.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_branch_delete_checked_out.py -> build/lib/thefuck/rules
+copying thefuck/rules/grunt_task_not_found.py -> build/lib/thefuck/rules
+copying thefuck/rules/rm_dir.py -> build/lib/thefuck/rules
+copying thefuck/rules/history.py -> build/lib/thefuck/rules
+copying thefuck/rules/apt_upgrade.py -> build/lib/thefuck/rules
+copying thefuck/rules/workon_doesnt_exists.py -> build/lib/thefuck/rules
+copying thefuck/rules/sudo_command_from_user_path.py -> build/lib/thefuck/rules
+copying thefuck/rules/fix_file.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_push_pull.py -> build/lib/thefuck/rules
+copying thefuck/rules/wrong_hyphen_before_subcommand.py -> build/lib/thefuck/rules
+copying thefuck/rules/ls_lah.py -> build/lib/thefuck/rules
+copying thefuck/rules/dnf_no_such_command.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_two_dashes.py -> build/lib/thefuck/rules
+copying thefuck/rules/yum_invalid_operation.py -> build/lib/thefuck/rules
+copying thefuck/rules/ln_s_order.py -> build/lib/thefuck/rules
+copying thefuck/rules/docker_not_command.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_diff_no_index.py -> build/lib/thefuck/rules
+copying thefuck/rules/pacman_invalid_option.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_main_master.py -> build/lib/thefuck/rules
+copying thefuck/rules/dirty_untar.py -> build/lib/thefuck/rules
+copying thefuck/rules/cp_omitting_directory.py -> build/lib/thefuck/rules
+copying thefuck/rules/django_south_merge.py -> build/lib/thefuck/rules
+copying thefuck/rules/sudo.py -> build/lib/thefuck/rules
+copying thefuck/rules/ln_no_hard_link.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_bisect_usage.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_clone_git_clone.py -> build/lib/thefuck/rules
+copying thefuck/rules/yarn_alias.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_not_command.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_commit_add.py -> build/lib/thefuck/rules
+copying thefuck/rules/django_south_ghost.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_push_without_commits.py -> build/lib/thefuck/rules
+copying thefuck/rules/open.py -> build/lib/thefuck/rules
+copying thefuck/rules/python_execute.py -> build/lib/thefuck/rules
+copying thefuck/rules/pip_install.py -> build/lib/thefuck/rules
+copying thefuck/rules/remove_trailing_cedilla.py -> build/lib/thefuck/rules
+copying thefuck/rules/az_cli.py -> build/lib/thefuck/rules
+copying thefuck/rules/brew_link.py -> build/lib/thefuck/rules
+copying thefuck/rules/cpp11.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_push.py -> build/lib/thefuck/rules
+copying thefuck/rules/mvn_unknown_lifecycle_phase.py -> build/lib/thefuck/rules
+copying thefuck/rules/unknown_command.py -> build/lib/thefuck/rules
+copying thefuck/rules/fix_alt_space.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_help_aliased.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_stash_pop.py -> build/lib/thefuck/rules
+copying thefuck/rules/fab_command_not_found.py -> build/lib/thefuck/rules
+copying thefuck/rules/yarn_command_replaced.py -> build/lib/thefuck/rules
+copying thefuck/rules/long_form_help.py -> build/lib/thefuck/rules
+copying thefuck/rules/missing_space_before_subcommand.py -> build/lib/thefuck/rules
+copying thefuck/rules/grep_recursive.py -> build/lib/thefuck/rules
+copying thefuck/rules/test.py.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_flag_after_filename.py -> build/lib/thefuck/rules
+copying thefuck/rules/pip_unknown_command.py -> build/lib/thefuck/rules
+copying thefuck/rules/ssh_known_hosts.py -> build/lib/thefuck/rules
+copying thefuck/rules/composer_not_command.py -> build/lib/thefuck/rules
+copying thefuck/rules/port_already_in_use.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_diff_staged.py -> build/lib/thefuck/rules
+copying thefuck/rules/brew_cask_dependency.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_merge.py -> build/lib/thefuck/rules
+copying thefuck/rules/pacman_not_found.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_commit_amend.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_lfs_mistype.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_rm_staged.py -> build/lib/thefuck/rules
+copying thefuck/rules/gradle_wrapper.py -> build/lib/thefuck/rules
+copying thefuck/rules/aws_cli.py -> build/lib/thefuck/rules
+copying thefuck/rules/unsudo.py -> build/lib/thefuck/rules
+copying thefuck/rules/cp_create_destination.py -> build/lib/thefuck/rules
+copying thefuck/rules/javac.py -> build/lib/thefuck/rules
+copying thefuck/rules/apt_get_search.py -> build/lib/thefuck/rules
+copying thefuck/rules/cd_mkdir.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_hook_bypass.py -> build/lib/thefuck/rules
+copying thefuck/rules/docker_login.py -> build/lib/thefuck/rules
+copying thefuck/rules/php_s.py -> build/lib/thefuck/rules
+copying thefuck/rules/prove_recursively.py -> build/lib/thefuck/rules
+copying thefuck/rules/cd_correction.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_push_different_branch_names.py -> build/lib/thefuck/rules
+copying thefuck/rules/man_no_space.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_branch_exists.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_add.py -> build/lib/thefuck/rules
+copying thefuck/rules/npm_wrong_command.py -> build/lib/thefuck/rules
+copying thefuck/rules/mercurial.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_rebase_no_changes.py -> build/lib/thefuck/rules
+copying thefuck/rules/heroku_not_command.py -> build/lib/thefuck/rules
+copying thefuck/rules/go_unknown_command.py -> build/lib/thefuck/rules
+copying thefuck/rules/heroku_multiple_apps.py -> build/lib/thefuck/rules
+copying thefuck/rules/chmod_x.py -> build/lib/thefuck/rules
+copying thefuck/rules/no_such_file.py -> build/lib/thefuck/rules
+copying thefuck/rules/grep_arguments_order.py -> build/lib/thefuck/rules
+copying thefuck/rules/apt_list_upgradable.py -> build/lib/thefuck/rules
+copying thefuck/rules/rails_migrations_pending.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_remote_delete.py -> build/lib/thefuck/rules
+copying thefuck/rules/cat_dir.py -> build/lib/thefuck/rules
+copying thefuck/rules/brew_update_formula.py -> build/lib/thefuck/rules
+copying thefuck/rules/tsuru_not_command.py -> build/lib/thefuck/rules
+copying thefuck/rules/has_exists_script.py -> build/lib/thefuck/rules
+copying thefuck/rules/sl_ls.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_commit_reset.py -> build/lib/thefuck/rules
+copying thefuck/rules/path_from_history.py -> build/lib/thefuck/rules
+copying thefuck/rules/sed_unterminated_s.py -> build/lib/thefuck/rules
+copying thefuck/rules/npm_run_script.py -> build/lib/thefuck/rules
+copying thefuck/rules/man.py -> build/lib/thefuck/rules
+copying thefuck/rules/cd_parent.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_branch_list.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_branch_0flag.py -> build/lib/thefuck/rules
+copying thefuck/rules/dirty_unzip.py -> build/lib/thefuck/rules
+copying thefuck/rules/mvn_no_command.py -> build/lib/thefuck/rules
+copying thefuck/rules/brew_unknown_command.py -> build/lib/thefuck/rules
+copying thefuck/rules/brew_uninstall.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_pull_clone.py -> build/lib/thefuck/rules
+copying thefuck/rules/hostscli.py -> build/lib/thefuck/rules
+copying thefuck/rules/mkdir_p.py -> build/lib/thefuck/rules
+copying thefuck/rules/cargo.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_pull_uncommitted_changes.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_checkout.py -> build/lib/thefuck/rules
+copying thefuck/rules/yarn_command_not_found.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_rm_local_modifications.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_pull.py -> build/lib/thefuck/rules
+copying thefuck/rules/python_module_error.py -> build/lib/thefuck/rules
+copying thefuck/rules/react_native_command_unrecognized.py -> build/lib/thefuck/rules
+copying thefuck/rules/lein_not_task.py -> build/lib/thefuck/rules
+copying thefuck/rules/apt_invalid_operation.py -> build/lib/thefuck/rules
+copying thefuck/rules/dry.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_rebase_merge_dir.py -> build/lib/thefuck/rules
+copying thefuck/rules/vagrant_up.py -> build/lib/thefuck/rules
+copying thefuck/rules/remove_shell_prompt_literal.py -> build/lib/thefuck/rules
+copying thefuck/rules/touch.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_fix_stash.py -> build/lib/thefuck/rules
+copying thefuck/rules/python_command.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_merge_unrelated.py -> build/lib/thefuck/rules
+copying thefuck/rules/terraform_no_command.py -> build/lib/thefuck/rules
+copying thefuck/rules/adb_unknown_command.py -> build/lib/thefuck/rules
+copying thefuck/rules/ifconfig_device_not_found.py -> build/lib/thefuck/rules
+copying thefuck/rules/brew_reinstall.py -> build/lib/thefuck/rules
+copying thefuck/rules/switch_lang.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_add_force.py -> build/lib/thefuck/rules
+copying thefuck/rules/brew_install.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_clone_missing.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_push_force.py -> build/lib/thefuck/rules
+copying thefuck/rules/docker_image_being_used_by_container.py -> build/lib/thefuck/rules
+copying thefuck/rules/tsuru_login.py -> build/lib/thefuck/rules
+copying thefuck/rules/terraform_init.py -> build/lib/thefuck/rules
+copying thefuck/rules/cd_cs.py -> build/lib/thefuck/rules
+copying thefuck/rules/java.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_rm_recursive.py -> build/lib/thefuck/rules
+copying thefuck/rules/nixos_cmd_not_found.py -> build/lib/thefuck/rules
+copying thefuck/rules/no_command.py -> build/lib/thefuck/rules
+copying thefuck/rules/tmux.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_remote_seturl_add.py -> build/lib/thefuck/rules
+copying thefuck/rules/ag_literal.py -> build/lib/thefuck/rules
+copying thefuck/rules/go_run.py -> build/lib/thefuck/rules
+copying thefuck/rules/git_branch_delete.py -> build/lib/thefuck/rules
+copying thefuck/rules/scm_correction.py -> build/lib/thefuck/rules
+copying thefuck/rules/quotation_marks.py -> build/lib/thefuck/rules
+copying thefuck/rules/ls_all.py -> build/lib/thefuck/rules
+creating build/lib/thefuck/specific
+copying thefuck/specific/__init__.py -> build/lib/thefuck/specific
+copying thefuck/specific/apt.py -> build/lib/thefuck/specific
+copying thefuck/specific/sudo.py -> build/lib/thefuck/specific
+copying thefuck/specific/yum.py -> build/lib/thefuck/specific
+copying thefuck/specific/brew.py -> build/lib/thefuck/specific
+copying thefuck/specific/archlinux.py -> build/lib/thefuck/specific
+copying thefuck/specific/git.py -> build/lib/thefuck/specific
+copying thefuck/specific/dnf.py -> build/lib/thefuck/specific
+copying thefuck/specific/nix.py -> build/lib/thefuck/specific
+copying thefuck/specific/npm.py -> build/lib/thefuck/specific
+creating build/lib/thefuck/shells
+copying thefuck/shells/__init__.py -> build/lib/thefuck/shells
+copying thefuck/shells/fish.py -> build/lib/thefuck/shells
+copying thefuck/shells/tcsh.py -> build/lib/thefuck/shells
+copying thefuck/shells/zsh.py -> build/lib/thefuck/shells
+copying thefuck/shells/generic.py -> build/lib/thefuck/shells
+copying thefuck/shells/bash.py -> build/lib/thefuck/shells
+copying thefuck/shells/powershell.py -> build/lib/thefuck/shells
+creating build/lib/thefuck/system
+copying thefuck/system/__init__.py -> build/lib/thefuck/system
+copying thefuck/system/win32.py -> build/lib/thefuck/system
+copying thefuck/system/unix.py -> build/lib/thefuck/system
+creating build/lib/thefuck/entrypoints
+copying thefuck/entrypoints/__init__.py -> build/lib/thefuck/entrypoints
+copying thefuck/entrypoints/not_configured.py -> build/lib/thefuck/entrypoints
+copying thefuck/entrypoints/alias.py -> build/lib/thefuck/entrypoints
+copying thefuck/entrypoints/fix_command.py -> build/lib/thefuck/entrypoints
+copying thefuck/entrypoints/main.py -> build/lib/thefuck/entrypoints
+copying thefuck/entrypoints/shell_logger.py -> build/lib/thefuck/entrypoints
+creating build/lib/thefuck/output_readers
+copying thefuck/output_readers/__init__.py -> build/lib/thefuck/output_readers
+copying thefuck/output_readers/read_log.py -> build/lib/thefuck/output_readers
+copying thefuck/output_readers/rerun.py -> build/lib/thefuck/output_readers
+copying thefuck/output_readers/shell_logger.py -> build/lib/thefuck/output_readers
+running egg_info
+writing thefuck.egg-info/PKG-INFO
+writing dependency_links to thefuck.egg-info/dependency_links.txt
+writing entry points to thefuck.egg-info/entry_points.txt
+writing requirements to thefuck.egg-info/requires.txt
+writing top-level names to thefuck.egg-info/top_level.txt
+reading manifest file 'thefuck.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.md'
+writing manifest file 'thefuck.egg-info/SOURCES.txt'
+copying thefuck/rules/test.py.py -> build/lib/thefuck/rules
+warning: build_py: byte-compiling is disabled, skipping.
+
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/thefuck
+copying build/lib/thefuck/__init__.py -> build/bdist.linux-x86_64/wheel/./thefuck
+copying build/lib/thefuck/exceptions.py -> build/bdist.linux-x86_64/wheel/./thefuck
+copying build/lib/thefuck/const.py -> build/bdist.linux-x86_64/wheel/./thefuck
+creating build/bdist.linux-x86_64/wheel/thefuck/rules
+copying build/lib/thefuck/rules/__init__.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/whois.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/cargo_no_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/gradle_no_task.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/gulp_not_task.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/conda_mistype.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/omnienv_no_such_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_stash.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/apt_get.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/rm_root.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/gem_unknown_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/yarn_help.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/npm_missing_script.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_tag_force.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/pacman.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/systemctl.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/choco_install.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_branch_delete_checked_out.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/grunt_task_not_found.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/rm_dir.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/history.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/apt_upgrade.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/workon_doesnt_exists.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/sudo_command_from_user_path.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/fix_file.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_push_pull.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/wrong_hyphen_before_subcommand.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/ls_lah.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/dnf_no_such_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_two_dashes.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/yum_invalid_operation.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/ln_s_order.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/docker_not_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_diff_no_index.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/pacman_invalid_option.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_main_master.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/dirty_untar.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/cp_omitting_directory.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/django_south_merge.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/sudo.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/ln_no_hard_link.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_bisect_usage.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_clone_git_clone.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/yarn_alias.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_not_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_commit_add.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/django_south_ghost.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_push_without_commits.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/open.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/python_execute.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/pip_install.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/remove_trailing_cedilla.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/az_cli.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/brew_link.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/cpp11.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_push.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/mvn_unknown_lifecycle_phase.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/unknown_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/fix_alt_space.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_help_aliased.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_stash_pop.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/fab_command_not_found.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/yarn_command_replaced.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/long_form_help.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/missing_space_before_subcommand.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/grep_recursive.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/test.py.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_flag_after_filename.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/pip_unknown_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/ssh_known_hosts.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/composer_not_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/port_already_in_use.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_diff_staged.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/brew_cask_dependency.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_merge.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/pacman_not_found.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_commit_amend.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_lfs_mistype.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_rm_staged.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/gradle_wrapper.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/aws_cli.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/unsudo.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/cp_create_destination.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/javac.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/apt_get_search.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/cd_mkdir.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_hook_bypass.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/docker_login.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/php_s.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/prove_recursively.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/cd_correction.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_push_different_branch_names.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/man_no_space.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_branch_exists.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_add.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/npm_wrong_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/mercurial.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_rebase_no_changes.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/heroku_not_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/go_unknown_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/heroku_multiple_apps.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/chmod_x.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/no_such_file.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/grep_arguments_order.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/apt_list_upgradable.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/rails_migrations_pending.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_remote_delete.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/cat_dir.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/brew_update_formula.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/tsuru_not_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/has_exists_script.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/sl_ls.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_commit_reset.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/path_from_history.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/sed_unterminated_s.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/npm_run_script.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/man.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/cd_parent.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_branch_list.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_branch_0flag.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/dirty_unzip.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/mvn_no_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/brew_unknown_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/brew_uninstall.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_pull_clone.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/hostscli.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/mkdir_p.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/cargo.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_pull_uncommitted_changes.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_checkout.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/yarn_command_not_found.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_rm_local_modifications.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_pull.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/python_module_error.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/react_native_command_unrecognized.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/lein_not_task.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/apt_invalid_operation.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/dry.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_rebase_merge_dir.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/vagrant_up.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/remove_shell_prompt_literal.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/touch.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_fix_stash.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/python_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_merge_unrelated.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/terraform_no_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/adb_unknown_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/ifconfig_device_not_found.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/brew_reinstall.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/switch_lang.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_add_force.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/brew_install.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_clone_missing.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_push_force.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/docker_image_being_used_by_container.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/tsuru_login.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/terraform_init.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/cd_cs.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/java.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_rm_recursive.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/nixos_cmd_not_found.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/no_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/tmux.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_remote_seturl_add.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/ag_literal.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/go_run.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/git_branch_delete.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/scm_correction.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/quotation_marks.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/rules/ls_all.py -> build/bdist.linux-x86_64/wheel/./thefuck/rules
+copying build/lib/thefuck/utils.py -> build/bdist.linux-x86_64/wheel/./thefuck
+creating build/bdist.linux-x86_64/wheel/thefuck/specific
+copying build/lib/thefuck/specific/__init__.py -> build/bdist.linux-x86_64/wheel/./thefuck/specific
+copying build/lib/thefuck/specific/apt.py -> build/bdist.linux-x86_64/wheel/./thefuck/specific
+copying build/lib/thefuck/specific/sudo.py -> build/bdist.linux-x86_64/wheel/./thefuck/specific
+copying build/lib/thefuck/specific/yum.py -> build/bdist.linux-x86_64/wheel/./thefuck/specific
+copying build/lib/thefuck/specific/brew.py -> build/bdist.linux-x86_64/wheel/./thefuck/specific
+copying build/lib/thefuck/specific/archlinux.py -> build/bdist.linux-x86_64/wheel/./thefuck/specific
+copying build/lib/thefuck/specific/git.py -> build/bdist.linux-x86_64/wheel/./thefuck/specific
+copying build/lib/thefuck/specific/dnf.py -> build/bdist.linux-x86_64/wheel/./thefuck/specific
+copying build/lib/thefuck/specific/nix.py -> build/bdist.linux-x86_64/wheel/./thefuck/specific
+copying build/lib/thefuck/specific/npm.py -> build/bdist.linux-x86_64/wheel/./thefuck/specific
+copying build/lib/thefuck/ui.py -> build/bdist.linux-x86_64/wheel/./thefuck
+creating build/bdist.linux-x86_64/wheel/thefuck/shells
+copying build/lib/thefuck/shells/__init__.py -> build/bdist.linux-x86_64/wheel/./thefuck/shells
+copying build/lib/thefuck/shells/fish.py -> build/bdist.linux-x86_64/wheel/./thefuck/shells
+copying build/lib/thefuck/shells/tcsh.py -> build/bdist.linux-x86_64/wheel/./thefuck/shells
+copying build/lib/thefuck/shells/zsh.py -> build/bdist.linux-x86_64/wheel/./thefuck/shells
+copying build/lib/thefuck/shells/generic.py -> build/bdist.linux-x86_64/wheel/./thefuck/shells
+copying build/lib/thefuck/shells/bash.py -> build/bdist.linux-x86_64/wheel/./thefuck/shells
+copying build/lib/thefuck/shells/powershell.py -> build/bdist.linux-x86_64/wheel/./thefuck/shells
+creating build/bdist.linux-x86_64/wheel/thefuck/system
+copying build/lib/thefuck/system/__init__.py -> build/bdist.linux-x86_64/wheel/./thefuck/system
+copying build/lib/thefuck/system/win32.py -> build/bdist.linux-x86_64/wheel/./thefuck/system
+copying build/lib/thefuck/system/unix.py -> build/bdist.linux-x86_64/wheel/./thefuck/system
+copying build/lib/thefuck/conf.py -> build/bdist.linux-x86_64/wheel/./thefuck
+copying build/lib/thefuck/types.py -> build/bdist.linux-x86_64/wheel/./thefuck
+copying build/lib/thefuck/logs.py -> build/bdist.linux-x86_64/wheel/./thefuck
+creating build/bdist.linux-x86_64/wheel/thefuck/entrypoints
+copying build/lib/thefuck/entrypoints/__init__.py -> build/bdist.linux-x86_64/wheel/./thefuck/entrypoints
+copying build/lib/thefuck/entrypoints/not_configured.py -> build/bdist.linux-x86_64/wheel/./thefuck/entrypoints
+copying build/lib/thefuck/entrypoints/alias.py -> build/bdist.linux-x86_64/wheel/./thefuck/entrypoints
+copying build/lib/thefuck/entrypoints/fix_command.py -> build/bdist.linux-x86_64/wheel/./thefuck/entrypoints
+copying build/lib/thefuck/entrypoints/main.py -> build/bdist.linux-x86_64/wheel/./thefuck/entrypoints
+copying build/lib/thefuck/entrypoints/shell_logger.py -> build/bdist.linux-x86_64/wheel/./thefuck/entrypoints
+creating build/bdist.linux-x86_64/wheel/thefuck/output_readers
+copying build/lib/thefuck/output_readers/__init__.py -> build/bdist.linux-x86_64/wheel/./thefuck/output_readers
+copying build/lib/thefuck/output_readers/read_log.py -> build/bdist.linux-x86_64/wheel/./thefuck/output_readers
+copying build/lib/thefuck/output_readers/rerun.py -> build/bdist.linux-x86_64/wheel/./thefuck/output_readers
+copying build/lib/thefuck/output_readers/shell_logger.py -> build/bdist.linux-x86_64/wheel/./thefuck/output_readers
+copying build/lib/thefuck/corrector.py -> build/bdist.linux-x86_64/wheel/./thefuck
+copying build/lib/thefuck/argument_parser.py -> build/bdist.linux-x86_64/wheel/./thefuck
+warning: install_lib: byte-compiling is disabled, skipping.
+
+running install_egg_info
+Copying thefuck.egg-info to build/bdist.linux-x86_64/wheel/./thefuck-3.32-py3.11.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/thefuck-3.32.dist-info/WHEEL
+creating '/out/wheels/.tmp-abyqwr7d/thefuck-3.32-py2.py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'thefuck/__init__.py'
+adding 'thefuck/argument_parser.py'
+adding 'thefuck/conf.py'
+adding 'thefuck/const.py'
+adding 'thefuck/corrector.py'
+adding 'thefuck/exceptions.py'
+adding 'thefuck/logs.py'
+adding 'thefuck/types.py'
+adding 'thefuck/ui.py'
+adding 'thefuck/utils.py'
+adding 'thefuck/entrypoints/__init__.py'
+adding 'thefuck/entrypoints/alias.py'
+adding 'thefuck/entrypoints/fix_command.py'
+adding 'thefuck/entrypoints/main.py'
+adding 'thefuck/entrypoints/not_configured.py'
+adding 'thefuck/entrypoints/shell_logger.py'
+adding 'thefuck/output_readers/__init__.py'
+adding 'thefuck/output_readers/read_log.py'
+adding 'thefuck/output_readers/rerun.py'
+adding 'thefuck/output_readers/shell_logger.py'
+adding 'thefuck/rules/__init__.py'
+adding 'thefuck/rules/adb_unknown_command.py'
+adding 'thefuck/rules/ag_literal.py'
+adding 'thefuck/rules/apt_get.py'
+adding 'thefuck/rules/apt_get_search.py'
+adding 'thefuck/rules/apt_invalid_operation.py'
+adding 'thefuck/rules/apt_list_upgradable.py'
+adding 'thefuck/rules/apt_upgrade.py'
+adding 'thefuck/rules/aws_cli.py'
+adding 'thefuck/rules/az_cli.py'
+adding 'thefuck/rules/brew_cask_dependency.py'
+adding 'thefuck/rules/brew_install.py'
+adding 'thefuck/rules/brew_link.py'
+adding 'thefuck/rules/brew_reinstall.py'
+adding 'thefuck/rules/brew_uninstall.py'
+adding 'thefuck/rules/brew_unknown_command.py'
+adding 'thefuck/rules/brew_update_formula.py'
+adding 'thefuck/rules/cargo.py'
+adding 'thefuck/rules/cargo_no_command.py'
+adding 'thefuck/rules/cat_dir.py'
+adding 'thefuck/rules/cd_correction.py'
+adding 'thefuck/rules/cd_cs.py'
+adding 'thefuck/rules/cd_mkdir.py'
+adding 'thefuck/rules/cd_parent.py'
+adding 'thefuck/rules/chmod_x.py'
+adding 'thefuck/rules/choco_install.py'
+adding 'thefuck/rules/composer_not_command.py'
+adding 'thefuck/rules/conda_mistype.py'
+adding 'thefuck/rules/cp_create_destination.py'
+adding 'thefuck/rules/cp_omitting_directory.py'
+adding 'thefuck/rules/cpp11.py'
+adding 'thefuck/rules/dirty_untar.py'
+adding 'thefuck/rules/dirty_unzip.py'
+adding 'thefuck/rules/django_south_ghost.py'
+adding 'thefuck/rules/django_south_merge.py'
+adding 'thefuck/rules/dnf_no_such_command.py'
+adding 'thefuck/rules/docker_image_being_used_by_container.py'
+adding 'thefuck/rules/docker_login.py'
+adding 'thefuck/rules/docker_not_command.py'
+adding 'thefuck/rules/dry.py'
+adding 'thefuck/rules/fab_command_not_found.py'
+adding 'thefuck/rules/fix_alt_space.py'
+adding 'thefuck/rules/fix_file.py'
+adding 'thefuck/rules/gem_unknown_command.py'
+adding 'thefuck/rules/git_add.py'
+adding 'thefuck/rules/git_add_force.py'
+adding 'thefuck/rules/git_bisect_usage.py'
+adding 'thefuck/rules/git_branch_0flag.py'
+adding 'thefuck/rules/git_branch_delete.py'
+adding 'thefuck/rules/git_branch_delete_checked_out.py'
+adding 'thefuck/rules/git_branch_exists.py'
+adding 'thefuck/rules/git_branch_list.py'
+adding 'thefuck/rules/git_checkout.py'
+adding 'thefuck/rules/git_clone_git_clone.py'
+adding 'thefuck/rules/git_clone_missing.py'
+adding 'thefuck/rules/git_commit_add.py'
+adding 'thefuck/rules/git_commit_amend.py'
+adding 'thefuck/rules/git_commit_reset.py'
+adding 'thefuck/rules/git_diff_no_index.py'
+adding 'thefuck/rules/git_diff_staged.py'
+adding 'thefuck/rules/git_fix_stash.py'
+adding 'thefuck/rules/git_flag_after_filename.py'
+adding 'thefuck/rules/git_help_aliased.py'
+adding 'thefuck/rules/git_hook_bypass.py'
+adding 'thefuck/rules/git_lfs_mistype.py'
+adding 'thefuck/rules/git_main_master.py'
+adding 'thefuck/rules/git_merge.py'
+adding 'thefuck/rules/git_merge_unrelated.py'
+adding 'thefuck/rules/git_not_command.py'
+adding 'thefuck/rules/git_pull.py'
+adding 'thefuck/rules/git_pull_clone.py'
+adding 'thefuck/rules/git_pull_uncommitted_changes.py'
+adding 'thefuck/rules/git_push.py'
+adding 'thefuck/rules/git_push_different_branch_names.py'
+adding 'thefuck/rules/git_push_force.py'
+adding 'thefuck/rules/git_push_pull.py'
+adding 'thefuck/rules/git_push_without_commits.py'
+adding 'thefuck/rules/git_rebase_merge_dir.py'
+adding 'thefuck/rules/git_rebase_no_changes.py'
+adding 'thefuck/rules/git_remote_delete.py'
+adding 'thefuck/rules/git_remote_seturl_add.py'
+adding 'thefuck/rules/git_rm_local_modifications.py'
+adding 'thefuck/rules/git_rm_recursive.py'
+adding 'thefuck/rules/git_rm_staged.py'
+adding 'thefuck/rules/git_stash.py'
+adding 'thefuck/rules/git_stash_pop.py'
+adding 'thefuck/rules/git_tag_force.py'
+adding 'thefuck/rules/git_two_dashes.py'
+adding 'thefuck/rules/go_run.py'
+adding 'thefuck/rules/go_unknown_command.py'
+adding 'thefuck/rules/gradle_no_task.py'
+adding 'thefuck/rules/gradle_wrapper.py'
+adding 'thefuck/rules/grep_arguments_order.py'
+adding 'thefuck/rules/grep_recursive.py'
+adding 'thefuck/rules/grunt_task_not_found.py'
+adding 'thefuck/rules/gulp_not_task.py'
+adding 'thefuck/rules/has_exists_script.py'
+adding 'thefuck/rules/heroku_multiple_apps.py'
+adding 'thefuck/rules/heroku_not_command.py'
+adding 'thefuck/rules/history.py'
+adding 'thefuck/rules/hostscli.py'
+adding 'thefuck/rules/ifconfig_device_not_found.py'
+adding 'thefuck/rules/java.py'
+adding 'thefuck/rules/javac.py'
+adding 'thefuck/rules/lein_not_task.py'
+adding 'thefuck/rules/ln_no_hard_link.py'
+adding 'thefuck/rules/ln_s_order.py'
+adding 'thefuck/rules/long_form_help.py'
+adding 'thefuck/rules/ls_all.py'
+adding 'thefuck/rules/ls_lah.py'
+adding 'thefuck/rules/man.py'
+adding 'thefuck/rules/man_no_space.py'
+adding 'thefuck/rules/mercurial.py'
+adding 'thefuck/rules/missing_space_before_subcommand.py'
+adding 'thefuck/rules/mkdir_p.py'
+adding 'thefuck/rules/mvn_no_command.py'
+adding 'thefuck/rules/mvn_unknown_lifecycle_phase.py'
+adding 'thefuck/rules/nixos_cmd_not_found.py'
+adding 'thefuck/rules/no_command.py'
+adding 'thefuck/rules/no_such_file.py'
+adding 'thefuck/rules/npm_missing_script.py'
+adding 'thefuck/rules/npm_run_script.py'
+adding 'thefuck/rules/npm_wrong_command.py'
+adding 'thefuck/rules/omnienv_no_such_command.py'
+adding 'thefuck/rules/open.py'
+adding 'thefuck/rules/pacman.py'
+adding 'thefuck/rules/pacman_invalid_option.py'
+adding 'thefuck/rules/pacman_not_found.py'
+adding 'thefuck/rules/path_from_history.py'
+adding 'thefuck/rules/php_s.py'
+adding 'thefuck/rules/pip_install.py'
+adding 'thefuck/rules/pip_unknown_command.py'
+adding 'thefuck/rules/port_already_in_use.py'
+adding 'thefuck/rules/prove_recursively.py'
+adding 'thefuck/rules/python_command.py'
+adding 'thefuck/rules/python_execute.py'
+adding 'thefuck/rules/python_module_error.py'
+adding 'thefuck/rules/quotation_marks.py'
+adding 'thefuck/rules/rails_migrations_pending.py'
+adding 'thefuck/rules/react_native_command_unrecognized.py'
+adding 'thefuck/rules/remove_shell_prompt_literal.py'
+adding 'thefuck/rules/remove_trailing_cedilla.py'
+adding 'thefuck/rules/rm_dir.py'
+adding 'thefuck/rules/rm_root.py'
+adding 'thefuck/rules/scm_correction.py'
+adding 'thefuck/rules/sed_unterminated_s.py'
+adding 'thefuck/rules/sl_ls.py'
+adding 'thefuck/rules/ssh_known_hosts.py'
+adding 'thefuck/rules/sudo.py'
+adding 'thefuck/rules/sudo_command_from_user_path.py'
+adding 'thefuck/rules/switch_lang.py'
+adding 'thefuck/rules/systemctl.py'
+adding 'thefuck/rules/terraform_init.py'
+adding 'thefuck/rules/terraform_no_command.py'
+adding 'thefuck/rules/test.py.py'
+adding 'thefuck/rules/tmux.py'
+adding 'thefuck/rules/touch.py'
+adding 'thefuck/rules/tsuru_login.py'
+adding 'thefuck/rules/tsuru_not_command.py'
+adding 'thefuck/rules/unknown_command.py'
+adding 'thefuck/rules/unsudo.py'
+adding 'thefuck/rules/vagrant_up.py'
+adding 'thefuck/rules/whois.py'
+adding 'thefuck/rules/workon_doesnt_exists.py'
+adding 'thefuck/rules/wrong_hyphen_before_subcommand.py'
+adding 'thefuck/rules/yarn_alias.py'
+adding 'thefuck/rules/yarn_command_not_found.py'
+adding 'thefuck/rules/yarn_command_replaced.py'
+adding 'thefuck/rules/yarn_help.py'
+adding 'thefuck/rules/yum_invalid_operation.py'
+adding 'thefuck/shells/__init__.py'
+adding 'thefuck/shells/bash.py'
+adding 'thefuck/shells/fish.py'
+adding 'thefuck/shells/generic.py'
+adding 'thefuck/shells/powershell.py'
+adding 'thefuck/shells/tcsh.py'
+adding 'thefuck/shells/zsh.py'
+adding 'thefuck/specific/__init__.py'
+adding 'thefuck/specific/apt.py'
+adding 'thefuck/specific/archlinux.py'
+adding 'thefuck/specific/brew.py'
+adding 'thefuck/specific/dnf.py'
+adding 'thefuck/specific/git.py'
+adding 'thefuck/specific/nix.py'
+adding 'thefuck/specific/npm.py'
+adding 'thefuck/specific/sudo.py'
+adding 'thefuck/specific/yum.py'
+adding 'thefuck/system/__init__.py'
+adding 'thefuck/system/unix.py'
+adding 'thefuck/system/win32.py'
+adding 'thefuck-3.32.dist-info/licenses/LICENSE.md'
+adding 'thefuck-3.32.dist-info/METADATA'
+adding 'thefuck-3.32.dist-info/WHEEL'
+adding 'thefuck-3.32.dist-info/entry_points.txt'
+adding 'thefuck-3.32.dist-info/top_level.txt'
+adding 'thefuck-3.32.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Successfully built /out/wheels/thefuck-3.32-py2.py3-none-any.whl

@@ -1,0 +1,5 @@
+Warning: --sbom has been deprecated in favor of -L
+Starting filesystem walk for root: /
+Neither CPE nor PURL found for package: {BOMRef:530450d2-1b6b-492e-9aa7-6c30bc53188c MIMEType: Type:application Supplier:<nil> Manufacturer:<nil> Author: Authors:<nil> Publisher: Group: Name:Cargo.lock Version: Description: Scope: Hashes:<nil> Licenses:<nil> Copyright: CPE: PackageURL: OmniborID:<nil> SWHID:<nil> SWID:<nil> Modified:<nil> Pedigree:<nil> ExternalReferences:<nil> Properties:0x156ebd08b28 Components:<nil> Evidence:<nil> ReleaseNotes:<nil> ModelCard:<nil> Data:<nil> CryptoProperties:<nil> Tags:<nil> IsExternal:<nil> PatentAssertions:<nil> VersionRange: Signature:<nil>}
+Scanned /home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/mechanism-controls/rust-trivy-include-dev.cdx.json file and found 8 packages
+End status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 685.656µs elapsed, 685.762µs wall time

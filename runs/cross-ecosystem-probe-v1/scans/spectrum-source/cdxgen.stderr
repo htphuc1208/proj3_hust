@@ -1,0 +1,14 @@
+/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/node/node_modules/packageurl-js/src/package-url.js:196
+      throw new Error('purl is missing the required "name" component.');
+            ^
+
+Error: purl is missing the required "name" component.
+    at PackageURL.fromString (/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/node/node_modules/packageurl-js/src/package-url.js:196:13)
+    at _resolveYarnDependencyBomRef (file:///home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/node/node_modules/@cyclonedx/cdxgen/lib/helpers/utils.js:4637:40)
+    at _collectYarnRootDependencyRefs (file:///home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/node/node_modules/@cyclonedx/cdxgen/lib/helpers/utils.js:4660:22)
+    at parseYarnLock (file:///home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/node/node_modules/@cyclonedx/cdxgen/lib/helpers/utils.js:4802:20)
+    at createNodejsBom (file:///home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/node/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:4549:32)
+    at async createBom (file:///home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/node/node_modules/@cyclonedx/cdxgen/lib/cli/index.js:11184:12)
+    at async file:///home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/node/node_modules/@cyclonedx/cdxgen/bin/cdxgen.js:1529:18
+
+Node.js v22.23.2

@@ -1,0 +1,705 @@
+Building wheel...
+/cache/builds-v0/.tmpVRyMq0/lib/python3.11/site-packages/setuptools/_distutils/dist.py:318: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating gym.egg-info
+writing gym.egg-info/PKG-INFO
+writing dependency_links to gym.egg-info/dependency_links.txt
+writing requirements to gym.egg-info/requires.txt
+writing top-level names to gym.egg-info/top_level.txt
+writing manifest file 'gym.egg-info/SOURCES.txt'
+reading manifest file 'gym.egg-info/SOURCES.txt'
+adding license file 'LICENSE.md'
+writing manifest file 'gym.egg-info/SOURCES.txt'
+/cache/builds-v0/.tmpVRyMq0/lib/python3.11/site-packages/setuptools/_distutils/dist.py:318: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running bdist_wheel
+running build
+running build_py
+creating build/lib/gym
+copying gym/__init__.py -> build/lib/gym
+copying gym/version.py -> build/lib/gym
+copying gym/core.py -> build/lib/gym
+copying gym/logger.py -> build/lib/gym
+copying gym/error.py -> build/lib/gym
+creating build/lib/gym/utils
+copying gym/utils/__init__.py -> build/lib/gym/utils
+copying gym/utils/play.py -> build/lib/gym/utils
+copying gym/utils/env_checker.py -> build/lib/gym/utils
+copying gym/utils/passive_env_checker.py -> build/lib/gym/utils
+copying gym/utils/save_video.py -> build/lib/gym/utils
+copying gym/utils/step_api_compatibility.py -> build/lib/gym/utils
+copying gym/utils/seeding.py -> build/lib/gym/utils
+copying gym/utils/colorize.py -> build/lib/gym/utils
+copying gym/utils/ezpickle.py -> build/lib/gym/utils
+creating build/lib/gym/vector
+copying gym/vector/__init__.py -> build/lib/gym/vector
+copying gym/vector/async_vector_env.py -> build/lib/gym/vector
+copying gym/vector/vector_env.py -> build/lib/gym/vector
+copying gym/vector/sync_vector_env.py -> build/lib/gym/vector
+creating build/lib/gym/envs
+copying gym/envs/__init__.py -> build/lib/gym/envs
+copying gym/envs/registration.py -> build/lib/gym/envs
+creating build/lib/gym/spaces
+copying gym/spaces/__init__.py -> build/lib/gym/spaces
+copying gym/spaces/sequence.py -> build/lib/gym/spaces
+copying gym/spaces/utils.py -> build/lib/gym/spaces
+copying gym/spaces/text.py -> build/lib/gym/spaces
+copying gym/spaces/box.py -> build/lib/gym/spaces
+copying gym/spaces/dict.py -> build/lib/gym/spaces
+copying gym/spaces/space.py -> build/lib/gym/spaces
+copying gym/spaces/tuple.py -> build/lib/gym/spaces
+copying gym/spaces/discrete.py -> build/lib/gym/spaces
+copying gym/spaces/multi_binary.py -> build/lib/gym/spaces
+copying gym/spaces/multi_discrete.py -> build/lib/gym/spaces
+copying gym/spaces/graph.py -> build/lib/gym/spaces
+creating build/lib/gym/wrappers
+copying gym/wrappers/__init__.py -> build/lib/gym/wrappers
+copying gym/wrappers/compatibility.py -> build/lib/gym/wrappers
+copying gym/wrappers/resize_observation.py -> build/lib/gym/wrappers
+copying gym/wrappers/transform_reward.py -> build/lib/gym/wrappers
+copying gym/wrappers/atari_preprocessing.py -> build/lib/gym/wrappers
+copying gym/wrappers/flatten_observation.py -> build/lib/gym/wrappers
+copying gym/wrappers/rescale_action.py -> build/lib/gym/wrappers
+copying gym/wrappers/render_collection.py -> build/lib/gym/wrappers
+copying gym/wrappers/env_checker.py -> build/lib/gym/wrappers
+copying gym/wrappers/record_episode_statistics.py -> build/lib/gym/wrappers
+copying gym/wrappers/gray_scale_observation.py -> build/lib/gym/wrappers
+copying gym/wrappers/autoreset.py -> build/lib/gym/wrappers
+copying gym/wrappers/filter_observation.py -> build/lib/gym/wrappers
+copying gym/wrappers/transform_observation.py -> build/lib/gym/wrappers
+copying gym/wrappers/human_rendering.py -> build/lib/gym/wrappers
+copying gym/wrappers/time_aware_observation.py -> build/lib/gym/wrappers
+copying gym/wrappers/time_limit.py -> build/lib/gym/wrappers
+copying gym/wrappers/clip_action.py -> build/lib/gym/wrappers
+copying gym/wrappers/step_api_compatibility.py -> build/lib/gym/wrappers
+copying gym/wrappers/pixel_observation.py -> build/lib/gym/wrappers
+copying gym/wrappers/normalize.py -> build/lib/gym/wrappers
+copying gym/wrappers/record_video.py -> build/lib/gym/wrappers
+copying gym/wrappers/vector_list_info.py -> build/lib/gym/wrappers
+copying gym/wrappers/frame_stack.py -> build/lib/gym/wrappers
+copying gym/wrappers/order_enforcing.py -> build/lib/gym/wrappers
+creating build/lib/gym/vector/utils
+copying gym/vector/utils/__init__.py -> build/lib/gym/vector/utils
+copying gym/vector/utils/spaces.py -> build/lib/gym/vector/utils
+copying gym/vector/utils/shared_memory.py -> build/lib/gym/vector/utils
+copying gym/vector/utils/numpy_utils.py -> build/lib/gym/vector/utils
+copying gym/vector/utils/misc.py -> build/lib/gym/vector/utils
+creating build/lib/gym/envs/box2d
+copying gym/envs/box2d/__init__.py -> build/lib/gym/envs/box2d
+copying gym/envs/box2d/car_racing.py -> build/lib/gym/envs/box2d
+copying gym/envs/box2d/lunar_lander.py -> build/lib/gym/envs/box2d
+copying gym/envs/box2d/bipedal_walker.py -> build/lib/gym/envs/box2d
+copying gym/envs/box2d/car_dynamics.py -> build/lib/gym/envs/box2d
+creating build/lib/gym/envs/toy_text
+copying gym/envs/toy_text/__init__.py -> build/lib/gym/envs/toy_text
+copying gym/envs/toy_text/cliffwalking.py -> build/lib/gym/envs/toy_text
+copying gym/envs/toy_text/utils.py -> build/lib/gym/envs/toy_text
+copying gym/envs/toy_text/taxi.py -> build/lib/gym/envs/toy_text
+copying gym/envs/toy_text/blackjack.py -> build/lib/gym/envs/toy_text
+copying gym/envs/toy_text/frozen_lake.py -> build/lib/gym/envs/toy_text
+creating build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/__init__.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/swimmer_v4.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/humanoid_v4.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/half_cheetah.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/swimmer.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/reacher_v4.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/pusher.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/hopper.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/inverted_double_pendulum_v4.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/inverted_pendulum_v4.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/swimmer_v3.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/ant_v3.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/mujoco_env.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/inverted_pendulum.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/half_cheetah_v4.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/humanoidstandup.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/humanoid.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/humanoid_v3.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/humanoidstandup_v4.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/walker2d_v4.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/pusher_v4.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/half_cheetah_v3.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/inverted_double_pendulum.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/hopper_v3.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/ant.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/reacher.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/walker2d_v3.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/mujoco_rendering.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/walker2d.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/hopper_v4.py -> build/lib/gym/envs/mujoco
+copying gym/envs/mujoco/ant_v4.py -> build/lib/gym/envs/mujoco
+creating build/lib/gym/envs/classic_control
+copying gym/envs/classic_control/__init__.py -> build/lib/gym/envs/classic_control
+copying gym/envs/classic_control/utils.py -> build/lib/gym/envs/classic_control
+copying gym/envs/classic_control/pendulum.py -> build/lib/gym/envs/classic_control
+copying gym/envs/classic_control/mountain_car.py -> build/lib/gym/envs/classic_control
+copying gym/envs/classic_control/acrobot.py -> build/lib/gym/envs/classic_control
+copying gym/envs/classic_control/cartpole.py -> build/lib/gym/envs/classic_control
+copying gym/envs/classic_control/continuous_mountain_car.py -> build/lib/gym/envs/classic_control
+creating build/lib/gym/wrappers/monitoring
+copying gym/wrappers/monitoring/__init__.py -> build/lib/gym/wrappers/monitoring
+copying gym/wrappers/monitoring/video_recorder.py -> build/lib/gym/wrappers/monitoring
+copying gym/py.typed -> build/lib/gym
+creating build/lib/gym/envs/mujoco/assets
+copying gym/envs/mujoco/assets/inverted_pendulum.xml -> build/lib/gym/envs/mujoco/assets
+copying gym/envs/mujoco/assets/point.xml -> build/lib/gym/envs/mujoco/assets
+copying gym/envs/mujoco/assets/humanoidstandup.xml -> build/lib/gym/envs/mujoco/assets
+copying gym/envs/mujoco/assets/ant.xml -> build/lib/gym/envs/mujoco/assets
+copying gym/envs/mujoco/assets/swimmer.xml -> build/lib/gym/envs/mujoco/assets
+copying gym/envs/mujoco/assets/half_cheetah.xml -> build/lib/gym/envs/mujoco/assets
+copying gym/envs/mujoco/assets/inverted_double_pendulum.xml -> build/lib/gym/envs/mujoco/assets
+copying gym/envs/mujoco/assets/hopper.xml -> build/lib/gym/envs/mujoco/assets
+copying gym/envs/mujoco/assets/reacher.xml -> build/lib/gym/envs/mujoco/assets
+copying gym/envs/mujoco/assets/humanoid.xml -> build/lib/gym/envs/mujoco/assets
+copying gym/envs/mujoco/assets/pusher.xml -> build/lib/gym/envs/mujoco/assets
+copying gym/envs/mujoco/assets/walker2d.xml -> build/lib/gym/envs/mujoco/assets
+creating build/lib/gym/envs/classic_control/assets
+copying gym/envs/classic_control/assets/clockwise.png -> build/lib/gym/envs/classic_control/assets
+creating build/lib/gym/envs/toy_text/font
+copying gym/envs/toy_text/font/Minecraft.ttf -> build/lib/gym/envs/toy_text/font
+creating build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/gridworld_median_left.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/mountain_near-cliff2.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/D2.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/mountain_cliff.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/HQ.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/C5.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/S6.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/S4.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/D3.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/C9.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/CT.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/elf_down.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/C7.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/passenger.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/Card.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/HT.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/cookie.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/C6.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/C4.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/CK.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/cab_right.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/gridworld_median_horiz.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/CJ.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/C2.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/D7.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/S8.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/H3.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/cracked_hole.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/S9.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/DK.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/DA.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/HJ.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/gridworld_median_top.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/C3.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/CQ.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/gridworld_median_bottom.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/H2.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/hole.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/SQ.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/gridworld_median_vert.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/taxi_background.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/elf_left.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/DQ.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/H5.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/DJ.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/HA.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/elf_up.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/D8.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/D9.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/H8.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/stool.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/S7.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/SA.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/S2.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/cab_front.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/cab_rear.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/goal.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/gridworld_median_right.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/mountain_bg1.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/mountain_near-cliff1.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/C8.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/SK.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/HK.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/ST.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/mountain_bg2.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/CA.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/H7.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/H6.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/D6.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/H4.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/H9.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/DT.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/D4.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/SJ.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/D5.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/ice.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/S3.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/elf_right.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/cab_left.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/S5.png -> build/lib/gym/envs/toy_text/img
+copying gym/envs/toy_text/img/hotel.png -> build/lib/gym/envs/toy_text/img
+warning: build_py: byte-compiling is disabled, skipping.
+
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/gym
+copying build/lib/gym/__init__.py -> build/bdist.linux-x86_64/wheel/./gym
+copying build/lib/gym/version.py -> build/bdist.linux-x86_64/wheel/./gym
+copying build/lib/gym/core.py -> build/bdist.linux-x86_64/wheel/./gym
+copying build/lib/gym/py.typed -> build/bdist.linux-x86_64/wheel/./gym
+creating build/bdist.linux-x86_64/wheel/gym/utils
+copying build/lib/gym/utils/__init__.py -> build/bdist.linux-x86_64/wheel/./gym/utils
+copying build/lib/gym/utils/play.py -> build/bdist.linux-x86_64/wheel/./gym/utils
+copying build/lib/gym/utils/env_checker.py -> build/bdist.linux-x86_64/wheel/./gym/utils
+copying build/lib/gym/utils/passive_env_checker.py -> build/bdist.linux-x86_64/wheel/./gym/utils
+copying build/lib/gym/utils/save_video.py -> build/bdist.linux-x86_64/wheel/./gym/utils
+copying build/lib/gym/utils/step_api_compatibility.py -> build/bdist.linux-x86_64/wheel/./gym/utils
+copying build/lib/gym/utils/seeding.py -> build/bdist.linux-x86_64/wheel/./gym/utils
+copying build/lib/gym/utils/colorize.py -> build/bdist.linux-x86_64/wheel/./gym/utils
+copying build/lib/gym/utils/ezpickle.py -> build/bdist.linux-x86_64/wheel/./gym/utils
+copying build/lib/gym/logger.py -> build/bdist.linux-x86_64/wheel/./gym
+creating build/bdist.linux-x86_64/wheel/gym/vector
+copying build/lib/gym/vector/__init__.py -> build/bdist.linux-x86_64/wheel/./gym/vector
+creating build/bdist.linux-x86_64/wheel/gym/vector/utils
+copying build/lib/gym/vector/utils/__init__.py -> build/bdist.linux-x86_64/wheel/./gym/vector/utils
+copying build/lib/gym/vector/utils/spaces.py -> build/bdist.linux-x86_64/wheel/./gym/vector/utils
+copying build/lib/gym/vector/utils/shared_memory.py -> build/bdist.linux-x86_64/wheel/./gym/vector/utils
+copying build/lib/gym/vector/utils/numpy_utils.py -> build/bdist.linux-x86_64/wheel/./gym/vector/utils
+copying build/lib/gym/vector/utils/misc.py -> build/bdist.linux-x86_64/wheel/./gym/vector/utils
+copying build/lib/gym/vector/async_vector_env.py -> build/bdist.linux-x86_64/wheel/./gym/vector
+copying build/lib/gym/vector/vector_env.py -> build/bdist.linux-x86_64/wheel/./gym/vector
+copying build/lib/gym/vector/sync_vector_env.py -> build/bdist.linux-x86_64/wheel/./gym/vector
+creating build/bdist.linux-x86_64/wheel/gym/envs
+copying build/lib/gym/envs/__init__.py -> build/bdist.linux-x86_64/wheel/./gym/envs
+creating build/bdist.linux-x86_64/wheel/gym/envs/box2d
+copying build/lib/gym/envs/box2d/__init__.py -> build/bdist.linux-x86_64/wheel/./gym/envs/box2d
+copying build/lib/gym/envs/box2d/car_racing.py -> build/bdist.linux-x86_64/wheel/./gym/envs/box2d
+copying build/lib/gym/envs/box2d/lunar_lander.py -> build/bdist.linux-x86_64/wheel/./gym/envs/box2d
+copying build/lib/gym/envs/box2d/bipedal_walker.py -> build/bdist.linux-x86_64/wheel/./gym/envs/box2d
+copying build/lib/gym/envs/box2d/car_dynamics.py -> build/bdist.linux-x86_64/wheel/./gym/envs/box2d
+creating build/bdist.linux-x86_64/wheel/gym/envs/toy_text
+copying build/lib/gym/envs/toy_text/__init__.py -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text
+creating build/bdist.linux-x86_64/wheel/gym/envs/toy_text/font
+copying build/lib/gym/envs/toy_text/font/Minecraft.ttf -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/font
+copying build/lib/gym/envs/toy_text/cliffwalking.py -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text
+copying build/lib/gym/envs/toy_text/utils.py -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text
+copying build/lib/gym/envs/toy_text/taxi.py -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text
+creating build/bdist.linux-x86_64/wheel/gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/gridworld_median_left.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/mountain_near-cliff2.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/D2.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/mountain_cliff.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/HQ.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/C5.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/S6.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/S4.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/D3.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/C9.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/CT.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/elf_down.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/C7.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/passenger.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/Card.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/HT.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/cookie.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/C6.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/C4.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/CK.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/cab_right.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/gridworld_median_horiz.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/CJ.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/C2.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/D7.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/S8.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/H3.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/cracked_hole.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/S9.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/DK.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/DA.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/HJ.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/gridworld_median_top.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/C3.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/CQ.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/gridworld_median_bottom.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/H2.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/hole.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/SQ.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/gridworld_median_vert.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/taxi_background.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/elf_left.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/DQ.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/H5.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/DJ.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/HA.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/elf_up.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/D8.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/D9.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/H8.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/stool.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/S7.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/SA.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/S2.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/cab_front.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/cab_rear.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/goal.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/gridworld_median_right.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/mountain_bg1.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/mountain_near-cliff1.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/C8.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/SK.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/HK.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/ST.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/mountain_bg2.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/CA.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/H7.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/H6.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/D6.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/H4.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/H9.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/DT.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/D4.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/SJ.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/D5.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/ice.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/S3.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/elf_right.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/cab_left.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/S5.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/img/hotel.png -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text/img
+copying build/lib/gym/envs/toy_text/blackjack.py -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text
+copying build/lib/gym/envs/toy_text/frozen_lake.py -> build/bdist.linux-x86_64/wheel/./gym/envs/toy_text
+creating build/bdist.linux-x86_64/wheel/gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/__init__.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/swimmer_v4.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/humanoid_v4.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/half_cheetah.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/swimmer.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/reacher_v4.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/pusher.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/hopper.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/inverted_double_pendulum_v4.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/inverted_pendulum_v4.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/swimmer_v3.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/ant_v3.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/mujoco_env.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/inverted_pendulum.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/half_cheetah_v4.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/humanoidstandup.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/humanoid.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+creating build/bdist.linux-x86_64/wheel/gym/envs/mujoco/assets
+copying build/lib/gym/envs/mujoco/assets/inverted_pendulum.xml -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco/assets
+copying build/lib/gym/envs/mujoco/assets/point.xml -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco/assets
+copying build/lib/gym/envs/mujoco/assets/humanoidstandup.xml -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco/assets
+copying build/lib/gym/envs/mujoco/assets/ant.xml -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco/assets
+copying build/lib/gym/envs/mujoco/assets/swimmer.xml -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco/assets
+copying build/lib/gym/envs/mujoco/assets/half_cheetah.xml -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco/assets
+copying build/lib/gym/envs/mujoco/assets/inverted_double_pendulum.xml -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco/assets
+copying build/lib/gym/envs/mujoco/assets/hopper.xml -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco/assets
+copying build/lib/gym/envs/mujoco/assets/reacher.xml -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco/assets
+copying build/lib/gym/envs/mujoco/assets/humanoid.xml -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco/assets
+copying build/lib/gym/envs/mujoco/assets/pusher.xml -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco/assets
+copying build/lib/gym/envs/mujoco/assets/walker2d.xml -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco/assets
+copying build/lib/gym/envs/mujoco/humanoid_v3.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/humanoidstandup_v4.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/walker2d_v4.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/pusher_v4.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/half_cheetah_v3.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/inverted_double_pendulum.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/hopper_v3.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/ant.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/reacher.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/walker2d_v3.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/mujoco_rendering.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/walker2d.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/hopper_v4.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+copying build/lib/gym/envs/mujoco/ant_v4.py -> build/bdist.linux-x86_64/wheel/./gym/envs/mujoco
+creating build/bdist.linux-x86_64/wheel/gym/envs/classic_control
+copying build/lib/gym/envs/classic_control/__init__.py -> build/bdist.linux-x86_64/wheel/./gym/envs/classic_control
+copying build/lib/gym/envs/classic_control/utils.py -> build/bdist.linux-x86_64/wheel/./gym/envs/classic_control
+copying build/lib/gym/envs/classic_control/pendulum.py -> build/bdist.linux-x86_64/wheel/./gym/envs/classic_control
+copying build/lib/gym/envs/classic_control/mountain_car.py -> build/bdist.linux-x86_64/wheel/./gym/envs/classic_control
+copying build/lib/gym/envs/classic_control/acrobot.py -> build/bdist.linux-x86_64/wheel/./gym/envs/classic_control
+copying build/lib/gym/envs/classic_control/cartpole.py -> build/bdist.linux-x86_64/wheel/./gym/envs/classic_control
+creating build/bdist.linux-x86_64/wheel/gym/envs/classic_control/assets
+copying build/lib/gym/envs/classic_control/assets/clockwise.png -> build/bdist.linux-x86_64/wheel/./gym/envs/classic_control/assets
+copying build/lib/gym/envs/classic_control/continuous_mountain_car.py -> build/bdist.linux-x86_64/wheel/./gym/envs/classic_control
+copying build/lib/gym/envs/registration.py -> build/bdist.linux-x86_64/wheel/./gym/envs
+creating build/bdist.linux-x86_64/wheel/gym/spaces
+copying build/lib/gym/spaces/__init__.py -> build/bdist.linux-x86_64/wheel/./gym/spaces
+copying build/lib/gym/spaces/sequence.py -> build/bdist.linux-x86_64/wheel/./gym/spaces
+copying build/lib/gym/spaces/utils.py -> build/bdist.linux-x86_64/wheel/./gym/spaces
+copying build/lib/gym/spaces/text.py -> build/bdist.linux-x86_64/wheel/./gym/spaces
+copying build/lib/gym/spaces/box.py -> build/bdist.linux-x86_64/wheel/./gym/spaces
+copying build/lib/gym/spaces/dict.py -> build/bdist.linux-x86_64/wheel/./gym/spaces
+copying build/lib/gym/spaces/space.py -> build/bdist.linux-x86_64/wheel/./gym/spaces
+copying build/lib/gym/spaces/tuple.py -> build/bdist.linux-x86_64/wheel/./gym/spaces
+copying build/lib/gym/spaces/discrete.py -> build/bdist.linux-x86_64/wheel/./gym/spaces
+copying build/lib/gym/spaces/multi_binary.py -> build/bdist.linux-x86_64/wheel/./gym/spaces
+copying build/lib/gym/spaces/multi_discrete.py -> build/bdist.linux-x86_64/wheel/./gym/spaces
+copying build/lib/gym/spaces/graph.py -> build/bdist.linux-x86_64/wheel/./gym/spaces
+creating build/bdist.linux-x86_64/wheel/gym/wrappers
+copying build/lib/gym/wrappers/__init__.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/compatibility.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/resize_observation.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/transform_reward.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/atari_preprocessing.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/flatten_observation.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/rescale_action.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/render_collection.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/env_checker.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/record_episode_statistics.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+creating build/bdist.linux-x86_64/wheel/gym/wrappers/monitoring
+copying build/lib/gym/wrappers/monitoring/__init__.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers/monitoring
+copying build/lib/gym/wrappers/monitoring/video_recorder.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers/monitoring
+copying build/lib/gym/wrappers/gray_scale_observation.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/autoreset.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/filter_observation.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/transform_observation.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/human_rendering.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/time_aware_observation.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/time_limit.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/clip_action.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/step_api_compatibility.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/pixel_observation.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/normalize.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/record_video.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/vector_list_info.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/frame_stack.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/wrappers/order_enforcing.py -> build/bdist.linux-x86_64/wheel/./gym/wrappers
+copying build/lib/gym/error.py -> build/bdist.linux-x86_64/wheel/./gym
+warning: install_lib: byte-compiling is disabled, skipping.
+
+running install_egg_info
+running egg_info
+writing gym.egg-info/PKG-INFO
+writing dependency_links to gym.egg-info/dependency_links.txt
+writing requirements to gym.egg-info/requires.txt
+writing top-level names to gym.egg-info/top_level.txt
+reading manifest file 'gym.egg-info/SOURCES.txt'
+adding license file 'LICENSE.md'
+writing manifest file 'gym.egg-info/SOURCES.txt'
+Copying gym.egg-info to build/bdist.linux-x86_64/wheel/./gym-0.26.2-py3.11.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/gym-0.26.2.dist-info/WHEEL
+creating '/out/wheels/.tmp-u5z01f32/gym-0.26.2-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'gym/__init__.py'
+adding 'gym/core.py'
+adding 'gym/error.py'
+adding 'gym/logger.py'
+adding 'gym/py.typed'
+adding 'gym/version.py'
+adding 'gym/envs/__init__.py'
+adding 'gym/envs/registration.py'
+adding 'gym/envs/box2d/__init__.py'
+adding 'gym/envs/box2d/bipedal_walker.py'
+adding 'gym/envs/box2d/car_dynamics.py'
+adding 'gym/envs/box2d/car_racing.py'
+adding 'gym/envs/box2d/lunar_lander.py'
+adding 'gym/envs/classic_control/__init__.py'
+adding 'gym/envs/classic_control/acrobot.py'
+adding 'gym/envs/classic_control/cartpole.py'
+adding 'gym/envs/classic_control/continuous_mountain_car.py'
+adding 'gym/envs/classic_control/mountain_car.py'
+adding 'gym/envs/classic_control/pendulum.py'
+adding 'gym/envs/classic_control/utils.py'
+adding 'gym/envs/classic_control/assets/clockwise.png'
+adding 'gym/envs/mujoco/__init__.py'
+adding 'gym/envs/mujoco/ant.py'
+adding 'gym/envs/mujoco/ant_v3.py'
+adding 'gym/envs/mujoco/ant_v4.py'
+adding 'gym/envs/mujoco/half_cheetah.py'
+adding 'gym/envs/mujoco/half_cheetah_v3.py'
+adding 'gym/envs/mujoco/half_cheetah_v4.py'
+adding 'gym/envs/mujoco/hopper.py'
+adding 'gym/envs/mujoco/hopper_v3.py'
+adding 'gym/envs/mujoco/hopper_v4.py'
+adding 'gym/envs/mujoco/humanoid.py'
+adding 'gym/envs/mujoco/humanoid_v3.py'
+adding 'gym/envs/mujoco/humanoid_v4.py'
+adding 'gym/envs/mujoco/humanoidstandup.py'
+adding 'gym/envs/mujoco/humanoidstandup_v4.py'
+adding 'gym/envs/mujoco/inverted_double_pendulum.py'
+adding 'gym/envs/mujoco/inverted_double_pendulum_v4.py'
+adding 'gym/envs/mujoco/inverted_pendulum.py'
+adding 'gym/envs/mujoco/inverted_pendulum_v4.py'
+adding 'gym/envs/mujoco/mujoco_env.py'
+adding 'gym/envs/mujoco/mujoco_rendering.py'
+adding 'gym/envs/mujoco/pusher.py'
+adding 'gym/envs/mujoco/pusher_v4.py'
+adding 'gym/envs/mujoco/reacher.py'
+adding 'gym/envs/mujoco/reacher_v4.py'
+adding 'gym/envs/mujoco/swimmer.py'
+adding 'gym/envs/mujoco/swimmer_v3.py'
+adding 'gym/envs/mujoco/swimmer_v4.py'
+adding 'gym/envs/mujoco/walker2d.py'
+adding 'gym/envs/mujoco/walker2d_v3.py'
+adding 'gym/envs/mujoco/walker2d_v4.py'
+adding 'gym/envs/mujoco/assets/ant.xml'
+adding 'gym/envs/mujoco/assets/half_cheetah.xml'
+adding 'gym/envs/mujoco/assets/hopper.xml'
+adding 'gym/envs/mujoco/assets/humanoid.xml'
+adding 'gym/envs/mujoco/assets/humanoidstandup.xml'
+adding 'gym/envs/mujoco/assets/inverted_double_pendulum.xml'
+adding 'gym/envs/mujoco/assets/inverted_pendulum.xml'
+adding 'gym/envs/mujoco/assets/point.xml'
+adding 'gym/envs/mujoco/assets/pusher.xml'
+adding 'gym/envs/mujoco/assets/reacher.xml'
+adding 'gym/envs/mujoco/assets/swimmer.xml'
+adding 'gym/envs/mujoco/assets/walker2d.xml'
+adding 'gym/envs/toy_text/__init__.py'
+adding 'gym/envs/toy_text/blackjack.py'
+adding 'gym/envs/toy_text/cliffwalking.py'
+adding 'gym/envs/toy_text/frozen_lake.py'
+adding 'gym/envs/toy_text/taxi.py'
+adding 'gym/envs/toy_text/utils.py'
+adding 'gym/envs/toy_text/font/Minecraft.ttf'
+adding 'gym/envs/toy_text/img/C2.png'
+adding 'gym/envs/toy_text/img/C3.png'
+adding 'gym/envs/toy_text/img/C4.png'
+adding 'gym/envs/toy_text/img/C5.png'
+adding 'gym/envs/toy_text/img/C6.png'
+adding 'gym/envs/toy_text/img/C7.png'
+adding 'gym/envs/toy_text/img/C8.png'
+adding 'gym/envs/toy_text/img/C9.png'
+adding 'gym/envs/toy_text/img/CA.png'
+adding 'gym/envs/toy_text/img/CJ.png'
+adding 'gym/envs/toy_text/img/CK.png'
+adding 'gym/envs/toy_text/img/CQ.png'
+adding 'gym/envs/toy_text/img/CT.png'
+adding 'gym/envs/toy_text/img/Card.png'
+adding 'gym/envs/toy_text/img/D2.png'
+adding 'gym/envs/toy_text/img/D3.png'
+adding 'gym/envs/toy_text/img/D4.png'
+adding 'gym/envs/toy_text/img/D5.png'
+adding 'gym/envs/toy_text/img/D6.png'
+adding 'gym/envs/toy_text/img/D7.png'
+adding 'gym/envs/toy_text/img/D8.png'
+adding 'gym/envs/toy_text/img/D9.png'
+adding 'gym/envs/toy_text/img/DA.png'
+adding 'gym/envs/toy_text/img/DJ.png'
+adding 'gym/envs/toy_text/img/DK.png'
+adding 'gym/envs/toy_text/img/DQ.png'
+adding 'gym/envs/toy_text/img/DT.png'
+adding 'gym/envs/toy_text/img/H2.png'
+adding 'gym/envs/toy_text/img/H3.png'
+adding 'gym/envs/toy_text/img/H4.png'
+adding 'gym/envs/toy_text/img/H5.png'
+adding 'gym/envs/toy_text/img/H6.png'
+adding 'gym/envs/toy_text/img/H7.png'
+adding 'gym/envs/toy_text/img/H8.png'
+adding 'gym/envs/toy_text/img/H9.png'
+adding 'gym/envs/toy_text/img/HA.png'
+adding 'gym/envs/toy_text/img/HJ.png'
+adding 'gym/envs/toy_text/img/HK.png'
+adding 'gym/envs/toy_text/img/HQ.png'
+adding 'gym/envs/toy_text/img/HT.png'
+adding 'gym/envs/toy_text/img/S2.png'
+adding 'gym/envs/toy_text/img/S3.png'
+adding 'gym/envs/toy_text/img/S4.png'
+adding 'gym/envs/toy_text/img/S5.png'
+adding 'gym/envs/toy_text/img/S6.png'
+adding 'gym/envs/toy_text/img/S7.png'
+adding 'gym/envs/toy_text/img/S8.png'
+adding 'gym/envs/toy_text/img/S9.png'
+adding 'gym/envs/toy_text/img/SA.png'
+adding 'gym/envs/toy_text/img/SJ.png'
+adding 'gym/envs/toy_text/img/SK.png'
+adding 'gym/envs/toy_text/img/SQ.png'
+adding 'gym/envs/toy_text/img/ST.png'
+adding 'gym/envs/toy_text/img/cab_front.png'
+adding 'gym/envs/toy_text/img/cab_left.png'
+adding 'gym/envs/toy_text/img/cab_rear.png'
+adding 'gym/envs/toy_text/img/cab_right.png'
+adding 'gym/envs/toy_text/img/cookie.png'
+adding 'gym/envs/toy_text/img/cracked_hole.png'
+adding 'gym/envs/toy_text/img/elf_down.png'
+adding 'gym/envs/toy_text/img/elf_left.png'
+adding 'gym/envs/toy_text/img/elf_right.png'
+adding 'gym/envs/toy_text/img/elf_up.png'
+adding 'gym/envs/toy_text/img/goal.png'
+adding 'gym/envs/toy_text/img/gridworld_median_bottom.png'
+adding 'gym/envs/toy_text/img/gridworld_median_horiz.png'
+adding 'gym/envs/toy_text/img/gridworld_median_left.png'
+adding 'gym/envs/toy_text/img/gridworld_median_right.png'
+adding 'gym/envs/toy_text/img/gridworld_median_top.png'
+adding 'gym/envs/toy_text/img/gridworld_median_vert.png'
+adding 'gym/envs/toy_text/img/hole.png'
+adding 'gym/envs/toy_text/img/hotel.png'
+adding 'gym/envs/toy_text/img/ice.png'
+adding 'gym/envs/toy_text/img/mountain_bg1.png'
+adding 'gym/envs/toy_text/img/mountain_bg2.png'
+adding 'gym/envs/toy_text/img/mountain_cliff.png'
+adding 'gym/envs/toy_text/img/mountain_near-cliff1.png'
+adding 'gym/envs/toy_text/img/mountain_near-cliff2.png'
+adding 'gym/envs/toy_text/img/passenger.png'
+adding 'gym/envs/toy_text/img/stool.png'
+adding 'gym/envs/toy_text/img/taxi_background.png'
+adding 'gym/spaces/__init__.py'
+adding 'gym/spaces/box.py'
+adding 'gym/spaces/dict.py'
+adding 'gym/spaces/discrete.py'
+adding 'gym/spaces/graph.py'
+adding 'gym/spaces/multi_binary.py'
+adding 'gym/spaces/multi_discrete.py'
+adding 'gym/spaces/sequence.py'
+adding 'gym/spaces/space.py'
+adding 'gym/spaces/text.py'
+adding 'gym/spaces/tuple.py'
+adding 'gym/spaces/utils.py'
+adding 'gym/utils/__init__.py'
+adding 'gym/utils/colorize.py'
+adding 'gym/utils/env_checker.py'
+adding 'gym/utils/ezpickle.py'
+adding 'gym/utils/passive_env_checker.py'
+adding 'gym/utils/play.py'
+adding 'gym/utils/save_video.py'
+adding 'gym/utils/seeding.py'
+adding 'gym/utils/step_api_compatibility.py'
+adding 'gym/vector/__init__.py'
+adding 'gym/vector/async_vector_env.py'
+adding 'gym/vector/sync_vector_env.py'
+adding 'gym/vector/vector_env.py'
+adding 'gym/vector/utils/__init__.py'
+adding 'gym/vector/utils/misc.py'
+adding 'gym/vector/utils/numpy_utils.py'
+adding 'gym/vector/utils/shared_memory.py'
+adding 'gym/vector/utils/spaces.py'
+adding 'gym/wrappers/__init__.py'
+adding 'gym/wrappers/atari_preprocessing.py'
+adding 'gym/wrappers/autoreset.py'
+adding 'gym/wrappers/clip_action.py'
+adding 'gym/wrappers/compatibility.py'
+adding 'gym/wrappers/env_checker.py'
+adding 'gym/wrappers/filter_observation.py'
+adding 'gym/wrappers/flatten_observation.py'
+adding 'gym/wrappers/frame_stack.py'
+adding 'gym/wrappers/gray_scale_observation.py'
+adding 'gym/wrappers/human_rendering.py'
+adding 'gym/wrappers/normalize.py'
+adding 'gym/wrappers/order_enforcing.py'
+adding 'gym/wrappers/pixel_observation.py'
+adding 'gym/wrappers/record_episode_statistics.py'
+adding 'gym/wrappers/record_video.py'
+adding 'gym/wrappers/render_collection.py'
+adding 'gym/wrappers/rescale_action.py'
+adding 'gym/wrappers/resize_observation.py'
+adding 'gym/wrappers/step_api_compatibility.py'
+adding 'gym/wrappers/time_aware_observation.py'
+adding 'gym/wrappers/time_limit.py'
+adding 'gym/wrappers/transform_observation.py'
+adding 'gym/wrappers/transform_reward.py'
+adding 'gym/wrappers/vector_list_info.py'
+adding 'gym/wrappers/monitoring/__init__.py'
+adding 'gym/wrappers/monitoring/video_recorder.py'
+adding 'gym-0.26.2.dist-info/licenses/LICENSE.md'
+adding 'gym-0.26.2.dist-info/METADATA'
+adding 'gym-0.26.2.dist-info/WHEEL'
+adding 'gym-0.26.2.dist-info/top_level.txt'
+adding 'gym-0.26.2.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Successfully built /out/wheels/gym-0.26.2-py3-none-any.whl

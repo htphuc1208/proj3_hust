@@ -1,0 +1,30 @@
+{
+  "build_reason": "torch wheel exceeds 512 MiB",
+  "build_status": "RESOURCE_LIMIT",
+  "case": "real/pytorch-lightning",
+  "origin_commit": "84df182f50ab34301aabb3c0eb4031815bfb413d",
+  "source": {
+    "cyclonedx": {
+      "exit_code": null,
+      "status": "NO_NATIVE_SOURCE_MODE"
+    },
+    "syft": {
+      "all_dependency_edges": 0,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [],
+      "python_package_records": 0,
+      "python_versions": [],
+      "status": null
+    },
+    "trivy": {
+      "all_dependency_edges": 0,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [],
+      "python_package_records": 0,
+      "python_versions": [],
+      "status": null
+    }
+  }
+}

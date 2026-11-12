@@ -1,0 +1,57 @@
+[
+  {
+    "tool": "syft",
+    "tag": "v1.57.1",
+    "url": "https://github.com/anchore/syft/releases/download/v1.57.1/syft_1.57.1_linux_amd64.tar.gz",
+    "archive_sha256": "bf52519eb57f675d47c07d43213cb6dff6449f3d6d1147ff6701ed91f44eef0c",
+    "checksum_url": "https://github.com/anchore/syft/releases/download/v1.57.1/syft_1.57.1_checksums.txt",
+    "binary_sha256": "de3982edbbc250c4a40764c7b1f30bbf54b681f9b99391ee6b85bfdfa5d4dffe"
+  },
+  {
+    "tool": "trivy",
+    "tag": "v0.76.2",
+    "url": "https://github.com/aquasecurity/trivy/releases/download/v0.76.2/trivy_0.76.2_Linux-64bit.tar.gz",
+    "archive_sha256": "bc0fc726e017b8927a62b2d3531d7a84ee01769daf5c99ed866dced54089fdbf",
+    "checksum_url": "https://github.com/aquasecurity/trivy/releases/download/v0.76.2/trivy_0.76.2_checksums.txt",
+    "binary_sha256": "6a972c69606c7b3ea4c6bdcc6fc9332ea9ad38381624310c1e85cc77345909f3"
+  },
+  {
+    "tool": "cyclonedx-gomod",
+    "tag": "v1.12.0",
+    "url": "https://github.com/CycloneDX/cyclonedx-gomod/releases/download/v1.12.0/cyclonedx-gomod_1.12.0_linux_amd64.tar.gz",
+    "archive_sha256": "004b9f5cc595b797fb5423e2ae4c97bcf0f18c712ed2faee1640b09e5efd6d15",
+    "checksum_url": "https://github.com/CycloneDX/cyclonedx-gomod/releases/download/v1.12.0/cyclonedx-gomod_1.12.0_checksums.txt",
+    "binary_sha256": "2238adac4b5e36926d388461e72ef1ae8caaf4ac11c221ac5fab4e76d7a29861"
+  },
+  {
+    "tool": "cargo-cyclonedx",
+    "tag": "cargo-cyclonedx-0.5.10",
+    "url": "https://github.com/CycloneDX/cyclonedx-rust-cargo/releases/download/cargo-cyclonedx-0.5.10/cargo-cyclonedx-x86_64-unknown-linux-gnu.tar.xz",
+    "archive_sha256": "2e4ef64a53c0a38d4b7d805c593b5f47ecd29821e98d81e484d03abaa0edb95f",
+    "checksum_url": "https://github.com/CycloneDX/cyclonedx-rust-cargo/releases/download/cargo-cyclonedx-0.5.10/sha256.sum",
+    "binary_sha256": "5f428d2accd14bda6ae8d95efccda5d921a3562c526c170c3715e2251b560e57"
+  },
+  {
+    "tool": "osv-scanner",
+    "tag": "v2.7.1",
+    "url": "https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_linux_amd64",
+    "archive_sha256": "fb7dab19a8bd9bbe5c3189f09d4b7ee1820c9553a23bac202648a56efd2f6ee8",
+    "checksum_note": "Recorded local hash; no separate upstream checksum verified",
+    "binary_sha256": "fb7dab19a8bd9bbe5c3189f09d4b7ee1820c9553a23bac202648a56efd2f6ee8"
+  },
+  {
+    "tool": "go",
+    "version": "go1.27.4",
+    "url": "https://go.dev/dl/go1.27.4.linux-amd64.tar.gz",
+    "archive_sha256": "7226736c2339719cda28fbf3a54d71aa63bcefe376e98cef00034268dab24840"
+  },
+  {
+    "tool": "node-tools",
+    "specs": [
+      "@cyclonedx/cdxgen@12.9.1",
+      "@cyclonedx/cyclonedx-npm@7.0.0",
+      "esbuild@0.28.2"
+    ],
+    "status": "COMPLETE"
+  }
+]

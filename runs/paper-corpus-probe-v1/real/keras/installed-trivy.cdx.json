@@ -1,0 +1,488 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:f8af520a-6d8f-4d9a-9af9-7bb14a0ce00f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T14:43:12+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "845118bc-67c9-4d78-86e5-98029171c476",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/real/keras/target",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/absl-py@2.5.1",
+      "type": "library",
+      "name": "absl-py",
+      "version": "2.5.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "2129edc083a2729b5353343220e3a2c2c45cab4b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/absl-py@2.5.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/absl_py-2.5.1.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/h5py@3.16.0",
+      "type": "library",
+      "name": "h5py",
+      "version": "3.16.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4129652459e01530d2f336bf425b62a9e5aa2023"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/h5py@3.16.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/h5py-3.16.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/keras@3.16.0",
+      "type": "library",
+      "name": "keras",
+      "version": "3.16.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4ed6c4fff33a5bf63419cbd96ec539a3c6d0780c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/keras@3.16.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/keras-3.16.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/markdown-it-py@4.3.0",
+      "type": "library",
+      "name": "markdown-it-py",
+      "version": "4.3.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d063841f1dfc5ed81ac1cbaf8719b8ca2b27720d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/markdown-it-py@4.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/markdown_it_py-4.3.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/mdurl@0.1.2",
+      "type": "library",
+      "name": "mdurl",
+      "version": "0.1.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "cc9d84bf84be59dd90368ea2f5e3a9fae8f0f1b7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/mdurl@0.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/mdurl-0.1.2.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/ml-dtypes@0.6.0",
+      "type": "library",
+      "name": "ml_dtypes",
+      "version": "0.6.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0e4e09e78671063f03c05aff45163ad9cea61a62"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/ml-dtypes@0.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/ml_dtypes-0.6.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/namex@0.1.0",
+      "type": "library",
+      "name": "namex",
+      "version": "0.1.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d82238d5c191e038122426bb8f9ce89e5664de0c"
+        }
+      ],
+      "purl": "pkg:pypi/namex@0.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/namex-0.1.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/numpy@2.4.6",
+      "type": "library",
+      "name": "numpy",
+      "version": "2.4.6",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "46f47f5195a0b408d6f61f0db28e95ef1eb09080"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0"
+        }
+      ],
+      "purl": "pkg:pypi/numpy@2.4.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/numpy-2.4.6.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/optree@0.20.0",
+      "type": "library",
+      "name": "optree",
+      "version": "0.20.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "51ccb2e49f88ea4b428a26a0ef657daa2a37b68c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/optree@0.20.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/optree-0.20.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/packaging@26.3",
+      "type": "library",
+      "name": "packaging",
+      "version": "26.3",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "bfab4082ca00cad0a8dee224dc23ea675d4abbb6"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR BSD-2-Clause"
+        }
+      ],
+      "purl": "pkg:pypi/packaging@26.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/packaging-26.3.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pygments@2.21.0",
+      "type": "library",
+      "name": "Pygments",
+      "version": "2.21.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "243b2435ff2e6c67d007f84159b9b9dc0c3521c6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pygments@2.21.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/pygments-2.21.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/rich@15.0.0",
+      "type": "library",
+      "name": "rich",
+      "version": "15.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "06b318facbf25459376384b46227ae8839967d35"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/rich@15.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/rich-15.0.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+      "type": "library",
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "510f2798ee23c416b9c396ef607b3da53555e29a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "PSF-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/typing-extensions@4.16.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/typing_extensions-4.16.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "845118bc-67c9-4d78-86e5-98029171c476",
+      "dependsOn": [
+        "pkg:pypi/absl-py@2.5.1",
+        "pkg:pypi/h5py@3.16.0",
+        "pkg:pypi/keras@3.16.0",
+        "pkg:pypi/markdown-it-py@4.3.0",
+        "pkg:pypi/mdurl@0.1.2",
+        "pkg:pypi/ml-dtypes@0.6.0",
+        "pkg:pypi/namex@0.1.0",
+        "pkg:pypi/numpy@2.4.6",
+        "pkg:pypi/optree@0.20.0",
+        "pkg:pypi/packaging@26.3",
+        "pkg:pypi/pygments@2.21.0",
+        "pkg:pypi/rich@15.0.0",
+        "pkg:pypi/typing-extensions@4.16.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/absl-py@2.5.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/h5py@3.16.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/keras@3.16.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/markdown-it-py@4.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/mdurl@0.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/ml-dtypes@0.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/namex@0.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/numpy@2.4.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/optree@0.20.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/packaging@26.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pygments@2.21.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/rich@15.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/typing-extensions@4.16.0",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

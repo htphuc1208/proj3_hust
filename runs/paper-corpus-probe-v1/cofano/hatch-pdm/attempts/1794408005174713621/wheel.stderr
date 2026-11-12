@@ -1,0 +1,9 @@
+Building wheel...
+ - Adding .pdm-build/hatch_pdm-0.0.0.dist-info/METADATA -> hatch_pdm-0.0.0.dist-info/METADATA
+ - Adding .pdm-build/hatch_pdm-0.0.0.dist-info/WHEEL -> hatch_pdm-0.0.0.dist-info/WHEEL
+ - Adding .pdm-build/hatch_pdm-0.0.0.dist-info/entry_points.txt -> hatch_pdm-0.0.0.dist-info/entry_points.txt
+ - Adding src/hatch_pdm/__about__.py -> hatch_pdm/__about__.py
+ - Adding src/hatch_pdm/__init__.py -> hatch_pdm/__init__.py
+ - Adding src/hatch_pdm/main.py -> hatch_pdm/main.py
+ - Adding hatch_pdm-0.0.0.dist-info/RECORD -> hatch_pdm-0.0.0.dist-info/RECORD
+Successfully built /out/wheels/hatch_pdm-0.0.0-py3-none-any.whl

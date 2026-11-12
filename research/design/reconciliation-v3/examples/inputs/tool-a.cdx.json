@@ -1,0 +1,30 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "dependency",
+      "name": "design-lib",
+      "purl": "pkg:npm/design-lib@2.1.0",
+      "type": "library",
+      "version": "2.1.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [
+        "dependency"
+      ],
+      "ref": "app"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "app",
+      "name": "design-app",
+      "type": "application",
+      "version": "1"
+    }
+  },
+  "specVersion": "1.6",
+  "version": 1
+}

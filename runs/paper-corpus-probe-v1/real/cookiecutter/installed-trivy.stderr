@@ -1,0 +1,3 @@
+2026-11-11T21:43:38+07:00	INFO	"--format cyclonedx" disables security scanning. Specify "--scanners vuln" explicitly if you want to include vulnerabilities in the "cyclonedx" report.
+2026-11-11T21:43:38+07:00	INFO	[python] Licenses acquired from one or more METADATA files may be subject to additional terms. Use `--debug` flag to see all affected packages.
+2026-11-11T21:43:38+07:00	INFO	Number of language-specific files	num=1

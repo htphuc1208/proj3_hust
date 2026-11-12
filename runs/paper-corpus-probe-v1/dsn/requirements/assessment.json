@@ -1,0 +1,1538 @@
+{
+  "active_extras": {
+    "requests": [
+      "security"
+    ],
+    "uvicorn": [
+      "standard"
+    ]
+  },
+  "build_reason": null,
+  "build_status": "COMPLETE",
+  "case": "dsn/requirements",
+  "declared_active_edges": 66,
+  "installed": {
+    "environment": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [
+        {
+          "declarations": [
+            "typing-extensions>=4.13.2; python_full_version < \"3.11\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "cryptography",
+          "target": "typing-extensions"
+        },
+        {
+          "declarations": [
+            "cryptography>=50; extra == \"dnssec\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "dnspython",
+          "target": "cryptography"
+        },
+        {
+          "declarations": [
+            "idna>=3.20; extra == \"idna\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "dnspython",
+          "target": "idna"
+        },
+        {
+          "declarations": [
+            "pyyaml>=5.3.1; extra == \"all\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "fastapi",
+          "target": "pyyaml"
+        },
+        {
+          "declarations": [
+            "anyio<5.0,>=4.0; extra == \"asyncio\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "httpcore",
+          "target": "anyio"
+        },
+        {
+          "declarations": [
+            "click==8.*; extra == \"cli\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "httpx",
+          "target": "click"
+        },
+        {
+          "declarations": [
+            "pygments==2.*; extra == \"cli\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "httpx",
+          "target": "pygments"
+        },
+        {
+          "declarations": [
+            "rich<14,>=10; extra == \"cli\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "httpx",
+          "target": "rich"
+        },
+        {
+          "declarations": [
+            "pyyaml; extra == \"rtd\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "markdown-it-py",
+          "target": "pyyaml"
+        },
+        {
+          "declarations": [
+            "requests; extra == \"testing\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "markdown-it-py",
+          "target": "requests"
+        },
+        {
+          "declarations": [
+            "email-validator>=2.0.0; extra == \"email\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "pydantic",
+          "target": "email-validator"
+        },
+        {
+          "declarations": [
+            "click>=5.0; extra == \"cli\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "python-dotenv",
+          "target": "click"
+        },
+        {
+          "declarations": [
+            "async-timeout>=4.0.3; python_full_version < \"3.11.3\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "redis",
+          "target": "async-timeout"
+        },
+        {
+          "declarations": [
+            "cryptography>=36.0.1; extra == \"ocsp\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "redis",
+          "target": "cryptography"
+        },
+        {
+          "declarations": [
+            "pyopenssl>=20.0.1; extra == \"ocsp\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "redis",
+          "target": "pyopenssl"
+        },
+        {
+          "declarations": [
+            "requests>=2.31.0; extra == \"ocsp\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "redis",
+          "target": "requests"
+        },
+        {
+          "declarations": [
+            "httpx>=0.22.0; extra == \"full\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "starlette",
+          "target": "httpx"
+        },
+        {
+          "declarations": [
+            "jinja2; extra == \"full\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "starlette",
+          "target": "jinja2"
+        },
+        {
+          "declarations": [
+            "python-multipart>=0.0.7; extra == \"full\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "starlette",
+          "target": "python-multipart"
+        },
+        {
+          "declarations": [
+            "pyyaml; extra == \"full\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "starlette",
+          "target": "pyyaml"
+        },
+        {
+          "declarations": [
+            "typing-extensions>=3.10.0; python_version < \"3.10\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "starlette",
+          "target": "typing-extensions"
+        },
+        {
+          "declarations": [
+            "certifi; extra == \"secure\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "urllib3",
+          "target": "certifi"
+        },
+        {
+          "declarations": [
+            "cryptography>=1.3.4; extra == \"secure\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "urllib3",
+          "target": "cryptography"
+        },
+        {
+          "declarations": [
+            "idna>=2.0.0; extra == \"secure\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "urllib3",
+          "target": "idna"
+        },
+        {
+          "declarations": [
+            "pyOpenSSL>=0.14; extra == \"secure\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "urllib3",
+          "target": "pyopenssl"
+        },
+        {
+          "declarations": [
+            "typing-extensions>=4.0; python_version < \"3.11\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "uvicorn",
+          "target": "typing-extensions"
+        },
+        {
+          "declarations": [
+            "pyOpenSSL~=25.3.0; python_version < \"3.9\" and extra == \"test\"",
+            "pyOpenSSL~=26.4.0; python_version >= \"3.9\" and extra == \"test\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "uvloop",
+          "target": "pyopenssl"
+        }
+      ],
+      "known_extra_edges": [
+        [
+          "cryptography",
+          "typing-extensions"
+        ],
+        [
+          "dnspython",
+          "cryptography"
+        ],
+        [
+          "dnspython",
+          "idna"
+        ],
+        [
+          "fastapi",
+          "pyyaml"
+        ],
+        [
+          "httpcore",
+          "anyio"
+        ],
+        [
+          "httpx",
+          "click"
+        ],
+        [
+          "httpx",
+          "pygments"
+        ],
+        [
+          "httpx",
+          "rich"
+        ],
+        [
+          "markdown-it-py",
+          "pyyaml"
+        ],
+        [
+          "markdown-it-py",
+          "requests"
+        ],
+        [
+          "pydantic",
+          "email-validator"
+        ],
+        [
+          "python-dotenv",
+          "click"
+        ],
+        [
+          "redis",
+          "async-timeout"
+        ],
+        [
+          "redis",
+          "cryptography"
+        ],
+        [
+          "redis",
+          "pyopenssl"
+        ],
+        [
+          "redis",
+          "requests"
+        ],
+        [
+          "starlette",
+          "httpx"
+        ],
+        [
+          "starlette",
+          "jinja2"
+        ],
+        [
+          "starlette",
+          "python-multipart"
+        ],
+        [
+          "starlette",
+          "pyyaml"
+        ],
+        [
+          "starlette",
+          "typing-extensions"
+        ],
+        [
+          "urllib3",
+          "certifi"
+        ],
+        [
+          "urllib3",
+          "cryptography"
+        ],
+        [
+          "urllib3",
+          "idna"
+        ],
+        [
+          "urllib3",
+          "pyopenssl"
+        ],
+        [
+          "uvicorn",
+          "typing-extensions"
+        ],
+        [
+          "uvloop",
+          "pyopenssl"
+        ]
+      ],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": null,
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 93,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": null,
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "environment-pyproject": {
+      "exit_code": null,
+      "status": "FAILED_OR_UNAVAILABLE"
+    },
+    "installed-syft": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [
+        {
+          "declarations": [
+            "typing-extensions>=4.13.2; python_full_version < \"3.11\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "cryptography",
+          "target": "typing-extensions"
+        },
+        {
+          "declarations": [
+            "cryptography>=50; extra == \"dnssec\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "dnspython",
+          "target": "cryptography"
+        },
+        {
+          "declarations": [
+            "idna>=3.20; extra == \"idna\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "dnspython",
+          "target": "idna"
+        },
+        {
+          "declarations": [
+            "pyyaml>=5.3.1; extra == \"all\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "fastapi",
+          "target": "pyyaml"
+        },
+        {
+          "declarations": [
+            "anyio<5.0,>=4.0; extra == \"asyncio\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "httpcore",
+          "target": "anyio"
+        },
+        {
+          "declarations": [
+            "click==8.*; extra == \"cli\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "httpx",
+          "target": "click"
+        },
+        {
+          "declarations": [
+            "pygments==2.*; extra == \"cli\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "httpx",
+          "target": "pygments"
+        },
+        {
+          "declarations": [
+            "rich<14,>=10; extra == \"cli\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "httpx",
+          "target": "rich"
+        },
+        {
+          "declarations": [
+            "pyyaml; extra == \"rtd\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "markdown-it-py",
+          "target": "pyyaml"
+        },
+        {
+          "declarations": [
+            "requests; extra == \"testing\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "markdown-it-py",
+          "target": "requests"
+        },
+        {
+          "declarations": [
+            "email-validator>=2.0.0; extra == \"email\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "pydantic",
+          "target": "email-validator"
+        },
+        {
+          "declarations": [
+            "click>=5.0; extra == \"cli\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "python-dotenv",
+          "target": "click"
+        },
+        {
+          "declarations": [
+            "async-timeout>=4.0.3; python_full_version < \"3.11.3\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "redis",
+          "target": "async-timeout"
+        },
+        {
+          "declarations": [
+            "cryptography>=36.0.1; extra == \"ocsp\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "redis",
+          "target": "cryptography"
+        },
+        {
+          "declarations": [
+            "pyopenssl>=20.0.1; extra == \"ocsp\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "redis",
+          "target": "pyopenssl"
+        },
+        {
+          "declarations": [
+            "requests>=2.31.0; extra == \"ocsp\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "redis",
+          "target": "requests"
+        },
+        {
+          "declarations": [
+            "httpx>=0.22.0; extra == \"full\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "starlette",
+          "target": "httpx"
+        },
+        {
+          "declarations": [
+            "jinja2; extra == \"full\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "starlette",
+          "target": "jinja2"
+        },
+        {
+          "declarations": [
+            "python-multipart>=0.0.7; extra == \"full\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "starlette",
+          "target": "python-multipart"
+        },
+        {
+          "declarations": [
+            "pyyaml; extra == \"full\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "starlette",
+          "target": "pyyaml"
+        },
+        {
+          "declarations": [
+            "typing-extensions>=3.10.0; python_version < \"3.10\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "starlette",
+          "target": "typing-extensions"
+        },
+        {
+          "declarations": [
+            "certifi; extra == \"secure\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "urllib3",
+          "target": "certifi"
+        },
+        {
+          "declarations": [
+            "cryptography>=1.3.4; extra == \"secure\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "urllib3",
+          "target": "cryptography"
+        },
+        {
+          "declarations": [
+            "idna>=2.0.0; extra == \"secure\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "urllib3",
+          "target": "idna"
+        },
+        {
+          "declarations": [
+            "pyOpenSSL>=0.14; extra == \"secure\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "urllib3",
+          "target": "pyopenssl"
+        },
+        {
+          "declarations": [
+            "typing-extensions>=4.0; python_version < \"3.11\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "uvicorn",
+          "target": "typing-extensions"
+        },
+        {
+          "declarations": [
+            "pyOpenSSL~=25.3.0; python_version < \"3.9\" and extra == \"test\"",
+            "pyOpenSSL~=26.4.0; python_version >= \"3.9\" and extra == \"test\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "uvloop",
+          "target": "pyopenssl"
+        }
+      ],
+      "known_extra_edges": [
+        [
+          "cryptography",
+          "typing-extensions"
+        ],
+        [
+          "dnspython",
+          "cryptography"
+        ],
+        [
+          "dnspython",
+          "idna"
+        ],
+        [
+          "fastapi",
+          "pyyaml"
+        ],
+        [
+          "httpcore",
+          "anyio"
+        ],
+        [
+          "httpx",
+          "click"
+        ],
+        [
+          "httpx",
+          "pygments"
+        ],
+        [
+          "httpx",
+          "rich"
+        ],
+        [
+          "markdown-it-py",
+          "pyyaml"
+        ],
+        [
+          "markdown-it-py",
+          "requests"
+        ],
+        [
+          "pydantic",
+          "email-validator"
+        ],
+        [
+          "python-dotenv",
+          "click"
+        ],
+        [
+          "redis",
+          "async-timeout"
+        ],
+        [
+          "redis",
+          "cryptography"
+        ],
+        [
+          "redis",
+          "pyopenssl"
+        ],
+        [
+          "redis",
+          "requests"
+        ],
+        [
+          "starlette",
+          "httpx"
+        ],
+        [
+          "starlette",
+          "jinja2"
+        ],
+        [
+          "starlette",
+          "python-multipart"
+        ],
+        [
+          "starlette",
+          "pyyaml"
+        ],
+        [
+          "starlette",
+          "typing-extensions"
+        ],
+        [
+          "urllib3",
+          "certifi"
+        ],
+        [
+          "urllib3",
+          "cryptography"
+        ],
+        [
+          "urllib3",
+          "idna"
+        ],
+        [
+          "urllib3",
+          "pyopenssl"
+        ],
+        [
+          "uvicorn",
+          "typing-extensions"
+        ],
+        [
+          "uvloop",
+          "pyopenssl"
+        ]
+      ],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": null,
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 93,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": null,
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "installed-trivy": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [],
+      "known_extra_edges": [],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": null,
+      "missing_edge_citations": [
+        {
+          "declarations": [
+            "idna>=2.8"
+          ],
+          "source": "anyio",
+          "target": "idna"
+        },
+        {
+          "declarations": [
+            "typing_extensions>=4.16.0; python_version < \"3.15\""
+          ],
+          "source": "anyio",
+          "target": "typing-extensions"
+        },
+        {
+          "declarations": [
+            "jmespath<2.0.0,>=0.7.1"
+          ],
+          "source": "botocore",
+          "target": "jmespath"
+        },
+        {
+          "declarations": [
+            "python-dateutil<3.0.0,>=2.1"
+          ],
+          "source": "botocore",
+          "target": "python-dateutil"
+        },
+        {
+          "declarations": [
+            "urllib3!=2.2.0,<3,>=1.25.4"
+          ],
+          "source": "botocore",
+          "target": "urllib3"
+        },
+        {
+          "declarations": [
+            "pycparser; implementation_name != \"PyPy\""
+          ],
+          "source": "cffi",
+          "target": "pycparser"
+        },
+        {
+          "declarations": [
+            "cffi>=2.0.0; platform_python_implementation != \"PyPy\""
+          ],
+          "source": "cryptography",
+          "target": "cffi"
+        },
+        {
+          "declarations": [
+            "dnspython>=2.0.0"
+          ],
+          "source": "email-validator",
+          "target": "dnspython"
+        },
+        {
+          "declarations": [
+            "idna>=2.0.0"
+          ],
+          "source": "email-validator",
+          "target": "idna"
+        },
+        {
+          "declarations": [
+            "email_validator>=2.0.0"
+          ],
+          "source": "fastapi",
+          "target": "email-validator"
+        },
+        {
+          "declarations": [
+            "fastapi-cli>=0.0.2"
+          ],
+          "source": "fastapi",
+          "target": "fastapi-cli"
+        },
+        {
+          "declarations": [
+            "httpx>=0.23.0"
+          ],
+          "source": "fastapi",
+          "target": "httpx"
+        },
+        {
+          "declarations": [
+            "jinja2>=2.11.2"
+          ],
+          "source": "fastapi",
+          "target": "jinja2"
+        },
+        {
+          "declarations": [
+            "orjson>=3.2.1"
+          ],
+          "source": "fastapi",
+          "target": "orjson"
+        },
+        {
+          "declarations": [
+            "pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4"
+          ],
+          "source": "fastapi",
+          "target": "pydantic"
+        },
+        {
+          "declarations": [
+            "python-multipart>=0.0.7"
+          ],
+          "source": "fastapi",
+          "target": "python-multipart"
+        },
+        {
+          "declarations": [
+            "starlette<0.38.0,>=0.37.2"
+          ],
+          "source": "fastapi",
+          "target": "starlette"
+        },
+        {
+          "declarations": [
+            "typing-extensions>=4.8.0"
+          ],
+          "source": "fastapi",
+          "target": "typing-extensions"
+        },
+        {
+          "declarations": [
+            "ujson!=4.0.2,!=4.1.0,!=4.2.0,!=4.3.0,!=5.0.0,!=5.1.0,>=4.0.1"
+          ],
+          "source": "fastapi",
+          "target": "ujson"
+        },
+        {
+          "declarations": [
+            "uvicorn[standard]>=0.12.0"
+          ],
+          "source": "fastapi",
+          "target": "uvicorn"
+        },
+        {
+          "declarations": [
+            "rich-toolkit>=0.14.8"
+          ],
+          "source": "fastapi-cli",
+          "target": "rich-toolkit"
+        },
+        {
+          "declarations": [
+            "typer>=0.26.1"
+          ],
+          "source": "fastapi-cli",
+          "target": "typer"
+        },
+        {
+          "declarations": [
+            "uvicorn[standard]>=0.15.0"
+          ],
+          "source": "fastapi-cli",
+          "target": "uvicorn"
+        },
+        {
+          "declarations": [
+            "certifi"
+          ],
+          "source": "httpcore",
+          "target": "certifi"
+        },
+        {
+          "declarations": [
+            "h11>=0.16"
+          ],
+          "source": "httpcore",
+          "target": "h11"
+        },
+        {
+          "declarations": [
+            "anyio"
+          ],
+          "source": "httpx",
+          "target": "anyio"
+        },
+        {
+          "declarations": [
+            "certifi"
+          ],
+          "source": "httpx",
+          "target": "certifi"
+        },
+        {
+          "declarations": [
+            "httpcore==1.*"
+          ],
+          "source": "httpx",
+          "target": "httpcore"
+        },
+        {
+          "declarations": [
+            "idna"
+          ],
+          "source": "httpx",
+          "target": "idna"
+        },
+        {
+          "declarations": [
+            "sniffio"
+          ],
+          "source": "httpx",
+          "target": "sniffio"
+        },
+        {
+          "declarations": [
+            "MarkupSafe>=2.0"
+          ],
+          "source": "jinja2",
+          "target": "markupsafe"
+        },
+        {
+          "declarations": [
+            "mdurl~=0.1"
+          ],
+          "source": "markdown-it-py",
+          "target": "mdurl"
+        },
+        {
+          "declarations": [
+            "pyasn1>=0.1.1"
+          ],
+          "source": "ndg-httpsclient",
+          "target": "pyasn1"
+        },
+        {
+          "declarations": [
+            "PyOpenSSL"
+          ],
+          "source": "ndg-httpsclient",
+          "target": "pyopenssl"
+        },
+        {
+          "declarations": [
+            "annotated-types>=0.6.0"
+          ],
+          "source": "pydantic",
+          "target": "annotated-types"
+        },
+        {
+          "declarations": [
+            "pydantic-core==2.50.4"
+          ],
+          "source": "pydantic",
+          "target": "pydantic-core"
+        },
+        {
+          "declarations": [
+            "typing-extensions>=4.16.0"
+          ],
+          "source": "pydantic",
+          "target": "typing-extensions"
+        },
+        {
+          "declarations": [
+            "typing-inspection>=0.4.4"
+          ],
+          "source": "pydantic",
+          "target": "typing-inspection"
+        },
+        {
+          "declarations": [
+            "typing-extensions>=4.16.0"
+          ],
+          "source": "pydantic-core",
+          "target": "typing-extensions"
+        },
+        {
+          "declarations": [
+            "cryptography<51,>=49.0.0"
+          ],
+          "source": "pyopenssl",
+          "target": "cryptography"
+        },
+        {
+          "declarations": [
+            "typing-extensions>=4.9; python_version < \"3.13\""
+          ],
+          "source": "pyopenssl",
+          "target": "typing-extensions"
+        },
+        {
+          "declarations": [
+            "six>=1.5"
+          ],
+          "source": "python-dateutil",
+          "target": "six"
+        },
+        {
+          "declarations": [
+            "ndg-httpsclient; extra == \"security\""
+          ],
+          "source": "requests",
+          "target": "ndg-httpsclient"
+        },
+        {
+          "declarations": [
+            "pyasn1; extra == \"security\""
+          ],
+          "source": "requests",
+          "target": "pyasn1"
+        },
+        {
+          "declarations": [
+            "pyOpenSSL; extra == \"security\""
+          ],
+          "source": "requests",
+          "target": "pyopenssl"
+        },
+        {
+          "declarations": [
+            "markdown-it-py>=2.2.0"
+          ],
+          "source": "rich",
+          "target": "markdown-it-py"
+        },
+        {
+          "declarations": [
+            "pygments<3.0.0,>=2.13.0"
+          ],
+          "source": "rich",
+          "target": "pygments"
+        },
+        {
+          "declarations": [
+            "click>=8.1.7"
+          ],
+          "source": "rich-toolkit",
+          "target": "click"
+        },
+        {
+          "declarations": [
+            "rich>=13.7.1"
+          ],
+          "source": "rich-toolkit",
+          "target": "rich"
+        },
+        {
+          "declarations": [
+            "typing-extensions>=4.12.2"
+          ],
+          "source": "rich-toolkit",
+          "target": "typing-extensions"
+        },
+        {
+          "declarations": [
+            "botocore<2.0a.0,>=1.37.4"
+          ],
+          "source": "s3transfer",
+          "target": "botocore"
+        },
+        {
+          "declarations": [
+            "anyio<5,>=3.4.0"
+          ],
+          "source": "starlette",
+          "target": "anyio"
+        },
+        {
+          "declarations": [
+            "annotated-doc>=0.0.2"
+          ],
+          "source": "typer",
+          "target": "annotated-doc"
+        },
+        {
+          "declarations": [
+            "pydantic>=2.5.3"
+          ],
+          "source": "typer",
+          "target": "pydantic"
+        },
+        {
+          "declarations": [
+            "rich>=13.8.0"
+          ],
+          "source": "typer",
+          "target": "rich"
+        },
+        {
+          "declarations": [
+            "shellingham>=1.3.0"
+          ],
+          "source": "typer",
+          "target": "shellingham"
+        },
+        {
+          "declarations": [
+            "typing-extensions>=4.15.0"
+          ],
+          "source": "typing-inspection",
+          "target": "typing-extensions"
+        },
+        {
+          "declarations": [
+            "click>=7.0"
+          ],
+          "source": "uvicorn",
+          "target": "click"
+        },
+        {
+          "declarations": [
+            "h11>=0.8"
+          ],
+          "source": "uvicorn",
+          "target": "h11"
+        },
+        {
+          "declarations": [
+            "httptools>=0.8.0; extra == \"standard\""
+          ],
+          "source": "uvicorn",
+          "target": "httptools"
+        },
+        {
+          "declarations": [
+            "python-dotenv>=0.13; extra == \"standard\""
+          ],
+          "source": "uvicorn",
+          "target": "python-dotenv"
+        },
+        {
+          "declarations": [
+            "pyyaml>=5.1; extra == \"standard\""
+          ],
+          "source": "uvicorn",
+          "target": "pyyaml"
+        },
+        {
+          "declarations": [
+            "uvloop>=0.15.1; (sys_platform != \"win32\" and (sys_platform != \"cygwin\" and platform_python_implementation != \"PyPy\")) and extra == \"standard\""
+          ],
+          "source": "uvicorn",
+          "target": "uvloop"
+        },
+        {
+          "declarations": [
+            "watchfiles>=0.20; extra == \"standard\""
+          ],
+          "source": "uvicorn",
+          "target": "watchfiles"
+        },
+        {
+          "declarations": [
+            "websockets>=13.0; extra == \"standard\""
+          ],
+          "source": "uvicorn",
+          "target": "websockets"
+        },
+        {
+          "declarations": [
+            "anyio>=3.0.0"
+          ],
+          "source": "watchfiles",
+          "target": "anyio"
+        }
+      ],
+      "missing_edges": [
+        [
+          "anyio",
+          "idna"
+        ],
+        [
+          "anyio",
+          "typing-extensions"
+        ],
+        [
+          "botocore",
+          "jmespath"
+        ],
+        [
+          "botocore",
+          "python-dateutil"
+        ],
+        [
+          "botocore",
+          "urllib3"
+        ],
+        [
+          "cffi",
+          "pycparser"
+        ],
+        [
+          "cryptography",
+          "cffi"
+        ],
+        [
+          "email-validator",
+          "dnspython"
+        ],
+        [
+          "email-validator",
+          "idna"
+        ],
+        [
+          "fastapi",
+          "email-validator"
+        ],
+        [
+          "fastapi",
+          "fastapi-cli"
+        ],
+        [
+          "fastapi",
+          "httpx"
+        ],
+        [
+          "fastapi",
+          "jinja2"
+        ],
+        [
+          "fastapi",
+          "orjson"
+        ],
+        [
+          "fastapi",
+          "pydantic"
+        ],
+        [
+          "fastapi",
+          "python-multipart"
+        ],
+        [
+          "fastapi",
+          "starlette"
+        ],
+        [
+          "fastapi",
+          "typing-extensions"
+        ],
+        [
+          "fastapi",
+          "ujson"
+        ],
+        [
+          "fastapi",
+          "uvicorn"
+        ],
+        [
+          "fastapi-cli",
+          "rich-toolkit"
+        ],
+        [
+          "fastapi-cli",
+          "typer"
+        ],
+        [
+          "fastapi-cli",
+          "uvicorn"
+        ],
+        [
+          "httpcore",
+          "certifi"
+        ],
+        [
+          "httpcore",
+          "h11"
+        ],
+        [
+          "httpx",
+          "anyio"
+        ],
+        [
+          "httpx",
+          "certifi"
+        ],
+        [
+          "httpx",
+          "httpcore"
+        ],
+        [
+          "httpx",
+          "idna"
+        ],
+        [
+          "httpx",
+          "sniffio"
+        ],
+        [
+          "jinja2",
+          "markupsafe"
+        ],
+        [
+          "markdown-it-py",
+          "mdurl"
+        ],
+        [
+          "ndg-httpsclient",
+          "pyasn1"
+        ],
+        [
+          "ndg-httpsclient",
+          "pyopenssl"
+        ],
+        [
+          "pydantic",
+          "annotated-types"
+        ],
+        [
+          "pydantic",
+          "pydantic-core"
+        ],
+        [
+          "pydantic",
+          "typing-extensions"
+        ],
+        [
+          "pydantic",
+          "typing-inspection"
+        ],
+        [
+          "pydantic-core",
+          "typing-extensions"
+        ],
+        [
+          "pyopenssl",
+          "cryptography"
+        ],
+        [
+          "pyopenssl",
+          "typing-extensions"
+        ],
+        [
+          "python-dateutil",
+          "six"
+        ],
+        [
+          "requests",
+          "ndg-httpsclient"
+        ],
+        [
+          "requests",
+          "pyasn1"
+        ],
+        [
+          "requests",
+          "pyopenssl"
+        ],
+        [
+          "rich",
+          "markdown-it-py"
+        ],
+        [
+          "rich",
+          "pygments"
+        ],
+        [
+          "rich-toolkit",
+          "click"
+        ],
+        [
+          "rich-toolkit",
+          "rich"
+        ],
+        [
+          "rich-toolkit",
+          "typing-extensions"
+        ],
+        [
+          "s3transfer",
+          "botocore"
+        ],
+        [
+          "starlette",
+          "anyio"
+        ],
+        [
+          "typer",
+          "annotated-doc"
+        ],
+        [
+          "typer",
+          "pydantic"
+        ],
+        [
+          "typer",
+          "rich"
+        ],
+        [
+          "typer",
+          "shellingham"
+        ],
+        [
+          "typing-inspection",
+          "typing-extensions"
+        ],
+        [
+          "uvicorn",
+          "click"
+        ],
+        [
+          "uvicorn",
+          "h11"
+        ],
+        [
+          "uvicorn",
+          "httptools"
+        ],
+        [
+          "uvicorn",
+          "python-dotenv"
+        ],
+        [
+          "uvicorn",
+          "pyyaml"
+        ],
+        [
+          "uvicorn",
+          "uvloop"
+        ],
+        [
+          "uvicorn",
+          "watchfiles"
+        ],
+        [
+          "uvicorn",
+          "websockets"
+        ],
+        [
+          "watchfiles",
+          "anyio"
+        ]
+      ],
+      "projected_edges": 0,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": null,
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    }
+  },
+  "installed_packages": 55,
+  "origin_commit": "e6bcf23b2f4e384f9fc398793529583845612b63",
+  "requested_extra_seeds": {
+    "requests": [
+      "security"
+    ]
+  },
+  "root_declared_active_edges": [],
+  "root_name": null,
+  "source": {
+    "cyclonedx": {
+      "all_dependency_edges": 0,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [
+        "beautifulsoup4",
+        "docopt",
+        "httpx",
+        "redis",
+        "requests",
+        "s3transfer",
+        "six",
+        "urllib3"
+      ],
+      "python_package_records": 9,
+      "python_versions": [
+        {
+          "name": "beautifulsoup4",
+          "version": "4.1.0"
+        },
+        {
+          "name": "beautifulsoup4",
+          "version": null
+        },
+        {
+          "name": "docopt",
+          "version": "0.6.*"
+        },
+        {
+          "name": "httpx",
+          "version": null
+        },
+        {
+          "name": "redis",
+          "version": null
+        },
+        {
+          "name": "requests",
+          "version": null
+        },
+        {
+          "name": "s3transfer",
+          "version": null
+        },
+        {
+          "name": "six",
+          "version": "1.16.0"
+        },
+        {
+          "name": "urllib3",
+          "version": null
+        }
+      ],
+      "status": null
+    },
+    "syft": {
+      "all_dependency_edges": 0,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [],
+      "python_package_records": 0,
+      "python_versions": [],
+      "status": null
+    },
+    "trivy": {
+      "all_dependency_edges": 0,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [],
+      "python_package_records": 0,
+      "python_versions": [],
+      "status": null
+    }
+  },
+  "unresolved_declarations": []
+}

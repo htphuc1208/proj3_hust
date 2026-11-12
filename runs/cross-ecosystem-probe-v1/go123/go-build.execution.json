@@ -1,0 +1,22 @@
+{
+  "command": [
+    "go",
+    "build",
+    "-buildvcs=false",
+    "-trimpath",
+    "-o",
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/go123-binary/app",
+    "."
+  ],
+  "cwd": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/go-build",
+  "started_at": "2026-11-11T15:41:21.102264+00:00",
+  "environment_overrides": {
+    "PATH": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/go123/go/bin:/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/go/bin:/home/phucht/.codex/packages/app-server-daemon/releases/0.167.1-x86_64-unknown-linux-musl/codex-path:/home/phucht/.local/bin:/home/phucht/.local/bin:/home/phucht/.codex/tmp/arg0-linux/codex-arg01znXpD:/home/phucht/.codex/packages/app-server-daemon/releases/0.167.1-x86_64-unknown-linux-musl/codex-path:/home/phucht/.codex/tmp/arg0-linux/codex-arg0SG4i1y:/home/phucht/.codex/packages/app-server-daemon/releases/0.167.0-x86_64-unknown-linux-musl/codex-path:/home/phucht/.codex/tmp/arg0-linux/codex-arg0p9a5aA:/home/phucht/.nvm/versions/node/v22.23.2/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/home/phucht/project/sbom_security_poc/.venv/bin:/home/phucht/.local/bin:/home/phucht/.local/bin:/home/phucht/.local/bin:/home/phucht/.local/bin:/home/phucht/.local/bin:/home/phucht/.local/bin:/home/phucht/.nvm/versions/node/v22.23.2/bin:/home/phucht/.local/bin:/home/phucht/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/phucht/.antigravity-ide/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts",
+    "GOPATH": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/gopath",
+    "GOCACHE": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/gocache",
+    "GOTOOLCHAIN": "local",
+    "CGO_ENABLED": "0"
+  },
+  "exit_code": 0,
+  "seconds": 8.642626880002354
+}

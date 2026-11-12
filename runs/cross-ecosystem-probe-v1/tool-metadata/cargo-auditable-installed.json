@@ -1,0 +1,8 @@
+{
+  "tool": "cargo-auditable",
+  "tag": "v0.7.7",
+  "url": "https://github.com/rust-secure-code/cargo-auditable/releases/download/v0.7.7/cargo-auditable-x86_64-unknown-linux-gnu.tar.xz",
+  "archive_sha256": "4c8d3b08c3c34e9f2333367224dbbfb4aab68067698b43de59fe19aded3416dd",
+  "checksum_url": "https://github.com/rust-secure-code/cargo-auditable/releases/download/v0.7.7/sha256.sum",
+  "binary_sha256": "7dace201261de053580184ff7aaef8998df12b646147349ad884e79dfee8d896"
+}

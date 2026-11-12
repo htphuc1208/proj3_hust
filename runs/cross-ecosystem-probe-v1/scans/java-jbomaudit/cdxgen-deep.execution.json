@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/node/node_modules/.bin/cdxgen",
+    "-t",
+    "jar",
+    "--deep",
+    "--no-install-deps",
+    "--spec-version",
+    "1.6",
+    "-o",
+    "/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/scans/java-jbomaudit/cdxgen-deep.cdx.json",
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/java-jbomaudit"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:42:55.682847+00:00",
+  "environment_overrides": {
+    "FETCH_LICENSE": "false"
+  },
+  "exit_code": 0,
+  "seconds": 1.996784230999765
+}

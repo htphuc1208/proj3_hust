@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/trivy",
+    "rootfs",
+    "--offline-scan",
+    "--skip-db-update",
+    "--skip-java-db-update",
+    "--disable-telemetry",
+    "--skip-version-check",
+    "--parallel",
+    "1",
+    "--format",
+    "cyclonedx",
+    "--output",
+    "/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/cofano/hatch-hatchling/installed-trivy.cdx.json",
+    "/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/cofano/hatch-hatchling/target"
+  ],
+  "exit_code": 0,
+  "seconds": 0.3441469200006395
+}

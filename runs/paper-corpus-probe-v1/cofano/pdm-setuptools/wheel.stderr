@@ -1,0 +1,75 @@
+Building wheel...
+/cache/builds-v0/.tmpnKTBzA/lib/python3.11/site-packages/setuptools/config/_apply_pyprojecttoml.py:82: SetuptoolsDeprecationWarning: `project.license` as a TOML table is deprecated
+!!
+
+        ********************************************************************************
+        Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+
+        This deprecation is overdue, please update your project and remove deprecated
+        calls to avoid build errors in the future.
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  corresp(dist, value, root_dir)
+running egg_info
+creating src/pdm_setuptools.egg-info
+writing src/pdm_setuptools.egg-info/PKG-INFO
+writing dependency_links to src/pdm_setuptools.egg-info/dependency_links.txt
+writing requirements to src/pdm_setuptools.egg-info/requires.txt
+writing top-level names to src/pdm_setuptools.egg-info/top_level.txt
+writing manifest file 'src/pdm_setuptools.egg-info/SOURCES.txt'
+reading manifest file 'src/pdm_setuptools.egg-info/SOURCES.txt'
+writing manifest file 'src/pdm_setuptools.egg-info/SOURCES.txt'
+/cache/builds-v0/.tmpnKTBzA/lib/python3.11/site-packages/setuptools/config/_apply_pyprojecttoml.py:82: SetuptoolsDeprecationWarning: `project.license` as a TOML table is deprecated
+!!
+
+        ********************************************************************************
+        Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+
+        This deprecation is overdue, please update your project and remove deprecated
+        calls to avoid build errors in the future.
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  corresp(dist, value, root_dir)
+running bdist_wheel
+running build
+running build_py
+creating build/lib/pdm_setuptools
+copying src/pdm_setuptools/__init__.py -> build/lib/pdm_setuptools
+copying src/pdm_setuptools/main.py -> build/lib/pdm_setuptools
+running egg_info
+writing src/pdm_setuptools.egg-info/PKG-INFO
+writing dependency_links to src/pdm_setuptools.egg-info/dependency_links.txt
+writing requirements to src/pdm_setuptools.egg-info/requires.txt
+writing top-level names to src/pdm_setuptools.egg-info/top_level.txt
+reading manifest file 'src/pdm_setuptools.egg-info/SOURCES.txt'
+writing manifest file 'src/pdm_setuptools.egg-info/SOURCES.txt'
+warning: build_py: byte-compiling is disabled, skipping.
+
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/pdm_setuptools
+copying build/lib/pdm_setuptools/__init__.py -> build/bdist.linux-x86_64/wheel/./pdm_setuptools
+copying build/lib/pdm_setuptools/main.py -> build/bdist.linux-x86_64/wheel/./pdm_setuptools
+warning: install_lib: byte-compiling is disabled, skipping.
+
+running install_egg_info
+Copying src/pdm_setuptools.egg-info to build/bdist.linux-x86_64/wheel/./pdm_setuptools-0.1.0-py3.11.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/pdm_setuptools-0.1.0.dist-info/WHEEL
+creating '/out/wheels/.tmp-jrzlazjx/pdm_setuptools-0.1.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'pdm_setuptools/__init__.py'
+adding 'pdm_setuptools/main.py'
+adding 'pdm_setuptools-0.1.0.dist-info/METADATA'
+adding 'pdm_setuptools-0.1.0.dist-info/WHEEL'
+adding 'pdm_setuptools-0.1.0.dist-info/top_level.txt'
+adding 'pdm_setuptools-0.1.0.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Successfully built /out/wheels/pdm_setuptools-0.1.0-py3-none-any.whl

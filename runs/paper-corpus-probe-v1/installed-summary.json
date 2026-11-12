@@ -1,0 +1,267 @@
+{
+  "cases": 26,
+  "results": [
+    {
+      "case": "dsn/poetry",
+      "phase": "installed",
+      "status": "NOT_ATTEMPTED"
+    },
+    {
+      "case": "dsn/pipenv",
+      "phase": "installed",
+      "status": "NOT_ATTEMPTED"
+    },
+    {
+      "case": "dsn/continuations",
+      "phase": "installed",
+      "reason": "resolve",
+      "status": "FAILED"
+    },
+    {
+      "case": "dsn/requirements",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/hatch-pdm",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/hatch-hatchling",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/hatch-setuptools",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/pdm-flit",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/pdm-pdm",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/pdm-hatchling",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/pip-pdm",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/pip-hatchling",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/pdm-setuptools",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/pip-setuptools",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/poetry-poetry",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/pipenv-pdm",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "real/thefuck",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "real/flask",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "real/keras",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "real/rich",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "real/pytorch-lightning",
+      "phase": "installed",
+      "reason": "torch wheel exceeds 512 MiB",
+      "status": "RESOURCE_LIMIT"
+    },
+    {
+      "case": "real/gym",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 1,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "real/requests",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "real/python-fire",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "real/loguru",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "real/cookiecutter",
+      "phase": "installed",
+      "status": "COMPLETE",
+      "tools": {
+        "environment": 0,
+        "environment-pyproject": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    }
+  ]
+}

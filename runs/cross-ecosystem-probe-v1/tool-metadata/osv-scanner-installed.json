@@ -1,0 +1,8 @@
+{
+  "tool": "osv-scanner",
+  "tag": "v2.7.1",
+  "url": "https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_linux_amd64",
+  "archive_sha256": "fb7dab19a8bd9bbe5c3189f09d4b7ee1820c9553a23bac202648a56efd2f6ee8",
+  "checksum_note": "Recorded local hash; no separate upstream checksum verified",
+  "binary_sha256": "fb7dab19a8bd9bbe5c3189f09d4b7ee1820c9553a23bac202648a56efd2f6ee8"
+}

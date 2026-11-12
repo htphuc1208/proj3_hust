@@ -1,0 +1,155 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:d2505508-7d23-4906-bfe2-31d7b866427b",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T14:36:33+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "66aee005-5c2d-44e7-933e-45afbd610e45",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/real/gym",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "93acb215-e062-4a5a-b302-56bf6f247cf2",
+      "type": "application",
+      "name": "requirements.txt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/box2d-py@2.3.5",
+      "type": "library",
+      "name": "box2d-py",
+      "version": "2.3.5",
+      "purl": "pkg:pypi/box2d-py@2.3.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/dataclasses@0.8",
+      "type": "library",
+      "name": "dataclasses",
+      "version": "0.8",
+      "purl": "pkg:pypi/dataclasses@0.8",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/mujoco@2.2.0",
+      "type": "library",
+      "name": "mujoco",
+      "version": "2.2.0",
+      "purl": "pkg:pypi/mujoco@2.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pygame@2.1.0",
+      "type": "library",
+      "name": "pygame",
+      "version": "2.1.0",
+      "purl": "pkg:pypi/pygame@2.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/typing-extensions@4.3.0",
+      "type": "library",
+      "name": "typing_extensions",
+      "version": "4.3.0",
+      "purl": "pkg:pypi/typing-extensions@4.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "66aee005-5c2d-44e7-933e-45afbd610e45",
+      "dependsOn": [
+        "93acb215-e062-4a5a-b302-56bf6f247cf2"
+      ]
+    },
+    {
+      "ref": "93acb215-e062-4a5a-b302-56bf6f247cf2",
+      "dependsOn": [
+        "pkg:pypi/box2d-py@2.3.5",
+        "pkg:pypi/dataclasses@0.8",
+        "pkg:pypi/mujoco@2.2.0",
+        "pkg:pypi/pygame@2.1.0",
+        "pkg:pypi/typing-extensions@4.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/box2d-py@2.3.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/dataclasses@0.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/mujoco@2.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pygame@2.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/typing-extensions@4.3.0",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

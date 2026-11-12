@@ -1,0 +1,2 @@
+/tool/.venv/lib/python3.11/site-packages/cyclonedx/model/bom.py:846: UserWarning: The Component this BOM is describing None has no defined dependencies which means the Dependency Graph is incomplete - you should add direct dependencies to this "root" Component to complete the Dependency Graph data.
+  warn(

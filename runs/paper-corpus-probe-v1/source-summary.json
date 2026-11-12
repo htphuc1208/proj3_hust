@@ -1,0 +1,239 @@
+{
+  "cases": 26,
+  "results": [
+    {
+      "case": "dsn/poetry",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": 1,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "dsn/continuations",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "dsn/requirements",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "dsn/pipenv",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": 1,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/hatch-hatchling",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": "NO_NATIVE_SOURCE_MODE",
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/hatch-pdm",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": "NO_NATIVE_SOURCE_MODE",
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/hatch-setuptools",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": "NO_NATIVE_SOURCE_MODE",
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/pdm-flit",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": "NO_NATIVE_SOURCE_MODE",
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/pdm-pdm",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": "NO_NATIVE_SOURCE_MODE",
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/pdm-setuptools",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": "NO_NATIVE_SOURCE_MODE",
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/pdm-hatchling",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": "NO_NATIVE_SOURCE_MODE",
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/pip-hatchling",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/pip-pdm",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/pip-setuptools",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "real/thefuck",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": "NO_NATIVE_SOURCE_MODE",
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "real/flask",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": "NO_NATIVE_SOURCE_MODE",
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/pipenv-pdm",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "real/keras",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": "NO_NATIVE_SOURCE_MODE",
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "real/rich",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": "NO_NATIVE_SOURCE_MODE",
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "real/requests",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": "NO_NATIVE_SOURCE_MODE",
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "real/gym",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": "NO_NATIVE_SOURCE_MODE",
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "real/pytorch-lightning",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": "NO_NATIVE_SOURCE_MODE",
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "real/python-fire",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": "NO_NATIVE_SOURCE_MODE",
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "real/loguru",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": "NO_NATIVE_SOURCE_MODE",
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "real/cookiecutter",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": "NO_NATIVE_SOURCE_MODE",
+        "syft": 0,
+        "trivy": 0
+      }
+    },
+    {
+      "case": "cofano/poetry-poetry",
+      "phase": "source",
+      "tools": {
+        "cyclonedx": 0,
+        "syft": 0,
+        "trivy": 0
+      }
+    }
+  ]
+}

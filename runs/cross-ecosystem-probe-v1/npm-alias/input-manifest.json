@@ -1,0 +1,8 @@
+{
+  "source": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/npm-alias",
+  "files": {
+    "package.json": "3581ea91da1033b5eed36fc6903ebae1fb67378dd7f4e12f5cfba559182814b9",
+    "package-lock.json": "41a453395708665f1ebc0bde06e478fa24e662cafd397b90c8c5733d3e916607",
+    "index.js": "4fddab32ebabc83813942a42ff56421cbd3bb3a778ecc76b58eae002d2445598"
+  }
+}

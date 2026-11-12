@@ -1,0 +1,335 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:32b94f09-5924-4d04-987a-7bfc2ba4cb5e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T15:42:04+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "537002b3-d8c8-42b2-a970-1250f9745588",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/rust-no-alias",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "5bc56647-f974-481c-a5f6-a26725c93011",
+      "type": "application",
+      "name": "Cargo.lock",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "cargo"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/aho-corasick@0.7.20",
+      "type": "library",
+      "name": "aho-corasick",
+      "version": "0.7.20",
+      "purl": "pkg:cargo/aho-corasick@0.7.20",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "aho-corasick@0.7.20"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "cargo"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/libc@0.2.191",
+      "type": "library",
+      "name": "libc",
+      "version": "0.2.191",
+      "purl": "pkg:cargo/libc@0.2.191",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libc@0.2.191"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "cargo"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/memchr@2.8.3",
+      "type": "library",
+      "name": "memchr",
+      "version": "2.8.3",
+      "purl": "pkg:cargo/memchr@2.8.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "memchr@2.8.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "cargo"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/regex-syntax@0.6.29",
+      "type": "library",
+      "name": "regex-syntax",
+      "version": "0.6.29",
+      "purl": "pkg:cargo/regex-syntax@0.6.29",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "regex-syntax@0.6.29"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "cargo"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/regex@1.5.4",
+      "type": "library",
+      "name": "regex",
+      "version": "1.5.4",
+      "purl": "pkg:cargo/regex@1.5.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "regex@1.5.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "cargo"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/sbom-build-probe@1.0.0",
+      "type": "library",
+      "name": "sbom-build-probe",
+      "version": "1.0.0",
+      "purl": "pkg:cargo/sbom-build-probe@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "sbom-build-probe@1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "cargo"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/smallvec@1.6.0",
+      "type": "library",
+      "name": "smallvec",
+      "version": "1.6.0",
+      "purl": "pkg:cargo/smallvec@1.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "smallvec@1.6.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "cargo"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/time@0.1.45",
+      "type": "library",
+      "name": "time",
+      "version": "0.1.45",
+      "purl": "pkg:cargo/time@0.1.45",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "time@0.1.45"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "cargo"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/wasi@0.10.0%2Bwasi-snapshot-preview1",
+      "type": "library",
+      "name": "wasi",
+      "version": "0.10.0+wasi-snapshot-preview1",
+      "purl": "pkg:cargo/wasi@0.10.0%2Bwasi-snapshot-preview1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "wasi@0.10.0+wasi-snapshot-preview1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "cargo"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/winapi-i686-pc-windows-gnu@0.4.0",
+      "type": "library",
+      "name": "winapi-i686-pc-windows-gnu",
+      "version": "0.4.0",
+      "purl": "pkg:cargo/winapi-i686-pc-windows-gnu@0.4.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "winapi-i686-pc-windows-gnu@0.4.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "cargo"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/winapi-x86_64-pc-windows-gnu@0.4.0",
+      "type": "library",
+      "name": "winapi-x86_64-pc-windows-gnu",
+      "version": "0.4.0",
+      "purl": "pkg:cargo/winapi-x86_64-pc-windows-gnu@0.4.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "winapi-x86_64-pc-windows-gnu@0.4.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "cargo"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/winapi@0.3.9",
+      "type": "library",
+      "name": "winapi",
+      "version": "0.3.9",
+      "purl": "pkg:cargo/winapi@0.3.9",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "winapi@0.3.9"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "cargo"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "537002b3-d8c8-42b2-a970-1250f9745588",
+      "dependsOn": [
+        "5bc56647-f974-481c-a5f6-a26725c93011"
+      ]
+    },
+    {
+      "ref": "5bc56647-f974-481c-a5f6-a26725c93011",
+      "dependsOn": [
+        "pkg:cargo/sbom-build-probe@1.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/aho-corasick@0.7.20",
+      "dependsOn": [
+        "pkg:cargo/memchr@2.8.3"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/libc@0.2.191",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/memchr@2.8.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/regex-syntax@0.6.29",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/regex@1.5.4",
+      "dependsOn": [
+        "pkg:cargo/aho-corasick@0.7.20",
+        "pkg:cargo/memchr@2.8.3",
+        "pkg:cargo/regex-syntax@0.6.29"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/sbom-build-probe@1.0.0",
+      "dependsOn": [
+        "pkg:cargo/regex@1.5.4",
+        "pkg:cargo/smallvec@1.6.0",
+        "pkg:cargo/time@0.1.45"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/smallvec@1.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/time@0.1.45",
+      "dependsOn": [
+        "pkg:cargo/libc@0.2.191",
+        "pkg:cargo/wasi@0.10.0%2Bwasi-snapshot-preview1",
+        "pkg:cargo/winapi@0.3.9"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/wasi@0.10.0%2Bwasi-snapshot-preview1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/winapi-i686-pc-windows-gnu@0.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/winapi-x86_64-pc-windows-gnu@0.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/winapi@0.3.9",
+      "dependsOn": [
+        "pkg:cargo/winapi-i686-pc-windows-gnu@0.4.0",
+        "pkg:cargo/winapi-x86_64-pc-windows-gnu@0.4.0"
+      ]
+    }
+  ],
+  "vulnerabilities": []
+}

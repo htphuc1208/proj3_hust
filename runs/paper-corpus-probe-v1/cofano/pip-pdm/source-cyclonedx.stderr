@@ -1,0 +1,3 @@
+WARNING  | CDX.RequirementsBB > component has no pinned version: <Component bom-ref=<BomRef 'requirements-L1' id=135998399767568>, group=None, name=numpy, version=None, type=ComponentType.LIBRARY>
+WARNING  | CDX.RequirementsBB > component has no pinned version: <Component bom-ref=<BomRef 'requirements-L5' id=135998399820752>, group=None, name=matplotlib, version=None, type=ComponentType.LIBRARY>
+WARNING  | CDX.RequirementsBB > component has no pinned version: <Component bom-ref=<BomRef 'requirements-L6' id=135998399862672>, group=None, name=urllib3, version=None, type=ComponentType.LIBRARY>

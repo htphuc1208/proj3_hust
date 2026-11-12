@@ -1,0 +1,40 @@
+{
+  "date_utc": "2026-11-11T15:55:27.793700+00:00",
+  "production_engine_changed": false,
+  "validation_invariants": {
+    "go_control_same_native_resolution": true,
+    "go_default_source_disagrees_with_binary_version": true,
+    "go_control_and_native_mode_agree": true,
+    "rust_control_same_lock_and_production_closure": true,
+    "rust_alias_changes_trivy_inventory": true,
+    "rust_native_and_auditable_recognize_regex": true,
+    "rust_advisory_CVE_2022_24713_returns_in_control": true,
+    "graph_removal_does_not_change_this_consumer": true,
+    "go123_native_std_has_no_OSV_match": true,
+    "go123_adapter_recovers_same_advisory_records_as_syft": true,
+    "java_metadata_removal_preserves_every_class_byte": true,
+    "java_minimized_has_only_application_class": true,
+    "java_minimized_still_matches_package_advisories": true,
+    "paper_java_has_21_exact_upstream_class_matches": true,
+    "paper_java_lacks_two_advisory_related_classes": true,
+    "captured_inputs_unchanged": true,
+    "all_consumers_bound_to_unchanged_SBOM_inputs": true,
+    "bundle_input_hashes_unchanged": true,
+    "bundle_only_uses_vulnerable_alias_not_fixed_alias": true,
+    "npm_installed_mode_recognizes_both_real_lodash_versions": true
+  },
+  "python_syntax_check": {
+    "command": ".venv/bin/python -B -m py_compile scripts/collect_sbom_survey.py scripts/setup_cross_ecosystem_tools.py scripts/run_cross_ecosystem_probe.py scripts/probe_sbom_mechanisms.py scripts/analyze_cross_ecosystem_probe.py",
+    "exit_code": 0
+  },
+  "existing_python_probe_boundary_tests": {
+    "command": ".venv/bin/python -B -m unittest tests.test_paper_corpus_probe -q",
+    "tests": 6,
+    "exit_code": 0
+  },
+  "git_diff_check": {
+    "command": "git diff --check",
+    "exit_code": 0
+  },
+  "scope": "Research scripts, sources, mechanism runs and redesign proposal; no runtime exploit validation"
+}

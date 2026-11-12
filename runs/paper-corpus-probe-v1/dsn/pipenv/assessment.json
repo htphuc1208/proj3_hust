@@ -1,0 +1,30 @@
+{
+  "build_reason": "No root package; manifest parser fixture, no authored lockfile",
+  "build_status": "NOT_ATTEMPTED",
+  "case": "dsn/pipenv",
+  "origin_commit": "e6bcf23b2f4e384f9fc398793529583845612b63",
+  "source": {
+    "cyclonedx": {
+      "exit_code": 1,
+      "status": null
+    },
+    "syft": {
+      "all_dependency_edges": 0,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [],
+      "python_package_records": 0,
+      "python_versions": [],
+      "status": null
+    },
+    "trivy": {
+      "all_dependency_edges": 0,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [],
+      "python_package_records": 0,
+      "python_versions": [],
+      "status": null
+    }
+  }
+}

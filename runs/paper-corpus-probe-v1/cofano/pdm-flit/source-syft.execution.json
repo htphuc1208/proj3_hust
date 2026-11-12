@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/syft",
+    "scan",
+    "dir:/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/pdm-flit",
+    "-o",
+    "cyclonedx-json=/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/cofano/pdm-flit/source-syft.cdx.json"
+  ],
+  "exit_code": 0,
+  "seconds": 1.4859486519999336
+}

@@ -1,0 +1,6 @@
+Building wheel...
+ - Adding .pdm-build/pipenv_pdm-0.0.1.dist-info/METADATA -> pipenv_pdm-0.0.1.dist-info/METADATA
+ - Adding .pdm-build/pipenv_pdm-0.0.1.dist-info/WHEEL -> pipenv_pdm-0.0.1.dist-info/WHEEL
+ - Adding .pdm-build/pipenv_pdm-0.0.1.dist-info/entry_points.txt -> pipenv_pdm-0.0.1.dist-info/entry_points.txt
+ - Adding pipenv_pdm-0.0.1.dist-info/RECORD -> pipenv_pdm-0.0.1.dist-info/RECORD
+Successfully built /out/wheels/pipenv_pdm-0.0.1-py3-none-any.whl

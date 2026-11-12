@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/node/node_modules/.bin/cyclonedx-npm",
+    "--output-format",
+    "JSON",
+    "--spec-version",
+    "1.6",
+    "--output-reproducible",
+    "--output-file",
+    "/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/npm-alias/cyclonedx-npm-production.cdx.json",
+    "--omit=dev",
+    "--omit=optional"
+  ],
+  "cwd": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/npm-alias",
+  "started_at": "2026-11-11T15:27:48.882728+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 0.532109751002281
+}

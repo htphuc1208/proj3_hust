@@ -1,0 +1,48 @@
+{
+  "results": {
+    "pinned": {
+      "command": [
+        "/home/phucht/project/sbom_recovery/research/.work/syft",
+        "scan",
+        "dir:/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/mechanism-controls/fixtures/pinned",
+        "-o",
+        "cyclonedx-json=/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/mechanism-controls/pinned-syft.cdx.json"
+      ],
+      "edges": [
+        [
+          "hatch-hatchling",
+          "black"
+        ],
+        [
+          "hatch-hatchling",
+          "docopt"
+        ]
+      ],
+      "exit_code": 0,
+      "nodes": [
+        "black",
+        "docopt",
+        "hatch-hatchling"
+      ],
+      "seconds": 7.178675019000366
+    },
+    "url": {
+      "command": [
+        "/home/phucht/project/sbom_recovery/research/.work/syft",
+        "scan",
+        "dir:/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/mechanism-controls/fixtures/url",
+        "-o",
+        "cyclonedx-json=/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/mechanism-controls/url-syft.cdx.json"
+      ],
+      "edges": [],
+      "exit_code": 0,
+      "nodes": [
+        "black",
+        "docopt",
+        "hatch-hatchling"
+      ],
+      "seconds": 12.034256121998624
+    }
+  },
+  "scope": "Derived metadata-only mechanism control; not an independent project or installed-code test"
+}

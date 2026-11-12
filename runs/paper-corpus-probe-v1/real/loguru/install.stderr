@@ -1,0 +1,5 @@
+Using Python 3.11.16 environment at: /out/target
+Resolved 1 package in 2ms
+Prepared 1 package in 8ms
+Installed 1 package in 5ms
+ + loguru==0.7.3 (from file:///out/wheels/loguru-0.7.3-py3-none-any.whl)

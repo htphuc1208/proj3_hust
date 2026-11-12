@@ -1,0 +1,64 @@
+{
+  "consumer": null,
+  "documents": [
+    {
+      "claimed_artifact_sha256": null,
+      "context_id": "ctx-linux",
+      "document": {
+        "path": "inputs/tool-a.cdx.json",
+        "sha256": "06cd7e464998001556d2863cd1529afefd7847641db182e000d1111e475ccfe8"
+      },
+      "format": "CycloneDX",
+      "producer": {
+        "configuration_sha256": null,
+        "name": "synthetic-design-tool-a",
+        "version": "0"
+      },
+      "revision_ref": "fixture-v1",
+      "source_id": "tool-a",
+      "target_id": "design-release",
+      "view": "RESOLVED"
+    },
+    {
+      "claimed_artifact_sha256": null,
+      "context_id": "ctx-linux",
+      "document": {
+        "path": "inputs/tool-b.cdx.json",
+        "sha256": "b452d50d649760e6d99c8856e30bca20e0e3aee1b981c358d0aa93f04776374a"
+      },
+      "format": "CycloneDX",
+      "producer": {
+        "configuration_sha256": null,
+        "name": "synthetic-design-tool-b",
+        "version": "0"
+      },
+      "revision_ref": "fixture-v1",
+      "source_id": "tool-b",
+      "target_id": "design-release",
+      "view": "RESOLVED"
+    }
+  ],
+  "evidence": [],
+  "policy_id": "abe-design-v3",
+  "schema_version": "sbom-reconciliation-input-v3",
+  "target": {
+    "artifact": null,
+    "context": {
+      "architecture": "amd64",
+      "build_profile": null,
+      "context_id": "ctx-linux",
+      "entrypoint": null,
+      "features_by_subject": {
+        "application": null
+      },
+      "os": "linux",
+      "runtimes": {
+        "node": "22"
+      }
+    },
+    "project_ref": "design-example",
+    "revision_ref": "fixture-v1",
+    "target_id": "design-release",
+    "view": "RESOLVED"
+  }
+}

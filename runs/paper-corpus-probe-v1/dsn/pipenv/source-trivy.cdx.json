@@ -1,0 +1,42 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:82617186-c7ad-4c21-b03b-bac12bdbc05f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T14:36:03+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "75d29dbc-f942-4d7b-b46e-8d7278149024",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/dsn/pipenv",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "75d29dbc-f942-4d7b-b46e-8d7278149024",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

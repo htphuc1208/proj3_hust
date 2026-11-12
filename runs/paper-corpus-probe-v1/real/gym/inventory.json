@@ -1,0 +1,91 @@
+{
+  "distributions": [
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/cloudpickle-3.1.2.dist-info/METADATA",
+      "name": "cloudpickle",
+      "requirements": [],
+      "version": "3.1.2"
+    },
+    {
+      "direct_url": {
+        "archive_info": {},
+        "url": "file:///out/wheels/gym-0.26.2-py3-none-any.whl"
+      },
+      "metadata_path": "/target/lib/python3.11/site-packages/gym-0.26.2.dist-info/METADATA",
+      "name": "gym",
+      "requirements": [
+        "numpy>=1.18.0",
+        "cloudpickle>=1.2.0",
+        "importlib_metadata>=4.8.0; python_version < \"3.10\"",
+        "gym_notices>=0.0.4",
+        "dataclasses==0.8; python_version == \"3.6\"",
+        "ale-py~=0.8.0; extra == \"atari\"",
+        "autorom[accept-rom-license]~=0.4.2; extra == \"accept-rom-license\"",
+        "box2d-py==2.3.5; extra == \"box2d\"",
+        "pygame==2.1.0; extra == \"box2d\"",
+        "swig==4.*; extra == \"box2d\"",
+        "pygame==2.1.0; extra == \"classic-control\"",
+        "mujoco_py<2.2,>=2.1; extra == \"mujoco-py\"",
+        "mujoco==2.2; extra == \"mujoco\"",
+        "imageio>=2.14.1; extra == \"mujoco\"",
+        "pygame==2.1.0; extra == \"toy-text\"",
+        "lz4>=3.1.0; extra == \"other\"",
+        "opencv-python>=3.0; extra == \"other\"",
+        "matplotlib>=3.0; extra == \"other\"",
+        "moviepy>=1.0.0; extra == \"other\"",
+        "moviepy>=1.0.0; extra == \"testing\"",
+        "lz4>=3.1.0; extra == \"testing\"",
+        "swig==4.*; extra == \"testing\"",
+        "imageio>=2.14.1; extra == \"testing\"",
+        "pygame==2.1.0; extra == \"testing\"",
+        "mujoco_py<2.2,>=2.1; extra == \"testing\"",
+        "opencv-python>=3.0; extra == \"testing\"",
+        "box2d-py==2.3.5; extra == \"testing\"",
+        "mujoco==2.2; extra == \"testing\"",
+        "matplotlib>=3.0; extra == \"testing\"",
+        "pytest==7.0.1; extra == \"testing\"",
+        "ale-py~=0.8.0; extra == \"all\"",
+        "lz4>=3.1.0; extra == \"all\"",
+        "swig==4.*; extra == \"all\"",
+        "imageio>=2.14.1; extra == \"all\"",
+        "mujoco==2.2; extra == \"all\"",
+        "pygame==2.1.0; extra == \"all\"",
+        "mujoco_py<2.2,>=2.1; extra == \"all\"",
+        "pytest==7.0.1; extra == \"all\"",
+        "opencv-python>=3.0; extra == \"all\"",
+        "box2d-py==2.3.5; extra == \"all\"",
+        "moviepy>=1.0.0; extra == \"all\"",
+        "matplotlib>=3.0; extra == \"all\""
+      ],
+      "version": "0.26.2"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/gym_notices-0.1.0.dist-info/METADATA",
+      "name": "gym-notices",
+      "requirements": [],
+      "version": "0.1.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/numpy-2.4.6.dist-info/METADATA",
+      "name": "numpy",
+      "requirements": [],
+      "version": "2.4.6"
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.11.16",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_python_implementation": "CPython",
+    "platform_release": "7.0.0-30-generic",
+    "platform_system": "Linux",
+    "platform_version": "#30~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:27:52 UTC 2",
+    "python_full_version": "3.11.16",
+    "python_version": "3.11",
+    "sys_platform": "linux"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "sbom-alias-build-probe",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "lodash-vulnerable": "npm:lodash@4.17.20",
+    "lodash-fixed": "npm:lodash@4.17.21"
+  },
+  "devDependencies": {
+    "minimist": "1.2.5"
+  },
+  "optionalDependencies": {
+    "fsevents": "2.1.3"
+  }
+}

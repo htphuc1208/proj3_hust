@@ -1,0 +1,473 @@
+{
+  "active_extras": {},
+  "build_reason": null,
+  "build_status": "COMPLETE",
+  "case": "real/keras",
+  "declared_active_edges": 14,
+  "installed": {
+    "environment": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [
+        {
+          "declarations": [
+            "absl-py; extra == \"dev\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "ml-dtypes",
+          "target": "absl-py"
+        },
+        {
+          "declarations": [
+            "numpy; extra == \"numpy\"",
+            "numpy; extra == \"docs\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "optree",
+          "target": "numpy"
+        },
+        {
+          "declarations": [
+            "rich; extra == \"test\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "optree",
+          "target": "rich"
+        }
+      ],
+      "known_extra_edges": [
+        [
+          "ml-dtypes",
+          "absl-py"
+        ],
+        [
+          "optree",
+          "numpy"
+        ],
+        [
+          "optree",
+          "rich"
+        ]
+      ],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 17,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "environment-pyproject": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [
+        {
+          "declarations": [
+            "absl-py; extra == \"dev\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "ml-dtypes",
+          "target": "absl-py"
+        },
+        {
+          "declarations": [
+            "numpy; extra == \"numpy\"",
+            "numpy; extra == \"docs\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "optree",
+          "target": "numpy"
+        },
+        {
+          "declarations": [
+            "rich; extra == \"test\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "optree",
+          "target": "rich"
+        }
+      ],
+      "known_extra_edges": [
+        [
+          "ml-dtypes",
+          "absl-py"
+        ],
+        [
+          "optree",
+          "numpy"
+        ],
+        [
+          "optree",
+          "rich"
+        ]
+      ],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 17,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [
+        "keras"
+      ],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "installed-syft": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [
+        {
+          "declarations": [
+            "absl-py; extra == \"dev\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "ml-dtypes",
+          "target": "absl-py"
+        },
+        {
+          "declarations": [
+            "numpy; extra == \"numpy\"",
+            "numpy; extra == \"docs\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "optree",
+          "target": "numpy"
+        },
+        {
+          "declarations": [
+            "rich; extra == \"test\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "optree",
+          "target": "rich"
+        }
+      ],
+      "known_extra_edges": [
+        [
+          "ml-dtypes",
+          "absl-py"
+        ],
+        [
+          "optree",
+          "numpy"
+        ],
+        [
+          "optree",
+          "rich"
+        ]
+      ],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 17,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "installed-trivy": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [],
+      "known_extra_edges": [],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [
+        "absl-py",
+        "h5py",
+        "markdown-it-py",
+        "mdurl",
+        "ml-dtypes",
+        "namex",
+        "numpy",
+        "optree",
+        "packaging",
+        "pygments",
+        "rich",
+        "typing-extensions"
+      ],
+      "missing_edge_citations": [
+        {
+          "declarations": [
+            "numpy>=1.21.2"
+          ],
+          "source": "h5py",
+          "target": "numpy"
+        },
+        {
+          "declarations": [
+            "absl-py"
+          ],
+          "source": "keras",
+          "target": "absl-py"
+        },
+        {
+          "declarations": [
+            "h5py"
+          ],
+          "source": "keras",
+          "target": "h5py"
+        },
+        {
+          "declarations": [
+            "ml-dtypes"
+          ],
+          "source": "keras",
+          "target": "ml-dtypes"
+        },
+        {
+          "declarations": [
+            "namex"
+          ],
+          "source": "keras",
+          "target": "namex"
+        },
+        {
+          "declarations": [
+            "numpy"
+          ],
+          "source": "keras",
+          "target": "numpy"
+        },
+        {
+          "declarations": [
+            "optree"
+          ],
+          "source": "keras",
+          "target": "optree"
+        },
+        {
+          "declarations": [
+            "packaging"
+          ],
+          "source": "keras",
+          "target": "packaging"
+        },
+        {
+          "declarations": [
+            "rich"
+          ],
+          "source": "keras",
+          "target": "rich"
+        },
+        {
+          "declarations": [
+            "mdurl~=0.1"
+          ],
+          "source": "markdown-it-py",
+          "target": "mdurl"
+        },
+        {
+          "declarations": [
+            "numpy>=2.0.0"
+          ],
+          "source": "ml-dtypes",
+          "target": "numpy"
+        },
+        {
+          "declarations": [
+            "typing-extensions>=4.10.0"
+          ],
+          "source": "optree",
+          "target": "typing-extensions"
+        },
+        {
+          "declarations": [
+            "markdown-it-py>=2.2.0"
+          ],
+          "source": "rich",
+          "target": "markdown-it-py"
+        },
+        {
+          "declarations": [
+            "pygments<3.0.0,>=2.13.0"
+          ],
+          "source": "rich",
+          "target": "pygments"
+        }
+      ],
+      "missing_edges": [
+        [
+          "h5py",
+          "numpy"
+        ],
+        [
+          "keras",
+          "absl-py"
+        ],
+        [
+          "keras",
+          "h5py"
+        ],
+        [
+          "keras",
+          "ml-dtypes"
+        ],
+        [
+          "keras",
+          "namex"
+        ],
+        [
+          "keras",
+          "numpy"
+        ],
+        [
+          "keras",
+          "optree"
+        ],
+        [
+          "keras",
+          "packaging"
+        ],
+        [
+          "keras",
+          "rich"
+        ],
+        [
+          "markdown-it-py",
+          "mdurl"
+        ],
+        [
+          "ml-dtypes",
+          "numpy"
+        ],
+        [
+          "optree",
+          "typing-extensions"
+        ],
+        [
+          "rich",
+          "markdown-it-py"
+        ],
+        [
+          "rich",
+          "pygments"
+        ]
+      ],
+      "projected_edges": 0,
+      "root_missing_edges": [
+        [
+          "keras",
+          "absl-py"
+        ],
+        [
+          "keras",
+          "h5py"
+        ],
+        [
+          "keras",
+          "ml-dtypes"
+        ],
+        [
+          "keras",
+          "namex"
+        ],
+        [
+          "keras",
+          "numpy"
+        ],
+        [
+          "keras",
+          "optree"
+        ],
+        [
+          "keras",
+          "packaging"
+        ],
+        [
+          "keras",
+          "rich"
+        ]
+      ],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    }
+  },
+  "installed_packages": 13,
+  "origin_commit": "a4a9199bc0d2beabf77882f615d2e64dd20bf9f6",
+  "requested_extra_seeds": {},
+  "root_declared_active_edges": [
+    [
+      "keras",
+      "absl-py"
+    ],
+    [
+      "keras",
+      "h5py"
+    ],
+    [
+      "keras",
+      "ml-dtypes"
+    ],
+    [
+      "keras",
+      "namex"
+    ],
+    [
+      "keras",
+      "numpy"
+    ],
+    [
+      "keras",
+      "optree"
+    ],
+    [
+      "keras",
+      "packaging"
+    ],
+    [
+      "keras",
+      "rich"
+    ]
+  ],
+  "root_name": "keras",
+  "source": {
+    "cyclonedx": {
+      "exit_code": null,
+      "status": "NO_NATIVE_SOURCE_MODE"
+    },
+    "syft": {
+      "all_dependency_edges": 0,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [
+        "tensorflow",
+        "tensorflow-tpu"
+      ],
+      "python_package_records": 2,
+      "python_versions": [
+        {
+          "name": "tensorflow",
+          "version": "2.20.0"
+        },
+        {
+          "name": "tensorflow-tpu",
+          "version": "2.19.1"
+        }
+      ],
+      "status": null
+    },
+    "trivy": {
+      "all_dependency_edges": 0,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [],
+      "python_package_records": 0,
+      "python_versions": [],
+      "status": null
+    }
+  },
+  "unresolved_declarations": []
+}

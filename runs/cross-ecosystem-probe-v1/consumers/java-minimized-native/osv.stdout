@@ -1,0 +1,900 @@
+{
+  "results": [
+    {
+      "source": {
+        "path": "/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/java-minimized/cyclonedx-maven.cdx.json",
+        "type": "sbom"
+      },
+      "packages": [
+        {
+          "package": {
+            "name": "org.apache.commons:commons-compress",
+            "version": "1.20",
+            "ecosystem": "Maven",
+            "purl": "pkg:maven/org.apache.commons/commons-compress@1.20?type=jar"
+          },
+          "groups": [
+            {
+              "ids": [
+                "GHSA-4g9r-vxhx-9pgx"
+              ],
+              "aliases": [
+                "CVE-2024-25710",
+                "GHSA-4g9r-vxhx-9pgx"
+              ],
+              "max_severity": "5.9"
+            },
+            {
+              "ids": [
+                "GHSA-7hfm-57qf-j43q"
+              ],
+              "aliases": [
+                "CVE-2021-35515",
+                "GHSA-7hfm-57qf-j43q"
+              ],
+              "max_severity": "7.5"
+            },
+            {
+              "ids": [
+                "GHSA-crv7-7245-f45f"
+              ],
+              "aliases": [
+                "CVE-2021-35516",
+                "GHSA-crv7-7245-f45f"
+              ],
+              "max_severity": "7.5"
+            },
+            {
+              "ids": [
+                "GHSA-mc84-pj99-q6hh"
+              ],
+              "aliases": [
+                "CVE-2021-36090",
+                "GHSA-mc84-pj99-q6hh"
+              ],
+              "max_severity": "7.5"
+            },
+            {
+              "ids": [
+                "GHSA-xqfj-vm6h-2x34"
+              ],
+              "aliases": [
+                "CVE-2021-35517",
+                "GHSA-xqfj-vm6h-2x34"
+              ],
+              "max_severity": "7.5"
+            }
+          ],
+          "vulnerabilities": [
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/02/GHSA-4g9r-vxhx-9pgx/GHSA-4g9r-vxhx-9pgx.json"
+                  },
+                  "package": {
+                    "ecosystem": "Maven",
+                    "name": "org.apache.commons:commons-compress",
+                    "purl": "pkg:maven/org.apache.commons/commons-compress"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "1.3"
+                        },
+                        {
+                          "fixed": "1.26.0"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "1.10",
+                    "1.11",
+                    "1.12",
+                    "1.13",
+                    "1.14",
+                    "1.15",
+                    "1.16",
+                    "1.16.1",
+                    "1.17",
+                    "1.18",
+                    "1.19",
+                    "1.20",
+                    "1.21",
+                    "1.22",
+                    "1.23.0",
+                    "1.24.0",
+                    "1.25.0",
+                    "1.3",
+                    "1.4",
+                    "1.4.1",
+                    "1.5",
+                    "1.6",
+                    "1.7",
+                    "1.8",
+                    "1.8.1",
+                    "1.9"
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2024-25710"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-835"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2024-02-20T23:58:47Z",
+                "nvd_published_at": "2024-02-19T09:15:37Z",
+                "severity": "MODERATE"
+              },
+              "details": "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in Apache Commons Compress. This issue affects Apache Commons Compress: from 1.3 through 1.25.0.\n\nUsers are recommended to upgrade to version 1.26.0 which fixes the issue.",
+              "id": "GHSA-4g9r-vxhx-9pgx",
+              "modified": "2026-09-10T03:50:05.286961308Z",
+              "published": "2024-02-19T09:30:50Z",
+              "references": [
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-25710"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/apache/commons-compress"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread/cz8qkcwphy4cx8gltn932ln51cbtq6kf"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://security.netapp.com/advisory/ntap-20240307-0010"
+                },
+                {
+                  "type": "WEB",
+                  "url": "http://seclists.org/fulldisclosure/2024/Aug/37"
+                },
+                {
+                  "type": "WEB",
+                  "url": "http://www.openwall.com/lists/oss-security/2024/02/19/1"
+                }
+              ],
+              "schema_version": "1.9.0",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "Apache Commons Compress: Denial of service caused by an infinite loop for a corrupted DUMP file"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/08/GHSA-7hfm-57qf-j43q/GHSA-7hfm-57qf-j43q.json"
+                  },
+                  "package": {
+                    "ecosystem": "Maven",
+                    "name": "org.apache.commons:commons-compress",
+                    "purl": "pkg:maven/org.apache.commons/commons-compress"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "1.21"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "1.0",
+                    "1.1",
+                    "1.10",
+                    "1.11",
+                    "1.12",
+                    "1.13",
+                    "1.14",
+                    "1.15",
+                    "1.16",
+                    "1.16.1",
+                    "1.17",
+                    "1.18",
+                    "1.19",
+                    "1.2",
+                    "1.20",
+                    "1.3",
+                    "1.4",
+                    "1.4.1",
+                    "1.5",
+                    "1.6",
+                    "1.7",
+                    "1.8",
+                    "1.8.1",
+                    "1.9"
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2021-35515"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-834",
+                  "CWE-835"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2021-07-14T17:35:41Z",
+                "nvd_published_at": "2021-07-13T08:15:00Z",
+                "severity": "HIGH"
+              },
+              "details": "When reading a specially crafted 7Z archive, the construction of the list of codecs that decompress an entry can result in an infinite loop. This could be used to mount a denial of service attack against services that use Compress' sevenz package.",
+              "id": "GHSA-7hfm-57qf-j43q",
+              "modified": "2024-03-08T05:18:24.619639Z",
+              "published": "2021-08-02T16:55:07Z",
+              "references": [
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-35515"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpuoct2021.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpujul2022.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpujan2022.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpuapr2022.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://security.netapp.com/advisory/ntap-20211022-0001"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rfba19167efc785ad3561e7ef29f340d65ac8f0d897aed00e0731e742@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rf2f4d7940371a7c7c5b679f50e28fc7fcc82cd00670ced87e013ac88@%3Ccommits.druid.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rd4332baaf6debd03d60deb7ec93bee49e5fdbe958cb6800dff7fb00e@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rbe91c512c5385181149ab087b6c909825d34299f5c491c6482a2ed57@%3Ccommits.druid.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rbaea15ddc5a7c0c6b66660f1d6403b28595e2561bb283eade7d7cd69@%3Cannounce.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rba65ed5ddb0586f5b12598f55ec7db3633e7b7fede60466367fbf86a@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rb7adf3e55359819e77230b4586521e5c6874ce5ed93384bdc14d6aee@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rb6e1fa80d34e5ada45f72655d84bfd90db0ca44ef19236a49198c88c@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rb064d705fdfa44b5dae4c366b369ef6597951083196321773b983e71@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/racd0c0381c8404f298b226cd9db2eaae965b14c9c568224aa3f437ae@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rab292091eadd1ecc63c516e9541a7f241091cf2e652b8185a6059945@%3Ccommits.druid.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r9f54c0caa462267e0cc68b49f141e91432b36b23348d18c65bd0d040@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r67ef3c07fe3b8c1b02d48012149d280ad6da8e4cec253b527520fb2b@%3Cdev.poi.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r19ebfd71770ec0617a9ea180e321ef927b3fefb4c81ec5d1902d20ab%40%3Cuser.commons.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://commons.apache.org/proper/commons-compress/security-reports.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "http://www.openwall.com/lists/oss-security/2021/07/13/1"
+                }
+              ],
+              "schema_version": "1.9.0",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "Excessive Iteration in Compress"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/08/GHSA-crv7-7245-f45f/GHSA-crv7-7245-f45f.json"
+                  },
+                  "package": {
+                    "ecosystem": "Maven",
+                    "name": "org.apache.commons:commons-compress",
+                    "purl": "pkg:maven/org.apache.commons/commons-compress"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "1.21"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "1.0",
+                    "1.1",
+                    "1.10",
+                    "1.11",
+                    "1.12",
+                    "1.13",
+                    "1.14",
+                    "1.15",
+                    "1.16",
+                    "1.16.1",
+                    "1.17",
+                    "1.18",
+                    "1.19",
+                    "1.2",
+                    "1.20",
+                    "1.3",
+                    "1.4",
+                    "1.4.1",
+                    "1.5",
+                    "1.6",
+                    "1.7",
+                    "1.8",
+                    "1.8.1",
+                    "1.9"
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2021-35516"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-130",
+                  "CWE-770"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2021-07-14T18:11:52Z",
+                "nvd_published_at": "2021-07-13T08:15:00Z",
+                "severity": "HIGH"
+              },
+              "details": "When reading a specially crafted 7Z archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs. This could be used to mount a denial of service attack against services that use Compress' sevenz package.",
+              "id": "GHSA-crv7-7245-f45f",
+              "modified": "2024-03-08T05:19:35.252507Z",
+              "published": "2021-08-02T16:55:15Z",
+              "references": [
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-35516"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpuoct2021.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpujul2022.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpujan2022.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpuapr2022.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://security.netapp.com/advisory/ntap-20211022-0001"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rfba19167efc785ad3561e7ef29f340d65ac8f0d897aed00e0731e742@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rf68442d67eb166f4b6cf0bbbe6c7f99098c12954f37332073c9822ca%40%3Cuser.commons.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rf5b1016fb15b7118b9a5e16bb0b78cb4f1dfcf7821eb137ab5757c91@%3Cannounce.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rd4332baaf6debd03d60deb7ec93bee49e5fdbe958cb6800dff7fb00e@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rba65ed5ddb0586f5b12598f55ec7db3633e7b7fede60466367fbf86a@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rb7adf3e55359819e77230b4586521e5c6874ce5ed93384bdc14d6aee@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rb6e1fa80d34e5ada45f72655d84bfd90db0ca44ef19236a49198c88c@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rb064d705fdfa44b5dae4c366b369ef6597951083196321773b983e71@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/racd0c0381c8404f298b226cd9db2eaae965b14c9c568224aa3f437ae@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r9f54c0caa462267e0cc68b49f141e91432b36b23348d18c65bd0d040@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r67ef3c07fe3b8c1b02d48012149d280ad6da8e4cec253b527520fb2b@%3Cdev.poi.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://commons.apache.org/proper/commons-compress/security-reports.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "http://www.openwall.com/lists/oss-security/2021/07/13/2"
+                }
+              ],
+              "schema_version": "1.9.0",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "Improper Handling of Length Parameter Inconsistency in Compress"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/08/GHSA-mc84-pj99-q6hh/GHSA-mc84-pj99-q6hh.json"
+                  },
+                  "package": {
+                    "ecosystem": "Maven",
+                    "name": "org.apache.commons:commons-compress",
+                    "purl": "pkg:maven/org.apache.commons/commons-compress"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "1.21"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "1.0",
+                    "1.1",
+                    "1.10",
+                    "1.11",
+                    "1.12",
+                    "1.13",
+                    "1.14",
+                    "1.15",
+                    "1.16",
+                    "1.16.1",
+                    "1.17",
+                    "1.18",
+                    "1.19",
+                    "1.2",
+                    "1.20",
+                    "1.3",
+                    "1.4",
+                    "1.4.1",
+                    "1.5",
+                    "1.6",
+                    "1.7",
+                    "1.8",
+                    "1.8.1",
+                    "1.9"
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2021-36090"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-130"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2021-07-14T19:37:10Z",
+                "nvd_published_at": "2021-07-13T08:15:00Z",
+                "severity": "HIGH"
+              },
+              "details": "When reading a specially crafted ZIP archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs. This could be used to mount a denial of service attack against services that use Compress' zip package.",
+              "id": "GHSA-mc84-pj99-q6hh",
+              "modified": "2024-03-08T05:19:48.954731Z",
+              "published": "2021-08-02T16:55:53Z",
+              "references": [
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-36090"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://commons.apache.org/proper/commons-compress/security-reports.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rbbf42642c3e4167788a7c13763d192ee049604d099681f765385d99d@%3Cdev.drill.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rbe91c512c5385181149ab087b6c909825d34299f5c491c6482a2ed57@%3Ccommits.druid.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rc4134026d7d7b053d4f9f2205531122732405012c8804fd850a9b26f%40%3Cuser.commons.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rc7df4c2f0bbe2028a1498a46d322c91184f7a369e3e4c57d9518cacf@%3Cdev.drill.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rd4332baaf6debd03d60deb7ec93bee49e5fdbe958cb6800dff7fb00e@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rdd5412a5b9a25aed2a02c3317052d38a97128314d50bc1ed36e81d38@%3Cuser.ant.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rf2f4d7940371a7c7c5b679f50e28fc7fcc82cd00670ced87e013ac88@%3Ccommits.druid.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rf3f0a09fee197168a813966c5816157f6c600a47313a0d6813148ea6@%3Cissues.drill.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rf93b6bb267580e01deb7f3696f7eaca00a290c66189a658cf7230a1a@%3Cissues.drill.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rfba19167efc785ad3561e7ef29f340d65ac8f0d897aed00e0731e742@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://security.netapp.com/advisory/ntap-20211022-0001"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpuapr2022.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpujan2022.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpujul2022.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpuoct2021.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r0e87177f8e78b4ee453cd4d3d8f4ddec6f10d2c27707dd71e12cafc9@%3Cannounce.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r25f4c44616045085bc3cf901bb7e68e445eee53d1966fc08998fc456@%3Cdev.drill.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r3227b1287e5bd8db6523b862c22676b046ad8f4fc96433225f46a2bd@%3Cissues.drill.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r4f03c5de923e3f2a8c316248681258125140514ef3307bfe1538e1ab@%3Cdev.drill.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r54049b66afbca766b6763c7531e9fe7a20293a112bcb65462a134949@%3Ccommits.drill.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r67ef3c07fe3b8c1b02d48012149d280ad6da8e4cec253b527520fb2b@%3Cdev.poi.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r75ffc7a461e7e7ae77690fa75bd47bb71365c732e0fbcc44da4f8ff5@%3Cdev.tomcat.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r9a23d4dbf4e34d498664080bff59f2893b855eb16dae33e4aa92fa53@%3Cannounce.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r9f54c0caa462267e0cc68b49f141e91432b36b23348d18c65bd0d040@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rab292091eadd1ecc63c516e9541a7f241091cf2e652b8185a6059945@%3Ccommits.druid.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/racd0c0381c8404f298b226cd9db2eaae965b14c9c568224aa3f437ae@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rb064d705fdfa44b5dae4c366b369ef6597951083196321773b983e71@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rb5fa2ee61828fa2e42361b58468717e84902dd71c4aea8dc0b865df7@%3Cnotifications.james.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rb6e1fa80d34e5ada45f72655d84bfd90db0ca44ef19236a49198c88c@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rb7adf3e55359819e77230b4586521e5c6874ce5ed93384bdc14d6aee@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rba65ed5ddb0586f5b12598f55ec7db3633e7b7fede60466367fbf86a@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "http://www.openwall.com/lists/oss-security/2021/07/13/4"
+                },
+                {
+                  "type": "WEB",
+                  "url": "http://www.openwall.com/lists/oss-security/2021/07/13/6"
+                }
+              ],
+              "schema_version": "1.9.0",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "Improper Handling of Length Parameter Inconsistency in Compress"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/08/GHSA-xqfj-vm6h-2x34/GHSA-xqfj-vm6h-2x34.json"
+                  },
+                  "package": {
+                    "ecosystem": "Maven",
+                    "name": "org.apache.commons:commons-compress",
+                    "purl": "pkg:maven/org.apache.commons/commons-compress"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "1.21"
+                        }
+                      ],
+                      "type": "ECOSYSTEM"
+                    }
+                  ],
+                  "versions": [
+                    "1.0",
+                    "1.1",
+                    "1.10",
+                    "1.11",
+                    "1.12",
+                    "1.13",
+                    "1.14",
+                    "1.15",
+                    "1.16",
+                    "1.16.1",
+                    "1.17",
+                    "1.18",
+                    "1.19",
+                    "1.2",
+                    "1.20",
+                    "1.3",
+                    "1.4",
+                    "1.4.1",
+                    "1.5",
+                    "1.6",
+                    "1.7",
+                    "1.8",
+                    "1.8.1",
+                    "1.9"
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2021-35517"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-130",
+                  "CWE-770"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2021-07-14T18:12:57Z",
+                "nvd_published_at": "2021-07-13T08:15:00Z",
+                "severity": "HIGH"
+              },
+              "details": "When reading a specially crafted TAR archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs. This could be used to mount a denial of service attack against services that use Compress' tar package.",
+              "id": "GHSA-xqfj-vm6h-2x34",
+              "modified": "2024-03-08T05:19:25.295269Z",
+              "published": "2021-08-02T16:55:39Z",
+              "references": [
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-35517"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpuoct2021.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpujul2022.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpujan2022.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpuapr2022.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://security.netapp.com/advisory/ntap-20211022-0001"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rfba19167efc785ad3561e7ef29f340d65ac8f0d897aed00e0731e742@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rd4332baaf6debd03d60deb7ec93bee49e5fdbe958cb6800dff7fb00e@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rba65ed5ddb0586f5b12598f55ec7db3633e7b7fede60466367fbf86a@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rb7adf3e55359819e77230b4586521e5c6874ce5ed93384bdc14d6aee@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rb6e1fa80d34e5ada45f72655d84bfd90db0ca44ef19236a49198c88c@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rb064d705fdfa44b5dae4c366b369ef6597951083196321773b983e71@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/racd0c0381c8404f298b226cd9db2eaae965b14c9c568224aa3f437ae@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/ra393ffdc7c90a4a37ea023946f390285693795013a642d80fba20203@%3Cannounce.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r9f54c0caa462267e0cc68b49f141e91432b36b23348d18c65bd0d040@%3Cnotifications.skywalking.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r67ef3c07fe3b8c1b02d48012149d280ad6da8e4cec253b527520fb2b@%3Cdev.poi.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r605d906b710b95f1bbe0036a53ac6968f667f2c249b6fbabada9a940%40%3Cuser.commons.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r54afdab05e01de970649c2d91a993f68a6b00cd73e6e34e16c832d46@%3Cuser.ant.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r457b2ed564860996b20d938566fe8bd4bfb7c37be8e205448ccb5975@%3Cannounce.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r31f75743ac173b0a606f8ea6ea53f351f386c44e7bcf78ae04007c29@%3Cissues.flink.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://commons.apache.org/proper/commons-compress/security-reports.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "http://www.openwall.com/lists/oss-security/2021/07/13/3"
+                },
+                {
+                  "type": "WEB",
+                  "url": "http://www.openwall.com/lists/oss-security/2021/07/13/5"
+                }
+              ],
+              "schema_version": "1.9.0",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "Improper Handling of Length Parameter Inconsistency in Compress"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "experimental_config": {
+    "licenses": {
+      "summary": false,
+      "allowlist": null
+    }
+  }
+}

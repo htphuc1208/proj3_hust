@@ -1,0 +1,17 @@
+{
+  "case": "rust-auditable-syft",
+  "sbom": "scans/rust-auditable/syft.cdx.json",
+  "sbom_sha256": "bd6668d48f51c13304ca0becbf652af9f16e36fe8a250d871d48aa568097d480",
+  "exit_code": 1,
+  "packages": {
+    "crates.io:aho-corasick@0.7.20": [],
+    "crates.io:memchr@2.8.3": [],
+    "crates.io:regex@1.5.4": [
+      "GHSA-m5pq-gvj9-9vr8",
+      "RUSTSEC-2022-0013"
+    ],
+    "crates.io:regex-syntax@0.6.29": [],
+    "crates.io:sbom-build-probe@1.0.0": []
+  },
+  "has_parseable_json": true
+}

@@ -1,0 +1,5 @@
+{
+  "identical_package_advisory_sets": true,
+  "scanner": "OSV-Scanner 2.7.1, --no-resolve, package matching only",
+  "note": "One consumer/configuration; not evidence that dependency graphs never matter"
+}

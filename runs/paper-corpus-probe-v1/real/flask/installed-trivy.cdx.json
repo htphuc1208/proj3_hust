@@ -1,0 +1,289 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:c0feb32a-9247-449d-9ba3-81cabe76a258",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T14:43:11+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "9c1905ae-7b3d-43aa-9bc5-bc287c02cfc7",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/real/flask/target",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/blinker@1.9.0",
+      "type": "library",
+      "name": "blinker",
+      "version": "1.9.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ad4a8785c95184e661411968cb86ba3353ab46c7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/blinker@1.9.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/blinker-1.9.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/click@8.5.1",
+      "type": "library",
+      "name": "click",
+      "version": "8.5.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a6caa17b43059d98b1d43f1b743b8861515d83b5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/click@8.5.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/click-8.5.1.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/flask@3.2.0.dev0",
+      "type": "library",
+      "name": "Flask",
+      "version": "3.2.0.dev0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "421886f0a9710d05b4225a9e5e032f24cc5a2f9c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/flask@3.2.0.dev0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/flask-3.2.0.dev0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/itsdangerous@2.2.0",
+      "type": "library",
+      "name": "itsdangerous",
+      "version": "2.2.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "2721517496b1b39ca959c37af2bd94a16d2d968e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/itsdangerous@2.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/itsdangerous-2.2.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/jinja2@3.1.6",
+      "type": "library",
+      "name": "Jinja2",
+      "version": "3.1.6",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "01c4dcfd579104dd8f5b937e1511e9371b4367d3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/jinja2@3.1.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/jinja2-3.1.6.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/markupsafe@3.0.4",
+      "type": "library",
+      "name": "MarkupSafe",
+      "version": "3.0.4",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5a28e1a8ee95fe09a38e05f89a1cea95c93427c7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/markupsafe@3.0.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/markupsafe-3.0.4.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/werkzeug@3.1.9",
+      "type": "library",
+      "name": "Werkzeug",
+      "version": "3.1.9",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4ad653dc943243c76a9d8c0bdc31e216ed8e4162"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/werkzeug@3.1.9",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/werkzeug-3.1.9.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "9c1905ae-7b3d-43aa-9bc5-bc287c02cfc7",
+      "dependsOn": [
+        "pkg:pypi/blinker@1.9.0",
+        "pkg:pypi/click@8.5.1",
+        "pkg:pypi/flask@3.2.0.dev0",
+        "pkg:pypi/itsdangerous@2.2.0",
+        "pkg:pypi/jinja2@3.1.6",
+        "pkg:pypi/markupsafe@3.0.4",
+        "pkg:pypi/werkzeug@3.1.9"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/blinker@1.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/click@8.5.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/flask@3.2.0.dev0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/itsdangerous@2.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/jinja2@3.1.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/markupsafe@3.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/werkzeug@3.1.9",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

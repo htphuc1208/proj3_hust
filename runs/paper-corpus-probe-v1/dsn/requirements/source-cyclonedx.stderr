@@ -1,0 +1,5 @@
+WARNING  | CDX.RequirementsBB > component has no pinned version: <Component bom-ref=<BomRef 'requirements-L1' id=138812707312720>, group=None, name=s3transfer, version=None, type=ComponentType.LIBRARY>
+WARNING  | CDX.RequirementsBB > component has no pinned version: <Component bom-ref=<BomRef 'requirements-L7' id=138812707331216>, group=None, name=beautifulsoup4, version=None, type=ComponentType.LIBRARY>
+WARNING  | CDX.RequirementsBB > component has no pinned version: <Component bom-ref=<BomRef 'requirements-L9' id=138812707382224>, group=None, name=requests, version=None, type=ComponentType.LIBRARY>
+WARNING  | CDX.RequirementsBB > component has no pinned version: <Component bom-ref=<BomRef 'requirements-L10' id=138812707391440>, group=None, name=httpx, version=None, type=ComponentType.LIBRARY>
+WARNING  | CDX.RequirementsBB > component has no pinned version: <Component bom-ref=<BomRef 'requirements-L21' id=138812707460496>, group=None, name=redis, version=None, type=ComponentType.LIBRARY>

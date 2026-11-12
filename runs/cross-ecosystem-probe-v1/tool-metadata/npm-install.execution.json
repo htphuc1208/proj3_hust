@@ -1,0 +1,14 @@
+{
+  "command": [
+    "npm",
+    "install",
+    "--prefix",
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/node",
+    "--no-audit",
+    "--no-fund",
+    "@cyclonedx/cdxgen@12.9.1",
+    "@cyclonedx/cyclonedx-npm@7.0.0",
+    "esbuild@0.28.2"
+  ],
+  "exit_code": 0
+}

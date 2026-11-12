@@ -1,0 +1,45 @@
+[
+  {
+    "step": "venv",
+    "command": [
+      "/tools/uv",
+      "venv",
+      "--python",
+      "/usr/local/bin/python",
+      "/out/target"
+    ],
+    "exit_code": 0,
+    "seconds": 0.018584221998025896
+  },
+  {
+    "step": "wheel",
+    "command": [
+      "/tools/uv",
+      "build",
+      "--wheel",
+      "--python",
+      "/usr/local/bin/python",
+      "--out-dir",
+      "/out/wheels",
+      "/tmp/paper-source"
+    ],
+    "exit_code": 0,
+    "seconds": 0.6851976979996834
+  },
+  {
+    "step": "resolve",
+    "command": [
+      "/tools/uv",
+      "pip",
+      "compile",
+      "/out/install.in",
+      "--python-version",
+      "3.11",
+      "--no-annotate",
+      "--output-file",
+      "/out/resolved.txt"
+    ],
+    "exit_code": 1,
+    "seconds": 0.3934401509977761
+  }
+]

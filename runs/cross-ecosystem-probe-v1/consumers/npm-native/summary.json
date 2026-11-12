@@ -1,0 +1,19 @@
+{
+  "case": "npm-native",
+  "sbom": "npm-alias/cyclonedx-npm-production.cdx.json",
+  "sbom_sha256": "179c398aa176c115bf3215899383e4effd70862a61fa8cde760790be7e2a76cb",
+  "exit_code": 1,
+  "packages": {
+    "npm:lodash@4.17.20": [
+      "GHSA-29mw-wpgm-hmr9",
+      "GHSA-35jh-r3h4-6jhm",
+      "GHSA-r5fr-rjxr-66jc",
+      "GHSA-xxjr-mmjv-4gpg"
+    ],
+    "npm:lodash@4.17.21": [
+      "GHSA-r5fr-rjxr-66jc",
+      "GHSA-xxjr-mmjv-4gpg"
+    ]
+  },
+  "has_parseable_json": true
+}

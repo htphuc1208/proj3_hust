@@ -1,0 +1,42 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:21102025-ef73-4a2b-8ba9-4e59a87ace84",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T14:36:38+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "880d5271-faf1-4c76-9eee-5b3967fed39e",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/real/python-fire",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "880d5271-faf1-4c76-9eee-5b3967fed39e",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

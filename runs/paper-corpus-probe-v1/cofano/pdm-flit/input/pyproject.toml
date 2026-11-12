@@ -1,0 +1,27 @@
+[project]
+name = "pdm-flit"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "name", email = "name@mail.com"},
+]
+dependencies = ["numpy>=2.1.3", "black @ git+https://github.com/psf/black.git@21.10b0", "docopt @ https://files.pythonhosted.org/packages/a2/55/8f8cab2afd404cf578136ef2cc5dfb50baa1761b68c9da1fb1e4eed343c9/docopt-0.6.2.tar.gz", "seaborn==0.12.2", "matplotlib>=3.9.3", "urllib3>=2.2.3"]
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[project.optional-dependencies]
+opt = [
+    "nltk>=3.9.1",
+]
+[build-system]
+requires = ["flit_core>=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+
+[tool.pdm]
+distribution = true
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+]

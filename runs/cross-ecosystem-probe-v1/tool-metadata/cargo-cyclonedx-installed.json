@@ -1,0 +1,8 @@
+{
+  "tool": "cargo-cyclonedx",
+  "tag": "cargo-cyclonedx-0.5.10",
+  "url": "https://github.com/CycloneDX/cyclonedx-rust-cargo/releases/download/cargo-cyclonedx-0.5.10/cargo-cyclonedx-x86_64-unknown-linux-gnu.tar.xz",
+  "archive_sha256": "2e4ef64a53c0a38d4b7d805c593b5f47ecd29821e98d81e484d03abaa0edb95f",
+  "checksum_url": "https://github.com/CycloneDX/cyclonedx-rust-cargo/releases/download/cargo-cyclonedx-0.5.10/sha256.sum",
+  "binary_sha256": "5f428d2accd14bda6ae8d95efccda5d921a3562c526c170c3715e2251b560e57"
+}

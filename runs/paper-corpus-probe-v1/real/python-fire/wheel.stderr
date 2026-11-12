@@ -1,0 +1,215 @@
+Building wheel...
+/cache/builds-v0/.tmpA3OZX4/lib/python3.11/site-packages/setuptools/config/_apply_pyprojecttoml.py:82: SetuptoolsDeprecationWarning: `project.license` as a TOML table is deprecated
+!!
+
+        ********************************************************************************
+        Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+
+        By 2027-Feb-18, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  corresp(dist, value, root_dir)
+running egg_info
+creating fire.egg-info
+writing fire.egg-info/PKG-INFO
+writing dependency_links to fire.egg-info/dependency_links.txt
+writing requirements to fire.egg-info/requires.txt
+writing top-level names to fire.egg-info/top_level.txt
+writing manifest file 'fire.egg-info/SOURCES.txt'
+reading manifest file 'fire.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'fire.egg-info/SOURCES.txt'
+/cache/builds-v0/.tmpA3OZX4/lib/python3.11/site-packages/setuptools/config/_apply_pyprojecttoml.py:82: SetuptoolsDeprecationWarning: `project.license` as a TOML table is deprecated
+!!
+
+        ********************************************************************************
+        Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+
+        By 2027-Feb-18, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  corresp(dist, value, root_dir)
+running bdist_wheel
+running build
+running build_py
+creating build/lib/fire
+copying fire/custom_descriptions_test.py -> build/lib/fire
+copying fire/__init__.py -> build/lib/fire
+copying fire/__main__.py -> build/lib/fire
+copying fire/helptext.py -> build/lib/fire
+copying fire/interact_test.py -> build/lib/fire
+copying fire/parser.py -> build/lib/fire
+copying fire/core.py -> build/lib/fire
+copying fire/test_components_test.py -> build/lib/fire
+copying fire/inspectutils.py -> build/lib/fire
+copying fire/formatting_test.py -> build/lib/fire
+copying fire/docstrings_test.py -> build/lib/fire
+copying fire/trace_test.py -> build/lib/fire
+copying fire/completion_test.py -> build/lib/fire
+copying fire/test_components_bin.py -> build/lib/fire
+copying fire/completion.py -> build/lib/fire
+copying fire/interact.py -> build/lib/fire
+copying fire/docstrings.py -> build/lib/fire
+copying fire/decorators_test.py -> build/lib/fire
+copying fire/trace.py -> build/lib/fire
+copying fire/testutils_test.py -> build/lib/fire
+copying fire/fire_import_test.py -> build/lib/fire
+copying fire/value_types.py -> build/lib/fire
+copying fire/test_components.py -> build/lib/fire
+copying fire/fire_test.py -> build/lib/fire
+copying fire/formatting.py -> build/lib/fire
+copying fire/custom_descriptions.py -> build/lib/fire
+copying fire/test_components_py3.py -> build/lib/fire
+copying fire/core_test.py -> build/lib/fire
+copying fire/inspectutils_test.py -> build/lib/fire
+copying fire/formatting_windows.py -> build/lib/fire
+copying fire/docstrings_fuzz_test.py -> build/lib/fire
+copying fire/main_test.py -> build/lib/fire
+copying fire/decorators.py -> build/lib/fire
+copying fire/parser_test.py -> build/lib/fire
+copying fire/parser_fuzz_test.py -> build/lib/fire
+copying fire/helptext_test.py -> build/lib/fire
+copying fire/testutils.py -> build/lib/fire
+creating build/lib/fire/console
+copying fire/console/__init__.py -> build/lib/fire/console
+copying fire/console/console_io.py -> build/lib/fire/console
+copying fire/console/console_pager.py -> build/lib/fire/console
+copying fire/console/text.py -> build/lib/fire/console
+copying fire/console/encoding.py -> build/lib/fire/console
+copying fire/console/files.py -> build/lib/fire/console
+copying fire/console/console_attr.py -> build/lib/fire/console
+copying fire/console/console_attr_os.py -> build/lib/fire/console
+copying fire/console/platforms.py -> build/lib/fire/console
+running egg_info
+writing fire.egg-info/PKG-INFO
+writing dependency_links to fire.egg-info/dependency_links.txt
+writing requirements to fire.egg-info/requires.txt
+writing top-level names to fire.egg-info/top_level.txt
+reading manifest file 'fire.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'fire.egg-info/SOURCES.txt'
+copying fire/console/README.md -> build/lib/fire/console
+warning: build_py: byte-compiling is disabled, skipping.
+
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/fire
+copying build/lib/fire/custom_descriptions_test.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/__init__.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/__main__.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/helptext.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/interact_test.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/parser.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/core.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/test_components_test.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/inspectutils.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/formatting_test.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/docstrings_test.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/trace_test.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/completion_test.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/test_components_bin.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/completion.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/interact.py -> build/bdist.linux-x86_64/wheel/./fire
+creating build/bdist.linux-x86_64/wheel/fire/console
+copying build/lib/fire/console/__init__.py -> build/bdist.linux-x86_64/wheel/./fire/console
+copying build/lib/fire/console/console_io.py -> build/bdist.linux-x86_64/wheel/./fire/console
+copying build/lib/fire/console/console_pager.py -> build/bdist.linux-x86_64/wheel/./fire/console
+copying build/lib/fire/console/text.py -> build/bdist.linux-x86_64/wheel/./fire/console
+copying build/lib/fire/console/encoding.py -> build/bdist.linux-x86_64/wheel/./fire/console
+copying build/lib/fire/console/README.md -> build/bdist.linux-x86_64/wheel/./fire/console
+copying build/lib/fire/console/files.py -> build/bdist.linux-x86_64/wheel/./fire/console
+copying build/lib/fire/console/console_attr.py -> build/bdist.linux-x86_64/wheel/./fire/console
+copying build/lib/fire/console/console_attr_os.py -> build/bdist.linux-x86_64/wheel/./fire/console
+copying build/lib/fire/console/platforms.py -> build/bdist.linux-x86_64/wheel/./fire/console
+copying build/lib/fire/docstrings.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/decorators_test.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/trace.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/testutils_test.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/fire_import_test.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/value_types.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/test_components.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/fire_test.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/formatting.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/custom_descriptions.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/test_components_py3.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/core_test.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/inspectutils_test.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/formatting_windows.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/docstrings_fuzz_test.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/main_test.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/decorators.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/parser_test.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/parser_fuzz_test.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/helptext_test.py -> build/bdist.linux-x86_64/wheel/./fire
+copying build/lib/fire/testutils.py -> build/bdist.linux-x86_64/wheel/./fire
+warning: install_lib: byte-compiling is disabled, skipping.
+
+running install_egg_info
+Copying fire.egg-info to build/bdist.linux-x86_64/wheel/./fire-0.7.1-py3.11.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/fire-0.7.1.dist-info/WHEEL
+creating '/out/wheels/.tmp-ia4655hg/fire-0.7.1-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'fire/__init__.py'
+adding 'fire/__main__.py'
+adding 'fire/completion.py'
+adding 'fire/completion_test.py'
+adding 'fire/core.py'
+adding 'fire/core_test.py'
+adding 'fire/custom_descriptions.py'
+adding 'fire/custom_descriptions_test.py'
+adding 'fire/decorators.py'
+adding 'fire/decorators_test.py'
+adding 'fire/docstrings.py'
+adding 'fire/docstrings_fuzz_test.py'
+adding 'fire/docstrings_test.py'
+adding 'fire/fire_import_test.py'
+adding 'fire/fire_test.py'
+adding 'fire/formatting.py'
+adding 'fire/formatting_test.py'
+adding 'fire/formatting_windows.py'
+adding 'fire/helptext.py'
+adding 'fire/helptext_test.py'
+adding 'fire/inspectutils.py'
+adding 'fire/inspectutils_test.py'
+adding 'fire/interact.py'
+adding 'fire/interact_test.py'
+adding 'fire/main_test.py'
+adding 'fire/parser.py'
+adding 'fire/parser_fuzz_test.py'
+adding 'fire/parser_test.py'
+adding 'fire/test_components.py'
+adding 'fire/test_components_bin.py'
+adding 'fire/test_components_py3.py'
+adding 'fire/test_components_test.py'
+adding 'fire/testutils.py'
+adding 'fire/testutils_test.py'
+adding 'fire/trace.py'
+adding 'fire/trace_test.py'
+adding 'fire/value_types.py'
+adding 'fire/console/README.md'
+adding 'fire/console/__init__.py'
+adding 'fire/console/console_attr.py'
+adding 'fire/console/console_attr_os.py'
+adding 'fire/console/console_io.py'
+adding 'fire/console/console_pager.py'
+adding 'fire/console/encoding.py'
+adding 'fire/console/files.py'
+adding 'fire/console/platforms.py'
+adding 'fire/console/text.py'
+adding 'fire-0.7.1.dist-info/licenses/LICENSE'
+adding 'fire-0.7.1.dist-info/METADATA'
+adding 'fire-0.7.1.dist-info/WHEEL'
+adding 'fire-0.7.1.dist-info/top_level.txt'
+adding 'fire-0.7.1.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Successfully built /out/wheels/fire-0.7.1-py3-none-any.whl

@@ -1,0 +1,8 @@
+{
+  "tool": "syft",
+  "tag": "v1.57.1",
+  "url": "https://github.com/anchore/syft/releases/download/v1.57.1/syft_1.57.1_linux_amd64.tar.gz",
+  "archive_sha256": "bf52519eb57f675d47c07d43213cb6dff6449f3d6d1147ff6701ed91f44eef0c",
+  "checksum_url": "https://github.com/anchore/syft/releases/download/v1.57.1/syft_1.57.1_checksums.txt",
+  "binary_sha256": "de3982edbbc250c4a40764c7b1f30bbf54b681f9b99391ee6b85bfdfa5d4dffe"
+}

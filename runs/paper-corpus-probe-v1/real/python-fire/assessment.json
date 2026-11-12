@@ -1,0 +1,132 @@
+{
+  "active_extras": {},
+  "build_reason": null,
+  "build_status": "COMPLETE",
+  "case": "real/python-fire",
+  "declared_active_edges": 1,
+  "installed": {
+    "environment": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [],
+      "known_extra_edges": [],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 1,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "environment-pyproject": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [],
+      "known_extra_edges": [],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 1,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "installed-syft": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [],
+      "known_extra_edges": [],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 1,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "installed-trivy": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [],
+      "known_extra_edges": [],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [
+        "termcolor"
+      ],
+      "missing_edge_citations": [
+        {
+          "declarations": [
+            "termcolor"
+          ],
+          "source": "fire",
+          "target": "termcolor"
+        }
+      ],
+      "missing_edges": [
+        [
+          "fire",
+          "termcolor"
+        ]
+      ],
+      "projected_edges": 0,
+      "root_missing_edges": [
+        [
+          "fire",
+          "termcolor"
+        ]
+      ],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    }
+  },
+  "installed_packages": 2,
+  "origin_commit": "716bbc23d7eca949fdb682172283c8d18f742cb6",
+  "requested_extra_seeds": {},
+  "root_declared_active_edges": [
+    [
+      "fire",
+      "termcolor"
+    ]
+  ],
+  "root_name": "fire",
+  "source": {
+    "cyclonedx": {
+      "exit_code": null,
+      "status": "NO_NATIVE_SOURCE_MODE"
+    },
+    "syft": {
+      "all_dependency_edges": 0,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [],
+      "python_package_records": 0,
+      "python_versions": [],
+      "status": null
+    },
+    "trivy": {
+      "all_dependency_edges": 0,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [],
+      "python_package_records": 0,
+      "python_versions": [],
+      "status": null
+    }
+  },
+  "unresolved_declarations": []
+}

@@ -1,0 +1,773 @@
+{
+  "results": [
+    {
+      "source": {
+        "path": "/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/scans/rust-no-alias/trivy.cdx.json",
+        "type": "sbom"
+      },
+      "packages": [
+        {
+          "package": {
+            "name": "aho-corasick",
+            "version": "0.7.20",
+            "ecosystem": "crates.io",
+            "purl": "pkg:cargo/aho-corasick@0.7.20"
+          }
+        },
+        {
+          "package": {
+            "name": "libc",
+            "version": "0.2.191",
+            "ecosystem": "crates.io",
+            "purl": "pkg:cargo/libc@0.2.191"
+          }
+        },
+        {
+          "package": {
+            "name": "memchr",
+            "version": "2.8.3",
+            "ecosystem": "crates.io",
+            "purl": "pkg:cargo/memchr@2.8.3"
+          }
+        },
+        {
+          "package": {
+            "name": "regex",
+            "version": "1.5.4",
+            "ecosystem": "crates.io",
+            "purl": "pkg:cargo/regex@1.5.4"
+          },
+          "groups": [
+            {
+              "ids": [
+                "RUSTSEC-2022-0013",
+                "GHSA-m5pq-gvj9-9vr8"
+              ],
+              "aliases": [
+                "CVE-2022-24713",
+                "GHSA-m5pq-gvj9-9vr8",
+                "RUSTSEC-2022-0013"
+              ],
+              "max_severity": "7.5"
+            }
+          ],
+          "vulnerabilities": [
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "categories": [
+                      "denial-of-service"
+                    ],
+                    "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                    "informational": null,
+                    "source": "https://github.com/rustsec/advisory-db/blob/osv/crates/RUSTSEC-2022-0013.json"
+                  },
+                  "ecosystem_specific": {
+                    "affected_functions": null,
+                    "affects": {
+                      "arch": [],
+                      "functions": [],
+                      "os": []
+                    }
+                  },
+                  "package": {
+                    "ecosystem": "crates.io",
+                    "name": "regex",
+                    "purl": "pkg:cargo/regex"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0.0.0-0"
+                        },
+                        {
+                          "fixed": "1.5.5"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2022-24713",
+                "GHSA-m5pq-gvj9-9vr8"
+              ],
+              "database_specific": {
+                "license": "CC0-1.0"
+              },
+              "details": "The Rust Security Response WG was notified that the `regex` crate did not\nproperly limit the complexity of the regular expressions (regex) it parses. An\nattacker could use this security issue to perform a denial of service, by\nsending a specially crafted regex to a service accepting untrusted regexes. No\nknown vulnerability is present when parsing untrusted input with trusted\nregexes.\n\nThis issue has been assigned CVE-2022-24713. The severity of this vulnerability\nis \"high\" when the `regex` crate is used to parse untrusted regexes. Other uses\nof the `regex` crate are not affected by this vulnerability.\n\n## Overview\n\nThe `regex` crate features built-in mitigations to prevent denial of service\nattacks caused by untrusted regexes, or untrusted input matched by trusted\nregexes. Those (tunable) mitigations already provide sane defaults to prevent\nattacks. This guarantee is documented and it's considered part of the crate's\nAPI.\n\nUnfortunately a bug was discovered in the mitigations designed to prevent\nuntrusted regexes to take an arbitrary amount of time during parsing, and it's\npossible to craft regexes that bypass such mitigations. This makes it possible\nto perform denial of service attacks by sending specially crafted regexes to\nservices accepting user-controlled, untrusted regexes.\n\n## Affected versions\n\nAll versions of the `regex` crate before or equal to 1.5.4 are affected by this\nissue. The fix is include starting from  `regex` 1.5.5.\n\n## Mitigations\n\nWe recommend everyone accepting user-controlled regexes to upgrade immediately\nto the latest version of the `regex` crate.\n\nUnfortunately there is no fixed set of problematic regexes, as there are\npractically infinite regexes that could be crafted to exploit this\nvulnerability. Because of this, we do not recommend denying known problematic\nregexes.\n\n## Acknowledgements\n\nWe want to thank Addison Crump for responsibly disclosing this to us according\nto the [Rust security policy][1], and for helping review the fix.\n\nWe also want to thank Andrew Gallant for developing the fix, and Pietro Albini\nfor coordinating the disclosure and writing this advisory.\n\n[1]: https://www.rust-lang.org/policies/security",
+              "id": "RUSTSEC-2022-0013",
+              "modified": "2023-11-08T04:08:33.272453Z",
+              "published": "2022-03-08T12:00:00Z",
+              "references": [
+                {
+                  "type": "PACKAGE",
+                  "url": "https://crates.io/crates/regex"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://rustsec.org/advisories/RUSTSEC-2022-0013.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://groups.google.com/g/rustlang-security-announcements/c/NcNNL1Jq7Yw"
+                }
+              ],
+              "schema_version": "1.7.3",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "Regexes with large repetitions on empty sub-expressions take a very long time to parse"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/03/GHSA-m5pq-gvj9-9vr8/GHSA-m5pq-gvj9-9vr8.json"
+                  },
+                  "package": {
+                    "ecosystem": "crates.io",
+                    "name": "regex",
+                    "purl": "pkg:cargo/regex"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "1.5.5"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2022-24713",
+                "RUSTSEC-2022-0013"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-1333",
+                  "CWE-400"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2022-03-08T20:00:36Z",
+                "nvd_published_at": "2022-03-08T19:15:00Z",
+                "severity": "HIGH"
+              },
+              "details": "\u003e This is a cross-post of [the official security advisory][advisory]. The official advisory contains a signed version with our PGP key, as well.\n\n[advisory]: https://groups.google.com/g/rustlang-security-announcements/c/NcNNL1Jq7Yw\n\nThe Rust Security Response WG was notified that the `regex` crate did not properly limit the complexity of the regular expressions (regex) it parses. An attacker could use this security issue to perform a denial of service, by sending a specially crafted regex to a service accepting untrusted regexes. No known vulnerability is present when parsing untrusted input with trusted regexes.\n\nThis issue has been assigned CVE-2022-24713. The severity of this vulnerability is \"high\" when the `regex` crate is used to parse untrusted regexes. Other uses of the `regex` crate are not affected by this vulnerability.\n\n## Overview\n\nThe `regex` crate features built-in mitigations to prevent denial of service attacks caused by untrusted regexes, or untrusted input matched by trusted regexes. Those (tunable) mitigations already provide sane defaults to prevent attacks. This guarantee is documented and it's considered part of the crate's API.\n\nUnfortunately a bug was discovered in the mitigations designed to prevent untrusted regexes to take an arbitrary amount of time during parsing, and it's possible to craft regexes that bypass such mitigations. This makes it possible to perform denial of service attacks by sending specially crafted regexes to services accepting user-controlled, untrusted regexes.\n\n## Affected versions\n\nAll versions of the `regex` crate before or equal to 1.5.4 are affected by this issue. The fix is include starting from  `regex` 1.5.5.\n\n## Mitigations\n\nWe recommend everyone accepting user-controlled regexes to upgrade immediately to the latest version of the `regex` crate.\n\nUnfortunately there is no fixed set of problematic regexes, as there are practically infinite regexes that could be crafted to exploit this vulnerability. Because of this, we do not recommend denying known problematic regexes.\n\n## Acknowledgements\n\nWe want to thank Addison Crump for responsibly disclosing this to us according to the [Rust security policy](https://www.rust-lang.org/policies/security), and for helping review the fix.\n\nWe also want to thank Andrew Gallant for developing the fix, and Pietro Albini for coordinating the disclosure and writing this advisory.",
+              "id": "GHSA-m5pq-gvj9-9vr8",
+              "modified": "2023-11-08T04:08:33.272453Z",
+              "published": "2022-03-08T20:00:36Z",
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/rust-lang/regex/security/advisories/GHSA-m5pq-gvj9-9vr8"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-24713"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/rust-lang/regex/commit/ae70b41d4f46641dbc45c7a4f87954aea356283e"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/rust-lang/regex"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://groups.google.com/g/rustlang-security-announcements/c/NcNNL1Jq7Yw"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.debian.org/debian-lts-announce/2022/04/msg00003.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.debian.org/debian-lts-announce/2022/04/msg00009.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JANLZ3JXWJR7FSHE57K66UIZUIJZI67T"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/O3YB7CURSG64CIPCDPNMGPE4UU24AB6H"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PDOWTHNVGBOP2HN27PUFIGRYNSNDTYRJ"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://rustsec.org/advisories/RUSTSEC-2022-0013.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://security.gentoo.org/glsa/202208-08"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://security.gentoo.org/glsa/202208-14"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.debian.org/security/2022/dsa-5113"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.debian.org/security/2022/dsa-5118"
+                }
+              ],
+              "schema_version": "1.9.0",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "Rust's regex crate vulnerable to regular expression denial of service"
+            }
+          ]
+        },
+        {
+          "package": {
+            "name": "regex-syntax",
+            "version": "0.6.29",
+            "ecosystem": "crates.io",
+            "purl": "pkg:cargo/regex-syntax@0.6.29"
+          }
+        },
+        {
+          "package": {
+            "name": "sbom-build-probe",
+            "version": "1.0.0",
+            "ecosystem": "crates.io",
+            "purl": "pkg:cargo/sbom-build-probe@1.0.0"
+          }
+        },
+        {
+          "package": {
+            "name": "smallvec",
+            "version": "1.6.0",
+            "ecosystem": "crates.io",
+            "purl": "pkg:cargo/smallvec@1.6.0"
+          },
+          "groups": [
+            {
+              "ids": [
+                "RUSTSEC-2021-0003",
+                "GHSA-43w2-9j62-hq99"
+              ],
+              "aliases": [
+                "CVE-2021-25900",
+                "GHSA-43w2-9j62-hq99",
+                "RUSTSEC-2021-0003"
+              ],
+              "max_severity": "9.8"
+            }
+          ],
+          "vulnerabilities": [
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "categories": [
+                      "memory-corruption"
+                    ],
+                    "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                    "informational": null,
+                    "source": "https://github.com/rustsec/advisory-db/blob/osv/crates/RUSTSEC-2021-0003.json"
+                  },
+                  "ecosystem_specific": {
+                    "affected_functions": null,
+                    "affects": {
+                      "arch": [],
+                      "functions": [
+                        "smallvec::SmallVec::insert_many"
+                      ],
+                      "os": []
+                    }
+                  },
+                  "package": {
+                    "ecosystem": "crates.io",
+                    "name": "smallvec",
+                    "purl": "pkg:cargo/smallvec"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0.6.3"
+                        },
+                        {
+                          "fixed": "0.6.14"
+                        },
+                        {
+                          "introduced": "1.0.0"
+                        },
+                        {
+                          "fixed": "1.6.1"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2021-25900",
+                "GHSA-43w2-9j62-hq99"
+              ],
+              "database_specific": {
+                "license": "CC0-1.0"
+              },
+              "details": "A bug in the `SmallVec::insert_many` method caused it to allocate a buffer that was smaller than needed.  It then wrote past the end of the buffer, causing a buffer overflow and memory corruption on the heap.\n\nThis bug was only triggered if the iterator passed to `insert_many` yielded more items than the lower bound returned from its `size_hint` method.\n \nThe flaw was corrected in smallvec 0.6.14 and 1.6.1, by ensuring that additional space is always reserved for each item inserted.  The fix also simplified the implementation of `insert_many` to use less unsafe code, so it is easier to verify its correctness.\n\nThank you to Yechan Bae ([@Qwaz](https://github.com/Qwaz)) and the Rust group at Georgia Tech’s SSLab for finding and reporting this bug.",
+              "id": "RUSTSEC-2021-0003",
+              "modified": "2026-07-17T16:00:03.208176448Z",
+              "published": "2021-01-08T12:00:00Z",
+              "references": [
+                {
+                  "type": "PACKAGE",
+                  "url": "https://crates.io/crates/smallvec"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://rustsec.org/advisories/RUSTSEC-2021-0003.html"
+                },
+                {
+                  "type": "REPORT",
+                  "url": "https://github.com/servo/rust-smallvec/issues/252"
+                }
+              ],
+              "schema_version": "1.7.5",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "Buffer overflow in SmallVec::insert_many"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-43w2-9j62-hq99/GHSA-43w2-9j62-hq99.json"
+                  },
+                  "package": {
+                    "ecosystem": "crates.io",
+                    "name": "smallvec",
+                    "purl": "pkg:cargo/smallvec"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0.6.3"
+                        },
+                        {
+                          "fixed": "0.6.14"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-43w2-9j62-hq99/GHSA-43w2-9j62-hq99.json"
+                  },
+                  "package": {
+                    "ecosystem": "crates.io",
+                    "name": "smallvec",
+                    "purl": "pkg:cargo/smallvec"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "1.0.0"
+                        },
+                        {
+                          "fixed": "1.6.1"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2021-25900",
+                "RUSTSEC-2021-0003"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-787"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2022-06-17T00:20:48Z",
+                "nvd_published_at": "2021-01-26T18:16:00Z",
+                "severity": "CRITICAL"
+              },
+              "details": "A bug in the SmallVec::insert_many method caused it to allocate a buffer that was smaller than needed. It then wrote past the end of the buffer, causing a buffer overflow and memory corruption on the heap. This bug was only triggered if the iterator passed to insert_many yielded more items than the lower bound returned from its size_hint method.\n\nThe flaw was corrected in smallvec 0.6.14 and 1.6.1, by ensuring that additional space is always reserved for each item inserted. The fix also simplified the implementation of insert_many to use less unsafe code, so it is easier to verify its correctness.",
+              "id": "GHSA-43w2-9j62-hq99",
+              "modified": "2023-11-08T04:05:16.493284Z",
+              "published": "2022-05-24T17:40:21Z",
+              "references": [
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-25900"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/servo/rust-smallvec/issues/252"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/servo/rust-smallvec/commit/5757ac500d4e544485d796b542e4e589749c291b"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/servo/rust-smallvec/commit/9998ba0694a6b51aa6604748b00b6a98f0a0039e"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/servo/rust-smallvec"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://rustsec.org/advisories/RUSTSEC-2021-0003.html"
+                }
+              ],
+              "schema_version": "1.9.0",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "Buffer overflow in SmallVec::insert_many"
+            }
+          ]
+        },
+        {
+          "package": {
+            "name": "time",
+            "version": "0.1.45",
+            "ecosystem": "crates.io",
+            "purl": "pkg:cargo/time@0.1.45"
+          },
+          "groups": [
+            {
+              "ids": [
+                "RUSTSEC-2020-0071",
+                "GHSA-wcg3-cvx6-7396"
+              ],
+              "aliases": [
+                "CVE-2020-26235",
+                "GHSA-wcg3-cvx6-7396",
+                "RUSTSEC-2020-0071"
+              ],
+              "max_severity": "6.2"
+            }
+          ],
+          "vulnerabilities": [
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "categories": [
+                      "code-execution",
+                      "memory-corruption"
+                    ],
+                    "cvss": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                    "informational": null,
+                    "source": "https://github.com/rustsec/advisory-db/blob/osv/crates/RUSTSEC-2020-0071.json"
+                  },
+                  "ecosystem_specific": {
+                    "affected_functions": null,
+                    "affects": {
+                      "arch": [],
+                      "functions": [
+                        "time::OffsetDateTime::now_local",
+                        "time::OffsetDateTime::try_now_local",
+                        "time::UtcOffset::current_local_offset",
+                        "time::UtcOffset::local_offset_at",
+                        "time::UtcOffset::try_current_local_offset",
+                        "time::UtcOffset::try_local_offset_at",
+                        "time::at",
+                        "time::at_utc",
+                        "time::now"
+                      ],
+                      "os": [
+                        "linux",
+                        "redox",
+                        "solaris",
+                        "android",
+                        "ios",
+                        "macos",
+                        "netbsd",
+                        "openbsd",
+                        "freebsd"
+                      ]
+                    }
+                  },
+                  "package": {
+                    "ecosystem": "crates.io",
+                    "name": "time",
+                    "purl": "pkg:cargo/time"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0.0.0-0"
+                        },
+                        {
+                          "fixed": "0.2.0"
+                        },
+                        {
+                          "introduced": "0.2.1-0"
+                        },
+                        {
+                          "fixed": "0.2.1"
+                        },
+                        {
+                          "introduced": "0.2.2-0"
+                        },
+                        {
+                          "fixed": "0.2.2"
+                        },
+                        {
+                          "introduced": "0.2.3-0"
+                        },
+                        {
+                          "fixed": "0.2.3"
+                        },
+                        {
+                          "introduced": "0.2.4-0"
+                        },
+                        {
+                          "fixed": "0.2.4"
+                        },
+                        {
+                          "introduced": "0.2.5-0"
+                        },
+                        {
+                          "fixed": "0.2.5"
+                        },
+                        {
+                          "introduced": "0.2.6-0"
+                        },
+                        {
+                          "fixed": "0.2.6"
+                        },
+                        {
+                          "introduced": "0.2.7-0"
+                        },
+                        {
+                          "fixed": "0.2.23"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2020-26235",
+                "GHSA-wcg3-cvx6-7396"
+              ],
+              "database_specific": {
+                "license": "CC0-1.0"
+              },
+              "details": "### Impact\n\nThe affected functions set environment variables without synchronization. On Unix-like operating systems, this can crash in multithreaded programs. Programs may segfault due to dereferencing a dangling pointer if an environment variable is read in a different thread than the affected functions. This may occur without the user's knowledge, notably in the Rust standard library or third-party libraries.\n\nThe affected functions from time 0.2.7 through 0.2.22 are:\n\n- `time::UtcOffset::local_offset_at`\n- `time::UtcOffset::try_local_offset_at`\n- `time::UtcOffset::current_local_offset`\n- `time::UtcOffset::try_current_local_offset`\n- `time::OffsetDateTime::now_local`\n- `time::OffsetDateTime::try_now_local`\n\nThe affected functions in time 0.1 (all versions) are:\n\n- `time::at_utc`\n- `time::at`\n- `time::now`\n- `time::tzset`\n\nNon-Unix targets (including Windows and wasm) are unaffected.\n\n### Patches\n\nPending a proper fix, the internal method that determines the local offset has been modified to always return `None` on the affected operating systems. This has the effect of returning an `Err` on the `try_*` methods and `UTC` on the non-`try_*` methods.\n\nUsers and library authors with time in their dependency tree should perform `cargo update`, which will pull in the updated, unaffected code.\n\nUsers of time 0.1 do not have a patch and should upgrade to an unaffected version: time 0.2.23 or greater or the 0.3 series.\n\n### Workarounds\n\nA possible workaround for crates affected through the transitive dependency in `chrono`, is to avoid using the default `oldtime` feature dependency of the `chrono` crate by disabling its `default-features` and manually specifying the required features instead.\n\n#### Examples:\n\n`Cargo.toml`:  \n\n```toml\nchrono = { version = \"0.4\", default-features = false, features = [\"serde\"] }\n```\n\n```toml\nchrono = { version = \"0.4.22\", default-features = false, features = [\"clock\"] }\n```\n\nCommandline:  \n\n```bash\ncargo add chrono --no-default-features -F clock\n```\n\nSources:  \n - [chronotope/chrono#602 (comment)](https://github.com/chronotope/chrono/issues/602#issuecomment-1242149249)  \n - [vityafx/serde-aux#21](https://github.com/vityafx/serde-aux/issues/21)",
+              "id": "RUSTSEC-2020-0071",
+              "modified": "2026-02-04T02:31:56.682937Z",
+              "published": "2020-11-18T12:00:00Z",
+              "references": [
+                {
+                  "type": "PACKAGE",
+                  "url": "https://crates.io/crates/time"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://rustsec.org/advisories/RUSTSEC-2020-0071.html"
+                },
+                {
+                  "type": "REPORT",
+                  "url": "https://github.com/time-rs/time/issues/293"
+                }
+              ],
+              "related": [
+                "RUSTSEC-2020-0159"
+              ],
+              "schema_version": "1.7.3",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "Potential segfault in the time crate"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "last_known_affected_version_range": "\u003c 0.2.0",
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/08/GHSA-wcg3-cvx6-7396/GHSA-wcg3-cvx6-7396.json"
+                  },
+                  "package": {
+                    "ecosystem": "crates.io",
+                    "name": "time",
+                    "purl": "pkg:cargo/time"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0.1.0"
+                        },
+                        {
+                          "fixed": "0.2.23"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/08/GHSA-wcg3-cvx6-7396/GHSA-wcg3-cvx6-7396.json"
+                  },
+                  "package": {
+                    "ecosystem": "crates.io",
+                    "name": "time",
+                    "purl": "pkg:cargo/time"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0.2.7"
+                        },
+                        {
+                          "fixed": "0.2.23"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2020-26235",
+                "RUSTSEC-2020-0071"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-476"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2021-08-18T21:06:21Z",
+                "nvd_published_at": "2020-11-24T22:15:00Z",
+                "severity": "MODERATE"
+              },
+              "details": "### Impact\n\nUnix-like operating systems may segfault due to dereferencing a dangling pointer in specific circumstances. This requires an environment variable to be set in a different thread than the affected functions. This may occur without the user's knowledge, notably in a third-party library.\n\nThe affected functions from time 0.2.7 through 0.2.22 are:\n\n- `time::UtcOffset::local_offset_at`\n- `time::UtcOffset::try_local_offset_at`\n- `time::UtcOffset::current_local_offset`\n- `time::UtcOffset::try_current_local_offset`\n- `time::OffsetDateTime::now_local`\n- `time::OffsetDateTime::try_now_local`\n\nThe affected functions in time 0.1 (all versions) are:\n\n- `at`\n- `at_utc`\n- `now`\n\nNon-Unix targets (including Windows and wasm) are unaffected.\n\n### Patches\n\nIn some versions of `time`, the internal method that determines the local offset has been modified to always return `None` on the affected operating systems. This has the effect of returning an `Err` on the `try_*` methods and `UTC` on the non-`try_*` methods. In later versions, `time` will attempt to determine the number of threads running in the process. If the process is single-threaded, the call will proceed as its safety invariant is upheld.\n\nUsers and library authors with time in their dependency tree must perform `cargo update`, which will pull in the updated, unaffected code.\n\nUsers of time 0.1 do not have a patch and must upgrade to an unaffected version: time 0.2.23 or greater or the 0.3 series.\n\n### Workarounds\n\nLibrary authors must ensure that the program only has one running thread at the time of calling any affected method. Binary authors may do the same and/or ensure that no other thread is actively mutating the environment.\n\n### References\n\n[time-rs/time#293](https://github.com/time-rs/time/issues/293).",
+              "id": "GHSA-wcg3-cvx6-7396",
+              "modified": "2026-09-10T03:49:08.359875406Z",
+              "published": "2021-08-25T20:56:46Z",
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/time-rs/time/security/advisories/GHSA-wcg3-cvx6-7396"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-26235"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/time-rs/time/issues/293"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://crates.io/crates/time/0.2.23"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/time-rs/time"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://rustsec.org/advisories/RUSTSEC-2020-0071.html"
+                }
+              ],
+              "schema_version": "1.9.0",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "Segmentation fault in time"
+            }
+          ]
+        },
+        {
+          "package": {
+            "name": "wasi",
+            "version": "0.10.0+wasi-snapshot-preview1",
+            "ecosystem": "crates.io",
+            "purl": "pkg:cargo/wasi@0.10.0%2Bwasi-snapshot-preview1"
+          }
+        },
+        {
+          "package": {
+            "name": "winapi",
+            "version": "0.3.9",
+            "ecosystem": "crates.io",
+            "purl": "pkg:cargo/winapi@0.3.9"
+          }
+        },
+        {
+          "package": {
+            "name": "winapi-i686-pc-windows-gnu",
+            "version": "0.4.0",
+            "ecosystem": "crates.io",
+            "purl": "pkg:cargo/winapi-i686-pc-windows-gnu@0.4.0"
+          }
+        },
+        {
+          "package": {
+            "name": "winapi-x86_64-pc-windows-gnu",
+            "version": "0.4.0",
+            "ecosystem": "crates.io",
+            "purl": "pkg:cargo/winapi-x86_64-pc-windows-gnu@0.4.0"
+          }
+        }
+      ]
+    }
+  ],
+  "experimental_config": {
+    "licenses": {
+      "summary": false,
+      "allowlist": null
+    }
+  }
+}

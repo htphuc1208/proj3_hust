@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/osv-scanner",
+    "scan",
+    "source",
+    "--no-resolve",
+    "--no-call-analysis=go",
+    "--format=json",
+    "--all-packages",
+    "--all-vulns",
+    "--sbom",
+    "/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/java-minimized/cyclonedx-maven.cdx.json"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:42:10.077109+00:00",
+  "environment_overrides": {},
+  "exit_code": 1,
+  "seconds": 1.3637198500000522
+}

@@ -1,0 +1,84 @@
+{
+  "distributions": [
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/markupsafe-3.0.4.dist-info/METADATA",
+      "name": "MarkupSafe",
+      "requirements": [],
+      "version": "3.0.4"
+    },
+    {
+      "direct_url": {
+        "archive_info": {},
+        "url": "file:///out/wheels/flask-3.2.0.dev0-py3-none-any.whl"
+      },
+      "metadata_path": "/target/lib/python3.11/site-packages/flask-3.2.0.dev0.dist-info/METADATA",
+      "name": "Flask",
+      "requirements": [
+        "blinker>=1.9.0",
+        "click>=8.1.3",
+        "itsdangerous>=2.2.0",
+        "jinja2>=3.1.2",
+        "markupsafe>=2.1.1",
+        "werkzeug>=3.1.0",
+        "asgiref>=3.2 ; extra == \"async\"",
+        "python-dotenv ; extra == \"dotenv\""
+      ],
+      "version": "3.2.0.dev0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/blinker-1.9.0.dist-info/METADATA",
+      "name": "blinker",
+      "requirements": [],
+      "version": "1.9.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/itsdangerous-2.2.0.dist-info/METADATA",
+      "name": "itsdangerous",
+      "requirements": [],
+      "version": "2.2.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/click-8.5.1.dist-info/METADATA",
+      "name": "click",
+      "requirements": [],
+      "version": "8.5.1"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/jinja2-3.1.6.dist-info/METADATA",
+      "name": "Jinja2",
+      "requirements": [
+        "MarkupSafe>=2.0",
+        "Babel>=2.7 ; extra == \"i18n\""
+      ],
+      "version": "3.1.6"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/werkzeug-3.1.9.dist-info/METADATA",
+      "name": "Werkzeug",
+      "requirements": [
+        "markupsafe>=2.1.1",
+        "watchdog>=2.3 ; extra == \"watchdog\""
+      ],
+      "version": "3.1.9"
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.11.16",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_python_implementation": "CPython",
+    "platform_release": "7.0.0-30-generic",
+    "platform_system": "Linux",
+    "platform_version": "#30~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:27:52 UTC 2",
+    "python_full_version": "3.11.16",
+    "python_version": "3.11",
+    "sys_platform": "linux"
+  }
+}

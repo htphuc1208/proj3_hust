@@ -1,0 +1,154 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:54b7d312-0dc9-4de1-b589-e18e603f30e7",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T22:41:30+07:00",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "cyclonedx-gomod",
+        "version": "v1.12.0",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "006b4568e9ddaba70c37d1472aafcf62"
+          },
+          {
+            "alg": "SHA-1",
+            "content": "50e4be634b73cd25b8beb9f1c6c6bc86fce5e0f1"
+          },
+          {
+            "alg": "SHA-256",
+            "content": "2238adac4b5e36926d388461e72ef1ae8caaf4ac11c221ac5fab4e76d7a29861"
+          },
+          {
+            "alg": "SHA-384",
+            "content": "e59914e5ac784513fb6a1ee9ea3a4fe33d783fdbeacefeeec75425eba770e2536165d0c16c7b6d30bbbd102ab1887741"
+          },
+          {
+            "alg": "SHA-512",
+            "content": "d9176bf0c6900b8f597058748051c18906f6f07d60eec1fcec0d440a95a3566e266a26e7c32e2a0899e05c1a213ff579408dcb075ab90391ff62951ae75c35bc"
+          }
+        ],
+        "externalReferences": [
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-gomod",
+            "type": "vcs"
+          },
+          {
+            "url": "https://cyclonedx.org",
+            "type": "website"
+          }
+        ]
+      }
+    ],
+    "component": {
+      "bom-ref": "pkg:golang/example.org/sbom-build-probe?type=module",
+      "type": "application",
+      "name": "example.org/sbom-build-probe",
+      "purl": "pkg:golang/example.org/sbom-build-probe?goarch=amd64&goos=linux&type=module"
+    },
+    "properties": [
+      {
+        "name": "cdx:gomod:binary:hash:MD5",
+        "value": "adea44045d1a4f0490cd99e00c90ce6b"
+      },
+      {
+        "name": "cdx:gomod:binary:hash:SHA-1",
+        "value": "4aacd492009aa49298dedf8a10eff09249695821"
+      },
+      {
+        "name": "cdx:gomod:binary:hash:SHA-256",
+        "value": "6810f63008e8cc0cb5d9e34a2888de1051a82e1e735de6c5a1f2cdd466cfff83"
+      },
+      {
+        "name": "cdx:gomod:binary:hash:SHA-384",
+        "value": "b2be7329a6e67c789e40b1b1c73162bd94d426d994d426c95afc5a16936b38c150e8057d10820e182b2c199401e00076"
+      },
+      {
+        "name": "cdx:gomod:binary:hash:SHA-512",
+        "value": "6b90f48c36bcd24bab8909ad2d3bd6ce6a699e83dea80fc4e521373cc109a5c54f7d1938b4b5637ffa1d1aba141b2688034ec420b6694ce1e00f5fc9176f6006"
+      },
+      {
+        "name": "cdx:gomod:binary:name",
+        "value": "app"
+      },
+      {
+        "name": "cdx:gomod:build:compiler",
+        "value": "gc"
+      },
+      {
+        "name": "cdx:gomod:build:env:CGO_ENABLED",
+        "value": "0"
+      },
+      {
+        "name": "cdx:gomod:build:env:GOARCH",
+        "value": "amd64"
+      },
+      {
+        "name": "cdx:gomod:build:env:GOOS",
+        "value": "linux"
+      },
+      {
+        "name": "cdx:gomod:build:env:GOVERSION",
+        "value": "go1.23.0"
+      }
+    ]
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:golang/golang.org/x/text@v0.14.0?type=module",
+      "type": "library",
+      "name": "golang.org/x/text",
+      "version": "v0.14.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "49c5f9c357936b742a4fca22ebece23fb7535754b6f802d4d1b23ed335ca5a24"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/text@v0.14.0?goarch=amd64&goos=linux&type=module"
+    },
+    {
+      "bom-ref": "pkg:golang/std@go1.23.0?type=module",
+      "type": "library",
+      "name": "stdlib",
+      "version": "go1.23.0",
+      "scope": "required",
+      "purl": "pkg:golang/stdlib@go1.23.0?goarch=amd64&goos=linux&type=module"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:golang/example.org/sbom-build-probe?type=module",
+      "dependsOn": [
+        "pkg:golang/golang.org/x/text@v0.14.0?type=module"
+      ]
+    },
+    {
+      "ref": "pkg:golang/golang.org/x/text@v0.14.0?type=module"
+    },
+    {
+      "ref": "pkg:golang/std@go1.23.0?type=module"
+    }
+  ],
+  "compositions": [
+    {
+      "aggregate": "complete",
+      "dependencies": [
+        "pkg:golang/example.org/sbom-build-probe?type=module"
+      ]
+    },
+    {
+      "aggregate": "unknown",
+      "dependencies": [
+        "pkg:golang/golang.org/x/text@v0.14.0?type=module",
+        "pkg:golang/std@go1.23.0?type=module"
+      ]
+    }
+  ]
+}

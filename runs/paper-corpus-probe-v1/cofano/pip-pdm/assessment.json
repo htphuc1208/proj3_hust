@@ -1,0 +1,769 @@
+{
+  "active_extras": {},
+  "build_reason": null,
+  "build_status": "COMPLETE",
+  "case": "cofano/pip-pdm",
+  "declared_active_edges": 23,
+  "installed": {
+    "environment": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [
+        {
+          "declarations": [
+            "matplotlib; extra == \"test\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "contourpy",
+          "target": "matplotlib"
+        },
+        {
+          "declarations": [
+            "Pillow; extra == \"test\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "contourpy",
+          "target": "pillow"
+        },
+        {
+          "declarations": [
+            "matplotlib; extra == \"docs\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "cycler",
+          "target": "matplotlib"
+        },
+        {
+          "declarations": [
+            "matplotlib; extra == \"plot\"",
+            "matplotlib; extra == \"all\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "fonttools",
+          "target": "matplotlib"
+        },
+        {
+          "declarations": [
+            "matplotlib>=3.10.5; extra == \"plot\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "pandas",
+          "target": "matplotlib"
+        },
+        {
+          "declarations": [
+            "tzdata; sys_platform == \"win32\"",
+            "tzdata; sys_platform == \"emscripten\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "pandas",
+          "target": "tzdata"
+        },
+        {
+          "declarations": [
+            "packaging; extra == \"tests\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "pillow",
+          "target": "packaging"
+        },
+        {
+          "declarations": [
+            "typing_extensions; python_version < \"3.8\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "seaborn",
+          "target": "typing-extensions"
+        }
+      ],
+      "known_extra_edges": [
+        [
+          "contourpy",
+          "matplotlib"
+        ],
+        [
+          "contourpy",
+          "pillow"
+        ],
+        [
+          "cycler",
+          "matplotlib"
+        ],
+        [
+          "fonttools",
+          "matplotlib"
+        ],
+        [
+          "pandas",
+          "matplotlib"
+        ],
+        [
+          "pandas",
+          "tzdata"
+        ],
+        [
+          "pillow",
+          "packaging"
+        ],
+        [
+          "seaborn",
+          "typing-extensions"
+        ]
+      ],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 31,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "environment-pyproject": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [
+        {
+          "declarations": [
+            "matplotlib; extra == \"test\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "contourpy",
+          "target": "matplotlib"
+        },
+        {
+          "declarations": [
+            "Pillow; extra == \"test\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "contourpy",
+          "target": "pillow"
+        },
+        {
+          "declarations": [
+            "matplotlib; extra == \"docs\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "cycler",
+          "target": "matplotlib"
+        },
+        {
+          "declarations": [
+            "matplotlib; extra == \"plot\"",
+            "matplotlib; extra == \"all\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "fonttools",
+          "target": "matplotlib"
+        },
+        {
+          "declarations": [
+            "matplotlib>=3.10.5; extra == \"plot\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "pandas",
+          "target": "matplotlib"
+        },
+        {
+          "declarations": [
+            "tzdata; sys_platform == \"win32\"",
+            "tzdata; sys_platform == \"emscripten\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "pandas",
+          "target": "tzdata"
+        },
+        {
+          "declarations": [
+            "packaging; extra == \"tests\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "pillow",
+          "target": "packaging"
+        },
+        {
+          "declarations": [
+            "typing_extensions; python_version < \"3.8\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "seaborn",
+          "target": "typing-extensions"
+        }
+      ],
+      "known_extra_edges": [
+        [
+          "contourpy",
+          "matplotlib"
+        ],
+        [
+          "contourpy",
+          "pillow"
+        ],
+        [
+          "cycler",
+          "matplotlib"
+        ],
+        [
+          "fonttools",
+          "matplotlib"
+        ],
+        [
+          "pandas",
+          "matplotlib"
+        ],
+        [
+          "pandas",
+          "tzdata"
+        ],
+        [
+          "pillow",
+          "packaging"
+        ],
+        [
+          "seaborn",
+          "typing-extensions"
+        ]
+      ],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 31,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "installed-syft": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [
+        {
+          "declarations": [
+            "contourpy[bokeh,docs]; extra == \"mypy\"",
+            "contourpy[test-no-images]; extra == \"test\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "contourpy",
+          "target": "contourpy"
+        },
+        {
+          "declarations": [
+            "matplotlib; extra == \"test\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "contourpy",
+          "target": "matplotlib"
+        },
+        {
+          "declarations": [
+            "Pillow; extra == \"test\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "contourpy",
+          "target": "pillow"
+        },
+        {
+          "declarations": [
+            "matplotlib; extra == \"docs\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "cycler",
+          "target": "matplotlib"
+        },
+        {
+          "declarations": [
+            "matplotlib; extra == \"plot\"",
+            "matplotlib; extra == \"all\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "fonttools",
+          "target": "matplotlib"
+        },
+        {
+          "declarations": [
+            "matplotlib>=3.10.5; extra == \"plot\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "pandas",
+          "target": "matplotlib"
+        },
+        {
+          "declarations": [
+            "pandas[pyarrow]; extra == \"parquet\"",
+            "pandas[pyarrow]; extra == \"feather\"",
+            "pandas[aws,clipboard,compression,computation,excel,feather,fss,gcp,hdf5,html,iceberg,mysql,output-formatting,parquet,performance,plot,postgresql,pyarrow,spss,sql-other,test,timezone,xml]; extra == \"all\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "pandas",
+          "target": "pandas"
+        },
+        {
+          "declarations": [
+            "tzdata; sys_platform == \"win32\"",
+            "tzdata; sys_platform == \"emscripten\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "pandas",
+          "target": "tzdata"
+        },
+        {
+          "declarations": [
+            "packaging; extra == \"tests\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "pillow",
+          "target": "packaging"
+        },
+        {
+          "declarations": [
+            "typing_extensions; python_version < \"3.8\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "seaborn",
+          "target": "typing-extensions"
+        }
+      ],
+      "known_extra_edges": [
+        [
+          "contourpy",
+          "contourpy"
+        ],
+        [
+          "contourpy",
+          "matplotlib"
+        ],
+        [
+          "contourpy",
+          "pillow"
+        ],
+        [
+          "cycler",
+          "matplotlib"
+        ],
+        [
+          "fonttools",
+          "matplotlib"
+        ],
+        [
+          "pandas",
+          "matplotlib"
+        ],
+        [
+          "pandas",
+          "pandas"
+        ],
+        [
+          "pandas",
+          "tzdata"
+        ],
+        [
+          "pillow",
+          "packaging"
+        ],
+        [
+          "seaborn",
+          "typing-extensions"
+        ]
+      ],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 33,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "installed-trivy": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [],
+      "known_extra_edges": [],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [
+        {
+          "declarations": [
+            "click>=7.1.2"
+          ],
+          "source": "black",
+          "target": "click"
+        },
+        {
+          "declarations": [
+            "mypy_extensions>=0.4.3"
+          ],
+          "source": "black",
+          "target": "mypy-extensions"
+        },
+        {
+          "declarations": [
+            "pathspec<1,>=0.9.0"
+          ],
+          "source": "black",
+          "target": "pathspec"
+        },
+        {
+          "declarations": [
+            "platformdirs>=2"
+          ],
+          "source": "black",
+          "target": "platformdirs"
+        },
+        {
+          "declarations": [
+            "regex>=2020.1.8"
+          ],
+          "source": "black",
+          "target": "regex"
+        },
+        {
+          "declarations": [
+            "tomli<2.0.0,>=0.2.6"
+          ],
+          "source": "black",
+          "target": "tomli"
+        },
+        {
+          "declarations": [
+            "typing_extensions>=3.10.0.0",
+            "typing_extensions!=3.10.0.1; python_version >= \"3.10\""
+          ],
+          "source": "black",
+          "target": "typing-extensions"
+        },
+        {
+          "declarations": [
+            "numpy>=1.25"
+          ],
+          "source": "contourpy",
+          "target": "numpy"
+        },
+        {
+          "declarations": [
+            "contourpy>=1.0.1"
+          ],
+          "source": "matplotlib",
+          "target": "contourpy"
+        },
+        {
+          "declarations": [
+            "cycler>=0.10"
+          ],
+          "source": "matplotlib",
+          "target": "cycler"
+        },
+        {
+          "declarations": [
+            "fonttools>=4.28.2"
+          ],
+          "source": "matplotlib",
+          "target": "fonttools"
+        },
+        {
+          "declarations": [
+            "kiwisolver>=1.3.1"
+          ],
+          "source": "matplotlib",
+          "target": "kiwisolver"
+        },
+        {
+          "declarations": [
+            "numpy>=1.25"
+          ],
+          "source": "matplotlib",
+          "target": "numpy"
+        },
+        {
+          "declarations": [
+            "packaging>=20.0"
+          ],
+          "source": "matplotlib",
+          "target": "packaging"
+        },
+        {
+          "declarations": [
+            "pillow>=9"
+          ],
+          "source": "matplotlib",
+          "target": "pillow"
+        },
+        {
+          "declarations": [
+            "pyparsing>=3"
+          ],
+          "source": "matplotlib",
+          "target": "pyparsing"
+        },
+        {
+          "declarations": [
+            "python-dateutil>=2.7"
+          ],
+          "source": "matplotlib",
+          "target": "python-dateutil"
+        },
+        {
+          "declarations": [
+            "numpy>=2.0.2; python_version < \"3.14\""
+          ],
+          "source": "pandas",
+          "target": "numpy"
+        },
+        {
+          "declarations": [
+            "python-dateutil>=2.9.0"
+          ],
+          "source": "pandas",
+          "target": "python-dateutil"
+        },
+        {
+          "declarations": [
+            "tzdata"
+          ],
+          "source": "python-dateutil",
+          "target": "tzdata"
+        },
+        {
+          "declarations": [
+            "matplotlib!=3.6.1,>=3.1"
+          ],
+          "source": "seaborn",
+          "target": "matplotlib"
+        },
+        {
+          "declarations": [
+            "numpy!=1.24.0,>=1.17"
+          ],
+          "source": "seaborn",
+          "target": "numpy"
+        },
+        {
+          "declarations": [
+            "pandas>=0.25"
+          ],
+          "source": "seaborn",
+          "target": "pandas"
+        }
+      ],
+      "missing_edges": [
+        [
+          "black",
+          "click"
+        ],
+        [
+          "black",
+          "mypy-extensions"
+        ],
+        [
+          "black",
+          "pathspec"
+        ],
+        [
+          "black",
+          "platformdirs"
+        ],
+        [
+          "black",
+          "regex"
+        ],
+        [
+          "black",
+          "tomli"
+        ],
+        [
+          "black",
+          "typing-extensions"
+        ],
+        [
+          "contourpy",
+          "numpy"
+        ],
+        [
+          "matplotlib",
+          "contourpy"
+        ],
+        [
+          "matplotlib",
+          "cycler"
+        ],
+        [
+          "matplotlib",
+          "fonttools"
+        ],
+        [
+          "matplotlib",
+          "kiwisolver"
+        ],
+        [
+          "matplotlib",
+          "numpy"
+        ],
+        [
+          "matplotlib",
+          "packaging"
+        ],
+        [
+          "matplotlib",
+          "pillow"
+        ],
+        [
+          "matplotlib",
+          "pyparsing"
+        ],
+        [
+          "matplotlib",
+          "python-dateutil"
+        ],
+        [
+          "pandas",
+          "numpy"
+        ],
+        [
+          "pandas",
+          "python-dateutil"
+        ],
+        [
+          "python-dateutil",
+          "tzdata"
+        ],
+        [
+          "seaborn",
+          "matplotlib"
+        ],
+        [
+          "seaborn",
+          "numpy"
+        ],
+        [
+          "seaborn",
+          "pandas"
+        ]
+      ],
+      "projected_edges": 0,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    }
+  },
+  "installed_packages": 24,
+  "origin_commit": "e2070973821f188cd64c5b17a24b06872f2cdc3a",
+  "requested_extra_seeds": {},
+  "root_declared_active_edges": [],
+  "root_name": "pip-pdm",
+  "source": {
+    "cyclonedx": {
+      "all_dependency_edges": 0,
+      "author_ingredient_names_absent": [
+        "docopt"
+      ],
+      "author_ingredient_names_present": [
+        "black",
+        "matplotlib",
+        "numpy",
+        "seaborn",
+        "urllib3"
+      ],
+      "dangling_references": [],
+      "exit_code": 0,
+      "interpretation": "Ingredient identity coverage only; not installed precision/recall",
+      "python_names": [
+        "black",
+        "matplotlib",
+        "numpy",
+        "seaborn",
+        "urllib3"
+      ],
+      "python_package_records": 5,
+      "python_versions": [
+        {
+          "name": "black",
+          "version": null
+        },
+        {
+          "name": "matplotlib",
+          "version": null
+        },
+        {
+          "name": "numpy",
+          "version": null
+        },
+        {
+          "name": "seaborn",
+          "version": "0.12.2"
+        },
+        {
+          "name": "urllib3",
+          "version": null
+        }
+      ],
+      "status": null
+    },
+    "syft": {
+      "all_dependency_edges": 0,
+      "author_ingredient_names_absent": [
+        "black",
+        "docopt",
+        "matplotlib",
+        "numpy",
+        "urllib3"
+      ],
+      "author_ingredient_names_present": [
+        "seaborn"
+      ],
+      "dangling_references": [],
+      "exit_code": 0,
+      "interpretation": "Ingredient identity coverage only; not installed precision/recall",
+      "python_names": [
+        "seaborn"
+      ],
+      "python_package_records": 1,
+      "python_versions": [
+        {
+          "name": "seaborn",
+          "version": "0.12.2"
+        }
+      ],
+      "status": null
+    },
+    "trivy": {
+      "all_dependency_edges": 2,
+      "author_ingredient_names_absent": [
+        "black",
+        "docopt",
+        "matplotlib",
+        "numpy",
+        "urllib3"
+      ],
+      "author_ingredient_names_present": [
+        "seaborn"
+      ],
+      "dangling_references": [],
+      "exit_code": 0,
+      "interpretation": "Ingredient identity coverage only; not installed precision/recall",
+      "python_names": [
+        "seaborn"
+      ],
+      "python_package_records": 1,
+      "python_versions": [
+        {
+          "name": "seaborn",
+          "version": "0.12.2"
+        }
+      ],
+      "status": null
+    }
+  },
+  "unresolved_declarations": []
+}

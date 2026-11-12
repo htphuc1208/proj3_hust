@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/trivy",
+    "rootfs",
+    "--offline-scan",
+    "--skip-db-update",
+    "--skip-java-db-update",
+    "--disable-telemetry",
+    "--skip-version-check",
+    "--parallel",
+    "1",
+    "--format",
+    "cyclonedx",
+    "--output",
+    "/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/scans/java-jbomaudit/trivy-rootfs.cdx.json",
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/java-jbomaudit"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:33:47.515336+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 0.5974146279986599
+}

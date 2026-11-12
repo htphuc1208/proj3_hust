@@ -1,0 +1,8 @@
+{
+  "source": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/rust-no-alias",
+  "files": {
+    "Cargo.toml": "cdeeaa56705bc121cecac206d18e8a9787ff23c0031f2a22f42b60662fb41d24",
+    "Cargo.lock": "7b66e28228117ca726b3e5f42a304d1b19a51d3c597783480d74803420f07639",
+    "src/main.rs": "05fd2ee72efcf68ecb0462bd1dea31553ca7f6d9b8a6df6fd60833156a6fcb61"
+  }
+}

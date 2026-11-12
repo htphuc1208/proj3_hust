@@ -1,0 +1,8 @@
+4c39e13494d51c9d7f63e2923e7afdb5648a7a806a9ed7684dbe3786d2e2d1da *cargo-cyclonedx-aarch64-apple-darwin.tar.xz
+6931b234914fa9be8686f46bd1ce71358b4be6d4cd3ce6b7082bec2313e59a8e *cargo-cyclonedx-aarch64-unknown-linux-gnu.tar.xz
+5f14c5123796e278a7a655686162ef7158421836658540270bddfc481e51641c *cargo-cyclonedx-x86_64-apple-darwin.tar.xz
+b0cdf58875a4b3c83e13fbea19eb6a85d63498aeab90f50456179173c370b3ce *cargo-cyclonedx-x86_64-pc-windows-msvc.zip
+2e4ef64a53c0a38d4b7d805c593b5f47ecd29821e98d81e484d03abaa0edb95f *cargo-cyclonedx-x86_64-unknown-linux-gnu.tar.xz
+528be9dd99ae522c3ee14fb881fd0cbf51767e8f12b74248f437e6a66b1a3c1b *cargo-cyclonedx-x86_64-unknown-linux-musl.tar.xz
+a1624caa5b00b216b4a2cd05948eb192897b41a59e788762ef9c59dc804d24c9 *source.tar.gz
+

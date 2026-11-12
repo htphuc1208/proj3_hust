@@ -1,0 +1,5 @@
+Warning: --sbom has been deprecated in favor of -L
+Starting filesystem walk for root: /
+Scanned /home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/scans/rust-binary/syft.cdx.json file and found 0 packages
+End status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 699.674µs elapsed, 699.743µs wall time
+No package sources found, --help for usage information.

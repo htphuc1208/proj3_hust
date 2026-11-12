@@ -1,0 +1,6 @@
+numpy 
+black @ git+https://github.com/psf/black.git@21.10b0
+https://files.pythonhosted.org/packages/a2/55/8f8cab2afd404cf578136ef2cc5dfb50baa1761b68c9da1fb1e4eed343c9/docopt-0.6.2.tar.gz
+seaborn==0.12.2
+matplotlib>3.9.0
+urllib3

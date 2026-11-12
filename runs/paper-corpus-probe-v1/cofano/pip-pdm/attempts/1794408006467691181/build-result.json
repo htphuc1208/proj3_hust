@@ -1,0 +1,49 @@
+{
+  "status": "FAILED",
+  "reason": "resolve",
+  "steps": [
+    {
+      "step": "venv",
+      "command": [
+        "/tools/uv",
+        "venv",
+        "--python",
+        "/usr/local/bin/python",
+        "/out/target"
+      ],
+      "exit_code": 0,
+      "seconds": 0.06821255399700021
+    },
+    {
+      "step": "wheel",
+      "command": [
+        "/tools/uv",
+        "build",
+        "--wheel",
+        "--python",
+        "/usr/local/bin/python",
+        "--out-dir",
+        "/out/wheels",
+        "/tmp/paper-source"
+      ],
+      "exit_code": 0,
+      "seconds": 1.5472452510002768
+    },
+    {
+      "step": "resolve",
+      "command": [
+        "/tools/uv",
+        "pip",
+        "compile",
+        "/out/install.in",
+        "--python-version",
+        "3.11",
+        "--no-annotate",
+        "--output-file",
+        "/out/resolved.txt"
+      ],
+      "exit_code": 1,
+      "seconds": 0.7123900549995597
+    }
+  ]
+}

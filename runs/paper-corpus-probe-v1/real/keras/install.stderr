@@ -1,0 +1,21 @@
+Using Python 3.11.16 environment at: /out/target
+Resolved 13 packages in 9ms
+Downloading numpy (16.1MiB)
+Downloading h5py (4.8MiB)
+ Downloaded h5py
+ Downloaded numpy
+Prepared 7 packages in 2.61s
+Installed 13 packages in 873ms
+ + absl-py==2.5.1
+ + h5py==3.16.0
+ + keras==3.16.0 (from file:///out/wheels/keras-3.16.0-py3-none-any.whl)
+ + markdown-it-py==4.3.0
+ + mdurl==0.1.2
+ + ml-dtypes==0.6.0
+ + namex==0.1.0
+ + numpy==2.4.6
+ + optree==0.20.0
+ + packaging==26.3
+ + pygments==2.21.0
+ + rich==15.0.0
+ + typing-extensions==4.16.0

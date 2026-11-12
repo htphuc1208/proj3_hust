@@ -1,0 +1,83 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:f0314f00-9f70-4581-aceb-5104f4ccdc12",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T14:36:10+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "46a4ef2e-8a91-4d70-92d9-fa47fdecd40a",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/pip-setuptools",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "3079a6d9-b64b-408b-8e45-5c84719cb88c",
+      "type": "application",
+      "name": "requirements.txt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/seaborn@0.12.2",
+      "type": "library",
+      "name": "seaborn",
+      "version": "0.12.2",
+      "purl": "pkg:pypi/seaborn@0.12.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "3079a6d9-b64b-408b-8e45-5c84719cb88c",
+      "dependsOn": [
+        "pkg:pypi/seaborn@0.12.2"
+      ]
+    },
+    {
+      "ref": "46a4ef2e-8a91-4d70-92d9-fa47fdecd40a",
+      "dependsOn": [
+        "3079a6d9-b64b-408b-8e45-5c84719cb88c"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/seaborn@0.12.2",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

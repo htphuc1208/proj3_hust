@@ -1,0 +1,32 @@
+{
+  "context": {
+    "architecture": null,
+    "build_profile": null,
+    "context_id": "ctx-example",
+    "entrypoint": null,
+    "features_by_subject": {
+      "application": [],
+      "optional-library": null
+    },
+    "os": null,
+    "runtimes": {
+      "java": null
+    }
+  },
+  "evidence": [],
+  "policy_id": "artifact-v3-design-draft",
+  "sbom": {
+    "path": "input.cdx.json",
+    "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  },
+  "sbom_format": "CycloneDX",
+  "schema_version": "artifact-reconciliation-input-v3",
+  "target": {
+    "artifact": {
+      "path": "artifacts/example.jar",
+      "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "boundary": "supplied_artifact",
+    "kind": "java_jar"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "same_native_resolved_identities": true,
+  "original_go_mod_sha256": "e9a2f06c1bedff4c3f790e756ae1a6979f7924e6f5a6864d16aa96c82544916f",
+  "control_go_mod_sha256": "277b9317beea2d70add2a632f73bfac6f15eb373ae3747fadb1e59b416ea7080",
+  "kind": "Controlled source representation change; no claim of a second independent application"
+}

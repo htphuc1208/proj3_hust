@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/trivy",
+    "fs",
+    "--offline-scan",
+    "--skip-db-update",
+    "--skip-java-db-update",
+    "--disable-telemetry",
+    "--skip-version-check",
+    "--parallel",
+    "1",
+    "--format",
+    "cyclonedx",
+    "--output",
+    "/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/scans/go-binary/trivy.cdx.json",
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/go-binary"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:33:58.826257+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 0.3695849809992069
+}

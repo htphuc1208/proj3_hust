@@ -1,0 +1,9 @@
+{
+  "url": "https://github.com/code-genome/jbomaudit",
+  "commit": "e6d87e2a7b858a13c458928083de4fbea9b56290",
+  "files": {
+    "aaa-cli-jar-0.15.2.jar": "56eff5c7894ea20a78aab4d1c41d4581fd5eb246e8d09fbe5a82e5260e0b288d",
+    "aaa-cli-jar-0.15.2-cyclonedx.json": "3cbde52cadd27c4306ab245d62d2bb7d3a03809fd6713a2a791953ca780624c0"
+  },
+  "note": "Published paper sample, author SBOM not exposed to archive scanners"
+}

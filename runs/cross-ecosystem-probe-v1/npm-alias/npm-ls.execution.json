@@ -1,0 +1,13 @@
+{
+  "command": [
+    "npm",
+    "ls",
+    "--all",
+    "--json"
+  ],
+  "cwd": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/npm-alias",
+  "started_at": "2026-11-11T15:27:38.187948+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 7.244846454002982
+}

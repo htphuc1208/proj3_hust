@@ -1,0 +1,245 @@
+{
+  "$defs": {
+    "ArtifactTargetV3": {
+      "additionalProperties": false,
+      "properties": {
+        "artifact": {
+          "$ref": "#/$defs/BlobReferenceV3"
+        },
+        "boundary": {
+          "const": "supplied_artifact",
+          "default": "supplied_artifact",
+          "title": "Boundary",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "java_jar",
+            "js_bundle",
+            "native_binary"
+          ],
+          "title": "Kind",
+          "type": "string"
+        }
+      },
+      "required": [
+        "artifact",
+        "kind"
+      ],
+      "title": "ArtifactTargetV3",
+      "type": "object"
+    },
+    "BlobReferenceV3": {
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "minLength": 1,
+          "title": "Path",
+          "type": "string"
+        },
+        "sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Sha256",
+          "type": "string"
+        }
+      },
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "title": "BlobReferenceV3",
+      "type": "object"
+    },
+    "ContextKnowledgeV3": {
+      "additionalProperties": false,
+      "properties": {
+        "architecture": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Architecture"
+        },
+        "build_profile": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Build Profile"
+        },
+        "context_id": {
+          "minLength": 1,
+          "title": "Context Id",
+          "type": "string"
+        },
+        "entrypoint": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Entrypoint"
+        },
+        "features_by_subject": {
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "title": "Features By Subject",
+          "type": "object"
+        },
+        "os": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Os"
+        },
+        "runtimes": {
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "title": "Runtimes",
+          "type": "object"
+        }
+      },
+      "required": [
+        "context_id"
+      ],
+      "title": "ContextKnowledgeV3",
+      "type": "object"
+    },
+    "EvidenceInputV3": {
+      "additionalProperties": false,
+      "properties": {
+        "blob": {
+          "$ref": "#/$defs/BlobReferenceV3"
+        },
+        "claimed_target_sha256": {
+          "anyOf": [
+            {
+              "pattern": "^[0-9a-f]{64}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Claimed Target Sha256"
+        },
+        "kind": {
+          "enum": [
+            "sbom",
+            "artifact_bytes",
+            "manifest",
+            "lockfile",
+            "native_resolution",
+            "build_record",
+            "registry_metadata",
+            "registry_archive",
+            "bundler_metafile"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "source_id": {
+          "minLength": 1,
+          "title": "Source Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_id",
+        "blob",
+        "kind"
+      ],
+      "title": "EvidenceInputV3",
+      "type": "object"
+    }
+  },
+  "$id": "urn:sbom-recovery:artifact-reconciliation-v3:input",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "context": {
+      "$ref": "#/$defs/ContextKnowledgeV3"
+    },
+    "evidence": {
+      "items": {
+        "$ref": "#/$defs/EvidenceInputV3"
+      },
+      "title": "Evidence",
+      "type": "array"
+    },
+    "policy_id": {
+      "minLength": 1,
+      "title": "Policy Id",
+      "type": "string"
+    },
+    "sbom": {
+      "$ref": "#/$defs/BlobReferenceV3"
+    },
+    "sbom_format": {
+      "enum": [
+        "CycloneDX",
+        "SPDX"
+      ],
+      "title": "Sbom Format",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "artifact-reconciliation-input-v3",
+      "default": "artifact-reconciliation-input-v3",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "target": {
+      "$ref": "#/$defs/ArtifactTargetV3"
+    }
+  },
+  "required": [
+    "target",
+    "sbom",
+    "sbom_format",
+    "context",
+    "policy_id"
+  ],
+  "title": "ArtifactRequestV3",
+  "type": "object"
+}

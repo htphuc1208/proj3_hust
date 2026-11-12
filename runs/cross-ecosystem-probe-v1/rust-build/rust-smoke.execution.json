@@ -1,0 +1,10 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/rust-binary/app"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:33:33.253155+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 0.0011540929990587756
+}

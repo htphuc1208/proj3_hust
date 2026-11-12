@@ -1,0 +1,179 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:a7dc86e5-99fa-4651-a298-8c541fd9093f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T15:34:09+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "42383c62-8702-447f-9d97-25da605c620c",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/rust-auditable",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "2dfa83c7-c71b-4e69-8ca5-e4b46af896ce",
+      "type": "application",
+      "name": "app",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "rustbinary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/aho-corasick@0.7.20",
+      "type": "library",
+      "name": "aho-corasick",
+      "version": "0.7.20",
+      "purl": "pkg:cargo/aho-corasick@0.7.20",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "aho-corasick@0.7.20"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "rustbinary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/memchr@2.8.3",
+      "type": "library",
+      "name": "memchr",
+      "version": "2.8.3",
+      "purl": "pkg:cargo/memchr@2.8.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "memchr@2.8.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "rustbinary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/regex-syntax@0.6.29",
+      "type": "library",
+      "name": "regex-syntax",
+      "version": "0.6.29",
+      "purl": "pkg:cargo/regex-syntax@0.6.29",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "regex-syntax@0.6.29"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "rustbinary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/regex@1.5.4",
+      "type": "library",
+      "name": "regex",
+      "version": "1.5.4",
+      "purl": "pkg:cargo/regex@1.5.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "regex@1.5.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "rustbinary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/sbom-build-probe@1.0.0",
+      "type": "library",
+      "name": "sbom-build-probe",
+      "version": "1.0.0",
+      "purl": "pkg:cargo/sbom-build-probe@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "sbom-build-probe@1.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "rustbinary"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "2dfa83c7-c71b-4e69-8ca5-e4b46af896ce",
+      "dependsOn": [
+        "pkg:cargo/sbom-build-probe@1.0.0"
+      ]
+    },
+    {
+      "ref": "42383c62-8702-447f-9d97-25da605c620c",
+      "dependsOn": [
+        "2dfa83c7-c71b-4e69-8ca5-e4b46af896ce"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/aho-corasick@0.7.20",
+      "dependsOn": [
+        "pkg:cargo/memchr@2.8.3"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/memchr@2.8.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/regex-syntax@0.6.29",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/regex@1.5.4",
+      "dependsOn": [
+        "pkg:cargo/aho-corasick@0.7.20",
+        "pkg:cargo/memchr@2.8.3",
+        "pkg:cargo/regex-syntax@0.6.29"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/sbom-build-probe@1.0.0",
+      "dependsOn": [
+        "pkg:cargo/regex@1.5.4"
+      ]
+    }
+  ],
+  "vulnerabilities": []
+}

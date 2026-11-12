@@ -1,0 +1,11 @@
+{
+  "command": [
+    "node",
+    "--version"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:26:37.979551+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 2.5239159199991263
+}

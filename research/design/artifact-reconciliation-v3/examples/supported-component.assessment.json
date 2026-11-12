@@ -1,0 +1,168 @@
+{
+  "bindings": [
+    {
+      "basis": "TARGET_METADATA",
+      "binding_id": "binding:text",
+      "candidate_ids": [
+        "identity:text:1.9"
+      ],
+      "evidence_ids": [
+        "source:artifact"
+      ],
+      "occurrence_id": "occ:text",
+      "resolution": "UNIQUE",
+      "scope": {
+        "context_id": null,
+        "phase": "ARTIFACT",
+        "target_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "unit_domain": "package_identity"
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "identity:text:1.9",
+      "ecosystem": "maven",
+      "name": "text",
+      "namespace": "org.example",
+      "origin": null,
+      "purl": "pkg:maven/org.example/text@1.9",
+      "version": "1.9"
+    }
+  ],
+  "changes": [
+    {
+      "after": {
+        "name": "text",
+        "purl": "pkg:maven/org.example/text@1.9",
+        "version": "1.9"
+      },
+      "before": null,
+      "binding_ids": [
+        "binding:text"
+      ],
+      "change_id": "change:add-text",
+      "claim_ids": [
+        "claim:identity",
+        "claim:metadata"
+      ],
+      "disposition": "APPLY",
+      "operation": "ADD_COMPONENT",
+      "reason": "Target-bound identity and metadata occurrence",
+      "related_occurrence_id": null,
+      "rule_id": "design-example.add-bound-component",
+      "scope": {
+        "context_id": null,
+        "phase": "ARTIFACT",
+        "target_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "unit_domain": "package_identity"
+      },
+      "subject": "occ:text"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim:identity",
+      "object": "identity:text:1.9",
+      "predicate": "identity",
+      "reason": "Synthetic contract example, not an observed execution",
+      "refutation_coverage_ids": [],
+      "refutation_evidence_ids": [],
+      "rule_id": "design-example.identity",
+      "scope": {
+        "context_id": null,
+        "phase": "ARTIFACT",
+        "target_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "unit_domain": "package_identity"
+      },
+      "status": "SUPPORTED",
+      "subject": "occ:text",
+      "support_evidence_ids": [
+        "source:artifact"
+      ]
+    },
+    {
+      "claim_id": "claim:metadata",
+      "object": true,
+      "predicate": "metadata_present",
+      "reason": "Synthetic contract example, not an observed execution",
+      "refutation_coverage_ids": [],
+      "refutation_evidence_ids": [],
+      "rule_id": "design-example.metadata_present",
+      "scope": {
+        "context_id": null,
+        "phase": "ARTIFACT",
+        "target_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "unit_domain": "code_footprint"
+      },
+      "status": "SUPPORTED",
+      "subject": "occ:text",
+      "support_evidence_ids": [
+        "source:artifact"
+      ]
+    },
+    {
+      "claim_id": "claim:code",
+      "object": true,
+      "predicate": "code_present",
+      "reason": "Synthetic contract example, not an observed execution",
+      "refutation_coverage_ids": [],
+      "refutation_evidence_ids": [],
+      "rule_id": "design-example.code_present",
+      "scope": {
+        "context_id": null,
+        "phase": "ARTIFACT",
+        "target_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "unit_domain": "code_footprint"
+      },
+      "status": "UNKNOWN",
+      "subject": "occ:text",
+      "support_evidence_ids": []
+    }
+  ],
+  "context": {
+    "architecture": null,
+    "build_profile": null,
+    "context_id": "ctx-example",
+    "entrypoint": null,
+    "features_by_subject": {
+      "application": [],
+      "optional-library": null
+    },
+    "os": null,
+    "runtimes": {
+      "java": null
+    }
+  },
+  "coverage": [],
+  "evidence": [
+    {
+      "binding": "DIRECT_ARTIFACT",
+      "blob": {
+        "path": "artifacts/example.jar",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "claimed_target_sha256": null,
+      "kind": "artifact_bytes",
+      "limitations": [],
+      "observed_target_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "source_id": "source:artifact"
+    }
+  ],
+  "export_profile": "PRESERVE_OBSERVATION",
+  "input_sbom_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "issues": [
+    "Synthetic wire example; files/digests are placeholders and were not collected from a release"
+  ],
+  "policy_id": "artifact-v3-design-draft",
+  "runtime_exploitability": "NOT_ASSESSED",
+  "schema_version": "artifact-reconciliation-assessment-v3",
+  "target": {
+    "artifact": {
+      "path": "artifacts/example.jar",
+      "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "boundary": "supplied_artifact",
+    "kind": "java_jar"
+  }
+}

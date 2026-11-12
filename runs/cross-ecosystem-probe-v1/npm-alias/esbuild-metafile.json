@@ -1,0 +1,1199 @@
+{
+  "inputs": {
+    "node_modules/lodash-vulnerable/_freeGlobal.js": {
+      "bytes": 173,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_root.js": {
+      "bytes": 300,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_freeGlobal.js",
+          "kind": "require-call",
+          "original": "./_freeGlobal"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_Symbol.js": {
+      "bytes": 118,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_root.js",
+          "kind": "require-call",
+          "original": "./_root"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_getRawTag.js": {
+      "bytes": 1139,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_Symbol.js",
+          "kind": "require-call",
+          "original": "./_Symbol"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_objectToString.js": {
+      "bytes": 565,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_baseGetTag.js": {
+      "bytes": 792,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_Symbol.js",
+          "kind": "require-call",
+          "original": "./_Symbol"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_getRawTag.js",
+          "kind": "require-call",
+          "original": "./_getRawTag"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_objectToString.js",
+          "kind": "require-call",
+          "original": "./_objectToString"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/isObject.js": {
+      "bytes": 733,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/isFunction.js": {
+      "bytes": 993,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_baseGetTag.js",
+          "kind": "require-call",
+          "original": "./_baseGetTag"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isObject.js",
+          "kind": "require-call",
+          "original": "./isObject"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_coreJsData.js": {
+      "bytes": 157,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_root.js",
+          "kind": "require-call",
+          "original": "./_root"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_isMasked.js": {
+      "bytes": 564,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_coreJsData.js",
+          "kind": "require-call",
+          "original": "./_coreJsData"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_toSource.js": {
+      "bytes": 556,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_baseIsNative.js": {
+      "bytes": 1417,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/isFunction.js",
+          "kind": "require-call",
+          "original": "./isFunction"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_isMasked.js",
+          "kind": "require-call",
+          "original": "./_isMasked"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isObject.js",
+          "kind": "require-call",
+          "original": "./isObject"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_toSource.js",
+          "kind": "require-call",
+          "original": "./_toSource"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_getValue.js": {
+      "bytes": 325,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_getNative.js": {
+      "bytes": 483,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_baseIsNative.js",
+          "kind": "require-call",
+          "original": "./_baseIsNative"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_getValue.js",
+          "kind": "require-call",
+          "original": "./_getValue"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_defineProperty.js": {
+      "bytes": 233,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_getNative.js",
+          "kind": "require-call",
+          "original": "./_getNative"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_baseAssignValue.js": {
+      "bytes": 625,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_defineProperty.js",
+          "kind": "require-call",
+          "original": "./_defineProperty"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/eq.js": {
+      "bytes": 799,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_assignValue.js": {
+      "bytes": 899,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_baseAssignValue.js",
+          "kind": "require-call",
+          "original": "./_baseAssignValue"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/eq.js",
+          "kind": "require-call",
+          "original": "./eq"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_copyObject.js": {
+      "bytes": 1044,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_assignValue.js",
+          "kind": "require-call",
+          "original": "./_assignValue"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_baseAssignValue.js",
+          "kind": "require-call",
+          "original": "./_baseAssignValue"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/identity.js": {
+      "bytes": 370,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_apply.js": {
+      "bytes": 714,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_overRest.js": {
+      "bytes": 1096,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_apply.js",
+          "kind": "require-call",
+          "original": "./_apply"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/constant.js": {
+      "bytes": 528,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_baseSetToString.js": {
+      "bytes": 641,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/constant.js",
+          "kind": "require-call",
+          "original": "./constant"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_defineProperty.js",
+          "kind": "require-call",
+          "original": "./_defineProperty"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/identity.js",
+          "kind": "require-call",
+          "original": "./identity"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_shortOut.js": {
+      "bytes": 941,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_setToString.js": {
+      "bytes": 392,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_baseSetToString.js",
+          "kind": "require-call",
+          "original": "./_baseSetToString"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_shortOut.js",
+          "kind": "require-call",
+          "original": "./_shortOut"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_baseRest.js": {
+      "bytes": 559,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/identity.js",
+          "kind": "require-call",
+          "original": "./identity"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_overRest.js",
+          "kind": "require-call",
+          "original": "./_overRest"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_setToString.js",
+          "kind": "require-call",
+          "original": "./_setToString"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/isLength.js": {
+      "bytes": 802,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/isArrayLike.js": {
+      "bytes": 830,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/isFunction.js",
+          "kind": "require-call",
+          "original": "./isFunction"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isLength.js",
+          "kind": "require-call",
+          "original": "./isLength"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_isIndex.js": {
+      "bytes": 759,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_isIterateeCall.js": {
+      "bytes": 877,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/eq.js",
+          "kind": "require-call",
+          "original": "./eq"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isArrayLike.js",
+          "kind": "require-call",
+          "original": "./isArrayLike"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_isIndex.js",
+          "kind": "require-call",
+          "original": "./_isIndex"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isObject.js",
+          "kind": "require-call",
+          "original": "./isObject"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_createAssigner.js": {
+      "bytes": 1042,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_baseRest.js",
+          "kind": "require-call",
+          "original": "./_baseRest"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_isIterateeCall.js",
+          "kind": "require-call",
+          "original": "./_isIterateeCall"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_baseTimes.js": {
+      "bytes": 504,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/isObjectLike.js": {
+      "bytes": 614,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_baseIsArguments.js": {
+      "bytes": 488,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_baseGetTag.js",
+          "kind": "require-call",
+          "original": "./_baseGetTag"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isObjectLike.js",
+          "kind": "require-call",
+          "original": "./isObjectLike"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/isArguments.js": {
+      "bytes": 1026,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_baseIsArguments.js",
+          "kind": "require-call",
+          "original": "./_baseIsArguments"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isObjectLike.js",
+          "kind": "require-call",
+          "original": "./isObjectLike"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/isArray.js": {
+      "bytes": 488,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/stubFalse.js": {
+      "bytes": 280,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/isBuffer.js": {
+      "bytes": 1114,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_root.js",
+          "kind": "require-call",
+          "original": "./_root"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/stubFalse.js",
+          "kind": "require-call",
+          "original": "./stubFalse"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_baseIsTypedArray.js": {
+      "bytes": 2222,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_baseGetTag.js",
+          "kind": "require-call",
+          "original": "./_baseGetTag"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isLength.js",
+          "kind": "require-call",
+          "original": "./isLength"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isObjectLike.js",
+          "kind": "require-call",
+          "original": "./isObjectLike"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_baseUnary.js": {
+      "bytes": 332,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_nodeUtil.js": {
+      "bytes": 995,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_freeGlobal.js",
+          "kind": "require-call",
+          "original": "./_freeGlobal"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/isTypedArray.js": {
+      "bytes": 695,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_baseIsTypedArray.js",
+          "kind": "require-call",
+          "original": "./_baseIsTypedArray"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_baseUnary.js",
+          "kind": "require-call",
+          "original": "./_baseUnary"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_nodeUtil.js",
+          "kind": "require-call",
+          "original": "./_nodeUtil"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_arrayLikeKeys.js": {
+      "bytes": 1778,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_baseTimes.js",
+          "kind": "require-call",
+          "original": "./_baseTimes"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isArguments.js",
+          "kind": "require-call",
+          "original": "./isArguments"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isArray.js",
+          "kind": "require-call",
+          "original": "./isArray"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isBuffer.js",
+          "kind": "require-call",
+          "original": "./isBuffer"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_isIndex.js",
+          "kind": "require-call",
+          "original": "./_isIndex"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isTypedArray.js",
+          "kind": "require-call",
+          "original": "./isTypedArray"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_isPrototype.js": {
+      "bytes": 480,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_nativeKeysIn.js": {
+      "bytes": 490,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_baseKeysIn.js": {
+      "bytes": 870,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/isObject.js",
+          "kind": "require-call",
+          "original": "./isObject"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_isPrototype.js",
+          "kind": "require-call",
+          "original": "./_isPrototype"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_nativeKeysIn.js",
+          "kind": "require-call",
+          "original": "./_nativeKeysIn"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/keysIn.js": {
+      "bytes": 778,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_arrayLikeKeys.js",
+          "kind": "require-call",
+          "original": "./_arrayLikeKeys"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_baseKeysIn.js",
+          "kind": "require-call",
+          "original": "./_baseKeysIn"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isArrayLike.js",
+          "kind": "require-call",
+          "original": "./isArrayLike"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/assignInWith.js": {
+      "bytes": 1256,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_copyObject.js",
+          "kind": "require-call",
+          "original": "./_copyObject"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_createAssigner.js",
+          "kind": "require-call",
+          "original": "./_createAssigner"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/keysIn.js",
+          "kind": "require-call",
+          "original": "./keysIn"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_overArg.js": {
+      "bytes": 382,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_getPrototype.js": {
+      "bytes": 163,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_overArg.js",
+          "kind": "require-call",
+          "original": "./_overArg"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/isPlainObject.js": {
+      "bytes": 1650,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_baseGetTag.js",
+          "kind": "require-call",
+          "original": "./_baseGetTag"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_getPrototype.js",
+          "kind": "require-call",
+          "original": "./_getPrototype"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isObjectLike.js",
+          "kind": "require-call",
+          "original": "./isObjectLike"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/isError.js": {
+      "bytes": 961,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_baseGetTag.js",
+          "kind": "require-call",
+          "original": "./_baseGetTag"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isObjectLike.js",
+          "kind": "require-call",
+          "original": "./isObjectLike"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isPlainObject.js",
+          "kind": "require-call",
+          "original": "./isPlainObject"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/attempt.js": {
+      "bytes": 931,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_apply.js",
+          "kind": "require-call",
+          "original": "./_apply"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_baseRest.js",
+          "kind": "require-call",
+          "original": "./_baseRest"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isError.js",
+          "kind": "require-call",
+          "original": "./isError"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_arrayMap.js": {
+      "bytes": 556,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_baseValues.js": {
+      "bytes": 534,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_arrayMap.js",
+          "kind": "require-call",
+          "original": "./_arrayMap"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_customDefaultsAssignIn.js": {
+      "bytes": 934,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/eq.js",
+          "kind": "require-call",
+          "original": "./eq"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_escapeStringChar.js": {
+      "bytes": 521,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_nativeKeys.js": {
+      "bytes": 204,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_overArg.js",
+          "kind": "require-call",
+          "original": "./_overArg"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_baseKeys.js": {
+      "bytes": 776,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_isPrototype.js",
+          "kind": "require-call",
+          "original": "./_isPrototype"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_nativeKeys.js",
+          "kind": "require-call",
+          "original": "./_nativeKeys"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/keys.js": {
+      "bytes": 884,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_arrayLikeKeys.js",
+          "kind": "require-call",
+          "original": "./_arrayLikeKeys"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_baseKeys.js",
+          "kind": "require-call",
+          "original": "./_baseKeys"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isArrayLike.js",
+          "kind": "require-call",
+          "original": "./isArrayLike"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_reInterpolate.js": {
+      "bytes": 115,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_basePropertyOf.js": {
+      "bytes": 358,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_escapeHtmlChar.js": {
+      "bytes": 479,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_basePropertyOf.js",
+          "kind": "require-call",
+          "original": "./_basePropertyOf"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/isSymbol.js": {
+      "bytes": 682,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_baseGetTag.js",
+          "kind": "require-call",
+          "original": "./_baseGetTag"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isObjectLike.js",
+          "kind": "require-call",
+          "original": "./isObjectLike"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_baseToString.js": {
+      "bytes": 1154,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_Symbol.js",
+          "kind": "require-call",
+          "original": "./_Symbol"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_arrayMap.js",
+          "kind": "require-call",
+          "original": "./_arrayMap"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isArray.js",
+          "kind": "require-call",
+          "original": "./isArray"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isSymbol.js",
+          "kind": "require-call",
+          "original": "./isSymbol"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/toString.js": {
+      "bytes": 580,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_baseToString.js",
+          "kind": "require-call",
+          "original": "./_baseToString"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/escape.js": {
+      "bytes": 1444,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/_escapeHtmlChar.js",
+          "kind": "require-call",
+          "original": "./_escapeHtmlChar"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/toString.js",
+          "kind": "require-call",
+          "original": "./toString"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_reEscape.js": {
+      "bytes": 105,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/_reEvaluate.js": {
+      "bytes": 108,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/templateSettings.js": {
+      "bytes": 1411,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/escape.js",
+          "kind": "require-call",
+          "original": "./escape"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_reEscape.js",
+          "kind": "require-call",
+          "original": "./_reEscape"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_reEvaluate.js",
+          "kind": "require-call",
+          "original": "./_reEvaluate"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_reInterpolate.js",
+          "kind": "require-call",
+          "original": "./_reInterpolate"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/lodash-vulnerable/template.js": {
+      "bytes": 9674,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/assignInWith.js",
+          "kind": "require-call",
+          "original": "./assignInWith"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/attempt.js",
+          "kind": "require-call",
+          "original": "./attempt"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_baseValues.js",
+          "kind": "require-call",
+          "original": "./_baseValues"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_customDefaultsAssignIn.js",
+          "kind": "require-call",
+          "original": "./_customDefaultsAssignIn"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_escapeStringChar.js",
+          "kind": "require-call",
+          "original": "./_escapeStringChar"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/isError.js",
+          "kind": "require-call",
+          "original": "./isError"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_isIterateeCall.js",
+          "kind": "require-call",
+          "original": "./_isIterateeCall"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/keys.js",
+          "kind": "require-call",
+          "original": "./keys"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/_reInterpolate.js",
+          "kind": "require-call",
+          "original": "./_reInterpolate"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/templateSettings.js",
+          "kind": "require-call",
+          "original": "./templateSettings"
+        },
+        {
+          "path": "node_modules/lodash-vulnerable/toString.js",
+          "kind": "require-call",
+          "original": "./toString"
+        }
+      ],
+      "format": "cjs"
+    },
+    "index.js": {
+      "bytes": 116,
+      "imports": [
+        {
+          "path": "node_modules/lodash-vulnerable/template.js",
+          "kind": "require-call",
+          "original": "lodash-vulnerable/template"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../npm-bundle/app.js": {
+      "imports": [],
+      "exports": [],
+      "entryPoint": "index.js",
+      "inputs": {
+        "node_modules/lodash-vulnerable/_freeGlobal.js": {
+          "bytesInOutput": 105
+        },
+        "node_modules/lodash-vulnerable/_root.js": {
+          "bytesInOutput": 141
+        },
+        "node_modules/lodash-vulnerable/_Symbol.js": {
+          "bytesInOutput": 58
+        },
+        "node_modules/lodash-vulnerable/_getRawTag.js": {
+          "bytesInOutput": 254
+        },
+        "node_modules/lodash-vulnerable/_objectToString.js": {
+          "bytesInOutput": 107
+        },
+        "node_modules/lodash-vulnerable/_baseGetTag.js": {
+          "bytesInOutput": 211
+        },
+        "node_modules/lodash-vulnerable/isObject.js": {
+          "bytesInOutput": 109
+        },
+        "node_modules/lodash-vulnerable/isFunction.js": {
+          "bytesInOutput": 235
+        },
+        "node_modules/lodash-vulnerable/_coreJsData.js": {
+          "bytesInOutput": 74
+        },
+        "node_modules/lodash-vulnerable/_isMasked.js": {
+          "bytesInOutput": 183
+        },
+        "node_modules/lodash-vulnerable/_toSource.js": {
+          "bytesInOutput": 165
+        },
+        "node_modules/lodash-vulnerable/_baseIsNative.js": {
+          "bytesInOutput": 409
+        },
+        "node_modules/lodash-vulnerable/_getValue.js": {
+          "bytesInOutput": 66
+        },
+        "node_modules/lodash-vulnerable/_getNative.js": {
+          "bytesInOutput": 108
+        },
+        "node_modules/lodash-vulnerable/_defineProperty.js": {
+          "bytesInOutput": 132
+        },
+        "node_modules/lodash-vulnerable/_baseAssignValue.js": {
+          "bytesInOutput": 150
+        },
+        "node_modules/lodash-vulnerable/eq.js": {
+          "bytesInOutput": 78
+        },
+        "node_modules/lodash-vulnerable/_assignValue.js": {
+          "bytesInOutput": 185
+        },
+        "node_modules/lodash-vulnerable/_copyObject.js": {
+          "bytesInOutput": 219
+        },
+        "node_modules/lodash-vulnerable/identity.js": {
+          "bytesInOutput": 58
+        },
+        "node_modules/lodash-vulnerable/_apply.js": {
+          "bytesInOutput": 216
+        },
+        "node_modules/lodash-vulnerable/_overRest.js": {
+          "bytesInOutput": 275
+        },
+        "node_modules/lodash-vulnerable/constant.js": {
+          "bytesInOutput": 78
+        },
+        "node_modules/lodash-vulnerable/_baseSetToString.js": {
+          "bytesInOutput": 165
+        },
+        "node_modules/lodash-vulnerable/_shortOut.js": {
+          "bytesInOutput": 217
+        },
+        "node_modules/lodash-vulnerable/_setToString.js": {
+          "bytesInOutput": 65
+        },
+        "node_modules/lodash-vulnerable/_baseRest.js": {
+          "bytesInOutput": 105
+        },
+        "node_modules/lodash-vulnerable/isLength.js": {
+          "bytesInOutput": 120
+        },
+        "node_modules/lodash-vulnerable/isArrayLike.js": {
+          "bytesInOutput": 104
+        },
+        "node_modules/lodash-vulnerable/_isIndex.js": {
+          "bytesInOutput": 190
+        },
+        "node_modules/lodash-vulnerable/_isIterateeCall.js": {
+          "bytesInOutput": 195
+        },
+        "node_modules/lodash-vulnerable/_createAssigner.js": {
+          "bytesInOutput": 301
+        },
+        "node_modules/lodash-vulnerable/_baseTimes.js": {
+          "bytesInOutput": 102
+        },
+        "node_modules/lodash-vulnerable/isObjectLike.js": {
+          "bytesInOutput": 84
+        },
+        "node_modules/lodash-vulnerable/_baseIsArguments.js": {
+          "bytesInOutput": 116
+        },
+        "node_modules/lodash-vulnerable/isArguments.js": {
+          "bytesInOutput": 234
+        },
+        "node_modules/lodash-vulnerable/isArray.js": {
+          "bytesInOutput": 55
+        },
+        "node_modules/lodash-vulnerable/stubFalse.js": {
+          "bytesInOutput": 58
+        },
+        "node_modules/lodash-vulnerable/isBuffer.js": {
+          "bytesInOutput": 218
+        },
+        "node_modules/lodash-vulnerable/_baseIsTypedArray.js": {
+          "bytesInOutput": 825
+        },
+        "node_modules/lodash-vulnerable/_baseUnary.js": {
+          "bytesInOutput": 82
+        },
+        "node_modules/lodash-vulnerable/_nodeUtil.js": {
+          "bytesInOutput": 283
+        },
+        "node_modules/lodash-vulnerable/isTypedArray.js": {
+          "bytesInOutput": 102
+        },
+        "node_modules/lodash-vulnerable/_arrayLikeKeys.js": {
+          "bytesInOutput": 419
+        },
+        "node_modules/lodash-vulnerable/_isPrototype.js": {
+          "bytesInOutput": 149
+        },
+        "node_modules/lodash-vulnerable/_nativeKeysIn.js": {
+          "bytesInOutput": 112
+        },
+        "node_modules/lodash-vulnerable/_baseKeysIn.js": {
+          "bytesInOutput": 229
+        },
+        "node_modules/lodash-vulnerable/keysIn.js": {
+          "bytesInOutput": 104
+        },
+        "node_modules/lodash-vulnerable/assignInWith.js": {
+          "bytesInOutput": 105
+        },
+        "node_modules/lodash-vulnerable/_overArg.js": {
+          "bytesInOutput": 86
+        },
+        "node_modules/lodash-vulnerable/_getPrototype.js": {
+          "bytesInOutput": 82
+        },
+        "node_modules/lodash-vulnerable/isPlainObject.js": {
+          "bytesInOutput": 363
+        },
+        "node_modules/lodash-vulnerable/isError.js": {
+          "bytesInOutput": 234
+        },
+        "node_modules/lodash-vulnerable/attempt.js": {
+          "bytesInOutput": 146
+        },
+        "node_modules/lodash-vulnerable/_arrayMap.js": {
+          "bytesInOutput": 129
+        },
+        "node_modules/lodash-vulnerable/_baseValues.js": {
+          "bytesInOutput": 101
+        },
+        "node_modules/lodash-vulnerable/_customDefaultsAssignIn.js": {
+          "bytesInOutput": 158
+        },
+        "node_modules/lodash-vulnerable/_escapeStringChar.js": {
+          "bytesInOutput": 146
+        },
+        "node_modules/lodash-vulnerable/_nativeKeys.js": {
+          "bytesInOutput": 72
+        },
+        "node_modules/lodash-vulnerable/_baseKeys.js": {
+          "bytesInOutput": 216
+        },
+        "node_modules/lodash-vulnerable/keys.js": {
+          "bytesInOutput": 101
+        },
+        "node_modules/lodash-vulnerable/_reInterpolate.js": {
+          "bytesInOutput": 60
+        },
+        "node_modules/lodash-vulnerable/_basePropertyOf.js": {
+          "bytesInOutput": 84
+        },
+        "node_modules/lodash-vulnerable/_escapeHtmlChar.js": {
+          "bytesInOutput": 121
+        },
+        "node_modules/lodash-vulnerable/isSymbol.js": {
+          "bytesInOutput": 133
+        },
+        "node_modules/lodash-vulnerable/_baseToString.js": {
+          "bytesInOutput": 275
+        },
+        "node_modules/lodash-vulnerable/toString.js": {
+          "bytesInOutput": 85
+        },
+        "node_modules/lodash-vulnerable/escape.js": {
+          "bytesInOutput": 152
+        },
+        "node_modules/lodash-vulnerable/_reEscape.js": {
+          "bytesInOutput": 61
+        },
+        "node_modules/lodash-vulnerable/_reEvaluate.js": {
+          "bytesInOutput": 60
+        },
+        "node_modules/lodash-vulnerable/templateSettings.js": {
+          "bytesInOutput": 148
+        },
+        "node_modules/lodash-vulnerable/template.js": {
+          "bytesInOutput": 1405
+        },
+        "index.js": {
+          "bytesInOutput": 64
+        }
+      },
+      "bytes": 12933
+    }
+  }
+}

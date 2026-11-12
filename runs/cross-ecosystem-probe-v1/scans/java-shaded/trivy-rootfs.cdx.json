@@ -1,0 +1,102 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:1c6de8b0-cf46-4c7e-838f-f7b6d6d6f1bc",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T15:33:42+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "00df4e50-a20f-4922-abfb-de020f4bcdb0",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/java-shaded",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:maven/org.apache.commons/commons-compress@1.20",
+      "type": "library",
+      "group": "org.apache.commons",
+      "name": "commons-compress",
+      "version": "1.20",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ea8102748bd33e8368b0d873359b979d3ace1f69"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.commons/commons-compress@1.20",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.example/sbom-shade-probe@1.0.0",
+      "type": "library",
+      "group": "org.example",
+      "name": "sbom-shade-probe",
+      "version": "1.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ea8102748bd33e8368b0d873359b979d3ace1f69"
+        }
+      ],
+      "purl": "pkg:maven/org.example/sbom-shade-probe@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "app.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "00df4e50-a20f-4922-abfb-de020f4bcdb0",
+      "dependsOn": [
+        "pkg:maven/org.apache.commons/commons-compress@1.20",
+        "pkg:maven/org.example/sbom-shade-probe@1.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-compress@1.20",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.example/sbom-shade-probe@1.0.0",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

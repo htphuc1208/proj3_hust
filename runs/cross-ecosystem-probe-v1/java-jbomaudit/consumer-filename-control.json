@@ -1,0 +1,5 @@
+{
+  "original_sha256": "3cbde52cadd27c4306ab245d62d2bb7d3a03809fd6713a2a791953ca780624c0",
+  "renamed_sha256": "3cbde52cadd27c4306ab245d62d2bb7d3a03809fd6713a2a791953ca780624c0",
+  "note": "OSV-Scanner rejects the author's original filename. Byte-identical copy uses .cdx.json; earlier failure retained."
+}

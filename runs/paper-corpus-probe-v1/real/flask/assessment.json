@@ -1,0 +1,905 @@
+{
+  "active_extras": {},
+  "build_reason": null,
+  "build_status": "COMPLETE",
+  "case": "real/flask",
+  "declared_active_edges": 8,
+  "installed": {
+    "environment": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [],
+      "known_extra_edges": [],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 8,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "environment-pyproject": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [],
+      "known_extra_edges": [],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 8,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": [
+        {
+          "installed": "3.2.0.dev0",
+          "name": "flask",
+          "observed": "3.2.0.dev"
+        }
+      ]
+    },
+    "installed-syft": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [],
+      "known_extra_edges": [],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 8,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "installed-trivy": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [],
+      "known_extra_edges": [],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [
+        "blinker",
+        "click",
+        "itsdangerous",
+        "jinja2",
+        "markupsafe",
+        "werkzeug"
+      ],
+      "missing_edge_citations": [
+        {
+          "declarations": [
+            "blinker>=1.9.0"
+          ],
+          "source": "flask",
+          "target": "blinker"
+        },
+        {
+          "declarations": [
+            "click>=8.1.3"
+          ],
+          "source": "flask",
+          "target": "click"
+        },
+        {
+          "declarations": [
+            "itsdangerous>=2.2.0"
+          ],
+          "source": "flask",
+          "target": "itsdangerous"
+        },
+        {
+          "declarations": [
+            "jinja2>=3.1.2"
+          ],
+          "source": "flask",
+          "target": "jinja2"
+        },
+        {
+          "declarations": [
+            "markupsafe>=2.1.1"
+          ],
+          "source": "flask",
+          "target": "markupsafe"
+        },
+        {
+          "declarations": [
+            "werkzeug>=3.1.0"
+          ],
+          "source": "flask",
+          "target": "werkzeug"
+        },
+        {
+          "declarations": [
+            "MarkupSafe>=2.0"
+          ],
+          "source": "jinja2",
+          "target": "markupsafe"
+        },
+        {
+          "declarations": [
+            "markupsafe>=2.1.1"
+          ],
+          "source": "werkzeug",
+          "target": "markupsafe"
+        }
+      ],
+      "missing_edges": [
+        [
+          "flask",
+          "blinker"
+        ],
+        [
+          "flask",
+          "click"
+        ],
+        [
+          "flask",
+          "itsdangerous"
+        ],
+        [
+          "flask",
+          "jinja2"
+        ],
+        [
+          "flask",
+          "markupsafe"
+        ],
+        [
+          "flask",
+          "werkzeug"
+        ],
+        [
+          "jinja2",
+          "markupsafe"
+        ],
+        [
+          "werkzeug",
+          "markupsafe"
+        ]
+      ],
+      "projected_edges": 0,
+      "root_missing_edges": [
+        [
+          "flask",
+          "blinker"
+        ],
+        [
+          "flask",
+          "click"
+        ],
+        [
+          "flask",
+          "itsdangerous"
+        ],
+        [
+          "flask",
+          "jinja2"
+        ],
+        [
+          "flask",
+          "markupsafe"
+        ],
+        [
+          "flask",
+          "werkzeug"
+        ]
+      ],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    }
+  },
+  "installed_packages": 7,
+  "origin_commit": "49943b5a94413a530761350f04e896f76e8d620e",
+  "requested_extra_seeds": {},
+  "root_declared_active_edges": [
+    [
+      "flask",
+      "blinker"
+    ],
+    [
+      "flask",
+      "click"
+    ],
+    [
+      "flask",
+      "itsdangerous"
+    ],
+    [
+      "flask",
+      "jinja2"
+    ],
+    [
+      "flask",
+      "markupsafe"
+    ],
+    [
+      "flask",
+      "werkzeug"
+    ]
+  ],
+  "root_name": "flask",
+  "source": {
+    "cyclonedx": {
+      "exit_code": null,
+      "status": "NO_NATIVE_SOURCE_MODE"
+    },
+    "syft": {
+      "all_dependency_edges": 104,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [
+        "alabaster",
+        "amqp",
+        "anyio",
+        "asgiref",
+        "ast-serialize",
+        "async-timeout",
+        "babel",
+        "billiard",
+        "blinker",
+        "cachetools",
+        "celery",
+        "certifi",
+        "cffi",
+        "cfgv",
+        "charset-normalizer",
+        "click",
+        "click-didyoumean",
+        "click-plugins",
+        "click-repl",
+        "colorama",
+        "cryptography",
+        "distlib",
+        "docutils",
+        "filelock",
+        "flask",
+        "gha-update",
+        "h11",
+        "httpcore",
+        "httpx",
+        "identify",
+        "idna",
+        "imagesize",
+        "iniconfig",
+        "itsdangerous",
+        "jinja2",
+        "kombu",
+        "librt",
+        "markupsafe",
+        "mypy",
+        "mypy-extensions",
+        "nodeenv",
+        "packaging",
+        "pallets-sphinx-themes",
+        "pathspec",
+        "platformdirs",
+        "pluggy",
+        "pre-commit",
+        "pre-commit-uv",
+        "prompt-toolkit",
+        "pycparser",
+        "pygments",
+        "pyproject-api",
+        "pyright",
+        "pytest",
+        "python-discovery",
+        "python-dotenv",
+        "pytz",
+        "pyyaml",
+        "redis",
+        "requests",
+        "roman-numerals",
+        "roman-numerals-py",
+        "ruff",
+        "six",
+        "snowballstemmer",
+        "sphinx",
+        "sphinx-autobuild",
+        "sphinx-notfound-page",
+        "sphinx-tabs",
+        "sphinxcontrib-applehelp",
+        "sphinxcontrib-devhelp",
+        "sphinxcontrib-htmlhelp",
+        "sphinxcontrib-jsmath",
+        "sphinxcontrib-log-cabinet",
+        "sphinxcontrib-qthelp",
+        "sphinxcontrib-serializinghtml",
+        "starlette",
+        "tomli-w",
+        "tox",
+        "tox-uv",
+        "tox-uv-bare",
+        "types-contextvars",
+        "types-dataclasses",
+        "typing-extensions",
+        "urllib3",
+        "uv",
+        "uvicorn",
+        "vine",
+        "virtualenv",
+        "watchfiles",
+        "wcwidth",
+        "websockets",
+        "werkzeug"
+      ],
+      "python_package_records": 100,
+      "python_versions": [
+        {
+          "name": "alabaster",
+          "version": "1.0.0"
+        },
+        {
+          "name": "amqp",
+          "version": "5.1.1"
+        },
+        {
+          "name": "anyio",
+          "version": "4.14.2"
+        },
+        {
+          "name": "asgiref",
+          "version": "3.12.1"
+        },
+        {
+          "name": "ast-serialize",
+          "version": "0.6.0"
+        },
+        {
+          "name": "async-timeout",
+          "version": "4.0.2"
+        },
+        {
+          "name": "babel",
+          "version": "2.18.0"
+        },
+        {
+          "name": "billiard",
+          "version": "3.6.4.0"
+        },
+        {
+          "name": "blinker",
+          "version": "1.6.2"
+        },
+        {
+          "name": "blinker",
+          "version": "1.9.0"
+        },
+        {
+          "name": "cachetools",
+          "version": "7.1.6"
+        },
+        {
+          "name": "celery",
+          "version": "5.2.7"
+        },
+        {
+          "name": "certifi",
+          "version": "2026.7.22"
+        },
+        {
+          "name": "cffi",
+          "version": "2.1.0"
+        },
+        {
+          "name": "cfgv",
+          "version": "3.5.0"
+        },
+        {
+          "name": "charset-normalizer",
+          "version": "3.4.9"
+        },
+        {
+          "name": "click",
+          "version": "8.1.3"
+        },
+        {
+          "name": "click",
+          "version": "8.4.2"
+        },
+        {
+          "name": "click-didyoumean",
+          "version": "0.3.0"
+        },
+        {
+          "name": "click-plugins",
+          "version": "1.1.1"
+        },
+        {
+          "name": "click-repl",
+          "version": "0.2.0"
+        },
+        {
+          "name": "colorama",
+          "version": "0.4.6"
+        },
+        {
+          "name": "cryptography",
+          "version": "49.0.0"
+        },
+        {
+          "name": "distlib",
+          "version": "0.4.3"
+        },
+        {
+          "name": "docutils",
+          "version": "0.21.2"
+        },
+        {
+          "name": "filelock",
+          "version": "3.32.2"
+        },
+        {
+          "name": "flask",
+          "version": "2.3.2"
+        },
+        {
+          "name": "flask",
+          "version": "3.2.0.dev0"
+        },
+        {
+          "name": "gha-update",
+          "version": "0.2.0"
+        },
+        {
+          "name": "h11",
+          "version": "0.16.0"
+        },
+        {
+          "name": "httpcore",
+          "version": "1.0.9"
+        },
+        {
+          "name": "httpx",
+          "version": "0.28.1"
+        },
+        {
+          "name": "identify",
+          "version": "2.6.19"
+        },
+        {
+          "name": "idna",
+          "version": "3.18"
+        },
+        {
+          "name": "imagesize",
+          "version": "2.0.0"
+        },
+        {
+          "name": "iniconfig",
+          "version": "2.3.0"
+        },
+        {
+          "name": "itsdangerous",
+          "version": "2.1.2"
+        },
+        {
+          "name": "itsdangerous",
+          "version": "2.2.0"
+        },
+        {
+          "name": "jinja2",
+          "version": "3.1.2"
+        },
+        {
+          "name": "jinja2",
+          "version": "3.1.6"
+        },
+        {
+          "name": "kombu",
+          "version": "5.2.4"
+        },
+        {
+          "name": "librt",
+          "version": "0.13.0"
+        },
+        {
+          "name": "markupsafe",
+          "version": "2.1.2"
+        },
+        {
+          "name": "markupsafe",
+          "version": "3.0.3"
+        },
+        {
+          "name": "mypy",
+          "version": "2.3.0"
+        },
+        {
+          "name": "mypy-extensions",
+          "version": "1.1.0"
+        },
+        {
+          "name": "nodeenv",
+          "version": "1.10.0"
+        },
+        {
+          "name": "packaging",
+          "version": "26.2"
+        },
+        {
+          "name": "pallets-sphinx-themes",
+          "version": "2.5.0"
+        },
+        {
+          "name": "pathspec",
+          "version": "1.1.1"
+        },
+        {
+          "name": "platformdirs",
+          "version": "4.11.0"
+        },
+        {
+          "name": "pluggy",
+          "version": "1.6.0"
+        },
+        {
+          "name": "pre-commit",
+          "version": "4.6.1"
+        },
+        {
+          "name": "pre-commit-uv",
+          "version": "4.3.0"
+        },
+        {
+          "name": "prompt-toolkit",
+          "version": "3.0.38"
+        },
+        {
+          "name": "pycparser",
+          "version": "3.0"
+        },
+        {
+          "name": "pygments",
+          "version": "2.20.0"
+        },
+        {
+          "name": "pyproject-api",
+          "version": "1.11.0"
+        },
+        {
+          "name": "pyright",
+          "version": "1.1.411"
+        },
+        {
+          "name": "pytest",
+          "version": "9.1.1"
+        },
+        {
+          "name": "python-discovery",
+          "version": "1.5.0"
+        },
+        {
+          "name": "python-dotenv",
+          "version": "1.2.2"
+        },
+        {
+          "name": "pytz",
+          "version": "2023.3"
+        },
+        {
+          "name": "pyyaml",
+          "version": "6.0.3"
+        },
+        {
+          "name": "redis",
+          "version": "4.5.4"
+        },
+        {
+          "name": "requests",
+          "version": "2.34.2"
+        },
+        {
+          "name": "roman-numerals",
+          "version": "4.1.0"
+        },
+        {
+          "name": "roman-numerals-py",
+          "version": "4.1.0"
+        },
+        {
+          "name": "ruff",
+          "version": "0.16.0"
+        },
+        {
+          "name": "six",
+          "version": "1.16.0"
+        },
+        {
+          "name": "snowballstemmer",
+          "version": "3.1.1"
+        },
+        {
+          "name": "sphinx",
+          "version": "8.2.3"
+        },
+        {
+          "name": "sphinx-autobuild",
+          "version": "2025.8.25"
+        },
+        {
+          "name": "sphinx-notfound-page",
+          "version": "1.1.0"
+        },
+        {
+          "name": "sphinx-tabs",
+          "version": "3.5.0"
+        },
+        {
+          "name": "sphinxcontrib-applehelp",
+          "version": "2.0.0"
+        },
+        {
+          "name": "sphinxcontrib-devhelp",
+          "version": "2.0.0"
+        },
+        {
+          "name": "sphinxcontrib-htmlhelp",
+          "version": "2.1.0"
+        },
+        {
+          "name": "sphinxcontrib-jsmath",
+          "version": "1.0.1"
+        },
+        {
+          "name": "sphinxcontrib-log-cabinet",
+          "version": "1.0.1"
+        },
+        {
+          "name": "sphinxcontrib-qthelp",
+          "version": "2.0.0"
+        },
+        {
+          "name": "sphinxcontrib-serializinghtml",
+          "version": "2.0.0"
+        },
+        {
+          "name": "starlette",
+          "version": "1.3.1"
+        },
+        {
+          "name": "tomli-w",
+          "version": "1.2.0"
+        },
+        {
+          "name": "tox",
+          "version": "4.58.0"
+        },
+        {
+          "name": "tox-uv",
+          "version": "1.36.0"
+        },
+        {
+          "name": "tox-uv-bare",
+          "version": "1.36.0"
+        },
+        {
+          "name": "types-contextvars",
+          "version": "2.4.7.3"
+        },
+        {
+          "name": "types-dataclasses",
+          "version": "0.6.6"
+        },
+        {
+          "name": "typing-extensions",
+          "version": "4.16.0"
+        },
+        {
+          "name": "urllib3",
+          "version": "2.7.0"
+        },
+        {
+          "name": "uv",
+          "version": "0.12.0"
+        },
+        {
+          "name": "uvicorn",
+          "version": "0.52.0"
+        },
+        {
+          "name": "vine",
+          "version": "5.0.0"
+        },
+        {
+          "name": "virtualenv",
+          "version": "21.7.1"
+        },
+        {
+          "name": "watchfiles",
+          "version": "1.2.0"
+        },
+        {
+          "name": "wcwidth",
+          "version": "0.2.6"
+        },
+        {
+          "name": "websockets",
+          "version": "17.0"
+        },
+        {
+          "name": "werkzeug",
+          "version": "2.3.3"
+        },
+        {
+          "name": "werkzeug",
+          "version": "3.1.8"
+        }
+      ],
+      "status": null
+    },
+    "trivy": {
+      "all_dependency_edges": 35,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [
+        "amqp",
+        "asgiref",
+        "async-timeout",
+        "billiard",
+        "blinker",
+        "celery",
+        "click",
+        "click-didyoumean",
+        "click-plugins",
+        "click-repl",
+        "colorama",
+        "flask",
+        "itsdangerous",
+        "jinja2",
+        "kombu",
+        "markupsafe",
+        "prompt-toolkit",
+        "python-dotenv",
+        "pytz",
+        "redis",
+        "six",
+        "vine",
+        "wcwidth",
+        "werkzeug"
+      ],
+      "python_package_records": 31,
+      "python_versions": [
+        {
+          "name": "amqp",
+          "version": "5.1.1"
+        },
+        {
+          "name": "asgiref",
+          "version": "3.12.1"
+        },
+        {
+          "name": "async-timeout",
+          "version": "4.0.2"
+        },
+        {
+          "name": "billiard",
+          "version": "3.6.4.0"
+        },
+        {
+          "name": "blinker",
+          "version": "1.6.2"
+        },
+        {
+          "name": "blinker",
+          "version": "1.9.0"
+        },
+        {
+          "name": "celery",
+          "version": "5.2.7"
+        },
+        {
+          "name": "click-didyoumean",
+          "version": "0.3.0"
+        },
+        {
+          "name": "click-plugins",
+          "version": "1.1.1"
+        },
+        {
+          "name": "click-repl",
+          "version": "0.2.0"
+        },
+        {
+          "name": "click",
+          "version": "8.1.3"
+        },
+        {
+          "name": "click",
+          "version": "8.4.2"
+        },
+        {
+          "name": "colorama",
+          "version": "0.4.6"
+        },
+        {
+          "name": "flask",
+          "version": "2.3.2"
+        },
+        {
+          "name": "flask",
+          "version": "3.2.0.dev0"
+        },
+        {
+          "name": "itsdangerous",
+          "version": "2.1.2"
+        },
+        {
+          "name": "itsdangerous",
+          "version": "2.2.0"
+        },
+        {
+          "name": "jinja2",
+          "version": "3.1.2"
+        },
+        {
+          "name": "jinja2",
+          "version": "3.1.6"
+        },
+        {
+          "name": "kombu",
+          "version": "5.2.4"
+        },
+        {
+          "name": "markupsafe",
+          "version": "2.1.2"
+        },
+        {
+          "name": "markupsafe",
+          "version": "3.0.3"
+        },
+        {
+          "name": "prompt-toolkit",
+          "version": "3.0.38"
+        },
+        {
+          "name": "python-dotenv",
+          "version": "1.2.2"
+        },
+        {
+          "name": "pytz",
+          "version": "2023.3"
+        },
+        {
+          "name": "redis",
+          "version": "4.5.4"
+        },
+        {
+          "name": "six",
+          "version": "1.16.0"
+        },
+        {
+          "name": "vine",
+          "version": "5.0.0"
+        },
+        {
+          "name": "wcwidth",
+          "version": "0.2.6"
+        },
+        {
+          "name": "werkzeug",
+          "version": "2.3.3"
+        },
+        {
+          "name": "werkzeug",
+          "version": "3.1.8"
+        }
+      ],
+      "status": null
+    }
+  },
+  "unresolved_declarations": []
+}

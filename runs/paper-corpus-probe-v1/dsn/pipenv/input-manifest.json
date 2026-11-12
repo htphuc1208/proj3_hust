@@ -1,0 +1,11 @@
+{
+  "entrypoint": null,
+  "hashes": {
+    "Pipfile": "3ca1d152ced9394d976dfe42588a64bacef98022aa107b0cffead1101afe8cc6"
+  },
+  "id": "dsn/pipenv",
+  "kind": "dsn",
+  "native": "pipenv",
+  "origin_commit": "e6bcf23b2f4e384f9fc398793529583845612b63",
+  "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/dsn/pipenv"
+}

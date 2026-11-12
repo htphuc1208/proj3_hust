@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-11-11T15:47:10.122097+00:00",
+  "kind": "Exploratory evidence, purposive mechanisms; not population estimates or a novel recovery evaluation",
+  "document_count": 93,
+  "checks_passed": 20,
+  "checks_total": 20,
+  "go_stdlib_advisory_record_count": 164,
+  "rust_regex_advisory_ids": [
+    "RUSTSEC-2022-0013",
+    "GHSA-m5pq-gvj9-9vr8"
+  ],
+  "rust_regex_unique_CVE_ids": [
+    "CVE-2022-24713"
+  ],
+  "schema_statuses": {
+    "SCHEMA_NOT_CACHED": 1,
+    "VALID": 92
+  },
+  "input_mismatches": []
+}

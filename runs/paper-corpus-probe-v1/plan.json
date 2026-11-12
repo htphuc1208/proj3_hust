@@ -1,0 +1,257 @@
+{
+  "build_timeout_seconds": 900,
+  "cases": [
+    {
+      "entrypoint": "requirements.txt",
+      "id": "dsn/requirements",
+      "kind": "dsn",
+      "native": "requirements",
+      "origin_commit": "e6bcf23b2f4e384f9fc398793529583845612b63",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/dsn/requirements"
+    },
+    {
+      "entrypoint": "r.txt",
+      "id": "dsn/continuations",
+      "kind": "dsn",
+      "native": "requirements",
+      "origin_commit": "e6bcf23b2f4e384f9fc398793529583845612b63",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/dsn/continuations"
+    },
+    {
+      "entrypoint": null,
+      "id": "dsn/poetry",
+      "kind": "dsn",
+      "native": "poetry",
+      "origin_commit": "e6bcf23b2f4e384f9fc398793529583845612b63",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/dsn/poetry"
+    },
+    {
+      "entrypoint": null,
+      "id": "dsn/pipenv",
+      "kind": "dsn",
+      "native": "pipenv",
+      "origin_commit": "e6bcf23b2f4e384f9fc398793529583845612b63",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/dsn/pipenv"
+    },
+    {
+      "entrypoint": null,
+      "id": "cofano/hatch-hatchling",
+      "kind": "cofano",
+      "native": null,
+      "origin_commit": "e2070973821f188cd64c5b17a24b06872f2cdc3a",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/hatch-hatchling"
+    },
+    {
+      "entrypoint": null,
+      "id": "cofano/hatch-pdm",
+      "kind": "cofano",
+      "native": null,
+      "origin_commit": "e2070973821f188cd64c5b17a24b06872f2cdc3a",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/hatch-pdm"
+    },
+    {
+      "entrypoint": null,
+      "id": "cofano/hatch-setuptools",
+      "kind": "cofano",
+      "native": null,
+      "origin_commit": "e2070973821f188cd64c5b17a24b06872f2cdc3a",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/hatch-setuptools"
+    },
+    {
+      "entrypoint": null,
+      "id": "cofano/pdm-flit",
+      "kind": "cofano",
+      "native": null,
+      "origin_commit": "e2070973821f188cd64c5b17a24b06872f2cdc3a",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/pdm-flit"
+    },
+    {
+      "entrypoint": null,
+      "id": "cofano/pdm-hatchling",
+      "kind": "cofano",
+      "native": null,
+      "origin_commit": "e2070973821f188cd64c5b17a24b06872f2cdc3a",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/pdm-hatchling"
+    },
+    {
+      "entrypoint": null,
+      "id": "cofano/pdm-pdm",
+      "kind": "cofano",
+      "native": null,
+      "origin_commit": "e2070973821f188cd64c5b17a24b06872f2cdc3a",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/pdm-pdm"
+    },
+    {
+      "entrypoint": null,
+      "id": "cofano/pdm-setuptools",
+      "kind": "cofano",
+      "native": null,
+      "origin_commit": "e2070973821f188cd64c5b17a24b06872f2cdc3a",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/pdm-setuptools"
+    },
+    {
+      "entrypoint": "requirements.txt",
+      "id": "cofano/pip-hatchling",
+      "kind": "cofano",
+      "native": "requirements",
+      "origin_commit": "e2070973821f188cd64c5b17a24b06872f2cdc3a",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/pip-hatchling"
+    },
+    {
+      "entrypoint": "requirements.txt",
+      "id": "cofano/pip-pdm",
+      "kind": "cofano",
+      "native": "requirements",
+      "origin_commit": "e2070973821f188cd64c5b17a24b06872f2cdc3a",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/pip-pdm"
+    },
+    {
+      "entrypoint": "requirements.txt",
+      "id": "cofano/pip-setuptools",
+      "kind": "cofano",
+      "native": "requirements",
+      "origin_commit": "e2070973821f188cd64c5b17a24b06872f2cdc3a",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/pip-setuptools"
+    },
+    {
+      "entrypoint": null,
+      "id": "cofano/pipenv-pdm",
+      "kind": "cofano-pipenv",
+      "native": "pipenv",
+      "origin_commit": "e2070973821f188cd64c5b17a24b06872f2cdc3a",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/pipenv-pdm"
+    },
+    {
+      "entrypoint": null,
+      "id": "cofano/poetry-poetry",
+      "kind": "cofano",
+      "native": "poetry",
+      "origin_commit": "e2070973821f188cd64c5b17a24b06872f2cdc3a",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/poetry-poetry"
+    },
+    {
+      "acquisition_exit_code": 0,
+      "entrypoint": null,
+      "id": "real/thefuck",
+      "kind": "real",
+      "native": null,
+      "origin_commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+      "origin_url": "https://github.com/nvbn/thefuck",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/real/thefuck"
+    },
+    {
+      "acquisition_exit_code": 0,
+      "entrypoint": null,
+      "id": "real/flask",
+      "kind": "real",
+      "native": null,
+      "origin_commit": "49943b5a94413a530761350f04e896f76e8d620e",
+      "origin_url": "https://github.com/pallets/flask",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/real/flask"
+    },
+    {
+      "acquisition_exit_code": 0,
+      "entrypoint": null,
+      "id": "real/keras",
+      "kind": "real",
+      "native": null,
+      "origin_commit": "a4a9199bc0d2beabf77882f615d2e64dd20bf9f6",
+      "origin_url": "https://github.com/keras-team/keras",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/real/keras"
+    },
+    {
+      "acquisition_exit_code": 0,
+      "entrypoint": null,
+      "id": "real/rich",
+      "kind": "real",
+      "native": null,
+      "origin_commit": "3a109ccdffe5b2d0e30684a304fbd388e99ce57b",
+      "origin_url": "https://github.com/Textualize/rich",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/real/rich"
+    },
+    {
+      "acquisition_exit_code": 0,
+      "entrypoint": null,
+      "id": "real/requests",
+      "kind": "real",
+      "native": null,
+      "origin_commit": "3c7baaa05ab4aa49cc819ce3a819d260de19c157",
+      "origin_url": "https://github.com/psf/requests",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/real/requests"
+    },
+    {
+      "acquisition_exit_code": 0,
+      "entrypoint": null,
+      "id": "real/gym",
+      "kind": "real",
+      "native": null,
+      "origin_commit": "bc212954b6713d5db303b3ead124de6cba66063e",
+      "origin_url": "https://github.com/openai/gym",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/real/gym"
+    },
+    {
+      "acquisition_exit_code": 0,
+      "entrypoint": null,
+      "id": "real/pytorch-lightning",
+      "kind": "real",
+      "native": null,
+      "origin_commit": "84df182f50ab34301aabb3c0eb4031815bfb413d",
+      "origin_url": "https://github.com/Lightning-AI/pytorch-lightning",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/real/pytorch-lightning"
+    },
+    {
+      "acquisition_exit_code": 0,
+      "entrypoint": null,
+      "id": "real/python-fire",
+      "kind": "real",
+      "native": null,
+      "origin_commit": "716bbc23d7eca949fdb682172283c8d18f742cb6",
+      "origin_url": "https://github.com/google/python-fire",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/real/python-fire"
+    },
+    {
+      "acquisition_exit_code": 0,
+      "entrypoint": null,
+      "id": "real/cookiecutter",
+      "kind": "real",
+      "native": null,
+      "origin_commit": "c88fbe921c97c58b65f1883ba90a0ab53cc91b34",
+      "origin_url": "https://github.com/cookiecutter/cookiecutter",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/real/cookiecutter"
+    },
+    {
+      "acquisition_exit_code": 0,
+      "entrypoint": null,
+      "id": "real/loguru",
+      "kind": "real",
+      "native": null,
+      "origin_commit": "f85a973c06d73e3dc9affe8a95e507c1ecf175d9",
+      "origin_url": "https://github.com/Delgan/loguru",
+      "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/real/loguru"
+    }
+  ],
+  "clarification": "DSN literal requests[security] seeds were present in original input/install; no input or installation changed.",
+  "cyclonedx": "8.0.1",
+  "image": "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+  "network": "Only acquisition/build may use network",
+  "per_wheel_limit_bytes": 536870912,
+  "root_extras": {
+    "default": [],
+    "dsn/continuations": {
+      "requests": [
+        "security"
+      ]
+    },
+    "dsn/requirements": {
+      "requests": [
+        "security"
+      ]
+    }
+  },
+  "runtime": "Linux Python 3.11.16",
+  "scope": "Exploratory probes on paper artifacts; not a held-out study or exact historical reproduction",
+  "tools": {
+    "syft": "dbf75864e7a7ff9e1fbf00552c31483f693188632a9f68f343cd7653dac513d6",
+    "trivy": "d1dfca6ae10a1ad4540bb94e64f0510077c47008920a9b554986b39dca573d83"
+  }
+}

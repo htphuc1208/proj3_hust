@@ -1,0 +1,213 @@
+{
+  "active_extras": {},
+  "build_reason": null,
+  "build_status": "COMPLETE",
+  "case": "real/requests",
+  "declared_active_edges": 4,
+  "installed": {
+    "environment": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [],
+      "known_extra_edges": [],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 4,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "environment-pyproject": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [],
+      "known_extra_edges": [],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 4,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [
+        "requests"
+      ],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "installed-syft": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [],
+      "known_extra_edges": [],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 4,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "installed-trivy": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [],
+      "known_extra_edges": [],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [
+        "certifi",
+        "charset-normalizer",
+        "idna",
+        "urllib3"
+      ],
+      "missing_edge_citations": [
+        {
+          "declarations": [
+            "certifi>=2023.5.7"
+          ],
+          "source": "requests",
+          "target": "certifi"
+        },
+        {
+          "declarations": [
+            "charset_normalizer<4,>=2"
+          ],
+          "source": "requests",
+          "target": "charset-normalizer"
+        },
+        {
+          "declarations": [
+            "idna<4,>=2.5"
+          ],
+          "source": "requests",
+          "target": "idna"
+        },
+        {
+          "declarations": [
+            "urllib3<3,>=1.26"
+          ],
+          "source": "requests",
+          "target": "urllib3"
+        }
+      ],
+      "missing_edges": [
+        [
+          "requests",
+          "certifi"
+        ],
+        [
+          "requests",
+          "charset-normalizer"
+        ],
+        [
+          "requests",
+          "idna"
+        ],
+        [
+          "requests",
+          "urllib3"
+        ]
+      ],
+      "projected_edges": 0,
+      "root_missing_edges": [
+        [
+          "requests",
+          "certifi"
+        ],
+        [
+          "requests",
+          "charset-normalizer"
+        ],
+        [
+          "requests",
+          "idna"
+        ],
+        [
+          "requests",
+          "urllib3"
+        ]
+      ],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    }
+  },
+  "installed_packages": 5,
+  "origin_commit": "3c7baaa05ab4aa49cc819ce3a819d260de19c157",
+  "requested_extra_seeds": {},
+  "root_declared_active_edges": [
+    [
+      "requests",
+      "certifi"
+    ],
+    [
+      "requests",
+      "charset-normalizer"
+    ],
+    [
+      "requests",
+      "idna"
+    ],
+    [
+      "requests",
+      "urllib3"
+    ]
+  ],
+  "root_name": "requests",
+  "source": {
+    "cyclonedx": {
+      "exit_code": null,
+      "status": "NO_NATIVE_SOURCE_MODE"
+    },
+    "syft": {
+      "all_dependency_edges": 0,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [
+        "pytest-httpbin",
+        "sphinx"
+      ],
+      "python_package_records": 2,
+      "python_versions": [
+        {
+          "name": "pytest-httpbin",
+          "version": "2.1.0"
+        },
+        {
+          "name": "sphinx",
+          "version": "7.2.6"
+        }
+      ],
+      "status": null
+    },
+    "trivy": {
+      "all_dependency_edges": 2,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [
+        "sphinx"
+      ],
+      "python_package_records": 1,
+      "python_versions": [
+        {
+          "name": "Sphinx",
+          "version": "7.2.6"
+        }
+      ],
+      "status": null
+    }
+  },
+  "unresolved_declarations": []
+}

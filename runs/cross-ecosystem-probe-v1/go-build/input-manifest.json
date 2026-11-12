@@ -1,0 +1,10 @@
+{
+  "source": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/go-build",
+  "files": {
+    "main.go": "8dd4a547844f8255fec794a93b98620b5cc259d3eeedb86ef64c177d97b0a170",
+    "main_test.go": "9018d61d2a48031f256b83adaa03c9ca9fb91350b1d06c4e19f2e411299a328d",
+    "windows.go": "c61371a65a520efa2d54183347810bb1978836db78afad80cf7ff9ee65338938",
+    "go.mod": "e9a2f06c1bedff4c3f790e756ae1a6979f7924e6f5a6864d16aa96c82544916f",
+    "go.sum": "e89bece1c990d064c924937b318c0b6ac2213d8224c8fc7cfd8327fc40798193"
+  }
+}

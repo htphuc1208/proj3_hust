@@ -1,0 +1,6 @@
+error: Couldn't parse requirement in `r.txt` at position 21
+  Caused by: Expected one of `@`, `(`, `<`, `=`, `>`, `~`, `!`, `;`, found `\`
+    numpy \
+    ==\
+    1.26.2
+          ^

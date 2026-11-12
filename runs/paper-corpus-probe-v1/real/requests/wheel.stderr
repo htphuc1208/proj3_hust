@@ -1,0 +1,215 @@
+Building wheel...
+/cache/builds-v0/.tmpXzNBxt/lib/python3.11/site-packages/setuptools/config/_apply_pyprojecttoml.py:82: SetuptoolsDeprecationWarning: `project.license` as a TOML table is deprecated
+!!
+
+        ********************************************************************************
+        Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+
+        By 2027-Feb-18, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  corresp(dist, value, root_dir)
+/cache/builds-v0/.tmpXzNBxt/lib/python3.11/site-packages/setuptools/config/_apply_pyprojecttoml.py:55: SetuptoolsDeprecationWarning: 'tool.setuptools.license-files' is deprecated in favor of 'project.license-files' (available on setuptools>=77.0.0).
+!!
+
+        ********************************************************************************
+
+        By 2027-Feb-18, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license-files for details.
+        ********************************************************************************
+
+!!
+  _apply_tool_table(dist, config, filename)
+/cache/builds-v0/.tmpXzNBxt/lib/python3.11/site-packages/setuptools/config/_apply_pyprojecttoml.py:61: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: Apache Software License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  dist._finalize_license_expression()
+/cache/builds-v0/.tmpXzNBxt/lib/python3.11/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: Apache Software License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+running egg_info
+creating src/requests.egg-info
+writing src/requests.egg-info/PKG-INFO
+writing dependency_links to src/requests.egg-info/dependency_links.txt
+writing requirements to src/requests.egg-info/requires.txt
+writing top-level names to src/requests.egg-info/top_level.txt
+writing manifest file 'src/requests.egg-info/SOURCES.txt'
+reading manifest file 'src/requests.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+adding license file 'NOTICE'
+writing manifest file 'src/requests.egg-info/SOURCES.txt'
+/cache/builds-v0/.tmpXzNBxt/lib/python3.11/site-packages/setuptools/config/_apply_pyprojecttoml.py:82: SetuptoolsDeprecationWarning: `project.license` as a TOML table is deprecated
+!!
+
+        ********************************************************************************
+        Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+
+        By 2027-Feb-18, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  corresp(dist, value, root_dir)
+/cache/builds-v0/.tmpXzNBxt/lib/python3.11/site-packages/setuptools/config/_apply_pyprojecttoml.py:55: SetuptoolsDeprecationWarning: 'tool.setuptools.license-files' is deprecated in favor of 'project.license-files' (available on setuptools>=77.0.0).
+!!
+
+        ********************************************************************************
+
+        By 2027-Feb-18, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license-files for details.
+        ********************************************************************************
+
+!!
+  _apply_tool_table(dist, config, filename)
+/cache/builds-v0/.tmpXzNBxt/lib/python3.11/site-packages/setuptools/config/_apply_pyprojecttoml.py:61: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: Apache Software License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  dist._finalize_license_expression()
+/cache/builds-v0/.tmpXzNBxt/lib/python3.11/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: Apache Software License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+running bdist_wheel
+running build
+running build_py
+creating build/lib/requests
+copying src/requests/__init__.py -> build/lib/requests
+copying src/requests/models.py -> build/lib/requests
+copying src/requests/sessions.py -> build/lib/requests
+copying src/requests/certs.py -> build/lib/requests
+copying src/requests/adapters.py -> build/lib/requests
+copying src/requests/exceptions.py -> build/lib/requests
+copying src/requests/utils.py -> build/lib/requests
+copying src/requests/cookies.py -> build/lib/requests
+copying src/requests/packages.py -> build/lib/requests
+copying src/requests/help.py -> build/lib/requests
+copying src/requests/compat.py -> build/lib/requests
+copying src/requests/hooks.py -> build/lib/requests
+copying src/requests/_types.py -> build/lib/requests
+copying src/requests/status_codes.py -> build/lib/requests
+copying src/requests/_internal_utils.py -> build/lib/requests
+copying src/requests/auth.py -> build/lib/requests
+copying src/requests/structures.py -> build/lib/requests
+copying src/requests/api.py -> build/lib/requests
+copying src/requests/__version__.py -> build/lib/requests
+running egg_info
+writing src/requests.egg-info/PKG-INFO
+writing dependency_links to src/requests.egg-info/dependency_links.txt
+writing requirements to src/requests.egg-info/requires.txt
+writing top-level names to src/requests.egg-info/top_level.txt
+reading manifest file 'src/requests.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+adding license file 'NOTICE'
+writing manifest file 'src/requests.egg-info/SOURCES.txt'
+copying src/requests/py.typed -> build/lib/requests
+warning: build_py: byte-compiling is disabled, skipping.
+
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/requests
+copying build/lib/requests/__init__.py -> build/bdist.linux-x86_64/wheel/./requests
+copying build/lib/requests/models.py -> build/bdist.linux-x86_64/wheel/./requests
+copying build/lib/requests/sessions.py -> build/bdist.linux-x86_64/wheel/./requests
+copying build/lib/requests/certs.py -> build/bdist.linux-x86_64/wheel/./requests
+copying build/lib/requests/adapters.py -> build/bdist.linux-x86_64/wheel/./requests
+copying build/lib/requests/exceptions.py -> build/bdist.linux-x86_64/wheel/./requests
+copying build/lib/requests/utils.py -> build/bdist.linux-x86_64/wheel/./requests
+copying build/lib/requests/py.typed -> build/bdist.linux-x86_64/wheel/./requests
+copying build/lib/requests/cookies.py -> build/bdist.linux-x86_64/wheel/./requests
+copying build/lib/requests/packages.py -> build/bdist.linux-x86_64/wheel/./requests
+copying build/lib/requests/help.py -> build/bdist.linux-x86_64/wheel/./requests
+copying build/lib/requests/compat.py -> build/bdist.linux-x86_64/wheel/./requests
+copying build/lib/requests/hooks.py -> build/bdist.linux-x86_64/wheel/./requests
+copying build/lib/requests/_types.py -> build/bdist.linux-x86_64/wheel/./requests
+copying build/lib/requests/status_codes.py -> build/bdist.linux-x86_64/wheel/./requests
+copying build/lib/requests/_internal_utils.py -> build/bdist.linux-x86_64/wheel/./requests
+copying build/lib/requests/auth.py -> build/bdist.linux-x86_64/wheel/./requests
+copying build/lib/requests/structures.py -> build/bdist.linux-x86_64/wheel/./requests
+copying build/lib/requests/api.py -> build/bdist.linux-x86_64/wheel/./requests
+copying build/lib/requests/__version__.py -> build/bdist.linux-x86_64/wheel/./requests
+warning: install_lib: byte-compiling is disabled, skipping.
+
+running install_egg_info
+Copying src/requests.egg-info to build/bdist.linux-x86_64/wheel/./requests-2.34.2-py3.11.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/requests-2.34.2.dist-info/WHEEL
+creating '/out/wheels/.tmp-94ue39mq/requests-2.34.2-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'requests/__init__.py'
+adding 'requests/__version__.py'
+adding 'requests/_internal_utils.py'
+adding 'requests/_types.py'
+adding 'requests/adapters.py'
+adding 'requests/api.py'
+adding 'requests/auth.py'
+adding 'requests/certs.py'
+adding 'requests/compat.py'
+adding 'requests/cookies.py'
+adding 'requests/exceptions.py'
+adding 'requests/help.py'
+adding 'requests/hooks.py'
+adding 'requests/models.py'
+adding 'requests/packages.py'
+adding 'requests/py.typed'
+adding 'requests/sessions.py'
+adding 'requests/status_codes.py'
+adding 'requests/structures.py'
+adding 'requests/utils.py'
+adding 'requests-2.34.2.dist-info/licenses/LICENSE'
+adding 'requests-2.34.2.dist-info/licenses/NOTICE'
+adding 'requests-2.34.2.dist-info/METADATA'
+adding 'requests-2.34.2.dist-info/WHEEL'
+adding 'requests-2.34.2.dist-info/top_level.txt'
+adding 'requests-2.34.2.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Successfully built /out/wheels/requests-2.34.2-py3-none-any.whl

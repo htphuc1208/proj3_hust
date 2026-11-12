@@ -1,0 +1,8 @@
+Building wheel...
+ - Adding src/pip-pdm/__init__.py -> pip-pdm/__init__.py
+ - Adding src/pip-pdm/main.py -> pip-pdm/main.py
+ - Adding .pdm-build/pip_pdm-0.0.1.dist-info/METADATA -> pip_pdm-0.0.1.dist-info/METADATA
+ - Adding .pdm-build/pip_pdm-0.0.1.dist-info/WHEEL -> pip_pdm-0.0.1.dist-info/WHEEL
+ - Adding .pdm-build/pip_pdm-0.0.1.dist-info/entry_points.txt -> pip_pdm-0.0.1.dist-info/entry_points.txt
+ - Adding pip_pdm-0.0.1.dist-info/RECORD -> pip_pdm-0.0.1.dist-info/RECORD
+Successfully built /out/wheels/pip_pdm-0.0.1-py3-none-any.whl

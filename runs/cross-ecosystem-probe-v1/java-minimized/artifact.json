@@ -1,0 +1,14 @@
+{
+  "sha256": "6a8bf0c96133822718878491bbfbedb196dd9ca0843fc33297e773aea1b2a55f",
+  "commons_compress_classes": [],
+  "surviving_metadata": [
+    "META-INF/maven/org.apache.commons/commons-compress/",
+    "META-INF/maven/org.apache.commons/commons-compress/pom.xml",
+    "META-INF/maven/org.apache.commons/commons-compress/pom.properties"
+  ],
+  "all_classes": [
+    "org/example/App.class"
+  ],
+  "build_variant": "maven-shade minimizeJar=true, unused direct dependency",
+  "note": "Declared/build dependency remains true. No commons-compress bytecode is shipped in this JAR; package CVEs do not establish exposure."
+}

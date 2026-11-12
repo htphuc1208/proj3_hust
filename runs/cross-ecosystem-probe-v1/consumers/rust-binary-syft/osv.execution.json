@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/osv-scanner",
+    "scan",
+    "source",
+    "--no-resolve",
+    "--no-call-analysis=go",
+    "--format=json",
+    "--all-packages",
+    "--all-vulns",
+    "--sbom",
+    "/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/scans/rust-binary/syft.cdx.json"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:45:10.736898+00:00",
+  "environment_overrides": {},
+  "exit_code": 128,
+  "seconds": 0.05724722000013571
+}

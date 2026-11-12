@@ -1,0 +1,11 @@
+Using Python 3.11.16 environment at: /out/target
+Resolved 7 packages in 7ms
+Prepared 6 packages in 413ms
+Installed 7 packages in 84ms
+ + colorama==0.4.6
+ + decorator==5.3.1
+ + psutil==7.2.2
+ + pyte==0.8.2
+ + six==1.17.0
+ + thefuck==3.32 (from file:///out/wheels/thefuck-3.32-py2.py3-none-any.whl)
+ + wcwidth==0.9.4

@@ -1,0 +1,16 @@
+{
+  "case": "java-native",
+  "sbom": "java-shade/cyclonedx-maven.cdx.json",
+  "sbom_sha256": "70d2583d85eb4b55d3db92f5686c13f58e4bccd43bf6dfedcc0a8102cdf773c8",
+  "exit_code": 1,
+  "packages": {
+    "Maven:org.apache.commons:commons-compress@1.20": [
+      "GHSA-4g9r-vxhx-9pgx",
+      "GHSA-7hfm-57qf-j43q",
+      "GHSA-crv7-7245-f45f",
+      "GHSA-mc84-pj99-q6hh",
+      "GHSA-xqfj-vm6h-2x34"
+    ]
+  },
+  "has_parseable_json": true
+}

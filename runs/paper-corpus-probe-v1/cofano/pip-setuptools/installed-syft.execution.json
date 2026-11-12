@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/syft",
+    "scan",
+    "dir:/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/cofano/pip-setuptools/target",
+    "-o",
+    "cyclonedx-json=/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/cofano/pip-setuptools/installed-syft.cdx.json"
+  ],
+  "exit_code": 0,
+  "seconds": 3.7199006539995025
+}

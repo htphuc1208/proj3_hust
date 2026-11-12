@@ -1,0 +1,6 @@
+{
+  "artifact": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/npm-bundle/app.js",
+  "sha256": "66b4b35a300c986ec699a85b614b78460ada4124fd10704ae2090f3d3c6a310e",
+  "metafile_sha256": "34099857d1c9c2d44406c85982bc30de476c75e8879660097b7519606c0a60ec",
+  "note": "Controlled derived artifact, not an independent real application; original npm package versions unchanged"
+}

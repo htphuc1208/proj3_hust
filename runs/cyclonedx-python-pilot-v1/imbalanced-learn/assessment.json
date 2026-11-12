@@ -1,0 +1,71 @@
+{
+  "active_extras": {},
+  "actual_edges": 14,
+  "application_expected_edges": 12,
+  "application_extra_edges": [
+    [
+      "scipy",
+      "threadpoolctl"
+    ]
+  ],
+  "application_missing_edges": [],
+  "application_packages": 7,
+  "application_unexpected_reachable_packages": [],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.11.16",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_python_implementation": "CPython",
+    "platform_release": "7.0.0-30-generic",
+    "platform_system": "Linux",
+    "platform_version": "#30~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:27:52 UTC 2",
+    "python_full_version": "3.11.16",
+    "python_version": "3.11",
+    "sys_platform": "linux"
+  },
+  "expected_edges": 12,
+  "extra_edge_explanations": [
+    {
+      "marker_results": [
+        false
+      ],
+      "reason": "All matching installed declarations inactive",
+      "requirements": [
+        "threadpoolctl; extra == \"test\""
+      ],
+      "source": "scipy",
+      "target": "threadpoolctl"
+    },
+    {
+      "marker_results": [
+        false
+      ],
+      "reason": "All matching installed declarations inactive",
+      "requirements": [
+        "pip>=19.1; extra == \"test\""
+      ],
+      "source": "setuptools",
+      "target": "pip"
+    }
+  ],
+  "extra_edges": [
+    [
+      "scipy",
+      "threadpoolctl"
+    ],
+    [
+      "setuptools",
+      "pip"
+    ]
+  ],
+  "independently_recomputed_reference_matches": true,
+  "input_root": "imbalanced-learn==0.14.1",
+  "installed_packages": 9,
+  "missing_edges": [],
+  "pip_inspect_sha256": "69965d1f24db95a5f94e456a5863e34f53201ca072e7a85bb0a4bc109864bff3",
+  "project": "imbalanced-learn",
+  "saved_reference_sha256": "f5e3efd819d46ab60441fc0f5230ced9c9ece5538d97a252ae164736cdd325ce",
+  "unresolved_requirements": [],
+  "version": "0.14.1"
+}

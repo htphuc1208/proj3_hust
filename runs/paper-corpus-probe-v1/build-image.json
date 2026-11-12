@@ -1,0 +1,10 @@
+{
+  "image_id": "sha256:c42b5834f27dee87481320931d5998ea4b4db4eec90510ce854cd19358ea3370",
+  "tag": "sbom-paper-corpus:py311-git",
+  "base_image": "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+  "extra_system_packages": [
+    "git",
+    "ca-certificates"
+  ],
+  "extra_build_constraints": "setuptools==80.9.0; compatibility variant, original failures preserved in attempts/"
+}

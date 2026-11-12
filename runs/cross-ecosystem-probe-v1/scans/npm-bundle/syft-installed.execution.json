@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/syft",
+    "scan",
+    "dir:/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/npm-bundle",
+    "--select-catalogers",
+    "installed",
+    "-o",
+    "cyclonedx-json=/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/scans/npm-bundle/syft-installed.cdx.json"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:33:38.399030+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 1.6590689990007377
+}

@@ -1,0 +1,155 @@
+{
+  "active_extras": {},
+  "actual_edges": 18,
+  "application_expected_edges": 11,
+  "application_extra_edges": [
+    [
+      "virtualenv",
+      "packaging"
+    ],
+    [
+      "virtualenv",
+      "setuptools"
+    ]
+  ],
+  "application_missing_edges": [],
+  "application_packages": 11,
+  "application_unexpected_reachable_packages": [
+    "pip",
+    "setuptools"
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.11.16",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_python_implementation": "CPython",
+    "platform_release": "7.0.0-30-generic",
+    "platform_system": "Linux",
+    "platform_version": "#30~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:27:52 UTC 2",
+    "python_full_version": "3.11.16",
+    "python_version": "3.11",
+    "sys_platform": "linux"
+  },
+  "expected_edges": 11,
+  "extra_edge_explanations": [
+    {
+      "marker_results": [
+        false
+      ],
+      "reason": "All matching installed declarations inactive",
+      "requirements": [
+        "filelock>=3.4.0; extra == \"test\""
+      ],
+      "source": "setuptools",
+      "target": "filelock"
+    },
+    {
+      "marker_results": [
+        false,
+        false
+      ],
+      "reason": "All matching installed declarations inactive",
+      "requirements": [
+        "packaging>=24.2; extra == \"test\"",
+        "packaging>=24.2; extra == \"core\""
+      ],
+      "source": "setuptools",
+      "target": "packaging"
+    },
+    {
+      "marker_results": [
+        false
+      ],
+      "reason": "All matching installed declarations inactive",
+      "requirements": [
+        "pip>=19.1; extra == \"test\""
+      ],
+      "source": "setuptools",
+      "target": "pip"
+    },
+    {
+      "marker_results": [
+        false
+      ],
+      "reason": "All matching installed declarations inactive",
+      "requirements": [
+        "platformdirs>=4.2.2; extra == \"core\""
+      ],
+      "source": "setuptools",
+      "target": "platformdirs"
+    },
+    {
+      "marker_results": [
+        false
+      ],
+      "reason": "All matching installed declarations inactive",
+      "requirements": [
+        "virtualenv>=13.0.0; extra == \"test\""
+      ],
+      "source": "setuptools",
+      "target": "virtualenv"
+    },
+    {
+      "marker_results": [
+        false
+      ],
+      "reason": "All matching installed declarations inactive",
+      "requirements": [
+        "packaging>=23.1; extra == \"test\""
+      ],
+      "source": "virtualenv",
+      "target": "packaging"
+    },
+    {
+      "marker_results": [
+        false
+      ],
+      "reason": "All matching installed declarations inactive",
+      "requirements": [
+        "setuptools>=68; extra == \"test\""
+      ],
+      "source": "virtualenv",
+      "target": "setuptools"
+    }
+  ],
+  "extra_edges": [
+    [
+      "setuptools",
+      "filelock"
+    ],
+    [
+      "setuptools",
+      "packaging"
+    ],
+    [
+      "setuptools",
+      "pip"
+    ],
+    [
+      "setuptools",
+      "platformdirs"
+    ],
+    [
+      "setuptools",
+      "virtualenv"
+    ],
+    [
+      "virtualenv",
+      "packaging"
+    ],
+    [
+      "virtualenv",
+      "setuptools"
+    ]
+  ],
+  "independently_recomputed_reference_matches": true,
+  "input_root": "nox==2025.11.12",
+  "installed_packages": 13,
+  "missing_edges": [],
+  "pip_inspect_sha256": "493cd0fd725aeb2a4e5ace63650fc9dc1f5be300d21acacf30ec555d5eeb9f86",
+  "project": "nox",
+  "saved_reference_sha256": "3689d34585575d70b3b9a79447b56c91572fb8a498bb16c7b01dd500cdbb0253",
+  "unresolved_requirements": [],
+  "version": "2025.11.12"
+}

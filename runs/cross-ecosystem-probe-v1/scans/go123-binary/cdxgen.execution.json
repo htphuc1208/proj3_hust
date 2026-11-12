@@ -1,0 +1,29 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/node/node_modules/.bin/cdxgen",
+    "-t",
+    "go",
+    "--no-install-deps",
+    "--no-validate",
+    "--spec-version",
+    "1.6",
+    "-o",
+    "/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/scans/go123-binary/cdxgen.cdx.json",
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/go123-binary"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:41:35.016921+00:00",
+  "environment_overrides": {
+    "FETCH_LICENSE": "false",
+    "CDXGEN_TEMP_DIR": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/cdxgen-temp",
+    "PATH": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/rust/bin:/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/go/bin:/home/phucht/.codex/packages/app-server-daemon/releases/0.167.1-x86_64-unknown-linux-musl/codex-path:/home/phucht/.local/bin:/home/phucht/.local/bin:/home/phucht/.codex/tmp/arg0-linux/codex-arg01znXpD:/home/phucht/.codex/packages/app-server-daemon/releases/0.167.1-x86_64-unknown-linux-musl/codex-path:/home/phucht/.codex/tmp/arg0-linux/codex-arg0SG4i1y:/home/phucht/.codex/packages/app-server-daemon/releases/0.167.0-x86_64-unknown-linux-musl/codex-path:/home/phucht/.codex/tmp/arg0-linux/codex-arg0p9a5aA:/home/phucht/.nvm/versions/node/v22.23.2/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/home/phucht/project/sbom_security_poc/.venv/bin:/home/phucht/.local/bin:/home/phucht/.local/bin:/home/phucht/.local/bin:/home/phucht/.local/bin:/home/phucht/.local/bin:/home/phucht/.local/bin:/home/phucht/.nvm/versions/node/v22.23.2/bin:/home/phucht/.local/bin:/home/phucht/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/phucht/.antigravity-ide/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts",
+    "GOPATH": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/gopath",
+    "GOCACHE": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/gocache",
+    "GOTOOLCHAIN": "local",
+    "CGO_ENABLED": "0",
+    "CARGO_HOME": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/cargo-home",
+    "CARGO_TARGET_DIR": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/rust-target"
+  },
+  "exit_code": 0,
+  "seconds": 0.6732365440002468
+}

@@ -1,0 +1,11 @@
+{
+  "all_extra_edges_have_only_inactive_declarations": true,
+  "application_extra_edges": 3,
+  "extra_edges": 13,
+  "in_memory_missing_edge_detection": "PASS",
+  "missing_edges": 0,
+  "projects": 6,
+  "sealed_sboms_match": true,
+  "source_snapshot_matches": true,
+  "target_metadata_unchanged": true
+}

@@ -1,0 +1,289 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:87095dbc-07a5-4537-85f9-c0002d664390",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T14:43:08+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "b87cf2a0-ae57-4741-9bd0-e01792d05c8e",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/real/thefuck/target",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/colorama@0.4.6",
+      "type": "library",
+      "name": "colorama",
+      "version": "0.4.6",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "bd32cc4d53380f58809730a06e6712ef052bee53"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/colorama@0.4.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/colorama-0.4.6.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/decorator@5.3.1",
+      "type": "library",
+      "name": "decorator",
+      "version": "5.3.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5f732cbbb4661999a858efda846454c098611e72"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/decorator@5.3.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/decorator-5.3.1.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/psutil@7.2.2",
+      "type": "library",
+      "name": "psutil",
+      "version": "7.2.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f895b70f4603d386e379ecf8e003832546a524fe"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/psutil@7.2.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/psutil-7.2.2.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pyte@0.8.2",
+      "type": "library",
+      "name": "pyte",
+      "version": "0.8.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "785853f1955c8b19a79d9ff00f960044ce6d4937"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pyte@0.8.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/pyte-0.8.2.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/six@1.17.0",
+      "type": "library",
+      "name": "six",
+      "version": "1.17.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "483a26554261f6c839703c0e1183f3ef33ff97f1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/six@1.17.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/six-1.17.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/thefuck@3.32",
+      "type": "library",
+      "name": "thefuck",
+      "version": "3.32",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f622b20c3f41bb5de38a0026ab2c2e15eecdd5b7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/thefuck@3.32",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/thefuck-3.32.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/wcwidth@0.9.4",
+      "type": "library",
+      "name": "wcwidth",
+      "version": "0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "557d95cf2d7e16d520af852433e8dfc06dc17163"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/wcwidth@0.9.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/wcwidth-0.9.4.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "b87cf2a0-ae57-4741-9bd0-e01792d05c8e",
+      "dependsOn": [
+        "pkg:pypi/colorama@0.4.6",
+        "pkg:pypi/decorator@5.3.1",
+        "pkg:pypi/psutil@7.2.2",
+        "pkg:pypi/pyte@0.8.2",
+        "pkg:pypi/six@1.17.0",
+        "pkg:pypi/thefuck@3.32",
+        "pkg:pypi/wcwidth@0.9.4"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/colorama@0.4.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/decorator@5.3.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/psutil@7.2.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyte@0.8.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/six@1.17.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/thefuck@3.32",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/wcwidth@0.9.4",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

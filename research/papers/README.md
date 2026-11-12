@@ -2,6 +2,11 @@
 
 This directory contains peer-reviewed primary literature and benchmark definitions required for empirical reproduction and scientific baselines in `sbom_security_poc`:
 
+The [Vietnamese cross-ecosystem survey and redesign proposal](../SBOM_VULNERABILITY_SURVEY_VI.md)
+reviews primary studies and current native tooling for vulnerability scanning.
+The accompanying [mechanism probe](../../runs/cross-ecosystem-probe-v1/REPORT.md)
+keeps measured results, controlled variants and open research hypotheses separate.
+
 ## 1. DSN 2024: Metadata-Based SBOM Differential Analysis
 - **Title:** *On the Correctness of Metadata-Based SBOM Generation: A Differential Analysis Approach*
 - **Authors:** Sheng Yu, Wei Song, Xunchao Hu, Heng Yin (University of California, Riverside)

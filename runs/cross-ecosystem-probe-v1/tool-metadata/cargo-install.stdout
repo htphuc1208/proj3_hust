@@ -1,0 +1,5 @@
+install: creating uninstall script at /home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/rust/lib/rustlib/uninstall.sh
+install: installing component 'cargo'
+
+    cargo installed.
+

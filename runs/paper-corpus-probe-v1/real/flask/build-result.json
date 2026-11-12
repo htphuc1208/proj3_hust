@@ -1,0 +1,76 @@
+{
+  "status": "COMPLETE",
+  "steps": [
+    {
+      "step": "venv",
+      "command": [
+        "/tools/uv",
+        "venv",
+        "--python",
+        "/usr/local/bin/python",
+        "/out/target"
+      ],
+      "exit_code": 0,
+      "seconds": 0.037383879000117304
+    },
+    {
+      "step": "wheel",
+      "command": [
+        "/tools/uv",
+        "build",
+        "--wheel",
+        "--python",
+        "/usr/local/bin/python",
+        "--out-dir",
+        "/out/wheels",
+        "/tmp/paper-source"
+      ],
+      "exit_code": 0,
+      "seconds": 0.9305461160001869
+    },
+    {
+      "step": "resolve",
+      "command": [
+        "/tools/uv",
+        "pip",
+        "compile",
+        "/out/install.in",
+        "--python-version",
+        "3.11",
+        "--no-annotate",
+        "--output-file",
+        "/out/resolved.txt"
+      ],
+      "exit_code": 0,
+      "seconds": 0.9901343359997554
+    },
+    {
+      "step": "install",
+      "command": [
+        "/tools/uv",
+        "pip",
+        "install",
+        "--python",
+        "/out/target/bin/python",
+        "-r",
+        "/out/resolved.txt"
+      ],
+      "exit_code": 0,
+      "seconds": 0.6691992219966778
+    },
+    {
+      "step": "pip-check",
+      "command": [
+        "/tools/uv",
+        "pip",
+        "check",
+        "--python",
+        "/out/target/bin/python"
+      ],
+      "exit_code": 0,
+      "seconds": 0.03299015800075722
+    }
+  ],
+  "context": "Linux CPython 3.11.16; production base; no requested root extras",
+  "selection": "current frozen source, current resolution; not historical installation replay"
+}

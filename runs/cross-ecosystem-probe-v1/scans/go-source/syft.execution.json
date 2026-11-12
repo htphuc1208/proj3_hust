@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/syft",
+    "scan",
+    "dir:/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/go-build",
+    "-o",
+    "cyclonedx-json=/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/scans/go-source/syft.cdx.json",
+    "-o",
+    "syft-json=/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/scans/go-source/syft.native.json"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:33:50.298255+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 4.330332011999417
+}

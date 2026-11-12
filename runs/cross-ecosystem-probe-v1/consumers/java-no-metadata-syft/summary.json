@@ -1,0 +1,8 @@
+{
+  "case": "java-no-metadata-syft",
+  "sbom": "scans/java-no-metadata/syft.cdx.json",
+  "sbom_sha256": "d817d6febba1db747fa02b6f7dd3a47bf51a1f38fa4f2439dda807b29b75c9a9",
+  "exit_code": 128,
+  "status": "NO_PARSEABLE_RESULTS",
+  "has_parseable_json": false
+}

@@ -1,0 +1,4 @@
+Warning: --sbom has been deprecated in favor of -L
+Starting filesystem walk for root: /
+Scanned /home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/java-shade/cyclonedx-maven.cdx.json file and found 1 package
+End status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 661.527µs elapsed, 661.607µs wall time

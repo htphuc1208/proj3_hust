@@ -1,0 +1,99 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hatch-setuptools"
+dynamic = ["version"]
+description = ''
+requires-python = ">=3.8"
+license = {text = "MIT"}
+keywords = []
+authors = [
+  { name = "U.N. Owen", email = "void@some.where" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+dependencies = [
+  "numpy",
+  "black @ git+https://github.com/psf/black.git@21.10b0",
+  "docopt @ https://files.pythonhosted.org/packages/a2/55/8f8cab2afd404cf578136ef2cc5dfb50baa1761b68c9da1fb1e4eed343c9/docopt-0.6.2.tar.gz",  
+  "seaborn==0.12.2",
+  "matplotlib>3.9.0",
+  "urllib3"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
+opt = [
+    "nltk"
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[project.urls]
+Documentation = "https://github.com/unknown/hatch-setuptools#readme"
+Issues = "https://github.com/unknown/hatch-setuptools/issues"
+Source = "https://github.com/unknown/hatch-setuptools"
+
+[tool.hatch.version]
+path = "src/hatch_setuptools/__about__.py"
+
+[tool.hatch.envs.default]
+dependencies = [
+  "coverage[toml]>=6.5",
+  "pytest",
+]
+[tool.hatch.envs.default.scripts]
+test = "pytest {args:tests}"
+test-cov = "coverage run -m pytest {args:tests}"
+cov-report = [
+  "- coverage combine",
+  "coverage report",
+]
+cov = [
+  "test-cov",
+  "cov-report",
+]
+
+[[tool.hatch.envs.all.matrix]]
+python = ["3.8", "3.9", "3.10", "3.11", "3.12"]
+
+[tool.hatch.envs.types]
+dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/hatch_setuptools tests}"
+
+[tool.coverage.run]
+source_pkgs = ["hatch_setuptools", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/hatch_setuptools/__about__.py",
+]
+
+[tool.coverage.paths]
+hatch_setuptools = ["src/hatch_setuptools", "*/hatch-setuptools/src/hatch_setuptools"]
+tests = ["tests", "*/hatch-setuptools/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]

@@ -1,0 +1,8 @@
+{
+  "case": "npm-bundle-syft",
+  "sbom": "scans/npm-bundle/syft.cdx.json",
+  "sbom_sha256": "64b45d6760dbd30a6c0b3137966a47c908e390008a4f6e69c62d58a64098883e",
+  "exit_code": 128,
+  "status": "NO_PARSEABLE_RESULTS",
+  "has_parseable_json": false
+}

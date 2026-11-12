@@ -1,0 +1,130 @@
+Building wheel...
+running egg_info
+creating cookiecutter.egg-info
+writing cookiecutter.egg-info/PKG-INFO
+writing dependency_links to cookiecutter.egg-info/dependency_links.txt
+writing entry points to cookiecutter.egg-info/entry_points.txt
+writing requirements to cookiecutter.egg-info/requires.txt
+writing top-level names to cookiecutter.egg-info/top_level.txt
+writing manifest file 'cookiecutter.egg-info/SOURCES.txt'
+reading manifest file 'cookiecutter.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'HISTORY.md'
+warning: no previously-included files found matching 'Makefile'
+warning: no previously-included files found matching '__main__.py'
+warning: no previously-included files found matching '.*'
+warning: no previously-included files found matching 'codecov.yml'
+warning: no previously-included files found matching 'test_requirements.txt'
+warning: no previously-included files found matching 'tox.ini'
+warning: no previously-included files found matching 'ruff.toml'
+warning: no previously-included files matching '__pycache__' found under directory '*'
+warning: no previously-included files matching '*.py[co]' found under directory '*'
+warning: no previously-included files matching '*' found under directory 'docs'
+warning: no previously-included files matching '*' found under directory 'logo'
+adding license file 'LICENSE'
+adding license file 'AUTHORS.md'
+writing manifest file 'cookiecutter.egg-info/SOURCES.txt'
+running bdist_wheel
+running build
+running build_py
+creating build/lib/cookiecutter
+copying cookiecutter/__init__.py -> build/lib/cookiecutter
+copying cookiecutter/__main__.py -> build/lib/cookiecutter
+copying cookiecutter/exceptions.py -> build/lib/cookiecutter
+copying cookiecutter/utils.py -> build/lib/cookiecutter
+copying cookiecutter/log.py -> build/lib/cookiecutter
+copying cookiecutter/config.py -> build/lib/cookiecutter
+copying cookiecutter/vcs.py -> build/lib/cookiecutter
+copying cookiecutter/find.py -> build/lib/cookiecutter
+copying cookiecutter/environment.py -> build/lib/cookiecutter
+copying cookiecutter/hooks.py -> build/lib/cookiecutter
+copying cookiecutter/cli.py -> build/lib/cookiecutter
+copying cookiecutter/extensions.py -> build/lib/cookiecutter
+copying cookiecutter/repository.py -> build/lib/cookiecutter
+copying cookiecutter/replay.py -> build/lib/cookiecutter
+copying cookiecutter/zipfile.py -> build/lib/cookiecutter
+copying cookiecutter/prompt.py -> build/lib/cookiecutter
+copying cookiecutter/generate.py -> build/lib/cookiecutter
+copying cookiecutter/main.py -> build/lib/cookiecutter
+running egg_info
+writing cookiecutter.egg-info/PKG-INFO
+writing dependency_links to cookiecutter.egg-info/dependency_links.txt
+writing entry points to cookiecutter.egg-info/entry_points.txt
+writing requirements to cookiecutter.egg-info/requires.txt
+writing top-level names to cookiecutter.egg-info/top_level.txt
+reading manifest file 'cookiecutter.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'HISTORY.md'
+warning: no previously-included files found matching 'Makefile'
+warning: no previously-included files found matching '__main__.py'
+warning: no previously-included files found matching '.*'
+warning: no previously-included files found matching 'codecov.yml'
+warning: no previously-included files found matching 'test_requirements.txt'
+warning: no previously-included files found matching 'tox.ini'
+warning: no previously-included files found matching 'ruff.toml'
+warning: no previously-included files matching '__pycache__' found under directory '*'
+warning: no previously-included files matching '*.py[co]' found under directory '*'
+warning: no previously-included files matching '*' found under directory 'docs'
+warning: no previously-included files matching '*' found under directory 'logo'
+adding license file 'LICENSE'
+adding license file 'AUTHORS.md'
+writing manifest file 'cookiecutter.egg-info/SOURCES.txt'
+warning: build_py: byte-compiling is disabled, skipping.
+
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/cookiecutter
+copying build/lib/cookiecutter/__init__.py -> build/bdist.linux-x86_64/wheel/./cookiecutter
+copying build/lib/cookiecutter/__main__.py -> build/bdist.linux-x86_64/wheel/./cookiecutter
+copying build/lib/cookiecutter/exceptions.py -> build/bdist.linux-x86_64/wheel/./cookiecutter
+copying build/lib/cookiecutter/utils.py -> build/bdist.linux-x86_64/wheel/./cookiecutter
+copying build/lib/cookiecutter/log.py -> build/bdist.linux-x86_64/wheel/./cookiecutter
+copying build/lib/cookiecutter/config.py -> build/bdist.linux-x86_64/wheel/./cookiecutter
+copying build/lib/cookiecutter/vcs.py -> build/bdist.linux-x86_64/wheel/./cookiecutter
+copying build/lib/cookiecutter/find.py -> build/bdist.linux-x86_64/wheel/./cookiecutter
+copying build/lib/cookiecutter/environment.py -> build/bdist.linux-x86_64/wheel/./cookiecutter
+copying build/lib/cookiecutter/hooks.py -> build/bdist.linux-x86_64/wheel/./cookiecutter
+copying build/lib/cookiecutter/cli.py -> build/bdist.linux-x86_64/wheel/./cookiecutter
+copying build/lib/cookiecutter/extensions.py -> build/bdist.linux-x86_64/wheel/./cookiecutter
+copying build/lib/cookiecutter/repository.py -> build/bdist.linux-x86_64/wheel/./cookiecutter
+copying build/lib/cookiecutter/replay.py -> build/bdist.linux-x86_64/wheel/./cookiecutter
+copying build/lib/cookiecutter/zipfile.py -> build/bdist.linux-x86_64/wheel/./cookiecutter
+copying build/lib/cookiecutter/prompt.py -> build/bdist.linux-x86_64/wheel/./cookiecutter
+copying build/lib/cookiecutter/generate.py -> build/bdist.linux-x86_64/wheel/./cookiecutter
+copying build/lib/cookiecutter/main.py -> build/bdist.linux-x86_64/wheel/./cookiecutter
+warning: install_lib: byte-compiling is disabled, skipping.
+
+running install_egg_info
+Copying cookiecutter.egg-info to build/bdist.linux-x86_64/wheel/./cookiecutter-2.7.1-py3.11.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/cookiecutter-2.7.1.dist-info/WHEEL
+creating '/out/wheels/.tmp-wj6dlbo3/cookiecutter-2.7.1-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'cookiecutter/__init__.py'
+adding 'cookiecutter/__main__.py'
+adding 'cookiecutter/cli.py'
+adding 'cookiecutter/config.py'
+adding 'cookiecutter/environment.py'
+adding 'cookiecutter/exceptions.py'
+adding 'cookiecutter/extensions.py'
+adding 'cookiecutter/find.py'
+adding 'cookiecutter/generate.py'
+adding 'cookiecutter/hooks.py'
+adding 'cookiecutter/log.py'
+adding 'cookiecutter/main.py'
+adding 'cookiecutter/prompt.py'
+adding 'cookiecutter/replay.py'
+adding 'cookiecutter/repository.py'
+adding 'cookiecutter/utils.py'
+adding 'cookiecutter/vcs.py'
+adding 'cookiecutter/zipfile.py'
+adding 'cookiecutter-2.7.1.dist-info/licenses/AUTHORS.md'
+adding 'cookiecutter-2.7.1.dist-info/licenses/LICENSE'
+adding 'cookiecutter-2.7.1.dist-info/METADATA'
+adding 'cookiecutter-2.7.1.dist-info/WHEEL'
+adding 'cookiecutter-2.7.1.dist-info/entry_points.txt'
+adding 'cookiecutter-2.7.1.dist-info/top_level.txt'
+adding 'cookiecutter-2.7.1.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Successfully built /out/wheels/cookiecutter-2.7.1-py3-none-any.whl

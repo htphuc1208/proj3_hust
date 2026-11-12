@@ -1,0 +1,12 @@
+{
+  "entrypoint": "r.txt",
+  "hashes": {
+    "const.txt": "cd1bee38b796825ce46d8505ef4267cd20ed0c9a2961ba6738659a106b50a3fc",
+    "r.txt": "c9c64c8135770a8279171a8107e86ebc3c7e24280104c48de021c71c7931f248"
+  },
+  "id": "dsn/continuations",
+  "kind": "dsn",
+  "native": "requirements",
+  "origin_commit": "e6bcf23b2f4e384f9fc398793529583845612b63",
+  "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/dsn/continuations"
+}

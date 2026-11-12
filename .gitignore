@@ -30,6 +30,8 @@ runs/unrestricted-builds-*/captures/*/runtime/target/
 runs/unrestricted-builds-*/captures/*/runtime/wheelhouse/
 fixtures/evidence_snapshot/wheel_cache/
 research/.work/
+runs/paper-corpus-probe-*/**/target/
+runs/paper-corpus-probe-*/**/wheels/
 runs/*/evidence_snapshot/public_cache/
 runs/*/public_cache/
 

@@ -1,0 +1,14 @@
+{
+  "entrypoint": "requirements.txt",
+  "hashes": {
+    "const.txt": "cd1bee38b796825ce46d8505ef4267cd20ed0c9a2961ba6738659a106b50a3fc",
+    "downloads/fastapi-0.111.0-py3-none-any.whl": "97ecbf994be0bcbdadedf88c3150252bed7b2087075ac99735403b1b76cc8fc0",
+    "otherreq.txt": "85c3901ca6d8eb004a730f1a32879458931e892c19e42620684bc96adf39fd65",
+    "requirements.txt": "08e79fd48da8e9677a914c7e07a97944dfdd82ba059841251d140b39d0cedf44"
+  },
+  "id": "dsn/requirements",
+  "kind": "dsn",
+  "native": "requirements",
+  "origin_commit": "e6bcf23b2f4e384f9fc398793529583845612b63",
+  "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/dsn/requirements"
+}

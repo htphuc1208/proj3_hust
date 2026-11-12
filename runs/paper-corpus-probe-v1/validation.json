@@ -1,0 +1,22 @@
+{
+  "black_is_present_in_syft_with_affected_version": true,
+  "cases": 26,
+  "cyclonedx_complete_installed_name_and_version_coverage": true,
+  "cyclonedx_no_missing_active_edges": true,
+  "installed_cases": 22,
+  "inventory_matches_physical_metadata": true,
+  "limitations": [
+    "Exploratory paper-corpus probe",
+    "Shared standards libraries, not independent runtime truth",
+    "Compatibility builds disclosed",
+    "No novelty, runtime exploitability or generalization claim"
+  ],
+  "pip_uv_continuation_control_confirmed": true,
+  "prediction_seals_match": true,
+  "resolved_active_declarations": true,
+  "source_commits_match": true,
+  "source_inputs_unchanged": true,
+  "target_metadata_manifest_sha256": "16e14148da9c0ddec7e7d4f9b281b3e4db65d9dfc34580cff7cbd7a0c3406e99",
+  "unit_boundary_tests": "6 passed",
+  "url_control_same_inventory_changes_edges": true
+}

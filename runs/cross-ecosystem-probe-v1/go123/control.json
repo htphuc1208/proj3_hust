@@ -1,0 +1,7 @@
+{
+  "artifact_sha256": "6810f63008e8cc0cb5d9e34a2888de1051a82e1e735de6c5a1f2cdd466cfff83",
+  "generator": "cyclonedx-gomod 1.12.0 bin -std",
+  "compiler": "go1.23.0",
+  "transformation": "Only component name/PURL std becomes OSV advisory identity stdlib; version/relationships unchanged",
+  "status": "Consumer-specific identifier adapter control, not a new repair algorithm"
+}

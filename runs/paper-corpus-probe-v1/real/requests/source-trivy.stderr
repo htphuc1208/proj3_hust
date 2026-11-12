@@ -1,0 +1,3 @@
+2026-11-11T21:36:29+07:00	INFO	"--format cyclonedx" disables security scanning. Specify "--scanners vuln" explicitly if you want to include vulnerabilities in the "cyclonedx" report.
+2026-11-11T21:36:30+07:00	WARN	[pip] Unable to find python `site-packages` directory. License detection is skipped.	err="unable to detect `lib` dir for \"/home/phucht/project/sbom_security_poc/.venv\" venv: stat /home/phucht/project/sbom_security_poc/.venv/lib: no such file or directory"
+2026-11-11T21:36:30+07:00	INFO	Number of language-specific files	num=1

@@ -1,0 +1,6 @@
+{
+  "url": "https://github.com/rustls/webpki-roots",
+  "commit": "b5d2438fce188490ae60193c187a3b0b02f61d54",
+  "lock_unchanged": true,
+  "selection": "Purposive follow-up: publicly maintained Rust workspace uses a renamed dependency; not a random sample"
+}

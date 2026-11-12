@@ -1,0 +1,184 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:48fb805d-0282-4068-8a9c-32a38c182ac9",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T14:43:21+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "9c7e0818-09c2-4d27-b5ad-0b43a72313a2",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/real/rich/target",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/markdown-it-py@4.3.0",
+      "type": "library",
+      "name": "markdown-it-py",
+      "version": "4.3.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d063841f1dfc5ed81ac1cbaf8719b8ca2b27720d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/markdown-it-py@4.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/markdown_it_py-4.3.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/mdurl@0.1.2",
+      "type": "library",
+      "name": "mdurl",
+      "version": "0.1.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "cc9d84bf84be59dd90368ea2f5e3a9fae8f0f1b7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/mdurl@0.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/mdurl-0.1.2.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pygments@2.21.0",
+      "type": "library",
+      "name": "Pygments",
+      "version": "2.21.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "243b2435ff2e6c67d007f84159b9b9dc0c3521c6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pygments@2.21.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/pygments-2.21.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/rich@15.1.0",
+      "type": "library",
+      "name": "rich",
+      "version": "15.1.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9222cf1f4e200d326b3a350cb29037afa1c93f04"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/rich@15.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/rich-15.1.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "9c7e0818-09c2-4d27-b5ad-0b43a72313a2",
+      "dependsOn": [
+        "pkg:pypi/markdown-it-py@4.3.0",
+        "pkg:pypi/mdurl@0.1.2",
+        "pkg:pypi/pygments@2.21.0",
+        "pkg:pypi/rich@15.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/markdown-it-py@4.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/mdurl@0.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pygments@2.21.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/rich@15.1.0",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

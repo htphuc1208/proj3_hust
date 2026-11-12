@@ -1,0 +1,62 @@
+[
+  {
+    "id": "sbomit-readme",
+    "kind": "official-tool",
+    "url": "https://raw.githubusercontent.com/SBOMit/sbomit/master/README.md",
+    "retrieved_at": "2026-11-11T15:45:04.975544+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/SBOMit/sbomit/master/README.md",
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "481dc0013a1a63d879a3090b952fde85f34466573c96d441b4c05e2db8bc73fe",
+    "bytes": 8183,
+    "cache": "research/.work/cross-ecosystem-probe-v1/sources/sbomit-readme.txt"
+  },
+  {
+    "id": "go-stdlib-discussion",
+    "kind": "upstream-issue",
+    "url": "https://github.com/aquasecurity/trivy/discussions/8350",
+    "retrieved_at": "2026-11-11T15:45:04.976205+00:00",
+    "status": 200,
+    "final_url": "https://github.com/aquasecurity/trivy/discussions/8350",
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "bac2292dc2d96d24b2ed7e3dd499c453b7606618b230cf5c54d1e14d85ac5bb3",
+    "bytes": 279715,
+    "cache": "research/.work/cross-ecosystem-probe-v1/sources/go-stdlib-discussion.txt"
+  },
+  {
+    "id": "commons-text-advisory",
+    "kind": "official-advisory",
+    "url": "https://commons.apache.org/proper/commons-text/security.html",
+    "retrieved_at": "2026-11-11T15:45:04.976631+00:00",
+    "status": 200,
+    "final_url": "https://commons.apache.org/proper/commons-text/security.html",
+    "content_type": "text/html",
+    "sha256": "622f53c01645ab1485057d508d5443a4212709d21086439403bbd98ffdb58f53",
+    "bytes": 18288,
+    "cache": "research/.work/cross-ecosystem-probe-v1/sources/commons-text-advisory.txt"
+  },
+  {
+    "id": "cdxgen-readme",
+    "kind": "official-tool",
+    "url": "https://raw.githubusercontent.com/CycloneDX/cdxgen/master/README.md",
+    "retrieved_at": "2026-11-11T15:45:04.977030+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/CycloneDX/cdxgen/master/README.md",
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "4060d7d88b8b17da4a91b722c76a4966c980d28f6c2b9e0e980c8244b231c52e",
+    "bytes": 58480,
+    "cache": "research/.work/cross-ecosystem-probe-v1/sources/cdxgen-readme.json"
+  },
+  {
+    "id": "syft-go-corrected",
+    "kind": "official-doc",
+    "url": "https://oss.anchore.com/docs/capabilities/go/",
+    "retrieved_at": "2026-11-11T15:45:04.977556+00:00",
+    "status": 200,
+    "final_url": "https://oss.anchore.com/docs/capabilities/go/",
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "c319a013ada4c1b52ace74b985e43826c5876c320cf298c3f7299df5c615f666",
+    "bytes": 77320,
+    "cache": "research/.work/cross-ecosystem-probe-v1/sources/syft-go-corrected.txt"
+  }
+]

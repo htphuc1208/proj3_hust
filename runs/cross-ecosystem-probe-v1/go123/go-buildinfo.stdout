@@ -1,0 +1,11 @@
+/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/go123-binary/app: go1.23.0
+	path	example.org/sbom-build-probe
+	mod	example.org/sbom-build-probe	(devel)	
+	dep	golang.org/x/text	v0.14.0	h1:ScX5w1eTa3QqT8oi6+ziP7dTV1S2+ALU0bI+0zXKWiQ=
+	build	-buildmode=exe
+	build	-compiler=gc
+	build	-trimpath=true
+	build	CGO_ENABLED=0
+	build	GOARCH=amd64
+	build	GOOS=linux
+	build	GOAMD64=v1

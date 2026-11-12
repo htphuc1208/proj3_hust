@@ -1,0 +1,888 @@
+[
+  {
+    "case": "npm-native",
+    "sbom": "npm-alias/cyclonedx-npm-production.cdx.json",
+    "sbom_sha256": "179c398aa176c115bf3215899383e4effd70862a61fa8cde760790be7e2a76cb",
+    "exit_code": 1,
+    "packages": {
+      "npm:lodash@4.17.20": [
+        "GHSA-29mw-wpgm-hmr9",
+        "GHSA-35jh-r3h4-6jhm",
+        "GHSA-r5fr-rjxr-66jc",
+        "GHSA-xxjr-mmjv-4gpg"
+      ],
+      "npm:lodash@4.17.21": [
+        "GHSA-r5fr-rjxr-66jc",
+        "GHSA-xxjr-mmjv-4gpg"
+      ]
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "npm-no-edges",
+    "sbom": "mechanism-controls/npm-native-no-edges.cdx.json",
+    "sbom_sha256": "44177247486e769f9340e55ea9aea0732b70eb53dae886cd35fa190760037101",
+    "exit_code": 1,
+    "packages": {
+      "npm:lodash@4.17.20": [
+        "GHSA-29mw-wpgm-hmr9",
+        "GHSA-35jh-r3h4-6jhm",
+        "GHSA-r5fr-rjxr-66jc",
+        "GHSA-xxjr-mmjv-4gpg"
+      ],
+      "npm:lodash@4.17.21": [
+        "GHSA-r5fr-rjxr-66jc",
+        "GHSA-xxjr-mmjv-4gpg"
+      ]
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "npm-source-trivy",
+    "sbom": "scans/npm-source/trivy.cdx.json",
+    "sbom_sha256": "d1f6dce4b4af505632bc80441a3944ebc4f45cc61d2ddc41378e55341a908611",
+    "exit_code": 1,
+    "packages": {
+      "npm:fsevents@2.1.3": [],
+      "npm:lodash@4.17.20": [
+        "GHSA-29mw-wpgm-hmr9",
+        "GHSA-35jh-r3h4-6jhm",
+        "GHSA-r5fr-rjxr-66jc",
+        "GHSA-xxjr-mmjv-4gpg"
+      ],
+      "npm:lodash@4.17.21": [
+        "GHSA-r5fr-rjxr-66jc",
+        "GHSA-xxjr-mmjv-4gpg"
+      ]
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "npm-installed-syft",
+    "sbom": "scans/npm-installed/syft-installed.cdx.json",
+    "sbom_sha256": "174834a12d4868dfd310947298b778d3bd72fb1d18bf517252e621dc26876186",
+    "exit_code": 1,
+    "packages": {
+      "npm:lodash@4.17.20": [
+        "GHSA-29mw-wpgm-hmr9",
+        "GHSA-35jh-r3h4-6jhm",
+        "GHSA-r5fr-rjxr-66jc",
+        "GHSA-xxjr-mmjv-4gpg"
+      ],
+      "npm:lodash@4.17.21": [
+        "GHSA-r5fr-rjxr-66jc",
+        "GHSA-xxjr-mmjv-4gpg"
+      ],
+      "npm:minimist@1.2.5": [
+        "GHSA-xvch-5gv4-984h"
+      ],
+      "npm:sbom-alias-build-probe@1.0.0": []
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "npm-bundle-syft",
+    "sbom": "scans/npm-bundle/syft.cdx.json",
+    "sbom_sha256": "64b45d6760dbd30a6c0b3137966a47c908e390008a4f6e69c62d58a64098883e",
+    "exit_code": 128,
+    "status": "NO_PARSEABLE_RESULTS",
+    "has_parseable_json": false
+  },
+  {
+    "case": "java-native",
+    "sbom": "java-shade/cyclonedx-maven.cdx.json",
+    "sbom_sha256": "70d2583d85eb4b55d3db92f5686c13f58e4bccd43bf6dfedcc0a8102cdf773c8",
+    "exit_code": 1,
+    "packages": {
+      "Maven:org.apache.commons:commons-compress@1.20": [
+        "GHSA-4g9r-vxhx-9pgx",
+        "GHSA-7hfm-57qf-j43q",
+        "GHSA-crv7-7245-f45f",
+        "GHSA-mc84-pj99-q6hh",
+        "GHSA-xqfj-vm6h-2x34"
+      ]
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "java-shaded-syft",
+    "sbom": "scans/java-shaded/syft.cdx.json",
+    "sbom_sha256": "831718f2e9cc35f1212a7969be7c4f6492ce407588fa786a6437e351863b3fa9",
+    "exit_code": 1,
+    "packages": {
+      "Maven:org.example.App:app@UNKNOWN": [],
+      "Maven:org.apache.commons:commons-compress@1.20": [
+        "GHSA-4g9r-vxhx-9pgx",
+        "GHSA-7hfm-57qf-j43q",
+        "GHSA-crv7-7245-f45f",
+        "GHSA-mc84-pj99-q6hh",
+        "GHSA-xqfj-vm6h-2x34"
+      ],
+      "Maven:org.example:sbom-shade-probe@1.0.0": []
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "java-no-metadata-syft",
+    "sbom": "scans/java-no-metadata/syft.cdx.json",
+    "sbom_sha256": "d817d6febba1db747fa02b6f7dd3a47bf51a1f38fa4f2439dda807b29b75c9a9",
+    "exit_code": 128,
+    "status": "NO_PARSEABLE_RESULTS",
+    "has_parseable_json": false
+  },
+  {
+    "case": "java-author",
+    "sbom": "java-jbomaudit/author.cdx.json",
+    "sbom_sha256": "3cbde52cadd27c4306ab245d62d2bb7d3a03809fd6713a2a791953ca780624c0",
+    "exit_code": 1,
+    "packages": {
+      "Maven:org.opendaylight.aaa:aaa-authn-api@0.15.2": [],
+      "Maven:org.opendaylight.aaa:aaa-idm-store-h2@0.15.2": [],
+      "Maven:org.opendaylight.aaa:aaa-password-service-api@0.15.2": [],
+      "Maven:org.opendaylight.aaa:aaa-password-service-impl@0.15.2": [],
+      "Maven:org.checkerframework:checker-qual@3.12.0": [],
+      "Maven:commons-beanutils:commons-beanutils@1.9.4": [
+        "GHSA-wxr5-93ph-8wr9"
+      ],
+      "Maven:commons-collections:commons-collections@3.2.2": [],
+      "Maven:org.apache.commons:commons-lang3@3.12.0": [
+        "GHSA-j288-q9x7-2f5v"
+      ],
+      "Maven:commons-logging:commons-logging@1.2": [],
+      "Maven:org.apache.commons:commons-text@1.9": [
+        "GHSA-599f-7c49-w659"
+      ],
+      "Maven:org.opendaylight.yangtools:concepts@8.0.3": [],
+      "Maven:org.owasp.encoder:encoder@1.2.3": [],
+      "Maven:com.google.errorprone:error_prone_annotations@2.11.0": [],
+      "Maven:com.google.guava:failureaccess@1.0.1": [],
+      "Maven:com.google.guava:guava@31.1-jre": [
+        "GHSA-5mg8-w23w-74h3",
+        "GHSA-7g45-4rm6-3mm3",
+        "GHSA-xxph-c9ww-hj94"
+      ],
+      "Maven:com.h2database:h2@1.4.200": [
+        "GHSA-22wj-vf5f-wrvj",
+        "GHSA-45hx-wfhj-473x",
+        "GHSA-7rpj-hg47-cx62",
+        "GHSA-h376-j262-vhq6"
+      ],
+      "Maven:com.google.j2objc:j2objc-annotations@1.3": [],
+      "Maven:jakarta.activation:jakarta.activation-api@1.2.2": [],
+      "Maven:jakarta.xml.bind:jakarta.xml.bind-api@2.3.3": [],
+      "Maven:javax.servlet:javax.servlet-api@3.1.0": [],
+      "Maven:javax.ws.rs:javax.ws.rs-api@2.1.1": [],
+      "Maven:net.sf.jopt-simple:jopt-simple@5.0.4": [],
+      "Maven:com.google.guava:listenablefuture@9999.0-empty-to-avoid-conflict-with-guava": [],
+      "Maven:org.gaul:modernizer-maven-annotations@2.3.0": [],
+      "Maven:org.eclipse.jdt:org.eclipse.jdt.annotation@2.2.600": [],
+      "Maven:org.opendaylight.aaa:repackaged-shiro@0.15.2": [],
+      "Maven:org.slf4j:slf4j-api@1.7.32": [],
+      "Maven:org.slf4j:slf4j-simple@1.7.32": [],
+      "Maven:com.github.spotbugs:spotbugs-annotations@4.5.3": [],
+      "Maven:tech.pantheon.triemap:triemap@1.2.0": [],
+      "Maven:org.opendaylight.yangtools:util@8.0.3": [],
+      "Maven:org.opendaylight.mdsal:yang-binding@9.0.2": [],
+      "Maven:org.opendaylight.yangtools:yang-common@8.0.3": []
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "java-published-syft",
+    "sbom": "scans/java-jbomaudit/syft.cdx.json",
+    "sbom_sha256": "2c65e06efa4f00c252b0d9c31f1d05fa08845a60bd37759d91a3c724b05d2a54",
+    "exit_code": 1,
+    "packages": {
+      "Maven:org.opendaylight.aaa:aaa-authn-api@0.15.2": [],
+      "Maven:org.opendaylight.aaa:aaa-cli-jar@0.15.2": [],
+      "Maven:org.opendaylight.aaa:aaa-idm-store-h2@0.15.2": [],
+      "Maven:commons-beanutils:commons-beanutils@1.9.4": [
+        "GHSA-wxr5-93ph-8wr9"
+      ],
+      "Maven:commons-collections:commons-collections@3.2.2": [],
+      "Maven:org.apache.commons:commons-lang3@3.12.0": [
+        "GHSA-j288-q9x7-2f5v"
+      ],
+      "Maven:commons-logging:commons-logging@1.2": [],
+      "Maven:org.apache.commons:commons-text@1.9": [
+        "GHSA-599f-7c49-w659"
+      ],
+      "Maven:org.opendaylight.yangtools:concepts@8.0.3": [],
+      "Maven:org.owasp.encoder:encoder@1.2.3": [],
+      "Maven:com.google.errorprone:error_prone_annotations@2.11.0": [],
+      "Maven:com.google.guava:failureaccess@1.0.1": [],
+      "Maven:com.google.guava:guava@31.1-jre": [
+        "GHSA-5mg8-w23w-74h3",
+        "GHSA-7g45-4rm6-3mm3",
+        "GHSA-xxph-c9ww-hj94"
+      ],
+      "Maven:com.google.j2objc:j2objc-annotations@1.3": [],
+      "Maven:jakarta.activation:jakarta.activation-api@1.2.2": [],
+      "Maven:jakarta.xml.bind:jakarta.xml.bind-api@2.3.3": [],
+      "Maven:javax.servlet:javax.servlet-api@3.1.0": [],
+      "Maven:javax.ws.rs:javax.ws.rs-api@2.1.1": [],
+      "Maven:net.sf.jopt-simple:jopt-simple@5.0.4": [],
+      "Maven:com.google.guava:listenablefuture@9999.0-empty-to-avoid-conflict-with-guava": [],
+      "Maven:org.opendaylight.aaa:repackaged-shiro@0.15.2": [],
+      "Maven:org.slf4j:slf4j-api@1.7.32": [],
+      "Maven:org.slf4j:slf4j-simple@1.7.32": [],
+      "Maven:tech.pantheon.triemap:triemap@1.2.0": [],
+      "Maven:org.opendaylight.yangtools:util@8.0.3": [],
+      "Maven:org.opendaylight.mdsal:yang-binding@9.0.2": [],
+      "Maven:org.opendaylight.yangtools:yang-common@8.0.3": []
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "java-published-trivy",
+    "sbom": "scans/java-jbomaudit/trivy-rootfs.cdx.json",
+    "sbom_sha256": "5f1c37df1efaf4dd5f334530a28a5246120b37a0ae00c5c943d1109cba9ea1ae",
+    "exit_code": 1,
+    "packages": {
+      "Maven:org.opendaylight.aaa:aaa-authn-api@0.15.2": [],
+      "Maven:org.opendaylight.aaa:aaa-cli-jar@0.15.2": [],
+      "Maven:org.opendaylight.aaa:aaa-idm-store-h2@0.15.2": [],
+      "Maven:commons-beanutils:commons-beanutils@1.9.4": [
+        "GHSA-wxr5-93ph-8wr9"
+      ],
+      "Maven:commons-collections:commons-collections@3.2.2": [],
+      "Maven:org.apache.commons:commons-lang3@3.12.0": [
+        "GHSA-j288-q9x7-2f5v"
+      ],
+      "Maven:commons-logging:commons-logging@1.2": [],
+      "Maven:org.apache.commons:commons-text@1.9": [
+        "GHSA-599f-7c49-w659"
+      ],
+      "Maven:org.opendaylight.yangtools:concepts@8.0.3": [],
+      "Maven:org.owasp.encoder:encoder@1.2.3": [],
+      "Maven:com.google.errorprone:error_prone_annotations@2.11.0": [],
+      "Maven:com.google.guava:failureaccess@1.0.1": [],
+      "Maven:com.google.guava:guava@31.1-jre": [
+        "GHSA-5mg8-w23w-74h3",
+        "GHSA-7g45-4rm6-3mm3",
+        "GHSA-xxph-c9ww-hj94"
+      ],
+      "Maven:com.google.j2objc:j2objc-annotations@1.3": [],
+      "Maven:jakarta.activation:jakarta.activation-api@1.2.2": [],
+      "Maven:jakarta.xml.bind:jakarta.xml.bind-api@2.3.3": [],
+      "Maven:javax.servlet:javax.servlet-api@3.1.0": [],
+      "Maven:javax.ws.rs:javax.ws.rs-api@2.1.1": [],
+      "Maven:net.sf.jopt-simple:jopt-simple@5.0.4": [],
+      "Maven:com.google.guava:listenablefuture@9999.0-empty-to-avoid-conflict-with-guava": [],
+      "Maven:org.opendaylight.aaa:repackaged-shiro@0.15.2": [],
+      "Maven:org.slf4j:slf4j-api@1.7.32": [],
+      "Maven:org.slf4j:slf4j-simple@1.7.32": [],
+      "Maven:tech.pantheon.triemap:triemap@1.2.0": [],
+      "Maven:org.opendaylight.yangtools:util@8.0.3": [],
+      "Maven:org.opendaylight.mdsal:yang-binding@9.0.2": [],
+      "Maven:org.opendaylight.yangtools:yang-common@8.0.3": []
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "java-published-cdxgen",
+    "sbom": "scans/java-jbomaudit/cdxgen.cdx.json",
+    "sbom_sha256": "f718f751f3ed30f5449c6b701405bec8e4e49de92b8368d584f069b55e3fa75b",
+    "exit_code": 0,
+    "packages": {
+      "Maven:tech.pantheon.triemap:triemap@1.2.0": []
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "java-minimized-native",
+    "sbom": "java-minimized/cyclonedx-maven.cdx.json",
+    "sbom_sha256": "0e6040681b53416e03d603b286810ecb7fa33e619364c4b163f0957bdf0d4277",
+    "exit_code": 1,
+    "packages": {
+      "Maven:org.apache.commons:commons-compress@1.20": [
+        "GHSA-4g9r-vxhx-9pgx",
+        "GHSA-7hfm-57qf-j43q",
+        "GHSA-crv7-7245-f45f",
+        "GHSA-mc84-pj99-q6hh",
+        "GHSA-xqfj-vm6h-2x34"
+      ]
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "java-minimized-syft",
+    "sbom": "scans/java-minimized/syft.cdx.json",
+    "sbom_sha256": "ab974b8a5a821a522aaeab9aa3ee692992a764b69502b7a68920f12b83b26569",
+    "exit_code": 1,
+    "packages": {
+      "Maven:org.example.App:app@UNKNOWN": [],
+      "Maven:org.apache.commons:commons-compress@1.20": [
+        "GHSA-4g9r-vxhx-9pgx",
+        "GHSA-7hfm-57qf-j43q",
+        "GHSA-crv7-7245-f45f",
+        "GHSA-mc84-pj99-q6hh",
+        "GHSA-xqfj-vm6h-2x34"
+      ],
+      "Maven:org.example:sbom-shade-probe@1.0.0": []
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "go-source-syft",
+    "sbom": "scans/go-source/syft.cdx.json",
+    "sbom_sha256": "48dc4b59ccc3f77f6afd3df96389cdd587d26b77fb39a683fa84c5ab6c04a315",
+    "exit_code": 1,
+    "packages": {
+      "Go:golang.org/x/crypto@v0.17.0": [
+        "GHSA-45gg-vh54-h5m9",
+        "GHSA-5cgq-3rg8-m6cv",
+        "GHSA-78mq-xcr3-xm33",
+        "GHSA-89gr-r52h-f8rx",
+        "GHSA-9m57-25v3-79x9",
+        "GHSA-f5wc-c3c7-36mc",
+        "GHSA-f6x5-jh6r-wrfv",
+        "GHSA-hcg3-q754-cr77",
+        "GHSA-j5w8-q4qc-rx2x",
+        "GHSA-jppx-rxg9-jmrx",
+        "GHSA-q4h4-gmj2-qvw2",
+        "GHSA-qpw4-5x99-6vjp",
+        "GHSA-rm3j-f69w-wqmq",
+        "GHSA-v778-237x-gjrc",
+        "GHSA-vgwf-h737-ff37",
+        "GHSA-w879-237q-wc7r",
+        "GHSA-x527-x647-q7gg",
+        "GO-2024-3321",
+        "GO-2025-3487",
+        "GO-2025-4116",
+        "GO-2025-4134",
+        "GO-2025-4135",
+        "GO-2026-5005",
+        "GO-2026-5006",
+        "GO-2026-5013",
+        "GO-2026-5014",
+        "GO-2026-5015",
+        "GO-2026-5016",
+        "GO-2026-5017",
+        "GO-2026-5018",
+        "GO-2026-5019",
+        "GO-2026-5020",
+        "GO-2026-5021",
+        "GO-2026-5023",
+        "GO-2026-5033",
+        "GO-2026-5932",
+        "GO-2026-6303",
+        "GO-2026-6354",
+        "GO-2026-6355"
+      ],
+      "Go:golang.org/x/sys@v0.15.0": [
+        "GO-2026-5024"
+      ],
+      "Go:golang.org/x/text@v0.3.8": [
+        "GO-2026-5970",
+        "GO-2026-6629"
+      ],
+      "Go:gopkg.in/yaml.v2@v2.2.8": []
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "go-app-native",
+    "sbom": "go-build/cyclonedx-app.cdx.json",
+    "sbom_sha256": "82755232a9d5b8a6e256ca737781e7f0b85e5e5850a66c8b4236cb82bb9fe849",
+    "exit_code": 1,
+    "packages": {
+      "Go:golang.org/x/text@v0.14.0": [
+        "GO-2026-5970",
+        "GO-2026-6629"
+      ],
+      "Go:std@go1.27.4": []
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "go123-native",
+    "sbom": "go123/cyclonedx-bin.cdx.json",
+    "sbom_sha256": "efa3e486945c87f4a6c5ebe175239b5430c6378018b1eb1586585cfffbd4f1a7",
+    "exit_code": 1,
+    "packages": {
+      "Go:golang.org/x/text@v0.14.0": [
+        "GO-2026-5970",
+        "GO-2026-6629"
+      ],
+      "Go:std@go1.23.0": []
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "go123-syft",
+    "sbom": "scans/go123-binary/syft.cdx.json",
+    "sbom_sha256": "de7a5290ab258e0f88e3d15954366f6ef923ff47f00b41318ffec968d9b471c8",
+    "exit_code": 1,
+    "packages": {
+      "Go:example.org/sbom-build-probe@UNKNOWN": [],
+      "Go:golang.org/x/text@v0.14.0": [
+        "GO-2026-5970",
+        "GO-2026-6629"
+      ],
+      "Go:stdlib@go1.23.0": [
+        "GO-2021-0142",
+        "GO-2021-0159",
+        "GO-2021-0163",
+        "GO-2021-0172",
+        "GO-2021-0223",
+        "GO-2021-0224",
+        "GO-2021-0226",
+        "GO-2021-0234",
+        "GO-2021-0235",
+        "GO-2021-0239",
+        "GO-2021-0240",
+        "GO-2021-0241",
+        "GO-2021-0242",
+        "GO-2021-0243",
+        "GO-2021-0245",
+        "GO-2021-0263",
+        "GO-2021-0264",
+        "GO-2021-0317",
+        "GO-2021-0319",
+        "GO-2021-0347",
+        "GO-2022-0166",
+        "GO-2022-0171",
+        "GO-2022-0191",
+        "GO-2022-0211",
+        "GO-2022-0212",
+        "GO-2022-0213",
+        "GO-2022-0217",
+        "GO-2022-0220",
+        "GO-2022-0229",
+        "GO-2022-0236",
+        "GO-2022-0273",
+        "GO-2022-0288",
+        "GO-2022-0289",
+        "GO-2022-0433",
+        "GO-2022-0435",
+        "GO-2022-0477",
+        "GO-2022-0493",
+        "GO-2022-0515",
+        "GO-2022-0520",
+        "GO-2022-0521",
+        "GO-2022-0522",
+        "GO-2022-0523",
+        "GO-2022-0524",
+        "GO-2022-0525",
+        "GO-2022-0526",
+        "GO-2022-0527",
+        "GO-2022-0531",
+        "GO-2022-0532",
+        "GO-2022-0533",
+        "GO-2022-0535",
+        "GO-2022-0536",
+        "GO-2022-0537",
+        "GO-2022-0761",
+        "GO-2022-0969",
+        "GO-2022-1037",
+        "GO-2022-1038",
+        "GO-2022-1039",
+        "GO-2022-1095",
+        "GO-2022-1143",
+        "GO-2022-1144",
+        "GO-2023-1568",
+        "GO-2023-1569",
+        "GO-2023-1570",
+        "GO-2023-1571",
+        "GO-2023-1621",
+        "GO-2023-1702",
+        "GO-2023-1703",
+        "GO-2023-1704",
+        "GO-2023-1705",
+        "GO-2023-1751",
+        "GO-2023-1752",
+        "GO-2023-1753",
+        "GO-2023-1840",
+        "GO-2023-1878",
+        "GO-2023-1987",
+        "GO-2023-2041",
+        "GO-2023-2043",
+        "GO-2023-2102",
+        "GO-2023-2185",
+        "GO-2023-2186",
+        "GO-2023-2375",
+        "GO-2023-2382",
+        "GO-2024-2598",
+        "GO-2024-2599",
+        "GO-2024-2600",
+        "GO-2024-2609",
+        "GO-2024-2610",
+        "GO-2024-2687",
+        "GO-2024-2887",
+        "GO-2024-2888",
+        "GO-2024-2963",
+        "GO-2024-3105",
+        "GO-2024-3106",
+        "GO-2024-3107",
+        "GO-2025-3373",
+        "GO-2025-3420",
+        "GO-2025-3447",
+        "GO-2025-3503",
+        "GO-2025-3563",
+        "GO-2025-3750",
+        "GO-2025-3751",
+        "GO-2025-3849",
+        "GO-2025-3956",
+        "GO-2025-4006",
+        "GO-2025-4007",
+        "GO-2025-4008",
+        "GO-2025-4009",
+        "GO-2025-4010",
+        "GO-2025-4011",
+        "GO-2025-4012",
+        "GO-2025-4013",
+        "GO-2025-4014",
+        "GO-2025-4015",
+        "GO-2025-4155",
+        "GO-2025-4175",
+        "GO-2026-4337",
+        "GO-2026-4340",
+        "GO-2026-4341",
+        "GO-2026-4342",
+        "GO-2026-4403",
+        "GO-2026-4601",
+        "GO-2026-4602",
+        "GO-2026-4603",
+        "GO-2026-4864",
+        "GO-2026-4865",
+        "GO-2026-4869",
+        "GO-2026-4870",
+        "GO-2026-4918",
+        "GO-2026-4946",
+        "GO-2026-4947",
+        "GO-2026-4970",
+        "GO-2026-4971",
+        "GO-2026-4976",
+        "GO-2026-4977",
+        "GO-2026-4980",
+        "GO-2026-4981",
+        "GO-2026-4982",
+        "GO-2026-4986",
+        "GO-2026-5026",
+        "GO-2026-5037",
+        "GO-2026-5038",
+        "GO-2026-5039",
+        "GO-2026-5856",
+        "GO-2026-5972",
+        "GO-2026-6088",
+        "GO-2026-6089",
+        "GO-2026-6090",
+        "GO-2026-6091",
+        "GO-2026-6218",
+        "GO-2026-6599",
+        "GO-2026-6600",
+        "GO-2026-6603",
+        "GO-2026-6604",
+        "GO-2026-6605",
+        "GO-2026-6607",
+        "GO-2026-6608",
+        "GO-2026-6609",
+        "GO-2026-6610",
+        "GO-2026-6611",
+        "GO-2026-6612",
+        "GO-2026-6613",
+        "GO-2026-6617",
+        "GO-2026-6809",
+        "GO-2026-6859"
+      ]
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "go123-adapted",
+    "sbom": "go123/stdlib-adapted.cdx.json",
+    "sbom_sha256": "57c285328c2bb6606f8bca3e000cc76e4a75b1864e95a488531b4fb100a544cb",
+    "exit_code": 1,
+    "packages": {
+      "Go:golang.org/x/text@v0.14.0": [
+        "GO-2026-5970",
+        "GO-2026-6629"
+      ],
+      "Go:stdlib@go1.23.0": [
+        "GO-2021-0142",
+        "GO-2021-0159",
+        "GO-2021-0163",
+        "GO-2021-0172",
+        "GO-2021-0223",
+        "GO-2021-0224",
+        "GO-2021-0226",
+        "GO-2021-0234",
+        "GO-2021-0235",
+        "GO-2021-0239",
+        "GO-2021-0240",
+        "GO-2021-0241",
+        "GO-2021-0242",
+        "GO-2021-0243",
+        "GO-2021-0245",
+        "GO-2021-0263",
+        "GO-2021-0264",
+        "GO-2021-0317",
+        "GO-2021-0319",
+        "GO-2021-0347",
+        "GO-2022-0166",
+        "GO-2022-0171",
+        "GO-2022-0191",
+        "GO-2022-0211",
+        "GO-2022-0212",
+        "GO-2022-0213",
+        "GO-2022-0217",
+        "GO-2022-0220",
+        "GO-2022-0229",
+        "GO-2022-0236",
+        "GO-2022-0273",
+        "GO-2022-0288",
+        "GO-2022-0289",
+        "GO-2022-0433",
+        "GO-2022-0435",
+        "GO-2022-0477",
+        "GO-2022-0493",
+        "GO-2022-0515",
+        "GO-2022-0520",
+        "GO-2022-0521",
+        "GO-2022-0522",
+        "GO-2022-0523",
+        "GO-2022-0524",
+        "GO-2022-0525",
+        "GO-2022-0526",
+        "GO-2022-0527",
+        "GO-2022-0531",
+        "GO-2022-0532",
+        "GO-2022-0533",
+        "GO-2022-0535",
+        "GO-2022-0536",
+        "GO-2022-0537",
+        "GO-2022-0761",
+        "GO-2022-0969",
+        "GO-2022-1037",
+        "GO-2022-1038",
+        "GO-2022-1039",
+        "GO-2022-1095",
+        "GO-2022-1143",
+        "GO-2022-1144",
+        "GO-2023-1568",
+        "GO-2023-1569",
+        "GO-2023-1570",
+        "GO-2023-1571",
+        "GO-2023-1621",
+        "GO-2023-1702",
+        "GO-2023-1703",
+        "GO-2023-1704",
+        "GO-2023-1705",
+        "GO-2023-1751",
+        "GO-2023-1752",
+        "GO-2023-1753",
+        "GO-2023-1840",
+        "GO-2023-1878",
+        "GO-2023-1987",
+        "GO-2023-2041",
+        "GO-2023-2043",
+        "GO-2023-2102",
+        "GO-2023-2185",
+        "GO-2023-2186",
+        "GO-2023-2375",
+        "GO-2023-2382",
+        "GO-2024-2598",
+        "GO-2024-2599",
+        "GO-2024-2600",
+        "GO-2024-2609",
+        "GO-2024-2610",
+        "GO-2024-2687",
+        "GO-2024-2887",
+        "GO-2024-2888",
+        "GO-2024-2963",
+        "GO-2024-3105",
+        "GO-2024-3106",
+        "GO-2024-3107",
+        "GO-2025-3373",
+        "GO-2025-3420",
+        "GO-2025-3447",
+        "GO-2025-3503",
+        "GO-2025-3563",
+        "GO-2025-3750",
+        "GO-2025-3751",
+        "GO-2025-3849",
+        "GO-2025-3956",
+        "GO-2025-4006",
+        "GO-2025-4007",
+        "GO-2025-4008",
+        "GO-2025-4009",
+        "GO-2025-4010",
+        "GO-2025-4011",
+        "GO-2025-4012",
+        "GO-2025-4013",
+        "GO-2025-4014",
+        "GO-2025-4015",
+        "GO-2025-4155",
+        "GO-2025-4175",
+        "GO-2026-4337",
+        "GO-2026-4340",
+        "GO-2026-4341",
+        "GO-2026-4342",
+        "GO-2026-4403",
+        "GO-2026-4601",
+        "GO-2026-4602",
+        "GO-2026-4603",
+        "GO-2026-4864",
+        "GO-2026-4865",
+        "GO-2026-4869",
+        "GO-2026-4870",
+        "GO-2026-4918",
+        "GO-2026-4946",
+        "GO-2026-4947",
+        "GO-2026-4970",
+        "GO-2026-4971",
+        "GO-2026-4976",
+        "GO-2026-4977",
+        "GO-2026-4980",
+        "GO-2026-4981",
+        "GO-2026-4982",
+        "GO-2026-4986",
+        "GO-2026-5026",
+        "GO-2026-5037",
+        "GO-2026-5038",
+        "GO-2026-5039",
+        "GO-2026-5856",
+        "GO-2026-5972",
+        "GO-2026-6088",
+        "GO-2026-6089",
+        "GO-2026-6090",
+        "GO-2026-6091",
+        "GO-2026-6218",
+        "GO-2026-6599",
+        "GO-2026-6600",
+        "GO-2026-6603",
+        "GO-2026-6604",
+        "GO-2026-6605",
+        "GO-2026-6607",
+        "GO-2026-6608",
+        "GO-2026-6609",
+        "GO-2026-6610",
+        "GO-2026-6611",
+        "GO-2026-6612",
+        "GO-2026-6613",
+        "GO-2026-6617",
+        "GO-2026-6809",
+        "GO-2026-6859"
+      ]
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "rust-source-trivy",
+    "sbom": "scans/rust-source/trivy.cdx.json",
+    "sbom_sha256": "79f5c09b20e4cc407c5147c757f6bf961949bd8f5e354bd69598c95c3668c4b8",
+    "exit_code": 1,
+    "packages": {
+      "crates.io:libc@0.2.191": [],
+      "crates.io:sbom-build-probe@1.0.0": [],
+      "crates.io:smallvec@1.6.0": [
+        "GHSA-43w2-9j62-hq99",
+        "RUSTSEC-2021-0003"
+      ],
+      "crates.io:time@0.1.45": [
+        "GHSA-wcg3-cvx6-7396",
+        "RUSTSEC-2020-0071"
+      ],
+      "crates.io:wasi@0.10.0+wasi-snapshot-preview1": [],
+      "crates.io:winapi@0.3.9": [],
+      "crates.io:winapi-i686-pc-windows-gnu@0.4.0": [],
+      "crates.io:winapi-x86_64-pc-windows-gnu@0.4.0": []
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "rust-no-alias-trivy",
+    "sbom": "scans/rust-no-alias/trivy.cdx.json",
+    "sbom_sha256": "66dc074b11b5635a79bb855cf22bb39fae734a93c92424d3cb89397b3b1cc90c",
+    "exit_code": 1,
+    "packages": {
+      "crates.io:aho-corasick@0.7.20": [],
+      "crates.io:libc@0.2.191": [],
+      "crates.io:memchr@2.8.3": [],
+      "crates.io:regex@1.5.4": [
+        "GHSA-m5pq-gvj9-9vr8",
+        "RUSTSEC-2022-0013"
+      ],
+      "crates.io:regex-syntax@0.6.29": [],
+      "crates.io:sbom-build-probe@1.0.0": [],
+      "crates.io:smallvec@1.6.0": [
+        "GHSA-43w2-9j62-hq99",
+        "RUSTSEC-2021-0003"
+      ],
+      "crates.io:time@0.1.45": [
+        "GHSA-wcg3-cvx6-7396",
+        "RUSTSEC-2020-0071"
+      ],
+      "crates.io:wasi@0.10.0+wasi-snapshot-preview1": [],
+      "crates.io:winapi@0.3.9": [],
+      "crates.io:winapi-i686-pc-windows-gnu@0.4.0": [],
+      "crates.io:winapi-x86_64-pc-windows-gnu@0.4.0": []
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "rust-include-dev-trivy",
+    "sbom": "mechanism-controls/rust-trivy-include-dev.cdx.json",
+    "sbom_sha256": "922aa12fb97c5eda6c1f8709dce22fe7cda72d9eef273e5a944a572c6dfb8565",
+    "exit_code": 1,
+    "packages": {
+      "crates.io:libc@0.2.191": [],
+      "crates.io:sbom-build-probe@1.0.0": [],
+      "crates.io:smallvec@1.6.0": [
+        "GHSA-43w2-9j62-hq99",
+        "RUSTSEC-2021-0003"
+      ],
+      "crates.io:time@0.1.45": [
+        "GHSA-wcg3-cvx6-7396",
+        "RUSTSEC-2020-0071"
+      ],
+      "crates.io:wasi@0.10.0+wasi-snapshot-preview1": [],
+      "crates.io:winapi@0.3.9": [],
+      "crates.io:winapi-i686-pc-windows-gnu@0.4.0": [],
+      "crates.io:winapi-x86_64-pc-windows-gnu@0.4.0": []
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "rust-native",
+    "sbom": "rust-build/cyclonedx-target.cdx.json",
+    "sbom_sha256": "39ff80a762a51489867a35d2cb6552e8317b648f7f78275e99273f954f9def84",
+    "exit_code": 1,
+    "packages": {
+      "crates.io:aho-corasick@0.7.20": [],
+      "crates.io:memchr@2.8.3": [],
+      "crates.io:regex@1.5.4": [
+        "GHSA-m5pq-gvj9-9vr8",
+        "RUSTSEC-2022-0013"
+      ],
+      "crates.io:regex-syntax@0.6.29": []
+    },
+    "has_parseable_json": true
+  },
+  {
+    "case": "rust-binary-syft",
+    "sbom": "scans/rust-binary/syft.cdx.json",
+    "sbom_sha256": "699012eff25c09bd04d4f393fadfd1ac1db88085923d722fd73cbc444c727995",
+    "exit_code": 128,
+    "status": "NO_PARSEABLE_RESULTS",
+    "has_parseable_json": false
+  },
+  {
+    "case": "rust-auditable-syft",
+    "sbom": "scans/rust-auditable/syft.cdx.json",
+    "sbom_sha256": "bd6668d48f51c13304ca0becbf652af9f16e36fe8a250d871d48aa568097d480",
+    "exit_code": 1,
+    "packages": {
+      "crates.io:aho-corasick@0.7.20": [],
+      "crates.io:memchr@2.8.3": [],
+      "crates.io:regex@1.5.4": [
+        "GHSA-m5pq-gvj9-9vr8",
+        "RUSTSEC-2022-0013"
+      ],
+      "crates.io:regex-syntax@0.6.29": [],
+      "crates.io:sbom-build-probe@1.0.0": []
+    },
+    "has_parseable_json": true
+  }
+]

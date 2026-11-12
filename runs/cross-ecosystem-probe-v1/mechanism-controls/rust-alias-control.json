@@ -1,0 +1,8 @@
+{
+  "same_production_tree_identities": true,
+  "identical_cargo_lock": true,
+  "cargo_lock_sha256": "7b66e28228117ca726b3e5f42a304d1b19a51d3c597783480d74803420f07639",
+  "original_manifest_sha256": "bbb070f0887f69170629a0cd4a81e9ac0c3ebae731ebf5f55995941bfddc467b",
+  "control_manifest_sha256": "cdeeaa56705bc121cecac206d18e8a9787ff23c0031f2a22f42b60662fb41d24",
+  "kind": "Dependency alias spelling only; same registry dependency closure"
+}

@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/osv-scanner",
+    "scan",
+    "source",
+    "--no-resolve",
+    "--no-call-analysis=go",
+    "--format=json",
+    "--all-packages",
+    "--sbom",
+    "/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/npm-alias/cyclonedx-npm-production.cdx.json"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:31:29.541810+00:00",
+  "environment_overrides": {},
+  "exit_code": 1,
+  "seconds": 0.9330349990013929
+}

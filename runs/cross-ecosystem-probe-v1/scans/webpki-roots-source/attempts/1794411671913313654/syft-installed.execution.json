@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/syft",
+    "scan",
+    "dir:/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/webpki-roots",
+    "--select-catalogers",
+    "installed",
+    "-o",
+    "cyclonedx-json=/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/scans/webpki-roots-source/syft-installed.cdx.json"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:39:42.181368+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 1.2797943510013283
+}

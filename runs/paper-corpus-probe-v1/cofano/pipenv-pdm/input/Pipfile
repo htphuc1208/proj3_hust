@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+black = {ref = "21.10b0", git = "git+https://github.com/psf/black.git"}
+docopt = {file = "https://files.pythonhosted.org/packages/a2/55/8f8cab2afd404cf578136ef2cc5dfb50baa1761b68c9da1fb1e4eed343c9/docopt-0.6.2.tar.gz"}
+seaborn = "==0.12.2"
+matplotlib = "*"
+urllib3 = "*"
+
+[dev-packages]
+pytest = "*"
+nltk = "*"
+
+[requires]
+python_version = "3.10"

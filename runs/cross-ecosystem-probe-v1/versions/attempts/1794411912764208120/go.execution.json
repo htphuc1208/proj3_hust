@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/go/bin/go",
+    "version"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:27:25.170468+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 0.8887246960002813
+}

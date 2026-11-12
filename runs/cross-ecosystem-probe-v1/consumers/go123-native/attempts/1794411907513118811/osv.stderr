@@ -1,0 +1,4 @@
+Warning: --sbom has been deprecated in favor of -L
+Starting filesystem walk for root: /
+Scanned /home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/go123/cyclonedx-bin.cdx.json file and found 2 packages
+End status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 1.332982ms elapsed, 1.333117ms wall time

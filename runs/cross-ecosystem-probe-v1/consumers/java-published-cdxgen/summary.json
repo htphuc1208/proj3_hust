@@ -1,0 +1,10 @@
+{
+  "case": "java-published-cdxgen",
+  "sbom": "scans/java-jbomaudit/cdxgen.cdx.json",
+  "sbom_sha256": "f718f751f3ed30f5449c6b701405bec8e4e49de92b8368d584f069b55e3fa75b",
+  "exit_code": 0,
+  "packages": {
+    "Maven:tech.pantheon.triemap:triemap@1.2.0": []
+  },
+  "has_parseable_json": true
+}

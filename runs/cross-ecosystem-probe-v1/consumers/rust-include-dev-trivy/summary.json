@@ -1,0 +1,23 @@
+{
+  "case": "rust-include-dev-trivy",
+  "sbom": "mechanism-controls/rust-trivy-include-dev.cdx.json",
+  "sbom_sha256": "922aa12fb97c5eda6c1f8709dce22fe7cda72d9eef273e5a944a572c6dfb8565",
+  "exit_code": 1,
+  "packages": {
+    "crates.io:libc@0.2.191": [],
+    "crates.io:sbom-build-probe@1.0.0": [],
+    "crates.io:smallvec@1.6.0": [
+      "GHSA-43w2-9j62-hq99",
+      "RUSTSEC-2021-0003"
+    ],
+    "crates.io:time@0.1.45": [
+      "GHSA-wcg3-cvx6-7396",
+      "RUSTSEC-2020-0071"
+    ],
+    "crates.io:wasi@0.10.0+wasi-snapshot-preview1": [],
+    "crates.io:winapi@0.3.9": [],
+    "crates.io:winapi-i686-pc-windows-gnu@0.4.0": [],
+    "crates.io:winapi-x86_64-pc-windows-gnu@0.4.0": []
+  },
+  "has_parseable_json": true
+}

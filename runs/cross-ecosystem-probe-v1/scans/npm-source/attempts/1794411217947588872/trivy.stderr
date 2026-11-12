@@ -1,0 +1,4 @@
+2026-11-11T22:30:43+07:00	INFO	"--format cyclonedx" disables security scanning. Specify "--scanners vuln" explicitly if you want to include vulnerabilities in the "cyclonedx" report.
+2026-11-11T22:30:43+07:00	INFO	[npm] Run "npm install" to collect the license information of packages	dir="node_modules"
+2026-11-11T22:30:43+07:00	INFO	Suppressing dependencies for development and testing. To display them, try the '--include-dev-deps' flag.
+2026-11-11T22:30:43+07:00	INFO	Number of language-specific files	num=1

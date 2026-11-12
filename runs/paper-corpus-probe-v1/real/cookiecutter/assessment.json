@@ -1,0 +1,1108 @@
+{
+  "active_extras": {},
+  "build_reason": null,
+  "build_status": "COMPLETE",
+  "case": "real/cookiecutter",
+  "declared_active_edges": 20,
+  "installed": {
+    "environment": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [
+        {
+          "declarations": [
+            "pyyaml; extra == \"rtd\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "markdown-it-py",
+          "target": "pyyaml"
+        },
+        {
+          "declarations": [
+            "requests; extra == \"testing\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "markdown-it-py",
+          "target": "requests"
+        }
+      ],
+      "known_extra_edges": [
+        [
+          "markdown-it-py",
+          "pyyaml"
+        ],
+        [
+          "markdown-it-py",
+          "requests"
+        ]
+      ],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 22,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "environment-pyproject": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [
+        {
+          "declarations": [
+            "pyyaml; extra == \"rtd\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "markdown-it-py",
+          "target": "pyyaml"
+        },
+        {
+          "declarations": [
+            "requests; extra == \"testing\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "markdown-it-py",
+          "target": "requests"
+        }
+      ],
+      "known_extra_edges": [
+        [
+          "markdown-it-py",
+          "pyyaml"
+        ],
+        [
+          "markdown-it-py",
+          "requests"
+        ]
+      ],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 22,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "installed-syft": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [
+        {
+          "declarations": [
+            "pyyaml; extra == \"rtd\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "markdown-it-py",
+          "target": "pyyaml"
+        },
+        {
+          "declarations": [
+            "requests; extra == \"testing\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "markdown-it-py",
+          "target": "requests"
+        }
+      ],
+      "known_extra_edges": [
+        [
+          "markdown-it-py",
+          "pyyaml"
+        ],
+        [
+          "markdown-it-py",
+          "requests"
+        ]
+      ],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 22,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "installed-trivy": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [],
+      "known_extra_edges": [],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [
+        "arrow",
+        "binaryornot",
+        "certifi",
+        "charset-normalizer",
+        "click",
+        "idna",
+        "jinja2",
+        "markdown-it-py",
+        "markupsafe",
+        "mdurl",
+        "pygments",
+        "python-dateutil",
+        "python-slugify",
+        "pyyaml",
+        "requests",
+        "rich",
+        "text-unidecode",
+        "tzdata",
+        "urllib3"
+      ],
+      "missing_edge_citations": [
+        {
+          "declarations": [
+            "python-dateutil>=2.7.0"
+          ],
+          "source": "arrow",
+          "target": "python-dateutil"
+        },
+        {
+          "declarations": [
+            "tzdata; python_version >= \"3.9\""
+          ],
+          "source": "arrow",
+          "target": "tzdata"
+        },
+        {
+          "declarations": [
+            "arrow"
+          ],
+          "source": "cookiecutter",
+          "target": "arrow"
+        },
+        {
+          "declarations": [
+            "binaryornot>=0.4.4"
+          ],
+          "source": "cookiecutter",
+          "target": "binaryornot"
+        },
+        {
+          "declarations": [
+            "click<9.0.0,>=7.0"
+          ],
+          "source": "cookiecutter",
+          "target": "click"
+        },
+        {
+          "declarations": [
+            "Jinja2<4.0.0,>=2.7"
+          ],
+          "source": "cookiecutter",
+          "target": "jinja2"
+        },
+        {
+          "declarations": [
+            "python-slugify>=4.0.0"
+          ],
+          "source": "cookiecutter",
+          "target": "python-slugify"
+        },
+        {
+          "declarations": [
+            "pyyaml>=5.3.1"
+          ],
+          "source": "cookiecutter",
+          "target": "pyyaml"
+        },
+        {
+          "declarations": [
+            "requests>=2.23.0"
+          ],
+          "source": "cookiecutter",
+          "target": "requests"
+        },
+        {
+          "declarations": [
+            "rich"
+          ],
+          "source": "cookiecutter",
+          "target": "rich"
+        },
+        {
+          "declarations": [
+            "MarkupSafe>=2.0"
+          ],
+          "source": "jinja2",
+          "target": "markupsafe"
+        },
+        {
+          "declarations": [
+            "mdurl~=0.1"
+          ],
+          "source": "markdown-it-py",
+          "target": "mdurl"
+        },
+        {
+          "declarations": [
+            "tzdata"
+          ],
+          "source": "python-dateutil",
+          "target": "tzdata"
+        },
+        {
+          "declarations": [
+            "text-unidecode>=1.3"
+          ],
+          "source": "python-slugify",
+          "target": "text-unidecode"
+        },
+        {
+          "declarations": [
+            "certifi>=2023.5.7"
+          ],
+          "source": "requests",
+          "target": "certifi"
+        },
+        {
+          "declarations": [
+            "charset_normalizer<4,>=2"
+          ],
+          "source": "requests",
+          "target": "charset-normalizer"
+        },
+        {
+          "declarations": [
+            "idna<4,>=2.5"
+          ],
+          "source": "requests",
+          "target": "idna"
+        },
+        {
+          "declarations": [
+            "urllib3<3,>=1.26"
+          ],
+          "source": "requests",
+          "target": "urllib3"
+        },
+        {
+          "declarations": [
+            "markdown-it-py>=2.2.0"
+          ],
+          "source": "rich",
+          "target": "markdown-it-py"
+        },
+        {
+          "declarations": [
+            "pygments<3.0.0,>=2.13.0"
+          ],
+          "source": "rich",
+          "target": "pygments"
+        }
+      ],
+      "missing_edges": [
+        [
+          "arrow",
+          "python-dateutil"
+        ],
+        [
+          "arrow",
+          "tzdata"
+        ],
+        [
+          "cookiecutter",
+          "arrow"
+        ],
+        [
+          "cookiecutter",
+          "binaryornot"
+        ],
+        [
+          "cookiecutter",
+          "click"
+        ],
+        [
+          "cookiecutter",
+          "jinja2"
+        ],
+        [
+          "cookiecutter",
+          "python-slugify"
+        ],
+        [
+          "cookiecutter",
+          "pyyaml"
+        ],
+        [
+          "cookiecutter",
+          "requests"
+        ],
+        [
+          "cookiecutter",
+          "rich"
+        ],
+        [
+          "jinja2",
+          "markupsafe"
+        ],
+        [
+          "markdown-it-py",
+          "mdurl"
+        ],
+        [
+          "python-dateutil",
+          "tzdata"
+        ],
+        [
+          "python-slugify",
+          "text-unidecode"
+        ],
+        [
+          "requests",
+          "certifi"
+        ],
+        [
+          "requests",
+          "charset-normalizer"
+        ],
+        [
+          "requests",
+          "idna"
+        ],
+        [
+          "requests",
+          "urllib3"
+        ],
+        [
+          "rich",
+          "markdown-it-py"
+        ],
+        [
+          "rich",
+          "pygments"
+        ]
+      ],
+      "projected_edges": 0,
+      "root_missing_edges": [
+        [
+          "cookiecutter",
+          "arrow"
+        ],
+        [
+          "cookiecutter",
+          "binaryornot"
+        ],
+        [
+          "cookiecutter",
+          "click"
+        ],
+        [
+          "cookiecutter",
+          "jinja2"
+        ],
+        [
+          "cookiecutter",
+          "python-slugify"
+        ],
+        [
+          "cookiecutter",
+          "pyyaml"
+        ],
+        [
+          "cookiecutter",
+          "requests"
+        ],
+        [
+          "cookiecutter",
+          "rich"
+        ]
+      ],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    }
+  },
+  "installed_packages": 20,
+  "origin_commit": "c88fbe921c97c58b65f1883ba90a0ab53cc91b34",
+  "requested_extra_seeds": {},
+  "root_declared_active_edges": [
+    [
+      "cookiecutter",
+      "arrow"
+    ],
+    [
+      "cookiecutter",
+      "binaryornot"
+    ],
+    [
+      "cookiecutter",
+      "click"
+    ],
+    [
+      "cookiecutter",
+      "jinja2"
+    ],
+    [
+      "cookiecutter",
+      "python-slugify"
+    ],
+    [
+      "cookiecutter",
+      "pyyaml"
+    ],
+    [
+      "cookiecutter",
+      "requests"
+    ],
+    [
+      "cookiecutter",
+      "rich"
+    ]
+  ],
+  "root_name": "cookiecutter",
+  "source": {
+    "cyclonedx": {
+      "exit_code": null,
+      "status": "NO_NATIVE_SOURCE_MODE"
+    },
+    "syft": {
+      "all_dependency_edges": 139,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [
+        "alabaster",
+        "annotated-types",
+        "anyio",
+        "arrow",
+        "authlib",
+        "babel",
+        "backports-datetime-fromisoformat",
+        "binaryornot",
+        "certifi",
+        "cffi",
+        "chardet",
+        "charset-normalizer",
+        "click",
+        "colorama",
+        "cookiecutter",
+        "coverage",
+        "cryptography",
+        "docutils",
+        "dparse",
+        "exceptiongroup",
+        "filelock",
+        "freezegun",
+        "h11",
+        "httpcore",
+        "httpx",
+        "idna",
+        "imagesize",
+        "iniconfig",
+        "jinja2",
+        "joblib",
+        "markdown-it-py",
+        "markupsafe",
+        "marshmallow",
+        "mdit-py-plugins",
+        "mdurl",
+        "myst-parser",
+        "nltk",
+        "packaging",
+        "pbr",
+        "pluggy",
+        "pycparser",
+        "pydantic",
+        "pydantic-core",
+        "pygments",
+        "pytest",
+        "pytest-cov",
+        "pytest-mock",
+        "python-dateutil",
+        "python-slugify",
+        "pyyaml",
+        "regex",
+        "requests",
+        "rich",
+        "roman-numerals",
+        "ruamel-yaml",
+        "ruamel-yaml-clib",
+        "ruff",
+        "rust-just",
+        "safety",
+        "safety-schemas",
+        "setuptools",
+        "shellingham",
+        "six",
+        "sniffio",
+        "snowballstemmer",
+        "sphinx",
+        "sphinx-autobuild",
+        "sphinx-autodoc-typehints",
+        "sphinx-click",
+        "sphinx-rtd-theme",
+        "sphinxcontrib-apidoc",
+        "sphinxcontrib-applehelp",
+        "sphinxcontrib-devhelp",
+        "sphinxcontrib-htmlhelp",
+        "sphinxcontrib-jquery",
+        "sphinxcontrib-jsmath",
+        "sphinxcontrib-qthelp",
+        "sphinxcontrib-serializinghtml",
+        "starlette",
+        "tenacity",
+        "text-unidecode",
+        "tomli",
+        "tomlkit",
+        "tqdm",
+        "typer",
+        "types-python-dateutil",
+        "typing-extensions",
+        "urllib3",
+        "uv",
+        "uvicorn",
+        "watchfiles",
+        "websockets"
+      ],
+      "python_package_records": 100,
+      "python_versions": [
+        {
+          "name": "alabaster",
+          "version": "1.0.0"
+        },
+        {
+          "name": "annotated-types",
+          "version": "0.7.0"
+        },
+        {
+          "name": "anyio",
+          "version": "4.10.0"
+        },
+        {
+          "name": "arrow",
+          "version": "1.3.0"
+        },
+        {
+          "name": "authlib",
+          "version": "1.6.8"
+        },
+        {
+          "name": "babel",
+          "version": "2.17.0"
+        },
+        {
+          "name": "backports-datetime-fromisoformat",
+          "version": "2.0.3"
+        },
+        {
+          "name": "binaryornot",
+          "version": "0.4.4"
+        },
+        {
+          "name": "certifi",
+          "version": "2025.8.3"
+        },
+        {
+          "name": "cffi",
+          "version": "2.0.0"
+        },
+        {
+          "name": "chardet",
+          "version": "5.2.0"
+        },
+        {
+          "name": "charset-normalizer",
+          "version": "3.4.3"
+        },
+        {
+          "name": "click",
+          "version": "8.2.1"
+        },
+        {
+          "name": "colorama",
+          "version": "0.4.6"
+        },
+        {
+          "name": "cookiecutter",
+          "version": "2.7.1"
+        },
+        {
+          "name": "coverage",
+          "version": "7.10.4"
+        },
+        {
+          "name": "cryptography",
+          "version": "46.0.5"
+        },
+        {
+          "name": "docutils",
+          "version": "0.21.2"
+        },
+        {
+          "name": "docutils",
+          "version": "0.22.4"
+        },
+        {
+          "name": "dparse",
+          "version": "0.6.4"
+        },
+        {
+          "name": "exceptiongroup",
+          "version": "1.3.0"
+        },
+        {
+          "name": "filelock",
+          "version": "3.25.0"
+        },
+        {
+          "name": "freezegun",
+          "version": "1.5.5"
+        },
+        {
+          "name": "h11",
+          "version": "0.16.0"
+        },
+        {
+          "name": "httpcore",
+          "version": "1.0.9"
+        },
+        {
+          "name": "httpx",
+          "version": "0.28.1"
+        },
+        {
+          "name": "idna",
+          "version": "3.10"
+        },
+        {
+          "name": "imagesize",
+          "version": "1.4.1"
+        },
+        {
+          "name": "iniconfig",
+          "version": "2.1.0"
+        },
+        {
+          "name": "jinja2",
+          "version": "3.1.6"
+        },
+        {
+          "name": "joblib",
+          "version": "1.5.1"
+        },
+        {
+          "name": "markdown-it-py",
+          "version": "3.0.0"
+        },
+        {
+          "name": "markdown-it-py",
+          "version": "4.0.0"
+        },
+        {
+          "name": "markupsafe",
+          "version": "3.0.2"
+        },
+        {
+          "name": "marshmallow",
+          "version": "4.2.2"
+        },
+        {
+          "name": "mdit-py-plugins",
+          "version": "0.5.0"
+        },
+        {
+          "name": "mdurl",
+          "version": "0.1.2"
+        },
+        {
+          "name": "myst-parser",
+          "version": "4.0.1"
+        },
+        {
+          "name": "myst-parser",
+          "version": "5.0.0"
+        },
+        {
+          "name": "nltk",
+          "version": "3.9.3"
+        },
+        {
+          "name": "packaging",
+          "version": "25.0"
+        },
+        {
+          "name": "pbr",
+          "version": "7.0.3"
+        },
+        {
+          "name": "pluggy",
+          "version": "1.6.0"
+        },
+        {
+          "name": "pycparser",
+          "version": "2.22"
+        },
+        {
+          "name": "pydantic",
+          "version": "2.9.2"
+        },
+        {
+          "name": "pydantic-core",
+          "version": "2.23.4"
+        },
+        {
+          "name": "pygments",
+          "version": "2.19.2"
+        },
+        {
+          "name": "pytest",
+          "version": "8.4.1"
+        },
+        {
+          "name": "pytest-cov",
+          "version": "6.2.1"
+        },
+        {
+          "name": "pytest-mock",
+          "version": "3.14.1"
+        },
+        {
+          "name": "python-dateutil",
+          "version": "2.9.0.post0"
+        },
+        {
+          "name": "python-slugify",
+          "version": "8.0.4"
+        },
+        {
+          "name": "pyyaml",
+          "version": "6.0.2"
+        },
+        {
+          "name": "regex",
+          "version": "2025.7.34"
+        },
+        {
+          "name": "requests",
+          "version": "2.32.4"
+        },
+        {
+          "name": "rich",
+          "version": "14.1.0"
+        },
+        {
+          "name": "roman-numerals",
+          "version": "4.1.0"
+        },
+        {
+          "name": "ruamel-yaml",
+          "version": "0.18.14"
+        },
+        {
+          "name": "ruamel-yaml-clib",
+          "version": "0.2.12"
+        },
+        {
+          "name": "ruff",
+          "version": "0.12.9"
+        },
+        {
+          "name": "rust-just",
+          "version": "1.42.4"
+        },
+        {
+          "name": "safety",
+          "version": "3.7.0"
+        },
+        {
+          "name": "safety-schemas",
+          "version": "0.0.16"
+        },
+        {
+          "name": "setuptools",
+          "version": "80.9.0"
+        },
+        {
+          "name": "shellingham",
+          "version": "1.5.4"
+        },
+        {
+          "name": "six",
+          "version": "1.17.0"
+        },
+        {
+          "name": "sniffio",
+          "version": "1.3.1"
+        },
+        {
+          "name": "snowballstemmer",
+          "version": "3.0.1"
+        },
+        {
+          "name": "sphinx",
+          "version": "8.1.3"
+        },
+        {
+          "name": "sphinx",
+          "version": "9.0.4"
+        },
+        {
+          "name": "sphinx",
+          "version": "9.1.0"
+        },
+        {
+          "name": "sphinx-autobuild",
+          "version": "2024.10.3"
+        },
+        {
+          "name": "sphinx-autobuild",
+          "version": "2025.8.25"
+        },
+        {
+          "name": "sphinx-autodoc-typehints",
+          "version": "3.0.1"
+        },
+        {
+          "name": "sphinx-autodoc-typehints",
+          "version": "3.6.1"
+        },
+        {
+          "name": "sphinx-autodoc-typehints",
+          "version": "3.6.2"
+        },
+        {
+          "name": "sphinx-click",
+          "version": "6.2.0"
+        },
+        {
+          "name": "sphinx-rtd-theme",
+          "version": "3.1.0"
+        },
+        {
+          "name": "sphinxcontrib-apidoc",
+          "version": "0.6.0"
+        },
+        {
+          "name": "sphinxcontrib-applehelp",
+          "version": "2.0.0"
+        },
+        {
+          "name": "sphinxcontrib-devhelp",
+          "version": "2.0.0"
+        },
+        {
+          "name": "sphinxcontrib-htmlhelp",
+          "version": "2.1.0"
+        },
+        {
+          "name": "sphinxcontrib-jquery",
+          "version": "4.1"
+        },
+        {
+          "name": "sphinxcontrib-jsmath",
+          "version": "1.0.1"
+        },
+        {
+          "name": "sphinxcontrib-qthelp",
+          "version": "2.0.0"
+        },
+        {
+          "name": "sphinxcontrib-serializinghtml",
+          "version": "2.0.0"
+        },
+        {
+          "name": "starlette",
+          "version": "0.52.1"
+        },
+        {
+          "name": "tenacity",
+          "version": "9.1.2"
+        },
+        {
+          "name": "text-unidecode",
+          "version": "1.3"
+        },
+        {
+          "name": "tomli",
+          "version": "2.2.1"
+        },
+        {
+          "name": "tomlkit",
+          "version": "0.13.3"
+        },
+        {
+          "name": "tqdm",
+          "version": "4.67.1"
+        },
+        {
+          "name": "typer",
+          "version": "0.16.0"
+        },
+        {
+          "name": "types-python-dateutil",
+          "version": "2.9.0.20250809"
+        },
+        {
+          "name": "typing-extensions",
+          "version": "4.14.1"
+        },
+        {
+          "name": "urllib3",
+          "version": "2.6.3"
+        },
+        {
+          "name": "uv",
+          "version": "0.9.28"
+        },
+        {
+          "name": "uvicorn",
+          "version": "0.40.0"
+        },
+        {
+          "name": "watchfiles",
+          "version": "1.1.1"
+        },
+        {
+          "name": "websockets",
+          "version": "16.0"
+        }
+      ],
+      "status": null
+    },
+    "trivy": {
+      "all_dependency_edges": 25,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [
+        "arrow",
+        "binaryornot",
+        "certifi",
+        "chardet",
+        "charset-normalizer",
+        "click",
+        "colorama",
+        "cookiecutter",
+        "idna",
+        "jinja2",
+        "markdown-it-py",
+        "markupsafe",
+        "mdurl",
+        "pygments",
+        "python-dateutil",
+        "python-slugify",
+        "pyyaml",
+        "requests",
+        "rich",
+        "six",
+        "text-unidecode",
+        "types-python-dateutil",
+        "urllib3"
+      ],
+      "python_package_records": 24,
+      "python_versions": [
+        {
+          "name": "arrow",
+          "version": "1.3.0"
+        },
+        {
+          "name": "binaryornot",
+          "version": "0.4.4"
+        },
+        {
+          "name": "certifi",
+          "version": "2025.8.3"
+        },
+        {
+          "name": "chardet",
+          "version": "5.2.0"
+        },
+        {
+          "name": "charset-normalizer",
+          "version": "3.4.3"
+        },
+        {
+          "name": "click",
+          "version": "8.2.1"
+        },
+        {
+          "name": "colorama",
+          "version": "0.4.6"
+        },
+        {
+          "name": "cookiecutter",
+          "version": "2.7.1"
+        },
+        {
+          "name": "idna",
+          "version": "3.10"
+        },
+        {
+          "name": "jinja2",
+          "version": "3.1.6"
+        },
+        {
+          "name": "markdown-it-py",
+          "version": "3.0.0"
+        },
+        {
+          "name": "markdown-it-py",
+          "version": "4.0.0"
+        },
+        {
+          "name": "markupsafe",
+          "version": "3.0.2"
+        },
+        {
+          "name": "mdurl",
+          "version": "0.1.2"
+        },
+        {
+          "name": "pygments",
+          "version": "2.19.2"
+        },
+        {
+          "name": "python-dateutil",
+          "version": "2.9.0.post0"
+        },
+        {
+          "name": "python-slugify",
+          "version": "8.0.4"
+        },
+        {
+          "name": "pyyaml",
+          "version": "6.0.2"
+        },
+        {
+          "name": "requests",
+          "version": "2.32.4"
+        },
+        {
+          "name": "rich",
+          "version": "14.1.0"
+        },
+        {
+          "name": "six",
+          "version": "1.17.0"
+        },
+        {
+          "name": "text-unidecode",
+          "version": "1.3"
+        },
+        {
+          "name": "types-python-dateutil",
+          "version": "2.9.0.20250809"
+        },
+        {
+          "name": "urllib3",
+          "version": "2.6.3"
+        }
+      ],
+      "status": null
+    }
+  },
+  "unresolved_declarations": []
+}

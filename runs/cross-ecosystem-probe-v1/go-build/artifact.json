@@ -1,0 +1,6 @@
+{
+  "sha256": "3e661ba991f53bc328038a6408e3c655efdd1da6e7dc6c8c6cc997fa62ab04cc",
+  "GOOS": "linux",
+  "GOARCH": "amd64",
+  "CGO_ENABLED": "0"
+}

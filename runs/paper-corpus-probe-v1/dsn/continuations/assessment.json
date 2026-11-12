@@ -1,0 +1,56 @@
+{
+  "build_reason": "resolve",
+  "build_status": "FAILED",
+  "case": "dsn/continuations",
+  "origin_commit": "e6bcf23b2f4e384f9fc398793529583845612b63",
+  "source": {
+    "cyclonedx": {
+      "all_dependency_edges": 0,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [
+        "beautifulsoup4",
+        "numpy",
+        "requests"
+      ],
+      "python_package_records": 4,
+      "python_versions": [
+        {
+          "name": "beautifulsoup4",
+          "version": "4.1.0"
+        },
+        {
+          "name": "beautifulsoup4",
+          "version": null
+        },
+        {
+          "name": "numpy",
+          "version": "1.26.2"
+        },
+        {
+          "name": "requests",
+          "version": null
+        }
+      ],
+      "status": null
+    },
+    "syft": {
+      "all_dependency_edges": 0,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [],
+      "python_package_records": 0,
+      "python_versions": [],
+      "status": null
+    },
+    "trivy": {
+      "all_dependency_edges": 0,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [],
+      "python_package_records": 0,
+      "python_versions": [],
+      "status": null
+    }
+  }
+}

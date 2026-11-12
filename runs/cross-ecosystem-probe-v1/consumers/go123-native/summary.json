@@ -1,0 +1,14 @@
+{
+  "case": "go123-native",
+  "sbom": "go123/cyclonedx-bin.cdx.json",
+  "sbom_sha256": "efa3e486945c87f4a6c5ebe175239b5430c6378018b1eb1586585cfffbd4f1a7",
+  "exit_code": 1,
+  "packages": {
+    "Go:golang.org/x/text@v0.14.0": [
+      "GO-2026-5970",
+      "GO-2026-6629"
+    ],
+    "Go:std@go1.23.0": []
+  },
+  "has_parseable_json": true
+}

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/osv-scanner",
+    "--version"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:45:12.787992+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 0.05097172900059377
+}

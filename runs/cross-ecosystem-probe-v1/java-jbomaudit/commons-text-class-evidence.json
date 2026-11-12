@@ -1,0 +1,31 @@
+{
+  "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.9/commons-text-1.9.jar",
+  "upstream_sha1": "ba6ac8c2807490944a0a27f6f8e68fb5ed2e80e2",
+  "upstream_jar_sha256": "0812f284ac5dd0d617461d9a2ab6ac6811137f25122dfffd4788a4871e732d00",
+  "paper_jar_sha256": "56eff5c7894ea20a78aab4d1c41d4581fd5eb246e8d09fbe5a82e5260e0b288d",
+  "exact_class_matches": {
+    "org/apache/commons/text/StringEscapeUtils$1.class": "a38dc43f042e82b7395c6f873471510161a8acbca6a304cb0e5ff93382fd3ce1",
+    "org/apache/commons/text/StringEscapeUtils$Builder.class": "abd03b1b3db374e8aa23a3a1ec00f91cc239208a78c692505ab74807149cd055",
+    "org/apache/commons/text/StringEscapeUtils$XsiUnescaper.class": "44360df03da91d15aebb5ae858bd756359bb0370825775e7772334e83cfd894b",
+    "org/apache/commons/text/StringEscapeUtils.class": "df5138826fff3075220325c2aa84ad82242d84b8e4df9c2b6486cabae6a20bd7",
+    "org/apache/commons/text/translate/AggregateTranslator.class": "6c699d2ad59bb44d0926ee328f12f3528e9406652a9484e667f6bad802af7175",
+    "org/apache/commons/text/translate/CharSequenceTranslator.class": "af8222f8ca3dff75e0ab8e9bf17133c321cb09fc9f3d7f6640c6effc1d6082dc",
+    "org/apache/commons/text/translate/CodePointTranslator.class": "8726faeadef8273c7085f0bd6e4f385219f474ba846ae507d82cb00ac5c136b2",
+    "org/apache/commons/text/translate/CsvTranslators$CsvEscaper.class": "b48325c5dc810f8eb053ec691a5dda8c284e87d545a0a2cfde4e51040409808a",
+    "org/apache/commons/text/translate/CsvTranslators$CsvUnescaper.class": "1c0d65ff0c7fdc76c56deb2cdb3a5e239d47584a133e8b9eca8312f1e707249d",
+    "org/apache/commons/text/translate/CsvTranslators.class": "19a5b4606586af361d81e9b5f23e2721d737fade69b54ad89e8c6f77a9e0a365",
+    "org/apache/commons/text/translate/EntityArrays.class": "1d77127352f10ea27233f7ffff20cb68bab9db727ba982241387c2d91372b1c8",
+    "org/apache/commons/text/translate/JavaUnicodeEscaper.class": "c6e9639d1466b2fdc0183e52fbe46a4c35f1647f2ad594e29918ad567cf6db38",
+    "org/apache/commons/text/translate/LookupTranslator.class": "637f5c9b0a7d1e65b16cfb63d03568042f36d390adeb86b6269b12662b64bc72",
+    "org/apache/commons/text/translate/NumericEntityEscaper.class": "c58e4f2cd928d635771bcd52915b02ceddba6d65c9c4de1fee6cad54dc62fc4d",
+    "org/apache/commons/text/translate/NumericEntityUnescaper$OPTION.class": "1940e63eb1ff7c58c2be6e02f18de199615b179e15f18af21ed23dcbdff69103",
+    "org/apache/commons/text/translate/NumericEntityUnescaper.class": "ad5474162aea4242f854750be2496a326cbd3791c08b2603a170697474097f6d",
+    "org/apache/commons/text/translate/OctalUnescaper.class": "8ef3dc3a3ba14d5ed993e73bd69eb0156e52c367d10129c4abdc92723cfd53de",
+    "org/apache/commons/text/translate/SinglePassTranslator.class": "b7fe5734dc28fa4f886c04d18ef955d2f7d1626d6f7a62926f10ffa9190a2af4",
+    "org/apache/commons/text/translate/UnicodeEscaper.class": "dd6d29df15ba2c1c625d7a7243924925d82baf47a1647b78711782218ce0682a",
+    "org/apache/commons/text/translate/UnicodeUnescaper.class": "ed93a07fae188e1d6cd15fe8e47dc9b5b6621ad808153b3aa37256a8056b248c",
+    "org/apache/commons/text/translate/UnicodeUnpairedSurrogateRemover.class": "e387d849c33ffa4221f2944435db5cb80c23d4d81cfd4cd20ca66c418fc108a4"
+  },
+  "nonmatching_classes": [],
+  "note": "Exact byte matches support component identification; neither prove vulnerable function reachability nor uniquely distinguish every upstream release"
+}

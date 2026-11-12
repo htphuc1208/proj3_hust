@@ -1,0 +1,48 @@
+{
+  "distributions": [
+    {
+      "direct_url": {
+        "archive_info": {},
+        "url": "file:///out/wheels/fire-0.7.1-py3-none-any.whl"
+      },
+      "metadata_path": "/target/lib/python3.11/site-packages/fire-0.7.1.dist-info/METADATA",
+      "name": "fire",
+      "requirements": [
+        "termcolor",
+        "setuptools<=80.9.0; extra == \"test\"",
+        "pip; extra == \"test\"",
+        "pylint<3.3.8; extra == \"test\"",
+        "pytest<=8.4.1; extra == \"test\"",
+        "pytest-pylint<=1.1.2; extra == \"test\"",
+        "pytest-runner<7.0.0; extra == \"test\"",
+        "termcolor<3.2.0; extra == \"test\"",
+        "hypothesis<6.137.0; extra == \"test\"",
+        "levenshtein<=0.27.1; extra == \"test\""
+      ],
+      "version": "0.7.1"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/termcolor-3.3.0.dist-info/METADATA",
+      "name": "termcolor",
+      "requirements": [
+        "pytest; extra == 'tests'",
+        "pytest-cov; extra == 'tests'"
+      ],
+      "version": "3.3.0"
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.11.16",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_python_implementation": "CPython",
+    "platform_release": "7.0.0-30-generic",
+    "platform_system": "Linux",
+    "platform_version": "#30~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:27:52 UTC 2",
+    "python_full_version": "3.11.16",
+    "python_version": "3.11",
+    "sys_platform": "linux"
+  }
+}

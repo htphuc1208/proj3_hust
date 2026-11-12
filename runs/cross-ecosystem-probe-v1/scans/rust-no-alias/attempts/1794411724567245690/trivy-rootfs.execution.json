@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/trivy",
+    "rootfs",
+    "--offline-scan",
+    "--skip-db-update",
+    "--skip-java-db-update",
+    "--disable-telemetry",
+    "--skip-version-check",
+    "--parallel",
+    "1",
+    "--format",
+    "cyclonedx",
+    "--output",
+    "/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/scans/rust-no-alias/trivy-rootfs.cdx.json",
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/rust-no-alias"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:37:35.507888+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 0.07367537400205038
+}

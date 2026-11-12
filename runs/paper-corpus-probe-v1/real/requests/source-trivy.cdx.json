@@ -1,0 +1,83 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:c4fd7ea4-7a2b-48f9-952a-09ed911d58eb",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T14:36:30+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "fbd484be-1692-4da4-a3f4-17af1c233059",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/real/requests",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "81a5b0bc-3af3-4926-ba87-e75322944dca",
+      "type": "application",
+      "name": "docs/requirements.txt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/sphinx@7.2.6",
+      "type": "library",
+      "name": "Sphinx",
+      "version": "7.2.6",
+      "purl": "pkg:pypi/sphinx@7.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "81a5b0bc-3af3-4926-ba87-e75322944dca",
+      "dependsOn": [
+        "pkg:pypi/sphinx@7.2.6"
+      ]
+    },
+    {
+      "ref": "fbd484be-1692-4da4-a3f4-17af1c233059",
+      "dependsOn": [
+        "81a5b0bc-3af3-4926-ba87-e75322944dca"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/sphinx@7.2.6",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

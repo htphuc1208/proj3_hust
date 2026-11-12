@@ -1,0 +1,42 @@
+Using Python 3.11.16 environment at: /out/target
+Resolved 24 packages in 1.71s
+   Building docopt @ https://files.pythonhosted.org/packages/a2/55/8f8cab2afd404cf578136ef2cc5dfb50baa1761b68c9da1fb1e4eed343c9/docopt-0.6.2.tar.gz
+   Building black @ git+https://github.com/psf/black.git@64c8be01f0cfedc94cb1c9ebd342ea77cafbb78a
+Downloading fonttools (5.2MiB)
+Downloading pandas (11.8MiB)
+Downloading matplotlib (9.4MiB)
+Downloading kiwisolver (1.4MiB)
+Downloading pillow (6.8MiB)
+ Downloaded kiwisolver
+ Downloaded fonttools
+ Downloaded pillow
+ Downloaded matplotlib
+      Built docopt @ https://files.pythonhosted.org/packages/a2/55/8f8cab2afd404cf578136ef2cc5dfb50baa1761b68c9da1fb1e4eed343c9/docopt-0.6.2.tar.gz
+ Downloaded pandas
+      Built black @ git+https://github.com/psf/black.git@64c8be01f0cfedc94cb1c9ebd342ea77cafbb78a
+Prepared 17 packages in 5.87s
+Installed 24 packages in 2.83s
+ + black==21.10b0 (from git+https://github.com/psf/black.git@64c8be01f0cfedc94cb1c9ebd342ea77cafbb78a)
+ + click==8.5.1
+ + contourpy==1.3.3
+ + cycler==0.12.1
+ + docopt==0.6.2 (from https://files.pythonhosted.org/packages/a2/55/8f8cab2afd404cf578136ef2cc5dfb50baa1761b68c9da1fb1e4eed343c9/docopt-0.6.2.tar.gz)
+ + fonttools==4.68.0
+ + hatch-hatchling==0.0.1 (from file:///out/wheels/hatch_hatchling-0.0.1-py3-none-any.whl)
+ + kiwisolver==1.5.1
+ + matplotlib==3.11.2
+ + mypy-extensions==1.2.0
+ + numpy==2.4.6
+ + packaging==26.3
+ + pandas==3.1.1
+ + pathspec==0.12.1
+ + pillow==13.0.0
+ + platformdirs==4.14.5
+ + pyparsing==3.3.3
+ + python-dateutil==4.0.0
+ + regex==2026.11.9
+ + seaborn==0.12.2
+ + tomli==1.2.3
+ + typing-extensions==4.16.0
+ + tzdata==2026.6
+ + urllib3==2.8.0

@@ -1,0 +1,20 @@
+{
+  "captures": "/home/phucht/project/sbom_recovery/research/.work/m25-cohort-captures-v2",
+  "extras": "No requested root extras; propagate dependency-requested extras to a fixed point",
+  "generated_at": "2026-11-10T15:53:21.057847+00:00",
+  "image": "sha256:805b20fa868a3c2fd8acec00101cf50c2b76314a540377ba081cac4b7c7ec907",
+  "prediction_mounts": "tool ro, target ro, output rw; no oracle; network disabled",
+  "projects": [
+    "requests",
+    "typer",
+    "nox",
+    "django-debug-toolbar",
+    "imbalanced-learn",
+    "pyserial"
+  ],
+  "runner_sha256": "bdb3dc2d80241c08abe5a61a70e303f0c6f4fe648c0b385e9c5459b4fdc0f83a",
+  "scope": "All top-level installed distributions; application closure reported separately",
+  "selection": "Six named old development projects selected before observing CycloneDX results",
+  "tool": "cyclonedx-bom==8.0.1",
+  "tool_directory": "/home/phucht/project/sbom_recovery/research/.work/comparators/cyclonedx-python-8.0.1"
+}

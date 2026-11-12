@@ -1,0 +1,29 @@
+{
+  "inventory_sha256": "32228144805f8fb04a118f4b201a969e711ce07b987fc015845126ebb8fe5c55",
+  "sbom_sha256": "b2bd404d6d138a710ad5dbdd03f6e09326f7cc94447e7aaba96aa1eac0b75357",
+  "target_metadata": {
+    "lib/python3.11/site-packages/certifi-2025.11.12.dist-info/METADATA": "fc9a6b1aeff595649d1e5aee44129ca2b5e7adfbc10e1bd7ffa291afc1d06cb7",
+    "lib/python3.11/site-packages/charset_normalizer-3.4.4.dist-info/METADATA": "8d5b94141b62f1d6afd7d60bbd68acb138a155d176a33518e0a28cc3b8dd9014",
+    "lib/python3.11/site-packages/idna-3.11.dist-info/METADATA": "7c2c12c30f52ba237c4c81e59454804944025b9e6102cf1dcca9ebf5168411b0",
+    "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+    "lib/python3.11/site-packages/requests-2.32.5.dist-info/METADATA": "65b5a08da81f4915513e760965ff14b7518f65b7bb3efe0dab364bbcc4d40cb0",
+    "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+    "lib/python3.11/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/METADATA": "3800d9b91dceea2065a6ed6279383362e97ac38b8e56b9343f404ee531860099",
+    "lib/python3.11/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/METADATA": "8215c54ead77d9dc5a108a25c6bdc72b5999aa6f62c9499a440359412afa5a51",
+    "lib/python3.11/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA": "6a7b90effee1e09d5b484cdf7232016a43e2d9cc9543bcbb8e494b1ec05e1f59",
+    "lib/python3.11/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/METADATA": "66030d634580651b3e53cc19895d9231f8d22aa06b327817c8332cfc20303308",
+    "lib/python3.11/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/METADATA": "20c51a96236c0395f53b1f4c5d458e6a0721e51e16c1bff733b7aba76f5d06d8",
+    "lib/python3.11/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/METADATA": "c43b60b897a3d2d37d8845c252fc44261d9aef171e21154111a9012d2afffed6",
+    "lib/python3.11/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/METADATA": "8b86946900d7fa38dd1102b9c1ebe17a0cb1f09c8b7e29f61f2bda4a4dc51eca",
+    "lib/python3.11/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/METADATA": "03359d9ba56231f0ce3e840c7cb5a7db380141218949ccaa78ddbd4dcb965d52",
+    "lib/python3.11/site-packages/setuptools/_vendor/more_itertools-10.3.0.dist-info/METADATA": "0453bdd0ef9f2cd89540ca63ee8212e73b73809514419dd3037d8fe471f737e0",
+    "lib/python3.11/site-packages/setuptools/_vendor/packaging-24.2.dist-info/METADATA": "a211fceacea4e6621f4316364d2d0b7127c00de3856b8062082f9bc5957ea4db",
+    "lib/python3.11/site-packages/setuptools/_vendor/platformdirs-4.2.2.dist-info/METADATA": "ce6b227b4d46d4cb57474c2022fe57a557933bb89daf4596bdf9b12ac296b869",
+    "lib/python3.11/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info/METADATA": "ccf0dc78a98fc0918b5ad67292b1e2c4bed65575a6246cd9d63c914f9942a0f2",
+    "lib/python3.11/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/METADATA": "cf675c1c0a744f08580855390de87cc77d676b312582e8d4cfdb5bb8fd298d21",
+    "lib/python3.11/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/METADATA": "05e51021af1c9d86eb8d6c7e37c4cece733d5065b91a6d8389c5690ed440f16d",
+    "lib/python3.11/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/METADATA": "98acfce07ee6ee3b31272cde21c4d53918936f434f315dfd2af3886211a09a30",
+    "lib/python3.11/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/METADATA": "508ae4fe43081c64b0b0a2828588b3a8cc3430c6693d1676662569400b0dfdb1",
+    "lib/python3.11/site-packages/urllib3-2.6.2.dist-info/METADATA": "532da8b2c7b39b017e837451b0d9c946061a2ec4a9e04d4161e487166a731a53"
+  }
+}

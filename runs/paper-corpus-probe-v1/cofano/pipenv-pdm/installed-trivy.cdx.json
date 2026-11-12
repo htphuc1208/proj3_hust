@@ -1,0 +1,964 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:ab1ddeb5-b39b-4137-8443-a10270e7bbd3",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T14:42:57+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "45988d9a-723f-4de5-ab1c-5d320672b8ed",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/cofano/pipenv-pdm/target",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/black@21.10b0",
+      "type": "library",
+      "name": "black",
+      "version": "21.10b0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4efa9b8f327c608ad7b5f9799187cacbee9b4bbe"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/black@21.10b0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/black-21.10b0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/click@8.1.7",
+      "type": "library",
+      "name": "click",
+      "version": "8.1.7",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5c33361d71534572b6d2d3edd15ac9bad78b59c6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/click@8.1.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/click-8.1.7.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/contourpy@1.3.1",
+      "type": "library",
+      "name": "contourpy",
+      "version": "1.3.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "23a7ab871d21f28fe9a69af679074b5d71b8d049"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/contourpy@1.3.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/contourpy-1.3.1.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/cycler@0.12.1",
+      "type": "library",
+      "name": "cycler",
+      "version": "0.12.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7d3502b4fe8345e59b4069765f5a89999f7adf5f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/cycler@0.12.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/cycler-0.12.1.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/docopt@0.6.2",
+      "type": "library",
+      "name": "docopt",
+      "version": "0.6.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "82cb6b42782f11a94998ec7d830b9984b870c54f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/docopt@0.6.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/docopt-0.6.2.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/fonttools@4.55.2",
+      "type": "library",
+      "name": "fonttools",
+      "version": "4.55.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8c1faeb70101bae81dd25324c62f3e62dd93f6be"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/fonttools@4.55.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/fonttools-4.55.2.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/kiwisolver@1.4.7",
+      "type": "library",
+      "name": "kiwisolver",
+      "version": "1.4.7",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "feefaa1bb71df9fb2fe9386a4cfeaf7ce7a7cee1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/kiwisolver@1.4.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/kiwisolver-1.4.7.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/matplotlib@3.9.3",
+      "type": "library",
+      "name": "matplotlib",
+      "version": "3.9.3",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "35aa0668ae50165c68b805bd1a422f5831767763"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Python-Software-Foundation-License"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/matplotlib@3.9.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/matplotlib-3.9.3.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/mypy-extensions@1.0.0",
+      "type": "library",
+      "name": "mypy-extensions",
+      "version": "1.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "151646e3724c763f3d4de17afa638d5afe07dbe6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/mypy-extensions@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/mypy_extensions-1.0.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/numpy@2.1.3",
+      "type": "library",
+      "name": "numpy",
+      "version": "2.1.3",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e99f7136e91ef982118fa15deef52141a4266a39"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/numpy@2.1.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/numpy-2.1.3.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/packaging@24.2",
+      "type": "library",
+      "name": "packaging",
+      "version": "24.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "292b8d19cdc308e072817b6407cac3cb5175a060"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/packaging@24.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/packaging-24.2.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pandas@2.2.3",
+      "type": "library",
+      "name": "pandas",
+      "version": "2.2.3",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "1b46059ec1a47e40ff4139e9eb60e969381f4acb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pandas@2.2.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/pandas-2.2.3.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pathspec@0.12.1",
+      "type": "library",
+      "name": "pathspec",
+      "version": "0.12.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a159d2ad18175f19c1eddc481cef7de750ffaef5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pathspec@0.12.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/pathspec-0.12.1.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pillow@11.0.0",
+      "type": "library",
+      "name": "pillow",
+      "version": "11.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e4bd88e655b298ea8862420833c05b430e6c32a8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CMU License (MIT-CMU)"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pillow@11.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/pillow-11.0.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pipenv-pdm@0.0.1",
+      "type": "library",
+      "name": "pipenv-pdm",
+      "version": "0.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5596fcaa1e863dd0afa6b79f4aa5e129a402ef21"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pipenv-pdm@0.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/pipenv_pdm-0.0.1.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/platformdirs@4.3.6",
+      "type": "library",
+      "name": "platformdirs",
+      "version": "4.3.6",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "21292af55ef2f56c4724c211bd245e72f375f891"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/platformdirs@4.3.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/platformdirs-4.3.6.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pyparsing@3.2.0",
+      "type": "library",
+      "name": "pyparsing",
+      "version": "3.2.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "964f733fbd7171efafd1992782e1e136e015b7ec"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pyparsing@3.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/pyparsing-3.2.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "type": "library",
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7a3c35abd86cd96034d5afb0d4b241dc9e13e6f8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pytz@2024.2",
+      "type": "library",
+      "name": "pytz",
+      "version": "2024.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b270d4a0d8e9d9961b2ba96e947cb734ed68c778"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pytz@2024.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/pytz-2024.2.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/regex@2024.11.6",
+      "type": "library",
+      "name": "regex",
+      "version": "2024.11.6",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3a70d9409a3305e80f707761d5554e6a7fe26398"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/regex@2024.11.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/regex-2024.11.6.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/seaborn@0.12.2",
+      "type": "library",
+      "name": "seaborn",
+      "version": "0.12.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "bb28543a6ffae3507d01365e66fb1d6ddf694d74"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/seaborn@0.12.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/seaborn-0.12.2.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/six@1.17.0",
+      "type": "library",
+      "name": "six",
+      "version": "1.17.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "483a26554261f6c839703c0e1183f3ef33ff97f1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/six@1.17.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/six-1.17.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/tomli@1.2.3",
+      "type": "library",
+      "name": "tomli",
+      "version": "1.2.3",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9857b38c003a46ad42d7d255fdc660d9c3b995d6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/tomli@1.2.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/tomli-1.2.3.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/typing-extensions@4.12.2",
+      "type": "library",
+      "name": "typing_extensions",
+      "version": "4.12.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b6ada54b9516d20b69a5dd5cded868da22c5e252"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Python-Software-Foundation-License"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/typing-extensions@4.12.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/typing_extensions-4.12.2.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/tzdata@2024.2",
+      "type": "library",
+      "name": "tzdata",
+      "version": "2024.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "1e16ccdad69dd73000f714e71cb72a8a22e42878"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/tzdata@2024.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/tzdata-2024.2.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/urllib3@2.2.3",
+      "type": "library",
+      "name": "urllib3",
+      "version": "2.2.3",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "150524ee8bba4b41d2e36d789748ec8ec0e65315"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/urllib3@2.2.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/urllib3-2.2.3.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "45988d9a-723f-4de5-ab1c-5d320672b8ed",
+      "dependsOn": [
+        "pkg:pypi/black@21.10b0",
+        "pkg:pypi/click@8.1.7",
+        "pkg:pypi/contourpy@1.3.1",
+        "pkg:pypi/cycler@0.12.1",
+        "pkg:pypi/docopt@0.6.2",
+        "pkg:pypi/fonttools@4.55.2",
+        "pkg:pypi/kiwisolver@1.4.7",
+        "pkg:pypi/matplotlib@3.9.3",
+        "pkg:pypi/mypy-extensions@1.0.0",
+        "pkg:pypi/numpy@2.1.3",
+        "pkg:pypi/packaging@24.2",
+        "pkg:pypi/pandas@2.2.3",
+        "pkg:pypi/pathspec@0.12.1",
+        "pkg:pypi/pillow@11.0.0",
+        "pkg:pypi/pipenv-pdm@0.0.1",
+        "pkg:pypi/platformdirs@4.3.6",
+        "pkg:pypi/pyparsing@3.2.0",
+        "pkg:pypi/python-dateutil@2.9.0.post0",
+        "pkg:pypi/pytz@2024.2",
+        "pkg:pypi/regex@2024.11.6",
+        "pkg:pypi/seaborn@0.12.2",
+        "pkg:pypi/six@1.17.0",
+        "pkg:pypi/tomli@1.2.3",
+        "pkg:pypi/typing-extensions@4.12.2",
+        "pkg:pypi/tzdata@2024.2",
+        "pkg:pypi/urllib3@2.2.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/black@21.10b0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/click@8.1.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/contourpy@1.3.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/cycler@0.12.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/docopt@0.6.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/fonttools@4.55.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/kiwisolver@1.4.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/matplotlib@3.9.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/mypy-extensions@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/numpy@2.1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/packaging@24.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pandas@2.2.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pathspec@0.12.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pillow@11.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pipenv-pdm@0.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/platformdirs@4.3.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyparsing@3.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pytz@2024.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/regex@2024.11.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/seaborn@0.12.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/six@1.17.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/tomli@1.2.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/typing-extensions@4.12.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/tzdata@2024.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/urllib3@2.2.3",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

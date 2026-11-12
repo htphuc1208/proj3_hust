@@ -1,0 +1,79 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:4b99163e-3bcc-4da5-a179-7e295047f10b",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T14:43:37+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "9a9d822f-abf5-4ae2-a5bd-b859236a4091",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/real/loguru/target",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/loguru@0.7.3",
+      "type": "library",
+      "name": "loguru",
+      "version": "0.7.3",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "1f90198ba274e5d97b702e6ffdf571f4c415680c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/loguru@0.7.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/loguru-0.7.3.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "9a9d822f-abf5-4ae2-a5bd-b859236a4091",
+      "dependsOn": [
+        "pkg:pypi/loguru@0.7.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/loguru@0.7.3",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

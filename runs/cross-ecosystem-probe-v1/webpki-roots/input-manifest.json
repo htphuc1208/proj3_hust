@@ -1,0 +1,10 @@
+{
+  "source": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/webpki-roots",
+  "files": {
+    "Cargo.toml": "7e62a247b285b90f7a7fd7bd45058393947ddd4a322bf1c8738ab5ff857121bd",
+    "Cargo.lock": "cffa17b8ab8e617b496004f22229100ebc236c725c007eac220e4132eb80deb4",
+    "webpki-roots/Cargo.toml": "ec569a09b967bf45756ddb2a2064f3a17c66a0d7dad7127c88597f25ef604094",
+    "webpki-root-certs/Cargo.toml": "dd21657677e53aef4712cd564a41946057fb07a46f59eb1f1c848fb9f8a600ab",
+    "webpki-ccadb/Cargo.toml": "a9ea153e7e93a51b4de6fc127e87f30836385913d6f09e96d12ebc2571a8b0d1"
+  }
+}

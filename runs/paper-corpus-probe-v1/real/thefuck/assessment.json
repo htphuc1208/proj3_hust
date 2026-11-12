@@ -1,0 +1,246 @@
+{
+  "active_extras": {},
+  "build_reason": null,
+  "build_status": "COMPLETE",
+  "case": "real/thefuck",
+  "declared_active_edges": 6,
+  "installed": {
+    "environment": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [
+        {
+          "declarations": [
+            "colorama; os_name == \"nt\" and extra == \"dev\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "psutil",
+          "target": "colorama"
+        }
+      ],
+      "known_extra_edges": [
+        [
+          "psutil",
+          "colorama"
+        ]
+      ],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 7,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "environment-pyproject": {
+      "exit_code": null,
+      "status": "FAILED_OR_UNAVAILABLE"
+    },
+    "installed-syft": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [
+        {
+          "declarations": [
+            "colorama; os_name == \"nt\" and extra == \"dev\""
+          ],
+          "mechanism": "INACTIVE_MARKER_OR_EXTRA",
+          "source": "psutil",
+          "target": "colorama"
+        }
+      ],
+      "known_extra_edges": [
+        [
+          "psutil",
+          "colorama"
+        ]
+      ],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [],
+      "missing_edge_citations": [],
+      "missing_edges": [],
+      "projected_edges": 7,
+      "root_missing_edges": [],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    },
+    "installed-trivy": {
+      "absent_installed_names": [],
+      "dangling_references": [],
+      "extra_explanations": [],
+      "known_extra_edges": [],
+      "metric_scope": "Name-level projection onto observed installed inventory; version fidelity reported separately",
+      "missed_reachable_names": [
+        "colorama",
+        "decorator",
+        "psutil",
+        "pyte",
+        "six",
+        "wcwidth"
+      ],
+      "missing_edge_citations": [
+        {
+          "declarations": [
+            "wcwidth"
+          ],
+          "source": "pyte",
+          "target": "wcwidth"
+        },
+        {
+          "declarations": [
+            "colorama"
+          ],
+          "source": "thefuck",
+          "target": "colorama"
+        },
+        {
+          "declarations": [
+            "decorator; python_version > \"2.7\""
+          ],
+          "source": "thefuck",
+          "target": "decorator"
+        },
+        {
+          "declarations": [
+            "psutil"
+          ],
+          "source": "thefuck",
+          "target": "psutil"
+        },
+        {
+          "declarations": [
+            "pyte; python_version > \"2.7\""
+          ],
+          "source": "thefuck",
+          "target": "pyte"
+        },
+        {
+          "declarations": [
+            "six"
+          ],
+          "source": "thefuck",
+          "target": "six"
+        }
+      ],
+      "missing_edges": [
+        [
+          "pyte",
+          "wcwidth"
+        ],
+        [
+          "thefuck",
+          "colorama"
+        ],
+        [
+          "thefuck",
+          "decorator"
+        ],
+        [
+          "thefuck",
+          "psutil"
+        ],
+        [
+          "thefuck",
+          "pyte"
+        ],
+        [
+          "thefuck",
+          "six"
+        ]
+      ],
+      "projected_edges": 0,
+      "root_missing_edges": [
+        [
+          "thefuck",
+          "colorama"
+        ],
+        [
+          "thefuck",
+          "decorator"
+        ],
+        [
+          "thefuck",
+          "psutil"
+        ],
+        [
+          "thefuck",
+          "pyte"
+        ],
+        [
+          "thefuck",
+          "six"
+        ]
+      ],
+      "status": "COMPLETE",
+      "unexpected_reachable_names": [],
+      "unknown_installed_versions": [],
+      "unresolved_extra_edges": [],
+      "version_mismatches": []
+    }
+  },
+  "installed_packages": 7,
+  "origin_commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+  "requested_extra_seeds": {},
+  "root_declared_active_edges": [
+    [
+      "thefuck",
+      "colorama"
+    ],
+    [
+      "thefuck",
+      "decorator"
+    ],
+    [
+      "thefuck",
+      "psutil"
+    ],
+    [
+      "thefuck",
+      "pyte"
+    ],
+    [
+      "thefuck",
+      "six"
+    ]
+  ],
+  "root_name": "thefuck",
+  "source": {
+    "cyclonedx": {
+      "exit_code": null,
+      "status": "NO_NATIVE_SOURCE_MODE"
+    },
+    "syft": {
+      "all_dependency_edges": 0,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [
+        ":sys-platform"
+      ],
+      "python_package_records": 1,
+      "python_versions": [
+        {
+          "name": ":sys-platform",
+          "version": "win32"
+        }
+      ],
+      "status": null
+    },
+    "trivy": {
+      "all_dependency_edges": 0,
+      "dangling_references": [],
+      "exit_code": 0,
+      "python_names": [],
+      "python_package_records": 0,
+      "python_versions": [],
+      "status": null
+    }
+  },
+  "unresolved_declarations": []
+}

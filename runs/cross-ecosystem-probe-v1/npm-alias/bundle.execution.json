@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/node/node_modules/.bin/esbuild",
+    "index.js",
+    "--bundle",
+    "--platform=node",
+    "--minify",
+    "--legal-comments=none",
+    "--outfile=/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/npm-bundle/app.js",
+    "--metafile=/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/npm-alias/esbuild-metafile.json"
+  ],
+  "cwd": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/npm-alias",
+  "started_at": "2026-11-11T15:27:49.415147+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 1.8839921549988503
+}

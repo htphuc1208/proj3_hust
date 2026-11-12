@@ -1,8 +1,13 @@
-# SBOM Graph Reconstruction → Security Impact (PoC)
+# SBOM Reconciliation for Vulnerability Matching
 
-An evidence-guided, context-aware framework for reconstructing incomplete Software Bill of Materials (SBOM) dependency graphs and performing downstream vulnerability reachability analysis.
+Current implementation: evidence-guided reconstruction of installed Python SBOM dependency graphs. The V3 design combines metadata correctness (A), dependency-graph reconciliation (B) and downstream vulnerability evaluation (E) across multiple SBOMs. Artifact evidence is optional.
 
-Conforms to Tier-1 Academic Standards (ACM CCS / IEEE S&P / USENIX Security / ICSE) defined in [AGENTS.md](AGENTS.md) and formal problem formulations in [ARCHITECTURE.md](ARCHITECTURE.md).
+See the [V3 problem formulation](PROBLEM_FORMULATION.md), [architecture](ARCHITECTURE.md)
+and [implementation milestones](research/RECONCILIATION_PLAN_V3.md).
+V3 currently provides design/input contracts and optional artifact contracts;
+the multi-SBOM alignment/reconciliation pipeline is not implemented. Existing CLI
+examples below use Python V2.
+Accuracy superiority and research novelty are not established.
 
 ---
 
@@ -51,7 +56,7 @@ Run the baseline offline demonstration (requires only standard Python 3.9+, no p
 Open `results/with_source/dashboard.html` in your browser to toggle between the original and reconstructed SBOM graphs.
 
 ### 3. Running All Tests
-To execute the complete automated test suite (329 unit tests covering resolvers, baselines, temporal protocols, and validators):
+To execute the automated unit tests covering resolvers, baselines, temporal protocols, and validators:
 
 ```bash
 ./scripts/run_all_tests.sh
@@ -102,7 +107,8 @@ their original artifacts; new study plans use `agent-study-v3-no-conformal`.
 
 ## Scientific Principles & Invariants
 
-All development in this repository strictly adheres to [AGENTS.md](AGENTS.md):
+Research boundaries are recorded in the [V3 problem formulation](PROBLEM_FORMULATION.md)
+and the [historical Python protocol](research/PROTOCOL.md). The Python implementation follows these invariants:
 - **Fail-Closed Principle:** Absence of evidence is not evidence of absence. Missing dependency or call paths must be labeled `UNKNOWN` or `NOT_OBSERVED`, never `SAFE` or `PROVEN_UNREACHABLE`.
 - **Anti-Data / Anti-Label Leakage:** Ground truth oracle is strictly isolated and used only for evaluation scoring (`research_core.score_application`). Ground truth never leaks into candidate generation.
 - **Candidate Discipline:** Inferred packages and edges remain *candidates*; they are never conflated with verified installed packages without explicit physical installation evidence.

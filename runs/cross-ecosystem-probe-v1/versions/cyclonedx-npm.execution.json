@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/node/node_modules/.bin/cyclonedx-npm",
+    "--version"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:45:12.640209+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 0.12384914299764205
+}

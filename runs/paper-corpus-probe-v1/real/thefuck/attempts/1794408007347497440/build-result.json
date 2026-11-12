@@ -1,0 +1,33 @@
+{
+  "status": "FAILED",
+  "reason": "wheel",
+  "steps": [
+    {
+      "step": "venv",
+      "command": [
+        "/tools/uv",
+        "venv",
+        "--python",
+        "/usr/local/bin/python",
+        "/out/target"
+      ],
+      "exit_code": 0,
+      "seconds": 0.02416272199843661
+    },
+    {
+      "step": "wheel",
+      "command": [
+        "/tools/uv",
+        "build",
+        "--wheel",
+        "--python",
+        "/usr/local/bin/python",
+        "--out-dir",
+        "/out/wheels",
+        "/tmp/paper-source"
+      ],
+      "exit_code": 2,
+      "seconds": 1.1207797169990954
+    }
+  ]
+}

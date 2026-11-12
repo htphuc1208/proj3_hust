@@ -1,0 +1,70 @@
+[
+  {
+    "id": "omnibor-pdf",
+    "kind": "paper",
+    "url": "https://arxiv.org/pdf/2402.08980",
+    "retrieved_at": "2026-11-11T15:31:30.722392+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/pdf/2402.08980",
+    "content_type": "application/pdf",
+    "sha256": "941a6a1b1075ba38057d9e508403722840f0f4261098fc2eee5f5266b6e92e4a",
+    "bytes": 1324918,
+    "cache": "research/.work/cross-ecosystem-probe-v1/sources/omnibor-pdf.pdf"
+  },
+  {
+    "id": "java2023",
+    "kind": "paper",
+    "url": "https://people.kth.se/~musard/research/pubs/sp23.pdf",
+    "retrieved_at": "2026-11-11T15:31:30.723402+00:00",
+    "status": 200,
+    "final_url": "https://people.kth.se/~musard/research/pubs/sp23.pdf",
+    "content_type": "application/pdf",
+    "sha256": "0eea92fa7970f81afc50f6252a260d555f829189ee4068f7a67eb3e9b1def640",
+    "bytes": 781969,
+    "cache": "research/.work/cross-ecosystem-probe-v1/sources/java2023.pdf"
+  },
+  {
+    "id": "java2023-artifact",
+    "kind": "artifact",
+    "url": "https://raw.githubusercontent.com/chains-project/SBOM-2023/main/README.md",
+    "retrieved_at": "2026-11-11T15:31:30.724256+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/chains-project/SBOM-2023/main/README.md",
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "bf41b79d4e43a669992660bfaa1bddb815cca6415c8a319b23a583b09a05fb55",
+    "bytes": 9861,
+    "cache": "research/.work/cross-ecosystem-probe-v1/sources/java2023-artifact.txt"
+  },
+  {
+    "id": "ccscanner",
+    "kind": "paper",
+    "url": "https://liyiweb.com/files/Tang2022TUT.pdf",
+    "retrieved_at": "2026-11-11T15:31:30.725192+00:00",
+    "status": 200,
+    "final_url": "https://liyiweb.com/files/Tang2022TUT.pdf",
+    "content_type": "application/pdf",
+    "sha256": "9cf757a28b5283e9ed6f46aa4549f1859f693306c501edfbfbbd4f23f2cc5132",
+    "bytes": 1420528,
+    "cache": "research/.work/cross-ecosystem-probe-v1/sources/ccscanner.pdf"
+  },
+  {
+    "id": "ccscanner-artifact",
+    "kind": "artifact",
+    "url": "https://raw.githubusercontent.com/lkpsg/ccscanner/master/README.md",
+    "retrieved_at": "2026-11-11T15:31:30.727496+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/lkpsg/ccscanner/master/README.md",
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "ce1ca2e48b12bab65b825f3f8d0235e3ac5649eb751da2cdf6045fdcf9ebd129",
+    "bytes": 1669,
+    "cache": "research/.work/cross-ecosystem-probe-v1/sources/ccscanner-artifact.txt"
+  },
+  {
+    "id": "npm2024",
+    "kind": "paper",
+    "url": "https://dl.acm.org/doi/10.1145/3605098.3635927",
+    "retrieved_at": "2026-11-11T15:31:31.181651+00:00",
+    "status": "FAILED",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

@@ -1,0 +1,5 @@
+Warning: --sbom has been deprecated in favor of -L
+Starting filesystem walk for root: /
+Neither CPE nor PURL found for package: {BOMRef:a837bfd943468ec8 MIMEType: Type:file Supplier:<nil> Manufacturer:<nil> Author: Authors:<nil> Publisher: Group: Name:/app Version: Description: Scope: Hashes:0x3abd492f8c18 Licenses:<nil> Copyright: CPE: PackageURL: OmniborID:<nil> SWHID:<nil> SWID:<nil> Modified:<nil> Pedigree:<nil> ExternalReferences:<nil> Properties:<nil> Components:<nil> Evidence:<nil> ReleaseNotes:<nil> ModelCard:<nil> Data:<nil> CryptoProperties:<nil> Tags:<nil> IsExternal:<nil> PatentAssertions:<nil> VersionRange: Signature:<nil>}
+Scanned /home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/scans/go123-binary/syft.cdx.json file and found 3 packages
+End status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 691.718µs elapsed, 691.777µs wall time

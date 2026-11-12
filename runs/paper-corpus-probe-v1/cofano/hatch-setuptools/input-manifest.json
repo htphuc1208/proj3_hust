@@ -1,0 +1,15 @@
+{
+  "entrypoint": null,
+  "hashes": {
+    "pyproject.toml": "99e0de02ce1c04be3dfc072bd4ca2e80ccf465304d720da6867d8fdbe24476ff",
+    "src/hatch_setuptools/__about__.py": "5f8c830b372b54575f3849db7e244bdec7d98fa359ab846de8ed9b6ba5d2d6cc",
+    "src/hatch_setuptools/__init__.py": "e4d0931bf493772e41b95a0b51f9d1c3d9f4fd89333127836da88090a237b4d3",
+    "src/hatch_setuptools/main.py": "fef8ca0a78ec8d692c54cf22d1f3cf63320eae5f0f8f2c565059dea9e09b6638",
+    "tests/__init__.py": "e4d0931bf493772e41b95a0b51f9d1c3d9f4fd89333127836da88090a237b4d3"
+  },
+  "id": "cofano/hatch-setuptools",
+  "kind": "cofano",
+  "native": null,
+  "origin_commit": "e2070973821f188cd64c5b17a24b06872f2cdc3a",
+  "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/hatch-setuptools"
+}

@@ -1,0 +1,42 @@
+{
+  "scope": "A+B+E design and draft input/optional-artifact contracts; not a running multi-SBOM merger",
+  "test_command": ".venv/bin/python -B -m unittest tests.test_merge_contracts_v3 tests.test_artifact_contracts_v3 tests.test_certified_reconciliation tests.test_paper_corpus_probe -q",
+  "tests": 79,
+  "result": "PASS",
+  "new_contract_tests": 46,
+  "existing_regression_tests": 33,
+  "git_diff_check": "PASS",
+  "schemas": "structural JSON Schema plus model cross-field invariants; examples include synthetic inputs",
+  "source_sha256": {
+    "ARCHITECTURE.md": "3c8734dc6bbbf34e2fc38b814b359c97d7858d96154475536f269c0e19535aad",
+    "PROBLEM_FORMULATION.md": "fdebfa2b5522f0888d78d5c8fcb91ec018bf3cf699e61dd59a488449ce5d9340",
+    "research/RECONCILIATION_PLAN_V3.md": "fc747168b89837afb9e36882931b6ba99ff97dfab1f315c3f01e27b8e8614998",
+    "research/design/artifact-reconciliation-v3/examples/ambiguous-identity.assessment.json": "c3d39a232824820b614fe4b6e99b455dd27832cd96b68b379629c39ecabff376",
+    "research/design/artifact-reconciliation-v3/examples/conflicting-identity.assessment.json": "aac467e2d312d1f89bd6cbb8c50e53e16473d613c88df8a33c971b15c1342a0d",
+    "research/design/artifact-reconciliation-v3/examples/input.json": "abcf8cc7e2cecdba81401f63a7d7c190155dc2cc42df78c46548f93743da5aec",
+    "research/design/artifact-reconciliation-v3/examples/metadata-only.assessment.json": "55a56b006d61957a531109cf26660cc85a2199c3c43dcfe9827b32f5c30bc0b3",
+    "research/design/artifact-reconciliation-v3/examples/supported-component.assessment.json": "419f1bc8052fd307f3af6de0fa34fe9d4a20a68a2619feaf83461c745f4de7f0",
+    "research/design/artifact-reconciliation-v3/schemas/assessment.schema.json": "89893dbfcadd91ee9c709316f257c090367f5604e4b57407e243f094eae0d239",
+    "research/design/artifact-reconciliation-v3/schemas/input.schema.json": "22e4d4843628f50d2bf0bcf8944b97a0fe98d8f87181dfa52c84933d273d3cb3",
+    "research/design/reconciliation-v3/examples/input.json": "679488b3a8ba2fff746dd7d0ee22ea2c3e49bdba5da2a9af69c90d90c1e910e3",
+    "research/design/reconciliation-v3/examples/inputs/tool-a.cdx.json": "06cd7e464998001556d2863cd1529afefd7847641db182e000d1111e475ccfe8",
+    "research/design/reconciliation-v3/examples/inputs/tool-b.cdx.json": "b452d50d649760e6d99c8856e30bca20e0e3aee1b981c358d0aa93f04776374a",
+    "research/design/reconciliation-v3/schemas/input.schema.json": "0b30cf0a31e4cc5d34661ec518efc7c82c44c6c0ab46ff7b046a1e7967a50f53",
+    "sbom_recovery/reconciliation/contracts_v3.py": "85c48ad35fe7a721f278a6bf9319178c6cdb761b4da9d1beee983d91f1e03ccc",
+    "sbom_recovery/reconciliation/merge_contracts_v3.py": "fa5964b5f08d51f89e72eafbdf6c9ffea94bb290e6a464549ff05dfaf8e62c36",
+    "scripts/export_artifact_design_v3.py": "8081587738def2bdaf1b505939e6f9fddca4a040fe951281625e782098d80df8",
+    "scripts/export_reconciliation_design_v3.py": "fd7039b90c569c1d1f5fe3b78c69c4fea5ff5b7c73e50f87ca86e927ed372e2d",
+    "tests/test_artifact_contracts_v3.py": "a4a3ca3306b11dd206b774094fc1d9f9a024a3ef7e6da744e5b22f2d30561fef",
+    "tests/test_merge_contracts_v3.py": "28db3126d03af8855e0ceacd53e554f6491c10bb58b3a0bf20ae9502a001cc95"
+  },
+  "baseline_source_review": {
+    "repository": "https://github.com/MoriwakiYusuke/sbom-unifier",
+    "commit": "521f3b8ee6e301e847f7cb113517ba46831e2b28",
+    "observed_features": [
+      "priority conflict annotations",
+      "package-to-package relationship merging"
+    ],
+    "execution": "Source review only; original benchmark not rerun in this task"
+  },
+  "performance_claim": "No accuracy, superiority or novelty claim follows from contract tests"
+}

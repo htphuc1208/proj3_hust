@@ -1,0 +1,768 @@
+{
+  "$defs": {
+    "ArtifactTargetV3": {
+      "additionalProperties": false,
+      "properties": {
+        "artifact": {
+          "$ref": "#/$defs/BlobReferenceV3"
+        },
+        "boundary": {
+          "const": "supplied_artifact",
+          "default": "supplied_artifact",
+          "title": "Boundary",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "java_jar",
+            "js_bundle",
+            "native_binary"
+          ],
+          "title": "Kind",
+          "type": "string"
+        }
+      },
+      "required": [
+        "artifact",
+        "kind"
+      ],
+      "title": "ArtifactTargetV3",
+      "type": "object"
+    },
+    "BlobReferenceV3": {
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "minLength": 1,
+          "title": "Path",
+          "type": "string"
+        },
+        "sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Sha256",
+          "type": "string"
+        }
+      },
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "title": "BlobReferenceV3",
+      "type": "object"
+    },
+    "ClaimAssessmentV3": {
+      "additionalProperties": false,
+      "properties": {
+        "claim_id": {
+          "minLength": 1,
+          "title": "Claim Id",
+          "type": "string"
+        },
+        "object": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "const": true,
+              "type": "boolean"
+            }
+          ],
+          "title": "Object"
+        },
+        "predicate": {
+          "enum": [
+            "identity",
+            "selected",
+            "metadata_present",
+            "code_present",
+            "unit_present",
+            "direct_dependency",
+            "contains",
+            "build_input_of",
+            "source_contributes",
+            "standard_library",
+            "consumer_identity_alias"
+          ],
+          "title": "Predicate",
+          "type": "string"
+        },
+        "reason": {
+          "minLength": 1,
+          "title": "Reason",
+          "type": "string"
+        },
+        "refutation_coverage_ids": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Refutation Coverage Ids",
+          "type": "array"
+        },
+        "refutation_evidence_ids": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Refutation Evidence Ids",
+          "type": "array"
+        },
+        "rule_id": {
+          "minLength": 1,
+          "title": "Rule Id",
+          "type": "string"
+        },
+        "scope": {
+          "$ref": "#/$defs/ClaimScopeV3"
+        },
+        "status": {
+          "enum": [
+            "SUPPORTED",
+            "REFUTED",
+            "CONFLICT",
+            "UNKNOWN"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "subject": {
+          "minLength": 1,
+          "title": "Subject",
+          "type": "string"
+        },
+        "support_evidence_ids": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Support Evidence Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "claim_id",
+        "subject",
+        "predicate",
+        "object",
+        "scope",
+        "status",
+        "rule_id",
+        "reason"
+      ],
+      "title": "ClaimAssessmentV3",
+      "type": "object"
+    },
+    "ClaimScopeV3": {
+      "additionalProperties": false,
+      "properties": {
+        "context_id": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Context Id"
+        },
+        "phase": {
+          "enum": [
+            "DECLARED",
+            "RESOLVED",
+            "ARTIFACT"
+          ],
+          "title": "Phase",
+          "type": "string"
+        },
+        "target_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Target Sha256",
+          "type": "string"
+        },
+        "unit_domain": {
+          "enum": [
+            "package_identity",
+            "literal_archive_entry",
+            "java_class",
+            "code_footprint",
+            "selected_dependency",
+            "declared_dependency",
+            "source_contribution"
+          ],
+          "title": "Unit Domain",
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_sha256",
+        "phase",
+        "unit_domain"
+      ],
+      "title": "ClaimScopeV3",
+      "type": "object"
+    },
+    "ContextKnowledgeV3": {
+      "additionalProperties": false,
+      "properties": {
+        "architecture": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Architecture"
+        },
+        "build_profile": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Build Profile"
+        },
+        "context_id": {
+          "minLength": 1,
+          "title": "Context Id",
+          "type": "string"
+        },
+        "entrypoint": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Entrypoint"
+        },
+        "features_by_subject": {
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "title": "Features By Subject",
+          "type": "object"
+        },
+        "os": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Os"
+        },
+        "runtimes": {
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "title": "Runtimes",
+          "type": "object"
+        }
+      },
+      "required": [
+        "context_id"
+      ],
+      "title": "ContextKnowledgeV3",
+      "type": "object"
+    },
+    "CoverageV3": {
+      "additionalProperties": false,
+      "properties": {
+        "coverage_id": {
+          "minLength": 1,
+          "title": "Coverage Id",
+          "type": "string"
+        },
+        "evidence_ids": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "identity_mapping_complete": {
+          "default": false,
+          "title": "Identity Mapping Complete",
+          "type": "boolean"
+        },
+        "limitations": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Limitations",
+          "type": "array"
+        },
+        "scope": {
+          "$ref": "#/$defs/ClaimScopeV3"
+        },
+        "status": {
+          "enum": [
+            "COMPLETE",
+            "PARTIAL",
+            "UNSUPPORTED"
+          ],
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "coverage_id",
+        "scope",
+        "status",
+        "evidence_ids"
+      ],
+      "title": "CoverageV3",
+      "type": "object"
+    },
+    "EvidenceBindingV3": {
+      "additionalProperties": false,
+      "properties": {
+        "binding": {
+          "enum": [
+            "DIRECT_ARTIFACT",
+            "MATCHED_OUTPUT",
+            "SUPPLIER_ASSERTED",
+            "UNBOUND",
+            "MISMATCH"
+          ],
+          "title": "Binding",
+          "type": "string"
+        },
+        "blob": {
+          "$ref": "#/$defs/BlobReferenceV3"
+        },
+        "claimed_target_sha256": {
+          "anyOf": [
+            {
+              "pattern": "^[0-9a-f]{64}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Claimed Target Sha256"
+        },
+        "kind": {
+          "enum": [
+            "sbom",
+            "artifact_bytes",
+            "manifest",
+            "lockfile",
+            "native_resolution",
+            "build_record",
+            "registry_metadata",
+            "registry_archive",
+            "bundler_metafile"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "limitations": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Limitations",
+          "type": "array"
+        },
+        "observed_target_sha256": {
+          "anyOf": [
+            {
+              "pattern": "^[0-9a-f]{64}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Observed Target Sha256"
+        },
+        "source_id": {
+          "minLength": 1,
+          "title": "Source Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_id",
+        "blob",
+        "kind",
+        "binding"
+      ],
+      "title": "EvidenceBindingV3",
+      "type": "object"
+    },
+    "IdentityCandidateV3": {
+      "additionalProperties": false,
+      "properties": {
+        "candidate_id": {
+          "minLength": 1,
+          "title": "Candidate Id",
+          "type": "string"
+        },
+        "ecosystem": {
+          "minLength": 1,
+          "title": "Ecosystem",
+          "type": "string"
+        },
+        "name": {
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "namespace": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Namespace"
+        },
+        "origin": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Origin"
+        },
+        "purl": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Purl"
+        },
+        "version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Version"
+        }
+      },
+      "required": [
+        "candidate_id",
+        "ecosystem",
+        "name"
+      ],
+      "title": "IdentityCandidateV3",
+      "type": "object"
+    },
+    "OccurrenceBindingV3": {
+      "additionalProperties": false,
+      "properties": {
+        "basis": {
+          "enum": [
+            "TARGET_METADATA",
+            "EXACT_ARTIFACT_MATCH",
+            "MATCHED_BUILD_OUTPUT",
+            "PARTIAL_FINGERPRINT",
+            "UNKNOWN"
+          ],
+          "title": "Basis",
+          "type": "string"
+        },
+        "binding_id": {
+          "minLength": 1,
+          "title": "Binding Id",
+          "type": "string"
+        },
+        "candidate_ids": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Candidate Ids",
+          "type": "array"
+        },
+        "evidence_ids": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "occurrence_id": {
+          "minLength": 1,
+          "title": "Occurrence Id",
+          "type": "string"
+        },
+        "resolution": {
+          "enum": [
+            "UNRESOLVED",
+            "UNIQUE",
+            "AMBIGUOUS",
+            "CONFLICT"
+          ],
+          "title": "Resolution",
+          "type": "string"
+        },
+        "scope": {
+          "$ref": "#/$defs/ClaimScopeV3"
+        }
+      },
+      "required": [
+        "binding_id",
+        "occurrence_id",
+        "scope",
+        "resolution",
+        "basis"
+      ],
+      "title": "OccurrenceBindingV3",
+      "type": "object"
+    },
+    "ProposedChangeV3": {
+      "additionalProperties": false,
+      "properties": {
+        "after": {
+          "default": null,
+          "title": "After"
+        },
+        "before": {
+          "default": null,
+          "title": "Before"
+        },
+        "binding_ids": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Binding Ids",
+          "type": "array"
+        },
+        "change_id": {
+          "minLength": 1,
+          "title": "Change Id",
+          "type": "string"
+        },
+        "claim_ids": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Claim Ids",
+          "type": "array"
+        },
+        "disposition": {
+          "enum": [
+            "APPLY",
+            "DEFER",
+            "REPORT_ONLY",
+            "NO_CHANGE"
+          ],
+          "title": "Disposition",
+          "type": "string"
+        },
+        "operation": {
+          "enum": [
+            "ADD_COMPONENT",
+            "SET_IDENTITY",
+            "ADD_DIRECT_DEPENDENCY",
+            "RETRACT_DIRECT_DEPENDENCY",
+            "CONSUMER_IDENTITY_ALIAS"
+          ],
+          "title": "Operation",
+          "type": "string"
+        },
+        "reason": {
+          "minLength": 1,
+          "title": "Reason",
+          "type": "string"
+        },
+        "related_occurrence_id": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Related Occurrence Id"
+        },
+        "rule_id": {
+          "minLength": 1,
+          "title": "Rule Id",
+          "type": "string"
+        },
+        "scope": {
+          "$ref": "#/$defs/ClaimScopeV3"
+        },
+        "subject": {
+          "minLength": 1,
+          "title": "Subject",
+          "type": "string"
+        }
+      },
+      "required": [
+        "change_id",
+        "operation",
+        "disposition",
+        "scope",
+        "subject",
+        "claim_ids",
+        "rule_id",
+        "reason"
+      ],
+      "title": "ProposedChangeV3",
+      "type": "object"
+    }
+  },
+  "$id": "urn:sbom-recovery:artifact-reconciliation-v3:assessment",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "bindings": {
+      "items": {
+        "$ref": "#/$defs/OccurrenceBindingV3"
+      },
+      "title": "Bindings",
+      "type": "array"
+    },
+    "candidates": {
+      "items": {
+        "$ref": "#/$defs/IdentityCandidateV3"
+      },
+      "title": "Candidates",
+      "type": "array"
+    },
+    "changes": {
+      "items": {
+        "$ref": "#/$defs/ProposedChangeV3"
+      },
+      "title": "Changes",
+      "type": "array"
+    },
+    "claims": {
+      "items": {
+        "$ref": "#/$defs/ClaimAssessmentV3"
+      },
+      "title": "Claims",
+      "type": "array"
+    },
+    "context": {
+      "$ref": "#/$defs/ContextKnowledgeV3"
+    },
+    "coverage": {
+      "items": {
+        "$ref": "#/$defs/CoverageV3"
+      },
+      "title": "Coverage",
+      "type": "array"
+    },
+    "evidence": {
+      "items": {
+        "$ref": "#/$defs/EvidenceBindingV3"
+      },
+      "title": "Evidence",
+      "type": "array"
+    },
+    "export_profile": {
+      "const": "PRESERVE_OBSERVATION",
+      "default": "PRESERVE_OBSERVATION",
+      "title": "Export Profile",
+      "type": "string"
+    },
+    "input_sbom_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Input Sbom Sha256",
+      "type": "string"
+    },
+    "issues": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Issues",
+      "type": "array"
+    },
+    "policy_id": {
+      "minLength": 1,
+      "title": "Policy Id",
+      "type": "string"
+    },
+    "runtime_exploitability": {
+      "const": "NOT_ASSESSED",
+      "default": "NOT_ASSESSED",
+      "title": "Runtime Exploitability",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "artifact-reconciliation-assessment-v3",
+      "default": "artifact-reconciliation-assessment-v3",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "target": {
+      "$ref": "#/$defs/ArtifactTargetV3"
+    }
+  },
+  "required": [
+    "target",
+    "input_sbom_sha256",
+    "context",
+    "policy_id"
+  ],
+  "title": "ArtifactAssessmentV3",
+  "type": "object"
+}

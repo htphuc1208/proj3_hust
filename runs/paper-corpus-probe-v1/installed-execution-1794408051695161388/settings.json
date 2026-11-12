@@ -1,0 +1,5 @@
+{
+  "build_constraint": "setuptools==80.9.0\n",
+  "build_image": "sbom-paper-corpus:py311-git",
+  "retry_failed": true
+}

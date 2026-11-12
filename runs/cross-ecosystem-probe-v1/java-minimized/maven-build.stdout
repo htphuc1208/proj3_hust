@@ -1,0 +1,62 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< org.example:sbom-shade-probe >--------------------
+[INFO] Building sbom-shade-probe 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ sbom-shade-probe ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /project/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ sbom-shade-probe ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file with javac [debug target 8] to target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ sbom-shade-probe ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /project/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ sbom-shade-probe ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ sbom-shade-probe ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ sbom-shade-probe ---
+[INFO] Building jar: /project/target/sbom-shade-probe-1.0.0.jar
+[INFO] 
+[INFO] --- shade:3.6.1:shade (default) @ sbom-shade-probe ---
+[INFO] Minimizing jar org.example:sbom-shade-probe:jar:1.0.0
+[WARNING] commons-compress-1.20.jar, sbom-shade-probe-1.0.0.jar define 1 overlapping resource: 
+[WARNING]   - META-INF/MANIFEST.MF
+[WARNING] maven-shade-plugin has detected that some files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the file is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See https://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Minimized 368 -> 9 (2%)
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] 
+[INFO] --------------------< org.example:sbom-shade-probe >--------------------
+[INFO] Building sbom-shade-probe 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- cyclonedx:2.9.3:makeAggregateBom (default-cli) @ sbom-shade-probe ---
+[INFO] CycloneDX: Resolving Dependencies
+[INFO] CycloneDX: Creating BOM version 1.6 with 1 component(s)
+[INFO] CycloneDX: Writing and validating BOM (JSON): /project/target/bom.json
+[WARNING] Unknown keyword meta:enum - you should define your own Meta Schema. If the keyword is irrelevant for validation, just use a NonValidationKeyword or if it should generate annotations AnnotationKeyword
+[WARNING] Unknown keyword deprecated - you should define your own Meta Schema. If the keyword is irrelevant for validation, just use a NonValidationKeyword or if it should generate annotations AnnotationKeyword
+[INFO]            attaching as sbom-shade-probe-1.0.0-cyclonedx.json
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.164 s
+[INFO] Finished at: 2026-11-11T15:41:23Z
+[INFO] ------------------------------------------------------------------------

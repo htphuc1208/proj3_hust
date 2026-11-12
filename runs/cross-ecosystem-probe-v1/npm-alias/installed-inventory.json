@@ -1,0 +1,24 @@
+{
+  "platform": "linux",
+  "architecture": "x86_64",
+  "packages": [
+    {
+      "path": "node_modules/lodash-fixed/package.json",
+      "name": "lodash",
+      "version": "4.17.21",
+      "sha256": "8e41b07c744a0de0d2c1c23ed41418ecb0849abb56395d28802e601b4730d7c2"
+    },
+    {
+      "path": "node_modules/lodash-vulnerable/package.json",
+      "name": "lodash",
+      "version": "4.17.20",
+      "sha256": "a31f975e12af9f665ce76e3dcc00a83fb94d13b601e49c1afa4e3390bbe8b6b3"
+    },
+    {
+      "path": "node_modules/minimist/package.json",
+      "name": "minimist",
+      "version": "1.2.5",
+      "sha256": "8817242e5b97b660b4068c829e3b38e4a1c30d397b1f34131090be30b85974e6"
+    }
+  ]
+}

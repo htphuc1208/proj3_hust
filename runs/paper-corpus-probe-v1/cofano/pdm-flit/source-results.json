@@ -1,0 +1,37 @@
+{
+  "cyclonedx": {
+    "note": "No generic pyproject/setup.py source mode in this tool",
+    "status": "NO_NATIVE_SOURCE_MODE"
+  },
+  "syft": {
+    "command": [
+      "/home/phucht/project/sbom_recovery/research/.work/syft",
+      "scan",
+      "dir:/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/pdm-flit",
+      "-o",
+      "cyclonedx-json=/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/cofano/pdm-flit/source-syft.cdx.json"
+    ],
+    "exit_code": 0,
+    "seconds": 1.4859486519999336
+  },
+  "trivy": {
+    "command": [
+      "/home/phucht/project/sbom_recovery/research/.work/trivy",
+      "fs",
+      "--offline-scan",
+      "--skip-db-update",
+      "--skip-java-db-update",
+      "--disable-telemetry",
+      "--skip-version-check",
+      "--parallel",
+      "1",
+      "--format",
+      "cyclonedx",
+      "--output",
+      "/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/cofano/pdm-flit/source-trivy.cdx.json",
+      "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/pdm-flit"
+    ],
+    "exit_code": 0,
+    "seconds": 0.0686787419981556
+  }
+}

@@ -1,0 +1,697 @@
+{
+  "vulns": [
+    {
+      "affected": [
+        {
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/10/GHSA-cg8m-r9f2-5wm2/GHSA-cg8m-r9f2-5wm2.json"
+          },
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "black",
+            "purl": "pkg:pypi/black"
+          },
+          "ranges": [
+            {
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "26.10.1"
+                }
+              ],
+              "type": "ECOSYSTEM"
+            }
+          ],
+          "versions": [
+            "18.3a0",
+            "18.3a1",
+            "18.3a2",
+            "18.3a3",
+            "18.3a4",
+            "18.4a0",
+            "18.4a1",
+            "18.4a2",
+            "18.4a3",
+            "18.4a4",
+            "18.5b0",
+            "18.5b1",
+            "18.6b0",
+            "18.6b1",
+            "18.6b2",
+            "18.6b3",
+            "18.6b4",
+            "18.9b0",
+            "19.10b0",
+            "19.3b0",
+            "20.8b0",
+            "20.8b1",
+            "21.10b0",
+            "21.11b0",
+            "21.11b1",
+            "21.12b0",
+            "21.4b0",
+            "21.4b1",
+            "21.4b2",
+            "21.5b0",
+            "21.5b1",
+            "21.5b2",
+            "21.6b0",
+            "21.7b0",
+            "21.8b0",
+            "21.9b0",
+            "22.1.0",
+            "22.10.0",
+            "22.12.0",
+            "22.3.0",
+            "22.6.0",
+            "22.8.0",
+            "23.1.0",
+            "23.10.0",
+            "23.10.1",
+            "23.11.0",
+            "23.12.0",
+            "23.12.1",
+            "23.1a1",
+            "23.3.0",
+            "23.7.0",
+            "23.9.0",
+            "23.9.1",
+            "24.1.0",
+            "24.1.1",
+            "24.10.0",
+            "24.1a1",
+            "24.2.0",
+            "24.3.0",
+            "24.4.0",
+            "24.4.1",
+            "24.4.2",
+            "24.8.0",
+            "25.1.0",
+            "25.11.0",
+            "25.12.0",
+            "25.9.0",
+            "26.1.0",
+            "26.10.0",
+            "26.1a1",
+            "26.3.0",
+            "26.3.1",
+            "26.5.0",
+            "26.5.1"
+          ]
+        }
+      ],
+      "aliases": [
+        "CVE-2026-114134"
+      ],
+      "database_specific": {
+        "cwe_ids": [
+          "CWE-829"
+        ],
+        "github_reviewed": true,
+        "github_reviewed_at": "2026-10-22T16:18:57Z",
+        "nvd_published_at": null,
+        "severity": "HIGH"
+      },
+      "details": "### Summary\n\nThe GitHub Action bundled with Black can read the version from `tool.black.required-version` if `use_pyproject` is set to True. This version is not validated and therefore can be used to execute untrusted code in the context of a victim's repository.\n\n### Details\n\nThis is similar to the previous CVE-2026-31900. The value in `tool.black.required-version` is accepted as the version to be installed by the action without validation.\n\n### Proof of concept\n\nReproduction requires a victim to use Black's GitHub Action with `use_pyproject: true`. The attacker would then issue a PR to the victim's repository with `pyproject.toml` edited so that Black points to a malicious repository.\n\n### Impact\n\nThis is a remote code execution vulnerability impacting users using the GitHub Action bundled with psf/black and using the `use_pyproject: true` setting.",
+      "id": "GHSA-cg8m-r9f2-5wm2",
+      "modified": "2026-10-22T16:30:30.132713769Z",
+      "published": "2026-10-22T16:18:57Z",
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/psf/black/security/advisories/GHSA-cg8m-r9f2-5wm2"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/psf/black/pull/5510"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/psf/black/commit/ac1f71563aeccf73cf13ece00f231d9d6c66a514"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/psf/black"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/psf/black/releases/tag/26.10.1"
+        }
+      ],
+      "schema_version": "1.9.0",
+      "severity": [
+        {
+          "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+          "type": "CVSS_V4"
+        }
+      ],
+      "summary": "Black: GitHub Action installs unvalidated required-version from pyproject.toml"
+    },
+    {
+      "affected": [
+        {
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/03/GHSA-fj7x-q9j7-g6q6/GHSA-fj7x-q9j7-g6q6.json"
+          },
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "black",
+            "purl": "pkg:pypi/black"
+          },
+          "ranges": [
+            {
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "24.3.0"
+                }
+              ],
+              "type": "ECOSYSTEM"
+            }
+          ],
+          "versions": [
+            "18.3a0",
+            "18.3a1",
+            "18.3a2",
+            "18.3a3",
+            "18.3a4",
+            "18.4a0",
+            "18.4a1",
+            "18.4a2",
+            "18.4a3",
+            "18.4a4",
+            "18.5b0",
+            "18.5b1",
+            "18.6b0",
+            "18.6b1",
+            "18.6b2",
+            "18.6b3",
+            "18.6b4",
+            "18.9b0",
+            "19.10b0",
+            "19.3b0",
+            "20.8b0",
+            "20.8b1",
+            "21.10b0",
+            "21.11b0",
+            "21.11b1",
+            "21.12b0",
+            "21.4b0",
+            "21.4b1",
+            "21.4b2",
+            "21.5b0",
+            "21.5b1",
+            "21.5b2",
+            "21.6b0",
+            "21.7b0",
+            "21.8b0",
+            "21.9b0",
+            "22.1.0",
+            "22.10.0",
+            "22.12.0",
+            "22.3.0",
+            "22.6.0",
+            "22.8.0",
+            "23.1.0",
+            "23.10.0",
+            "23.10.1",
+            "23.11.0",
+            "23.12.0",
+            "23.12.1",
+            "23.1a1",
+            "23.3.0",
+            "23.7.0",
+            "23.9.0",
+            "23.9.1",
+            "24.1.0",
+            "24.1.1",
+            "24.1a1",
+            "24.2.0"
+          ]
+        }
+      ],
+      "aliases": [
+        "CVE-2024-21503",
+        "PYSEC-2024-48"
+      ],
+      "database_specific": {
+        "cwe_ids": [
+          "CWE-1333",
+          "CWE-75"
+        ],
+        "github_reviewed": true,
+        "github_reviewed_at": "2024-03-20T15:24:01Z",
+        "nvd_published_at": "2024-03-19T05:15:09Z",
+        "severity": "MODERATE"
+      },
+      "details": "Versions of the package black before 24.3.0 are vulnerable to Regular Expression Denial of Service (ReDoS) via the lines_with_leading_tabs_expanded function in the strings.py file. An attacker could exploit this vulnerability by crafting a malicious input that causes a denial of service.\n\nExploiting this vulnerability is possible when running Black on untrusted input, or if you habitually put thousands of leading tab characters in your docstrings.",
+      "id": "GHSA-fj7x-q9j7-g6q6",
+      "modified": "2026-09-10T03:50:10.486429507Z",
+      "published": "2024-03-19T06:30:52Z",
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-21503"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/psf/black/commit/f00093672628d212b8965a8993cee8bedf5fe9b8"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/psf/black"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/psf/black/releases/tag/24.3.0"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/pypa/advisory-database/tree/main/vulns/black/PYSEC-2024-48.yaml"
+        },
+        {
+          "type": "WEB",
+          "url": "https://security.snyk.io/vuln/SNYK-PYTHON-BLACK-6256273"
+        }
+      ],
+      "schema_version": "1.9.0",
+      "severity": [
+        {
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+          "type": "CVSS_V3"
+        }
+      ],
+      "summary": "Black vulnerable to Regular Expression Denial of Service (ReDoS)"
+    },
+    {
+      "affected": [
+        {
+          "database_specific": {
+            "source": "https://github.com/pypa/advisory-database/blob/main/vulns/black/PYSEC-2024-48.yaml"
+          },
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "black",
+            "purl": "pkg:pypi/black"
+          },
+          "ranges": [
+            {
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "f00093672628d212b8965a8993cee8bedf5fe9b8"
+                }
+              ],
+              "repo": "https://github.com/psf/black",
+              "type": "GIT"
+            },
+            {
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "24.3.0"
+                }
+              ],
+              "type": "ECOSYSTEM"
+            }
+          ],
+          "versions": [
+            "18.3a0",
+            "18.3a1",
+            "18.3a2",
+            "18.3a3",
+            "18.3a4",
+            "18.4a0",
+            "18.4a1",
+            "18.4a2",
+            "18.4a3",
+            "18.4a4",
+            "18.5b0",
+            "18.5b1",
+            "18.6b0",
+            "18.6b1",
+            "18.6b2",
+            "18.6b3",
+            "18.6b4",
+            "18.9b0",
+            "19.10b0",
+            "19.3b0",
+            "20.8b0",
+            "20.8b1",
+            "21.10b0",
+            "21.11b0",
+            "21.11b1",
+            "21.12b0",
+            "21.4b0",
+            "21.4b1",
+            "21.4b2",
+            "21.5b0",
+            "21.5b1",
+            "21.5b2",
+            "21.6b0",
+            "21.7b0",
+            "21.8b0",
+            "21.9b0",
+            "22.1.0",
+            "22.10.0",
+            "22.12.0",
+            "22.3.0",
+            "22.6.0",
+            "22.8.0",
+            "23.1.0",
+            "23.10.0",
+            "23.10.1",
+            "23.11.0",
+            "23.12.0",
+            "23.12.1",
+            "23.1a1",
+            "23.3.0",
+            "23.7.0",
+            "23.9.0",
+            "23.9.1",
+            "24.1.0",
+            "24.1.1",
+            "24.1a1",
+            "24.2.0"
+          ]
+        }
+      ],
+      "aliases": [
+        "CVE-2024-21503",
+        "GHSA-fj7x-q9j7-g6q6"
+      ],
+      "details": "Versions of the package black before 24.3.0 are vulnerable to Regular Expression Denial of Service (ReDoS) via the lines_with_leading_tabs_expanded function in the strings.py file. An attacker could exploit this vulnerability by crafting a malicious input that causes a denial of service.\r\rExploiting this vulnerability is possible when running Black on untrusted input, or if you habitually put thousands of leading tab characters in your docstrings.",
+      "id": "PYSEC-2024-48",
+      "modified": "2026-06-10T17:00:37.560368446Z",
+      "published": "2024-03-19T05:15:00Z",
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://security.snyk.io/vuln/SNYK-PYTHON-BLACK-6256273"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/psf/black/releases/tag/24.3.0"
+        },
+        {
+          "type": "FIX",
+          "url": "https://github.com/psf/black/commit/f00093672628d212b8965a8993cee8bedf5fe9b8"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://github.com/advisories/GHSA-fj7x-q9j7-g6q6"
+        }
+      ],
+      "schema_version": "1.7.5"
+    },
+    {
+      "affected": [
+        {
+          "database_specific": {
+            "source": "https://github.com/pypa/advisory-database/blob/main/vulns/black/PYSEC-2026-2120.yaml"
+          },
+          "ecosystem_specific": {},
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "black",
+            "purl": "pkg:pypi/black"
+          },
+          "ranges": [
+            {
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "26.3.0"
+                }
+              ],
+              "type": "ECOSYSTEM"
+            }
+          ],
+          "versions": [
+            "18.3a0",
+            "18.3a1",
+            "18.3a2",
+            "18.3a3",
+            "18.3a4",
+            "18.4a0",
+            "18.4a1",
+            "18.4a2",
+            "18.4a3",
+            "18.4a4",
+            "18.5b0",
+            "18.5b1",
+            "18.6b0",
+            "18.6b1",
+            "18.6b2",
+            "18.6b3",
+            "18.6b4",
+            "18.9b0",
+            "19.10b0",
+            "19.3b0",
+            "20.8b0",
+            "20.8b1",
+            "21.10b0",
+            "21.11b0",
+            "21.11b1",
+            "21.12b0",
+            "21.4b0",
+            "21.4b1",
+            "21.4b2",
+            "21.5b0",
+            "21.5b1",
+            "21.5b2",
+            "21.6b0",
+            "21.7b0",
+            "21.8b0",
+            "21.9b0",
+            "22.1.0",
+            "22.10.0",
+            "22.12.0",
+            "22.3.0",
+            "22.6.0",
+            "22.8.0",
+            "23.1.0",
+            "23.10.0",
+            "23.10.1",
+            "23.11.0",
+            "23.12.0",
+            "23.12.1",
+            "23.1a1",
+            "23.3.0",
+            "23.7.0",
+            "23.9.0",
+            "23.9.1",
+            "24.1.0",
+            "24.1.1",
+            "24.10.0",
+            "24.1a1",
+            "24.2.0",
+            "24.3.0",
+            "24.4.0",
+            "24.4.1",
+            "24.4.2",
+            "24.8.0",
+            "25.1.0",
+            "25.11.0",
+            "25.12.0",
+            "25.9.0",
+            "26.1.0",
+            "26.1a1"
+          ]
+        }
+      ],
+      "aliases": [
+        "CVE-2026-31900",
+        "GHSA-v53h-f6m7-xcgm"
+      ],
+      "details": "Black is the uncompromising Python code formatter. Black provides a GitHub action for formatting code. This action supports an option, use_pyproject: true, for reading the version of Black to use from the repository pyproject.toml. A malicious pull request could edit pyproject.toml to use a direct URL reference to a malicious repository. This could lead to arbitrary code execution in the context of the GitHub Action. Attackers could then gain access to secrets or permissions available in the context of the action. Version 26.3.0 fixes this vulnerability.",
+      "id": "PYSEC-2026-2120",
+      "modified": "2026-07-13T07:15:15.712525536Z",
+      "published": "2026-03-11T20:16:15.960Z",
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://github.com/psf/black/security/advisories/GHSA-v53h-f6m7-xcgm"
+        },
+        {
+          "type": "FIX",
+          "url": "https://github.com/psf/black/commit/0a2560b981364dde4c8cf8ce9d164c40669a8611"
+        }
+      ],
+      "schema_version": "1.7.5",
+      "severity": [
+        {
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "type": "CVSS_V3"
+        }
+      ]
+    },
+    {
+      "affected": [
+        {
+          "database_specific": {
+            "source": "https://github.com/pypa/advisory-database/blob/main/vulns/black/PYSEC-2026-2121.yaml"
+          },
+          "ecosystem_specific": {},
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "black",
+            "purl": "pkg:pypi/black"
+          },
+          "ranges": [
+            {
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "26.3.1"
+                }
+              ],
+              "type": "ECOSYSTEM"
+            }
+          ],
+          "versions": [
+            "18.3a0",
+            "18.3a1",
+            "18.3a2",
+            "18.3a3",
+            "18.3a4",
+            "18.4a0",
+            "18.4a1",
+            "18.4a2",
+            "18.4a3",
+            "18.4a4",
+            "18.5b0",
+            "18.5b1",
+            "18.6b0",
+            "18.6b1",
+            "18.6b2",
+            "18.6b3",
+            "18.6b4",
+            "18.9b0",
+            "19.10b0",
+            "19.3b0",
+            "20.8b0",
+            "20.8b1",
+            "21.10b0",
+            "21.11b0",
+            "21.11b1",
+            "21.12b0",
+            "21.4b0",
+            "21.4b1",
+            "21.4b2",
+            "21.5b0",
+            "21.5b1",
+            "21.5b2",
+            "21.6b0",
+            "21.7b0",
+            "21.8b0",
+            "21.9b0",
+            "22.1.0",
+            "22.10.0",
+            "22.12.0",
+            "22.3.0",
+            "22.6.0",
+            "22.8.0",
+            "23.1.0",
+            "23.10.0",
+            "23.10.1",
+            "23.11.0",
+            "23.12.0",
+            "23.12.1",
+            "23.1a1",
+            "23.3.0",
+            "23.7.0",
+            "23.9.0",
+            "23.9.1",
+            "24.1.0",
+            "24.1.1",
+            "24.10.0",
+            "24.1a1",
+            "24.2.0",
+            "24.3.0",
+            "24.4.0",
+            "24.4.1",
+            "24.4.2",
+            "24.8.0",
+            "25.1.0",
+            "25.11.0",
+            "25.12.0",
+            "25.9.0",
+            "26.1.0",
+            "26.1a1",
+            "26.3.0"
+          ]
+        }
+      ],
+      "aliases": [
+        "CVE-2026-32274",
+        "GHSA-3936-cmfr-pm3m"
+      ],
+      "details": "Black is the uncompromising Python code formatter. Prior to 26.3.1, Black writes a cache file, the name of which is computed from various formatting options. The value of the --python-cell-magics option was placed in the filename without sanitization, which allowed an attacker who controls the value of this argument to write cache files to arbitrary file system locations. Fixed in Black 26.3.1.",
+      "id": "PYSEC-2026-2121",
+      "modified": "2026-07-13T07:15:15.715288911Z",
+      "published": "2026-03-12T20:16:06.350Z",
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://access.redhat.com/security/cve/CVE-2026-32274"
+        },
+        {
+          "type": "WEB",
+          "url": "https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-32274.json"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://access.redhat.com/errata/RHSA-2026:10184"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://access.redhat.com/errata/RHSA-2026:13545"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://access.redhat.com/errata/RHSA-2026:13553"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://github.com/psf/black/releases/tag/26.3.1"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://github.com/psf/black/security/advisories/GHSA-3936-cmfr-pm3m"
+        },
+        {
+          "type": "REPORT",
+          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2447111"
+        },
+        {
+          "type": "FIX",
+          "url": "https://github.com/psf/black/commit/4937fe6cf241139ddbfc16b0bdbb5b422798909d"
+        },
+        {
+          "type": "FIX",
+          "url": "https://github.com/psf/black/pull/5038"
+        }
+      ],
+      "schema_version": "1.7.5",
+      "severity": [
+        {
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+          "type": "CVSS_V3"
+        }
+      ]
+    }
+  ]
+}

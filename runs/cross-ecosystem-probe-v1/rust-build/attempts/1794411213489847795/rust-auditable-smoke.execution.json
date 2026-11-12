@@ -1,0 +1,10 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/rust-auditable/app"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:30:37.607842+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 0.017073077000532066
+}

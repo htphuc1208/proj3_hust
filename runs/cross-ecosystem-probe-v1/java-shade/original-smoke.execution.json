@@ -1,0 +1,23 @@
+{
+  "command": [
+    "docker",
+    "run",
+    "--rm",
+    "--network",
+    "none",
+    "--read-only",
+    "--cap-drop=ALL",
+    "-v",
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/java-shaded:/artifact:ro",
+    "sha256:f58d59b6273e785ac0a4477f6e9b5ba1d7731c75b906c0f7b34076f1851318cc",
+    "java",
+    "-cp",
+    "/artifact/app.jar",
+    "org.example.App"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:31:12.160753+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 0.38360745500176563
+}

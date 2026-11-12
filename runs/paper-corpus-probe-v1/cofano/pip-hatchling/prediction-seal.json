@@ -1,0 +1,10 @@
+{
+  "environment-pyproject.cdx.json": "8706dad419714cc6ec4fbd14ba83555de0c925788fe0e24bd583d7e1c0dd17d9",
+  "environment.cdx.json": "042ae6165fb84576cf7d268581b108d5c7ab94e886e617a32e60b45ca3555863",
+  "installed-syft.cdx.json": "ad9502d267e8b43466a4b257f7490036d92bdc0ac36965cb43719e4ec6abfd27",
+  "installed-trivy.cdx.json": "961ac7d8757318c64249198331a68c6e638071584983f32558f8cbd430219814",
+  "inventory.json": "9e717a7d62da516c23b5905c76fd90072f5a7764638286663279964c50284be0",
+  "source-cyclonedx.cdx.json": "f035082920f7ec24716e3e72797ff59d0c1f0c89a7b5064e4dc2dba21a2f1998",
+  "source-syft.cdx.json": "c6f796be6dc70201259c1ef5505fcc59eaa6419ad9794bcaad638de2177dabe3",
+  "source-trivy.cdx.json": "cfb18db2de211b86364b483159d3a3f9809769490a69cb37d1b098b2f9b4fccf"
+}

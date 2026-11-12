@@ -1,0 +1,6 @@
+    Updating crates.io index
+     Locking 13 packages to highest compatible versions
+      Adding regex v1.5.4 (available: v1.13.1)
+      Adding smallvec v1.6.0 (available: v1.16.5)
+      Adding time v0.1.45 (available: v0.3.55)
+      Adding wasi v0.10.0+wasi-snapshot-preview1 (available: v0.10.2+wasi-snapshot-preview1)

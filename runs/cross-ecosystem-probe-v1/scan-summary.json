@@ -1,0 +1,114 @@
+[
+  {
+    "case": "npm-source",
+    "tools": {
+      "syft": 0,
+      "trivy": 0,
+      "cdxgen": 0
+    }
+  },
+  {
+    "case": "npm-installed",
+    "tools": {
+      "syft": 0,
+      "trivy": 0,
+      "trivy-rootfs": 0,
+      "syft-installed": 0,
+      "cdxgen": 0
+    }
+  },
+  {
+    "case": "npm-bundle",
+    "tools": {
+      "syft": 0,
+      "trivy": 0,
+      "trivy-rootfs": 0,
+      "syft-installed": 0,
+      "cdxgen": 0
+    }
+  },
+  {
+    "case": "java-shaded",
+    "tools": {
+      "syft": 0,
+      "trivy": 0,
+      "trivy-rootfs": 0,
+      "syft-installed": 0,
+      "cdxgen": 0
+    }
+  },
+  {
+    "case": "java-no-metadata",
+    "tools": {
+      "syft": 0,
+      "trivy": 0,
+      "trivy-rootfs": 0,
+      "syft-installed": 0,
+      "cdxgen": 0
+    }
+  },
+  {
+    "case": "java-jbomaudit",
+    "tools": {
+      "syft": 0,
+      "trivy": 0,
+      "trivy-rootfs": 0,
+      "syft-installed": 0,
+      "cdxgen": 0
+    }
+  },
+  {
+    "case": "go-source",
+    "tools": {
+      "syft": 0,
+      "trivy": 0,
+      "cdxgen": 0
+    }
+  },
+  {
+    "case": "go-binary",
+    "tools": {
+      "syft": 0,
+      "trivy": 0,
+      "trivy-rootfs": 0,
+      "syft-installed": 0,
+      "cdxgen": 0
+    }
+  },
+  {
+    "case": "rust-source",
+    "tools": {
+      "syft": 0,
+      "trivy": 0,
+      "cdxgen": 0
+    }
+  },
+  {
+    "case": "rust-binary",
+    "tools": {
+      "syft": 0,
+      "trivy": 0,
+      "trivy-rootfs": 0,
+      "syft-installed": 0,
+      "cdxgen": 0
+    }
+  },
+  {
+    "case": "rust-auditable",
+    "tools": {
+      "syft": 0,
+      "trivy": 0,
+      "trivy-rootfs": 0,
+      "syft-installed": 0,
+      "cdxgen": 0
+    }
+  },
+  {
+    "case": "spectrum-source",
+    "tools": {
+      "syft": 0,
+      "trivy": 0,
+      "cdxgen": 1
+    }
+  }
+]

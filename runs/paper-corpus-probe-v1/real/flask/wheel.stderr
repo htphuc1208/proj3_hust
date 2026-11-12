@@ -1,0 +1,4 @@
+Building wheel...
+Version number normalised: '3.2.0.dev' -> '3.2.0.dev0' (see PEP 440)
+Version number normalised: '3.2.0.dev' -> '3.2.0.dev0' (see PEP 440)
+Successfully built /out/wheels/flask-3.2.0.dev0-py3-none-any.whl

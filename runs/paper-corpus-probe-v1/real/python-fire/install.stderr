@@ -1,0 +1,6 @@
+Using Python 3.11.16 environment at: /out/target
+Resolved 2 packages in 2ms
+Prepared 2 packages in 396ms
+Installed 2 packages in 12ms
+ + fire==0.7.1 (from file:///out/wheels/fire-0.7.1-py3-none-any.whl)
+ + termcolor==3.3.0

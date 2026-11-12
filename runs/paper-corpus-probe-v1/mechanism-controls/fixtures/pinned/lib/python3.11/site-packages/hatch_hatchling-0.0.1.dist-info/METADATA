@@ -1,0 +1,28 @@
+Metadata-Version: 2.5
+Name: hatch-hatchling
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/unknown/hatch-hatchling#readme
+Project-URL: Issues, https://github.com/unknown/hatch-hatchling/issues
+Project-URL: Source, https://github.com/unknown/hatch-hatchling
+Author-email: "U.N. Owen" <void@some.where>
+License-Expression: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: black==21.10b0
+Requires-Dist: docopt==0.6.2
+Requires-Dist: matplotlib>3.9.0
+Requires-Dist: numpy
+Requires-Dist: seaborn==0.12.2
+Requires-Dist: urllib3
+Provides-Extra: dev
+Requires-Dist: pytest; extra == 'dev'
+Provides-Extra: opt
+Requires-Dist: nltk; extra == 'opt'

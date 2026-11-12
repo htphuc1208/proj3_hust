@@ -1,0 +1,182 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:0d80cf00-7a5a-48f9-a263-caaf1cc50ed4",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T14:43:22+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "061ef988-f79e-4291-bd5f-421f8d084d64",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/real/gym/target",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/cloudpickle@3.1.2",
+      "type": "library",
+      "name": "cloudpickle",
+      "version": "3.1.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "2586837b45ab80e7a38cfb4ffee57ace80e167cb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/cloudpickle@3.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/cloudpickle-3.1.2.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/gym-notices@0.1.0",
+      "type": "library",
+      "name": "gym-notices",
+      "version": "0.1.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "cc6325878725a3beacfe85f60b3eb90ca9ab6a18"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/gym-notices@0.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/gym_notices-0.1.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/gym@0.26.2",
+      "type": "library",
+      "name": "gym",
+      "version": "0.26.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5b9061be80852824c910701ca09405aefc99fc88"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/gym@0.26.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/gym-0.26.2.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/numpy@2.4.6",
+      "type": "library",
+      "name": "numpy",
+      "version": "2.4.6",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "46f47f5195a0b408d6f61f0db28e95ef1eb09080"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0"
+        }
+      ],
+      "purl": "pkg:pypi/numpy@2.4.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/numpy-2.4.6.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "061ef988-f79e-4291-bd5f-421f8d084d64",
+      "dependsOn": [
+        "pkg:pypi/cloudpickle@3.1.2",
+        "pkg:pypi/gym-notices@0.1.0",
+        "pkg:pypi/gym@0.26.2",
+        "pkg:pypi/numpy@2.4.6"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/cloudpickle@3.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/gym-notices@0.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/gym@0.26.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/numpy@2.4.6",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

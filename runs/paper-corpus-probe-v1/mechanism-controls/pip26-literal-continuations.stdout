@@ -1,0 +1,1 @@
+{"pip_version": "26.3", "requirements": [{"requirement": "numpy ==1.26.2", "constraint": false}, {"requirement": "beautifulsoup4==4.1.0", "constraint": true}, {"requirement": "beautifulsoup4", "constraint": false}, {"requirement": "requests [security] >= 2.8.1, == 2.8.*", "constraint": false}]}

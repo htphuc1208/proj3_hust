@@ -1,0 +1,37 @@
+{
+  "advisory_aliases": [
+    "CVE-2024-21503",
+    "CVE-2026-114134",
+    "CVE-2026-31900",
+    "CVE-2026-32274",
+    "GHSA-3936-cmfr-pm3m",
+    "GHSA-fj7x-q9j7-g6q6",
+    "GHSA-v53h-f6m7-xcgm",
+    "PYSEC-2024-48"
+  ],
+  "advisory_ids": [
+    "GHSA-cg8m-r9f2-5wm2",
+    "GHSA-fj7x-q9j7-g6q6",
+    "PYSEC-2024-48",
+    "PYSEC-2026-2120",
+    "PYSEC-2026-2121"
+  ],
+  "black_present_in_syft": true,
+  "cyclonedx_declared_path_exists": true,
+  "declared_reference_path_exists": true,
+  "interpretation": "Illustration: a consumer incorrectly filtering all no-path packages would suppress this advisory. No runtime exploit or actual triage reduction measured. OSV is a current retrospective query.",
+  "missed_reachable_packages": [
+    "black",
+    "click",
+    "docopt",
+    "mypy-extensions",
+    "pathspec",
+    "platformdirs",
+    "regex",
+    "tomli"
+  ],
+  "package": "black",
+  "root": "hatch-hatchling",
+  "syft_declared_path_exists": false,
+  "version": "21.10b0"
+}

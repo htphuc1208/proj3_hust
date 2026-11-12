@@ -1,0 +1,2 @@
+WARNING  | CDX.RequirementsBB > component has no pinned version: <Component bom-ref=<BomRef 'requirements-L6' id=135604050849168>, group=None, name=beautifulsoup4, version=None, type=ComponentType.LIBRARY>
+WARNING  | CDX.RequirementsBB > component has no pinned version: <Component bom-ref=<BomRef 'requirements-L7' id=135604050858512>, group=None, name=requests, version=None, type=ComponentType.LIBRARY>

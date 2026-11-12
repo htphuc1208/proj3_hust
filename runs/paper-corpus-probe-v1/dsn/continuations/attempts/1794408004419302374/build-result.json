@@ -1,0 +1,34 @@
+{
+  "status": "FAILED",
+  "reason": "resolve",
+  "steps": [
+    {
+      "step": "venv",
+      "command": [
+        "/tools/uv",
+        "venv",
+        "--python",
+        "/usr/local/bin/python",
+        "/out/target"
+      ],
+      "exit_code": 0,
+      "seconds": 0.11665602499851957
+    },
+    {
+      "step": "resolve",
+      "command": [
+        "/tools/uv",
+        "pip",
+        "compile",
+        "/out/install.in",
+        "--python-version",
+        "3.11",
+        "--no-annotate",
+        "--output-file",
+        "/out/resolved.txt"
+      ],
+      "exit_code": 2,
+      "seconds": 0.022107729000708787
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+Warning: --sbom has been deprecated in favor of -L
+Starting filesystem walk for root: /
+Scanned /home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/scans/java-jbomaudit/trivy-rootfs.cdx.json file and found 27 packages
+End status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 1.42579ms elapsed, 1.425866ms wall time

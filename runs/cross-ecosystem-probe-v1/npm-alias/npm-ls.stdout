@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "name": "sbom-alias-build-probe",
+  "dependencies": {
+    "fsevents": {},
+    "lodash-fixed": {
+      "version": "4.17.21",
+      "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz",
+      "overridden": false
+    },
+    "lodash-vulnerable": {
+      "version": "4.17.20",
+      "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.20.tgz",
+      "overridden": false
+    },
+    "minimist": {
+      "version": "1.2.5",
+      "resolved": "https://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz",
+      "overridden": false
+    }
+  }
+}

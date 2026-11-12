@@ -1,0 +1,30 @@
+{
+  "command": [
+    "docker",
+    "run",
+    "--rm",
+    "--network",
+    "none",
+    "--read-only",
+    "--user",
+    "1000:1000",
+    "--tmpfs",
+    "/tmp",
+    "-e",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "-v",
+    "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/dsn/continuations:/source:ro",
+    "-v",
+    "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/pip-tool:/tool:ro",
+    "--workdir",
+    "/source",
+    "--entrypoint",
+    "/tool/.venv/bin/python",
+    "sbom-paper-corpus:py311-git",
+    "-I",
+    "-c",
+    "from pip._internal.req.req_file import parse_requirements; from pip._internal.network.session import PipSession; import json,pip; print(json.dumps(dict(pip_version=pip.__version__,requirements=[dict(requirement=r.requirement,constraint=r.constraint) for r in parse_requirements(\"/source/r.txt\",session=PipSession())])))"
+  ],
+  "exit_code": 0,
+  "seconds": 3.855373909998889
+}

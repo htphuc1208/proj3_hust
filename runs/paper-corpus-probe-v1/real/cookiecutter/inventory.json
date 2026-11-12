@@ -1,0 +1,249 @@
+{
+  "distributions": [
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/python_slugify-9.1.3.dist-info/METADATA",
+      "name": "python-slugify",
+      "requirements": [
+        "text-unidecode>=1.3",
+        "Unidecode>=1.1.1; extra == \"unidecode\"",
+        "anyascii>=0.3.2; extra == \"anyascii\""
+      ],
+      "version": "9.1.3"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/tzdata-2026.6.dist-info/METADATA",
+      "name": "tzdata",
+      "requirements": [],
+      "version": "2026.6"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/rich-15.0.0.dist-info/METADATA",
+      "name": "rich",
+      "requirements": [
+        "ipywidgets (>=7.5.1,<9) ; extra == \"jupyter\"",
+        "markdown-it-py (>=2.2.0)",
+        "pygments (>=2.13.0,<3.0.0)"
+      ],
+      "version": "15.0.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/urllib3-2.8.0.dist-info/METADATA",
+      "name": "urllib3",
+      "requirements": [
+        "brotli>=1.2.0; (platform_python_implementation == 'CPython') and extra == 'brotli'",
+        "brotlicffi>=1.2.0.0; (platform_python_implementation != 'CPython') and extra == 'brotli'",
+        "h2<5,>=4; extra == 'h2'",
+        "pysocks!=1.5.7,<2.0,>=1.5.6; extra == 'socks'",
+        "backports-zstd>=1.0.0; (python_version < '3.14') and extra == 'zstd'"
+      ],
+      "version": "2.8.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/certifi-2026.10.23.dist-info/METADATA",
+      "name": "certifi",
+      "requirements": [],
+      "version": "2026.10.23"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/requests-2.34.2.dist-info/METADATA",
+      "name": "requests",
+      "requirements": [
+        "charset_normalizer<4,>=2",
+        "idna<4,>=2.5",
+        "urllib3<3,>=1.26",
+        "certifi>=2023.5.7",
+        "PySocks!=1.5.7,>=1.5.6; extra == \"socks\"",
+        "chardet<8,>=3.0.2; extra == \"use-chardet-on-py3\""
+      ],
+      "version": "2.34.2"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/pygments-2.21.0.dist-info/METADATA",
+      "name": "Pygments",
+      "requirements": [
+        "colorama>=0.4.6; extra == 'windows-terminal'"
+      ],
+      "version": "2.21.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/markupsafe-3.0.4.dist-info/METADATA",
+      "name": "MarkupSafe",
+      "requirements": [],
+      "version": "3.0.4"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/binaryornot-0.6.0.dist-info/METADATA",
+      "name": "binaryornot",
+      "requirements": [],
+      "version": "0.6.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/mdurl-0.1.2.dist-info/METADATA",
+      "name": "mdurl",
+      "requirements": [],
+      "version": "0.1.2"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/click-8.5.1.dist-info/METADATA",
+      "name": "click",
+      "requirements": [],
+      "version": "8.5.1"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/charset_normalizer-3.5.2.dist-info/METADATA",
+      "name": "charset-normalizer",
+      "requirements": [],
+      "version": "3.5.2"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/idna-3.20.dist-info/METADATA",
+      "name": "idna",
+      "requirements": [
+        "ruff >= 0.16.0 ; extra == \"all\"",
+        "mypy >= 1.11.2 ; extra == \"all\"",
+        "ty >= 0.0.37 ; extra == \"all\"",
+        "pytest >= 8.3.2 ; extra == \"all\"",
+        "hypothesis >= 6.141.1 ; extra == \"all\"",
+        "coverage >= 7.10.0 ; extra == \"all\""
+      ],
+      "version": "3.20"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/markdown_it_py-4.3.0.dist-info/METADATA",
+      "name": "markdown-it-py",
+      "requirements": [
+        "mdurl~=0.1",
+        "psutil ; extra == \"benchmarking\"",
+        "pytest ; extra == \"benchmarking\"",
+        "pytest-benchmark ; extra == \"benchmarking\"",
+        "markdown~=3.4 ; extra == \"compare\"",
+        "mistletoe~=1.0 ; extra == \"compare\"",
+        "mistune~=3.0 ; extra == \"compare\"",
+        "panflute~=2.3 ; extra == \"compare\"",
+        "markdown-it-pyrs ; extra == \"compare\"",
+        "coverage ; extra == \"coverage\"",
+        "pytest-cov ; extra == \"coverage\"",
+        "linkify-it-py>=1,<3 ; extra == \"linkify\"",
+        "mdit-py-plugins>=0.5.0 ; extra == \"plugins\"",
+        "gprof2dot ; extra == \"profiling\"",
+        "mdit-py-plugins>=0.5.0 ; extra == \"rtd\"",
+        "myst-parser ; extra == \"rtd\"",
+        "pyyaml ; extra == \"rtd\"",
+        "sphinx ; extra == \"rtd\"",
+        "sphinx-copybutton ; extra == \"rtd\"",
+        "sphinx-design ; extra == \"rtd\"",
+        "sphinx-book-theme~=1.0 ; extra == \"rtd\"",
+        "jupyter_sphinx ; extra == \"rtd\"",
+        "ipykernel ; extra == \"rtd\"",
+        "flit_core>=3.4,<5 ; extra == \"testing\"",
+        "pytest ; extra == \"testing\"",
+        "pytest-regressions ; extra == \"testing\"",
+        "pytest-timeout ; extra == \"testing\"",
+        "requests ; extra == \"testing\""
+      ],
+      "version": "4.3.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/python_dateutil-4.0.0.dist-info/METADATA",
+      "name": "python-dateutil",
+      "requirements": [
+        "tzdata"
+      ],
+      "version": "4.0.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/jinja2-3.1.6.dist-info/METADATA",
+      "name": "Jinja2",
+      "requirements": [
+        "MarkupSafe>=2.0",
+        "Babel>=2.7 ; extra == \"i18n\""
+      ],
+      "version": "3.1.6"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/text_unidecode-1.3.dist-info/METADATA",
+      "name": "text-unidecode",
+      "requirements": [],
+      "version": "1.3"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/pyyaml-6.0.3.dist-info/METADATA",
+      "name": "PyYAML",
+      "requirements": [],
+      "version": "6.0.3"
+    },
+    {
+      "direct_url": {
+        "archive_info": {},
+        "url": "file:///out/wheels/cookiecutter-2.7.1-py3-none-any.whl"
+      },
+      "metadata_path": "/target/lib/python3.11/site-packages/cookiecutter-2.7.1.dist-info/METADATA",
+      "name": "cookiecutter",
+      "requirements": [
+        "binaryornot>=0.4.4",
+        "Jinja2<4.0.0,>=2.7",
+        "click<9.0.0,>=7.0",
+        "pyyaml>=5.3.1",
+        "python-slugify>=4.0.0",
+        "requests>=2.23.0",
+        "arrow",
+        "rich"
+      ],
+      "version": "2.7.1"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/arrow-1.4.0.dist-info/METADATA",
+      "name": "arrow",
+      "requirements": [
+        "python-dateutil>=2.7.0",
+        "backports.zoneinfo==0.2.1;python_version<'3.9'",
+        "tzdata;python_version>='3.9'",
+        "doc8 ; extra == \"doc\"",
+        "sphinx>=7.0.0 ; extra == \"doc\"",
+        "sphinx-autobuild ; extra == \"doc\"",
+        "sphinx-autodoc-typehints ; extra == \"doc\"",
+        "sphinx_rtd_theme>=1.3.0 ; extra == \"doc\"",
+        "dateparser==1.* ; extra == \"test\"",
+        "pre-commit ; extra == \"test\"",
+        "pytest ; extra == \"test\"",
+        "pytest-cov ; extra == \"test\"",
+        "pytest-mock ; extra == \"test\"",
+        "pytz==2025.2 ; extra == \"test\"",
+        "simplejson==3.* ; extra == \"test\""
+      ],
+      "version": "1.4.0"
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.11.16",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_python_implementation": "CPython",
+    "platform_release": "7.0.0-30-generic",
+    "platform_system": "Linux",
+    "platform_version": "#30~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:27:52 UTC 2",
+    "python_full_version": "3.11.16",
+    "python_version": "3.11",
+    "sys_platform": "linux"
+  }
+}

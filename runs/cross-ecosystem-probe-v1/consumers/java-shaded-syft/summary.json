@@ -1,0 +1,18 @@
+{
+  "case": "java-shaded-syft",
+  "sbom": "scans/java-shaded/syft.cdx.json",
+  "sbom_sha256": "831718f2e9cc35f1212a7969be7c4f6492ce407588fa786a6437e351863b3fa9",
+  "exit_code": 1,
+  "packages": {
+    "Maven:org.example.App:app@UNKNOWN": [],
+    "Maven:org.apache.commons:commons-compress@1.20": [
+      "GHSA-4g9r-vxhx-9pgx",
+      "GHSA-7hfm-57qf-j43q",
+      "GHSA-crv7-7245-f45f",
+      "GHSA-mc84-pj99-q6hh",
+      "GHSA-xqfj-vm6h-2x34"
+    ],
+    "Maven:org.example:sbom-shade-probe@1.0.0": []
+  },
+  "has_parseable_json": true
+}

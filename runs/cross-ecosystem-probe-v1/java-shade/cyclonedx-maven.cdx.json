@@ -1,0 +1,170 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.6",
+  "serialNumber" : "urn:uuid:f87da9e0-da4b-3a56-a0f4-05e2bbcc6430",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-11-11T15:31:11Z",
+    "lifecycles" : [
+      {
+        "phase" : "build"
+      }
+    ],
+    "tools" : {
+      "components" : [
+        {
+          "type" : "library",
+          "author" : "OWASP Foundation",
+          "group" : "org.cyclonedx",
+          "name" : "cyclonedx-maven-plugin",
+          "version" : "2.9.3",
+          "description" : "CycloneDX Maven plugin",
+          "hashes" : [
+            {
+              "alg" : "MD5",
+              "content" : "e7c87ab327b65b23c681fc9dc8bb620b"
+            },
+            {
+              "alg" : "SHA-1",
+              "content" : "fa3f0f04f4d5077b5e085d4d09aa2e68aeba5260"
+            },
+            {
+              "alg" : "SHA-256",
+              "content" : "c452d5eebe28bc86bef2e7c72d129f04f60877bef843eac8120f01fb655be293"
+            },
+            {
+              "alg" : "SHA-512",
+              "content" : "ec0344ed2ffe62d565aaf936a37140d04c7fffa8669a666be0366cd44eec3195232d79841cdec47030b79068216ac7e1a8c805255758e3d418dae32a4b9b9beb"
+            },
+            {
+              "alg" : "SHA-384",
+              "content" : "3df26b2a00d87fe090851975ebcc30217f98634e7c47d07128e148f325ebfe3bc0790b2f52ad4591734b7b0de738f003"
+            },
+            {
+              "alg" : "SHA3-384",
+              "content" : "470c1b4962379b5b6494c75bd1475da3519bbe2543999c95f26b4021164d3d05419b0c3f704443162fe5433a204250e9"
+            },
+            {
+              "alg" : "SHA3-256",
+              "content" : "900e9c4edb18940ed3c4a4ba6946957fa613ef0d4b0c380551638f229206373c"
+            },
+            {
+              "alg" : "SHA3-512",
+              "content" : "5e36433e18ae24f7460902da27818874df5d1d73df1a97e49e7369335f7cc61ca595466a2d37789fba7eaa7f7f251b29216c3d7a78910b2ec38e2ed68ea84876"
+            }
+          ]
+        }
+      ]
+    },
+    "component" : {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.example/sbom-shade-probe@1.0.0?type=jar",
+      "group" : "org.example",
+      "name" : "sbom-shade-probe",
+      "version" : "1.0.0",
+      "purl" : "pkg:maven/org.example/sbom-shade-probe@1.0.0?type=jar"
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeAggregateBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-compress@1.20?type=jar",
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.commons",
+      "name" : "commons-compress",
+      "version" : "1.20",
+      "description" : "Apache Commons Compress software defines an API for working with compression and archive formats. These include: bzip2, gzip, pack200, lzma, xz, Snappy, traditional Unix Compress, DEFLATE, DEFLATE64, LZ4, Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "3f7237fb56029591b5bdd2698c196220"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "b8df472b31e1f17c232d2ad78ceb1c84e00c641b"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "0aeb625c948c697ea7b205156e112363b59ed5e2551212cd4e460bdb72c7c06e"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5d3ce7ae4518c0fe5094b512c5c4825cc213ebc388e1e1e7692475406d5876c893140e5bbaaecb1676262a6b73c7250d40b83653cd03600815693474f92f0fa7"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "934fcbb21929aadb952c0c48b6d1bb89b34b0279d48546896f81b26759edba0e1cbc45dc821f55d6239c34160b507ade"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "b59c53dc435ace657070665a1f41d64ca4ce61b21cbc4405879e559b56eb5cf1869debd4ab7b77f202af621142fad77f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "f11ea223d764cb87944f5f5686dbdb3bd140153f6ad146f0ab8666c6157b3e00"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "0b1fa80da6f334a0a75ae4164581d2d69c4126f25b91d122d25cf3ee2d217fd399b04dde36f8e9de0faa20dc1804c38ca33b31aa28bf7bd6524332b3d0ac659d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.commons/commons-compress@1.20?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-compress/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/COMPRESS"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-compress.git"
+        }
+      ]
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/org.example/sbom-shade-probe@1.0.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.commons/commons-compress@1.20?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-compress@1.20?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}

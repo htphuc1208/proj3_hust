@@ -1,0 +1,5 @@
+Warning: --sbom has been deprecated in favor of -L
+Starting filesystem walk for root: /
+Neither CPE nor PURL found for package: {BOMRef:3fc5a8d3d86e9790 MIMEType: Type:file Supplier:<nil> Manufacturer:<nil> Author: Authors:<nil> Publisher: Group: Name:/go.mod Version: Description: Scope: Hashes:0x2f089a6a8a38 Licenses:<nil> Copyright: CPE: PackageURL: OmniborID:<nil> SWHID:<nil> SWID:<nil> Modified:<nil> Pedigree:<nil> ExternalReferences:<nil> Properties:<nil> Components:<nil> Evidence:<nil> ReleaseNotes:<nil> ModelCard:<nil> Data:<nil> CryptoProperties:<nil> Tags:<nil> IsExternal:<nil> PatentAssertions:<nil> VersionRange: Signature:<nil>}
+Scanned /home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/scans/go-source/syft.cdx.json file and found 4 packages
+End status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 618.113µs elapsed, 618.151µs wall time

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/syft",
+    "scan",
+    "dir:/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/java-minimized",
+    "--select-catalogers",
+    "installed",
+    "-o",
+    "cyclonedx-json=/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/scans/java-minimized/syft-installed.cdx.json"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:41:29.105125+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 2.5535542409998016
+}

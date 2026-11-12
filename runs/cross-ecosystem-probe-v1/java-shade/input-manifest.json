@@ -1,0 +1,7 @@
+{
+  "source": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/java-build",
+  "files": {
+    "pom.xml": "da8f513a933b7b457065de29f79c52ca6b8eb6a53ad047ac64441fd0884e4aac",
+    "src/main/java/org/example/App.java": "9f744ab7e5735a7e2efede1a13ab06519f2cdcfe6d8d57c3cba1c2fd2ece41b0"
+  }
+}

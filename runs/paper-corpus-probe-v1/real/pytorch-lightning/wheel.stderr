@@ -1,0 +1,1010 @@
+Building wheel...
+WARNING:root:Folder /tmp/paper-source/requirements/data does not have any base requirements.
+Distributing the version to /tmp/paper-source/src/lightning_fabric/version.info
+Distributing the version to /tmp/paper-source/src/pytorch_lightning/version.info
+Distributing the version to /tmp/paper-source/src/lightning/version.info
+Requested package: 'None'
+Local package candidates: ['lightning_fabric', 'pytorch_lightning', 'lightning']
+Installing from source: True
+Installing package: lightning
+The extras are:  {'pytorch-strategies': ['deepspeed<0.17.0,>=0.16.0; platform_system != "Windows" and platform_system != "Darwin"  # strict'], 'pytorch-examples': ['ipython[all]<11.0,>=8.0.0', 'requests<3.0', 'torchmetrics<2.0,>=0.10.0', 'torchvision<1.0,>=0.21.0'], 'pytorch-test': ['cloudpickle<4.0,>=1.3', 'coverage==7.10.7; python_version < "3.10"', 'coverage==7.13.5; python_version >= "3.10"', 'fastapi', 'huggingface-hub', 'numpy<2.0,>1.21.0; python_version < "3.12"', 'numpy<3.0,>2.1.0; python_version >= "3.12"', 'onnx-ir>=0.1.16', 'onnx<2.0,>=1.16.0', 'onnxruntime<2.0,>=1.19.0', 'onnxscript<1.0,>=0.1.0', 'pandas<4.0,>2.0', 'psutil<8.0', 'pytest-cov==7.0.0', 'pytest-random-order==1.2.0', 'pytest-rerunfailures==16.0.1; python_version < "3.10"', 'pytest-rerunfailures==16.1; python_version >= "3.10"', 'pytest-timeout==2.4.0', 'pytest==9.0.2', 'scikit-learn<2.0,>0.22.1', 'tensorboard<3.0,>=2.11', 'uvicorn'], 'pytorch-test_gpu': ['torch-tensorrt; platform_system != "Darwin" and python_version >= "3.12"'], 'pytorch-extra': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'hydra-core<2.0,>=1.2.0', 'jsonargparse[jsonnet,signatures]<5.0,>=4.39.0', 'matplotlib<4.0,>3.1', 'omegaconf<3.0,>=2.2.3', 'rich<15.0,>=12.3.0', 'tensorboardX<3.0,>=2.2'], 'fabric-strategies': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'deepspeed<0.17.0,>=0.16.0; platform_system != "Windows" and platform_system != "Darwin"  # strict'], 'fabric-examples': ['torchmetrics<2.0,>=0.10.0', 'torchvision<1.0,>=0.16.0'], 'fabric-test': ['click==8.1.8; python_version < "3.11"', 'click==8.3.1; python_version > "3.10"', 'coverage==7.10.7; python_version < "3.10"', 'coverage==7.13.5; python_version >= "3.10"', 'huggingface-hub', 'numpy<2.0,>1.21.0; python_version < "3.12"', 'numpy<3.0,>2.1.0; python_version >= "3.12"', 'pytest-cov==7.0.0', 'pytest-random-order==1.2.0', 'pytest-rerunfailures==16.0.1; python_version < "3.10"', 'pytest-rerunfailures==16.1; python_version >= "3.10"', 'pytest-timeout==2.4.0', 'pytest==9.0.2', 'tensorboardX<3.0,>=2.6'], 'fabric-extra': ['hydra-core<2.0,>=1.2.0'], 'fabric-all': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'deepspeed<0.17.0,>=0.16.0; platform_system != "Windows" and platform_system != "Darwin"  # strict', 'hydra-core<2.0,>=1.2.0', 'torchmetrics<2.0,>=0.10.0', 'torchvision<1.0,>=0.16.0'], 'fabric-dev': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'click==8.1.8; python_version < "3.11"', 'click==8.3.1; python_version > "3.10"', 'coverage==7.10.7; python_version < "3.10"', 'coverage==7.13.5; python_version >= "3.10"', 'deepspeed<0.17.0,>=0.16.0; platform_system != "Windows" and platform_system != "Darwin"  # strict', 'huggingface-hub', 'hydra-core<2.0,>=1.2.0', 'numpy<2.0,>1.21.0; python_version < "3.12"', 'numpy<3.0,>2.1.0; python_version >= "3.12"', 'pytest-cov==7.0.0', 'pytest-random-order==1.2.0', 'pytest-rerunfailures==16.0.1; python_version < "3.10"', 'pytest-rerunfailures==16.1; python_version >= "3.10"', 'pytest-timeout==2.4.0', 'pytest==9.0.2', 'tensorboardX<3.0,>=2.6', 'torchmetrics<2.0,>=0.10.0', 'torchvision<1.0,>=0.16.0'], 'pytorch-all': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'deepspeed<0.17.0,>=0.16.0; platform_system != "Windows" and platform_system != "Darwin"  # strict', 'hydra-core<2.0,>=1.2.0', 'ipython[all]<11.0,>=8.0.0', 'jsonargparse[jsonnet,signatures]<5.0,>=4.39.0', 'matplotlib<4.0,>3.1', 'omegaconf<3.0,>=2.2.3', 'requests<3.0', 'rich<15.0,>=12.3.0', 'tensorboardX<3.0,>=2.2', 'torchmetrics<2.0,>=0.10.0', 'torchvision<1.0,>=0.21.0'], 'pytorch-dev': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'cloudpickle<4.0,>=1.3', 'coverage==7.10.7; python_version < "3.10"', 'coverage==7.13.5; python_version >= "3.10"', 'deepspeed<0.17.0,>=0.16.0; platform_system != "Windows" and platform_system != "Darwin"  # strict', 'fastapi', 'huggingface-hub', 'hydra-core<2.0,>=1.2.0', 'ipython[all]<11.0,>=8.0.0', 'jsonargparse[jsonnet,signatures]<5.0,>=4.39.0', 'matplotlib<4.0,>3.1', 'numpy<2.0,>1.21.0; python_version < "3.12"', 'numpy<3.0,>2.1.0; python_version >= "3.12"', 'omegaconf<3.0,>=2.2.3', 'onnx-ir>=0.1.16', 'onnx<2.0,>=1.16.0', 'onnxruntime<2.0,>=1.19.0', 'onnxscript<1.0,>=0.1.0', 'pandas<4.0,>2.0', 'psutil<8.0', 'pytest-cov==7.0.0', 'pytest-random-order==1.2.0', 'pytest-rerunfailures==16.0.1; python_version < "3.10"', 'pytest-rerunfailures==16.1; python_version >= "3.10"', 'pytest-timeout==2.4.0', 'pytest==9.0.2', 'requests<3.0', 'rich<15.0,>=12.3.0', 'scikit-learn<2.0,>0.22.1', 'tensorboard<3.0,>=2.11', 'tensorboardX<3.0,>=2.2', 'torchmetrics<2.0,>=0.10.0', 'torchvision<1.0,>=0.21.0', 'uvicorn'], 'data': ['litdata<1.0,>=0.2.0rc'], 'strategies': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'deepspeed<0.17.0,>=0.16.0; platform_system != "Windows" and platform_system != "Darwin"  # strict'], 'examples': ['ipython[all]<11.0,>=8.0.0', 'requests<3.0', 'torchmetrics<2.0,>=0.10.0', 'torchvision<1.0,>=0.16.0', 'torchvision<1.0,>=0.21.0'], 'test': ['click==8.1.8; python_version < "3.11"', 'click==8.3.1; python_version > "3.10"', 'cloudpickle<4.0,>=1.3', 'coverage==7.10.7; python_version < "3.10"', 'coverage==7.13.5; python_version >= "3.10"', 'fastapi', 'huggingface-hub', 'numpy<2.0,>1.21.0; python_version < "3.12"', 'numpy<3.0,>2.1.0; python_version >= "3.12"', 'onnx-ir>=0.1.16', 'onnx<2.0,>=1.16.0', 'onnxruntime<2.0,>=1.19.0', 'onnxscript<1.0,>=0.1.0', 'pandas<4.0,>2.0', 'psutil<8.0', 'pytest-cov==7.0.0', 'pytest-random-order==1.2.0', 'pytest-rerunfailures==16.0.1; python_version < "3.10"', 'pytest-rerunfailures==16.1; python_version >= "3.10"', 'pytest-timeout==2.4.0', 'pytest==9.0.2', 'scikit-learn<2.0,>0.22.1', 'tensorboard<3.0,>=2.11', 'tensorboardX<3.0,>=2.6', 'uvicorn'], 'test_gpu': ['torch-tensorrt; platform_system != "Darwin" and python_version >= "3.12"'], 'extra': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'hydra-core<2.0,>=1.2.0', 'jsonargparse[jsonnet,signatures]<5.0,>=4.39.0', 'matplotlib<4.0,>3.1', 'omegaconf<3.0,>=2.2.3', 'rich<15.0,>=12.3.0', 'tensorboardX<3.0,>=2.2'], 'all': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'deepspeed<0.17.0,>=0.16.0; platform_system != "Windows" and platform_system != "Darwin"  # strict', 'hydra-core<2.0,>=1.2.0', 'ipython[all]<11.0,>=8.0.0', 'jsonargparse[jsonnet,signatures]<5.0,>=4.39.0', 'matplotlib<4.0,>3.1', 'omegaconf<3.0,>=2.2.3', 'requests<3.0', 'rich<15.0,>=12.3.0', 'tensorboardX<3.0,>=2.2', 'torchmetrics<2.0,>=0.10.0', 'torchvision<1.0,>=0.16.0', 'torchvision<1.0,>=0.21.0'], 'dev': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'click==8.1.8; python_version < "3.11"', 'click==8.3.1; python_version > "3.10"', 'cloudpickle<4.0,>=1.3', 'coverage==7.10.7; python_version < "3.10"', 'coverage==7.13.5; python_version >= "3.10"', 'deepspeed<0.17.0,>=0.16.0; platform_system != "Windows" and platform_system != "Darwin"  # strict', 'fastapi', 'huggingface-hub', 'hydra-core<2.0,>=1.2.0', 'ipython[all]<11.0,>=8.0.0', 'jsonargparse[jsonnet,signatures]<5.0,>=4.39.0', 'matplotlib<4.0,>3.1', 'numpy<2.0,>1.21.0; python_version < "3.12"', 'numpy<3.0,>2.1.0; python_version >= "3.12"', 'omegaconf<3.0,>=2.2.3', 'onnx-ir>=0.1.16', 'onnx<2.0,>=1.16.0', 'onnxruntime<2.0,>=1.19.0', 'onnxscript<1.0,>=0.1.0', 'pandas<4.0,>2.0', 'psutil<8.0', 'pytest-cov==7.0.0', 'pytest-random-order==1.2.0', 'pytest-rerunfailures==16.0.1; python_version < "3.10"', 'pytest-rerunfailures==16.1; python_version >= "3.10"', 'pytest-timeout==2.4.0', 'pytest==9.0.2', 'requests<3.0', 'rich<15.0,>=12.3.0', 'scikit-learn<2.0,>0.22.1', 'tensorboard<3.0,>=2.11', 'tensorboardX<3.0,>=2.2', 'tensorboardX<3.0,>=2.6', 'torchmetrics<2.0,>=0.10.0', 'torchvision<1.0,>=0.16.0', 'torchvision<1.0,>=0.21.0', 'uvicorn']}
+/cache/builds-v0/.tmpcP9jNL/lib/python3.11/site-packages/setuptools/dist.py:332: InformationOnly: Normalizing '2.7.0.dev' to '2.7.0.dev0'
+  self.metadata.version = self._normalize_version(self.metadata.version)
+/cache/builds-v0/.tmpcP9jNL/lib/python3.11/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: Apache Software License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+INFO:root:running egg_info
+INFO:root:creating src/lightning.egg-info
+INFO:root:writing src/lightning.egg-info/PKG-INFO
+INFO:root:writing dependency_links to src/lightning.egg-info/dependency_links.txt
+INFO:root:writing entry points to src/lightning.egg-info/entry_points.txt
+INFO:root:writing requirements to src/lightning.egg-info/requires.txt
+INFO:root:writing top-level names to src/lightning.egg-info/top_level.txt
+INFO:root:writing manifest file 'src/lightning.egg-info/SOURCES.txt'
+INFO:root:reading manifest file 'src/lightning.egg-info/SOURCES.txt'
+INFO:root:reading manifest template 'src/lightning/ae22fe1863434fa15ab46c5261d62e4aa40fcfb01b9c92c5'
+WARNING:root:warning: no files found matching 'src/lightning/fabric/README.md'
+WARNING:root:warning: no files found matching 'src/lightning/fabric/py.typed'
+WARNING:root:warning: no files found matching 'src/lightning/fabric/version.info'
+WARNING:root:warning: no files found matching 'src/lightning/pytorch/README.md'
+WARNING:root:warning: no files found matching 'src/lightning/pytorch/py.typed'
+WARNING:root:warning: no files found matching 'src/lightning/pytorch/version.info'
+INFO:root:adding license file 'LICENSE'
+INFO:root:writing manifest file 'src/lightning.egg-info/SOURCES.txt'
+Installing as the main package: True
+Finished setup configuration.
+WARNING:root:Folder /tmp/paper-source/requirements/data does not have any base requirements.
+Distributing the version to /tmp/paper-source/src/lightning_fabric/version.info
+Distributing the version to /tmp/paper-source/src/pytorch_lightning/version.info
+Distributing the version to /tmp/paper-source/src/lightning/version.info
+Requested package: 'None'
+Local package candidates: ['lightning_fabric', 'pytorch_lightning', 'lightning']
+Installing from source: True
+Installing package: lightning
+The extras are:  {'pytorch-strategies': ['deepspeed<0.17.0,>=0.16.0; platform_system != "Windows" and platform_system != "Darwin"  # strict'], 'pytorch-examples': ['ipython[all]<11.0,>=8.0.0', 'requests<3.0', 'torchmetrics<2.0,>=0.10.0', 'torchvision<1.0,>=0.21.0'], 'pytorch-test': ['cloudpickle<4.0,>=1.3', 'coverage==7.10.7; python_version < "3.10"', 'coverage==7.13.5; python_version >= "3.10"', 'fastapi', 'huggingface-hub', 'numpy<2.0,>1.21.0; python_version < "3.12"', 'numpy<3.0,>2.1.0; python_version >= "3.12"', 'onnx-ir>=0.1.16', 'onnx<2.0,>=1.16.0', 'onnxruntime<2.0,>=1.19.0', 'onnxscript<1.0,>=0.1.0', 'pandas<4.0,>2.0', 'psutil<8.0', 'pytest-cov==7.0.0', 'pytest-random-order==1.2.0', 'pytest-rerunfailures==16.0.1; python_version < "3.10"', 'pytest-rerunfailures==16.1; python_version >= "3.10"', 'pytest-timeout==2.4.0', 'pytest==9.0.2', 'scikit-learn<2.0,>0.22.1', 'tensorboard<3.0,>=2.11', 'uvicorn'], 'pytorch-test_gpu': ['torch-tensorrt; platform_system != "Darwin" and python_version >= "3.12"'], 'pytorch-extra': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'hydra-core<2.0,>=1.2.0', 'jsonargparse[jsonnet,signatures]<5.0,>=4.39.0', 'matplotlib<4.0,>3.1', 'omegaconf<3.0,>=2.2.3', 'rich<15.0,>=12.3.0', 'tensorboardX<3.0,>=2.2'], 'fabric-strategies': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'deepspeed<0.17.0,>=0.16.0; platform_system != "Windows" and platform_system != "Darwin"  # strict'], 'fabric-examples': ['torchmetrics<2.0,>=0.10.0', 'torchvision<1.0,>=0.16.0'], 'fabric-test': ['click==8.1.8; python_version < "3.11"', 'click==8.3.1; python_version > "3.10"', 'coverage==7.10.7; python_version < "3.10"', 'coverage==7.13.5; python_version >= "3.10"', 'huggingface-hub', 'numpy<2.0,>1.21.0; python_version < "3.12"', 'numpy<3.0,>2.1.0; python_version >= "3.12"', 'pytest-cov==7.0.0', 'pytest-random-order==1.2.0', 'pytest-rerunfailures==16.0.1; python_version < "3.10"', 'pytest-rerunfailures==16.1; python_version >= "3.10"', 'pytest-timeout==2.4.0', 'pytest==9.0.2', 'tensorboardX<3.0,>=2.6'], 'fabric-extra': ['hydra-core<2.0,>=1.2.0'], 'fabric-all': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'deepspeed<0.17.0,>=0.16.0; platform_system != "Windows" and platform_system != "Darwin"  # strict', 'hydra-core<2.0,>=1.2.0', 'torchmetrics<2.0,>=0.10.0', 'torchvision<1.0,>=0.16.0'], 'fabric-dev': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'click==8.1.8; python_version < "3.11"', 'click==8.3.1; python_version > "3.10"', 'coverage==7.10.7; python_version < "3.10"', 'coverage==7.13.5; python_version >= "3.10"', 'deepspeed<0.17.0,>=0.16.0; platform_system != "Windows" and platform_system != "Darwin"  # strict', 'huggingface-hub', 'hydra-core<2.0,>=1.2.0', 'numpy<2.0,>1.21.0; python_version < "3.12"', 'numpy<3.0,>2.1.0; python_version >= "3.12"', 'pytest-cov==7.0.0', 'pytest-random-order==1.2.0', 'pytest-rerunfailures==16.0.1; python_version < "3.10"', 'pytest-rerunfailures==16.1; python_version >= "3.10"', 'pytest-timeout==2.4.0', 'pytest==9.0.2', 'tensorboardX<3.0,>=2.6', 'torchmetrics<2.0,>=0.10.0', 'torchvision<1.0,>=0.16.0'], 'pytorch-all': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'deepspeed<0.17.0,>=0.16.0; platform_system != "Windows" and platform_system != "Darwin"  # strict', 'hydra-core<2.0,>=1.2.0', 'ipython[all]<11.0,>=8.0.0', 'jsonargparse[jsonnet,signatures]<5.0,>=4.39.0', 'matplotlib<4.0,>3.1', 'omegaconf<3.0,>=2.2.3', 'requests<3.0', 'rich<15.0,>=12.3.0', 'tensorboardX<3.0,>=2.2', 'torchmetrics<2.0,>=0.10.0', 'torchvision<1.0,>=0.21.0'], 'pytorch-dev': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'cloudpickle<4.0,>=1.3', 'coverage==7.10.7; python_version < "3.10"', 'coverage==7.13.5; python_version >= "3.10"', 'deepspeed<0.17.0,>=0.16.0; platform_system != "Windows" and platform_system != "Darwin"  # strict', 'fastapi', 'huggingface-hub', 'hydra-core<2.0,>=1.2.0', 'ipython[all]<11.0,>=8.0.0', 'jsonargparse[jsonnet,signatures]<5.0,>=4.39.0', 'matplotlib<4.0,>3.1', 'numpy<2.0,>1.21.0; python_version < "3.12"', 'numpy<3.0,>2.1.0; python_version >= "3.12"', 'omegaconf<3.0,>=2.2.3', 'onnx-ir>=0.1.16', 'onnx<2.0,>=1.16.0', 'onnxruntime<2.0,>=1.19.0', 'onnxscript<1.0,>=0.1.0', 'pandas<4.0,>2.0', 'psutil<8.0', 'pytest-cov==7.0.0', 'pytest-random-order==1.2.0', 'pytest-rerunfailures==16.0.1; python_version < "3.10"', 'pytest-rerunfailures==16.1; python_version >= "3.10"', 'pytest-timeout==2.4.0', 'pytest==9.0.2', 'requests<3.0', 'rich<15.0,>=12.3.0', 'scikit-learn<2.0,>0.22.1', 'tensorboard<3.0,>=2.11', 'tensorboardX<3.0,>=2.2', 'torchmetrics<2.0,>=0.10.0', 'torchvision<1.0,>=0.21.0', 'uvicorn'], 'data': ['litdata<1.0,>=0.2.0rc'], 'strategies': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'deepspeed<0.17.0,>=0.16.0; platform_system != "Windows" and platform_system != "Darwin"  # strict'], 'examples': ['ipython[all]<11.0,>=8.0.0', 'requests<3.0', 'torchmetrics<2.0,>=0.10.0', 'torchvision<1.0,>=0.16.0', 'torchvision<1.0,>=0.21.0'], 'test': ['click==8.1.8; python_version < "3.11"', 'click==8.3.1; python_version > "3.10"', 'cloudpickle<4.0,>=1.3', 'coverage==7.10.7; python_version < "3.10"', 'coverage==7.13.5; python_version >= "3.10"', 'fastapi', 'huggingface-hub', 'numpy<2.0,>1.21.0; python_version < "3.12"', 'numpy<3.0,>2.1.0; python_version >= "3.12"', 'onnx-ir>=0.1.16', 'onnx<2.0,>=1.16.0', 'onnxruntime<2.0,>=1.19.0', 'onnxscript<1.0,>=0.1.0', 'pandas<4.0,>2.0', 'psutil<8.0', 'pytest-cov==7.0.0', 'pytest-random-order==1.2.0', 'pytest-rerunfailures==16.0.1; python_version < "3.10"', 'pytest-rerunfailures==16.1; python_version >= "3.10"', 'pytest-timeout==2.4.0', 'pytest==9.0.2', 'scikit-learn<2.0,>0.22.1', 'tensorboard<3.0,>=2.11', 'tensorboardX<3.0,>=2.6', 'uvicorn'], 'test_gpu': ['torch-tensorrt; platform_system != "Darwin" and python_version >= "3.12"'], 'extra': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'hydra-core<2.0,>=1.2.0', 'jsonargparse[jsonnet,signatures]<5.0,>=4.39.0', 'matplotlib<4.0,>3.1', 'omegaconf<3.0,>=2.2.3', 'rich<15.0,>=12.3.0', 'tensorboardX<3.0,>=2.2'], 'all': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'deepspeed<0.17.0,>=0.16.0; platform_system != "Windows" and platform_system != "Darwin"  # strict', 'hydra-core<2.0,>=1.2.0', 'ipython[all]<11.0,>=8.0.0', 'jsonargparse[jsonnet,signatures]<5.0,>=4.39.0', 'matplotlib<4.0,>3.1', 'omegaconf<3.0,>=2.2.3', 'requests<3.0', 'rich<15.0,>=12.3.0', 'tensorboardX<3.0,>=2.2', 'torchmetrics<2.0,>=0.10.0', 'torchvision<1.0,>=0.16.0', 'torchvision<1.0,>=0.21.0'], 'dev': ['bitsandbytes<1.0,>=0.45.2; platform_system != "Darwin"', 'click==8.1.8; python_version < "3.11"', 'click==8.3.1; python_version > "3.10"', 'cloudpickle<4.0,>=1.3', 'coverage==7.10.7; python_version < "3.10"', 'coverage==7.13.5; python_version >= "3.10"', 'deepspeed<0.17.0,>=0.16.0; platform_system != "Windows" and platform_system != "Darwin"  # strict', 'fastapi', 'huggingface-hub', 'hydra-core<2.0,>=1.2.0', 'ipython[all]<11.0,>=8.0.0', 'jsonargparse[jsonnet,signatures]<5.0,>=4.39.0', 'matplotlib<4.0,>3.1', 'numpy<2.0,>1.21.0; python_version < "3.12"', 'numpy<3.0,>2.1.0; python_version >= "3.12"', 'omegaconf<3.0,>=2.2.3', 'onnx-ir>=0.1.16', 'onnx<2.0,>=1.16.0', 'onnxruntime<2.0,>=1.19.0', 'onnxscript<1.0,>=0.1.0', 'pandas<4.0,>2.0', 'psutil<8.0', 'pytest-cov==7.0.0', 'pytest-random-order==1.2.0', 'pytest-rerunfailures==16.0.1; python_version < "3.10"', 'pytest-rerunfailures==16.1; python_version >= "3.10"', 'pytest-timeout==2.4.0', 'pytest==9.0.2', 'requests<3.0', 'rich<15.0,>=12.3.0', 'scikit-learn<2.0,>0.22.1', 'tensorboard<3.0,>=2.11', 'tensorboardX<3.0,>=2.2', 'tensorboardX<3.0,>=2.6', 'torchmetrics<2.0,>=0.10.0', 'torchvision<1.0,>=0.16.0', 'torchvision<1.0,>=0.21.0', 'uvicorn']}
+/cache/builds-v0/.tmpcP9jNL/lib/python3.11/site-packages/setuptools/dist.py:332: InformationOnly: Normalizing '2.7.0.dev' to '2.7.0.dev0'
+  self.metadata.version = self._normalize_version(self.metadata.version)
+/cache/builds-v0/.tmpcP9jNL/lib/python3.11/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: Apache Software License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+INFO:root:running bdist_wheel
+INFO:root:running build
+INFO:root:running build_py
+INFO:root:creating build/lib/lightning
+INFO:root:copying src/lightning/__init__.py -> build/lib/lightning
+INFO:root:copying src/lightning/__about__.py -> build/lib/lightning
+INFO:root:copying src/lightning/__setup__.py -> build/lib/lightning
+INFO:root:copying src/lightning/__version__.py -> build/lib/lightning
+INFO:root:creating build/lib/lightning/data
+INFO:root:copying src/lightning/data/__init__.py -> build/lib/lightning/data
+INFO:root:creating build/lib/lightning/pytorch
+INFO:root:copying src/lightning/pytorch/__init__.py -> build/lib/lightning/pytorch
+INFO:root:copying src/lightning/pytorch/cli.py -> build/lib/lightning/pytorch
+INFO:root:creating build/lib/lightning/fabric
+INFO:root:copying src/lightning/fabric/__init__.py -> build/lib/lightning/fabric
+INFO:root:copying src/lightning/fabric/wrappers.py -> build/lib/lightning/fabric
+INFO:root:copying src/lightning/fabric/connector.py -> build/lib/lightning/fabric
+INFO:root:copying src/lightning/fabric/fabric.py -> build/lib/lightning/fabric
+INFO:root:copying src/lightning/fabric/cli.py -> build/lib/lightning/fabric
+INFO:root:creating build/lib/lightning/pytorch/strategies
+INFO:root:copying src/lightning/pytorch/strategies/__init__.py -> build/lib/lightning/pytorch/strategies
+INFO:root:copying src/lightning/pytorch/strategies/strategy.py -> build/lib/lightning/pytorch/strategies
+INFO:root:copying src/lightning/pytorch/strategies/xla.py -> build/lib/lightning/pytorch/strategies
+INFO:root:copying src/lightning/pytorch/strategies/deepspeed.py -> build/lib/lightning/pytorch/strategies
+INFO:root:copying src/lightning/pytorch/strategies/single_device.py -> build/lib/lightning/pytorch/strategies
+INFO:root:copying src/lightning/pytorch/strategies/fsdp.py -> build/lib/lightning/pytorch/strategies
+INFO:root:copying src/lightning/pytorch/strategies/ddp.py -> build/lib/lightning/pytorch/strategies
+INFO:root:copying src/lightning/pytorch/strategies/model_parallel.py -> build/lib/lightning/pytorch/strategies
+INFO:root:copying src/lightning/pytorch/strategies/parallel.py -> build/lib/lightning/pytorch/strategies
+INFO:root:copying src/lightning/pytorch/strategies/single_xla.py -> build/lib/lightning/pytorch/strategies
+INFO:root:creating build/lib/lightning/pytorch/core
+INFO:root:copying src/lightning/pytorch/core/__init__.py -> build/lib/lightning/pytorch/core
+INFO:root:copying src/lightning/pytorch/core/optimizer.py -> build/lib/lightning/pytorch/core
+INFO:root:copying src/lightning/pytorch/core/module.py -> build/lib/lightning/pytorch/core
+INFO:root:copying src/lightning/pytorch/core/hooks.py -> build/lib/lightning/pytorch/core
+INFO:root:copying src/lightning/pytorch/core/saving.py -> build/lib/lightning/pytorch/core
+INFO:root:copying src/lightning/pytorch/core/datamodule.py -> build/lib/lightning/pytorch/core
+INFO:root:creating build/lib/lightning/pytorch/trainer
+INFO:root:copying src/lightning/pytorch/trainer/__init__.py -> build/lib/lightning/pytorch/trainer
+INFO:root:copying src/lightning/pytorch/trainer/configuration_validator.py -> build/lib/lightning/pytorch/trainer
+INFO:root:copying src/lightning/pytorch/trainer/trainer.py -> build/lib/lightning/pytorch/trainer
+INFO:root:copying src/lightning/pytorch/trainer/states.py -> build/lib/lightning/pytorch/trainer
+INFO:root:copying src/lightning/pytorch/trainer/call.py -> build/lib/lightning/pytorch/trainer
+INFO:root:copying src/lightning/pytorch/trainer/setup.py -> build/lib/lightning/pytorch/trainer
+INFO:root:creating build/lib/lightning/pytorch/loops
+INFO:root:copying src/lightning/pytorch/loops/__init__.py -> build/lib/lightning/pytorch/loops
+INFO:root:copying src/lightning/pytorch/loops/progress.py -> build/lib/lightning/pytorch/loops
+INFO:root:copying src/lightning/pytorch/loops/fit_loop.py -> build/lib/lightning/pytorch/loops
+INFO:root:copying src/lightning/pytorch/loops/training_epoch_loop.py -> build/lib/lightning/pytorch/loops
+INFO:root:copying src/lightning/pytorch/loops/fetchers.py -> build/lib/lightning/pytorch/loops
+INFO:root:copying src/lightning/pytorch/loops/loop.py -> build/lib/lightning/pytorch/loops
+INFO:root:copying src/lightning/pytorch/loops/utilities.py -> build/lib/lightning/pytorch/loops
+INFO:root:copying src/lightning/pytorch/loops/prediction_loop.py -> build/lib/lightning/pytorch/loops
+INFO:root:copying src/lightning/pytorch/loops/evaluation_loop.py -> build/lib/lightning/pytorch/loops
+INFO:root:creating build/lib/lightning/pytorch/tuner
+INFO:root:copying src/lightning/pytorch/tuner/__init__.py -> build/lib/lightning/pytorch/tuner
+INFO:root:copying src/lightning/pytorch/tuner/tuning.py -> build/lib/lightning/pytorch/tuner
+INFO:root:copying src/lightning/pytorch/tuner/lr_finder.py -> build/lib/lightning/pytorch/tuner
+INFO:root:copying src/lightning/pytorch/tuner/batch_size_scaling.py -> build/lib/lightning/pytorch/tuner
+INFO:root:creating build/lib/lightning/pytorch/profilers
+INFO:root:copying src/lightning/pytorch/profilers/__init__.py -> build/lib/lightning/pytorch/profilers
+INFO:root:copying src/lightning/pytorch/profilers/base.py -> build/lib/lightning/pytorch/profilers
+INFO:root:copying src/lightning/pytorch/profilers/xla.py -> build/lib/lightning/pytorch/profilers
+INFO:root:copying src/lightning/pytorch/profilers/simple.py -> build/lib/lightning/pytorch/profilers
+INFO:root:copying src/lightning/pytorch/profilers/pytorch.py -> build/lib/lightning/pytorch/profilers
+INFO:root:copying src/lightning/pytorch/profilers/advanced.py -> build/lib/lightning/pytorch/profilers
+INFO:root:copying src/lightning/pytorch/profilers/profiler.py -> build/lib/lightning/pytorch/profilers
+INFO:root:creating build/lib/lightning/pytorch/demos
+INFO:root:copying src/lightning/pytorch/demos/__init__.py -> build/lib/lightning/pytorch/demos
+INFO:root:copying src/lightning/pytorch/demos/boring_classes.py -> build/lib/lightning/pytorch/demos
+INFO:root:copying src/lightning/pytorch/demos/mnist_datamodule.py -> build/lib/lightning/pytorch/demos
+INFO:root:copying src/lightning/pytorch/demos/lstm.py -> build/lib/lightning/pytorch/demos
+INFO:root:copying src/lightning/pytorch/demos/transformer.py -> build/lib/lightning/pytorch/demos
+INFO:root:creating build/lib/lightning/pytorch/overrides
+INFO:root:copying src/lightning/pytorch/overrides/__init__.py -> build/lib/lightning/pytorch/overrides
+INFO:root:copying src/lightning/pytorch/overrides/distributed.py -> build/lib/lightning/pytorch/overrides
+INFO:root:creating build/lib/lightning/pytorch/_graveyard
+INFO:root:copying src/lightning/pytorch/_graveyard/__init__.py -> build/lib/lightning/pytorch/_graveyard
+INFO:root:copying src/lightning/pytorch/_graveyard/hpu.py -> build/lib/lightning/pytorch/_graveyard
+INFO:root:copying src/lightning/pytorch/_graveyard/_torchmetrics.py -> build/lib/lightning/pytorch/_graveyard
+INFO:root:copying src/lightning/pytorch/_graveyard/precision.py -> build/lib/lightning/pytorch/_graveyard
+INFO:root:copying src/lightning/pytorch/_graveyard/tpu.py -> build/lib/lightning/pytorch/_graveyard
+INFO:root:creating build/lib/lightning/pytorch/plugins
+INFO:root:copying src/lightning/pytorch/plugins/__init__.py -> build/lib/lightning/pytorch/plugins
+INFO:root:copying src/lightning/pytorch/plugins/layer_sync.py -> build/lib/lightning/pytorch/plugins
+INFO:root:creating build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/__init__.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/argparse.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/data.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/exceptions.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/grads.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/imports.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/upgrade_checkpoint.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/compile.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/rank_zero.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/enums.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/parameter_tying.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/combined_loader.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/deepspeed.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/parsing.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/signature_utils.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/model_registry.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/types.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/memory.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/consolidate_checkpoint.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/warnings.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/seed.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/_pytree.py -> build/lib/lightning/pytorch/utilities
+INFO:root:copying src/lightning/pytorch/utilities/model_helpers.py -> build/lib/lightning/pytorch/utilities
+INFO:root:creating build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/__init__.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/on_exception_checkpoint.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/rich_model_summary.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/device_stats_monitor.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/callback.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/timer.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/throughput_monitor.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/model_summary.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/weight_averaging.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/model_checkpoint.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/lr_finder.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/stochastic_weight_avg.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/prediction_writer.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/finetuning.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/batch_size_finder.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/early_stopping.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/lambda_function.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/lr_monitor.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/spike.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/pruning.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/checkpoint.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:copying src/lightning/pytorch/callbacks/gradient_accumulation_scheduler.py -> build/lib/lightning/pytorch/callbacks
+INFO:root:creating build/lib/lightning/pytorch/accelerators
+INFO:root:copying src/lightning/pytorch/accelerators/__init__.py -> build/lib/lightning/pytorch/accelerators
+INFO:root:copying src/lightning/pytorch/accelerators/xla.py -> build/lib/lightning/pytorch/accelerators
+INFO:root:copying src/lightning/pytorch/accelerators/mps.py -> build/lib/lightning/pytorch/accelerators
+INFO:root:copying src/lightning/pytorch/accelerators/cuda.py -> build/lib/lightning/pytorch/accelerators
+INFO:root:copying src/lightning/pytorch/accelerators/cpu.py -> build/lib/lightning/pytorch/accelerators
+INFO:root:copying src/lightning/pytorch/accelerators/accelerator.py -> build/lib/lightning/pytorch/accelerators
+INFO:root:creating build/lib/lightning/pytorch/serve
+INFO:root:copying src/lightning/pytorch/serve/__init__.py -> build/lib/lightning/pytorch/serve
+INFO:root:copying src/lightning/pytorch/serve/servable_module.py -> build/lib/lightning/pytorch/serve
+INFO:root:copying src/lightning/pytorch/serve/servable_module_validator.py -> build/lib/lightning/pytorch/serve
+INFO:root:creating build/lib/lightning/pytorch/loggers
+INFO:root:copying src/lightning/pytorch/loggers/__init__.py -> build/lib/lightning/pytorch/loggers
+INFO:root:copying src/lightning/pytorch/loggers/wandb.py -> build/lib/lightning/pytorch/loggers
+INFO:root:copying src/lightning/pytorch/loggers/csv_logs.py -> build/lib/lightning/pytorch/loggers
+INFO:root:copying src/lightning/pytorch/loggers/tensorboard.py -> build/lib/lightning/pytorch/loggers
+INFO:root:copying src/lightning/pytorch/loggers/logger.py -> build/lib/lightning/pytorch/loggers
+INFO:root:copying src/lightning/pytorch/loggers/litlogger.py -> build/lib/lightning/pytorch/loggers
+INFO:root:copying src/lightning/pytorch/loggers/mlflow.py -> build/lib/lightning/pytorch/loggers
+INFO:root:copying src/lightning/pytorch/loggers/comet.py -> build/lib/lightning/pytorch/loggers
+INFO:root:copying src/lightning/pytorch/loggers/utilities.py -> build/lib/lightning/pytorch/loggers
+INFO:root:copying src/lightning/pytorch/loggers/neptune.py -> build/lib/lightning/pytorch/loggers
+INFO:root:creating build/lib/lightning/pytorch/strategies/launchers
+INFO:root:copying src/lightning/pytorch/strategies/launchers/__init__.py -> build/lib/lightning/pytorch/strategies/launchers
+INFO:root:copying src/lightning/pytorch/strategies/launchers/xla.py -> build/lib/lightning/pytorch/strategies/launchers
+INFO:root:copying src/lightning/pytorch/strategies/launchers/multiprocessing.py -> build/lib/lightning/pytorch/strategies/launchers
+INFO:root:copying src/lightning/pytorch/strategies/launchers/launcher.py -> build/lib/lightning/pytorch/strategies/launchers
+INFO:root:copying src/lightning/pytorch/strategies/launchers/subprocess_script.py -> build/lib/lightning/pytorch/strategies/launchers
+INFO:root:creating build/lib/lightning/pytorch/core/mixins
+INFO:root:copying src/lightning/pytorch/core/mixins/__init__.py -> build/lib/lightning/pytorch/core/mixins
+INFO:root:copying src/lightning/pytorch/core/mixins/hparams_mixin.py -> build/lib/lightning/pytorch/core/mixins
+INFO:root:creating build/lib/lightning/pytorch/trainer/connectors
+INFO:root:copying src/lightning/pytorch/trainer/connectors/data_connector.py -> build/lib/lightning/pytorch/trainer/connectors
+INFO:root:copying src/lightning/pytorch/trainer/connectors/__init__.py -> build/lib/lightning/pytorch/trainer/connectors
+INFO:root:copying src/lightning/pytorch/trainer/connectors/checkpoint_connector.py -> build/lib/lightning/pytorch/trainer/connectors
+INFO:root:copying src/lightning/pytorch/trainer/connectors/callback_connector.py -> build/lib/lightning/pytorch/trainer/connectors
+INFO:root:copying src/lightning/pytorch/trainer/connectors/signal_connector.py -> build/lib/lightning/pytorch/trainer/connectors
+INFO:root:copying src/lightning/pytorch/trainer/connectors/accelerator_connector.py -> build/lib/lightning/pytorch/trainer/connectors
+INFO:root:creating build/lib/lightning/pytorch/trainer/connectors/logger_connector
+INFO:root:copying src/lightning/pytorch/trainer/connectors/logger_connector/__init__.py -> build/lib/lightning/pytorch/trainer/connectors/logger_connector
+INFO:root:copying src/lightning/pytorch/trainer/connectors/logger_connector/fx_validator.py -> build/lib/lightning/pytorch/trainer/connectors/logger_connector
+INFO:root:copying src/lightning/pytorch/trainer/connectors/logger_connector/logger_connector.py -> build/lib/lightning/pytorch/trainer/connectors/logger_connector
+INFO:root:copying src/lightning/pytorch/trainer/connectors/logger_connector/result.py -> build/lib/lightning/pytorch/trainer/connectors/logger_connector
+INFO:root:creating build/lib/lightning/pytorch/loops/optimization
+INFO:root:copying src/lightning/pytorch/loops/optimization/__init__.py -> build/lib/lightning/pytorch/loops/optimization
+INFO:root:copying src/lightning/pytorch/loops/optimization/manual.py -> build/lib/lightning/pytorch/loops/optimization
+INFO:root:copying src/lightning/pytorch/loops/optimization/automatic.py -> build/lib/lightning/pytorch/loops/optimization
+INFO:root:copying src/lightning/pytorch/loops/optimization/closure.py -> build/lib/lightning/pytorch/loops/optimization
+INFO:root:creating build/lib/lightning/pytorch/plugins/environments
+INFO:root:copying src/lightning/pytorch/plugins/environments/__init__.py -> build/lib/lightning/pytorch/plugins/environments
+INFO:root:creating build/lib/lightning/pytorch/plugins/io
+INFO:root:copying src/lightning/pytorch/plugins/io/__init__.py -> build/lib/lightning/pytorch/plugins/io
+INFO:root:copying src/lightning/pytorch/plugins/io/async_plugin.py -> build/lib/lightning/pytorch/plugins/io
+INFO:root:copying src/lightning/pytorch/plugins/io/wrapper.py -> build/lib/lightning/pytorch/plugins/io
+INFO:root:copying src/lightning/pytorch/plugins/io/xla_plugin.py -> build/lib/lightning/pytorch/plugins/io
+INFO:root:copying src/lightning/pytorch/plugins/io/torch_plugin.py -> build/lib/lightning/pytorch/plugins/io
+INFO:root:copying src/lightning/pytorch/plugins/io/checkpoint_plugin.py -> build/lib/lightning/pytorch/plugins/io
+INFO:root:creating build/lib/lightning/pytorch/plugins/precision
+INFO:root:copying src/lightning/pytorch/plugins/precision/__init__.py -> build/lib/lightning/pytorch/plugins/precision
+INFO:root:copying src/lightning/pytorch/plugins/precision/xla.py -> build/lib/lightning/pytorch/plugins/precision
+INFO:root:copying src/lightning/pytorch/plugins/precision/half.py -> build/lib/lightning/pytorch/plugins/precision
+INFO:root:copying src/lightning/pytorch/plugins/precision/double.py -> build/lib/lightning/pytorch/plugins/precision
+INFO:root:copying src/lightning/pytorch/plugins/precision/deepspeed.py -> build/lib/lightning/pytorch/plugins/precision
+INFO:root:copying src/lightning/pytorch/plugins/precision/fsdp.py -> build/lib/lightning/pytorch/plugins/precision
+INFO:root:copying src/lightning/pytorch/plugins/precision/transformer_engine.py -> build/lib/lightning/pytorch/plugins/precision
+INFO:root:copying src/lightning/pytorch/plugins/precision/precision.py -> build/lib/lightning/pytorch/plugins/precision
+INFO:root:copying src/lightning/pytorch/plugins/precision/amp.py -> build/lib/lightning/pytorch/plugins/precision
+INFO:root:copying src/lightning/pytorch/plugins/precision/bitsandbytes.py -> build/lib/lightning/pytorch/plugins/precision
+INFO:root:creating build/lib/lightning/pytorch/utilities/testing
+INFO:root:copying src/lightning/pytorch/utilities/testing/__init__.py -> build/lib/lightning/pytorch/utilities/testing
+INFO:root:copying src/lightning/pytorch/utilities/testing/_runif.py -> build/lib/lightning/pytorch/utilities/testing
+INFO:root:creating build/lib/lightning/pytorch/utilities/migration
+INFO:root:copying src/lightning/pytorch/utilities/migration/__init__.py -> build/lib/lightning/pytorch/utilities/migration
+INFO:root:copying src/lightning/pytorch/utilities/migration/utils.py -> build/lib/lightning/pytorch/utilities/migration
+INFO:root:copying src/lightning/pytorch/utilities/migration/migration.py -> build/lib/lightning/pytorch/utilities/migration
+INFO:root:creating build/lib/lightning/pytorch/utilities/model_summary
+INFO:root:copying src/lightning/pytorch/utilities/model_summary/__init__.py -> build/lib/lightning/pytorch/utilities/model_summary
+INFO:root:copying src/lightning/pytorch/utilities/model_summary/model_summary.py -> build/lib/lightning/pytorch/utilities/model_summary
+INFO:root:copying src/lightning/pytorch/utilities/model_summary/model_summary_deepspeed.py -> build/lib/lightning/pytorch/utilities/model_summary
+INFO:root:creating build/lib/lightning/pytorch/callbacks/progress
+INFO:root:copying src/lightning/pytorch/callbacks/progress/__init__.py -> build/lib/lightning/pytorch/callbacks/progress
+INFO:root:copying src/lightning/pytorch/callbacks/progress/tqdm_progress.py -> build/lib/lightning/pytorch/callbacks/progress
+INFO:root:copying src/lightning/pytorch/callbacks/progress/progress_bar.py -> build/lib/lightning/pytorch/callbacks/progress
+INFO:root:copying src/lightning/pytorch/callbacks/progress/rich_progress.py -> build/lib/lightning/pytorch/callbacks/progress
+INFO:root:creating build/lib/lightning/fabric/strategies
+INFO:root:copying src/lightning/fabric/strategies/dp.py -> build/lib/lightning/fabric/strategies
+INFO:root:copying src/lightning/fabric/strategies/__init__.py -> build/lib/lightning/fabric/strategies
+INFO:root:copying src/lightning/fabric/strategies/strategy.py -> build/lib/lightning/fabric/strategies
+INFO:root:copying src/lightning/fabric/strategies/xla.py -> build/lib/lightning/fabric/strategies
+INFO:root:copying src/lightning/fabric/strategies/registry.py -> build/lib/lightning/fabric/strategies
+INFO:root:copying src/lightning/fabric/strategies/deepspeed.py -> build/lib/lightning/fabric/strategies
+INFO:root:copying src/lightning/fabric/strategies/single_device.py -> build/lib/lightning/fabric/strategies
+INFO:root:copying src/lightning/fabric/strategies/fsdp.py -> build/lib/lightning/fabric/strategies
+INFO:root:copying src/lightning/fabric/strategies/xla_fsdp.py -> build/lib/lightning/fabric/strategies
+INFO:root:copying src/lightning/fabric/strategies/ddp.py -> build/lib/lightning/fabric/strategies
+INFO:root:copying src/lightning/fabric/strategies/model_parallel.py -> build/lib/lightning/fabric/strategies
+INFO:root:copying src/lightning/fabric/strategies/parallel.py -> build/lib/lightning/fabric/strategies
+INFO:root:copying src/lightning/fabric/strategies/single_xla.py -> build/lib/lightning/fabric/strategies
+INFO:root:creating build/lib/lightning/fabric/_graveyard
+INFO:root:copying src/lightning/fabric/_graveyard/__init__.py -> build/lib/lightning/fabric/_graveyard
+INFO:root:copying src/lightning/fabric/_graveyard/tpu.py -> build/lib/lightning/fabric/_graveyard
+INFO:root:creating build/lib/lightning/fabric/plugins
+INFO:root:copying src/lightning/fabric/plugins/__init__.py -> build/lib/lightning/fabric/plugins
+INFO:root:creating build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/__init__.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/optimizer.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/load.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/data.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/exceptions.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/device_dtype_mixin.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/registry.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/logger.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/imports.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/rank_zero.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/enums.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/throughput.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/distributed.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/device_parser.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/cloud_io.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/types.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/init.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/spike.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/apply_func.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/consolidate_checkpoint.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/warnings.py -> build/lib/lightning/fabric/utilities
+INFO:root:copying src/lightning/fabric/utilities/seed.py -> build/lib/lightning/fabric/utilities
+INFO:root:creating build/lib/lightning/fabric/accelerators
+INFO:root:copying src/lightning/fabric/accelerators/__init__.py -> build/lib/lightning/fabric/accelerators
+INFO:root:copying src/lightning/fabric/accelerators/xla.py -> build/lib/lightning/fabric/accelerators
+INFO:root:copying src/lightning/fabric/accelerators/mps.py -> build/lib/lightning/fabric/accelerators
+INFO:root:copying src/lightning/fabric/accelerators/registry.py -> build/lib/lightning/fabric/accelerators
+INFO:root:copying src/lightning/fabric/accelerators/cuda.py -> build/lib/lightning/fabric/accelerators
+INFO:root:copying src/lightning/fabric/accelerators/cpu.py -> build/lib/lightning/fabric/accelerators
+INFO:root:copying src/lightning/fabric/accelerators/accelerator.py -> build/lib/lightning/fabric/accelerators
+INFO:root:creating build/lib/lightning/fabric/loggers
+INFO:root:copying src/lightning/fabric/loggers/__init__.py -> build/lib/lightning/fabric/loggers
+INFO:root:copying src/lightning/fabric/loggers/csv_logs.py -> build/lib/lightning/fabric/loggers
+INFO:root:copying src/lightning/fabric/loggers/tensorboard.py -> build/lib/lightning/fabric/loggers
+INFO:root:copying src/lightning/fabric/loggers/logger.py -> build/lib/lightning/fabric/loggers
+INFO:root:creating build/lib/lightning/fabric/strategies/launchers
+INFO:root:copying src/lightning/fabric/strategies/launchers/__init__.py -> build/lib/lightning/fabric/strategies/launchers
+INFO:root:copying src/lightning/fabric/strategies/launchers/xla.py -> build/lib/lightning/fabric/strategies/launchers
+INFO:root:copying src/lightning/fabric/strategies/launchers/multiprocessing.py -> build/lib/lightning/fabric/strategies/launchers
+INFO:root:copying src/lightning/fabric/strategies/launchers/launcher.py -> build/lib/lightning/fabric/strategies/launchers
+INFO:root:copying src/lightning/fabric/strategies/launchers/subprocess_script.py -> build/lib/lightning/fabric/strategies/launchers
+INFO:root:creating build/lib/lightning/fabric/plugins/environments
+INFO:root:copying src/lightning/fabric/plugins/environments/__init__.py -> build/lib/lightning/fabric/plugins/environments
+INFO:root:copying src/lightning/fabric/plugins/environments/xla.py -> build/lib/lightning/fabric/plugins/environments
+INFO:root:copying src/lightning/fabric/plugins/environments/cluster_environment.py -> build/lib/lightning/fabric/plugins/environments
+INFO:root:copying src/lightning/fabric/plugins/environments/slurm.py -> build/lib/lightning/fabric/plugins/environments
+INFO:root:copying src/lightning/fabric/plugins/environments/kubeflow.py -> build/lib/lightning/fabric/plugins/environments
+INFO:root:copying src/lightning/fabric/plugins/environments/torchelastic.py -> build/lib/lightning/fabric/plugins/environments
+INFO:root:copying src/lightning/fabric/plugins/environments/lsf.py -> build/lib/lightning/fabric/plugins/environments
+INFO:root:copying src/lightning/fabric/plugins/environments/mpi.py -> build/lib/lightning/fabric/plugins/environments
+INFO:root:copying src/lightning/fabric/plugins/environments/lightning.py -> build/lib/lightning/fabric/plugins/environments
+INFO:root:creating build/lib/lightning/fabric/plugins/io
+INFO:root:copying src/lightning/fabric/plugins/io/__init__.py -> build/lib/lightning/fabric/plugins/io
+INFO:root:copying src/lightning/fabric/plugins/io/xla.py -> build/lib/lightning/fabric/plugins/io
+INFO:root:copying src/lightning/fabric/plugins/io/checkpoint_io.py -> build/lib/lightning/fabric/plugins/io
+INFO:root:copying src/lightning/fabric/plugins/io/torch_io.py -> build/lib/lightning/fabric/plugins/io
+INFO:root:creating build/lib/lightning/fabric/plugins/collectives
+INFO:root:copying src/lightning/fabric/plugins/collectives/__init__.py -> build/lib/lightning/fabric/plugins/collectives
+INFO:root:copying src/lightning/fabric/plugins/collectives/torch_collective.py -> build/lib/lightning/fabric/plugins/collectives
+INFO:root:copying src/lightning/fabric/plugins/collectives/single_device.py -> build/lib/lightning/fabric/plugins/collectives
+INFO:root:copying src/lightning/fabric/plugins/collectives/collective.py -> build/lib/lightning/fabric/plugins/collectives
+INFO:root:creating build/lib/lightning/fabric/plugins/precision
+INFO:root:copying src/lightning/fabric/plugins/precision/__init__.py -> build/lib/lightning/fabric/plugins/precision
+INFO:root:copying src/lightning/fabric/plugins/precision/xla.py -> build/lib/lightning/fabric/plugins/precision
+INFO:root:copying src/lightning/fabric/plugins/precision/utils.py -> build/lib/lightning/fabric/plugins/precision
+INFO:root:copying src/lightning/fabric/plugins/precision/half.py -> build/lib/lightning/fabric/plugins/precision
+INFO:root:copying src/lightning/fabric/plugins/precision/double.py -> build/lib/lightning/fabric/plugins/precision
+INFO:root:copying src/lightning/fabric/plugins/precision/deepspeed.py -> build/lib/lightning/fabric/plugins/precision
+INFO:root:copying src/lightning/fabric/plugins/precision/fsdp.py -> build/lib/lightning/fabric/plugins/precision
+INFO:root:copying src/lightning/fabric/plugins/precision/transformer_engine.py -> build/lib/lightning/fabric/plugins/precision
+INFO:root:copying src/lightning/fabric/plugins/precision/precision.py -> build/lib/lightning/fabric/plugins/precision
+INFO:root:copying src/lightning/fabric/plugins/precision/amp.py -> build/lib/lightning/fabric/plugins/precision
+INFO:root:copying src/lightning/fabric/plugins/precision/bitsandbytes.py -> build/lib/lightning/fabric/plugins/precision
+INFO:root:creating build/lib/lightning/fabric/utilities/testing
+INFO:root:copying src/lightning/fabric/utilities/testing/__init__.py -> build/lib/lightning/fabric/utilities/testing
+INFO:root:copying src/lightning/fabric/utilities/testing/_runif.py -> build/lib/lightning/fabric/utilities/testing
+INFO:root:running egg_info
+INFO:root:writing src/lightning.egg-info/PKG-INFO
+INFO:root:writing dependency_links to src/lightning.egg-info/dependency_links.txt
+INFO:root:writing entry points to src/lightning.egg-info/entry_points.txt
+INFO:root:writing requirements to src/lightning.egg-info/requires.txt
+INFO:root:writing top-level names to src/lightning.egg-info/top_level.txt
+INFO:root:reading manifest file 'src/lightning.egg-info/SOURCES.txt'
+INFO:root:reading manifest template 'src/lightning/0ba9566d3c96f61f0dc24b1199323e0beaeb98055af03c9e'
+WARNING:root:warning: no files found matching 'src/lightning/fabric/README.md'
+WARNING:root:warning: no files found matching 'src/lightning/fabric/py.typed'
+WARNING:root:warning: no files found matching 'src/lightning/fabric/version.info'
+WARNING:root:warning: no files found matching 'src/lightning/pytorch/README.md'
+WARNING:root:warning: no files found matching 'src/lightning/pytorch/py.typed'
+WARNING:root:warning: no files found matching 'src/lightning/pytorch/version.info'
+INFO:root:adding license file 'LICENSE'
+INFO:root:writing manifest file 'src/lightning.egg-info/SOURCES.txt'
+INFO:root:copying src/lightning/0ba9566d3c96f61f0dc24b1199323e0beaeb98055af03c9e -> build/lib/lightning
+INFO:root:copying src/lightning/py.typed -> build/lib/lightning
+INFO:root:copying src/lightning/version.info -> build/lib/lightning
+INFO:root:copying src/lightning/pytorch/CHANGELOG.md -> build/lib/lightning/pytorch
+INFO:root:copying src/lightning/fabric/CHANGELOG.md -> build/lib/lightning/fabric
+WARNING:root:warning: build_py: byte-compiling is disabled, skipping.
+
+INFO:root:installing to build/bdist.linux-x86_64/wheel
+INFO:root:running install
+INFO:root:running install_lib
+INFO:root:creating build/bdist.linux-x86_64/wheel
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning
+INFO:root:copying build/lib/lightning/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/data
+INFO:root:copying build/lib/lightning/data/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/data
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch
+INFO:root:copying build/lib/lightning/pytorch/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/strategies
+INFO:root:copying build/lib/lightning/pytorch/strategies/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/strategies
+INFO:root:copying build/lib/lightning/pytorch/strategies/strategy.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/strategies
+INFO:root:copying build/lib/lightning/pytorch/strategies/xla.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/strategies
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/strategies/launchers
+INFO:root:copying build/lib/lightning/pytorch/strategies/launchers/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/strategies/launchers
+INFO:root:copying build/lib/lightning/pytorch/strategies/launchers/xla.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/strategies/launchers
+INFO:root:copying build/lib/lightning/pytorch/strategies/launchers/multiprocessing.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/strategies/launchers
+INFO:root:copying build/lib/lightning/pytorch/strategies/launchers/launcher.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/strategies/launchers
+INFO:root:copying build/lib/lightning/pytorch/strategies/launchers/subprocess_script.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/strategies/launchers
+INFO:root:copying build/lib/lightning/pytorch/strategies/deepspeed.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/strategies
+INFO:root:copying build/lib/lightning/pytorch/strategies/single_device.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/strategies
+INFO:root:copying build/lib/lightning/pytorch/strategies/fsdp.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/strategies
+INFO:root:copying build/lib/lightning/pytorch/strategies/ddp.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/strategies
+INFO:root:copying build/lib/lightning/pytorch/strategies/model_parallel.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/strategies
+INFO:root:copying build/lib/lightning/pytorch/strategies/parallel.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/strategies
+INFO:root:copying build/lib/lightning/pytorch/strategies/single_xla.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/strategies
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/core
+INFO:root:copying build/lib/lightning/pytorch/core/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/core
+INFO:root:copying build/lib/lightning/pytorch/core/optimizer.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/core
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/core/mixins
+INFO:root:copying build/lib/lightning/pytorch/core/mixins/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/core/mixins
+INFO:root:copying build/lib/lightning/pytorch/core/mixins/hparams_mixin.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/core/mixins
+INFO:root:copying build/lib/lightning/pytorch/core/module.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/core
+INFO:root:copying build/lib/lightning/pytorch/core/hooks.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/core
+INFO:root:copying build/lib/lightning/pytorch/core/saving.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/core
+INFO:root:copying build/lib/lightning/pytorch/core/datamodule.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/core
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/trainer
+INFO:root:copying build/lib/lightning/pytorch/trainer/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/trainer
+INFO:root:copying build/lib/lightning/pytorch/trainer/configuration_validator.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/trainer
+INFO:root:copying build/lib/lightning/pytorch/trainer/trainer.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/trainer
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/trainer/connectors
+INFO:root:copying build/lib/lightning/pytorch/trainer/connectors/data_connector.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/trainer/connectors
+INFO:root:copying build/lib/lightning/pytorch/trainer/connectors/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/trainer/connectors
+INFO:root:copying build/lib/lightning/pytorch/trainer/connectors/checkpoint_connector.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/trainer/connectors
+INFO:root:copying build/lib/lightning/pytorch/trainer/connectors/callback_connector.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/trainer/connectors
+INFO:root:copying build/lib/lightning/pytorch/trainer/connectors/signal_connector.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/trainer/connectors
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/trainer/connectors/logger_connector
+INFO:root:copying build/lib/lightning/pytorch/trainer/connectors/logger_connector/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/trainer/connectors/logger_connector
+INFO:root:copying build/lib/lightning/pytorch/trainer/connectors/logger_connector/fx_validator.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/trainer/connectors/logger_connector
+INFO:root:copying build/lib/lightning/pytorch/trainer/connectors/logger_connector/logger_connector.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/trainer/connectors/logger_connector
+INFO:root:copying build/lib/lightning/pytorch/trainer/connectors/logger_connector/result.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/trainer/connectors/logger_connector
+INFO:root:copying build/lib/lightning/pytorch/trainer/connectors/accelerator_connector.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/trainer/connectors
+INFO:root:copying build/lib/lightning/pytorch/trainer/states.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/trainer
+INFO:root:copying build/lib/lightning/pytorch/trainer/call.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/trainer
+INFO:root:copying build/lib/lightning/pytorch/trainer/setup.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/trainer
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/loops
+INFO:root:copying build/lib/lightning/pytorch/loops/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loops
+INFO:root:copying build/lib/lightning/pytorch/loops/progress.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loops
+INFO:root:copying build/lib/lightning/pytorch/loops/fit_loop.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loops
+INFO:root:copying build/lib/lightning/pytorch/loops/training_epoch_loop.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loops
+INFO:root:copying build/lib/lightning/pytorch/loops/fetchers.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loops
+INFO:root:copying build/lib/lightning/pytorch/loops/loop.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loops
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/loops/optimization
+INFO:root:copying build/lib/lightning/pytorch/loops/optimization/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loops/optimization
+INFO:root:copying build/lib/lightning/pytorch/loops/optimization/manual.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loops/optimization
+INFO:root:copying build/lib/lightning/pytorch/loops/optimization/automatic.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loops/optimization
+INFO:root:copying build/lib/lightning/pytorch/loops/optimization/closure.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loops/optimization
+INFO:root:copying build/lib/lightning/pytorch/loops/utilities.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loops
+INFO:root:copying build/lib/lightning/pytorch/loops/prediction_loop.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loops
+INFO:root:copying build/lib/lightning/pytorch/loops/evaluation_loop.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loops
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/tuner
+INFO:root:copying build/lib/lightning/pytorch/tuner/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/tuner
+INFO:root:copying build/lib/lightning/pytorch/tuner/tuning.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/tuner
+INFO:root:copying build/lib/lightning/pytorch/tuner/lr_finder.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/tuner
+INFO:root:copying build/lib/lightning/pytorch/tuner/batch_size_scaling.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/tuner
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/profilers
+INFO:root:copying build/lib/lightning/pytorch/profilers/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/profilers
+INFO:root:copying build/lib/lightning/pytorch/profilers/base.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/profilers
+INFO:root:copying build/lib/lightning/pytorch/profilers/xla.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/profilers
+INFO:root:copying build/lib/lightning/pytorch/profilers/simple.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/profilers
+INFO:root:copying build/lib/lightning/pytorch/profilers/pytorch.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/profilers
+INFO:root:copying build/lib/lightning/pytorch/profilers/advanced.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/profilers
+INFO:root:copying build/lib/lightning/pytorch/profilers/profiler.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/profilers
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/demos
+INFO:root:copying build/lib/lightning/pytorch/demos/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/demos
+INFO:root:copying build/lib/lightning/pytorch/demos/boring_classes.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/demos
+INFO:root:copying build/lib/lightning/pytorch/demos/mnist_datamodule.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/demos
+INFO:root:copying build/lib/lightning/pytorch/demos/lstm.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/demos
+INFO:root:copying build/lib/lightning/pytorch/demos/transformer.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/demos
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/overrides
+INFO:root:copying build/lib/lightning/pytorch/overrides/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/overrides
+INFO:root:copying build/lib/lightning/pytorch/overrides/distributed.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/overrides
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/_graveyard
+INFO:root:copying build/lib/lightning/pytorch/_graveyard/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/_graveyard
+INFO:root:copying build/lib/lightning/pytorch/_graveyard/hpu.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/_graveyard
+INFO:root:copying build/lib/lightning/pytorch/_graveyard/_torchmetrics.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/_graveyard
+INFO:root:copying build/lib/lightning/pytorch/_graveyard/precision.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/_graveyard
+INFO:root:copying build/lib/lightning/pytorch/_graveyard/tpu.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/_graveyard
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/plugins
+INFO:root:copying build/lib/lightning/pytorch/plugins/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/plugins
+INFO:root:copying build/lib/lightning/pytorch/plugins/layer_sync.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/plugins
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/plugins/environments
+INFO:root:copying build/lib/lightning/pytorch/plugins/environments/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/plugins/environments
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/plugins/io
+INFO:root:copying build/lib/lightning/pytorch/plugins/io/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/plugins/io
+INFO:root:copying build/lib/lightning/pytorch/plugins/io/async_plugin.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/plugins/io
+INFO:root:copying build/lib/lightning/pytorch/plugins/io/wrapper.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/plugins/io
+INFO:root:copying build/lib/lightning/pytorch/plugins/io/xla_plugin.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/plugins/io
+INFO:root:copying build/lib/lightning/pytorch/plugins/io/torch_plugin.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/plugins/io
+INFO:root:copying build/lib/lightning/pytorch/plugins/io/checkpoint_plugin.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/plugins/io
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/plugins/precision
+INFO:root:copying build/lib/lightning/pytorch/plugins/precision/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/plugins/precision
+INFO:root:copying build/lib/lightning/pytorch/plugins/precision/xla.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/plugins/precision
+INFO:root:copying build/lib/lightning/pytorch/plugins/precision/half.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/plugins/precision
+INFO:root:copying build/lib/lightning/pytorch/plugins/precision/double.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/plugins/precision
+INFO:root:copying build/lib/lightning/pytorch/plugins/precision/deepspeed.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/plugins/precision
+INFO:root:copying build/lib/lightning/pytorch/plugins/precision/fsdp.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/plugins/precision
+INFO:root:copying build/lib/lightning/pytorch/plugins/precision/transformer_engine.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/plugins/precision
+INFO:root:copying build/lib/lightning/pytorch/plugins/precision/precision.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/plugins/precision
+INFO:root:copying build/lib/lightning/pytorch/plugins/precision/amp.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/plugins/precision
+INFO:root:copying build/lib/lightning/pytorch/plugins/precision/bitsandbytes.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/plugins/precision
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/argparse.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/data.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/exceptions.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/grads.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/imports.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/utilities/testing
+INFO:root:copying build/lib/lightning/pytorch/utilities/testing/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities/testing
+INFO:root:copying build/lib/lightning/pytorch/utilities/testing/_runif.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities/testing
+INFO:root:copying build/lib/lightning/pytorch/utilities/upgrade_checkpoint.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/compile.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/utilities/migration
+INFO:root:copying build/lib/lightning/pytorch/utilities/migration/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities/migration
+INFO:root:copying build/lib/lightning/pytorch/utilities/migration/utils.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities/migration
+INFO:root:copying build/lib/lightning/pytorch/utilities/migration/migration.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities/migration
+INFO:root:copying build/lib/lightning/pytorch/utilities/rank_zero.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/enums.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/utilities/model_summary
+INFO:root:copying build/lib/lightning/pytorch/utilities/model_summary/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities/model_summary
+INFO:root:copying build/lib/lightning/pytorch/utilities/model_summary/model_summary.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities/model_summary
+INFO:root:copying build/lib/lightning/pytorch/utilities/model_summary/model_summary_deepspeed.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities/model_summary
+INFO:root:copying build/lib/lightning/pytorch/utilities/parameter_tying.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/combined_loader.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/deepspeed.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/parsing.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/signature_utils.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/model_registry.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/types.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/memory.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/consolidate_checkpoint.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/warnings.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/seed.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/_pytree.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:copying build/lib/lightning/pytorch/utilities/model_helpers.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/utilities
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/on_exception_checkpoint.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/rich_model_summary.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/device_stats_monitor.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/callback.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/timer.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/throughput_monitor.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/model_summary.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/weight_averaging.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/callbacks/progress
+INFO:root:copying build/lib/lightning/pytorch/callbacks/progress/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks/progress
+INFO:root:copying build/lib/lightning/pytorch/callbacks/progress/tqdm_progress.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks/progress
+INFO:root:copying build/lib/lightning/pytorch/callbacks/progress/progress_bar.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks/progress
+INFO:root:copying build/lib/lightning/pytorch/callbacks/progress/rich_progress.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks/progress
+INFO:root:copying build/lib/lightning/pytorch/callbacks/model_checkpoint.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/lr_finder.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/stochastic_weight_avg.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/prediction_writer.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/finetuning.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/batch_size_finder.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/early_stopping.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/lambda_function.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/lr_monitor.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/spike.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/pruning.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/checkpoint.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/callbacks/gradient_accumulation_scheduler.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/callbacks
+INFO:root:copying build/lib/lightning/pytorch/cli.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch
+INFO:root:copying build/lib/lightning/pytorch/CHANGELOG.md -> build/bdist.linux-x86_64/wheel/./lightning/pytorch
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/accelerators
+INFO:root:copying build/lib/lightning/pytorch/accelerators/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/accelerators
+INFO:root:copying build/lib/lightning/pytorch/accelerators/xla.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/accelerators
+INFO:root:copying build/lib/lightning/pytorch/accelerators/mps.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/accelerators
+INFO:root:copying build/lib/lightning/pytorch/accelerators/cuda.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/accelerators
+INFO:root:copying build/lib/lightning/pytorch/accelerators/cpu.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/accelerators
+INFO:root:copying build/lib/lightning/pytorch/accelerators/accelerator.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/accelerators
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/serve
+INFO:root:copying build/lib/lightning/pytorch/serve/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/serve
+INFO:root:copying build/lib/lightning/pytorch/serve/servable_module.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/serve
+INFO:root:copying build/lib/lightning/pytorch/serve/servable_module_validator.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/serve
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/pytorch/loggers
+INFO:root:copying build/lib/lightning/pytorch/loggers/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loggers
+INFO:root:copying build/lib/lightning/pytorch/loggers/wandb.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loggers
+INFO:root:copying build/lib/lightning/pytorch/loggers/csv_logs.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loggers
+INFO:root:copying build/lib/lightning/pytorch/loggers/tensorboard.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loggers
+INFO:root:copying build/lib/lightning/pytorch/loggers/logger.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loggers
+INFO:root:copying build/lib/lightning/pytorch/loggers/litlogger.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loggers
+INFO:root:copying build/lib/lightning/pytorch/loggers/mlflow.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loggers
+INFO:root:copying build/lib/lightning/pytorch/loggers/comet.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loggers
+INFO:root:copying build/lib/lightning/pytorch/loggers/utilities.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loggers
+INFO:root:copying build/lib/lightning/pytorch/loggers/neptune.py -> build/bdist.linux-x86_64/wheel/./lightning/pytorch/loggers
+INFO:root:copying build/lib/lightning/__about__.py -> build/bdist.linux-x86_64/wheel/./lightning
+INFO:root:copying build/lib/lightning/py.typed -> build/bdist.linux-x86_64/wheel/./lightning
+INFO:root:copying build/lib/lightning/__setup__.py -> build/bdist.linux-x86_64/wheel/./lightning
+INFO:root:copying build/lib/lightning/version.info -> build/bdist.linux-x86_64/wheel/./lightning
+INFO:root:copying build/lib/lightning/0ba9566d3c96f61f0dc24b1199323e0beaeb98055af03c9e -> build/bdist.linux-x86_64/wheel/./lightning
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/fabric
+INFO:root:copying build/lib/lightning/fabric/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric
+INFO:root:copying build/lib/lightning/fabric/wrappers.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/fabric/strategies
+INFO:root:copying build/lib/lightning/fabric/strategies/dp.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/strategies
+INFO:root:copying build/lib/lightning/fabric/strategies/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/strategies
+INFO:root:copying build/lib/lightning/fabric/strategies/strategy.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/strategies
+INFO:root:copying build/lib/lightning/fabric/strategies/xla.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/strategies
+INFO:root:copying build/lib/lightning/fabric/strategies/registry.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/strategies
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/fabric/strategies/launchers
+INFO:root:copying build/lib/lightning/fabric/strategies/launchers/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/strategies/launchers
+INFO:root:copying build/lib/lightning/fabric/strategies/launchers/xla.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/strategies/launchers
+INFO:root:copying build/lib/lightning/fabric/strategies/launchers/multiprocessing.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/strategies/launchers
+INFO:root:copying build/lib/lightning/fabric/strategies/launchers/launcher.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/strategies/launchers
+INFO:root:copying build/lib/lightning/fabric/strategies/launchers/subprocess_script.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/strategies/launchers
+INFO:root:copying build/lib/lightning/fabric/strategies/deepspeed.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/strategies
+INFO:root:copying build/lib/lightning/fabric/strategies/single_device.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/strategies
+INFO:root:copying build/lib/lightning/fabric/strategies/fsdp.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/strategies
+INFO:root:copying build/lib/lightning/fabric/strategies/xla_fsdp.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/strategies
+INFO:root:copying build/lib/lightning/fabric/strategies/ddp.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/strategies
+INFO:root:copying build/lib/lightning/fabric/strategies/model_parallel.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/strategies
+INFO:root:copying build/lib/lightning/fabric/strategies/parallel.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/strategies
+INFO:root:copying build/lib/lightning/fabric/strategies/single_xla.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/strategies
+INFO:root:copying build/lib/lightning/fabric/connector.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/fabric/_graveyard
+INFO:root:copying build/lib/lightning/fabric/_graveyard/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/_graveyard
+INFO:root:copying build/lib/lightning/fabric/_graveyard/tpu.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/_graveyard
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/fabric/plugins
+INFO:root:copying build/lib/lightning/fabric/plugins/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/fabric/plugins/environments
+INFO:root:copying build/lib/lightning/fabric/plugins/environments/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/environments
+INFO:root:copying build/lib/lightning/fabric/plugins/environments/xla.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/environments
+INFO:root:copying build/lib/lightning/fabric/plugins/environments/cluster_environment.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/environments
+INFO:root:copying build/lib/lightning/fabric/plugins/environments/slurm.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/environments
+INFO:root:copying build/lib/lightning/fabric/plugins/environments/kubeflow.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/environments
+INFO:root:copying build/lib/lightning/fabric/plugins/environments/torchelastic.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/environments
+INFO:root:copying build/lib/lightning/fabric/plugins/environments/lsf.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/environments
+INFO:root:copying build/lib/lightning/fabric/plugins/environments/mpi.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/environments
+INFO:root:copying build/lib/lightning/fabric/plugins/environments/lightning.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/environments
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/fabric/plugins/io
+INFO:root:copying build/lib/lightning/fabric/plugins/io/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/io
+INFO:root:copying build/lib/lightning/fabric/plugins/io/xla.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/io
+INFO:root:copying build/lib/lightning/fabric/plugins/io/checkpoint_io.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/io
+INFO:root:copying build/lib/lightning/fabric/plugins/io/torch_io.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/io
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/fabric/plugins/collectives
+INFO:root:copying build/lib/lightning/fabric/plugins/collectives/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/collectives
+INFO:root:copying build/lib/lightning/fabric/plugins/collectives/torch_collective.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/collectives
+INFO:root:copying build/lib/lightning/fabric/plugins/collectives/single_device.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/collectives
+INFO:root:copying build/lib/lightning/fabric/plugins/collectives/collective.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/collectives
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/fabric/plugins/precision
+INFO:root:copying build/lib/lightning/fabric/plugins/precision/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/precision
+INFO:root:copying build/lib/lightning/fabric/plugins/precision/xla.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/precision
+INFO:root:copying build/lib/lightning/fabric/plugins/precision/utils.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/precision
+INFO:root:copying build/lib/lightning/fabric/plugins/precision/half.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/precision
+INFO:root:copying build/lib/lightning/fabric/plugins/precision/double.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/precision
+INFO:root:copying build/lib/lightning/fabric/plugins/precision/deepspeed.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/precision
+INFO:root:copying build/lib/lightning/fabric/plugins/precision/fsdp.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/precision
+INFO:root:copying build/lib/lightning/fabric/plugins/precision/transformer_engine.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/precision
+INFO:root:copying build/lib/lightning/fabric/plugins/precision/precision.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/precision
+INFO:root:copying build/lib/lightning/fabric/plugins/precision/amp.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/precision
+INFO:root:copying build/lib/lightning/fabric/plugins/precision/bitsandbytes.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/plugins/precision
+INFO:root:copying build/lib/lightning/fabric/fabric.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/optimizer.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/load.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/data.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/exceptions.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/device_dtype_mixin.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/registry.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/logger.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/imports.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/fabric/utilities/testing
+INFO:root:copying build/lib/lightning/fabric/utilities/testing/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities/testing
+INFO:root:copying build/lib/lightning/fabric/utilities/testing/_runif.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities/testing
+INFO:root:copying build/lib/lightning/fabric/utilities/rank_zero.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/enums.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/throughput.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/distributed.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/device_parser.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/cloud_io.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/types.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/init.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/spike.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/apply_func.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/consolidate_checkpoint.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/warnings.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/utilities/seed.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/utilities
+INFO:root:copying build/lib/lightning/fabric/cli.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric
+INFO:root:copying build/lib/lightning/fabric/CHANGELOG.md -> build/bdist.linux-x86_64/wheel/./lightning/fabric
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/fabric/accelerators
+INFO:root:copying build/lib/lightning/fabric/accelerators/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/accelerators
+INFO:root:copying build/lib/lightning/fabric/accelerators/xla.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/accelerators
+INFO:root:copying build/lib/lightning/fabric/accelerators/mps.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/accelerators
+INFO:root:copying build/lib/lightning/fabric/accelerators/registry.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/accelerators
+INFO:root:copying build/lib/lightning/fabric/accelerators/cuda.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/accelerators
+INFO:root:copying build/lib/lightning/fabric/accelerators/cpu.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/accelerators
+INFO:root:copying build/lib/lightning/fabric/accelerators/accelerator.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/accelerators
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning/fabric/loggers
+INFO:root:copying build/lib/lightning/fabric/loggers/__init__.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/loggers
+INFO:root:copying build/lib/lightning/fabric/loggers/csv_logs.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/loggers
+INFO:root:copying build/lib/lightning/fabric/loggers/tensorboard.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/loggers
+INFO:root:copying build/lib/lightning/fabric/loggers/logger.py -> build/bdist.linux-x86_64/wheel/./lightning/fabric/loggers
+INFO:root:copying build/lib/lightning/__version__.py -> build/bdist.linux-x86_64/wheel/./lightning
+WARNING:root:warning: install_lib: byte-compiling is disabled, skipping.
+
+INFO:root:running install_egg_info
+INFO:root:Copying src/lightning.egg-info to build/bdist.linux-x86_64/wheel/./lightning-2.7.0.dev0-py3.11.egg-info
+INFO:root:running install_scripts
+INFO:root:creating build/bdist.linux-x86_64/wheel/lightning-2.7.0.dev0.dist-info/WHEEL
+INFO:wheel:creating '/out/wheels/.tmp-f50up4sn/lightning-2.7.0.dev0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+INFO:wheel:adding 'lightning/0ba9566d3c96f61f0dc24b1199323e0beaeb98055af03c9e'
+INFO:wheel:adding 'lightning/__about__.py'
+INFO:wheel:adding 'lightning/__init__.py'
+INFO:wheel:adding 'lightning/__setup__.py'
+INFO:wheel:adding 'lightning/__version__.py'
+INFO:wheel:adding 'lightning/py.typed'
+INFO:wheel:adding 'lightning/version.info'
+INFO:wheel:adding 'lightning/data/__init__.py'
+INFO:wheel:adding 'lightning/fabric/CHANGELOG.md'
+INFO:wheel:adding 'lightning/fabric/__init__.py'
+INFO:wheel:adding 'lightning/fabric/cli.py'
+INFO:wheel:adding 'lightning/fabric/connector.py'
+INFO:wheel:adding 'lightning/fabric/fabric.py'
+INFO:wheel:adding 'lightning/fabric/wrappers.py'
+INFO:wheel:adding 'lightning/fabric/_graveyard/__init__.py'
+INFO:wheel:adding 'lightning/fabric/_graveyard/tpu.py'
+INFO:wheel:adding 'lightning/fabric/accelerators/__init__.py'
+INFO:wheel:adding 'lightning/fabric/accelerators/accelerator.py'
+INFO:wheel:adding 'lightning/fabric/accelerators/cpu.py'
+INFO:wheel:adding 'lightning/fabric/accelerators/cuda.py'
+INFO:wheel:adding 'lightning/fabric/accelerators/mps.py'
+INFO:wheel:adding 'lightning/fabric/accelerators/registry.py'
+INFO:wheel:adding 'lightning/fabric/accelerators/xla.py'
+INFO:wheel:adding 'lightning/fabric/loggers/__init__.py'
+INFO:wheel:adding 'lightning/fabric/loggers/csv_logs.py'
+INFO:wheel:adding 'lightning/fabric/loggers/logger.py'
+INFO:wheel:adding 'lightning/fabric/loggers/tensorboard.py'
+INFO:wheel:adding 'lightning/fabric/plugins/__init__.py'
+INFO:wheel:adding 'lightning/fabric/plugins/collectives/__init__.py'
+INFO:wheel:adding 'lightning/fabric/plugins/collectives/collective.py'
+INFO:wheel:adding 'lightning/fabric/plugins/collectives/single_device.py'
+INFO:wheel:adding 'lightning/fabric/plugins/collectives/torch_collective.py'
+INFO:wheel:adding 'lightning/fabric/plugins/environments/__init__.py'
+INFO:wheel:adding 'lightning/fabric/plugins/environments/cluster_environment.py'
+INFO:wheel:adding 'lightning/fabric/plugins/environments/kubeflow.py'
+INFO:wheel:adding 'lightning/fabric/plugins/environments/lightning.py'
+INFO:wheel:adding 'lightning/fabric/plugins/environments/lsf.py'
+INFO:wheel:adding 'lightning/fabric/plugins/environments/mpi.py'
+INFO:wheel:adding 'lightning/fabric/plugins/environments/slurm.py'
+INFO:wheel:adding 'lightning/fabric/plugins/environments/torchelastic.py'
+INFO:wheel:adding 'lightning/fabric/plugins/environments/xla.py'
+INFO:wheel:adding 'lightning/fabric/plugins/io/__init__.py'
+INFO:wheel:adding 'lightning/fabric/plugins/io/checkpoint_io.py'
+INFO:wheel:adding 'lightning/fabric/plugins/io/torch_io.py'
+INFO:wheel:adding 'lightning/fabric/plugins/io/xla.py'
+INFO:wheel:adding 'lightning/fabric/plugins/precision/__init__.py'
+INFO:wheel:adding 'lightning/fabric/plugins/precision/amp.py'
+INFO:wheel:adding 'lightning/fabric/plugins/precision/bitsandbytes.py'
+INFO:wheel:adding 'lightning/fabric/plugins/precision/deepspeed.py'
+INFO:wheel:adding 'lightning/fabric/plugins/precision/double.py'
+INFO:wheel:adding 'lightning/fabric/plugins/precision/fsdp.py'
+INFO:wheel:adding 'lightning/fabric/plugins/precision/half.py'
+INFO:wheel:adding 'lightning/fabric/plugins/precision/precision.py'
+INFO:wheel:adding 'lightning/fabric/plugins/precision/transformer_engine.py'
+INFO:wheel:adding 'lightning/fabric/plugins/precision/utils.py'
+INFO:wheel:adding 'lightning/fabric/plugins/precision/xla.py'
+INFO:wheel:adding 'lightning/fabric/strategies/__init__.py'
+INFO:wheel:adding 'lightning/fabric/strategies/ddp.py'
+INFO:wheel:adding 'lightning/fabric/strategies/deepspeed.py'
+INFO:wheel:adding 'lightning/fabric/strategies/dp.py'
+INFO:wheel:adding 'lightning/fabric/strategies/fsdp.py'
+INFO:wheel:adding 'lightning/fabric/strategies/model_parallel.py'
+INFO:wheel:adding 'lightning/fabric/strategies/parallel.py'
+INFO:wheel:adding 'lightning/fabric/strategies/registry.py'
+INFO:wheel:adding 'lightning/fabric/strategies/single_device.py'
+INFO:wheel:adding 'lightning/fabric/strategies/single_xla.py'
+INFO:wheel:adding 'lightning/fabric/strategies/strategy.py'
+INFO:wheel:adding 'lightning/fabric/strategies/xla.py'
+INFO:wheel:adding 'lightning/fabric/strategies/xla_fsdp.py'
+INFO:wheel:adding 'lightning/fabric/strategies/launchers/__init__.py'
+INFO:wheel:adding 'lightning/fabric/strategies/launchers/launcher.py'
+INFO:wheel:adding 'lightning/fabric/strategies/launchers/multiprocessing.py'
+INFO:wheel:adding 'lightning/fabric/strategies/launchers/subprocess_script.py'
+INFO:wheel:adding 'lightning/fabric/strategies/launchers/xla.py'
+INFO:wheel:adding 'lightning/fabric/utilities/__init__.py'
+INFO:wheel:adding 'lightning/fabric/utilities/apply_func.py'
+INFO:wheel:adding 'lightning/fabric/utilities/cloud_io.py'
+INFO:wheel:adding 'lightning/fabric/utilities/consolidate_checkpoint.py'
+INFO:wheel:adding 'lightning/fabric/utilities/data.py'
+INFO:wheel:adding 'lightning/fabric/utilities/device_dtype_mixin.py'
+INFO:wheel:adding 'lightning/fabric/utilities/device_parser.py'
+INFO:wheel:adding 'lightning/fabric/utilities/distributed.py'
+INFO:wheel:adding 'lightning/fabric/utilities/enums.py'
+INFO:wheel:adding 'lightning/fabric/utilities/exceptions.py'
+INFO:wheel:adding 'lightning/fabric/utilities/imports.py'
+INFO:wheel:adding 'lightning/fabric/utilities/init.py'
+INFO:wheel:adding 'lightning/fabric/utilities/load.py'
+INFO:wheel:adding 'lightning/fabric/utilities/logger.py'
+INFO:wheel:adding 'lightning/fabric/utilities/optimizer.py'
+INFO:wheel:adding 'lightning/fabric/utilities/rank_zero.py'
+INFO:wheel:adding 'lightning/fabric/utilities/registry.py'
+INFO:wheel:adding 'lightning/fabric/utilities/seed.py'
+INFO:wheel:adding 'lightning/fabric/utilities/spike.py'
+INFO:wheel:adding 'lightning/fabric/utilities/throughput.py'
+INFO:wheel:adding 'lightning/fabric/utilities/types.py'
+INFO:wheel:adding 'lightning/fabric/utilities/warnings.py'
+INFO:wheel:adding 'lightning/fabric/utilities/testing/__init__.py'
+INFO:wheel:adding 'lightning/fabric/utilities/testing/_runif.py'
+INFO:wheel:adding 'lightning/pytorch/CHANGELOG.md'
+INFO:wheel:adding 'lightning/pytorch/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/cli.py'
+INFO:wheel:adding 'lightning/pytorch/_graveyard/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/_graveyard/_torchmetrics.py'
+INFO:wheel:adding 'lightning/pytorch/_graveyard/hpu.py'
+INFO:wheel:adding 'lightning/pytorch/_graveyard/precision.py'
+INFO:wheel:adding 'lightning/pytorch/_graveyard/tpu.py'
+INFO:wheel:adding 'lightning/pytorch/accelerators/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/accelerators/accelerator.py'
+INFO:wheel:adding 'lightning/pytorch/accelerators/cpu.py'
+INFO:wheel:adding 'lightning/pytorch/accelerators/cuda.py'
+INFO:wheel:adding 'lightning/pytorch/accelerators/mps.py'
+INFO:wheel:adding 'lightning/pytorch/accelerators/xla.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/batch_size_finder.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/callback.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/checkpoint.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/device_stats_monitor.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/early_stopping.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/finetuning.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/gradient_accumulation_scheduler.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/lambda_function.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/lr_finder.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/lr_monitor.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/model_checkpoint.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/model_summary.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/on_exception_checkpoint.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/prediction_writer.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/pruning.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/rich_model_summary.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/spike.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/stochastic_weight_avg.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/throughput_monitor.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/timer.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/weight_averaging.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/progress/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/progress/progress_bar.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/progress/rich_progress.py'
+INFO:wheel:adding 'lightning/pytorch/callbacks/progress/tqdm_progress.py'
+INFO:wheel:adding 'lightning/pytorch/core/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/core/datamodule.py'
+INFO:wheel:adding 'lightning/pytorch/core/hooks.py'
+INFO:wheel:adding 'lightning/pytorch/core/module.py'
+INFO:wheel:adding 'lightning/pytorch/core/optimizer.py'
+INFO:wheel:adding 'lightning/pytorch/core/saving.py'
+INFO:wheel:adding 'lightning/pytorch/core/mixins/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/core/mixins/hparams_mixin.py'
+INFO:wheel:adding 'lightning/pytorch/demos/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/demos/boring_classes.py'
+INFO:wheel:adding 'lightning/pytorch/demos/lstm.py'
+INFO:wheel:adding 'lightning/pytorch/demos/mnist_datamodule.py'
+INFO:wheel:adding 'lightning/pytorch/demos/transformer.py'
+INFO:wheel:adding 'lightning/pytorch/loggers/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/loggers/comet.py'
+INFO:wheel:adding 'lightning/pytorch/loggers/csv_logs.py'
+INFO:wheel:adding 'lightning/pytorch/loggers/litlogger.py'
+INFO:wheel:adding 'lightning/pytorch/loggers/logger.py'
+INFO:wheel:adding 'lightning/pytorch/loggers/mlflow.py'
+INFO:wheel:adding 'lightning/pytorch/loggers/neptune.py'
+INFO:wheel:adding 'lightning/pytorch/loggers/tensorboard.py'
+INFO:wheel:adding 'lightning/pytorch/loggers/utilities.py'
+INFO:wheel:adding 'lightning/pytorch/loggers/wandb.py'
+INFO:wheel:adding 'lightning/pytorch/loops/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/loops/evaluation_loop.py'
+INFO:wheel:adding 'lightning/pytorch/loops/fetchers.py'
+INFO:wheel:adding 'lightning/pytorch/loops/fit_loop.py'
+INFO:wheel:adding 'lightning/pytorch/loops/loop.py'
+INFO:wheel:adding 'lightning/pytorch/loops/prediction_loop.py'
+INFO:wheel:adding 'lightning/pytorch/loops/progress.py'
+INFO:wheel:adding 'lightning/pytorch/loops/training_epoch_loop.py'
+INFO:wheel:adding 'lightning/pytorch/loops/utilities.py'
+INFO:wheel:adding 'lightning/pytorch/loops/optimization/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/loops/optimization/automatic.py'
+INFO:wheel:adding 'lightning/pytorch/loops/optimization/closure.py'
+INFO:wheel:adding 'lightning/pytorch/loops/optimization/manual.py'
+INFO:wheel:adding 'lightning/pytorch/overrides/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/overrides/distributed.py'
+INFO:wheel:adding 'lightning/pytorch/plugins/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/plugins/layer_sync.py'
+INFO:wheel:adding 'lightning/pytorch/plugins/environments/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/plugins/io/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/plugins/io/async_plugin.py'
+INFO:wheel:adding 'lightning/pytorch/plugins/io/checkpoint_plugin.py'
+INFO:wheel:adding 'lightning/pytorch/plugins/io/torch_plugin.py'
+INFO:wheel:adding 'lightning/pytorch/plugins/io/wrapper.py'
+INFO:wheel:adding 'lightning/pytorch/plugins/io/xla_plugin.py'
+INFO:wheel:adding 'lightning/pytorch/plugins/precision/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/plugins/precision/amp.py'
+INFO:wheel:adding 'lightning/pytorch/plugins/precision/bitsandbytes.py'
+INFO:wheel:adding 'lightning/pytorch/plugins/precision/deepspeed.py'
+INFO:wheel:adding 'lightning/pytorch/plugins/precision/double.py'
+INFO:wheel:adding 'lightning/pytorch/plugins/precision/fsdp.py'
+INFO:wheel:adding 'lightning/pytorch/plugins/precision/half.py'
+INFO:wheel:adding 'lightning/pytorch/plugins/precision/precision.py'
+INFO:wheel:adding 'lightning/pytorch/plugins/precision/transformer_engine.py'
+INFO:wheel:adding 'lightning/pytorch/plugins/precision/xla.py'
+INFO:wheel:adding 'lightning/pytorch/profilers/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/profilers/advanced.py'
+INFO:wheel:adding 'lightning/pytorch/profilers/base.py'
+INFO:wheel:adding 'lightning/pytorch/profilers/profiler.py'
+INFO:wheel:adding 'lightning/pytorch/profilers/pytorch.py'
+INFO:wheel:adding 'lightning/pytorch/profilers/simple.py'
+INFO:wheel:adding 'lightning/pytorch/profilers/xla.py'
+INFO:wheel:adding 'lightning/pytorch/serve/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/serve/servable_module.py'
+INFO:wheel:adding 'lightning/pytorch/serve/servable_module_validator.py'
+INFO:wheel:adding 'lightning/pytorch/strategies/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/strategies/ddp.py'
+INFO:wheel:adding 'lightning/pytorch/strategies/deepspeed.py'
+INFO:wheel:adding 'lightning/pytorch/strategies/fsdp.py'
+INFO:wheel:adding 'lightning/pytorch/strategies/model_parallel.py'
+INFO:wheel:adding 'lightning/pytorch/strategies/parallel.py'
+INFO:wheel:adding 'lightning/pytorch/strategies/single_device.py'
+INFO:wheel:adding 'lightning/pytorch/strategies/single_xla.py'
+INFO:wheel:adding 'lightning/pytorch/strategies/strategy.py'
+INFO:wheel:adding 'lightning/pytorch/strategies/xla.py'
+INFO:wheel:adding 'lightning/pytorch/strategies/launchers/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/strategies/launchers/launcher.py'
+INFO:wheel:adding 'lightning/pytorch/strategies/launchers/multiprocessing.py'
+INFO:wheel:adding 'lightning/pytorch/strategies/launchers/subprocess_script.py'
+INFO:wheel:adding 'lightning/pytorch/strategies/launchers/xla.py'
+INFO:wheel:adding 'lightning/pytorch/trainer/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/trainer/call.py'
+INFO:wheel:adding 'lightning/pytorch/trainer/configuration_validator.py'
+INFO:wheel:adding 'lightning/pytorch/trainer/setup.py'
+INFO:wheel:adding 'lightning/pytorch/trainer/states.py'
+INFO:wheel:adding 'lightning/pytorch/trainer/trainer.py'
+INFO:wheel:adding 'lightning/pytorch/trainer/connectors/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/trainer/connectors/accelerator_connector.py'
+INFO:wheel:adding 'lightning/pytorch/trainer/connectors/callback_connector.py'
+INFO:wheel:adding 'lightning/pytorch/trainer/connectors/checkpoint_connector.py'
+INFO:wheel:adding 'lightning/pytorch/trainer/connectors/data_connector.py'
+INFO:wheel:adding 'lightning/pytorch/trainer/connectors/signal_connector.py'
+INFO:wheel:adding 'lightning/pytorch/trainer/connectors/logger_connector/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/trainer/connectors/logger_connector/fx_validator.py'
+INFO:wheel:adding 'lightning/pytorch/trainer/connectors/logger_connector/logger_connector.py'
+INFO:wheel:adding 'lightning/pytorch/trainer/connectors/logger_connector/result.py'
+INFO:wheel:adding 'lightning/pytorch/tuner/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/tuner/batch_size_scaling.py'
+INFO:wheel:adding 'lightning/pytorch/tuner/lr_finder.py'
+INFO:wheel:adding 'lightning/pytorch/tuner/tuning.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/_pytree.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/argparse.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/combined_loader.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/compile.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/consolidate_checkpoint.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/data.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/deepspeed.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/enums.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/exceptions.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/grads.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/imports.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/memory.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/model_helpers.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/model_registry.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/parameter_tying.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/parsing.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/rank_zero.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/seed.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/signature_utils.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/types.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/upgrade_checkpoint.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/warnings.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/migration/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/migration/migration.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/migration/utils.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/model_summary/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/model_summary/model_summary.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/model_summary/model_summary_deepspeed.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/testing/__init__.py'
+INFO:wheel:adding 'lightning/pytorch/utilities/testing/_runif.py'
+INFO:wheel:adding 'lightning-2.7.0.dev0.dist-info/licenses/LICENSE'
+INFO:wheel:adding 'lightning-2.7.0.dev0.dist-info/METADATA'
+INFO:wheel:adding 'lightning-2.7.0.dev0.dist-info/WHEEL'
+INFO:wheel:adding 'lightning-2.7.0.dev0.dist-info/entry_points.txt'
+INFO:wheel:adding 'lightning-2.7.0.dev0.dist-info/top_level.txt'
+INFO:wheel:adding 'lightning-2.7.0.dev0.dist-info/RECORD'
+INFO:root:removing build/bdist.linux-x86_64/wheel
+Installing as the main package: True
+Finished setup configuration.
+Successfully built /out/wheels/lightning-2.7.0.dev0-py3-none-any.whl

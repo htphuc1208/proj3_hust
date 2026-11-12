@@ -1,0 +1,9 @@
+Using Python 3.11.16 environment at: /out/target
+Resolved 5 packages in 16ms
+Prepared 3 packages in 912ms
+Installed 5 packages in 180ms
+ + certifi==2026.10.23
+ + charset-normalizer==3.5.2
+ + idna==3.20
+ + requests==2.34.2 (from file:///out/wheels/requests-2.34.2-py3-none-any.whl)
+ + urllib3==2.8.0

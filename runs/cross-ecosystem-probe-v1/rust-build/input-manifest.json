@@ -1,0 +1,8 @@
+{
+  "source": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/rust-build",
+  "files": {
+    "Cargo.toml": "bbb070f0887f69170629a0cd4a81e9ac0c3ebae731ebf5f55995941bfddc467b",
+    "Cargo.lock": "7b66e28228117ca726b3e5f42a304d1b19a51d3c597783480d74803420f07639",
+    "src/main.rs": "c7d9937897415565fca35691f8b212d9c8ca2f4691933a37fcc969532ce5734e"
+  }
+}

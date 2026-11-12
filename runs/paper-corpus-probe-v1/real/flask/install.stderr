@@ -1,0 +1,11 @@
+Using Python 3.11.16 environment at: /out/target
+Resolved 7 packages in 7ms
+Prepared 4 packages in 459ms
+Installed 7 packages in 168ms
+ + blinker==1.9.0
+ + click==8.5.1
+ + flask==3.2.0.dev0 (from file:///out/wheels/flask-3.2.0.dev0-py3-none-any.whl)
+ + itsdangerous==2.2.0
+ + jinja2==3.1.6
+ + markupsafe==3.0.4
+ + werkzeug==3.1.9

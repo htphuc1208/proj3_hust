@@ -1,0 +1,74 @@
+[project]
+name = "rich"
+version = "15.1.0"
+description = "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal"
+authors = [{ name = "Will McGugan", email = "willmcgugan@gmail.com" }]
+license = "MIT"
+license-files = ["LICENSE"]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Framework :: IPython",
+    "Intended Audience :: Developers",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.15",
+    "Typing :: Typed",
+]
+dependencies = ["markdown-it-py>=2.2.0", "pygments>=2.13.0,<3.0.0"]
+
+[project.optional-dependencies]
+jupyter = ["ipywidgets>=7.5.1,<9"]
+
+[project.urls]
+Homepage = "https://github.com/Textualize/rich"
+Documentation = "https://rich.readthedocs.io/en/latest/"
+Repository = "https://github.com/Textualize/rich"
+Changelog = "https://github.com/Textualize/rich/blob/master/CHANGELOG.md"
+
+[dependency-groups]
+dev = [
+    "attrs>=21.4.0",
+    "black>=26",
+    "mypy>=1.11",
+    "pre-commit>=2.17.0",
+    "pytest>=7.0.0",
+    "pytest-cov>=3.0.0",
+    "typing-extensions>=4.0.0,<5.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.0,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-root = ""
+source-exclude = ["**/.DS_Store", "**/*.ipynb"]
+wheel-exclude = ["**/.DS_Store", "**/*.ipynb"]
+
+
+[tool.mypy]
+files = ["rich"]
+show_error_codes = true
+strict = true
+enable_error_code = ["ignore-without-code", "redundant-expr", "truthy-bool"]
+
+
+[[tool.mypy.overrides]]
+module = ["pygments.*", "IPython.*", "ipywidgets.*"]
+ignore_missing_imports = true
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.isort]
+profile = "black"

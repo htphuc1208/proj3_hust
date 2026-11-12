@@ -1,0 +1,131 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:0880ffe1-49cf-4e36-9778-52e35b332914",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T15:33:59+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "d072cb79-0b73-49ba-a10d-8effbfd66c5d",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/go-binary",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "94c25a50-a63f-4149-8d54-9dae229e4b93",
+      "type": "application",
+      "name": "app",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "gobinary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/example.org/sbom-build-probe",
+      "type": "library",
+      "name": "example.org/sbom-build-probe",
+      "purl": "pkg:golang/example.org/sbom-build-probe",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "example.org/sbom-build-probe"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "gobinary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/text@v0.14.0",
+      "type": "library",
+      "name": "golang.org/x/text",
+      "version": "v0.14.0",
+      "purl": "pkg:golang/golang.org/x/text@v0.14.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "golang.org/x/text@v0.14.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "gobinary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/stdlib@v1.27.4",
+      "type": "library",
+      "name": "stdlib",
+      "version": "v1.27.4",
+      "purl": "pkg:golang/stdlib@v1.27.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "stdlib@v1.27.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "gobinary"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "94c25a50-a63f-4149-8d54-9dae229e4b93",
+      "dependsOn": [
+        "pkg:golang/example.org/sbom-build-probe"
+      ]
+    },
+    {
+      "ref": "d072cb79-0b73-49ba-a10d-8effbfd66c5d",
+      "dependsOn": [
+        "94c25a50-a63f-4149-8d54-9dae229e4b93"
+      ]
+    },
+    {
+      "ref": "pkg:golang/example.org/sbom-build-probe",
+      "dependsOn": [
+        "pkg:golang/golang.org/x/text@v0.14.0",
+        "pkg:golang/stdlib@v1.27.4"
+      ]
+    },
+    {
+      "ref": "pkg:golang/golang.org/x/text@v0.14.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/stdlib@v1.27.4",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

@@ -1,0 +1,4 @@
+Warning: --sbom has been deprecated in favor of -L
+Starting filesystem walk for root: /
+Scanned /home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/rust-build/cyclonedx-target.cdx.json file and found 4 packages
+End status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 648.448µs elapsed, 648.512µs wall time

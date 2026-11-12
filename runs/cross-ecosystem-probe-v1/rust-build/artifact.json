@@ -1,0 +1,7 @@
+{
+  "plain_sha256": "960d7fd3449c6fa9db4cb44e7923e3ce39ec840f7220b8c37072da9792d833f6",
+  "auditable_sha256": "1fc50bce7846c1e5b26907a268ae6a8970e7d607d0c1516c1b279d60d9f3572b",
+  "target": "x86_64-unknown-linux-gnu",
+  "feature_selection": "default",
+  "command": "cargo build --release"
+}

@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "source": {
+        "path": "/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/scans/java-jbomaudit/cdxgen.cdx.json",
+        "type": "sbom"
+      },
+      "packages": [
+        {
+          "package": {
+            "name": "tech.pantheon.triemap:triemap",
+            "version": "1.2.0",
+            "ecosystem": "Maven",
+            "purl": "pkg:maven/tech.pantheon.triemap/triemap@1.2.0?type=jar"
+          }
+        }
+      ]
+    }
+  ],
+  "experimental_config": {
+    "licenses": {
+      "summary": false,
+      "allowlist": null
+    }
+  }
+}

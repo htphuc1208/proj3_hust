@@ -1,0 +1,31 @@
+{
+  "inventory_sha256": "b3a7059a73cd9538ec01c2ed2356d4f09515d26d67b7fa19ba053506e16273e7",
+  "sbom_sha256": "bedc901d90befcbec745347b14909328bca3e57a332e7c530d82a135cb87cb6d",
+  "target_metadata": {
+    "lib/python3.11/site-packages/imbalanced_learn-0.14.1.dist-info/METADATA": "73bceae78d13bb145c59da1cfb7db98239bf4322fae736b2d315e7b7173e9332",
+    "lib/python3.11/site-packages/joblib-1.5.3.dist-info/METADATA": "cee9c60896ae4e7a965a840fbde50d111d2f8018f61201d1ed2e9fc3dd4883e6",
+    "lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3",
+    "lib/python3.11/site-packages/pip-24.0.dist-info/METADATA": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2",
+    "lib/python3.11/site-packages/scikit_learn-1.8.0.dist-info/METADATA": "95a8f42f4170fc940a71fedfed4fd9353723eb44126130a971a072fe5305d967",
+    "lib/python3.11/site-packages/scipy-1.16.3.dist-info/METADATA": "a54602d0aa61fb25ac030b1d7b0faf0c8cfec508290d4d824198d6b43647ec1b",
+    "lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA": "d3152caeb1486d143b30b1d41fffaaddb7ea95fdc9547ae1135ce697b1a420b5",
+    "lib/python3.11/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/METADATA": "3800d9b91dceea2065a6ed6279383362e97ac38b8e56b9343f404ee531860099",
+    "lib/python3.11/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/METADATA": "8215c54ead77d9dc5a108a25c6bdc72b5999aa6f62c9499a440359412afa5a51",
+    "lib/python3.11/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA": "6a7b90effee1e09d5b484cdf7232016a43e2d9cc9543bcbb8e494b1ec05e1f59",
+    "lib/python3.11/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/METADATA": "66030d634580651b3e53cc19895d9231f8d22aa06b327817c8332cfc20303308",
+    "lib/python3.11/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/METADATA": "20c51a96236c0395f53b1f4c5d458e6a0721e51e16c1bff733b7aba76f5d06d8",
+    "lib/python3.11/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/METADATA": "c43b60b897a3d2d37d8845c252fc44261d9aef171e21154111a9012d2afffed6",
+    "lib/python3.11/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/METADATA": "8b86946900d7fa38dd1102b9c1ebe17a0cb1f09c8b7e29f61f2bda4a4dc51eca",
+    "lib/python3.11/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/METADATA": "03359d9ba56231f0ce3e840c7cb5a7db380141218949ccaa78ddbd4dcb965d52",
+    "lib/python3.11/site-packages/setuptools/_vendor/more_itertools-10.3.0.dist-info/METADATA": "0453bdd0ef9f2cd89540ca63ee8212e73b73809514419dd3037d8fe471f737e0",
+    "lib/python3.11/site-packages/setuptools/_vendor/packaging-24.2.dist-info/METADATA": "a211fceacea4e6621f4316364d2d0b7127c00de3856b8062082f9bc5957ea4db",
+    "lib/python3.11/site-packages/setuptools/_vendor/platformdirs-4.2.2.dist-info/METADATA": "ce6b227b4d46d4cb57474c2022fe57a557933bb89daf4596bdf9b12ac296b869",
+    "lib/python3.11/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info/METADATA": "ccf0dc78a98fc0918b5ad67292b1e2c4bed65575a6246cd9d63c914f9942a0f2",
+    "lib/python3.11/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/METADATA": "cf675c1c0a744f08580855390de87cc77d676b312582e8d4cfdb5bb8fd298d21",
+    "lib/python3.11/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/METADATA": "05e51021af1c9d86eb8d6c7e37c4cece733d5065b91a6d8389c5690ed440f16d",
+    "lib/python3.11/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/METADATA": "98acfce07ee6ee3b31272cde21c4d53918936f434f315dfd2af3886211a09a30",
+    "lib/python3.11/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/METADATA": "508ae4fe43081c64b0b0a2828588b3a8cc3430c6693d1676662569400b0dfdb1",
+    "lib/python3.11/site-packages/sklearn_compat-0.1.5.dist-info/METADATA": "6c825792a96c07c5bf05e37685c852e5ca3f18001f0ce03790c29297cc68db84",
+    "lib/python3.11/site-packages/threadpoolctl-3.6.0.dist-info/METADATA": "a45df8d07ea1883d772183a501d7d526076aa70dfcfddb276a2cbdc04def5341"
+  }
+}

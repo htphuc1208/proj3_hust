@@ -1,0 +1,14 @@
+{
+  "command": [
+    "npm",
+    "sbom",
+    "--sbom-format=cyclonedx",
+    "--omit=dev",
+    "--omit=optional"
+  ],
+  "cwd": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/npm-alias",
+  "started_at": "2026-11-11T15:27:48.671693+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 0.2107210899994243
+}

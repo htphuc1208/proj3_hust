@@ -1,0 +1,8 @@
+{
+  "case": "rust-binary-syft",
+  "sbom": "scans/rust-binary/syft.cdx.json",
+  "sbom_sha256": "699012eff25c09bd04d4f393fadfd1ac1db88085923d722fd73cbc444c727995",
+  "exit_code": 128,
+  "status": "NO_PARSEABLE_RESULTS",
+  "has_parseable_json": false
+}

@@ -1,0 +1,4 @@
+Warning: --sbom has been deprecated in favor of -L
+Failed to parse SBOM "/home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/java-jbomaudit/author-aaa-cli-jar-0.15.2-cyclonedx.json": Invalid SBOM filename.
+If you believe this is a valid SBOM, make sure the filename follows format per your SBOMs specification.
+invalid SBOM filename: /home/phucht/project/sbom_recovery/runs/cross-ecosystem-probe-v1/java-jbomaudit/author-aaa-cli-jar-0.15.2-cyclonedx.json

@@ -1,0 +1,645 @@
+{
+  "distributions": [
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/jmespath-1.1.0.dist-info/METADATA",
+      "name": "jmespath",
+      "requirements": [],
+      "version": "1.1.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/email_validator-2.3.0.dist-info/METADATA",
+      "name": "email-validator",
+      "requirements": [
+        "dnspython>=2.0.0",
+        "idna>=2.0.0"
+      ],
+      "version": "2.3.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/dnspython-2.9.2.dist-info/METADATA",
+      "name": "dnspython",
+      "requirements": [
+        "black>=26.5 ; extra == 'dev'",
+        "coverage>=7.15 ; extra == 'dev'",
+        "hypercorn>=0.18.0 ; extra == 'dev'",
+        "pyright>=1.1.411 ; extra == 'dev'",
+        "pytest>=9.1 ; extra == 'dev'",
+        "pytest-cov>=7.1 ; extra == 'dev'",
+        "quart-trio>=0.12.0 ; extra == 'dev'",
+        "ruff>=0.16.0 ; extra == 'dev'",
+        "sphinx>=9.1.0 ; python_full_version >= '3.12' and extra == 'dev'",
+        "sphinx-rtd-theme>=3.1.0 ; python_full_version >= '3.12' and extra == 'dev'",
+        "trustme>=1.2.1 ; extra == 'dev'",
+        "ty>=0.0.85 ; extra == 'dev'",
+        "cryptography>=50 ; extra == 'dnssec'",
+        "httpcore2>=2.13 ; extra == 'doh'",
+        "httpx2>=2.13 ; extra == 'doh'",
+        "h2>=4.4 ; extra == 'doh'",
+        "aioquic>=1.3.0 ; extra == 'doq'",
+        "idna>=3.20 ; extra == 'idna'",
+        "trio>=0.34 ; extra == 'trio'",
+        "wmi>=1.5.1 ; sys_platform == 'win32' and extra == 'wmi'"
+      ],
+      "version": "2.9.2"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/requests-2.8.1.dist-info/METADATA",
+      "name": "requests",
+      "requirements": [
+        "ndg-httpsclient; extra == 'security'",
+        "pyOpenSSL; extra == 'security'",
+        "pyasn1; extra == 'security'"
+      ],
+      "version": "2.8.1"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/pydantic_core-2.50.4.dist-info/METADATA",
+      "name": "pydantic_core",
+      "requirements": [
+        "typing-extensions>=4.16.0"
+      ],
+      "version": "2.50.4"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/rich-15.0.0.dist-info/METADATA",
+      "name": "rich",
+      "requirements": [
+        "ipywidgets (>=7.5.1,<9) ; extra == \"jupyter\"",
+        "markdown-it-py (>=2.2.0)",
+        "pygments (>=2.13.0,<3.0.0)"
+      ],
+      "version": "15.0.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/python_multipart-0.0.33.dist-info/METADATA",
+      "name": "python-multipart",
+      "requirements": [],
+      "version": "0.0.33"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/docopt-0.6.2.dist-info/METADATA",
+      "name": "docopt",
+      "requirements": [],
+      "version": "0.6.2"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/h11-0.16.0.dist-info/METADATA",
+      "name": "h11",
+      "requirements": [],
+      "version": "0.16.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/python_dotenv-1.2.4.dist-info/METADATA",
+      "name": "python-dotenv",
+      "requirements": [
+        "click>=5.0; extra == \"cli\""
+      ],
+      "version": "1.2.4"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/annotated_doc-0.0.6.dist-info/METADATA",
+      "name": "annotated-doc",
+      "requirements": [],
+      "version": "0.0.6"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/METADATA",
+      "name": "python-dateutil",
+      "requirements": [
+        "six >=1.5"
+      ],
+      "version": "2.9.0.post0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/watchfiles-1.3.0.dist-info/METADATA",
+      "name": "watchfiles",
+      "requirements": [
+        "anyio>=3.0.0"
+      ],
+      "version": "1.3.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/certifi-2026.10.23.dist-info/METADATA",
+      "name": "certifi",
+      "requirements": [],
+      "version": "2026.10.23"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/typing_extensions-4.16.0.dist-info/METADATA",
+      "name": "typing_extensions",
+      "requirements": [],
+      "version": "4.16.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/websockets-17.4.dist-info/METADATA",
+      "name": "websockets",
+      "requirements": [],
+      "version": "17.4"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/pygments-2.21.0.dist-info/METADATA",
+      "name": "Pygments",
+      "requirements": [
+        "colorama>=0.4.6; extra == 'windows-terminal'"
+      ],
+      "version": "2.21.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/rich_toolkit-0.20.6.dist-info/METADATA",
+      "name": "rich-toolkit",
+      "requirements": [
+        "click>=8.1.7",
+        "rich>=13.7.1",
+        "typing-extensions>=4.12.2"
+      ],
+      "version": "0.20.6"
+    },
+    {
+      "direct_url": {
+        "archive_info": {},
+        "url": "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl"
+      },
+      "metadata_path": "/target/lib/python3.11/site-packages/six-1.16.0.dist-info/METADATA",
+      "name": "six",
+      "requirements": [],
+      "version": "1.16.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/httpcore-1.0.9.dist-info/METADATA",
+      "name": "httpcore",
+      "requirements": [
+        "certifi",
+        "h11>=0.16",
+        "anyio<5.0,>=4.0; extra == 'asyncio'",
+        "h2<5,>=3; extra == 'http2'",
+        "socksio==1.*; extra == 'socks'",
+        "trio<1.0,>=0.22.0; extra == 'trio'"
+      ],
+      "version": "1.0.9"
+    },
+    {
+      "direct_url": {
+        "archive_info": {},
+        "url": "https://github.com/urllib3/urllib3/archive/refs/tags/1.26.8.zip"
+      },
+      "metadata_path": "/target/lib/python3.11/site-packages/urllib3-1.26.8.dist-info/METADATA",
+      "name": "urllib3",
+      "requirements": [
+        "brotlipy>=0.6.0; extra == \"brotli\"",
+        "pyOpenSSL>=0.14; extra == \"secure\"",
+        "cryptography>=1.3.4; extra == \"secure\"",
+        "idna>=2.0.0; extra == \"secure\"",
+        "certifi; extra == \"secure\"",
+        "ipaddress; python_version == \"2.7\" and extra == \"secure\"",
+        "PySocks!=1.5.7,<2.0,>=1.5.6; extra == \"socks\""
+      ],
+      "version": "1.26.8"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/annotated_types-0.8.0.dist-info/METADATA",
+      "name": "annotated-types",
+      "requirements": [],
+      "version": "0.8.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/fastapi_cli-0.0.33.dist-info/METADATA",
+      "name": "fastapi-cli",
+      "requirements": [
+        "typer>=0.26.1",
+        "uvicorn[standard]>=0.15.0",
+        "rich-toolkit>=0.14.8",
+        "tomli>=2.0.0; python_version < \"3.11\"",
+        "uvicorn[standard]>=0.15.0; extra == \"standard\"",
+        "fastapi-cloud-cli>=0.1.1; extra == \"standard\"",
+        "uvicorn[standard]>=0.15.0; extra == \"standard-no-fastapi-cloud-cli\"",
+        "fastapi-new>=0.0.2; extra == \"new\""
+      ],
+      "version": "0.0.33"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/starlette-0.37.2.dist-info/METADATA",
+      "name": "starlette",
+      "requirements": [
+        "anyio<5,>=3.4.0",
+        "typing-extensions>=3.10.0; python_version < '3.10'",
+        "httpx>=0.22.0; extra == 'full'",
+        "itsdangerous; extra == 'full'",
+        "jinja2; extra == 'full'",
+        "python-multipart>=0.0.7; extra == 'full'",
+        "pyyaml; extra == 'full'"
+      ],
+      "version": "0.37.2"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/markupsafe-3.0.4.dist-info/METADATA",
+      "name": "MarkupSafe",
+      "requirements": [],
+      "version": "3.0.4"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/cffi-2.1.1.dist-info/METADATA",
+      "name": "cffi",
+      "requirements": [
+        "pycparser; implementation_name != \"PyPy\""
+      ],
+      "version": "2.1.1"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/uvicorn-0.54.0.dist-info/METADATA",
+      "name": "uvicorn",
+      "requirements": [
+        "click>=7.0",
+        "h11>=0.8",
+        "typing-extensions>=4.0; python_version < '3.11'",
+        "httptools>=0.8.0; extra == 'standard'",
+        "python-dotenv>=0.13; extra == 'standard'",
+        "pyyaml>=5.1; extra == 'standard'",
+        "uvloop>=0.15.1; (sys_platform != 'win32' and (sys_platform != 'cygwin' and platform_python_implementation != 'PyPy')) and extra == 'standard'",
+        "watchfiles>=0.20; extra == 'standard'",
+        "websockets>=13.0; extra == 'standard'"
+      ],
+      "version": "0.54.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/pydantic-2.14.3.dist-info/METADATA",
+      "name": "pydantic",
+      "requirements": [
+        "annotated-types>=0.6.0",
+        "pydantic-core==2.50.4",
+        "typing-extensions>=4.16.0",
+        "typing-inspection>=0.4.4",
+        "email-validator>=2.0.0; extra == 'email'",
+        "tzdata; (platform_system == 'Windows') and extra == 'timezone'"
+      ],
+      "version": "2.14.3"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/mdurl-0.1.2.dist-info/METADATA",
+      "name": "mdurl",
+      "requirements": [],
+      "version": "0.1.2"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/click-8.5.1.dist-info/METADATA",
+      "name": "click",
+      "requirements": [],
+      "version": "8.5.1"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/ndg_httpsclient-0.5.1.dist-info/METADATA",
+      "name": "ndg-httpsclient",
+      "requirements": [
+        "PyOpenSSL",
+        "pyasn1 (>=0.1.1)"
+      ],
+      "version": "0.5.1"
+    },
+    {
+      "direct_url": {
+        "archive_info": {},
+        "url": "file:///tmp/paper-source/downloads/fastapi-0.111.0-py3-none-any.whl"
+      },
+      "metadata_path": "/target/lib/python3.11/site-packages/fastapi-0.111.0.dist-info/METADATA",
+      "name": "fastapi",
+      "requirements": [
+        "starlette<0.38.0,>=0.37.2",
+        "pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4",
+        "typing-extensions>=4.8.0",
+        "fastapi-cli>=0.0.2",
+        "httpx>=0.23.0",
+        "jinja2>=2.11.2",
+        "python-multipart>=0.0.7",
+        "ujson!=4.0.2,!=4.1.0,!=4.2.0,!=4.3.0,!=5.0.0,!=5.1.0,>=4.0.1",
+        "orjson>=3.2.1",
+        "email_validator>=2.0.0",
+        "uvicorn[standard]>=0.12.0",
+        "httpx>=0.23.0; extra == \"all\"",
+        "jinja2>=2.11.2; extra == \"all\"",
+        "python-multipart>=0.0.7; extra == \"all\"",
+        "itsdangerous>=1.1.0; extra == \"all\"",
+        "pyyaml>=5.3.1; extra == \"all\"",
+        "ujson!=4.0.2,!=4.1.0,!=4.2.0,!=4.3.0,!=5.0.0,!=5.1.0,>=4.0.1; extra == \"all\"",
+        "orjson>=3.2.1; extra == \"all\"",
+        "email_validator>=2.0.0; extra == \"all\"",
+        "uvicorn[standard]>=0.12.0; extra == \"all\"",
+        "pydantic-settings>=2.0.0; extra == \"all\"",
+        "pydantic-extra-types>=2.0.0; extra == \"all\""
+      ],
+      "version": "0.111.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/beautifulsoup4-4.1.0.dist-info/METADATA",
+      "name": "beautifulsoup4",
+      "requirements": [],
+      "version": "4.1.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/sniffio-1.3.1.dist-info/METADATA",
+      "name": "sniffio",
+      "requirements": [],
+      "version": "1.3.1"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/orjson-3.13.0.dist-info/METADATA",
+      "name": "orjson",
+      "requirements": [],
+      "version": "3.13.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/idna-3.20.dist-info/METADATA",
+      "name": "idna",
+      "requirements": [
+        "ruff >= 0.16.0 ; extra == \"all\"",
+        "mypy >= 1.11.2 ; extra == \"all\"",
+        "ty >= 0.0.37 ; extra == \"all\"",
+        "pytest >= 8.3.2 ; extra == \"all\"",
+        "hypothesis >= 6.141.1 ; extra == \"all\"",
+        "coverage >= 7.10.0 ; extra == \"all\""
+      ],
+      "version": "3.20"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/markdown_it_py-4.3.0.dist-info/METADATA",
+      "name": "markdown-it-py",
+      "requirements": [
+        "mdurl~=0.1",
+        "psutil ; extra == \"benchmarking\"",
+        "pytest ; extra == \"benchmarking\"",
+        "pytest-benchmark ; extra == \"benchmarking\"",
+        "markdown~=3.4 ; extra == \"compare\"",
+        "mistletoe~=1.0 ; extra == \"compare\"",
+        "mistune~=3.0 ; extra == \"compare\"",
+        "panflute~=2.3 ; extra == \"compare\"",
+        "markdown-it-pyrs ; extra == \"compare\"",
+        "coverage ; extra == \"coverage\"",
+        "pytest-cov ; extra == \"coverage\"",
+        "linkify-it-py>=1,<3 ; extra == \"linkify\"",
+        "mdit-py-plugins>=0.5.0 ; extra == \"plugins\"",
+        "gprof2dot ; extra == \"profiling\"",
+        "mdit-py-plugins>=0.5.0 ; extra == \"rtd\"",
+        "myst-parser ; extra == \"rtd\"",
+        "pyyaml ; extra == \"rtd\"",
+        "sphinx ; extra == \"rtd\"",
+        "sphinx-copybutton ; extra == \"rtd\"",
+        "sphinx-design ; extra == \"rtd\"",
+        "sphinx-book-theme~=1.0 ; extra == \"rtd\"",
+        "jupyter_sphinx ; extra == \"rtd\"",
+        "ipykernel ; extra == \"rtd\"",
+        "flit_core>=3.4,<5 ; extra == \"testing\"",
+        "pytest ; extra == \"testing\"",
+        "pytest-regressions ; extra == \"testing\"",
+        "pytest-timeout ; extra == \"testing\"",
+        "requests ; extra == \"testing\""
+      ],
+      "version": "4.3.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/async_timeout-5.0.1.dist-info/METADATA",
+      "name": "async-timeout",
+      "requirements": [],
+      "version": "5.0.1"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/typing_inspection-0.4.5.dist-info/METADATA",
+      "name": "typing-inspection",
+      "requirements": [
+        "typing-extensions>=4.15.0"
+      ],
+      "version": "0.4.5"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/s3transfer-0.19.3.dist-info/METADATA",
+      "name": "s3transfer",
+      "requirements": [
+        "botocore (<2.0a.0,>=1.37.4)",
+        "botocore[crt] (<2.0a.0,>=1.37.4) ; extra == 'crt'"
+      ],
+      "version": "0.19.3"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/botocore-1.44.0.dist-info/METADATA",
+      "name": "botocore",
+      "requirements": [
+        "jmespath (<2.0.0,>=0.7.1)",
+        "python-dateutil (<3.0.0,>=2.1)",
+        "urllib3 (!=2.2.0,<3,>=1.25.4)",
+        "awscrt (==0.38.0) ; extra == 'crt'"
+      ],
+      "version": "1.44.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/jinja2-3.1.6.dist-info/METADATA",
+      "name": "Jinja2",
+      "requirements": [
+        "MarkupSafe>=2.0",
+        "Babel>=2.7 ; extra == \"i18n\""
+      ],
+      "version": "3.1.6"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/pyopenssl-26.4.0.dist-info/METADATA",
+      "name": "pyOpenSSL",
+      "requirements": [
+        "cryptography<51,>=49.0.0",
+        "typing-extensions>=4.9; python_version < \"3.13\"",
+        "pytest-rerunfailures; extra == \"test\"",
+        "pretend; extra == \"test\"",
+        "pytest>=3.0.1; extra == \"test\"",
+        "sphinx!=5.2.0,!=5.2.0.post0,!=7.2.5; extra == \"docs\"",
+        "sphinx_rtd_theme; extra == \"docs\""
+      ],
+      "version": "26.4.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/typer-0.29.1.dist-info/METADATA",
+      "name": "typer",
+      "requirements": [
+        "pydantic>=2.5.3",
+        "shellingham>=1.3.0",
+        "rich>=13.8.0",
+        "annotated-doc>=0.0.2",
+        "colorama; platform_system == \"Windows\""
+      ],
+      "version": "0.29.1"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/anyio-4.16.0.dist-info/METADATA",
+      "name": "anyio",
+      "requirements": [
+        "exceptiongroup>=1.0.2; python_version < \"3.11\"",
+        "idna>=2.8",
+        "typing_extensions>=4.16.0; python_version < \"3.15\"",
+        "trio>=0.32.0; extra == \"trio\""
+      ],
+      "version": "4.16.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/pycparser-3.12.dist-info/METADATA",
+      "name": "pycparser",
+      "requirements": [],
+      "version": "3.12"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/httpx-0.25.2.dist-info/METADATA",
+      "name": "httpx",
+      "requirements": [
+        "anyio",
+        "certifi",
+        "httpcore==1.*",
+        "idna",
+        "sniffio",
+        "brotli; platform_python_implementation == 'CPython' and extra == 'brotli'",
+        "brotlicffi; platform_python_implementation != 'CPython' and extra == 'brotli'",
+        "click==8.*; extra == 'cli'",
+        "pygments==2.*; extra == 'cli'",
+        "rich<14,>=10; extra == 'cli'",
+        "h2<5,>=3; extra == 'http2'",
+        "socksio==1.*; extra == 'socks'"
+      ],
+      "version": "0.25.2"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/shellingham-1.5.4.dist-info/METADATA",
+      "name": "shellingham",
+      "requirements": [],
+      "version": "1.5.4"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/pyyaml-6.0.3.dist-info/METADATA",
+      "name": "PyYAML",
+      "requirements": [],
+      "version": "6.0.3"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/ujson-6.1.0.dist-info/METADATA",
+      "name": "ujson",
+      "requirements": [],
+      "version": "6.1.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/uvloop-0.23.0.dist-info/METADATA",
+      "name": "uvloop",
+      "requirements": [
+        "aiohttp>=3.10.5; extra == \"test\"",
+        "flake8~=6.1; extra == \"test\"",
+        "psutil; extra == \"test\"",
+        "pycodestyle~=2.11.0; extra == \"test\"",
+        "pyOpenSSL~=25.3.0; python_version < \"3.9\" and extra == \"test\"",
+        "pyOpenSSL~=26.4.0; python_version >= \"3.9\" and extra == \"test\"",
+        "mypy>=0.800; extra == \"test\"",
+        "packaging>=20; extra == \"dev\"",
+        "setuptools>=60; extra == \"dev\"",
+        "Cython~=3.1; extra == \"dev\"",
+        "Sphinx~=4.1.2; extra == \"docs\"",
+        "sphinxcontrib-asyncio~=0.3.0; extra == \"docs\"",
+        "sphinx_rtd_theme~=0.5.2; extra == \"docs\""
+      ],
+      "version": "0.23.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/httptools-0.9.0.dist-info/METADATA",
+      "name": "httptools",
+      "requirements": [],
+      "version": "0.9.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/redis-8.1.0.dist-info/METADATA",
+      "name": "redis",
+      "requirements": [
+        "async-timeout>=4.0.3; python_full_version < '3.11.3'",
+        "pybreaker>=1.4.0; extra == 'circuit-breaker'",
+        "hiredis>=3.2.0; extra == 'hiredis'",
+        "pyjwt>=2.13.0; extra == 'jwt'",
+        "cryptography>=36.0.1; extra == 'ocsp'",
+        "pyopenssl>=20.0.1; extra == 'ocsp'",
+        "requests>=2.31.0; extra == 'ocsp'",
+        "opentelemetry-api>=1.39.1; extra == 'otel'",
+        "opentelemetry-exporter-otlp-proto-http>=1.39.1; extra == 'otel'",
+        "opentelemetry-sdk>=1.39.1; extra == 'otel'",
+        "xxhash~=3.6.0; extra == 'xxhash'"
+      ],
+      "version": "8.1.0"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/cryptography-50.0.2.dist-info/METADATA",
+      "name": "cryptography",
+      "requirements": [
+        "cffi>=2.0.0 ; platform_python_implementation != 'PyPy'",
+        "typing-extensions>=4.13.2 ; python_full_version < '3.11'",
+        "bcrypt>=3.1.5 ; extra == 'ssh'"
+      ],
+      "version": "50.0.2"
+    },
+    {
+      "direct_url": null,
+      "metadata_path": "/target/lib/python3.11/site-packages/pyasn1-0.6.5.dist-info/METADATA",
+      "name": "pyasn1",
+      "requirements": [],
+      "version": "0.6.5"
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.11.16",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_python_implementation": "CPython",
+    "platform_release": "7.0.0-30-generic",
+    "platform_system": "Linux",
+    "platform_version": "#30~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:27:52 UTC 2",
+    "python_full_version": "3.11.16",
+    "python_version": "3.11",
+    "sys_platform": "linux"
+  }
+}

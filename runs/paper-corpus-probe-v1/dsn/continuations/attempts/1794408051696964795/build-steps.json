@@ -1,0 +1,14 @@
+[
+  {
+    "step": "venv",
+    "command": [
+      "/tools/uv",
+      "venv",
+      "--python",
+      "/usr/local/bin/python",
+      "/out/target"
+    ],
+    "exit_code": 2,
+    "seconds": 0.05034839899963117
+  }
+]

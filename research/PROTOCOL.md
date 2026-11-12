@@ -1,5 +1,10 @@
 # M2.3 validation protocol v1
 
+Historical protocol for the Python graph-reconstruction study. The current V3
+problem/design is in [PROBLEM_FORMULATION.md](../PROBLEM_FORMULATION.md) and
+[ARCHITECTURE.md](../ARCHITECTURE.md). This file preserves the earlier experiment
+contract; it does not define the information regime of artifact reconciliation.
+
 This protocol implements the Human Researcher's conditional-approval directive. The thesis remains incomplete SBOM graph reconstruction. No ML training, agent experiment, or additional repository cohort is included in this milestone.
 
 ## Scope and labels

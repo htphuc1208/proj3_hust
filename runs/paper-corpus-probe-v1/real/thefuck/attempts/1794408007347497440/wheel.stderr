@@ -1,0 +1,25 @@
+Building wheel...
+Traceback (most recent call last):
+  File "<string>", line 14, in <module>
+  File "/cache/builds-v0/.tmpWheEJr/lib/python3.11/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+    return self._get_build_requires(config_settings, requirements=[])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cache/builds-v0/.tmpWheEJr/lib/python3.11/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+    self.run_setup()
+  File "/cache/builds-v0/.tmpWheEJr/lib/python3.11/site-packages/setuptools/build_meta.py", line 520, in run_setup
+    super().run_setup(setup_script=setup_script)
+  File "/cache/builds-v0/.tmpWheEJr/lib/python3.11/site-packages/setuptools/build_meta.py", line 317, in run_setup
+    exec(code, locals())  # noqa: S102 # exec is intentional here
+    ^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 3, in <module>
+ModuleNotFoundError: No module named 'pkg_resources'
+error: Failed to build `/tmp/paper-source`
+  Caused by: The build backend returned an error
+  Caused by: Call to `setuptools.build_meta:__legacy__.build_wheel` failed (exit status: 1)
+
+hint: This error likely indicates that `paper-source` depends on `pkg_resources`, but doesn't declare it as a build dependency. If `paper-source` is a first-party package, consider adding `pkg_resources` to its `build-system.requires`. Otherwise, either add it to your `pyproject.toml` under:
+
+[tool.uv.extra-build-dependencies]
+paper-source = ["pkg_resources"]
+
+or `uv pip install pkg_resources` into the environment and re-run with `--no-build-isolation`.

@@ -1,0 +1,5 @@
+   Updating https://github.com/psf/black.git (21.10b0)
+  × Failed to download and build `black @
+  │ git+https://github.com/psf/black.git@21.10b0`
+  ├─▶ Git operation failed
+  ╰─▶ Git executable not found. Ensure that Git is installed and available.

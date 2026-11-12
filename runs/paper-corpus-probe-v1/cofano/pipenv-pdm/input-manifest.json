@@ -1,0 +1,14 @@
+{
+  "entrypoint": null,
+  "hashes": {
+    "Pipfile": "61f52f7643f2a4fe7578d36761886bc3a2b93527edb624ded6cc3ee634cb1a38",
+    "Pipfile.lock": "1bb61eb21052a3892ad85de0b9c36950d25848c7efe304047ebdc780cbfbae0d",
+    "pyproject.toml": "cd8324a2fe697d96542a7940a47847ab562d5cf99537ee0477f7630d47d2bde0",
+    "src/pipenv-pdm/main.py": "fef8ca0a78ec8d692c54cf22d1f3cf63320eae5f0f8f2c565059dea9e09b6638"
+  },
+  "id": "cofano/pipenv-pdm",
+  "kind": "cofano-pipenv",
+  "native": "pipenv",
+  "origin_commit": "e2070973821f188cd64c5b17a24b06872f2cdc3a",
+  "source": "/home/phucht/project/sbom_recovery/research/.work/paper-corpus-probe-v1/cofano/projects/pipenv-pdm"
+}

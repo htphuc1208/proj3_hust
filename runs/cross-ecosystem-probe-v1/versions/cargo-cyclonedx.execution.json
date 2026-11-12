@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/tools/cargo-cyclonedx",
+    "cyclonedx",
+    "--version"
+  ],
+  "cwd": null,
+  "started_at": "2026-11-11T15:45:12.839269+00:00",
+  "environment_overrides": {},
+  "exit_code": 0,
+  "seconds": 0.006063385997549631
+}

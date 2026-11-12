@@ -1,0 +1,175 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:56d89bbb-812e-43c2-bc58-fc9e2c07c756",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T15:33:54+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "8ede4929-0cd5-49d4-9f9a-0c74e0ba7f7e",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/research/.work/cross-ecosystem-probe-v1/go-build",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "7a52b6b2-25b6-479f-b8b2-94408d41544b",
+      "type": "application",
+      "name": "go.mod",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "gomod"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/example.org/sbom-build-probe",
+      "type": "library",
+      "name": "example.org/sbom-build-probe",
+      "purl": "pkg:golang/example.org/sbom-build-probe",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "example.org/sbom-build-probe"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "gomod"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.17.0",
+      "type": "library",
+      "name": "golang.org/x/crypto",
+      "version": "v0.17.0",
+      "purl": "pkg:golang/golang.org/x/crypto@v0.17.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "golang.org/x/crypto@v0.17.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "gomod"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.15.0",
+      "type": "library",
+      "name": "golang.org/x/sys",
+      "version": "v0.15.0",
+      "purl": "pkg:golang/golang.org/x/sys@v0.15.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "golang.org/x/sys@v0.15.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "gomod"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/text@v0.14.0",
+      "type": "library",
+      "name": "golang.org/x/text",
+      "version": "v0.14.0",
+      "purl": "pkg:golang/golang.org/x/text@v0.14.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "golang.org/x/text@v0.14.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "gomod"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/gopkg.in/yaml.v2@v2.2.8",
+      "type": "library",
+      "name": "gopkg.in/yaml.v2",
+      "version": "v2.2.8",
+      "purl": "pkg:golang/gopkg.in/yaml.v2@v2.2.8",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "gopkg.in/yaml.v2@v2.2.8"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "gomod"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "7a52b6b2-25b6-479f-b8b2-94408d41544b",
+      "dependsOn": [
+        "pkg:golang/example.org/sbom-build-probe"
+      ]
+    },
+    {
+      "ref": "8ede4929-0cd5-49d4-9f9a-0c74e0ba7f7e",
+      "dependsOn": [
+        "7a52b6b2-25b6-479f-b8b2-94408d41544b"
+      ]
+    },
+    {
+      "ref": "pkg:golang/example.org/sbom-build-probe",
+      "dependsOn": [
+        "pkg:golang/golang.org/x/crypto@v0.17.0",
+        "pkg:golang/golang.org/x/sys@v0.15.0",
+        "pkg:golang/golang.org/x/text@v0.14.0",
+        "pkg:golang/gopkg.in/yaml.v2@v2.2.8"
+      ]
+    },
+    {
+      "ref": "pkg:golang/golang.org/x/crypto@v0.17.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/golang.org/x/sys@v0.15.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/golang.org/x/text@v0.14.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:golang/gopkg.in/yaml.v2@v2.2.8",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

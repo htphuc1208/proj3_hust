@@ -1,0 +1,114 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:efa4ca23-93c8-48de-b5c2-d54049634f85",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-11T14:43:34+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "c31984a7-0ee8-4f79-aee1-cb54c058697c",
+      "type": "application",
+      "name": "/home/phucht/project/sbom_recovery/runs/paper-corpus-probe-v1/real/python-fire/target",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/fire@0.7.1",
+      "type": "library",
+      "name": "fire",
+      "version": "0.7.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "cd91e455e2f0f5859c3c1db9ed9afd6d77e8cb42"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/fire@0.7.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/fire-0.7.1.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/termcolor@3.3.0",
+      "type": "library",
+      "name": "termcolor",
+      "version": "3.3.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "cb3b72677d91c942c64c840f38f7295538220e68"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/termcolor@3.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "lib/python3.11/site-packages/termcolor-3.3.0.dist-info/METADATA"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "python-pkg"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "c31984a7-0ee8-4f79-aee1-cb54c058697c",
+      "dependsOn": [
+        "pkg:pypi/fire@0.7.1",
+        "pkg:pypi/termcolor@3.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/fire@0.7.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/termcolor@3.3.0",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

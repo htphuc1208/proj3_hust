@@ -1,0 +1,16 @@
+{
+  "case": "rust-native",
+  "sbom": "rust-build/cyclonedx-target.cdx.json",
+  "sbom_sha256": "39ff80a762a51489867a35d2cb6552e8317b648f7f78275e99273f954f9def84",
+  "exit_code": 1,
+  "packages": {
+    "crates.io:aho-corasick@0.7.20": [],
+    "crates.io:memchr@2.8.3": [],
+    "crates.io:regex@1.5.4": [
+      "GHSA-m5pq-gvj9-9vr8",
+      "RUSTSEC-2022-0013"
+    ],
+    "crates.io:regex-syntax@0.6.29": []
+  },
+  "has_parseable_json": true
+}

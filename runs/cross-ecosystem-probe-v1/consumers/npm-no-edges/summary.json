@@ -1,0 +1,19 @@
+{
+  "case": "npm-no-edges",
+  "sbom": "mechanism-controls/npm-native-no-edges.cdx.json",
+  "sbom_sha256": "44177247486e769f9340e55ea9aea0732b70eb53dae886cd35fa190760037101",
+  "exit_code": 1,
+  "packages": {
+    "npm:lodash@4.17.20": [
+      "GHSA-29mw-wpgm-hmr9",
+      "GHSA-35jh-r3h4-6jhm",
+      "GHSA-r5fr-rjxr-66jc",
+      "GHSA-xxjr-mmjv-4gpg"
+    ],
+    "npm:lodash@4.17.21": [
+      "GHSA-r5fr-rjxr-66jc",
+      "GHSA-xxjr-mmjv-4gpg"
+    ]
+  },
+  "has_parseable_json": true
+}

@@ -1,98 +1,106 @@
-# ARCHITECTURE SPECIFICATION: Context-Aware, Evidence-Guided SBOM Reconstruction Under Uncertainty
+# Kiến trúc V3 — A + B + E
 
-**Author:** Master's Thesis Research Initiative  
-**Methodological Standard:** A* Senior Researcher / Tier-1 Venue Alignment (IEEE S&P, ACM CCS, USENIX Security, ICSE, FSE)  
-**Scope:** CycloneDX (OWASP/ECMA), PEP 508 Markers, Python/PyPI Ecosystem, OpenVEX, OSV
+Ngày 12-11-2026. [Đề bài](PROBLEM_FORMULATION.md), [milestones](research/RECONCILIATION_PLAN_V3.md). Đây là thiết kế và draft contracts, chưa có engine multi-SBOM end-to-end. V2 installed Python giữ nguyên.
 
----
+## 1. Luồng chính
 
-## 1. Formal Problem Formulation
+```mermaid
+flowchart TD
+    A[Nhiều SBOM + target/context + evidence tùy chọn] --> B[Ingest và phân nhóm scope]
+    B --> C[Căn chỉnh observation với component/occurrence]
+    C --> D[A: xử lý identity/version claims]
+    D --> E[B: bind endpoints và đối chiếu direct edges]
+    E --> F[Reconciliation decisions và unresolved cases]
+    F --> G[Unified SBOM + assessment có provenance]
+    G --> H[E: cùng consumer và advisory snapshot]
+    H --> I[Matching delta và graph/path metrics]
+    J[Native resolution / metadata / optional artifact] --> D
+    J --> E
+```
 
-Let an application deployment in environment $E \in \mathcal{E}$ have a true installed distribution graph:
-$$G^*_E = (V^*_E, E^*_E, \mu^*_E)$$
-where:
-* $V^*_E$: Set of verified installed distribution packages.
-* $E^*_E$: Directed edges $(u, v)$ where package $u$ requires package $v$ under environment $E$.
-* $\mu^*_E$: Metadata mapping for nodes and edges (version, provenance, hashes, license).
-* $E = (\text{os}, \text{arch}, \text{python\_version}, \text{platform\_release}, \text{active\_extras})$.
+E là evaluation stage. Artifact evidence có thể bổ sung identity/footprint; không bắt buộc giải quyết toàn binary analysis. Một lõi claim/evidence dùng chung liên kết A với B.
 
-The observed SBOM is an imperfect, potentially incomplete and contradictory subgraph:
-$$G_{\text{obs}} = (V_{\text{obs}}, E_{\text{obs}}) \not\subseteq G^*_E$$
+## 2. Phạm vi MVP
 
-Given external evidence $M$ (Package distribution metadata, wheel `Requires-Dist`, registry feeds), the reconstruction task is to learn or compute an estimator:
-$$\hat{G}_E = R(G_{\text{obs}}, E, M)$$
+Identity/name/version/PURL/origin/digest và direct dependencies. Bảo toàn các fields khác dưới dạng observations nhưng chưa xác minh license/supplier toàn diện. Không full function reachability, VEX not-affected hoặc exploitability.
 
-### Missing Environment Context Formulation
-When the execution environment $E$ is omitted from the input:
-$$\mathcal{E}_{\text{plausible}} = \{e_1, e_2, \dots, e_k\}$$
-Edges are partitioned into epistemic modalities:
-* **MUST Edges ($E_{\text{must}}$):** Invariant across all plausible environments:
-  $$E_{\text{must}} = \bigcap_{e \in \mathcal{E}_{\text{plausible}}} E(\hat{G}_e)$$
-* **MAY Edges ($E_{\text{may}}$):** Environment-conditional edges:
-  $$E_{\text{may}} = \bigcup_{e \in \mathcal{E}_{\text{plausible}}} E(\hat{G}_e) \setminus E_{\text{must}}$$
-* **UNKNOWN Edges / Nodes:** Insufficient metadata, unresolvable version constraints, or missing distribution artifacts.
+Pilot Java/Maven và npm dùng native dependency/reference tooling; các input được nhóm theo declared/resolved/artifact view và context. Mỗi run có một target/revision/group. Mục tiêu là xem có lợi ích trước native controls, không ấn định corpus lớn theo số lượng repo.
 
----
+## 3. Modules và interfaces dự kiến
 
-## 2. Multi-Tier Graph Model & Contradiction Detection
+| Module | Input → output | Invariant |
+| --- | --- | --- |
+| ingest | raw documents → immutable native observations | namespace refs bằng doc digest; không mất source fields |
+| scope binder | target/context, producer mode → compatible groups/issues | source/build/artifact hoặc OS khác không trộn ngầm |
+| alignment | component observations + candidates/evidence → partial mapping | không gộp hai versions/occurrences chỉ vì cùng name |
+| field evaluator | aligned claims + independent evidence → bốn status | producer consensus không tự thành verified |
+| edge evaluator | native edges + endpoint mappings + scoped metadata → typed edge claims | endpoint unresolved → defer; containment khác dependency |
+| reconciler | claims/policy → applied/report/deferred decisions | không apply UNKNOWN/CONFLICT; không tạo shortcut để graph connected |
+| exporter | decisions + raw docs → unified SBOM + assessment | stable refs và provenance; không nâng completeness tùy ý |
+| consumer adapter | identity roles + mapping policy → scanner projection | canonical identity giữ lại; mapping có scope |
+| evaluator | outputs/frozen DB + scorer-only reference → layer metrics | oracle không vào inference; matching khác exploitability |
 
-To preserve auditability and provenance, the original observed SBOM is **immutable**. The system maintains three distinct graph structures:
+## 4. Alignment thiết kế trước field resolution
 
-1. **Observed Graph ($G_{\text{obs}}$):** The verbatim input parsed from CycloneDX.
-2. **Candidate Hypothesis Graph ($G_{\text{candidate}}$):** Inferred nodes and edges equipped with evidence provenance:
-   $$e = (u, v, \text{evidence}, \text{context}, \text{status})$$
-3. **Reconstructed Graph ($G_{\text{reconstructed}}$):** Synthesized target graph $R(G_{\text{obs}}, G_{\text{candidate}}, \text{Evidence})$.
+Observation key là `(document_sha256, native_ref)`. PURL/name/namespace dùng để blocking, không mặc định là same-instance proof. Identity grouping và physical occurrence grouping giữ riêng; cùng PURL có thể nhiều occurrences.
 
-### Contradiction Detection Semantics (CycloneDX Compliance)
-* In CycloneDX, `dependsOn: []` denotes an explicit declaration of zero direct dependencies.
-* An omitted dependency record denotes unknown status.
-* When external artifact metadata demonstrates that $u \to v$ is mandatory under $E$, but $G_{\text{obs}}$ declares `u.dependsOn: []`, the system **does not silently overwrite** $G_{\text{obs}}$. Instead, it flags:
-  $$\text{Status} = \texttt{CONTRADICTED\_DECLARATION}$$
-  accompanied by artifact hash, marker evaluation trace, and candidate repair action.
+Giữ version-conflict hypothesis và two-real-versions hypothesis khi thiếu locator/hash/resolution evidence. Một PURL/version được xác minh không tự cấp quyền gộp edge của hai installation scopes. Hợp nhất nhầm nodes có thể tạo path không tồn tại trong từng graph.
 
-### Evidence Policy Matrix
+Alignment decisions gồm `SAME`, `DISTINCT`, `UNRESOLVED`, `CONFLICT`, có reason/evidence. Không dùng graph topology làm nhãn truth ngược cho identity nếu không có cơ sở độc lập.
 
-| Condition | Observed SBOM | Evidence Source | Action & Output Status |
-| :--- | :--- | :--- | :--- |
-| **P1** | No dependency record for $u$ | Artifact metadata satisfies $E$ | Incur Candidate Edge (`STATUS_INFERRED`) |
-| **P2** | $u$ declares `dependsOn: []` | Installed artifact metadata satisfies $E$ | Emit Contradiction Warning + Repair Candidate (`CONTRADICTED_DECLARATION`) |
-| **P3** | `compositions.aggregate = complete` | Evidence demonstrates missing edge | Flag Inconsistency Violation; do not silently bypass |
-| **P4** | Dependency conditioned on marker | Marker true in subset of $\mathcal{E}$ | Classify edge as `MAY` with conditional predicate |
-| **P5** | Ambiguous version / missing distribution | No verifiable artifact | Mark as `UNKNOWN` (Abstain from prediction) |
+## 5. Claim/evidence model
 
----
+Claims có subject/predicate/value/scope. Giữ `SUPPORTED`, `REFUTED`, `CONFLICT`, `UNKNOWN`, tách với alignment status. Source SBOM ghi một giá trị là observation; metadata/native evidence đúng scope mới được admit theo rule.
 
-## 3. Ground Truth Protocol & Anti-Leakage Isolation
+Mỗi rule khai loại nguồn/capability, binding/context preconditions, conclusion và limitations. Field version có thể cần target metadata/native resolution; digest phải gắn đúng object bytes; relationship cần declaration/resolution semantics, không chỉ co-occurrence.
 
-### Ground Truth Derivation Pipeline
-1. **Target Environment Build:** Dedicated container running exact OS, architecture, and Python runtime.
-2. **Pinned Installation:** Execute `pip install --report report.json <project>` with explicit target extras.
-3. **Distribution Metadata Extraction:** Parse installed distribution `METADATA` / `RECORD` / `Requires-Dist`.
-4. **Context Evaluation:** Evaluate `Requires-Dist` against active environment tuple $E$.
-5. **Cross-Validation:** Cross-check with `pip check` and `pipdeptree`.
+Evidence của target khác không dùng để sửa target này. Registry mô tả upstream, không tự chứng minh presence. Lockfile/resolved graph chỉ cho context/view tương ứng. Input context được thiếu; rules phụ thuộc selector chưa biết phải giữ unknown.
 
-### Anti-Leakage Safeguards
-* **Input Isolation:** The reconstruction engine operates strictly on degraded SBOMs and public registry metadata. It is completely blinded to the build report and installed environment filesystem.
-* **Partitioning:** Benchmark splits are performed strictly at the **Project level**, with temporal hold-outs for package release timestamps where applicable.
+Optional artifact adapter có binding `DIRECT_ARTIFACT`, `MATCHED_OUTPUT`, `SUPPLIER_ASSERTED`, `UNBOUND`, `MISMATCH` và coverage theo domain. Các binding này do collector tính, không phải quyền một input tự cấp. [Chi tiết adapter](research/design/artifact-reconciliation-v3/architecture.md).
 
----
+## 6. Graph reconstruction
 
-## 4. Reachability & Security Triage Formalism
+1. Parse relationship type/orientation và producer mode.
+2. Resolve endpoints bằng partial alignment mapping.
+3. Nhóm edges theo view/context; giữ raw assertions cùng provenance.
+4. Admit metadata/native rules để add/refute scoped edges.
+5. Defer ambiguous endpoints/semantics; không dùng no-edge làm negative evidence.
+6. Export đúng loại quan hệ và report những gì chưa biểu diễn được.
 
-### Level 1: Dependency Graph Path Reachability
-* Path existence: $u \rightsquigarrow v$ in $\hat{G}_E$.
-* Metric: **Vulnerability Recovery Rate (VRR)**:
-  $$\text{VRR} = \frac{|\mathcal{V}_{\text{vuln}} \cap \text{Reachable}(\hat{G}_E)|}{|\mathcal{V}_{\text{vuln}} \cap \text{Reachable}(G^*_E)|}$$
-* OpenVEX Compliance: An absence of path in $\hat{G}_E$ never implies `not_affected`. The status remains `under_investigation` unless verified by a formal non-reachability assertion.
+App→A→B và App→B không mặc định loại trừ nhau. Flattened inventory graph không tự thành dependency graph. Build-input, containment và dependency không thay thế nhau. Mỗi graph view có root/reference scope riêng; không suy no-path thành safe.
 
-### Level 2: Function-Level Reachability
-* Static call paths are treated as conservative heuristics.
-* Any lack of inter-procedural path is marked `UNKNOWN`, never `PROVEN_UNREACHABLE`.
+sbom-unifier đã merge relationships qua PURL. Baseline phải giữ chức năng này; đóng góp ứng viên là xác minh/correct scopes và edges, không phải thêm relationship union. [Mã baseline](https://github.com/MoriwakiYusuke/sbom-unifier/blob/521f3b8ee6e301e847f7cb113517ba46831e2b28/src/sbom_unifier/merge/merger.py).
 
----
+## 7. Output
 
-## 5. Research Questions (RQs)
+`unified.cdx.json` hoặc SPDX theo profile triển khai; `assessment.json` chứa alignment, field/edge provenance, candidate values, statuses, decisions và gaps. Scanner comparison thêm native-format projections cùng mapping policy.
 
-* **RQ1 (Reconstruction Accuracy):** How accurately do environment-constrained rules recover missing nodes and edges compared to context-free baselines across synthetic and in-the-wild generator omissions?
-* **RQ2 (Value of AI):** Under ambiguous or contradictory evidence, does constrained machine learning ranking (e.g., LightGBM / XGBoost) improve calibrated precision-recall and reduce selective risk over optimal heuristic resolvers?
-* **RQ3 (Downstream Security Utility):** What is the net delta in vulnerable dependency path discovery (VRR) and false positive triage burden when transitioning from unaugmented SBOMs to reconstructed candidate graphs?
+Không xuất một version tùy ý khi còn hai candidates. Không gộp mọi raw checksums vào một component mà mất object/scope. Không điền `dependsOn: []` cho unknown outgoing dependencies. Unresolved records được giữ rõ thay vì loại khỏi mẫu đo. Format/ref validation không chứng minh nội dung đúng. [CycloneDX](https://cyclonedx.org/docs/1.6/json/), [SPDX relationships](https://spdx.github.io/spdx-spec/v2.3.1/relationships-between-SPDX-elements/).
+
+Không có certificate/checker hoặc conformal. Hợp đồng API chỉ kiểm tra dữ liệu; inference policy và evidence collectors phải được đánh giá riêng.
+
+## 8. E và ablations
+
+Same consumer/config/advisory snapshot cho từng scanner, priority union và proposed output. Ghi match thêm/mất, chuẩn hóa aliases, đối chiếu labels. Không gọi record mới là vulnerability thật tự động.
+
+Các ablation: A-only, union graph trên alignment đã chốt, A+B đầy đủ, bỏ từng loại evidence, và chỉ đổi consumer identity mapping. Có control giữ nguyên components/xóa edges. Edge/path utility đo riêng khi consumer không sử dụng graph để matching.
+
+No-match/no-path không là not-affected. Artifact partial footprint có thể hữu ích cho triage nhưng không tự suppress package warning. Runtime applicability trong MVP để `NOT_ASSESSED`.
+
+## 9. Code hiện có và code mới
+
+- `core/formats.py`: xem xét tái dùng native parse/copy/reference validation; không flatten occurrence IDs.
+- `reconciliation/contracts_v2.py`/Python semantics: giữ engine V2 riêng.
+- `reconciliation/contracts_v3.py`: draft artifact-evidence contracts, chỉ cho adapter tùy chọn; 32 boundary tests, không phải multi-SBOM solver.
+- `reconciliation/merge_contracts_v3.py`: input contract cho A+B+E; scope separation và immutable document references.
+- `metrics/*`/run bundles: tái dùng hạ tầng, thay metric definitions theo lớp.
+- `gold/*`: chỉ scorer; không dùng installed truth làm artifact/field truth khác view.
+- LLM branch: giữ độc lập; chưa có evidence cần model để đạt mục tiêu MVP.
+
+CLI hiện tại không tự chuyển sang V3. Bộ schemas/examples là wire design, không đọc files hoặc verify trust/actual bytes.
+
+## 10. Gate triển khai
+
+Đầu tiên đo disagreement/conflict taxonomy trên subjects paper có fixed revision và reference feasibility. Tiếp theo làm alignment/A, rồi B, rồi E; mỗi mốc có strong baseline nhận cùng evidence. Các cases đã xem dùng development, không làm held-out.
+
+Từ chối automatic apply khi grouping/alignment/evidence chưa rõ. Chấm completeness cùng correctness/unknown coverage; không ép luôn tăng cả hai. Nếu native regeneration/semantic control giải quyết đầy đủ, phải báo tie hoặc giới hạn scope thay vì khẳng định novelty.
