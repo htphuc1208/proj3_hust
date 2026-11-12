@@ -1,0 +1,63 @@
+{
+  "budget": {
+    "max_tool_calls": 5
+  },
+  "cases": [
+    {
+      "case_id": "controlled-npm",
+      "lineage": "demo-npm",
+      "oracle": {
+        "path": "npm/oracle/oracle.json",
+        "sha256": "affcf131658cf4cd9f187f1b752cd0a3f7f2401112de7899f047dc5fae1f5e38"
+      },
+      "project": "demo-npm",
+      "request": {
+        "path": "npm/request.json",
+        "sha256": "31a4adaed0a30f10d93b4e43b20429ac0ee8632ce8769c05cb033c0e6786d8f1"
+      },
+      "snapshot": {
+        "path": "npm/advisories.json",
+        "sha256": "0cceb5157c8bf8d108577f1a9aebe3357d96c42e85e3a88ecd0a67d82f017390"
+      },
+      "split": "development"
+    },
+    {
+      "case_id": "controlled-cargo",
+      "lineage": "demo-cargo",
+      "oracle": {
+        "path": "cargo/oracle/oracle.json",
+        "sha256": "823da5d86d5815b3fff3ecaa1a53adb56db241c26dd88edca873cea53824e990"
+      },
+      "project": "demo-cargo",
+      "request": {
+        "path": "cargo/request.json",
+        "sha256": "db5261b01a40046e9c073d3539303500b75614a74c5b8cf196c3caf6940e63b9"
+      },
+      "snapshot": {
+        "path": "cargo/advisories.json",
+        "sha256": "043fa64beeb3fe38b36c632fb69ff27a6b055cf84028728dbe8412b01a232778"
+      },
+      "split": "development"
+    }
+  ],
+  "conditions": [
+    "equal_budget",
+    "equal_information"
+  ],
+  "label_kind": "CONTROLLED_DEVELOPMENT_ONLY",
+  "methods": [
+    "observed",
+    "deterministic",
+    "rule",
+    "metadata_only",
+    "graph_only",
+    "naive_union",
+    "fixed_priority",
+    "majority",
+    "lockfile_only",
+    "single:tool-0",
+    "single:tool-1",
+    "sbom_unifier"
+  ],
+  "schema_version": "investigation-study-v1"
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "action": "acquire",
+    "source_id": "00-stale"
+  },
+  {
+    "action": "acquire",
+    "source_id": "01-resolution"
+  },
+  {
+    "action": "finish"
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "components": [
+    {
+      "ecosystem": "npm",
+      "id": "gold-app",
+      "locator": "",
+      "name": "demo",
+      "purl": "pkg:npm/demo@0.1.0",
+      "status": "SUPPORTED",
+      "version": "0.1.0"
+    },
+    {
+      "ecosystem": "npm",
+      "id": "gold-lib",
+      "locator": "node_modules/example-lib",
+      "name": "example-lib",
+      "purl": "pkg:npm/example-lib@1.4.3",
+      "status": "SUPPORTED",
+      "version": "1.4.3"
+    }
+  ],
+  "coverage": {
+    "components": true,
+    "edges": true,
+    "paths": true
+  },
+  "edges": [
+    {
+      "relationship_type": "direct_dependency",
+      "scope": "runtime",
+      "source": "gold-app",
+      "status": "SUPPORTED",
+      "target": "gold-lib"
+    }
+  ],
+  "label_protocol": "CONTROLLED_KNOWN_GRAPH_NOT_INDEPENDENT_REAL_WORLD_BUILD",
+  "roots": [
+    "gold-app"
+  ],
+  "schema_version": "reconciliation-oracle-v1",
+  "target": {
+    "context_id": "linux-runtime",
+    "revision_ref": "controlled-v1",
+    "target_id": "demo-npm",
+    "view": "RESOLVED"
+  }
+}

@@ -22,6 +22,9 @@ from .storage import save
 
 
 def main():
+    if len(sys.argv) > 1 and sys.argv[1] == "investigation":
+        from .investigation.cli import main as investigation_main
+        return investigation_main(sys.argv[2:])
     parser = argparse.ArgumentParser(prog="python -m sbom_recovery")
     commands = parser.add_subparsers(dest="command", required=True)
     r = commands.add_parser("reconcile", help="Reconcile target-bound declared edges with per-edge explanations")

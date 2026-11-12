@@ -1,0 +1,66 @@
+{
+  "documents": [
+    {
+      "context_id": "linux-runtime",
+      "document": {
+        "path": "inputs/tool-0.cdx.json",
+        "sha256": "049ef02c0cdbbbb5e83cf69bf8a00f431529808d0d2abfd0a8767f560282320a"
+      },
+      "format": "CycloneDX",
+      "producer": {
+        "name": "controlled-fixture-0",
+        "version": "1"
+      },
+      "revision_ref": "controlled-v1",
+      "source_id": "tool-0",
+      "target_id": "demo-npm",
+      "view": "RESOLVED"
+    },
+    {
+      "context_id": "linux-runtime",
+      "document": {
+        "path": "inputs/tool-1.cdx.json",
+        "sha256": "5c20aeb73a3e8a9521e91c5f6315447982ccedfe2de140d5f688b45bdf1c4d9a"
+      },
+      "format": "CycloneDX",
+      "producer": {
+        "name": "controlled-fixture-1",
+        "version": "1"
+      },
+      "revision_ref": "controlled-v1",
+      "source_id": "tool-1",
+      "target_id": "demo-npm",
+      "view": "RESOLVED"
+    }
+  ],
+  "evidence": [
+    {
+      "blob": {
+        "path": "evidence/stale.json",
+        "sha256": "9218aca87bd037d7e082c582ccb8882e1754a32f00288c8047cd23cbff6b7870"
+      },
+      "kind": "native_resolution",
+      "source_id": "00-stale"
+    },
+    {
+      "blob": {
+        "path": "evidence/resolution.json",
+        "sha256": "688ceca3aa363bf1e2de0c879922149d4d6b105c3b911604913820bb0d0cf813"
+      },
+      "kind": "native_resolution",
+      "source_id": "01-resolution"
+    }
+  ],
+  "policy_id": "eager-v3",
+  "schema_version": "sbom-reconciliation-input-v3",
+  "target": {
+    "context": {
+      "context_id": "linux-runtime",
+      "os": "linux"
+    },
+    "project_ref": "controlled-demo-npm",
+    "revision_ref": "controlled-v1",
+    "target_id": "demo-npm",
+    "view": "RESOLVED"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "components": [
+    {
+      "ecosystem": "cargo",
+      "id": "gold-app",
+      "locator": "/workspace/demo/Cargo.toml",
+      "name": "demo",
+      "purl": "pkg:cargo/demo@0.1.0",
+      "status": "SUPPORTED",
+      "version": "0.1.0"
+    },
+    {
+      "ecosystem": "cargo",
+      "id": "gold-lib",
+      "locator": "/registry/example-lib/Cargo.toml",
+      "name": "example-lib",
+      "purl": "pkg:cargo/example-lib@1.4.3",
+      "status": "SUPPORTED",
+      "version": "1.4.3"
+    }
+  ],
+  "coverage": {
+    "components": true,
+    "edges": true,
+    "paths": true
+  },
+  "edges": [
+    {
+      "relationship_type": "direct_dependency",
+      "scope": "runtime",
+      "source": "gold-app",
+      "status": "SUPPORTED",
+      "target": "gold-lib"
+    }
+  ],
+  "label_protocol": "CONTROLLED_KNOWN_GRAPH_NOT_INDEPENDENT_REAL_WORLD_BUILD",
+  "roots": [
+    "gold-app"
+  ],
+  "schema_version": "reconciliation-oracle-v1",
+  "target": {
+    "context_id": "linux-runtime",
+    "revision_ref": "controlled-v1",
+    "target_id": "demo-cargo",
+    "view": "RESOLVED"
+  }
+}

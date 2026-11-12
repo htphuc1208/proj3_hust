@@ -1,0 +1,33 @@
+{
+  "advisories": [
+    {
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "crates.io",
+            "name": "example-lib"
+          },
+          "ranges": [
+            {
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "1.4.3"
+                }
+              ],
+              "type": "SEMVER"
+            }
+          ]
+        }
+      ],
+      "aliases": [
+        "CVE-DEMO-001"
+      ],
+      "id": "DEMO-2026-001"
+    }
+  ],
+  "provenance": "CONTROLLED_SYNTHETIC_ADVISORY",
+  "schema_version": "osv-snapshot-v1"
+}

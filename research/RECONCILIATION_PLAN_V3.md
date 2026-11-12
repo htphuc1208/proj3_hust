@@ -2,9 +2,11 @@
 
 Ngày 12-11-2026. [Đề bài](../PROBLEM_FORMULATION.md), [kiến trúc](../ARCHITECTURE.md). Hướng chính là multi-SBOM metadata/graph reconciliation; artifact là evidence tùy chọn. V2 giữ riêng.
 
+Runtime đã triển khai: xem [hướng dẫn](EAGER_SBOM_IMPLEMENTATION.md) và package `sbom_recovery/investigation`. Có controlled tests npm/Cargo, chưa hoàn thành empirical gates P1/P5 hoặc chứng minh accuracy/agent superiority. Các acceptance bên dưới giữ nguyên cho nghiên cứu thực.
+
 ## P0 — Đặc tả và contracts
 
-Đề bài, models/schemas input multi-SBOM, provenance và scope contract; giữ artifact contracts như adapter draft. Chưa có engine/CLI đa SBOM.
+Đề bài, models/schemas input multi-SBOM, provenance và scope contract; giữ artifact contracts như adapter draft. Engine/CLI đa SBOM hiện có trong lệnh `investigation`.
 
 Acceptance: source/context/view khác không trộn; doc refs namespace theo document; input không tự cấp trust; null/[] khác nghĩa; schema examples hợp lệ. Contract checks không chứng minh accuracy.
 

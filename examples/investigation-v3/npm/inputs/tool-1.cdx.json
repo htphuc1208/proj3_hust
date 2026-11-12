@@ -1,0 +1,36 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "dependency",
+      "name": "example-lib",
+      "properties": [
+        {
+          "name": "sbom-recovery:locator",
+          "value": "node_modules/example-lib"
+        }
+      ],
+      "purl": "pkg:npm/example-lib@1.4.3",
+      "type": "library",
+      "version": "1.4.3"
+    }
+  ],
+  "dependencies": [],
+  "metadata": {
+    "component": {
+      "bom-ref": "app",
+      "name": "demo",
+      "properties": [
+        {
+          "name": "sbom-recovery:locator",
+          "value": ""
+        }
+      ],
+      "purl": "pkg:npm/demo@0.1.0",
+      "type": "application",
+      "version": "0.1.0"
+    }
+  },
+  "specVersion": "1.6",
+  "version": 1
+}

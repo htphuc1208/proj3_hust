@@ -1,0 +1,11 @@
+{
+  "max_tool_calls": 10,
+  "max_bytes": 1048576,
+  "max_steps": 20,
+  "max_seconds": 120.0,
+  "max_model_calls": 20,
+  "max_tokens": 32768,
+  "max_cost_usd": 1.0,
+  "input_usd_per_million": null,
+  "output_usd_per_million": null
+}

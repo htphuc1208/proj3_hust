@@ -2,7 +2,7 @@
 
 Ngày 12-11-2026. Hướng chính được chọn: **A + B + E**. A xử lý identity/metadata, B xử lý quan hệ trên các component đã căn chỉnh, E đo tác động downstream. Artifact là evidence tùy chọn; nghiên cứu binary recovery đầy đủ chưa thuộc MVP.
 
-Trạng thái: đặc tả, thiết kế và input contracts; engine đa SBOM chưa triển khai. Python V2 vẫn hoạt động riêng. [Kiến trúc](ARCHITECTURE.md), [kế hoạch](research/RECONCILIATION_PLAN_V3.md), [khảo sát](research/SBOM_VULNERABILITY_SURVEY_VI.md).
+Trạng thái: đã có engine đa SBOM, frozen evidence collectors npm/Cargo, single-agent investigation có budget, export và evaluator riêng trong `sbom_recovery/investigation`. [Hướng dẫn chạy và giới hạn](research/EAGER_SBOM_IMPLEMENTATION.md). Corpus/pilot thực độc lập và lợi ích trước strong baselines chưa được chứng minh. Python V2 vẫn hoạt động riêng. [Kiến trúc](ARCHITECTURE.md), [kế hoạch](research/RECONCILIATION_PLAN_V3.md), [khảo sát](research/SBOM_VULNERABILITY_SURVEY_VI.md).
 
 ## 1. Phát biểu đề bài
 

@@ -4,10 +4,18 @@ Current implementation: evidence-guided reconstruction of installed Python SBOM 
 
 See the [V3 problem formulation](PROBLEM_FORMULATION.md), [architecture](ARCHITECTURE.md)
 and [implementation milestones](research/RECONCILIATION_PLAN_V3.md).
-V3 currently provides design/input contracts and optional artifact contracts;
-the multi-SBOM alignment/reconciliation pipeline is not implemented. Existing CLI
-examples below use Python V2.
+V3 now includes a runnable multi-SBOM investigation pipeline with frozen npm/Cargo
+evidence collectors, deterministic reconciliation, an optional single investigation
+agent, SPDX/CycloneDX exports and a separate sealed-oracle evaluator. See the
+[implementation and CLI guide](research/EAGER_SBOM_IMPLEMENTATION.md). The legacy
+CLI examples below use Python V2.
 Accuracy superiority and research novelty are not established.
+
+```bash
+.venv/bin/python -m sbom_recovery investigation demo --out /tmp/eager-examples
+.venv/bin/python -m sbom_recovery investigation study \
+  --manifest /tmp/eager-examples/study.json --out /tmp/eager-study
+```
 
 ---
 

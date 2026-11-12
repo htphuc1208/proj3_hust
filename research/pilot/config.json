@@ -1,0 +1,64 @@
+{
+  "netmind_gateway": {
+    "base_url": "https://stream-netmind.viettel.vn/gateway/v1",
+    "available_models": [
+      "claude-opus-5",
+      "claude-sonnet-5",
+      "claude-haiku-4-5",
+      "Qwen/Qwen3.5-122B-A10B-FP8",
+      "Qwen/Qwen3.5-35B-A3B-FP8"
+    ]
+  },
+  "pilot_models": [
+    {
+      "id": "claude-opus-5",
+      "name": "Claude Opus 5",
+      "pricing": {
+        "input_usd_per_million": 15.0,
+        "output_usd_per_million": 75.0
+      },
+      "description": "Anthropic's most capable model for complex reasoning"
+    },
+    {
+      "id": "claude-sonnet-5",
+      "name": "Claude Sonnet 5",
+      "pricing": {
+        "input_usd_per_million": 3.0,
+        "output_usd_per_million": 15.0
+      },
+      "description": "Balanced performance and cost"
+    },
+    {
+      "id": "Qwen/Qwen3.5-122B-A10B-FP8",
+      "name": "Qwen 3.5 122B",
+      "pricing": {
+        "input_usd_per_million": 1.5,
+        "output_usd_per_million": 3.0
+      },
+      "description": "Open model, larger parameter count"
+    }
+  ],
+  "budgets": {
+    "B3_llm_fixed": {
+      "max_tool_calls": 0,
+      "max_model_calls": 5,
+      "max_tokens": 32768,
+      "max_cost_usd": 0.30,
+      "max_seconds": 60.0
+    },
+    "B4_llm_agent": {
+      "max_tool_calls": 5,
+      "max_model_calls": 10,
+      "max_tokens": 32768,
+      "max_cost_usd": 0.50,
+      "max_seconds": 120.0
+    },
+    "B5_llm_explainer": {
+      "max_tool_calls": 5,
+      "max_model_calls": 10,
+      "max_tokens": 32768,
+      "max_cost_usd": 0.50,
+      "max_seconds": 120.0
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "data": {
+    "packages": [
+      {
+        "dependencies": [],
+        "id": "path+file:///workspace/demo#0.1.0",
+        "manifest_path": "/workspace/demo/Cargo.toml",
+        "name": "demo",
+        "source": null,
+        "version": "0.1.0"
+      },
+      {
+        "dependencies": [],
+        "id": "registry+https://github.com/rust-lang/crates.io-index#example-lib@1.4.3",
+        "manifest_path": "/registry/example-lib/Cargo.toml",
+        "name": "example-lib",
+        "source": "registry+https://github.com/rust-lang/crates.io-index",
+        "version": "1.4.3"
+      }
+    ],
+    "resolve": {
+      "nodes": [
+        {
+          "dependencies": [
+            "registry+https://github.com/rust-lang/crates.io-index#example-lib@1.4.3"
+          ],
+          "deps": [
+            {
+              "dep_kinds": [
+                {
+                  "kind": null,
+                  "target": null
+                }
+              ],
+              "name": "example_lib",
+              "pkg": "registry+https://github.com/rust-lang/crates.io-index#example-lib@1.4.3"
+            }
+          ],
+          "features": [],
+          "id": "path+file:///workspace/demo#0.1.0"
+        },
+        {
+          "dependencies": [],
+          "deps": [],
+          "features": [],
+          "id": "registry+https://github.com/rust-lang/crates.io-index#example-lib@1.4.3"
+        }
+      ],
+      "root": "path+file:///workspace/demo#0.1.0"
+    },
+    "version": 1,
+    "workspace_members": [
+      "path+file:///workspace/demo#0.1.0"
+    ],
+    "workspace_root": "/workspace/demo"
+  },
+  "format": "cargo-metadata",
+  "schema_version": "native-evidence-v1",
+  "target": {
+    "context_id": "linux-runtime",
+    "revision_ref": "controlled-v1",
+    "target_id": "demo-cargo",
+    "view": "RESOLVED"
+  }
+}

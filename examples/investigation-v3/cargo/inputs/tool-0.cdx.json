@@ -1,0 +1,43 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "dependency",
+      "name": "example-lib",
+      "properties": [
+        {
+          "name": "sbom-recovery:locator",
+          "value": "/registry/example-lib/Cargo.toml"
+        }
+      ],
+      "purl": "pkg:cargo/example-lib@1.4.2",
+      "type": "library",
+      "version": "1.4.2"
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [
+        "dependency"
+      ],
+      "ref": "app"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "app",
+      "name": "demo",
+      "properties": [
+        {
+          "name": "sbom-recovery:locator",
+          "value": "/workspace/demo/Cargo.toml"
+        }
+      ],
+      "purl": "pkg:cargo/demo@0.1.0",
+      "type": "application",
+      "version": "0.1.0"
+    }
+  },
+  "specVersion": "1.6",
+  "version": 1
+}

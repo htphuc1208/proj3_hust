@@ -1,6 +1,6 @@
 # Kiến trúc V3 — A + B + E
 
-Ngày 12-11-2026. [Đề bài](PROBLEM_FORMULATION.md), [milestones](research/RECONCILIATION_PLAN_V3.md). Đây là thiết kế và draft contracts, chưa có engine multi-SBOM end-to-end. V2 installed Python giữ nguyên.
+Ngày 12-11-2026. [Đề bài](PROBLEM_FORMULATION.md), [milestones](research/RECONCILIATION_PLAN_V3.md). Engine multi-SBOM và investigation runtime đã triển khai tại `sbom_recovery/investigation`; [hướng dẫn và giới hạn](research/EAGER_SBOM_IMPLEMENTATION.md). Các phần artifact recovery đầy đủ vẫn là thiết kế. V2 installed Python giữ nguyên.
 
 ## 1. Luồng chính
 
@@ -95,9 +95,9 @@ No-match/no-path không là not-affected. Artifact partial footprint có thể h
 - `reconciliation/merge_contracts_v3.py`: input contract cho A+B+E; scope separation và immutable document references.
 - `metrics/*`/run bundles: tái dùng hạ tầng, thay metric definitions theo lớp.
 - `gold/*`: chỉ scorer; không dùng installed truth làm artifact/field truth khác view.
-- LLM branch: giữ độc lập; chưa có evidence cần model để đạt mục tiêu MVP.
+- `investigation/*`: nối ingest/alignment/field/edge reconciliation, acquisition agent có budget, validator độc lập và scorer-only evaluation. Model chỉ chọn evidence và đề xuất claim có căn cứ; lợi ích so với rule-based chưa được chứng minh.
 
-CLI hiện tại không tự chuyển sang V3. Bộ schemas/examples là wire design, không đọc files hoặc verify trust/actual bytes.
+CLI V2 không tự chuyển sang V3. Lệnh `investigation` chạy V3 và kiểm tra bytes/hash/format thực; schemas/examples riêng vẫn chỉ kiểm tra hợp đồng dữ liệu.
 
 ## 10. Gate triển khai
 

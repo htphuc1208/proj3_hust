@@ -1,0 +1,79 @@
+{
+  "agent_validation": {
+    "independent_real_project_pilot": "NOT_RUN",
+    "live_http_contract": "MOCK_TRANSPORT_TESTED",
+    "live_model_calls": 0,
+    "model_superiority": "NOT_ESTABLISHED",
+    "recorded_action_replay": "COMPLETE"
+  },
+  "native_generator_compatibility": {
+    "command": ".venv/bin/python -B scripts/run_investigation_generator_replay.py --out /tmp/eager-v3-generator-release",
+    "correctness": "NOT_SCORED",
+    "generators": [
+      "npm sbom",
+      "cyclonedx-npm"
+    ],
+    "reference_labels_read": false,
+    "verification_path": "/tmp/eager-v3-generator-release/verification.json"
+  },
+  "paired_controlled_study": {
+    "arms": 48,
+    "cases": 2,
+    "command": ".venv/bin/python -m sbom_recovery investigation study --manifest examples/investigation-v3/study-baselines.json --out /tmp/eager-v3-release-check",
+    "conditions": [
+      "equal_budget",
+      "equal_information"
+    ],
+    "counts": {
+      "SCORED": 44,
+      "UNSUPPORTED": 4
+    },
+    "native_artifacts_revalidated": 88,
+    "report_path": "/tmp/eager-v3-release-check/report.json",
+    "rule_vs_native_control": "TIED on component/edge/path F1 for both controlled subjects; not a superiority result",
+    "sealed_outputs": true,
+    "source_freeze_matches_current_files": true,
+    "unsupported_reason": "Pinned original sbom-unifier requires native SPDX; controlled multi-ecosystem fixtures use CycloneDX"
+  },
+  "pinned_native_spdx_comparator": {
+    "commit": "521f3b8ee6e301e847f7cb113517ba46831e2b28",
+    "counts": {
+      "SCORED": 1
+    },
+    "report_path": "/tmp/eager-v3-upstream-native-result/report.json",
+    "scope": "Controlled native SPDX adapter smoke test, not generator accuracy evaluation"
+  },
+  "schema_version": "eager-v3-implementation-verification-v1",
+  "scope": "Executable single-agent A+B+E implementation and controlled validation. The proposals' independent real-project corpus and empirical publication claims require further experiments.",
+  "source_files": {
+    "sbom_recovery/baselines/baselines.py": "2edf6ef9a42591c8af0af46f4b9b8a940c2ae6bdc11f49ee7c33de3491fea3b4",
+    "sbom_recovery/core/contracts.py": "f133433258b236105c3c10879476b828e79fd48f5d4284c836e57774cda0c416",
+    "sbom_recovery/core/formats.py": "dd6844edfaece5ed6c6e9424edf8bbcc563e6adbd5f6fc831891008650d2d122",
+    "sbom_recovery/investigation/__init__.py": "b2f920409f1dfb3ae7d12ce73a0fdf65a0c3a3db1a1dbbd8210c6d954c84a1bc",
+    "sbom_recovery/investigation/baseline.py": "dbf33cf9d8246e61e31e89811597b106edc480ea416c718da017292318d7eda3",
+    "sbom_recovery/investigation/broker.py": "f0f7596f38cc65fa98505db40692984f99395c8e85d436625083bb8b21a07e39",
+    "sbom_recovery/investigation/cli.py": "384ed830863c933f364ff8b60d321f8b936548fc5f87bd4cdde8d01ff7252deb",
+    "sbom_recovery/investigation/demo.py": "ca139bc93dca73641ac9951d67005095a414806a676aab22e9f4f956865c2f48",
+    "sbom_recovery/investigation/engine.py": "b3636c674aee6b8c3993905d54e2e47d0f1e383327bb4e2cea50db7873651637",
+    "sbom_recovery/investigation/evaluation.py": "6c71e8665398a61ca675e73a8752251969386e4dbc87747c3374c6804836633d",
+    "sbom_recovery/investigation/evidence.py": "80229747256a55f4a156207dbb639628e1b8e8d988e245c60ebced4aeeb752c9",
+    "sbom_recovery/investigation/models.py": "2a808553ef862f8871fc168a2c5a07aea1e18886f39a569ab779a61bd1ede22d",
+    "sbom_recovery/investigation/planner.py": "53fdcae8a6ab554716b50b073fd749eb6eddc7441500574cc7835135ea92990d",
+    "sbom_recovery/investigation/runner.py": "c894a852b0abcedffe9667c2347d7668ac7e22420252905a5e4386bfd4eb863c",
+    "sbom_recovery/investigation/security.py": "e98777c434340783c46909a33c7bc10edc4c188e151c9a0b3e3318f0ff8cdf31",
+    "sbom_recovery/investigation/study.py": "607da9a767454a233decfe8f5501b72c26c9a0d7fd32899c68633fe811c783c7",
+    "sbom_recovery/investigation/validator.py": "eb8d06cdc534b8a901668e7684c086494e3f8506ff39113c63afd7758c71934a",
+    "sbom_recovery/investigation/worker.py": "b72d470a855ebe913dd9191dd0739e17ba16ede475eb8e719f349f0f39010166",
+    "sbom_recovery/reconciliation/contracts_v3.py": "85c48ad35fe7a721f278a6bf9319178c6cdb761b4da9d1beee983d91f1e03ccc",
+    "sbom_recovery/reconciliation/merge_contracts_v3.py": "fa5964b5f08d51f89e72eafbdf6c9ffea94bb290e6a464549ff05dfaf8e62c36"
+  },
+  "tests": {
+    "command": ".venv/bin/python -m unittest discover -s tests -q",
+    "failed": 0,
+    "log_sha256": "c706771d9db0433f646dfcb4cfc8c81f00c546e99c80e5e5215b8bd8c63c315a",
+    "passed": 540,
+    "run": 542,
+    "skipped": 2
+  },
+  "verified_on": "2026-11-12"
+}
